@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.DS_Store
+.ipynb_checkpoints/
+
+# Sweep output (large JSONL + report per run, regenerable)
+water-prop/sims/mission_graph/runs/
+
+# Root-script plot output (regenerable)
+/saturn_rendezvous_plot.png

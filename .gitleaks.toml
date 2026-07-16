@@ -1,0 +1,9 @@
+# Repo-local gitleaks config: default rules plus a narrow allowlist.
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Hypothesis-ID label strings in round runners pattern-match the generic-api-key rule but are plain-text scenario labels, not credentials."
+paths = [
+  '''water-prop/rounds/R15b_pricing_sovereign_sensitivity/run\.py''',
+]
