@@ -1,0 +1,93 @@
+{
+ "anchors": {
+  "pitch": 1400,
+  "lunar_isru_ceiling": 1000,
+  "campaign": 10000
+ },
+ "comparables": [
+  {
+   "name": "ISS commercial resupply, effective (Dragon)",
+   "usd_per_kg": 78000,
+   "heritage": "AVAILABLE",
+   "source": "NASA OIG IG-18-021 (via SpaceNews)"
+  },
+  {
+   "name": "ISS commercial resupply, effective (Cygnus)",
+   "usd_per_kg": 125000,
+   "heritage": "AVAILABLE",
+   "source": "NASA OIG IG-18-021 (via SpaceNews)"
+  },
+  {
+   "name": "NASA ISS-upmass planning assumption",
+   "usd_per_kg": 26000,
+   "heritage": "AVAILABLE",
+   "source": "NASA OIG IG-18-021"
+  },
+  {
+   "name": "Orbit Fab GEO hydrazine, published price",
+   "usd_per_kg": 200000,
+   "heritage": "ADJACENT",
+   "source": "Orbit Fab announcement 2022 ($20M/100kg)"
+  },
+  {
+   "name": "Intuitive Machines CLPS lunar-surface (value/payload)",
+   "usd_per_kg": 775000,
+   "heritage": "AVAILABLE",
+   "source": "NASA CLPS award 2021 (arithmetic)"
+  },
+  {
+   "name": "Lunar-ISRU propellant, projected",
+   "usd_per_kg": 90000,
+   "heritage": "NONE",
+   "source": "NASA NTRS ISRU breakeven ~2019"
+  },
+  {
+   "name": "Falcon Heavy $/kg-to-LEO (= pitch anchor)",
+   "usd_per_kg": 1500,
+   "heritage": "AVAILABLE",
+   "source": "CSIS / SpaceX list price"
+  },
+  {
+   "name": "Falcon 9 $/kg-to-LEO",
+   "usd_per_kg": 3000,
+   "heritage": "AVAILABLE",
+   "source": "CSIS / Our World in Data"
+  },
+  {
+   "name": "Starship aspirational",
+   "usd_per_kg": 100,
+   "heritage": "NONE",
+   "source": "SpaceX public statements"
+  },
+  {
+   "name": "Luna-16 sample auction (novelty ceiling)",
+   "usd_per_kg": 4300000000,
+   "heritage": "ADJACENT",
+   "source": "Sotheby's 2018 (collectible, non-analogous)"
+  }
+ ],
+ "tiers": {
+  "100 t/yr (entry / Kilopower)": {
+   "supply_t": 100,
+   "blended_full_usd_per_kg": 5025,
+   "blended_no_speculative_usd_per_kg": 3639,
+   "blended_external_only_usd_per_kg": 9050,
+   "cleared_t": 100.0
+  },
+  "1,000 t/yr (FSP era)": {
+   "supply_t": 1000,
+   "blended_full_usd_per_kg": 2225,
+   "blended_no_speculative_usd_per_kg": 1639,
+   "blended_external_only_usd_per_kg": 4062,
+   "cleared_t": 500.0
+  },
+  "10,000 t/yr (MW era + Mars)": {
+   "supply_t": 10000,
+   "blended_full_usd_per_kg": 505,
+   "blended_no_speculative_usd_per_kg": 1226,
+   "blended_external_only_usd_per_kg": 458,
+   "cleared_t": 9330.0
+  }
+ },
+ "demand_curve_verdict": "defensible-but-conservative: median at competing-supply floor; captive-segment market power under-weighted"
+}

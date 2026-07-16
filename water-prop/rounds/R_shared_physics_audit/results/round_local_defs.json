@@ -1,0 +1,309 @@
+[
+  {
+    "round_name": "R_all_electric_thruster_sweep",
+    "file": "water-prop/rounds/R_all_electric_thruster_sweep/run.py",
+    "line": 87,
+    "name": "constant_thrust_burn",
+    "signature": [
+      "m_initial_t: float",
+      "dv_km_s: float",
+      "power_kwe: float",
+      "isp_s: float",
+      "eta: float"
+    ],
+    "formula_variant": "wet_at_start",
+    "propellant_formula": "m_initial_t * (1.0 - 1.0 / mass_ratio)",
+    "docstring_first_line": "Tsiolkovsky propellant; constant-thrust burn-time."
+  },
+  {
+    "round_name": "R_arch_E_specific_power_flown_anchored",
+    "file": "water-prop/rounds/R_arch_E_specific_power_flown_anchored/run.py",
+    "line": 74,
+    "name": "burn_from_dry_end",
+    "signature": [
+      "m_final_t",
+      "dv_km_s",
+      "power_kwe",
+      "isp_s",
+      "eta"
+    ],
+    "formula_variant": "dry_at_end",
+    "propellant_formula": "m_final_t * (mass_ratio - 1.0)",
+    "docstring_first_line": ""
+  },
+  {
+    "round_name": "R_arch_E_specific_power_flown_anchored",
+    "file": "water-prop/rounds/R_arch_E_specific_power_flown_anchored/run.py",
+    "line": 84,
+    "name": "burn_from_wet",
+    "signature": [
+      "m_initial_t",
+      "dv_km_s",
+      "power_kwe",
+      "isp_s",
+      "eta"
+    ],
+    "formula_variant": "wet_at_start",
+    "propellant_formula": "m_initial_t * (1.0 - 1.0 / mass_ratio)",
+    "docstring_first_line": ""
+  },
+  {
+    "round_name": "R_architecture_E_no_saturn_side_electrolysis",
+    "file": "water-prop/rounds/R_architecture_E_no_saturn_side_electrolysis/run.py",
+    "line": 78,
+    "name": "burn_from_dry_end",
+    "signature": [
+      "m_final_t",
+      "dv_km_s",
+      "power_kwe",
+      "isp_s",
+      "eta"
+    ],
+    "formula_variant": "dry_at_end",
+    "propellant_formula": "m_final_t * (mass_ratio - 1.0)",
+    "docstring_first_line": ""
+  },
+  {
+    "round_name": "R_architecture_E_no_saturn_side_electrolysis",
+    "file": "water-prop/rounds/R_architecture_E_no_saturn_side_electrolysis/run.py",
+    "line": 88,
+    "name": "burn_from_wet",
+    "signature": [
+      "m_initial_t",
+      "dv_km_s",
+      "power_kwe",
+      "isp_s",
+      "eta"
+    ],
+    "formula_variant": "wet_at_start",
+    "propellant_formula": "m_initial_t * (1.0 - 1.0 / mass_ratio)",
+    "docstring_first_line": ""
+  },
+  {
+    "round_name": "R_electric_outbound",
+    "file": "water-prop/rounds/R_electric_outbound/run.py",
+    "line": 137,
+    "name": "constant_thrust_burn",
+    "signature": [
+      "m_initial_t: float",
+      "dv_km_s: float",
+      "power_kwe: float",
+      "isp_s: float",
+      "eta: float"
+    ],
+    "formula_variant": "wet_at_start",
+    "propellant_formula": "m_initial_t * (1.0 - 1.0 / mass_ratio)",
+    "docstring_first_line": "Compute propellant mass and burn time for a constant-thrust electric burn."
+  },
+  {
+    "round_name": "R_electric_outbound_rerun",
+    "file": "water-prop/rounds/R_electric_outbound_rerun/run.py",
+    "line": 134,
+    "name": "burn_from_wet",
+    "signature": [
+      "m_initial_t: float",
+      "dv_km_s: float",
+      "power_kwe: float",
+      "isp_s: float",
+      "eta: float"
+    ],
+    "formula_variant": "wet_at_start",
+    "propellant_formula": "m_initial_t * (1.0 - 1.0 / mass_ratio)",
+    "docstring_first_line": "Original (bug-compatible) formula. Input is wet mass at start of burn."
+  },
+  {
+    "round_name": "R_electric_outbound_rerun",
+    "file": "water-prop/rounds/R_electric_outbound_rerun/run.py",
+    "line": 155,
+    "name": "burn_from_dry_end",
+    "signature": [
+      "m_final_t: float",
+      "dv_km_s: float",
+      "power_kwe: float",
+      "isp_s: float",
+      "eta: float"
+    ],
+    "formula_variant": "dry_at_end",
+    "propellant_formula": "m_final_t * (mass_ratio - 1.0)",
+    "docstring_first_line": "Corrected formula for the outbound call pattern. Input is dry mass at"
+  },
+  {
+    "round_name": "R_inbound_dv_continuous_thrust",
+    "file": "water-prop/rounds/R_inbound_dv_continuous_thrust/run.py",
+    "line": 160,
+    "name": "constant_thrust_burn",
+    "signature": [
+      "m_initial_t: float",
+      "dv_km_s: float",
+      "power_kwe: float",
+      "isp_s: float",
+      "eta: float"
+    ],
+    "formula_variant": "wet_at_start",
+    "propellant_formula": "m_initial_t * (1.0 - 1.0 / mass_ratio)",
+    "docstring_first_line": "Propellant mass and burn time for a constant-thrust electric burn."
+  },
+  {
+    "round_name": "R_megawatt_architecture_viability",
+    "file": "water-prop/rounds/R_megawatt_architecture_viability/run.py",
+    "line": 62,
+    "name": "constant_thrust_burn",
+    "signature": [
+      "m_initial_t: float",
+      "dv_km_s: float",
+      "power_kwe: float",
+      "isp_s: float"
+    ],
+    "formula_variant": "wet_at_start",
+    "propellant_formula": "m_initial_t * (1.0 - 1.0 / mass_ratio)",
+    "docstring_first_line": ""
+  },
+  {
+    "round_name": "R_megawatt_marvl_radiator",
+    "file": "water-prop/rounds/R_megawatt_marvl_radiator/run.py",
+    "line": 157,
+    "name": "burn_from_dry_end",
+    "signature": [
+      "m_final_t",
+      "dv_km_s",
+      "power_kwe",
+      "isp_s",
+      "eta"
+    ],
+    "formula_variant": "dry_at_end",
+    "propellant_formula": "m_final_t * (mass_ratio - 1.0)",
+    "docstring_first_line": ""
+  },
+  {
+    "round_name": "R_megawatt_marvl_radiator",
+    "file": "water-prop/rounds/R_megawatt_marvl_radiator/run.py",
+    "line": 167,
+    "name": "burn_from_wet",
+    "signature": [
+      "m_initial_t",
+      "dv_km_s",
+      "power_kwe",
+      "isp_s",
+      "eta"
+    ],
+    "formula_variant": "wet_at_start",
+    "propellant_formula": "m_initial_t * (1.0 - 1.0 / mass_ratio)",
+    "docstring_first_line": ""
+  },
+  {
+    "round_name": "R_megawatt_relaxed_specific_power",
+    "file": "water-prop/rounds/R_megawatt_relaxed_specific_power/run.py",
+    "line": 53,
+    "name": "burn_from_dry_end",
+    "signature": [
+      "m_final_t: float",
+      "dv_km_s: float",
+      "power_kwe: float",
+      "isp_s: float"
+    ],
+    "formula_variant": "dry_at_end",
+    "propellant_formula": "m_final_t * (mass_ratio - 1.0)",
+    "docstring_first_line": ""
+  },
+  {
+    "round_name": "R_megawatt_relaxed_specific_power",
+    "file": "water-prop/rounds/R_megawatt_relaxed_specific_power/run.py",
+    "line": 63,
+    "name": "burn_from_wet",
+    "signature": [
+      "m_initial_t: float",
+      "dv_km_s: float",
+      "power_kwe: float",
+      "isp_s: float"
+    ],
+    "formula_variant": "wet_at_start",
+    "propellant_formula": "m_initial_t * (1.0 - 1.0 / mass_ratio)",
+    "docstring_first_line": ""
+  },
+  {
+    "round_name": "R_non_fission_baseline",
+    "file": "water-prop/rounds/R_non_fission_baseline/run.py",
+    "line": 75,
+    "name": "edelbaum_spiral_dv_km_s",
+    "signature": [],
+    "formula_variant": "other",
+    "propellant_formula": "",
+    "docstring_first_line": "Integrated low-thrust delta-velocity for low Earth orbit to Earth-escape."
+  },
+  {
+    "round_name": "R_non_fission_baseline",
+    "file": "water-prop/rounds/R_non_fission_baseline/run.py",
+    "line": 89,
+    "name": "constant_thrust_burn",
+    "signature": [
+      "m_initial_t: float",
+      "dv_km_s: float",
+      "power_kwe: float",
+      "isp_s: float"
+    ],
+    "formula_variant": "dry_at_end",
+    "propellant_formula": "m_initial_t * (mass_ratio - 1.0)",
+    "docstring_first_line": "Constant-thrust burn at fixed jet-power. m_initial_t is treated as the"
+  },
+  {
+    "round_name": "R_non_fission_baseline",
+    "file": "water-prop/rounds/R_non_fission_baseline/run.py",
+    "line": 107,
+    "name": "impulsive_burn",
+    "signature": [
+      "m_final_t: float",
+      "dv_km_s: float",
+      "isp_s: float"
+    ],
+    "formula_variant": "other",
+    "propellant_formula": "m_initial_t - m_final_t",
+    "docstring_first_line": "Tsiolkovsky for an impulsive chemical burn ending at m_final_t."
+  },
+  {
+    "round_name": "R_outbound_dv_continuous_thrust",
+    "file": "water-prop/rounds/R_outbound_dv_continuous_thrust/run.py",
+    "line": 152,
+    "name": "burn_from_dry_end",
+    "signature": [
+      "m_final_t: float",
+      "dv_km_s: float",
+      "power_kwe: float",
+      "isp_s: float",
+      "eta: float"
+    ],
+    "formula_variant": "dry_at_end",
+    "propellant_formula": "m_final_t * (mass_ratio - 1.0)",
+    "docstring_first_line": "Corrected formula \u2014 input is dry-at-end. Same as R-electric-outbound-rerun."
+  },
+  {
+    "round_name": "R_outbound_dv_continuous_thrust",
+    "file": "water-prop/rounds/R_outbound_dv_continuous_thrust/run.py",
+    "line": 170,
+    "name": "burn_from_wet",
+    "signature": [
+      "m_initial_t: float",
+      "dv_km_s: float",
+      "power_kwe: float",
+      "isp_s: float",
+      "eta: float"
+    ],
+    "formula_variant": "wet_at_start",
+    "propellant_formula": "m_initial_t * (1.0 - 1.0 / mass_ratio)",
+    "docstring_first_line": "Wet-at-start formula \u2014 for chunk-fed inbound. Same as R-electric-outbound-rerun."
+  },
+  {
+    "round_name": "R_redundancy_budget_cost",
+    "file": "water-prop/rounds/R_redundancy_budget_cost/run.py",
+    "line": 162,
+    "name": "constant_thrust_burn",
+    "signature": [
+      "m_initial_t: float",
+      "dv_km_s: float",
+      "power_kwe: float",
+      "isp_s: float"
+    ],
+    "formula_variant": "wet_at_start",
+    "propellant_formula": "m_initial_t * (1.0 - 1.0 / mass_ratio)",
+    "docstring_first_line": "Constant-thrust burn under Tsiolkovsky; consistent with R_electric_outbound."
+  }
+]

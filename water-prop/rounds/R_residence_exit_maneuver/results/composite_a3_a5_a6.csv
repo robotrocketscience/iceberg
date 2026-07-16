@@ -1,0 +1,4 @@
+label,dv_exit_kms,isp_exit_s,dv_inbound_kms,isp_inbound_s,m_dry_effective_t,m_delivered_t,delivered_fraction
+Composite A3+A5+A6 (central),7.4,7000.0,20.7,5000.0,180.0,43.678593150249526,0.21839296575124764
+Composite A3+A5+A6 (best case),7.4,7000.0,19.2,5000.0,170.0,54.55786146127656,0.2727893073063828
+Composite A3+A5+A6 (worst case),7.4,7000.0,22.2,5000.0,190.0,32.648472115826706,0.16324236057913352

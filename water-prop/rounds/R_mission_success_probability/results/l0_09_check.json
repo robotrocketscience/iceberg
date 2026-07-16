@@ -1,0 +1,100 @@
+{
+  "cases": [
+    {
+      "launch_cadence_per_yr": 1,
+      "per_mission_p": 0.7,
+      "P_month_has_delivery": 0.05666455012650784,
+      "satisfies_L0_09_literal_0p95": false
+    },
+    {
+      "launch_cadence_per_yr": 1,
+      "per_mission_p": 0.8,
+      "P_month_has_delivery": 0.06449301496838222,
+      "satisfies_L0_09_literal_0p95": false
+    },
+    {
+      "launch_cadence_per_yr": 1,
+      "per_mission_p": 0.9,
+      "P_month_has_delivery": 0.07225651367144714,
+      "satisfies_L0_09_literal_0p95": false
+    },
+    {
+      "launch_cadence_per_yr": 1,
+      "per_mission_p": 1.0,
+      "P_month_has_delivery": 0.07995558537067671,
+      "satisfies_L0_09_literal_0p95": false
+    },
+    {
+      "launch_cadence_per_yr": 2,
+      "per_mission_p": 0.7,
+      "P_month_has_delivery": 0.11011822901197621,
+      "satisfies_L0_09_literal_0p95": false
+    },
+    {
+      "launch_cadence_per_yr": 2,
+      "per_mission_p": 0.8,
+      "P_month_has_delivery": 0.12482668095705252,
+      "satisfies_L0_09_literal_0p95": false
+    },
+    {
+      "launch_cadence_per_yr": 2,
+      "per_mission_p": 0.9,
+      "P_month_has_delivery": 0.1392920235749422,
+      "satisfies_L0_09_literal_0p95": false
+    },
+    {
+      "launch_cadence_per_yr": 2,
+      "per_mission_p": 1.0,
+      "P_month_has_delivery": 0.15351827510938587,
+      "satisfies_L0_09_literal_0p95": false
+    },
+    {
+      "launch_cadence_per_yr": 4,
+      "per_mission_p": 0.7,
+      "P_month_has_delivery": 0.20811043366321835,
+      "satisfies_L0_09_literal_0p95": false
+    },
+    {
+      "launch_cadence_per_yr": 4,
+      "per_mission_p": 0.8,
+      "P_month_has_delivery": 0.2340716616353513,
+      "satisfies_L0_09_literal_0p95": false
+    },
+    {
+      "launch_cadence_per_yr": 4,
+      "per_mission_p": 0.9,
+      "P_month_has_delivery": 0.2591817793182821,
+      "satisfies_L0_09_literal_0p95": false
+    },
+    {
+      "launch_cadence_per_yr": 4,
+      "per_mission_p": 1.0,
+      "P_month_has_delivery": 0.28346868942621073,
+      "satisfies_L0_09_literal_0p95": false
+    },
+    {
+      "launch_cadence_per_yr": 12,
+      "per_mission_p": 0.7,
+      "P_month_has_delivery": 0.5034146962085904,
+      "satisfies_L0_09_literal_0p95": false
+    },
+    {
+      "launch_cadence_per_yr": 12,
+      "per_mission_p": 0.8,
+      "P_month_has_delivery": 0.5506710358827784,
+      "satisfies_L0_09_literal_0p95": false
+    },
+    {
+      "launch_cadence_per_yr": 12,
+      "per_mission_p": 0.9,
+      "P_month_has_delivery": 0.5934303402594009,
+      "satisfies_L0_09_literal_0p95": false
+    },
+    {
+      "launch_cadence_per_yr": 12,
+      "per_mission_p": 1.0,
+      "P_month_has_delivery": 0.6321205588285577,
+      "satisfies_L0_09_literal_0p95": false
+    }
+  ]
+}

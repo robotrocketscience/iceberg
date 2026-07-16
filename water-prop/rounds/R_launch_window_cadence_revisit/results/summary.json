@@ -1,0 +1,111 @@
+{
+  "model": {
+    "earth_period_yr": 1.0,
+    "jupiter_period_yr": 11.8618,
+    "saturn_period_yr": 29.4571,
+    "earth_saturn_synodic_yr": 1.0351406151716092,
+    "hohmann_inbound_half_period_yr": 6.0618640949591285,
+    "nu_jupiter_crossing_deg": 216.44205995119324,
+    "t_jupiter_crossing_from_exit_yr": 4.628210493718132,
+    "num_launches": 58,
+    "total_span_yr": 60.038155679953334,
+    "tolerances_deg": [
+      2.0,
+      5.0,
+      10.0,
+      15.0,
+      30.0
+    ],
+    "deliv_frac_with_jupiter_central": 0.218,
+    "deliv_frac_without_jupiter_central": 0.155
+  },
+  "results": {
+    "viable_fraction_by_tolerance_deterministic": {
+      "2deg": 0.0,
+      "5deg": 0.0,
+      "10deg": 0.06896551724137931,
+      "15deg": 0.10344827586206896,
+      "30deg": 0.1724137931034483
+    },
+    "viable_fraction_by_tolerance_ensemble_mean": {
+      "2deg": 0.011111111111111112,
+      "5deg": 0.027777777777777776,
+      "10deg": 0.05555555555555555,
+      "15deg": 0.08333333333333333,
+      "30deg": 0.16666666666666666
+    },
+    "viable_fraction_by_tolerance_analytic_limit": {
+      "2deg": 0.011111111111111112,
+      "5deg": 0.027777777777777776,
+      "10deg": 0.05555555555555555,
+      "15deg": 0.08333333333333333,
+      "30deg": 0.16666666666666666
+    },
+    "skip_unaligned_effective_cadence_yr_by_tolerance": {
+      "2deg": Infinity,
+      "5deg": Infinity,
+      "10deg": 15.009538919988334,
+      "15deg": 10.006359279992223,
+      "30deg": 6.003815567995334
+    },
+    "fly_all_deliv_frac_per_ship_by_tolerance": {
+      "2deg": 0.155,
+      "5deg": 0.155,
+      "10deg": 0.15934482758620688,
+      "15deg": 0.16151724137931034,
+      "30deg": 0.16586206896551725
+    },
+    "clustering_at_5deg": {
+      "viable_count": 0,
+      "spacing_mean_synodics": 0.0,
+      "spacing_sd_synodics": 0.0,
+      "spacing_cv": 0.0,
+      "longest_viable_run_synodics": 0,
+      "longest_unaligned_run_synodics": 58
+    },
+    "cruise_dv_cost": {
+      "heliocentric_speed_at_jupiter_kms": 13.14971474133488,
+      "cruise_time_saturn_to_jupiter_yr": 4.628210493718132,
+      "jupiter_ga_saving_kms": 2.5,
+      "cruise_dv_by_tolerance_kms": {
+        "2deg": 0.37197292322044434,
+        "5deg": 0.928941087077975,
+        "10deg": 1.8508123715733222,
+        "15deg": 2.758597856369932,
+        "30deg": 5.329201827626757
+      },
+      "net_benefit_by_tolerance_kms": {
+        "2deg": 2.1280270767795555,
+        "5deg": 1.571058912922025,
+        "10deg": 0.6491876284266778,
+        "15deg": -0.2585978563699318,
+        "30deg": -2.8292018276267568
+      },
+      "self_consistent_max_tolerance_deg": 13.5,
+      "self_consistent_phase_avg_viable_fraction": 0.075
+    }
+  },
+  "hypothesis_adjudication": {
+    "H1_fraction_at_5deg_in_0p2_to_0p5": {
+      "status": "falsified_low",
+      "observed": 0.0
+    },
+    "H2_clustering": {
+      "status": "falsified",
+      "cv_spacing": 0.0,
+      "longest_drought_synodics": 58
+    },
+    "H3_skip_eff_cadence_5deg_in_4_to_10yr": {
+      "status": "falsified_high",
+      "observed_yr": Infinity
+    },
+    "H4_fly_deliv_frac_5deg_in_0p16_to_0p19": {
+      "status": "falsified_low",
+      "observed": 0.155
+    },
+    "H5_15deg_proxy_fraction_ge_0p70": {
+      "status": "falsified",
+      "observed": 0.10344827586206896
+    }
+  }
+}

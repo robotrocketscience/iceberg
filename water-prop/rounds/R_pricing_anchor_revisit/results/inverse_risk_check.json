@@ -1,0 +1,36 @@
+{
+ "sovereign_bond_hurdle_pct": 4.0,
+ "sweep": {
+  "pitch floor ($1,400)": {
+   "price_per_kg": 1400.0,
+   "marginal_irr_pct": 0.0,
+   "above_sovereign_hurdle": false
+  },
+  "conops base ($2,000)": {
+   "price_per_kg": 2000.0,
+   "marginal_irr_pct": 0.0,
+   "above_sovereign_hurdle": false
+  },
+  "tier-1 conservative ($3,639)": {
+   "price_per_kg": 3639.0,
+   "marginal_irr_pct": 0.0,
+   "above_sovereign_hurdle": false
+  },
+  "tier-2 external ($4,062)": {
+   "price_per_kg": 4062.0,
+   "marginal_irr_pct": 0.0,
+   "above_sovereign_hurdle": false
+  },
+  "tier-1 full ($5,025)": {
+   "price_per_kg": 5025.0,
+   "marginal_irr_pct": 0.0,
+   "above_sovereign_hurdle": false
+  },
+  "campaign anchor ($10,000)": {
+   "price_per_kg": 10000.0,
+   "marginal_irr_pct": 1.449,
+   "above_sovereign_hurdle": false
+  }
+ },
+ "reading": "marginal IRR sub-sovereign-bond across the entire price range $1,400-10,000/kg; no verdict propped up by the $10k anchor; economic axis robustly non-binding (H7 confirmed bidirectionally)."
+}

@@ -1,0 +1,253 @@
+{
+  "inputs": {
+    "R_SATURN_AU": 9.5826,
+    "R_EARTH_AU": 1.0,
+    "V_EARTH_CIRC_KM_S": 29.784691831696804,
+    "V_SATURN_CIRC_KM_S": 9.621691565667968,
+    "MU_SUN_KM3_S2": 132712440018.0,
+    "TARGET_CASE_C_KM_S": 2.85
+  },
+  "hohmann": {
+    "transfer_a_au": 5.2913,
+    "transfer_e": 0.811010526713662,
+    "tof_yr": 6.085857577229889,
+    "v_perihelion_km_s": 40.08238898319444,
+    "v_earth_circ_km_s": 29.784691831696804,
+    "v_inf_earth_km_s": 10.297697151497637
+  },
+  "slow_ballistic_perihelion_sweep": [
+    {
+      "r_p_au": 0.3,
+      "r_a_au": 9.5826,
+      "transfer_a_au": 4.9413,
+      "transfer_e": 0.9392872321049115,
+      "tof_yr": 5.38666079845289,
+      "v_sc_at_earth_km_s": 39.93397601842907,
+      "flight_path_angle_deg": -55.32678078071787,
+      "v_inf_earth_km_s": 33.593725102496194,
+      "reaches_earth": true
+    },
+    {
+      "r_p_au": 0.5,
+      "r_a_au": 9.5826,
+      "transfer_a_au": 5.0413,
+      "transfer_e": 0.9008192331343106,
+      "tof_yr": 5.546623250903477,
+      "v_sc_at_earth_km_s": 39.978540376098415,
+      "flight_path_angle_deg": -43.422126963924796,
+      "v_inf_earth_km_s": 27.490147317090454,
+      "reaches_earth": true
+    },
+    {
+      "r_p_au": 0.7,
+      "r_a_au": 9.5826,
+      "transfer_a_au": 5.141299999999999,
+      "transfer_e": 0.8638476649874547,
+      "tof_yr": 5.722131408613348,
+      "v_sc_at_earth_km_s": 40.021324385466855,
+      "flight_path_angle_deg": -31.780462367257176,
+      "v_inf_earth_km_s": 21.499373106445564,
+      "reaches_earth": true
+    },
+    {
+      "r_p_au": 0.85,
+      "r_a_au": 9.5826,
+      "transfer_a_au": 5.2162999999999995,
+      "transfer_e": 0.8370492494680137,
+      "tof_yr": 5.870911076302863,
+      "v_sc_at_earth_km_s": 40.052307313093245,
+      "flight_path_angle_deg": -21.680845668419376,
+      "v_inf_earth_km_s": 16.559321033828276,
+      "reaches_earth": true
+    },
+    {
+      "r_p_au": 1.0,
+      "r_a_au": 9.5826,
+      "transfer_a_au": 5.2913,
+      "transfer_e": 0.811010526713662,
+      "tof_yr": 6.085857577229889,
+      "v_sc_at_earth_km_s": 40.08238898319444,
+      "flight_path_angle_deg": -0.0,
+      "v_inf_earth_km_s": 10.297697151497637,
+      "reaches_earth": true
+    }
+  ],
+  "slow_ballistic_aphelion_sweep": [
+    {
+      "r_a_au": 9.5826,
+      "r_p_au": 1.0,
+      "transfer_a_au": 5.2913,
+      "transfer_e": 0.811010526713662,
+      "tof_yr": 6.085857577229889,
+      "v_perihelion_km_s": 40.08238898319444,
+      "v_inf_earth_km_s": 10.297697151497637
+    },
+    {
+      "r_a_au": 12.0,
+      "r_p_au": 1.0,
+      "transfer_a_au": 6.5,
+      "transfer_e": 0.8461538461538461,
+      "tof_yr": 8.286063202843236,
+      "v_perihelion_km_s": 40.46942703612531,
+      "v_inf_earth_km_s": 10.684735204428506
+    },
+    {
+      "r_a_au": 15.0,
+      "r_p_au": 1.0,
+      "transfer_a_au": 8.0,
+      "transfer_e": 0.875,
+      "tof_yr": 11.31392217735826,
+      "v_perihelion_km_s": 40.78436896140051,
+      "v_inf_earth_km_s": 10.999677129703706
+    },
+    {
+      "r_a_au": 20.0,
+      "r_p_au": 1.0,
+      "transfer_a_au": 10.5,
+      "transfer_e": 0.9047619047619048,
+      "tof_yr": 17.012265632441565,
+      "v_perihelion_km_s": 41.10678005735901,
+      "v_inf_earth_km_s": 11.322088225662206
+    }
+  ],
+  "lunar_gravity_assist": {
+    "v_inf_initial_km_s": 10.297697151497637,
+    "single_flyby": {
+      "v_inf_out_km_s": 9.839753804744738,
+      "delta_v_km_s": 0.45794334675289833
+    },
+    "three_flyby_tour": {
+      "v_inf_initial_km_s": 10.297697151497637,
+      "v_inf_final_km_s": 8.867251671795254,
+      "total_delta_v_km_s": 1.430445479702382,
+      "periapsis_altitude_km": 100.0,
+      "inclination_deg": 0.0,
+      "per_flyby": [
+        {
+          "flyby_number": 1,
+          "v_inf_in_km_s": 10.297697151497637,
+          "v_inf_out_km_s": 9.839753804744738,
+          "delta_v_km_s": 0.45794334675289833
+        },
+        {
+          "flyby_number": 2,
+          "v_inf_in_km_s": 9.839753804744738,
+          "v_inf_out_km_s": 9.363685820012014,
+          "delta_v_km_s": 0.47606798473272355
+        },
+        {
+          "flyby_number": 3,
+          "v_inf_in_km_s": 9.363685820012014,
+          "v_inf_out_km_s": 8.867251671795254,
+          "delta_v_km_s": 0.4964341482167602
+        }
+      ]
+    }
+  },
+  "powered_cruise_to_close_case_c": {
+    "delta_v_km_s": 6.017251671795254,
+    "isp_s": 2000.0,
+    "eta": 0.65,
+    "power_kwe": 10.0,
+    "duty": 0.5,
+    "m0_t": 21.0,
+    "reactor_t": 2.0,
+    "prop_req_t": 5.5481616494106305,
+    "delivered_chunk_t": 8.45183835058937,
+    "delivery_frac": 0.6037027393278122,
+    "thrust_N": 0.6628155384356533,
+    "accel_avg_m_s2": 3.636664532859899e-05,
+    "cruise_required_yr": 10.486268263243524,
+    "feasible": true
+  },
+  "round_trip_estimate": {
+    "outbound_tof_yr": 6.085857577229889,
+    "saturn_dwell_yr": 1.0,
+    "inbound_tof_yr": 16.57212584047341,
+    "total_yr": 23.6579834177033,
+    "conops_headline_yr": 13.0
+  },
+  "hypothesis_grading": {
+    "H9a_hohmann_tof": {
+      "predicted": "5.8-6.2 yr",
+      "measured": 6.085857577229889,
+      "verdict": "held"
+    },
+    "H9b_hohmann_v_inf": {
+      "predicted": "9.5-10.5 km/s",
+      "measured": 10.297697151497637,
+      "verdict": "held"
+    },
+    "H9c_no_slower_ballistic": {
+      "predicted": "No ballistic with TOF > 6.05 yr arrives at v_inf < 10 km/s",
+      "measured": [
+        {
+          "r_p_au": 0.3,
+          "tof_yr": 5.38666079845289,
+          "v_inf_km_s": 33.593725102496194
+        },
+        {
+          "r_p_au": 0.5,
+          "tof_yr": 5.546623250903477,
+          "v_inf_km_s": 27.490147317090454
+        },
+        {
+          "r_p_au": 0.7,
+          "tof_yr": 5.722131408613348,
+          "v_inf_km_s": 21.499373106445564
+        },
+        {
+          "r_p_au": 0.85,
+          "tof_yr": 5.870911076302863,
+          "v_inf_km_s": 16.559321033828276
+        },
+        {
+          "r_p_au": 1.0,
+          "tof_yr": 6.085857577229889,
+          "v_inf_km_s": 10.297697151497637
+        },
+        {
+          "r_a_au": 9.5826,
+          "tof_yr": 6.085857577229889,
+          "v_inf_km_s": 10.297697151497637
+        },
+        {
+          "r_a_au": 12.0,
+          "tof_yr": 8.286063202843236,
+          "v_inf_km_s": 10.684735204428506
+        },
+        {
+          "r_a_au": 15.0,
+          "tof_yr": 11.31392217735826,
+          "v_inf_km_s": 10.999677129703706
+        },
+        {
+          "r_a_au": 20.0,
+          "tof_yr": 17.012265632441565,
+          "v_inf_km_s": 11.322088225662206
+        }
+      ]
+    },
+    "H9d_single_flyby_le_2_km_s": {
+      "predicted": "\u2264 2.0 km/s",
+      "measured": 0.45794334675289833,
+      "verdict": "held"
+    },
+    "H9e_hohmann_plus_ga_floor_ge_8_km_s": {
+      "predicted_floor": "\u2265 8 km/s after single lunar GA",
+      "measured_single_flyby_v_inf_out_km_s": 9.839753804744738,
+      "verdict": "held"
+    },
+    "H9f_powered_cruise_band_1_to_3_yr": {
+      "predicted": "1-3 yr powered cruise added",
+      "measured_cruise_yr": 10.486268263243524,
+      "feasible": true,
+      "verdict": "falsified-high"
+    },
+    "H9_aggregate_13_yr_case_c_inconsistent": {
+      "predicted": "conops 13 yr + 2.85 km/s pair is internally inconsistent",
+      "round_trip_yr_estimated": 23.6579834177033,
+      "verdict": "held"
+    }
+  }
+}

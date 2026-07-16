@@ -1,0 +1,1511 @@
+{
+  "config": {
+    "reactor_kwe": 500.0,
+    "departure_default": "high_elliptical_1Mkm",
+    "isp_baseline_s": 2000.0,
+    "isp_sensitivity_s": 3000.0,
+    "chunk_baseline_t": 200.0,
+    "chunk_sweep_t": [
+      100.0,
+      150.0,
+      200.0,
+      240.0,
+      300.0,
+      400.0,
+      482.0
+    ],
+    "L0_05_hard_yr": 15.0,
+    "L0_05_soft_yr": 16.0,
+    "hurdles_pct": {
+      "sovereign_bond_4pct": 4.0,
+      "regulated_utility_8pct": 8.0,
+      "corporate_growth_10pct": 10.0
+    },
+    "BEST_CELL": {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 11
+    }
+  },
+  "priors": {
+    "uniform_beta_1_1": 0.0013,
+    "jeffreys_beta_0p5_0p5": 0.0003,
+    "skeptical_beta_0p5_5": 0.0001
+  },
+  "paths_baselines": {
+    "path_1_variant_C_baseline": {
+      "path_id": "path_1_variant_C_baseline",
+      "variant": "C_earth_aerocapture",
+      "isp_s": 2000.0,
+      "chunk_t": 200.0,
+      "feasible": true,
+      "delivered_t": 32.13348115953994,
+      "round_trip_yr": 16.31981213658001,
+      "delivered_fraction": 0.1606674057976997,
+      "m_tug_t": 63.367536128999156,
+      "t_inbound_burn_yr": 3.148096982120231,
+      "l0_05_status": "over_by_1.32yr",
+      "marginal_irr": 0.0,
+      "irr_detail": {
+        "marginal_irr": 0.0,
+        "p_never_branch": 0.9672,
+        "irr_at_mw_year_10": null,
+        "irr_at_mw_year_20": null,
+        "irr_never_branch": null
+      },
+      "hurdle_status": {
+        "sovereign_bond_4pct": "fail",
+        "regulated_utility_8pct": "fail",
+        "corporate_growth_10pct": "fail"
+      },
+      "expected_delivered_by_prior": {
+        "uniform_beta_1_1": 0.04177352550740192,
+        "jeffreys_beta_0p5_0p5": 0.009640044347861981,
+        "skeptical_beta_0p5_5": 0.0032133481159539942
+      }
+    },
+    "path_3_variant_A_no_recovery": {
+      "path_id": "path_3_variant_A_no_recovery",
+      "variant": "A_as_stated",
+      "isp_s": 2000.0,
+      "chunk_t": 200.0,
+      "feasible": true,
+      "delivered_t": 0.014750671062614629,
+      "round_trip_yr": 16.92215308710872,
+      "delivered_fraction": 7.375335531307315e-05,
+      "m_tug_t": 64.97347265342302,
+      "t_inbound_burn_yr": 3.7504379326489428,
+      "l0_05_status": "over_by_1.92yr",
+      "marginal_irr": 0.0,
+      "irr_detail": {
+        "marginal_irr": 0.0,
+        "p_never_branch": 0.9672,
+        "irr_at_mw_year_10": null,
+        "irr_at_mw_year_20": null,
+        "irr_never_branch": null
+      },
+      "hurdle_status": {
+        "sovereign_bond_4pct": "fail",
+        "regulated_utility_8pct": "fail",
+        "corporate_growth_10pct": "fail"
+      },
+      "expected_delivered_by_prior": {
+        "uniform_beta_1_1": 1.9175872381399018e-05,
+        "jeffreys_beta_0p5_0p5": 4.425201318784388e-06,
+        "skeptical_beta_0p5_5": 1.475067106261463e-06
+      }
+    },
+    "path_4_variant_D_both_recoveries": {
+      "path_id": "path_4_variant_D_both_recoveries",
+      "variant": "D_both",
+      "isp_s": 2000.0,
+      "chunk_t": 200.0,
+      "feasible": true,
+      "delivered_t": 19.956844610897747,
+      "round_trip_yr": 14.673558516400288,
+      "delivered_fraction": 0.09978422305448874,
+      "m_tug_t": 58.978362829738955,
+      "t_inbound_burn_yr": 1.501843361940512,
+      "l0_05_status": "hard_pass",
+      "marginal_irr": 0.0,
+      "irr_detail": {
+        "marginal_irr": 0.0,
+        "p_never_branch": 0.9672,
+        "irr_at_mw_year_10": null,
+        "irr_at_mw_year_20": null,
+        "irr_never_branch": null
+      },
+      "hurdle_status": {
+        "sovereign_bond_4pct": "fail",
+        "regulated_utility_8pct": "fail",
+        "corporate_growth_10pct": "fail"
+      },
+      "expected_delivered_by_prior": {
+        "uniform_beta_1_1": 0.02594389799416707,
+        "jeffreys_beta_0p5_0p5": 0.005987053383269323,
+        "skeptical_beta_0p5_5": 0.0019956844610897746
+      }
+    },
+    "path_5a_variant_C_isp3000": {
+      "path_id": "path_5a_variant_C_isp3000",
+      "variant": "C_earth_aerocapture",
+      "isp_s": 3000.0,
+      "chunk_t": 200.0,
+      "feasible": true,
+      "delivered_t": 71.52484130642188,
+      "round_trip_yr": 18.59279369857606,
+      "delivered_fraction": 0.35762420653210936,
+      "m_tug_t": 61.397968121655055,
+      "t_inbound_burn_yr": 5.421078544116283,
+      "l0_05_status": "over_by_3.59yr",
+      "marginal_irr": 0.0,
+      "irr_detail": {
+        "marginal_irr": 0.0,
+        "p_never_branch": 0.9672,
+        "irr_at_mw_year_10": null,
+        "irr_at_mw_year_20": null,
+        "irr_never_branch": null
+      },
+      "hurdle_status": {
+        "sovereign_bond_4pct": "fail",
+        "regulated_utility_8pct": "fail",
+        "corporate_growth_10pct": "fail"
+      },
+      "expected_delivered_by_prior": {
+        "uniform_beta_1_1": 0.09298229369834844,
+        "jeffreys_beta_0p5_0p5": 0.021457452391926563,
+        "skeptical_beta_0p5_5": 0.007152484130642188
+      }
+    },
+    "path_5b_variant_D_isp3000": {
+      "path_id": "path_5b_variant_D_isp3000",
+      "variant": "D_both",
+      "isp_s": 3000.0,
+      "chunk_t": 200.0,
+      "feasible": true,
+      "delivered_t": 41.10876013351115,
+      "round_trip_yr": 15.658346246594231,
+      "delivered_fraction": 0.20554380066755573,
+      "m_tug_t": 57.92076705360829,
+      "t_inbound_burn_yr": 2.4866310921344557,
+      "l0_05_status": "soft_pass",
+      "marginal_irr": 0.0,
+      "irr_detail": {
+        "marginal_irr": 0.0,
+        "p_never_branch": 0.9672,
+        "irr_at_mw_year_10": null,
+        "irr_at_mw_year_20": null,
+        "irr_never_branch": null
+      },
+      "hurdle_status": {
+        "sovereign_bond_4pct": "fail",
+        "regulated_utility_8pct": "fail",
+        "corporate_growth_10pct": "fail"
+      },
+      "expected_delivered_by_prior": {
+        "uniform_beta_1_1": 0.05344138817356449,
+        "jeffreys_beta_0p5_0p5": 0.012332628040053343,
+        "skeptical_beta_0p5_5": 0.004110876013351115
+      }
+    },
+    "path_2_null": {
+      "path_id": "path_2_null",
+      "variant": null,
+      "isp_s": 2000.0,
+      "chunk_t": 0.0,
+      "feasible": false,
+      "reason": "null cell \u2014 no propulsion architecture under test",
+      "delivered_t": 0.0,
+      "round_trip_yr": Infinity,
+      "l0_05_status": "n/a",
+      "marginal_irr": null,
+      "hurdle_status": {
+        "sovereign_bond_4pct": "fail",
+        "regulated_utility_8pct": "fail",
+        "corporate_growth_10pct": "fail"
+      },
+      "expected_delivered_by_prior": {
+        "uniform_beta_1_1": 0.0,
+        "jeffreys_beta_0p5_0p5": 0.0,
+        "skeptical_beta_0p5_5": 0.0
+      }
+    }
+  },
+  "paths_sweeps": {
+    "path_1_variant_C_baseline": [
+      {
+        "path_id": "path_1_variant_C_baseline",
+        "variant": "C_earth_aerocapture",
+        "isp_s": 2000.0,
+        "chunk_t": 100.0,
+        "feasible": false,
+        "reason": "electric inbound burn requires more propellant than chunk has",
+        "delivered_t": -1.9262297747053196,
+        "round_trip_yr": Infinity,
+        "l0_05_status": "infeasible",
+        "marginal_irr": null,
+        "hurdle_status": {
+          "sovereign_bond_4pct": "infeasible",
+          "regulated_utility_8pct": "infeasible",
+          "corporate_growth_10pct": "infeasible"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.0,
+          "jeffreys_beta_0p5_0p5": 0.0,
+          "skeptical_beta_0p5_5": 0.0
+        }
+      },
+      {
+        "path_id": "path_1_variant_C_baseline",
+        "variant": "C_earth_aerocapture",
+        "isp_s": 2000.0,
+        "chunk_t": 150.0,
+        "feasible": true,
+        "delivered_t": 15.051814099440264,
+        "round_trip_yr": 15.702475783265747,
+        "delivered_fraction": 0.10034542732960176,
+        "m_tug_t": 61.72161948200414,
+        "t_inbound_burn_yr": 2.5307606288059707,
+        "l0_05_status": "soft_pass",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.019567358329272342,
+          "jeffreys_beta_0p5_0p5": 0.0045155442298320785,
+          "skeptical_beta_0p5_5": 0.0015051814099440264
+        }
+      },
+      {
+        "path_id": "path_1_variant_C_baseline",
+        "variant": "C_earth_aerocapture",
+        "isp_s": 2000.0,
+        "chunk_t": 200.0,
+        "feasible": true,
+        "delivered_t": 32.13348115953994,
+        "round_trip_yr": 16.31981213658001,
+        "delivered_fraction": 0.1606674057976997,
+        "m_tug_t": 63.367536128999156,
+        "t_inbound_burn_yr": 3.148096982120231,
+        "l0_05_status": "over_by_1.32yr",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.04177352550740192,
+          "jeffreys_beta_0p5_0p5": 0.009640044347861981,
+          "skeptical_beta_0p5_5": 0.0032133481159539942
+        }
+      },
+      {
+        "path_id": "path_1_variant_C_baseline",
+        "variant": "C_earth_aerocapture",
+        "isp_s": 2000.0,
+        "chunk_t": 240.0,
+        "feasible": true,
+        "delivered_t": 45.79881480761972,
+        "round_trip_yr": 16.813681219231416,
+        "delivered_fraction": 0.19082839503174884,
+        "m_tug_t": 64.68426944659517,
+        "t_inbound_burn_yr": 3.6419660647716388,
+        "l0_05_status": "over_by_1.81yr",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.05953845924990563,
+          "jeffreys_beta_0p5_0p5": 0.013739644442285915,
+          "skeptical_beta_0p5_5": 0.004579881480761972
+        }
+      },
+      {
+        "path_id": "path_1_variant_C_baseline",
+        "variant": "C_earth_aerocapture",
+        "isp_s": 2000.0,
+        "chunk_t": 300.0,
+        "feasible": true,
+        "delivered_t": 66.29681527973935,
+        "round_trip_yr": 17.554484843208527,
+        "delivered_fraction": 0.22098938426579784,
+        "m_tug_t": 66.65936942298919,
+        "t_inbound_burn_yr": 4.382769688748751,
+        "l0_05_status": "over_by_2.55yr",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.08618585986366115,
+          "jeffreys_beta_0p5_0p5": 0.0198890445839218,
+          "skeptical_beta_0p5_5": 0.0066296815279739355
+        }
+      },
+      {
+        "path_id": "path_1_variant_C_baseline",
+        "variant": "C_earth_aerocapture",
+        "isp_s": 2000.0,
+        "chunk_t": 400.0,
+        "feasible": true,
+        "delivered_t": 100.4601493999387,
+        "round_trip_yr": 18.78915754983705,
+        "delivered_fraction": 0.25115037349984676,
+        "m_tug_t": 69.95120271697922,
+        "t_inbound_burn_yr": 5.617442395377273,
+        "l0_05_status": "over_by_3.79yr",
+        "marginal_irr": 0.0008268400019872835,
+        "irr_detail": {
+          "marginal_irr": 0.0008268400019872835,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": 0.0008548800682250657
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.1305981942199203,
+          "jeffreys_beta_0p5_0p5": 0.030138044819981606,
+          "skeptical_beta_0p5_5": 0.01004601493999387
+        }
+      },
+      {
+        "path_id": "path_1_variant_C_baseline",
+        "variant": "C_earth_aerocapture",
+        "isp_s": 2000.0,
+        "chunk_t": 482.0,
+        "feasible": true,
+        "delivered_t": 128.47408337850226,
+        "round_trip_yr": 19.801589169272432,
+        "delivered_fraction": 0.2665437414491748,
+        "m_tug_t": 72.65050601805103,
+        "t_inbound_burn_yr": 6.629874014812657,
+        "l0_05_status": "over_by_4.80yr",
+        "marginal_irr": 0.014351228778200774,
+        "irr_detail": {
+          "marginal_irr": 0.014351228778200774,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": 0.016163912753406895,
+          "irr_at_mw_year_20": 0.010437015896755258,
+          "irr_never_branch": 0.01468773639617266
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.16701630839205292,
+          "jeffreys_beta_0p5_0p5": 0.038542225013550674,
+          "skeptical_beta_0p5_5": 0.012847408337850226
+        }
+      }
+    ],
+    "path_3_variant_A_no_recovery": [
+      {
+        "path_id": "path_3_variant_A_no_recovery",
+        "variant": "A_as_stated",
+        "isp_s": 2000.0,
+        "chunk_t": 100.0,
+        "feasible": false,
+        "reason": "electric inbound burn requires more propellant than chunk has",
+        "delivered_t": -16.964758908788525,
+        "round_trip_yr": Infinity,
+        "l0_05_status": "infeasible",
+        "marginal_irr": null,
+        "hurdle_status": {
+          "sovereign_bond_4pct": "infeasible",
+          "regulated_utility_8pct": "infeasible",
+          "corporate_growth_10pct": "infeasible"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.0,
+          "jeffreys_beta_0p5_0p5": 0.0,
+          "skeptical_beta_0p5_5": 0.0
+        }
+      },
+      {
+        "path_id": "path_3_variant_A_no_recovery",
+        "variant": "A_as_stated",
+        "isp_s": 2000.0,
+        "chunk_t": 150.0,
+        "feasible": false,
+        "reason": "electric inbound burn requires more propellant than chunk has",
+        "delivered_t": -4.701605177490478,
+        "round_trip_yr": Infinity,
+        "l0_05_status": "infeasible",
+        "marginal_irr": null,
+        "hurdle_status": {
+          "sovereign_bond_4pct": "infeasible",
+          "regulated_utility_8pct": "infeasible",
+          "corporate_growth_10pct": "infeasible"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.0,
+          "jeffreys_beta_0p5_0p5": 0.0,
+          "skeptical_beta_0p5_5": 0.0
+        }
+      },
+      {
+        "path_id": "path_3_variant_A_no_recovery",
+        "variant": "A_as_stated",
+        "isp_s": 2000.0,
+        "chunk_t": 200.0,
+        "feasible": true,
+        "delivered_t": 0.014750671062614629,
+        "round_trip_yr": 16.92215308710872,
+        "delivered_fraction": 7.375335531307315e-05,
+        "m_tug_t": 64.97347265342302,
+        "t_inbound_burn_yr": 3.7504379326489428,
+        "l0_05_status": "over_by_1.92yr",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 1.9175872381399018e-05,
+          "jeffreys_beta_0p5_0p5": 4.425201318784388e-06,
+          "skeptical_beta_0p5_5": 1.475067106261463e-06
+        }
+      },
+      {
+        "path_id": "path_3_variant_A_no_recovery",
+        "variant": "A_as_stated",
+        "isp_s": 2000.0,
+        "chunk_t": 240.0,
+        "feasible": true,
+        "delivered_t": 8.641342484833075,
+        "round_trip_yr": 17.51051658158115,
+        "delivered_fraction": 0.03600559368680448,
+        "m_tug_t": 66.5421430627345,
+        "t_inbound_burn_yr": 4.338801427121374,
+        "l0_05_status": "over_by_2.51yr",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.011233745230282997,
+          "jeffreys_beta_0p5_0p5": 0.0025924027454499224,
+          "skeptical_beta_0p5_5": 0.0008641342484833075
+        }
+      },
+      {
+        "path_id": "path_3_variant_A_no_recovery",
+        "variant": "A_as_stated",
+        "isp_s": 2000.0,
+        "chunk_t": 300.0,
+        "feasible": true,
+        "delivered_t": 21.58123020548868,
+        "round_trip_yr": 18.3930618232898,
+        "delivered_fraction": 0.0719374340182956,
+        "m_tug_t": 68.89514867670172,
+        "t_inbound_burn_yr": 5.221346668830023,
+        "l0_05_status": "over_by_3.39yr",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.028055599267135283,
+          "jeffreys_beta_0p5_0p5": 0.006474369061646603,
+          "skeptical_beta_0p5_5": 0.0021581230205488682
+        }
+      },
+      {
+        "path_id": "path_3_variant_A_no_recovery",
+        "variant": "A_as_stated",
+        "isp_s": 2000.0,
+        "chunk_t": 400.0,
+        "feasible": true,
+        "delivered_t": 43.14770973991483,
+        "round_trip_yr": 19.86397055947088,
+        "delivered_fraction": 0.10786927434978708,
+        "m_tug_t": 72.81682469998042,
+        "t_inbound_burn_yr": 6.692255405011102,
+        "l0_05_status": "over_by_4.86yr",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.05609202266188928,
+          "jeffreys_beta_0p5_0p5": 0.012944312921974448,
+          "skeptical_beta_0p5_5": 0.004314770973991483
+        }
+      },
+      {
+        "path_id": "path_3_variant_A_no_recovery",
+        "variant": "A_as_stated",
+        "isp_s": 2000.0,
+        "chunk_t": 482.0,
+        "feasible": true,
+        "delivered_t": 60.8322229581442,
+        "round_trip_yr": 21.070115723139367,
+        "delivered_fraction": 0.12620793144843195,
+        "m_tug_t": 76.03259903906894,
+        "t_inbound_burn_yr": 7.898400568679588,
+        "l0_05_status": "over_by_6.07yr",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.07908188984558746,
+          "jeffreys_beta_0p5_0p5": 0.01824966688744326,
+          "skeptical_beta_0p5_5": 0.00608322229581442
+        }
+      }
+    ],
+    "path_4_variant_D_both_recoveries": [
+      {
+        "path_id": "path_4_variant_D_both_recoveries",
+        "variant": "D_both",
+        "isp_s": 2000.0,
+        "chunk_t": 100.0,
+        "feasible": false,
+        "reason": "electric inbound burn requires more propellant than chunk has",
+        "delivered_t": -8.939650843690877,
+        "round_trip_yr": Infinity,
+        "l0_05_status": "infeasible",
+        "marginal_irr": null,
+        "hurdle_status": {
+          "sovereign_bond_4pct": "infeasible",
+          "regulated_utility_8pct": "infeasible",
+          "corporate_growth_10pct": "infeasible"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.0,
+          "jeffreys_beta_0p5_0p5": 0.0,
+          "skeptical_beta_0p5_5": 0.0
+        }
+      },
+      {
+        "path_id": "path_4_variant_D_both_recoveries",
+        "variant": "D_both",
+        "isp_s": 2000.0,
+        "chunk_t": 150.0,
+        "feasible": true,
+        "delivered_t": 4.905403117602617,
+        "round_trip_yr": 14.371882428224058,
+        "delivered_fraction": 0.032702687450684116,
+        "m_tug_t": 58.17404652329778,
+        "t_inbound_burn_yr": 1.2001672737642826,
+        "l0_05_status": "hard_pass",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.006377024052883402,
+          "jeffreys_beta_0p5_0p5": 0.001471620935280785,
+          "skeptical_beta_0p5_5": 0.0004905403117602617
+        }
+      },
+      {
+        "path_id": "path_4_variant_D_both_recoveries",
+        "variant": "D_both",
+        "isp_s": 2000.0,
+        "chunk_t": 200.0,
+        "feasible": true,
+        "delivered_t": 19.956844610897747,
+        "round_trip_yr": 14.673558516400288,
+        "delivered_fraction": 0.09978422305448874,
+        "m_tug_t": 58.978362829738955,
+        "t_inbound_burn_yr": 1.501843361940512,
+        "l0_05_status": "hard_pass",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.02594389799416707,
+          "jeffreys_beta_0p5_0p5": 0.005987053383269323,
+          "skeptical_beta_0p5_5": 0.0019956844610897746
+        }
+      },
+      {
+        "path_id": "path_4_variant_D_both_recoveries",
+        "variant": "D_both",
+        "isp_s": 2000.0,
+        "chunk_t": 240.0,
+        "feasible": true,
+        "delivered_t": 31.99799780553387,
+        "round_trip_yr": 14.914899386941272,
+        "delivered_fraction": 0.13332499085639113,
+        "m_tug_t": 59.6218158748919,
+        "t_inbound_burn_yr": 1.7431842324814957,
+        "l0_05_status": "hard_pass",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.04159739714719403,
+          "jeffreys_beta_0p5_0p5": 0.00959939934166016,
+          "skeptical_beta_0p5_5": 0.0031997997805533872
+        }
+      },
+      {
+        "path_id": "path_4_variant_D_both_recoveries",
+        "variant": "D_both",
+        "isp_s": 2000.0,
+        "chunk_t": 300.0,
+        "feasible": true,
+        "delivered_t": 50.05972759748805,
+        "round_trip_yr": 15.276910692752747,
+        "delivered_fraction": 0.1668657586582935,
+        "m_tug_t": 60.586995442621316,
+        "t_inbound_burn_yr": 2.105195538292971,
+        "l0_05_status": "soft_pass",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.06507764587673447,
+          "jeffreys_beta_0p5_0p5": 0.015017918279246414,
+          "skeptical_beta_0p5_5": 0.0050059727597488056
+        }
+      },
+      {
+        "path_id": "path_4_variant_D_both_recoveries",
+        "variant": "D_both",
+        "isp_s": 2000.0,
+        "chunk_t": 400.0,
+        "feasible": true,
+        "delivered_t": 80.16255398204171,
+        "round_trip_yr": 15.880263930595621,
+        "delivered_fraction": 0.2004063849551043,
+        "m_tug_t": 62.1956308856055,
+        "t_inbound_burn_yr": 2.708548776135843,
+        "l0_05_status": "soft_pass",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.10421132017665423,
+          "jeffreys_beta_0p5_0p5": 0.024048766194612513,
+          "skeptical_beta_0p5_5": 0.008016255398204173
+        }
+      },
+      {
+        "path_id": "path_4_variant_D_both_recoveries",
+        "variant": "D_both",
+        "isp_s": 2000.0,
+        "chunk_t": 482.0,
+        "feasible": true,
+        "delivered_t": 104.84690769200364,
+        "round_trip_yr": 16.375012909098615,
+        "delivered_fraction": 0.21752470475519428,
+        "m_tug_t": 63.51471014512114,
+        "t_inbound_burn_yr": 3.2032977546388386,
+        "l0_05_status": "over_by_1.38yr",
+        "marginal_irr": 0.00322240165834906,
+        "irr_detail": {
+          "marginal_irr": 0.00322240165834906,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": 0.0006492814065189358,
+          "irr_at_mw_year_20": 0.00041173226829913003,
+          "irr_never_branch": 0.0033257404711684573
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.13630097999960472,
+          "jeffreys_beta_0p5_0p5": 0.03145407230760109,
+          "skeptical_beta_0p5_5": 0.010484690769200364
+        }
+      }
+    ],
+    "path_5a_variant_C_isp3000": [
+      {
+        "path_id": "path_5a_variant_C_isp3000",
+        "variant": "C_earth_aerocapture",
+        "isp_s": 3000.0,
+        "chunk_t": 100.0,
+        "feasible": true,
+        "delivered_t": 21.912352497991222,
+        "round_trip_yr": 16.46666551481154,
+        "delivered_fraction": 0.21912352497991222,
+        "m_tug_t": 58.87859256207659,
+        "t_inbound_burn_yr": 3.2949503603517636,
+        "l0_05_status": "over_by_1.47yr",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.028486058247388587,
+          "jeffreys_beta_0p5_0p5": 0.006573705749397366,
+          "skeptical_beta_0p5_5": 0.0021912352497991225
+        }
+      },
+      {
+        "path_id": "path_5a_variant_C_isp3000",
+        "variant": "C_earth_aerocapture",
+        "isp_s": 3000.0,
+        "chunk_t": 150.0,
+        "feasible": true,
+        "delivered_t": 46.71859690220654,
+        "round_trip_yr": 17.529729606693802,
+        "delivered_fraction": 0.31145731268137694,
+        "m_tug_t": 60.13828034186582,
+        "t_inbound_burn_yr": 4.358014452234024,
+        "l0_05_status": "over_by_2.53yr",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.0607341759728685,
+          "jeffreys_beta_0p5_0p5": 0.014015579070661961,
+          "skeptical_beta_0p5_5": 0.0046718596902206545
+        }
+      },
+      {
+        "path_id": "path_5a_variant_C_isp3000",
+        "variant": "C_earth_aerocapture",
+        "isp_s": 3000.0,
+        "chunk_t": 200.0,
+        "feasible": true,
+        "delivered_t": 71.52484130642188,
+        "round_trip_yr": 18.59279369857606,
+        "delivered_fraction": 0.35762420653210936,
+        "m_tug_t": 61.397968121655055,
+        "t_inbound_burn_yr": 5.421078544116283,
+        "l0_05_status": "over_by_3.59yr",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.09298229369834844,
+          "jeffreys_beta_0p5_0p5": 0.021457452391926563,
+          "skeptical_beta_0p5_5": 0.007152484130642188
+        }
+      },
+      {
+        "path_id": "path_5a_variant_C_isp3000",
+        "variant": "C_earth_aerocapture",
+        "isp_s": 3000.0,
+        "chunk_t": 240.0,
+        "feasible": true,
+        "delivered_t": 91.36978395488751,
+        "round_trip_yr": 19.44324720316704,
+        "delivered_fraction": 0.38070743314536465,
+        "m_tug_t": 62.405720989231774,
+        "t_inbound_burn_yr": 6.2715320487072646,
+        "l0_05_status": "over_by_4.44yr",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.11878071914135375,
+          "jeffreys_beta_0p5_0p5": 0.02741093518646625,
+          "skeptical_beta_0p5_5": 0.009136978395488752
+        }
+      },
+      {
+        "path_id": "path_5a_variant_C_isp3000",
+        "variant": "C_earth_aerocapture",
+        "isp_s": 3000.0,
+        "chunk_t": 300.0,
+        "feasible": true,
+        "delivered_t": 121.13726648478735,
+        "round_trip_yr": 20.718924567245466,
+        "delivered_fraction": 0.4037908882826245,
+        "m_tug_t": 63.917346862736785,
+        "t_inbound_burn_yr": 7.547209412785688,
+        "l0_05_status": "over_by_5.72yr",
+        "marginal_irr": 0.01118425049466572,
+        "irr_detail": {
+          "marginal_irr": 0.01118425049466572,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": 0.01179465175071892,
+          "irr_at_mw_year_20": 0.007587487277900182,
+          "irr_never_branch": 0.011454294659394862
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.15747844643022355,
+          "jeffreys_beta_0p5_0p5": 0.0363411799454362,
+          "skeptical_beta_0p5_5": 0.012113726648478736
+        }
+      },
+      {
+        "path_id": "path_5a_variant_C_isp3000",
+        "variant": "C_earth_aerocapture",
+        "isp_s": 3000.0,
+        "chunk_t": 400.0,
+        "feasible": true,
+        "delivered_t": 170.74973736795374,
+        "round_trip_yr": 22.845053507376164,
+        "delivered_fraction": 0.42687434341988434,
+        "m_tug_t": 66.43672331857846,
+        "t_inbound_burn_yr": 9.673338352916389,
+        "l0_05_status": "over_by_7.85yr",
+        "marginal_irr": 0.029489372059933298,
+        "irr_detail": {
+          "marginal_irr": 0.029489372059933298,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": 0.03651462549513616,
+          "irr_at_mw_year_20": 0.023798089740520667,
+          "irr_never_branch": 0.02992740189741596
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.22197465857833987,
+          "jeffreys_beta_0p5_0p5": 0.05122492121038612,
+          "skeptical_beta_0p5_5": 0.017074973736795375
+        }
+      },
+      {
+        "path_id": "path_5a_variant_C_isp3000",
+        "variant": "C_earth_aerocapture",
+        "isp_s": 3000.0,
+        "chunk_t": 482.0,
+        "feasible": true,
+        "delivered_t": 211.43196349215026,
+        "round_trip_yr": 24.58847923828334,
+        "delivered_fraction": 0.4386555259173242,
+        "m_tug_t": 68.50261201236864,
+        "t_inbound_burn_yr": 11.416764083823566,
+        "l0_05_status": "over_by_9.59yr",
+        "marginal_irr": 0.04057915300739361,
+        "irr_detail": {
+          "marginal_irr": 0.04057915300739361,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": 0.051275662703785696,
+          "irr_at_mw_year_20": 0.03350071009010869,
+          "irr_never_branch": 0.041091165468921775
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "pass",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.27486155253979533,
+          "jeffreys_beta_0p5_0p5": 0.06342958904764508,
+          "skeptical_beta_0p5_5": 0.021143196349215028
+        }
+      }
+    ],
+    "path_5b_variant_D_isp3000": [
+      {
+        "path_id": "path_5b_variant_D_isp3000",
+        "variant": "D_both",
+        "isp_s": 3000.0,
+        "chunk_t": 100.0,
+        "feasible": true,
+        "delivered_t": 2.508283730719029,
+        "round_trip_yr": 14.659364382542524,
+        "delivered_fraction": 0.025082837307190287,
+        "m_tug_t": 56.73701411153603,
+        "t_inbound_burn_yr": 1.4876492280827485,
+        "l0_05_status": "hard_pass",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.0032607688499347374,
+          "jeffreys_beta_0p5_0p5": 0.0007524851192157086,
+          "skeptical_beta_0p5_5": 0.0002508283730719029
+        }
+      },
+      {
+        "path_id": "path_5b_variant_D_isp3000",
+        "variant": "D_both",
+        "isp_s": 3000.0,
+        "chunk_t": 150.0,
+        "feasible": true,
+        "delivered_t": 21.808521932115084,
+        "round_trip_yr": 15.158855314568381,
+        "delivered_fraction": 0.14539014621410057,
+        "m_tug_t": 57.32889058257216,
+        "t_inbound_burn_yr": 1.9871401601086023,
+        "l0_05_status": "soft_pass",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.02835107851174961,
+          "jeffreys_beta_0p5_0p5": 0.006542556579634525,
+          "skeptical_beta_0p5_5": 0.0021808521932115085
+        }
+      },
+      {
+        "path_id": "path_5b_variant_D_isp3000",
+        "variant": "D_both",
+        "isp_s": 3000.0,
+        "chunk_t": 200.0,
+        "feasible": true,
+        "delivered_t": 41.10876013351115,
+        "round_trip_yr": 15.658346246594231,
+        "delivered_fraction": 0.20554380066755573,
+        "m_tug_t": 57.92076705360829,
+        "t_inbound_burn_yr": 2.4866310921344557,
+        "l0_05_status": "soft_pass",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.05344138817356449,
+          "jeffreys_beta_0p5_0p5": 0.012332628040053343,
+          "skeptical_beta_0p5_5": 0.004110876013351115
+        }
+      },
+      {
+        "path_id": "path_5b_variant_D_isp3000",
+        "variant": "D_both",
+        "isp_s": 3000.0,
+        "chunk_t": 240.0,
+        "feasible": true,
+        "delivered_t": 56.54895069462799,
+        "round_trip_yr": 16.057938992214915,
+        "delivered_fraction": 0.23562062789428329,
+        "m_tug_t": 58.39426823043719,
+        "t_inbound_burn_yr": 2.8862238377551392,
+        "l0_05_status": "over_by_1.06yr",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.07351363590301638,
+          "jeffreys_beta_0p5_0p5": 0.016964685208388397,
+          "skeptical_beta_0p5_5": 0.005654895069462799
+        }
+      },
+      {
+        "path_id": "path_5b_variant_D_isp3000",
+        "variant": "D_both",
+        "isp_s": 3000.0,
+        "chunk_t": 300.0,
+        "feasible": true,
+        "delivered_t": 79.70923653630328,
+        "round_trip_yr": 16.65732811064594,
+        "delivered_fraction": 0.26569745512101095,
+        "m_tug_t": 59.104519995680555,
+        "t_inbound_burn_yr": 3.485612956186163,
+        "l0_05_status": "over_by_1.66yr",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.10362200749719426,
+          "jeffreys_beta_0p5_0p5": 0.02391277096089098,
+          "skeptical_beta_0p5_5": 0.007970923653630328
+        }
+      },
+      {
+        "path_id": "path_5b_variant_D_isp3000",
+        "variant": "D_both",
+        "isp_s": 3000.0,
+        "chunk_t": 400.0,
+        "feasible": true,
+        "delivered_t": 118.30971293909539,
+        "round_trip_yr": 17.656309974697646,
+        "delivered_fraction": 0.2957742823477385,
+        "m_tug_t": 60.28827293775282,
+        "t_inbound_burn_yr": 4.48459482023787,
+        "l0_05_status": "over_by_2.66yr",
+        "marginal_irr": 0.009901468214236965,
+        "irr_detail": {
+          "marginal_irr": 0.009901468214236965,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": 0.01001664585294099,
+          "irr_at_mw_year_20": 0.006432259392265707,
+          "irr_never_branch": 0.010144617197247439
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.153802626820824,
+          "jeffreys_beta_0p5_0p5": 0.035492913881728615,
+          "skeptical_beta_0p5_5": 0.01183097129390954
+        }
+      },
+      {
+        "path_id": "path_5b_variant_D_isp3000",
+        "variant": "D_both",
+        "isp_s": 3000.0,
+        "chunk_t": 482.0,
+        "feasible": true,
+        "delivered_t": 149.96210358938492,
+        "round_trip_yr": 18.475475103220045,
+        "delivered_fraction": 0.31112469624353717,
+        "m_tug_t": 61.25895035025208,
+        "t_inbound_burn_yr": 5.30375994876027,
+        "l0_05_status": "over_by_3.48yr",
+        "marginal_irr": 0.022646268717290512,
+        "irr_detail": {
+          "marginal_irr": 0.022646268717290512,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": 0.02735633466487586,
+          "irr_at_mw_year_20": 0.01777671628555525,
+          "irr_never_branch": 0.023041449309962304
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.1949507346662004,
+          "jeffreys_beta_0p5_0p5": 0.04498863107681547,
+          "skeptical_beta_0p5_5": 0.014996210358938493
+        }
+      }
+    ]
+  },
+  "decision_table_per_path": {
+    "path_1_variant_C_baseline": {
+      "best_under_L0_05_hard": null,
+      "best_under_L0_05_soft": {
+        "path_id": "path_1_variant_C_baseline",
+        "variant": "C_earth_aerocapture",
+        "isp_s": 2000.0,
+        "chunk_t": 150.0,
+        "feasible": true,
+        "delivered_t": 15.051814099440264,
+        "round_trip_yr": 15.702475783265747,
+        "delivered_fraction": 0.10034542732960176,
+        "m_tug_t": 61.72161948200414,
+        "t_inbound_burn_yr": 2.5307606288059707,
+        "l0_05_status": "soft_pass",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.019567358329272342,
+          "jeffreys_beta_0p5_0p5": 0.0045155442298320785,
+          "skeptical_beta_0p5_5": 0.0015051814099440264
+        }
+      }
+    },
+    "path_3_variant_A_no_recovery": {
+      "best_under_L0_05_hard": null,
+      "best_under_L0_05_soft": null
+    },
+    "path_4_variant_D_both_recoveries": {
+      "best_under_L0_05_hard": {
+        "path_id": "path_4_variant_D_both_recoveries",
+        "variant": "D_both",
+        "isp_s": 2000.0,
+        "chunk_t": 150.0,
+        "feasible": true,
+        "delivered_t": 4.905403117602617,
+        "round_trip_yr": 14.371882428224058,
+        "delivered_fraction": 0.032702687450684116,
+        "m_tug_t": 58.17404652329778,
+        "t_inbound_burn_yr": 1.2001672737642826,
+        "l0_05_status": "hard_pass",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.006377024052883402,
+          "jeffreys_beta_0p5_0p5": 0.001471620935280785,
+          "skeptical_beta_0p5_5": 0.0004905403117602617
+        }
+      },
+      "best_under_L0_05_soft": {
+        "path_id": "path_4_variant_D_both_recoveries",
+        "variant": "D_both",
+        "isp_s": 2000.0,
+        "chunk_t": 150.0,
+        "feasible": true,
+        "delivered_t": 4.905403117602617,
+        "round_trip_yr": 14.371882428224058,
+        "delivered_fraction": 0.032702687450684116,
+        "m_tug_t": 58.17404652329778,
+        "t_inbound_burn_yr": 1.2001672737642826,
+        "l0_05_status": "hard_pass",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.006377024052883402,
+          "jeffreys_beta_0p5_0p5": 0.001471620935280785,
+          "skeptical_beta_0p5_5": 0.0004905403117602617
+        }
+      }
+    },
+    "path_5a_variant_C_isp3000": {
+      "best_under_L0_05_hard": null,
+      "best_under_L0_05_soft": null
+    },
+    "path_5b_variant_D_isp3000": {
+      "best_under_L0_05_hard": {
+        "path_id": "path_5b_variant_D_isp3000",
+        "variant": "D_both",
+        "isp_s": 3000.0,
+        "chunk_t": 100.0,
+        "feasible": true,
+        "delivered_t": 2.508283730719029,
+        "round_trip_yr": 14.659364382542524,
+        "delivered_fraction": 0.025082837307190287,
+        "m_tug_t": 56.73701411153603,
+        "t_inbound_burn_yr": 1.4876492280827485,
+        "l0_05_status": "hard_pass",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.0032607688499347374,
+          "jeffreys_beta_0p5_0p5": 0.0007524851192157086,
+          "skeptical_beta_0p5_5": 0.0002508283730719029
+        }
+      },
+      "best_under_L0_05_soft": {
+        "path_id": "path_5b_variant_D_isp3000",
+        "variant": "D_both",
+        "isp_s": 3000.0,
+        "chunk_t": 100.0,
+        "feasible": true,
+        "delivered_t": 2.508283730719029,
+        "round_trip_yr": 14.659364382542524,
+        "delivered_fraction": 0.025082837307190287,
+        "m_tug_t": 56.73701411153603,
+        "t_inbound_burn_yr": 1.4876492280827485,
+        "l0_05_status": "hard_pass",
+        "marginal_irr": 0.0,
+        "irr_detail": {
+          "marginal_irr": 0.0,
+          "p_never_branch": 0.9672,
+          "irr_at_mw_year_10": null,
+          "irr_at_mw_year_20": null,
+          "irr_never_branch": null
+        },
+        "hurdle_status": {
+          "sovereign_bond_4pct": "fail",
+          "regulated_utility_8pct": "fail",
+          "corporate_growth_10pct": "fail"
+        },
+        "expected_delivered_by_prior": {
+          "uniform_beta_1_1": 0.0032607688499347374,
+          "jeffreys_beta_0p5_0p5": 0.0007524851192157086,
+          "skeptical_beta_0p5_5": 0.0002508283730719029
+        }
+      }
+    }
+  },
+  "hypothesis_grading": {
+    "H-vrp-a_path_1_baseline_irr": {
+      "predicted_range_pct": [
+        -2.0,
+        2.0
+      ],
+      "measured_pct": 0.0,
+      "held": true
+    },
+    "H-vrp-b_path_1_chunk482_irr": {
+      "predicted_range_pct": [
+        0.0,
+        5.0
+      ],
+      "measured_pct": 1.4351228778200773,
+      "held": true
+    },
+    "H-vrp-c_path_3_chunk_le_150_infeasible": {
+      "predicted": "variant A at chunk \u2264 150 t is propulsion-infeasible (electric inbound prop > chunk inventory)",
+      "measured_p3_at_100": false,
+      "measured_p3_at_150": false,
+      "held": true
+    },
+    "H-vrp-d_path_4_baseline_irr_and_L0_05": {
+      "predicted_range_pct": [
+        -2.0,
+        3.0
+      ],
+      "predicted_l0_05": "hard_pass",
+      "measured_pct": 0.0,
+      "measured_l0_05": "hard_pass",
+      "held": true
+    },
+    "H-vrp-e_path_4_chunk482": {
+      "predicted_range_pct": [
+        -1.0,
+        4.0
+      ],
+      "predicted_rt_yr_max": 17.0,
+      "measured_pct": 0.322240165834906,
+      "measured_rt_yr": 16.375012909098615,
+      "held": true
+    },
+    "H-vrp-f_no_path_clears_sovereign_at_l0_05": {
+      "predicted": "no path-and-chunk in the sweep clears sovereign-bond (4%) with round-trip \u2264 16 yr (soft L0-05)",
+      "measured_any_pass": false,
+      "held": true
+    },
+    "H-vrp-g_scope_omits_variant_D": {
+      "predicted": "SCOPE.md's three-path enumeration (variant C / null / chunk-reduce variant A) omits variant D (both recoveries), which is propulsion-physically defensible AND the only path inside L0-05 hard ceiling at chunk 200 t.",
+      "measured": true,
+      "held": true
+    },
+    "H-vrp-h_isp_3000_does_not_rescue": {
+      "predicted": "specific impulse 3000 s does NOT rescue the cell at any L0-05-acceptable chunk",
+      "measured_any_rescue": false,
+      "held": true
+    },
+    "H-vrp-i_programmatic_uniform_le_0p5": {
+      "predicted_max_expected_t_per_mission": 0.5,
+      "measured_max": 0.09298229369834844,
+      "held": true
+    }
+  }
+}

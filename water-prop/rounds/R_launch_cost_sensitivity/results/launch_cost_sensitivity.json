@@ -1,0 +1,1187 @@
+{
+  "rows": [
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 0,
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "irr": 0.047721798936573134,
+      "irr_pct": 4.77
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 0,
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "irr": 0.06189621792222566,
+      "irr_pct": 6.19
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 0,
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "irr": 0.052471245317584,
+      "irr_pct": 5.25
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 0,
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "irr": 0.054895086931752934,
+      "irr_pct": 5.49
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 0,
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "irr": 0.055393861640096964,
+      "irr_pct": 5.54
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 30,
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "irr": 0.044512024202724265,
+      "irr_pct": 4.45
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 30,
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "irr": 0.05846612366789661,
+      "irr_pct": 5.85
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 30,
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "irr": 0.04915972889755371,
+      "irr_pct": 4.92
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 30,
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "irr": 0.0517048142344575,
+      "irr_pct": 5.17
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 30,
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "irr": 0.052240759090738886,
+      "irr_pct": 5.22
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 50,
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "irr": 0.042439108909331114,
+      "irr_pct": 4.24
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 50,
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "irr": 0.056236226374151266,
+      "irr_pct": 5.62
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 50,
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "irr": 0.04701576718763201,
+      "irr_pct": 4.7
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 50,
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "irr": 0.049642350274954894,
+      "irr_pct": 4.96
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 50,
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "irr": 0.05020364277465428,
+      "irr_pct": 5.02
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 60,
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "irr": 0.041421854984648454,
+      "irr_pct": 4.14
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 60,
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "irr": 0.055137606520217514,
+      "irr_pct": 5.51
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 60,
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "irr": 0.04596209580831634,
+      "irr_pct": 4.6
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 60,
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "irr": 0.048629635246975444,
+      "irr_pct": 4.86
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 60,
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "irr": 0.04920376903056367,
+      "irr_pct": 4.92
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 100,
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "irr": 0.03747438415063564,
+      "irr_pct": 3.75
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 100,
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "irr": 0.05084660843245599,
+      "irr_pct": 5.08
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 100,
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "irr": 0.0418634972228894,
+      "irr_pct": 4.19
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 100,
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "irr": 0.044696322276998005,
+      "irr_pct": 4.47
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 100,
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "irr": 0.04532292143638805,
+      "irr_pct": 4.53
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 150,
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "irr": 0.03279392265386752,
+      "irr_pct": 3.28
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 150,
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "irr": 0.04569921341563882,
+      "irr_pct": 4.57
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 150,
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "irr": 0.03698327043221866,
+      "irr_pct": 3.7
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 150,
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "irr": 0.040026325874860214,
+      "irr_pct": 4.0
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 150,
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "irr": 0.04072095310046875,
+      "irr_pct": 4.07
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 200,
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "irr": 0.028367279479619367,
+      "irr_pct": 2.84
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 200,
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "irr": 0.040767957035748134,
+      "irr_pct": 4.08
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 200,
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "irr": 0.032346648365567554,
+      "irr_pct": 3.23
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 200,
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "irr": 0.03560466386080019,
+      "irr_pct": 3.56
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 200,
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "irr": 0.03637003849000864,
+      "irr_pct": 3.64
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 290,
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "irr": 0.020952643347019975,
+      "irr_pct": 2.1
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 290,
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "irr": 0.03235931949109261,
+      "irr_pct": 3.24
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 290,
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "irr": 0.02453278235493133,
+      "irr_pct": 2.45
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 290,
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "irr": 0.028193034425135877,
+      "irr_pct": 2.82
+    },
+    {
+      "delivery_t": 128.8,
+      "launch_cost_M": 290,
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "irr": 0.029092871890598532,
+      "irr_pct": 2.91
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 0,
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "irr": 0.07948263153454571,
+      "irr_pct": 7.95
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 0,
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "irr": 0.08988627933324667,
+      "irr_pct": 8.99
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 0,
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "irr": 0.0830396339989169,
+      "irr_pct": 8.3
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 0,
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "irr": 0.08409174465914238,
+      "irr_pct": 8.41
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 0,
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "irr": 0.08426652170040405,
+      "irr_pct": 8.43
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 30,
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "irr": 0.07642869949807929,
+      "irr_pct": 7.64
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 30,
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "irr": 0.08677566010883264,
+      "irr_pct": 8.68
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 30,
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "irr": 0.07995907962585647,
+      "irr_pct": 8.0
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 30,
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "irr": 0.08105861305793816,
+      "irr_pct": 8.11
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 30,
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "irr": 0.08124599121878717,
+      "irr_pct": 8.12
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 50,
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "irr": 0.07445080769836532,
+      "irr_pct": 7.45
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 50,
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "irr": 0.08475528210908767,
+      "irr_pct": 8.48
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 50,
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "irr": 0.07796177529035375,
+      "irr_pct": 7.8
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 50,
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "irr": 0.07909304079502644,
+      "irr_pct": 7.91
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 50,
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "irr": 0.07928902177473407,
+      "irr_pct": 7.93
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 60,
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "irr": 0.07347865567996903,
+      "irr_pct": 7.35
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 60,
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "irr": 0.08376054412425382,
+      "irr_pct": 8.38
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 60,
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "irr": 0.076979444421719,
+      "irr_pct": 7.7
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 60,
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "irr": 0.07812660774632574,
+      "irr_pct": 7.81
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 60,
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "irr": 0.07832694928430517,
+      "irr_pct": 7.83
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 100,
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "irr": 0.06969739398122898,
+      "irr_pct": 6.97
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 100,
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "irr": 0.07988047248114138,
+      "irr_pct": 7.99
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 100,
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "irr": 0.07315451452094404,
+      "irr_pct": 7.32
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 100,
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "irr": 0.07436545902037228,
+      "irr_pct": 7.44
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 100,
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "irr": 0.07458362601023982,
+      "irr_pct": 7.46
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 150,
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "irr": 0.06519841374758417,
+      "irr_pct": 6.52
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 150,
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "irr": 0.07524040393389664,
+      "irr_pct": 7.52
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 150,
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "irr": 0.06859490238416488,
+      "irr_pct": 6.86
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 150,
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "irr": 0.06988594290270725,
+      "irr_pct": 6.99
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 150,
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "irr": 0.0701272198491828,
+      "irr_pct": 7.01
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 200,
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "irr": 0.060932256205524005,
+      "irr_pct": 6.09
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 200,
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "irr": 0.07081574715306116,
+      "irr_pct": 7.08
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 200,
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "irr": 0.06426224987383578,
+      "irr_pct": 6.43
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 200,
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "irr": 0.06563373106211498,
+      "irr_pct": 6.56
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 200,
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "irr": 0.06589898865562394,
+      "irr_pct": 6.59
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 290,
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "irr": 0.05377883749929399,
+      "irr_pct": 5.38
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 290,
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "irr": 0.06333952533958465,
+      "irr_pct": 6.33
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 290,
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "irr": 0.05697692215751175,
+      "irr_pct": 5.7
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 290,
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "irr": 0.05849395463563989,
+      "irr_pct": 5.85
+    },
+    {
+      "delivery_t": 200.0,
+      "launch_cost_M": 290,
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "irr": 0.058804423845678966,
+      "irr_pct": 5.88
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 0,
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "irr": 0.1414032608854895,
+      "irr_pct": 14.14
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 0,
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "irr": 0.14645804081800973,
+      "irr_pct": 14.65
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 0,
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "irr": 0.14311985896456736,
+      "irr_pct": 14.31
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 0,
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "irr": 0.14333454453849226,
+      "irr_pct": 14.33
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 0,
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "irr": 0.14335561918509765,
+      "irr_pct": 14.34
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 30,
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "irr": 0.13865027923494788,
+      "irr_pct": 13.87
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 30,
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "irr": 0.14370800537932527,
+      "irr_pct": 14.37
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 30,
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "irr": 0.14036748435099644,
+      "irr_pct": 14.04
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 30,
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "irr": 0.14059031089678975,
+      "irr_pct": 14.06
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 30,
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "irr": 0.140612761269013,
+      "irr_pct": 14.06
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 50,
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "irr": 0.13685919986144157,
+      "irr_pct": 13.69
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 50,
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "irr": 0.14191796955023672,
+      "irr_pct": 14.19
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 50,
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "irr": 0.1385764864180582,
+      "irr_pct": 13.86
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 50,
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "irr": 0.1388047624220875,
+      "irr_pct": 13.88
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 50,
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "irr": 0.138828153473891,
+      "irr_pct": 13.88
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 60,
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "irr": 0.13597650160550168,
+      "irr_pct": 13.6
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 60,
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "irr": 0.1410355263401083,
+      "irr_pct": 14.1
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 60,
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "irr": 0.1376937352765989,
+      "irr_pct": 13.77
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 60,
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "irr": 0.1379247422055555,
+      "irr_pct": 13.79
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 60,
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "irr": 0.1379486105873221,
+      "irr_pct": 13.79
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 100,
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "irr": 0.13252814914044164,
+      "irr_pct": 13.25
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 100,
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "irr": 0.13758648628531478,
+      "irr_pct": 13.76
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 100,
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "irr": 0.13424457233744447,
+      "irr_pct": 13.42
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 100,
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "irr": 0.13448654098297264,
+      "irr_pct": 13.45
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 100,
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "irr": 0.13451236474028894,
+      "irr_pct": 13.45
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 150,
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "irr": 0.12839366507510663,
+      "irr_pct": 12.84
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 150,
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "irr": 0.13344751498316654,
+      "irr_pct": 13.34
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 150,
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "irr": 0.13010780419906076,
+      "irr_pct": 13.01
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 150,
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "irr": 0.1303635506511397,
+      "irr_pct": 13.04
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 150,
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "irr": 0.13039192046257553,
+      "irr_pct": 13.04
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 200,
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "irr": 0.12444100865585928,
+      "irr_pct": 12.44
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 200,
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "irr": 0.12948665313524377,
+      "irr_pct": 12.95
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 200,
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "irr": 0.12615156311483078,
+      "irr_pct": 12.62
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 200,
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "irr": 0.1264211573375379,
+      "irr_pct": 12.64
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 200,
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "irr": 0.1264521835126241,
+      "irr_pct": 12.65
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 290,
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "irr": 0.11774295959690162,
+      "irr_pct": 11.77
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 290,
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "irr": 0.12276542952778235,
+      "irr_pct": 12.28
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 290,
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "irr": 0.11944412893857742,
+      "irr_pct": 11.94
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 290,
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "irr": 0.11973878323106912,
+      "irr_pct": 11.97
+    },
+    {
+      "delivery_t": 482.0,
+      "launch_cost_M": 290,
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "irr": 0.11977485895563322,
+      "irr_pct": 11.98
+    }
+  ],
+  "crossovers": {
+    "128.8": {
+      "sovereign_bond_4pct": 74.18630692723127,
+      "regulated_utility_8pct": null,
+      "corporate_growth_10pct": null,
+      "venture_class_15pct": null
+    },
+    "200.0": {
+      "sovereign_bond_4pct": 488.2106242887403,
+      "regulated_utility_8pct": null,
+      "corporate_growth_10pct": null,
+      "venture_class_15pct": null
+    },
+    "482.0": {
+      "sovereign_bond_4pct": 500.0,
+      "regulated_utility_8pct": 500.0,
+      "corporate_growth_10pct": 500.0,
+      "venture_class_15pct": null
+    }
+  },
+  "theoretical_max": {
+    "128.8": {
+      "irr_pct": 6.12
+    },
+    "200.0": {
+      "irr_pct": 9.78
+    },
+    "482.0": {
+      "irr_pct": 16.92
+    }
+  },
+  "grading": {
+    "H-lcs-a": {
+      "observed_pct": 7.45,
+      "predicted_pct": [
+        10,
+        13
+      ],
+      "verdict": "wrong-and-load-bearing",
+      "note": "single-use at 200 t/ship, $50M launch: 7.45%"
+    },
+    "H-lcs-b": {
+      "observed_pct": 6.52,
+      "predicted_pct": [
+        7.5,
+        9.5
+      ],
+      "verdict": "wrong-but-informative",
+      "note": "single-use at 200 t/ship, $150M launch: 6.52%"
+    },
+    "H-lcs-c": {
+      "observed_pp": 1.03,
+      "predicted_pp": [
+        1.0,
+        1.5
+      ],
+      "verdict": "held",
+      "note": "2x basic reuse uplift at 200 t/ship, $50M launch: +1.03pp"
+    },
+    "H-lcs-d": {
+      "observed_M": null,
+      "predicted_M": [
+        30,
+        80
+      ],
+      "verdict": "wrong-and-load-bearing",
+      "note": "unreachable even at free launches"
+    },
+    "H-lcs-e": {
+      "observed_pp": 2.07,
+      "predicted_pp": [
+        4.5,
+        6.0
+      ],
+      "verdict": "wrong-and-load-bearing",
+      "note": "launch-cost uplift $290M\u2192$50M at 200 t/ship: +2.07pp"
+    },
+    "H-lcs-f": {
+      "observed_pct": 13.69,
+      "predicted_pct": [
+        14,
+        18
+      ],
+      "verdict": "wrong-but-informative",
+      "note": "single-use at 482 t/ship, $50M launch: 13.69% (target: cross 15% venture-class)"
+    },
+    "H-lcs-g": {
+      "theoretical_max_pct": 9.78,
+      "predicted_below": 20.0,
+      "verdict": "held",
+      "note": "theoretical max (zero fixed cost) at 200 t/ship: 9.78% (predicted < 20%)"
+    }
+  },
+  "constants": {
+    "ship_cost_new_M": 650.0,
+    "round_trip_yr": 14.5,
+    "horizon_yr": 45,
+    "price_per_kg": 10000.0,
+    "sovereign_amount_M": 2000.0,
+    "sovereign_year": 11,
+    "demonstrator_nre_M": 500.0,
+    "ground_ops_per_yr_M": 50.0
+  }
+}

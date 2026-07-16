@@ -1,0 +1,150 @@
+{
+  "seed": 0,
+  "n_trajectories": 10000,
+  "base_year": 2026,
+  "demonstrator_window_year_offset": 9,
+  "priors_swept": {
+    "uniform_beta_1_1": [
+      1.0,
+      1.0
+    ],
+    "jeffreys_beta_0p5_0p5": [
+      0.5,
+      0.5
+    ],
+    "skeptical_beta_0p5_5": [
+      0.5,
+      5.0
+    ]
+  },
+  "fsp_likelihood_factors": [
+    [
+      "phase1_awarded_2022",
+      1.4,
+      0.1
+    ],
+    [
+      "phase1_extended_2024",
+      0.85,
+      0.1
+    ],
+    [
+      "duffy_directive_2025_scope_grew",
+      0.9,
+      0.15
+    ],
+    [
+      "draft_afpp_aug_2025",
+      1.25,
+      0.1
+    ],
+    [
+      "no_phase2_contract_may_2026",
+      0.8,
+      0.1
+    ],
+    [
+      "fy26_budget_zeroed_nep_ntp",
+      0.7,
+      0.15
+    ]
+  ],
+  "p_500kWe_funded_given_fsp": 0.6,
+  "p_megawatt_funded_given_fsp": 0.45,
+  "headline_p_fission_orbit_by_2035_by_prior": {
+    "uniform_beta_1_1": 0.0892,
+    "jeffreys_beta_0p5_0p5": 0.0493,
+    "skeptical_beta_0p5_5": 0.0292
+  },
+  "bracket_ratio_uniform_over_skeptical": 3.0547945205479454,
+  "per_prior_full": {
+    "uniform_beta_1_1": {
+      "alpha_prior": 1.0,
+      "beta_prior": 1.0,
+      "alpha_posterior": 1.0,
+      "beta_posterior": 7.0,
+      "posterior_mean_per_decade_rate": 0.125,
+      "p_fsp_orbit_by_2032": 0.0601,
+      "p_fsp_orbit_by_2035": 0.0892,
+      "p_fsp_orbit_by_2040": 0.13,
+      "p_500kWe_orbit_by_2035": 0.0013,
+      "p_500kWe_orbit_by_2040": 0.0046,
+      "p_megawatt_orbit_by_2040": 0.0013,
+      "p_megawatt_orbit_by_2045": 0.0029,
+      "p_megawatt_ever_in_50yr_horizon": 0.0431,
+      "median_fsp_year_offset_given_success": 19.363709093327614,
+      "median_megawatt_year_offset_given_arrival": 42.94694298086975
+    },
+    "jeffreys_beta_0p5_0p5": {
+      "alpha_prior": 0.5,
+      "beta_prior": 0.5,
+      "alpha_posterior": 0.5,
+      "beta_posterior": 6.5,
+      "posterior_mean_per_decade_rate": 0.07142857142857142,
+      "p_fsp_orbit_by_2032": 0.0344,
+      "p_fsp_orbit_by_2035": 0.0493,
+      "p_fsp_orbit_by_2040": 0.0747,
+      "p_500kWe_orbit_by_2035": 0.0003,
+      "p_500kWe_orbit_by_2040": 0.002,
+      "p_megawatt_orbit_by_2040": 0.0004,
+      "p_megawatt_orbit_by_2045": 0.001,
+      "p_megawatt_ever_in_50yr_horizon": 0.0165,
+      "median_fsp_year_offset_given_success": 20.088725199544825,
+      "median_megawatt_year_offset_given_arrival": 41.58260246534166
+    },
+    "skeptical_beta_0p5_5": {
+      "alpha_prior": 0.5,
+      "beta_prior": 5.0,
+      "alpha_posterior": 0.5,
+      "beta_posterior": 11.0,
+      "posterior_mean_per_decade_rate": 0.043478260869565216,
+      "p_fsp_orbit_by_2032": 0.0196,
+      "p_fsp_orbit_by_2035": 0.0292,
+      "p_fsp_orbit_by_2040": 0.0455,
+      "p_500kWe_orbit_by_2035": 0.0001,
+      "p_500kWe_orbit_by_2040": 0.0003,
+      "p_megawatt_orbit_by_2040": 0.0001,
+      "p_megawatt_orbit_by_2045": 0.0004,
+      "p_megawatt_ever_in_50yr_horizon": 0.0074,
+      "median_fsp_year_offset_given_success": 20.72137061142797,
+      "median_megawatt_year_offset_given_arrival": 39.25441948988824
+    }
+  },
+  "pre_registration_grading": {
+    "H-pbu-a_uniform_p_fission_by_2035": {
+      "measured": 0.0892,
+      "lo": 0.07,
+      "hi": 0.14,
+      "point_estimate": 0.1,
+      "held": true
+    },
+    "H-pbu-b_jeffreys_p_fission_by_2035": {
+      "measured": 0.0493,
+      "lo": 0.04,
+      "hi": 0.09,
+      "point_estimate": 0.06,
+      "held": true
+    },
+    "H-pbu-c_skeptical_p_fission_by_2035": {
+      "measured": 0.0292,
+      "lo": 0.02,
+      "hi": 0.06,
+      "point_estimate": 0.035,
+      "held": true
+    },
+    "H-pbu-d_bracket_ratio_uniform_over_skeptical": {
+      "measured": 3.0547945205479454,
+      "lo": 2.0,
+      "hi": 4.5,
+      "point_estimate": 2.9,
+      "held": true
+    },
+    "H-pbu-e_variant_B_500kWe_overlay_t_uniform": {
+      "measured": 0.11699999999999999,
+      "lo": 10.0,
+      "hi": 35.0,
+      "point_estimate": 18.0,
+      "held": false
+    }
+  }
+}

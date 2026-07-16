@@ -1,0 +1,397 @@
+{
+  "round": "R-revenue-delivery-anchor-refresh",
+  "author": "hyperion (re-spawn 2)",
+  "date": "2026-05-26",
+  "seed": 20260515,
+  "n_samples": 10000,
+  "corrected_anchor": {
+    "delivery_fraction_band": [
+      0.17,
+      0.28
+    ],
+    "chunk_mass_cap_t": 200.0,
+    "delivered_per_mission_band_t": [
+      34,
+      56
+    ],
+    "framework_pin_constraints_off_t": 39.5,
+    "framework_pin_constraints_on_t": 0.0,
+    "source": "R-pitch-arithmetic-audit f9f7fc2 + R-framework-matrix-parity READING.md"
+  },
+  "clearing_price_lognormal_fit": {
+    "mu_log10": 3.7229634243308403,
+    "sigma_log10": 0.6580338582108335,
+    "p05": 419.25897182567496,
+    "p50": 5284.007487348984,
+    "p95": 61266.22501381815
+  },
+  "mission_cost_B_1launch_15reuse": 0.3433333333333333,
+  "anchor_reconciliation": [
+    {
+      "round": "R-LEO-water-demand-curve",
+      "anchor_label": "E_500kWe_200t",
+      "delivered_t_used": 50.0,
+      "in_corrected_band_34_56": true,
+      "captured_t_at_25pct": 200.0,
+      "violates_200t_cap_at_25pct": false,
+      "captured_t_at_17pct": 294.1,
+      "violates_200t_cap_at_17pct": true
+    },
+    {
+      "round": "R-LEO-water-demand-curve",
+      "anchor_label": "E_200kWe_100t",
+      "delivered_t_used": 30.0,
+      "in_corrected_band_34_56": false,
+      "captured_t_at_25pct": 120.0,
+      "violates_200t_cap_at_25pct": false,
+      "captured_t_at_17pct": 176.5,
+      "violates_200t_cap_at_17pct": false
+    },
+    {
+      "round": "R-LEO-water-demand-curve",
+      "anchor_label": "VariantB_500kWe",
+      "delivered_t_used": 80.0,
+      "in_corrected_band_34_56": false,
+      "captured_t_at_25pct": 320.0,
+      "violates_200t_cap_at_25pct": true,
+      "captured_t_at_17pct": 470.6,
+      "violates_200t_cap_at_17pct": true
+    },
+    {
+      "round": "R-clearing-price-tail-integration",
+      "anchor_label": "1-launch architecture (run.py:117)",
+      "delivered_t_used": 42.04,
+      "in_corrected_band_34_56": true,
+      "captured_t_at_25pct": 168.2,
+      "violates_200t_cap_at_25pct": false,
+      "captured_t_at_17pct": 247.3,
+      "violates_200t_cap_at_17pct": true
+    },
+    {
+      "round": "R-pricing-anchor-revisit",
+      "anchor_label": "n/a \u2014 purely $/kg; takes no delivered_t",
+      "delivered_t_used": null,
+      "in_corrected_band_34_56": null,
+      "captured_t_at_25pct": null,
+      "violates_200t_cap_at_25pct": null,
+      "captured_t_at_17pct": null,
+      "violates_200t_cap_at_17pct": null
+    }
+  ],
+  "chunk_cap_check": [
+    {
+      "delivered_t": 0,
+      "fraction": 0.17,
+      "required_captured_t": 0.0,
+      "violates_200t_cap": false
+    },
+    {
+      "delivered_t": 0,
+      "fraction": 0.2,
+      "required_captured_t": 0.0,
+      "violates_200t_cap": false
+    },
+    {
+      "delivered_t": 0,
+      "fraction": 0.25,
+      "required_captured_t": 0.0,
+      "violates_200t_cap": false
+    },
+    {
+      "delivered_t": 0,
+      "fraction": 0.28,
+      "required_captured_t": 0.0,
+      "violates_200t_cap": false
+    },
+    {
+      "delivered_t": 34,
+      "fraction": 0.17,
+      "required_captured_t": 200.0,
+      "violates_200t_cap": false
+    },
+    {
+      "delivered_t": 34,
+      "fraction": 0.2,
+      "required_captured_t": 170.0,
+      "violates_200t_cap": false
+    },
+    {
+      "delivered_t": 34,
+      "fraction": 0.25,
+      "required_captured_t": 136.0,
+      "violates_200t_cap": false
+    },
+    {
+      "delivered_t": 34,
+      "fraction": 0.28,
+      "required_captured_t": 121.4,
+      "violates_200t_cap": false
+    },
+    {
+      "delivered_t": 42,
+      "fraction": 0.17,
+      "required_captured_t": 247.1,
+      "violates_200t_cap": true
+    },
+    {
+      "delivered_t": 42,
+      "fraction": 0.2,
+      "required_captured_t": 210.0,
+      "violates_200t_cap": true
+    },
+    {
+      "delivered_t": 42,
+      "fraction": 0.25,
+      "required_captured_t": 168.0,
+      "violates_200t_cap": false
+    },
+    {
+      "delivered_t": 42,
+      "fraction": 0.28,
+      "required_captured_t": 150.0,
+      "violates_200t_cap": false
+    },
+    {
+      "delivered_t": 50,
+      "fraction": 0.17,
+      "required_captured_t": 294.1,
+      "violates_200t_cap": true
+    },
+    {
+      "delivered_t": 50,
+      "fraction": 0.2,
+      "required_captured_t": 250.0,
+      "violates_200t_cap": true
+    },
+    {
+      "delivered_t": 50,
+      "fraction": 0.25,
+      "required_captured_t": 200.0,
+      "violates_200t_cap": false
+    },
+    {
+      "delivered_t": 50,
+      "fraction": 0.28,
+      "required_captured_t": 178.6,
+      "violates_200t_cap": false
+    },
+    {
+      "delivered_t": 56,
+      "fraction": 0.17,
+      "required_captured_t": 329.4,
+      "violates_200t_cap": true
+    },
+    {
+      "delivered_t": 56,
+      "fraction": 0.2,
+      "required_captured_t": 280.0,
+      "violates_200t_cap": true
+    },
+    {
+      "delivered_t": 56,
+      "fraction": 0.25,
+      "required_captured_t": 224.0,
+      "violates_200t_cap": true
+    },
+    {
+      "delivered_t": 56,
+      "fraction": 0.28,
+      "required_captured_t": 200.0,
+      "violates_200t_cap": false
+    }
+  ],
+  "band_sweep": {
+    "baseline": {
+      "delivered_t_per_arch": {
+        "E_500kWe_200t": 50.0,
+        "E_200kWe_100t": 30.0,
+        "VariantB_500kWe": 80.0
+      },
+      "p_any_npv_pos_sov_3pct_lr15": 0.5114,
+      "p_any_npv_pos_ven_8.7pct_lr15": 0.2914
+    },
+    "sweep": [
+      {
+        "delivered_t": 0,
+        "implied_fraction_at_200t_cap": 0.0,
+        "p_any_npv_pos_sov_3pct_lr15": 0.0,
+        "p_any_npv_pos_ven_8.7pct_lr15": 0.0,
+        "clearing_breakeven": {
+          "delivered_t": 0,
+          "breakeven_m_per_t": null,
+          "breakeven_per_kg": null,
+          "p_price_above": 0.0,
+          "note": "no closing cell (conservative reading) -> zero delivery -> zero revenue"
+        },
+        "per_arch": {
+          "E_500kWe_200t": {
+            "p_npv_pos_sov_3pct_lr15": 0.0,
+            "p_npv_pos_ven_8.7pct_lr15": 0.0,
+            "breakeven_M_sov": 346,
+            "breakeven_M_ven": 1298
+          },
+          "E_200kWe_100t": {
+            "p_npv_pos_sov_3pct_lr15": 0.0,
+            "p_npv_pos_ven_8.7pct_lr15": 0.0,
+            "breakeven_M_sov": 276,
+            "breakeven_M_ven": 983
+          },
+          "VariantB_500kWe": {
+            "p_npv_pos_sov_3pct_lr15": 0.0,
+            "p_npv_pos_ven_8.7pct_lr15": 0.0,
+            "breakeven_M_sov": 407,
+            "breakeven_M_ven": 964
+          }
+        }
+      },
+      {
+        "delivered_t": 34,
+        "implied_fraction_at_200t_cap": 0.17,
+        "p_any_npv_pos_sov_3pct_lr15": 0.3862,
+        "p_any_npv_pos_ven_8.7pct_lr15": 0.1321,
+        "clearing_breakeven": {
+          "delivered_t": 34,
+          "breakeven_m_per_t": 10.098,
+          "breakeven_per_kg": 10098.0,
+          "p_price_above": 0.3345
+        },
+        "per_arch": {
+          "E_500kWe_200t": {
+            "p_npv_pos_sov_3pct_lr15": 0.3309,
+            "p_npv_pos_ven_8.7pct_lr15": 0.0932,
+            "breakeven_M_sov": 346,
+            "breakeven_M_ven": 1298
+          },
+          "E_200kWe_100t": {
+            "p_npv_pos_sov_3pct_lr15": 0.3862,
+            "p_npv_pos_ven_8.7pct_lr15": 0.1297,
+            "breakeven_M_sov": 276,
+            "breakeven_M_ven": 983
+          },
+          "VariantB_500kWe": {
+            "p_npv_pos_sov_3pct_lr15": 0.2927,
+            "p_npv_pos_ven_8.7pct_lr15": 0.1321,
+            "breakeven_M_sov": 407,
+            "breakeven_M_ven": 964
+          }
+        }
+      },
+      {
+        "delivered_t": 42,
+        "implied_fraction_at_200t_cap": 0.21,
+        "p_any_npv_pos_sov_3pct_lr15": 0.4398,
+        "p_any_npv_pos_ven_8.7pct_lr15": 0.1632,
+        "clearing_breakeven": {
+          "delivered_t": 42,
+          "breakeven_m_per_t": 8.175,
+          "breakeven_per_kg": 8174.6,
+          "p_price_above": 0.3867
+        },
+        "per_arch": {
+          "E_500kWe_200t": {
+            "p_npv_pos_sov_3pct_lr15": 0.3815,
+            "p_npv_pos_ven_8.7pct_lr15": 0.1202,
+            "breakeven_M_sov": 346,
+            "breakeven_M_ven": 1298
+          },
+          "E_200kWe_100t": {
+            "p_npv_pos_sov_3pct_lr15": 0.4398,
+            "p_npv_pos_ven_8.7pct_lr15": 0.1597,
+            "breakeven_M_sov": 276,
+            "breakeven_M_ven": 983
+          },
+          "VariantB_500kWe": {
+            "p_npv_pos_sov_3pct_lr15": 0.3434,
+            "p_npv_pos_ven_8.7pct_lr15": 0.1632,
+            "breakeven_M_sov": 407,
+            "breakeven_M_ven": 964
+          }
+        }
+      },
+      {
+        "delivered_t": 50,
+        "implied_fraction_at_200t_cap": 0.25,
+        "p_any_npv_pos_sov_3pct_lr15": 0.4878,
+        "p_any_npv_pos_ven_8.7pct_lr15": 0.1951,
+        "clearing_breakeven": {
+          "delivered_t": 50,
+          "breakeven_m_per_t": 6.867,
+          "breakeven_per_kg": 6866.7,
+          "p_price_above": 0.4314
+        },
+        "per_arch": {
+          "E_500kWe_200t": {
+            "p_npv_pos_sov_3pct_lr15": 0.4282,
+            "p_npv_pos_ven_8.7pct_lr15": 0.1438,
+            "breakeven_M_sov": 346,
+            "breakeven_M_ven": 1298
+          },
+          "E_200kWe_100t": {
+            "p_npv_pos_sov_3pct_lr15": 0.4878,
+            "p_npv_pos_ven_8.7pct_lr15": 0.1916,
+            "breakeven_M_sov": 276,
+            "breakeven_M_ven": 983
+          },
+          "VariantB_500kWe": {
+            "p_npv_pos_sov_3pct_lr15": 0.3855,
+            "p_npv_pos_ven_8.7pct_lr15": 0.1951,
+            "breakeven_M_sov": 407,
+            "breakeven_M_ven": 964
+          }
+        }
+      },
+      {
+        "delivered_t": 56,
+        "implied_fraction_at_200t_cap": 0.28,
+        "p_any_npv_pos_sov_3pct_lr15": 0.5218,
+        "p_any_npv_pos_ven_8.7pct_lr15": 0.2148,
+        "clearing_breakeven": {
+          "delivered_t": 56,
+          "breakeven_m_per_t": 6.131,
+          "breakeven_per_kg": 6131.0,
+          "p_price_above": 0.4609
+        },
+        "per_arch": {
+          "E_500kWe_200t": {
+            "p_npv_pos_sov_3pct_lr15": 0.4574,
+            "p_npv_pos_ven_8.7pct_lr15": 0.1611,
+            "breakeven_M_sov": 346,
+            "breakeven_M_ven": 1298
+          },
+          "E_200kWe_100t": {
+            "p_npv_pos_sov_3pct_lr15": 0.5218,
+            "p_npv_pos_ven_8.7pct_lr15": 0.2112,
+            "breakeven_M_sov": 276,
+            "breakeven_M_ven": 983
+          },
+          "VariantB_500kWe": {
+            "p_npv_pos_sov_3pct_lr15": 0.4142,
+            "p_npv_pos_ven_8.7pct_lr15": 0.2148,
+            "breakeven_M_sov": 407,
+            "breakeven_M_ven": 964
+          }
+        }
+      }
+    ],
+    "verdict_flip": {
+      "viability_threshold_sov": 0.5,
+      "sov_p_any_range_over_corrected_band": [
+        0.3862,
+        0.5218
+      ],
+      "crosses_sov_viability_threshold": true,
+      "ven_p_any_range_over_corrected_band": [
+        0.1321,
+        0.2148
+      ],
+      "ven_clearing_round_h6_bar": 0.05,
+      "ven_stays_above_h6_bar_whole_band": true,
+      "conservative_0t_reading": {
+        "delivered_t": 0,
+        "p_any_npv_pos_any_wacc": 0.0,
+        "note": "matrix-faithful conservative constraints deliver 0 t -> zero revenue -> NPV-negative trivially"
+      },
+      "program_class_verdict_flips": false
+    }
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "round": "R-chunk-capture-monte-carlo",
+  "tier": "Tier 1 (closed-form)",
+  "date": "2026-05-26",
+  "rng_seed": 20260526,
+  "n_samples_per_arch": 8000,
+  "morris_r": 30,
+  "priors_anchored_to": "tier_0_5_spin_prior.md (decameter-marginal: log-uniform 0.0005-0.05 rpm)",
+  "posteriors": {
+    "harpoon": {
+      "architecture": "harpoon",
+      "n_samples": 8000,
+      "median": 0.36540388732107376,
+      "q05": 0.1360016646422821,
+      "q25": 0.28567293890956974,
+      "q75": 0.4232054195575061,
+      "q95": 0.49719050587379604,
+      "mean": 0.34743333933713016,
+      "std": 0.10690950476846849,
+      "stage_medians": {
+        "rendezvous": 0.8798087764183242,
+        "deploy": 0.9325611192279348,
+        "catch": 0.760529978183611,
+        "contain": 0.6776291178487411,
+        "survive": 0.8583768246794657
+      },
+      "stage_variances_contribution": {
+        "rendezvous": 0.003694903645849208,
+        "deploy": 0.0003817815983314375,
+        "catch": 0.03887393716772445,
+        "contain": 0.03644732272920661,
+        "survive": 0.0014883796297027524
+      }
+    },
+    "ramscoop": {
+      "architecture": "ramscoop",
+      "n_samples": 8000,
+      "median": 0.40494819135141424,
+      "q05": 0.32736320988800444,
+      "q25": 0.37064409918599395,
+      "q75": 0.4405987482333417,
+      "q95": 0.4910445185512935,
+      "mean": 0.4066541391781707,
+      "std": 0.05001956126480379,
+      "stage_medians": {
+        "stationkeep": 0.754004615035516,
+        "aperture": 0.917283095569903,
+        "decel": 0.779128396681923,
+        "cinch": 0.8234546431669827,
+        "retain": 0.9163503751984352
+      },
+      "stage_variances_contribution": {
+        "stationkeep": 0.005975395765252049,
+        "aperture": 0.00041475982236219375,
+        "decel": 0.004617293379913822,
+        "cinch": 0.0038191942014364918,
+        "retain": 7.164108900624994e-05
+      }
+    },
+    "everting": {
+      "architecture": "everting",
+      "n_samples": 8000,
+      "median": 0.2462997365251492,
+      "q05": 0.13028061092255827,
+      "q25": 0.19170169903107093,
+      "q75": 0.313207833857277,
+      "q95": 0.4181835322120148,
+      "mean": 0.25655320242817864,
+      "std": 0.08811302339076073,
+      "stage_medians": {
+        "rendezvous": 0.8792995590707818,
+        "eversion": 0.5191060360547483,
+        "envelop": 0.7528492449203759,
+        "cinch": 0.8352802066567123,
+        "carry": 0.8701125163047599
+      },
+      "stage_variances_contribution": {
+        "rendezvous": 0.003746282199195143,
+        "eversion": 0.0718556107056479,
+        "envelop": 0.015291222185474214,
+        "cinch": 0.002977495615041518,
+        "carry": 0.0018655134386039622
+      }
+    }
+  },
+  "morris": {
+    "harpoon": {
+      "architecture": "harpoon",
+      "r": 30,
+      "mu_star": {
+        "chunk_mass_t": 0.08049537400287368,
+        "spin_rate_rpm": 0.38570823984783953,
+        "surface_friction": 0.07258884583271129,
+        "approach_vel_cms": 0.08503903437296437,
+        "sensor_noise_m": 0.06297560358660124,
+        "contact_geom": 0.04603973737029464,
+        "catcher_compliance": 0.009321801113775152,
+        "controller_delay_ms": 0.022171915543649355
+      },
+      "sigma": {
+        "chunk_mass_t": 0.030579506978538142,
+        "spin_rate_rpm": 0.21299319870814282,
+        "surface_friction": 0.029616595682122607,
+        "approach_vel_cms": 0.034056268755850244,
+        "sensor_noise_m": 0.02919398531846338,
+        "contact_geom": 0.01696108201471461,
+        "catcher_compliance": 0.005167025447951569,
+        "controller_delay_ms": 0.011019832820960007
+      },
+      "rank": [
+        "spin_rate_rpm",
+        "approach_vel_cms",
+        "chunk_mass_t",
+        "surface_friction",
+        "sensor_noise_m",
+        "contact_geom",
+        "controller_delay_ms",
+        "catcher_compliance"
+      ]
+    },
+    "ramscoop": {
+      "architecture": "ramscoop",
+      "r": 30,
+      "mu_star": {
+        "chunk_mass_t": 0.026292028468588895,
+        "spin_rate_rpm": 0.05791161201442338,
+        "surface_friction": 0.04097733894287184,
+        "approach_vel_cms": 0.06661390384119777,
+        "sensor_noise_m": 0.09324579514703062,
+        "contact_geom": 0.06884204608493125,
+        "catcher_compliance": 0.05322928806328669,
+        "controller_delay_ms": 0.04661977680985371
+      },
+      "sigma": {
+        "chunk_mass_t": 0.0034932441655252324,
+        "spin_rate_rpm": 0.02692140721951531,
+        "surface_friction": 0.005553927511442671,
+        "approach_vel_cms": 0.010725752784523588,
+        "sensor_noise_m": 0.008468106289315259,
+        "contact_geom": 0.0070760805022301,
+        "catcher_compliance": 0.007710669756638097,
+        "controller_delay_ms": 0.0051574788415236815
+      },
+      "rank": [
+        "sensor_noise_m",
+        "contact_geom",
+        "approach_vel_cms",
+        "spin_rate_rpm",
+        "catcher_compliance",
+        "controller_delay_ms",
+        "surface_friction",
+        "chunk_mass_t"
+      ]
+    },
+    "everting": {
+      "architecture": "everting",
+      "r": 30,
+      "mu_star": {
+        "chunk_mass_t": 0.11830756193971699,
+        "spin_rate_rpm": 0.050750660221363285,
+        "surface_friction": 0.022079109890740925,
+        "approach_vel_cms": 0.016648779568754605,
+        "sensor_noise_m": 0.045064703198236036,
+        "contact_geom": 0.04017924922902541,
+        "catcher_compliance": 0.018386673805581105,
+        "controller_delay_ms": 0.0,
+        "eversion_completion": 0.1439750277096379,
+        "eversion_misalign_deg": 0.16243885181894552
+      },
+      "sigma": {
+        "chunk_mass_t": 0.02284309427606236,
+        "spin_rate_rpm": 0.037954592847485404,
+        "surface_friction": 0.006835655175204959,
+        "approach_vel_cms": 0.005698086232353238,
+        "sensor_noise_m": 0.0159669576331039,
+        "contact_geom": 0.011479686914032224,
+        "catcher_compliance": 0.01980545200773941,
+        "controller_delay_ms": 0.0,
+        "eversion_completion": 0.03139447834008061,
+        "eversion_misalign_deg": 0.02779785685009021
+      },
+      "rank": [
+        "eversion_misalign_deg",
+        "eversion_completion",
+        "chunk_mass_t",
+        "spin_rate_rpm",
+        "sensor_noise_m",
+        "contact_geom",
+        "surface_friction",
+        "catcher_compliance",
+        "approach_vel_cms",
+        "controller_delay_ms"
+      ]
+    }
+  },
+  "h6_verdict": {
+    "threshold": 0.544,
+    "anchor_ref": 0.85,
+    "multiplier": 0.64,
+    "per_architecture": {
+      "harpoon": false,
+      "ramscoop": false,
+      "everting": false
+    },
+    "held": false
+  },
+  "h2_verdict": {
+    "harpoon": {
+      "top_axis": "spin_rate_rpm",
+      "spin_rank": 1,
+      "spin_dominates": true
+    },
+    "ramscoop": {
+      "top_axis": "sensor_noise_m",
+      "spin_rank": 4,
+      "spin_dominates": false
+    },
+    "everting": {
+      "top_axis": "eversion_misalign_deg",
+      "spin_rank": 4,
+      "spin_dominates": false
+    }
+  },
+  "h7_verdict": {
+    "everting_median": 0.2462997365251492,
+    "best_other_median": 0.40494819135141424,
+    "penalty": 0.15864845482626505,
+    "held": false
+  },
+  "h8_verdict": {
+    "dominant_stage": "eversion",
+    "dominant_stage_log_var": 0.0718556107056479,
+    "eversion_kinematics_dominates": true,
+    "all_stage_log_var": {
+      "rendezvous": 0.003746282199195143,
+      "eversion": 0.0718556107056479,
+      "envelop": 0.015291222185474214,
+      "cinch": 0.002977495615041518,
+      "carry": 0.0018655134386039622
+    }
+  }
+}

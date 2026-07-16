@@ -1,0 +1,269 @@
+{
+  "rows": [
+    {
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "delivery_t": 128.8,
+      "irr": 0.020952643347019975,
+      "capex_per_mission_M": 650.0,
+      "n_builds": 37,
+      "n_refurbs": 0,
+      "n_missions": 37,
+      "irr_uplift_pp": 0.0,
+      "capex_reduction_pct": 0.0
+    },
+    {
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "delivery_t": 128.8,
+      "irr": 0.03235931949109261,
+      "capex_per_mission_M": 467.5675675675676,
+      "n_builds": 22,
+      "n_refurbs": 15,
+      "n_missions": 37,
+      "irr_uplift_pp": 1.1406676144072634,
+      "capex_reduction_pct": 28.06652806652806
+    },
+    {
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "delivery_t": 128.8,
+      "irr": 0.02453278235493133,
+      "capex_per_mission_M": 589.1891891891892,
+      "n_builds": 22,
+      "n_refurbs": 15,
+      "n_missions": 37,
+      "irr_uplift_pp": 0.3580139007911355,
+      "capex_reduction_pct": 9.355509355509362
+    },
+    {
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "delivery_t": 128.8,
+      "irr": 0.028193034425135877,
+      "capex_per_mission_M": 560.8108108108108,
+      "n_builds": 15,
+      "n_refurbs": 22,
+      "n_missions": 37,
+      "irr_uplift_pp": 0.7240391078115902,
+      "capex_reduction_pct": 13.721413721413722
+    },
+    {
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "delivery_t": 128.8,
+      "irr": 0.029092871890598532,
+      "capex_per_mission_M": 556.7567567567568,
+      "n_builds": 14,
+      "n_refurbs": 23,
+      "n_missions": 37,
+      "irr_uplift_pp": 0.8140228543578556,
+      "capex_reduction_pct": 14.34511434511434
+    },
+    {
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "delivery_t": 200.0,
+      "irr": 0.05377883749929399,
+      "capex_per_mission_M": 650.0,
+      "n_builds": 37,
+      "n_refurbs": 0,
+      "n_missions": 37,
+      "irr_uplift_pp": 0.0,
+      "capex_reduction_pct": 0.0
+    },
+    {
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "delivery_t": 200.0,
+      "irr": 0.06333952533958465,
+      "capex_per_mission_M": 467.5675675675676,
+      "n_builds": 22,
+      "n_refurbs": 15,
+      "n_missions": 37,
+      "irr_uplift_pp": 0.9560687840290655,
+      "capex_reduction_pct": 28.06652806652806
+    },
+    {
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "delivery_t": 200.0,
+      "irr": 0.05697692215751175,
+      "capex_per_mission_M": 589.1891891891892,
+      "n_builds": 22,
+      "n_refurbs": 15,
+      "n_missions": 37,
+      "irr_uplift_pp": 0.3198084658217762,
+      "capex_reduction_pct": 9.355509355509362
+    },
+    {
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "delivery_t": 200.0,
+      "irr": 0.05849395463563989,
+      "capex_per_mission_M": 560.8108108108108,
+      "n_builds": 15,
+      "n_refurbs": 22,
+      "n_missions": 37,
+      "irr_uplift_pp": 0.47151171363458977,
+      "capex_reduction_pct": 13.721413721413722
+    },
+    {
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "delivery_t": 200.0,
+      "irr": 0.058804423845678966,
+      "capex_per_mission_M": 556.7567567567568,
+      "n_builds": 14,
+      "n_refurbs": 23,
+      "n_missions": 37,
+      "irr_uplift_pp": 0.5025586346384975,
+      "capex_reduction_pct": 14.34511434511434
+    },
+    {
+      "scenario": "single_use_baseline",
+      "reuse_factor": 1,
+      "refurb_cost_M": 0.0,
+      "delivery_t": 482.0,
+      "irr": 0.11774295959690162,
+      "capex_per_mission_M": 650.0,
+      "n_builds": 37,
+      "n_refurbs": 0,
+      "n_missions": 37,
+      "irr_uplift_pp": 0.0,
+      "capex_reduction_pct": 0.0
+    },
+    {
+      "scenario": "reuse_2x_basic_200M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 200.0,
+      "delivery_t": 482.0,
+      "irr": 0.12276542952778235,
+      "capex_per_mission_M": 467.5675675675676,
+      "n_builds": 22,
+      "n_refurbs": 15,
+      "n_missions": 37,
+      "irr_uplift_pp": 0.5022469930880735,
+      "capex_reduction_pct": 28.06652806652806
+    },
+    {
+      "scenario": "reuse_2x_reactor_500M",
+      "reuse_factor": 2,
+      "refurb_cost_M": 500.0,
+      "delivery_t": 482.0,
+      "irr": 0.11944412893857742,
+      "capex_per_mission_M": 589.1891891891892,
+      "n_builds": 22,
+      "n_refurbs": 15,
+      "n_missions": 37,
+      "irr_uplift_pp": 0.17011693416758011,
+      "capex_reduction_pct": 9.355509355509362
+    },
+    {
+      "scenario": "reuse_3x_two_reactor_swaps",
+      "reuse_factor": 3,
+      "refurb_cost_M": 500.0,
+      "delivery_t": 482.0,
+      "irr": 0.11973878323106912,
+      "capex_per_mission_M": 560.8108108108108,
+      "n_builds": 15,
+      "n_refurbs": 22,
+      "n_missions": 37,
+      "irr_uplift_pp": 0.1995823634167504,
+      "capex_reduction_pct": 13.721413721413722
+    },
+    {
+      "scenario": "reuse_4x_three_reactor_swaps",
+      "reuse_factor": 4,
+      "refurb_cost_M": 500.0,
+      "delivery_t": 482.0,
+      "irr": 0.11977485895563322,
+      "capex_per_mission_M": 556.7567567567568,
+      "n_builds": 14,
+      "n_refurbs": 23,
+      "n_missions": 37,
+      "irr_uplift_pp": 0.20318993587316037,
+      "capex_reduction_pct": 14.34511434511434
+    }
+  ],
+  "grading": {
+    "H-ph12-a": {
+      "observed_pct": 28.07,
+      "predicted_pct": [
+        35,
+        45
+      ],
+      "verdict": "wrong-and-load-bearing",
+      "note": "2x reuse + $200M basic refurb: capex 28.1% lower"
+    },
+    "H-ph12-b": {
+      "observed_pct": 9.36,
+      "predicted_pct": [
+        10,
+        25
+      ],
+      "verdict": "wrong-but-informative",
+      "note": "2x reuse + $500M reactor-swap: capex 9.4% lower"
+    },
+    "H-ph12-c": {
+      "observed_pp": 0.32,
+      "predicted_pp": [
+        0.6,
+        1.4
+      ],
+      "verdict": "wrong-but-informative",
+      "note": "2x reuse + reactor-swap at 200 t/ship: +0.32pp"
+    },
+    "H-ph12-d": {
+      "observed_pp": 0.472,
+      "predicted_pp": [
+        1.0,
+        2.0
+      ],
+      "verdict": "wrong-and-load-bearing",
+      "note": "3x reuse + 2 reactor swaps at 200 t/ship: +0.47pp"
+    },
+    "H-ph12-e": {
+      "observed_pp": 0.956,
+      "predicted_pp": [
+        1.8,
+        2.8
+      ],
+      "verdict": "wrong-and-load-bearing",
+      "note": "2x reuse + basic refurb at 200 t/ship: +0.96pp (upside case)"
+    },
+    "H-ph12-f": {
+      "max_irr_at_200t": 6.33,
+      "threshold_pct": 4.0,
+      "verdict": "falsified",
+      "note": "max IRR at 200 t/ship across all reuse scenarios: 6.33%"
+    },
+    "H-ph12-g": {
+      "max_irr_at_482t_pct": 12.28,
+      "predicted_pct": [
+        9.5,
+        11.5
+      ],
+      "verdict": "held",
+      "note": "max IRR at 482 t/ship with reuse: 12.28%"
+    }
+  },
+  "constants": {
+    "ship_cost_new_M": 650.0,
+    "round_trip_yr": 14.5,
+    "horizon_yr": 45,
+    "price_per_kg": 10000.0,
+    "sovereign_amount_M": 2000.0,
+    "sovereign_year": 11
+  }
+}

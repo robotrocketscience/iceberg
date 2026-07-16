@@ -1,0 +1,26 @@
+{
+  "total_round_directories": 136,
+  "rounds_that_call_flagged_functions": 13,
+  "rounds_with_incorrect_call_site": 3,
+  "rounds_with_ambiguous_call_site": 2,
+  "tier_a_count": 0,
+  "tier_b_count": 3,
+  "tier_c_count": 0,
+  "library_functions_catalogued": 15,
+  "round_local_definitions_found": 20,
+  "total_call_sites": 41,
+  "seed_function_redefinitions": {
+    "burn_from_dry_end": 6,
+    "burn_from_wet": 6,
+    "constant_thrust_burn": 6,
+    "edelbaum_spiral": 0,
+    "edelbaum_spiral_dv_km_s": 1,
+    "impulsive_burn": 1,
+    "spiral_burn": 0
+  },
+  "formula_variants": {
+    "dry_at_end": 7,
+    "wet_at_start": 11,
+    "other": 2
+  }
+}

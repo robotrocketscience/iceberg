@@ -1,0 +1,623 @@
+{
+  "inputs": {
+    "grappled_chunk_t": 14.0,
+    "dry_spacecraft_t": 5.0,
+    "reactor_specific_power_w_per_kg": 5.0,
+    "duty": 0.5,
+    "case_B_chunkfed_km_s": 5.94,
+    "case_C_chunkfed_km_s": 2.85,
+    "saturn_egress_km_s": 2.09
+  },
+  "single_prop_sweep": {
+    "case_B_chunkfed_5.94km_s": {
+      "Kilopower_10kWe": [
+        {
+          "candidate_id": "C1",
+          "candidate_name": "Water resistojet",
+          "isp_s": 200.0,
+          "v_e_m_s": 1961.33,
+          "power_kwe": 10.0,
+          "reactor_mass_t": 2.0,
+          "m0_t": 21.0,
+          "inbound_dv_km_s": 5.94,
+          "prop_req_t": 19.983906588707086,
+          "delivered_chunk_t": 0.0,
+          "delivery_frac": 0.0,
+          "thrust_N": 7.1380134908454975,
+          "cruise_time_yr_estimate": 0.5805576774641665
+        },
+        {
+          "candidate_id": "C2",
+          "candidate_name": "Water microwave electrothermal",
+          "isp_s": 500.0,
+          "v_e_m_s": 4903.325,
+          "power_kwe": 10.0,
+          "reactor_mass_t": 2.0,
+          "m0_t": 21.0,
+          "inbound_dv_km_s": 5.94,
+          "prop_req_t": 14.746760954993528,
+          "delivered_chunk_t": 0.0,
+          "delivery_frac": 0.0,
+          "thrust_N": 1.2236594555735139,
+          "cruise_time_yr_estimate": 4.192181073876113
+        },
+        {
+          "candidate_id": "C3",
+          "candidate_name": "Water Hall thruster",
+          "isp_s": 1500.0,
+          "v_e_m_s": 14709.974999999999,
+          "power_kwe": 10.0,
+          "reactor_mass_t": 2.0,
+          "m0_t": 21.0,
+          "inbound_dv_km_s": 5.94,
+          "prop_req_t": 6.976775929746029,
+          "delivered_chunk_t": 7.023224070253971,
+          "delivery_frac": 0.501658862160998,
+          "thrust_N": 0.7477918895171475,
+          "cruise_time_yr_estimate": 8.815721260999899
+        },
+        {
+          "candidate_id": "C4",
+          "candidate_name": "Water radio-frequency ion (Pale Blue class)",
+          "isp_s": 2000.0,
+          "v_e_m_s": 19613.3,
+          "power_kwe": 10.0,
+          "reactor_mass_t": 2.0,
+          "m0_t": 21.0,
+          "inbound_dv_km_s": 5.94,
+          "prop_req_t": 5.487180874525352,
+          "delivered_chunk_t": 8.512819125474648,
+          "delivery_frac": 0.6080585089624748,
+          "thrust_N": 0.6628155384356533,
+          "cruise_time_yr_estimate": 10.368959128218806
+        },
+        {
+          "candidate_id": "C5",
+          "candidate_name": "Water dual-ion (electrolyzed)",
+          "isp_s": 5000.0,
+          "v_e_m_s": 49033.25,
+          "power_kwe": 10.0,
+          "reactor_mass_t": 2.0,
+          "m0_t": 21.0,
+          "inbound_dv_km_s": 5.94,
+          "prop_req_t": 2.3959341368901974,
+          "delivered_chunk_t": 11.604065863109803,
+          "delivery_frac": 0.8288618473649859,
+          "thrust_N": 0.22433756685514422,
+          "cruise_time_yr_estimate": 33.229227626323215
+        }
+      ],
+      "FissionSurfacePower_40kWe": [
+        {
+          "candidate_id": "C1",
+          "candidate_name": "Water resistojet",
+          "isp_s": 200.0,
+          "v_e_m_s": 1961.33,
+          "power_kwe": 40.0,
+          "reactor_mass_t": 8.0,
+          "m0_t": 27.0,
+          "inbound_dv_km_s": 5.94,
+          "prop_req_t": 25.69359418548054,
+          "delivered_chunk_t": 0.0,
+          "delivery_frac": 0.0,
+          "thrust_N": 28.55205396338199,
+          "cruise_time_yr_estimate": 0.1866078248991964
+        },
+        {
+          "candidate_id": "C2",
+          "candidate_name": "Water microwave electrothermal",
+          "isp_s": 500.0,
+          "v_e_m_s": 4903.325,
+          "power_kwe": 40.0,
+          "reactor_mass_t": 8.0,
+          "m0_t": 27.0,
+          "inbound_dv_km_s": 5.94,
+          "prop_req_t": 18.960121227848823,
+          "delivered_chunk_t": 0.0,
+          "delivery_frac": 0.0,
+          "thrust_N": 4.894637822294055,
+          "cruise_time_yr_estimate": 1.3474867737458933
+        },
+        {
+          "candidate_id": "C3",
+          "candidate_name": "Water Hall thruster",
+          "isp_s": 1500.0,
+          "v_e_m_s": 14709.974999999999,
+          "power_kwe": 40.0,
+          "reactor_mass_t": 8.0,
+          "m0_t": 27.0,
+          "inbound_dv_km_s": 5.94,
+          "prop_req_t": 8.970140481102037,
+          "delivered_chunk_t": 5.029859518897963,
+          "delivery_frac": 0.35927567992128306,
+          "thrust_N": 2.99116755806859,
+          "cruise_time_yr_estimate": 2.833624691035682
+        },
+        {
+          "candidate_id": "C4",
+          "candidate_name": "Water radio-frequency ion (Pale Blue class)",
+          "isp_s": 2000.0,
+          "v_e_m_s": 19613.3,
+          "power_kwe": 40.0,
+          "reactor_mass_t": 8.0,
+          "m0_t": 27.0,
+          "inbound_dv_km_s": 5.94,
+          "prop_req_t": 7.054946838675454,
+          "delivered_chunk_t": 6.945053161324546,
+          "delivery_frac": 0.4960752258088962,
+          "thrust_N": 2.6512621537426133,
+          "cruise_time_yr_estimate": 3.3328797197846165
+        },
+        {
+          "candidate_id": "C5",
+          "candidate_name": "Water dual-ion (electrolyzed)",
+          "isp_s": 5000.0,
+          "v_e_m_s": 49033.25,
+          "power_kwe": 40.0,
+          "reactor_mass_t": 8.0,
+          "m0_t": 27.0,
+          "inbound_dv_km_s": 5.94,
+          "prop_req_t": 3.0804867474302533,
+          "delivered_chunk_t": 10.919513252569747,
+          "delivery_frac": 0.7799652323264105,
+          "thrust_N": 0.8973502674205769,
+          "cruise_time_yr_estimate": 10.680823165603888
+        }
+      ],
+      "subMW_100kWe": [
+        {
+          "candidate_id": "C1",
+          "candidate_name": "Water resistojet",
+          "isp_s": 200.0,
+          "v_e_m_s": 1961.33,
+          "power_kwe": 100.0,
+          "reactor_mass_t": 20.0,
+          "m0_t": 39.0,
+          "inbound_dv_km_s": 5.94,
+          "prop_req_t": 37.11296937902744,
+          "delivered_chunk_t": 0.0,
+          "delivery_frac": 0.0,
+          "thrust_N": 71.38013490845498,
+          "cruise_time_yr_estimate": 0.10781785438620237
+        },
+        {
+          "candidate_id": "C2",
+          "candidate_name": "Water microwave electrothermal",
+          "isp_s": 500.0,
+          "v_e_m_s": 4903.325,
+          "power_kwe": 100.0,
+          "reactor_mass_t": 20.0,
+          "m0_t": 39.0,
+          "inbound_dv_km_s": 5.94,
+          "prop_req_t": 27.38684177355941,
+          "delivered_chunk_t": 0.0,
+          "delivery_frac": 0.0,
+          "thrust_N": 12.23659455573514,
+          "cruise_time_yr_estimate": 0.7785479137198493
+        },
+        {
+          "candidate_id": "C3",
+          "candidate_name": "Water Hall thruster",
+          "isp_s": 1500.0,
+          "v_e_m_s": 14709.974999999999,
+          "power_kwe": 100.0,
+          "reactor_mass_t": 20.0,
+          "m0_t": 39.0,
+          "inbound_dv_km_s": 5.94,
+          "prop_req_t": 12.956869583814052,
+          "delivered_chunk_t": 1.0431304161859476,
+          "delivery_frac": 0.0745093154418534,
+          "thrust_N": 7.4779188951714755,
+          "cruise_time_yr_estimate": 1.637205377042838
+        },
+        {
+          "candidate_id": "C4",
+          "candidate_name": "Water radio-frequency ion (Pale Blue class)",
+          "isp_s": 2000.0,
+          "v_e_m_s": 19613.3,
+          "power_kwe": 100.0,
+          "reactor_mass_t": 20.0,
+          "m0_t": 39.0,
+          "inbound_dv_km_s": 5.94,
+          "prop_req_t": 10.190478766975655,
+          "delivered_chunk_t": 3.809521233024345,
+          "delivery_frac": 0.2721086595017389,
+          "thrust_N": 6.628155384356534,
+          "cruise_time_yr_estimate": 1.925663838097778
+        },
+        {
+          "candidate_id": "C5",
+          "candidate_name": "Water dual-ion (electrolyzed)",
+          "isp_s": 5000.0,
+          "v_e_m_s": 49033.25,
+          "power_kwe": 100.0,
+          "reactor_mass_t": 20.0,
+          "m0_t": 39.0,
+          "inbound_dv_km_s": 5.94,
+          "prop_req_t": 4.449591968510366,
+          "delivered_chunk_t": 9.550408031489635,
+          "delivery_frac": 0.6821720022492597,
+          "thrust_N": 2.2433756685514425,
+          "cruise_time_yr_estimate": 6.171142273460026
+        }
+      ]
+    },
+    "case_C_chunkfed_2.85km_s": {
+      "Kilopower_10kWe": [
+        {
+          "candidate_id": "C1",
+          "candidate_name": "Water resistojet",
+          "isp_s": 200.0,
+          "v_e_m_s": 1961.33,
+          "power_kwe": 10.0,
+          "reactor_mass_t": 2.0,
+          "m0_t": 21.0,
+          "inbound_dv_km_s": 2.85,
+          "prop_req_t": 16.089249240809647,
+          "delivered_chunk_t": 0.0,
+          "delivery_frac": 0.0,
+          "thrust_N": 7.1380134908454975,
+          "cruise_time_yr_estimate": 0.32782609858433476
+        },
+        {
+          "candidate_id": "C2",
+          "candidate_name": "Water microwave electrothermal",
+          "isp_s": 500.0,
+          "v_e_m_s": 4903.325,
+          "power_kwe": 10.0,
+          "reactor_mass_t": 2.0,
+          "m0_t": 21.0,
+          "inbound_dv_km_s": 2.85,
+          "prop_req_t": 9.2566843680729,
+          "delivered_chunk_t": 4.7433156319271,
+          "delivery_frac": 0.3388082594233643,
+          "thrust_N": 1.2236594555735139,
+          "cruise_time_yr_estimate": 2.416590016586702
+        },
+        {
+          "candidate_id": "C3",
+          "candidate_name": "Water Hall thruster",
+          "isp_s": 1500.0,
+          "v_e_m_s": 14709.974999999999,
+          "power_kwe": 10.0,
+          "reactor_mass_t": 2.0,
+          "m0_t": 21.0,
+          "inbound_dv_km_s": 2.85,
+          "prop_req_t": 3.698791453246338,
+          "delivered_chunk_t": 10.301208546753662,
+          "delivery_frac": 0.7358006104824044,
+          "thrust_N": 0.7477918895171475,
+          "cruise_time_yr_estimate": 4.6256484176372386
+        },
+        {
+          "candidate_id": "C4",
+          "candidate_name": "Water radio-frequency ion (Pale Blue class)",
+          "isp_s": 2000.0,
+          "v_e_m_s": 19613.3,
+          "power_kwe": 10.0,
+          "reactor_mass_t": 2.0,
+          "m0_t": 21.0,
+          "inbound_dv_km_s": 2.85,
+          "prop_req_t": 2.840154283055894,
+          "delivered_chunk_t": 11.159845716944107,
+          "delivery_frac": 0.797131836924579,
+          "thrust_N": 0.6628155384356533,
+          "cruise_time_yr_estimate": 5.335672732498909
+        },
+        {
+          "candidate_id": "C5",
+          "candidate_name": "Water dual-ion (electrolyzed)",
+          "isp_s": 5000.0,
+          "v_e_m_s": 49033.25,
+          "power_kwe": 10.0,
+          "reactor_mass_t": 2.0,
+          "m0_t": 21.0,
+          "inbound_dv_km_s": 2.85,
+          "prop_req_t": 1.1858047314170697,
+          "delivered_chunk_t": 12.81419526858293,
+          "delivery_frac": 0.9152996620416378,
+          "thrust_N": 0.22433756685514422,
+          "cruise_time_yr_estimate": 16.430475253437713
+        }
+      ],
+      "FissionSurfacePower_40kWe": [
+        {
+          "candidate_id": "C1",
+          "candidate_name": "Water resistojet",
+          "isp_s": 200.0,
+          "v_e_m_s": 1961.33,
+          "power_kwe": 40.0,
+          "reactor_mass_t": 8.0,
+          "m0_t": 27.0,
+          "inbound_dv_km_s": 2.85,
+          "prop_req_t": 20.686177595326686,
+          "delivered_chunk_t": 0.0,
+          "delivery_frac": 0.0,
+          "thrust_N": 28.55205396338199,
+          "cruise_time_yr_estimate": 0.10537267454496475
+        },
+        {
+          "candidate_id": "C2",
+          "candidate_name": "Water microwave electrothermal",
+          "isp_s": 500.0,
+          "v_e_m_s": 4903.325,
+          "power_kwe": 40.0,
+          "reactor_mass_t": 8.0,
+          "m0_t": 27.0,
+          "inbound_dv_km_s": 2.85,
+          "prop_req_t": 11.901451330379443,
+          "delivered_chunk_t": 2.0985486696205573,
+          "delivery_frac": 0.14989633354432552,
+          "thrust_N": 4.894637822294055,
+          "cruise_time_yr_estimate": 0.7767610767600113
+        },
+        {
+          "candidate_id": "C3",
+          "candidate_name": "Water Hall thruster",
+          "isp_s": 1500.0,
+          "v_e_m_s": 14709.974999999999,
+          "power_kwe": 40.0,
+          "reactor_mass_t": 8.0,
+          "m0_t": 27.0,
+          "inbound_dv_km_s": 2.85,
+          "prop_req_t": 4.7555890113167205,
+          "delivered_chunk_t": 9.24441098868328,
+          "delivery_frac": 0.6603150706202342,
+          "thrust_N": 2.99116755806859,
+          "cruise_time_yr_estimate": 1.4868155628119695
+        },
+        {
+          "candidate_id": "C4",
+          "candidate_name": "Water radio-frequency ion (Pale Blue class)",
+          "isp_s": 2000.0,
+          "v_e_m_s": 19613.3,
+          "power_kwe": 40.0,
+          "reactor_mass_t": 8.0,
+          "m0_t": 27.0,
+          "inbound_dv_km_s": 2.85,
+          "prop_req_t": 3.651626935357578,
+          "delivered_chunk_t": 10.348373064642422,
+          "delivery_frac": 0.7391695046173158,
+          "thrust_N": 2.6512621537426133,
+          "cruise_time_yr_estimate": 1.7150376640175067
+        },
+        {
+          "candidate_id": "C5",
+          "candidate_name": "Water dual-ion (electrolyzed)",
+          "isp_s": 5000.0,
+          "v_e_m_s": 49033.25,
+          "power_kwe": 40.0,
+          "reactor_mass_t": 8.0,
+          "m0_t": 27.0,
+          "inbound_dv_km_s": 2.85,
+          "prop_req_t": 1.5246060832505184,
+          "delivered_chunk_t": 12.475393916749482,
+          "delivery_frac": 0.8910995654821059,
+          "thrust_N": 0.8973502674205769,
+          "cruise_time_yr_estimate": 5.2812241886049796
+        }
+      ],
+      "subMW_100kWe": [
+        {
+          "candidate_id": "C1",
+          "candidate_name": "Water resistojet",
+          "isp_s": 200.0,
+          "v_e_m_s": 1961.33,
+          "power_kwe": 100.0,
+          "reactor_mass_t": 20.0,
+          "m0_t": 39.0,
+          "inbound_dv_km_s": 2.85,
+          "prop_req_t": 29.88003430436077,
+          "delivered_chunk_t": 0.0,
+          "delivery_frac": 0.0,
+          "thrust_N": 71.38013490845498,
+          "cruise_time_yr_estimate": 0.06088198973709074
+        },
+        {
+          "candidate_id": "C2",
+          "candidate_name": "Water microwave electrothermal",
+          "isp_s": 500.0,
+          "v_e_m_s": 4903.325,
+          "power_kwe": 100.0,
+          "reactor_mass_t": 20.0,
+          "m0_t": 39.0,
+          "inbound_dv_km_s": 2.85,
+          "prop_req_t": 17.19098525499253,
+          "delivered_chunk_t": 0.0,
+          "delivery_frac": 0.0,
+          "thrust_N": 12.23659455573514,
+          "cruise_time_yr_estimate": 0.4487952887946731
+        },
+        {
+          "candidate_id": "C3",
+          "candidate_name": "Water Hall thruster",
+          "isp_s": 1500.0,
+          "v_e_m_s": 14709.974999999999,
+          "power_kwe": 100.0,
+          "reactor_mass_t": 20.0,
+          "m0_t": 39.0,
+          "inbound_dv_km_s": 2.85,
+          "prop_req_t": 6.869184127457485,
+          "delivered_chunk_t": 7.130815872542515,
+          "delivery_frac": 0.5093439908958939,
+          "thrust_N": 7.4779188951714755,
+          "cruise_time_yr_estimate": 0.8590489918469156
+        },
+        {
+          "candidate_id": "C4",
+          "candidate_name": "Water radio-frequency ion (Pale Blue class)",
+          "isp_s": 2000.0,
+          "v_e_m_s": 19613.3,
+          "power_kwe": 100.0,
+          "reactor_mass_t": 20.0,
+          "m0_t": 39.0,
+          "inbound_dv_km_s": 2.85,
+          "prop_req_t": 5.274572239960946,
+          "delivered_chunk_t": 8.725427760039054,
+          "delivery_frac": 0.6232448400027896,
+          "thrust_N": 6.628155384356534,
+          "cruise_time_yr_estimate": 0.9909106503212258
+        },
+        {
+          "candidate_id": "C5",
+          "candidate_name": "Water dual-ion (electrolyzed)",
+          "isp_s": 5000.0,
+          "v_e_m_s": 49033.25,
+          "power_kwe": 100.0,
+          "reactor_mass_t": 20.0,
+          "m0_t": 39.0,
+          "inbound_dv_km_s": 2.85,
+          "prop_req_t": 2.2022087869174154,
+          "delivered_chunk_t": 11.797791213082585,
+          "delivery_frac": 0.8426993723630417,
+          "thrust_N": 2.2433756685514425,
+          "cruise_time_yr_estimate": 3.0513739756384317
+        }
+      ]
+    }
+  },
+  "split_prop_sweep": {
+    "case_B_chunkfed_5.94km_s": {
+      "inbound_braking_dv_km_s": 3.8500000000000005,
+      "per_power_class": {
+        "Kilopower_10kWe": {
+          "infeasible": false,
+          "xenon_loaded_t": 2.9,
+          "xenon_tank_t": 0.29,
+          "earth_launch_extra_t": 3.19,
+          "reactor_mass_t": 2.0,
+          "m0_egress_t": 24.189999999999998,
+          "water_used_egress_t": 8.39492871158465,
+          "chunk_after_egress_t": 5.605071288415351,
+          "m0_inbound_t": 15.79507128841535,
+          "inbound_dv_after_lga_km_s": 3.8500000000000005,
+          "xenon_needed_t": 2.8151638961928778,
+          "xenon_remaining_t": 0.08483610380712214,
+          "delivered_chunk_t": 5.605071288415351,
+          "delivery_frac": 0.4003622348868108
+        },
+        "FissionSurfacePower_40kWe": {
+          "infeasible": false,
+          "xenon_loaded_t": 3.7,
+          "xenon_tank_t": 0.37000000000000005,
+          "earth_launch_extra_t": 4.07,
+          "reactor_mass_t": 8.0,
+          "m0_egress_t": 31.07,
+          "water_used_egress_t": 10.782572760187477,
+          "chunk_after_egress_t": 3.2174272398125225,
+          "m0_inbound_t": 20.287427239812523,
+          "inbound_dv_after_lga_km_s": 3.8500000000000005,
+          "xenon_needed_t": 3.615838869562328,
+          "xenon_remaining_t": 0.08416113043767215,
+          "delivered_chunk_t": 3.2174272398125225,
+          "delivery_frac": 0.22981623141518018
+        },
+        "subMW_100kWe": {
+          "infeasible": true,
+          "reason": "no feasible xenon mass found"
+        }
+      }
+    },
+    "case_C_chunkfed_2.85km_s": {
+      "inbound_braking_dv_km_s": 0.7600000000000002,
+      "per_power_class": {
+        "Kilopower_10kWe": {
+          "infeasible": false,
+          "xenon_loaded_t": 0.6,
+          "xenon_tank_t": 0.06,
+          "earth_launch_extra_t": 0.6599999999999999,
+          "reactor_mass_t": 2.0,
+          "m0_egress_t": 21.66,
+          "water_used_egress_t": 7.516914257665296,
+          "chunk_after_egress_t": 6.483085742334704,
+          "m0_inbound_t": 14.143085742334705,
+          "inbound_dv_after_lga_km_s": 0.7600000000000002,
+          "xenon_needed_t": 0.5375513788718707,
+          "xenon_remaining_t": 0.06244862112812932,
+          "delivered_chunk_t": 6.483085742334704,
+          "delivery_frac": 0.4630775530239074
+        },
+        "FissionSurfacePower_40kWe": {
+          "infeasible": false,
+          "xenon_loaded_t": 0.7,
+          "xenon_tank_t": 0.06999999999999999,
+          "earth_launch_extra_t": 0.7699999999999999,
+          "reactor_mass_t": 8.0,
+          "m0_egress_t": 27.77,
+          "water_used_egress_t": 9.637336515944842,
+          "chunk_after_egress_t": 4.362663484055158,
+          "m0_inbound_t": 18.132663484055158,
+          "inbound_dv_after_lga_km_s": 0.7600000000000002,
+          "xenon_needed_t": 0.6891875249894666,
+          "xenon_remaining_t": 0.010812475010533396,
+          "delivered_chunk_t": 4.362663484055158,
+          "delivery_frac": 0.31161882028965415
+        },
+        "subMW_100kWe": {
+          "infeasible": false,
+          "xenon_loaded_t": 1.0,
+          "xenon_tank_t": 0.1,
+          "earth_launch_extra_t": 1.1,
+          "reactor_mass_t": 20.0,
+          "m0_egress_t": 40.1,
+          "water_used_egress_t": 13.916355573978688,
+          "chunk_after_egress_t": 0.08364442602131206,
+          "m0_inbound_t": 26.183644426021313,
+          "inbound_dv_after_lga_km_s": 0.7600000000000002,
+          "xenon_needed_t": 0.9951897642087725,
+          "xenon_remaining_t": 0.004810235791227524,
+          "delivered_chunk_t": 0.08364442602131206,
+          "delivery_frac": 0.005974601858665147
+        }
+      }
+    }
+  },
+  "hypothesis_grading": {
+    "H10a_C1_resistojet": {
+      "predicted": "0% delivery (\u2264 0.1 t)",
+      "measured_delivered_t": 0.0,
+      "held": true
+    },
+    "H10b_C2_microwave_electrothermal": {
+      "predicted_range_t": [
+        0.014000000000000002,
+        0.7
+      ],
+      "measured_delivered_t": 0.0,
+      "held": false
+    },
+    "H10c_C3_hall": {
+      "predicted_range_t": [
+        5.6000000000000005,
+        9.1
+      ],
+      "measured_delivered_t": 7.023224070253971,
+      "held": true
+    },
+    "H10d_C4_rf_ion": {
+      "predicted_range_t": [
+        8.4,
+        11.200000000000001
+      ],
+      "measured_delivered_t": 8.512819125474648,
+      "held": true
+    },
+    "H10e_C5_dual_ion": {
+      "predicted_range_t": [
+        11.200000000000001,
+        13.299999999999999
+      ],
+      "measured_delivered_t": 11.604065863109803,
+      "held": true
+    },
+    "H10f_C6_split_prop": {
+      "predicted_range_t": [
+        9.799999999999999,
+        12.6
+      ],
+      "measured_delivered_t": 5.605071288415351,
+      "earth_launch_extra_t": 3.19,
+      "held": false
+    }
+  }
+}

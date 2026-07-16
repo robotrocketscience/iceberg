@@ -1,0 +1,309 @@
+{
+  "config": {
+    "isp_electric_s": 2000.0,
+    "isp_hydrolox_s": 450.0,
+    "dv_inbound_km_s": 6.42,
+    "dv_chem_conservative_km_s": 9.0,
+    "dv_chem_realistic_km_s": 5.0,
+    "chunk_t": 200.0,
+    "m_kick_dry_t": 10.0,
+    "ceiling_yr": 15.0,
+    "soft_margin_yr": 1.0,
+    "marvl_model": {
+      "m_fixed_t": 5.0,
+      "alpha_reactor_W_per_kg": 33.0,
+      "alpha_PC_W_per_kg": 50.0,
+      "alpha_radiator_kW_th_per_kg": 0.047,
+      "eta_conv": 0.3,
+      "f_tank": 0.05
+    }
+  },
+  "rows_conservative_dv_chem_9km_s": [
+    {
+      "reactor_kwe": 500.0,
+      "chunk_t": 200.0,
+      "isp_electric_s": 2000.0,
+      "dv_chem_km_s": 9.0,
+      "dv_inbound_km_s": 6.42,
+      "m_kick_dry_t": 10.0,
+      "tug_breakdown": {
+        "m_fixed_t": 5.0,
+        "m_reactor_t": 15.151515151515152,
+        "m_PC_t": 10.0,
+        "m_radiator_t": 24.822695035460995,
+        "m_tank_t": 0.0,
+        "total_t": 54.97421018697615,
+        "radiator_fraction_of_total": 0.45153345452413063
+      },
+      "m_tug_t_with_tank": 58.58343207769656,
+      "m_kick_prop_t": 458.5656604833499,
+      "m_LEO_mission1_t": 527.1490925610465,
+      "m_LEO_missionN_t": 68.58343207769656,
+      "leo_multiplier_mission1": 2.6357454628052324,
+      "mass_ratio_chem": 7.686245447207304,
+      "mass_ratio_inbound": 1.3872576772597904,
+      "thrust_inbound_N": 33.14077692178267,
+      "m_prop_inbound_t": 72.18444051581972,
+      "delivered_t": 127.81555948418028,
+      "delivered_fraction": 0.6390777974209014,
+      "t_outbound_burn_yr": 0.0,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 1.3537161603968284,
+      "round_trip_yr": 14.525431314856604,
+      "closes_strict_15yr": true,
+      "closes_soft_16yr": true,
+      "expected_delivered_t_uniform": 0.16616022732943436,
+      "expected_delivered_t_jeffreys": 0.03834466784525408,
+      "expected_delivered_t_skeptical": 0.012781555948418028
+    },
+    {
+      "reactor_kwe": 750.0,
+      "chunk_t": 200.0,
+      "isp_electric_s": 2000.0,
+      "dv_chem_km_s": 9.0,
+      "dv_inbound_km_s": 6.42,
+      "m_kick_dry_t": 10.0,
+      "tug_breakdown": {
+        "m_fixed_t": 5.0,
+        "m_reactor_t": 22.727272727272727,
+        "m_PC_t": 15.0,
+        "m_radiator_t": 37.234042553191486,
+        "m_tank_t": 0.0,
+        "total_t": 79.96131528046422,
+        "radiator_fraction_of_total": 0.46565070149975807
+      },
+      "m_tug_t_with_tank": 83.92423571435499,
+      "m_kick_prop_t": 628.0004934275318,
+      "m_LEO_mission1_t": 721.9247291418867,
+      "m_LEO_missionN_t": 93.92423571435499,
+      "leo_multiplier_mission1": 3.6096236457094335,
+      "mass_ratio_chem": 7.686245447207304,
+      "mass_ratio_inbound": 1.3872576772597904,
+      "thrust_inbound_N": 49.711165382674004,
+      "m_prop_inbound_t": 79.25841164396151,
+      "delivered_t": 120.74158835603849,
+      "delivered_fraction": 0.6037079417801925,
+      "t_outbound_burn_yr": 0.0,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 0.990918928632556,
+      "round_trip_yr": 14.162634083092332,
+      "closes_strict_15yr": true,
+      "closes_soft_16yr": true,
+      "expected_delivered_t_uniform": 0.15696406486285003,
+      "expected_delivered_t_jeffreys": 0.03622247650681155,
+      "expected_delivered_t_skeptical": 0.01207415883560385
+    },
+    {
+      "reactor_kwe": 1000.0,
+      "chunk_t": 200.0,
+      "isp_electric_s": 2000.0,
+      "dv_chem_km_s": 9.0,
+      "dv_inbound_km_s": 6.42,
+      "m_kick_dry_t": 10.0,
+      "tug_breakdown": {
+        "m_fixed_t": 5.0,
+        "m_reactor_t": 30.303030303030305,
+        "m_PC_t": 20.0,
+        "m_radiator_t": 49.64539007092199,
+        "m_tank_t": 0.0,
+        "total_t": 104.9484203739523,
+        "radiator_fraction_of_total": 0.4730456151128859
+      },
+      "m_tug_t_with_tank": 109.26503935101344,
+      "m_kick_prop_t": 797.4353263717135,
+      "m_LEO_mission1_t": 916.7003657227269,
+      "m_LEO_missionN_t": 119.26503935101344,
+      "leo_multiplier_mission1": 4.583501828613635,
+      "mass_ratio_chem": 7.686245447207304,
+      "mass_ratio_inbound": 1.3872576772597904,
+      "thrust_inbound_N": 66.28155384356533,
+      "m_prop_inbound_t": 86.3323827721033,
+      "delivered_t": 113.6676172278967,
+      "delivered_fraction": 0.5683380861394834,
+      "t_outbound_burn_yr": 0.0,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 0.8095203127504202,
+      "round_trip_yr": 13.981235467210197,
+      "closes_strict_15yr": true,
+      "closes_soft_16yr": true,
+      "expected_delivered_t_uniform": 0.1477679023962657,
+      "expected_delivered_t_jeffreys": 0.03410028516836901,
+      "expected_delivered_t_skeptical": 0.01136676172278967
+    }
+  ],
+  "rows_realistic_dv_chem_5km_s": [
+    {
+      "reactor_kwe": 500.0,
+      "chunk_t": 200.0,
+      "isp_electric_s": 2000.0,
+      "dv_chem_km_s": 5.0,
+      "dv_inbound_km_s": 6.42,
+      "m_kick_dry_t": 10.0,
+      "tug_breakdown": {
+        "m_fixed_t": 5.0,
+        "m_reactor_t": 15.151515151515152,
+        "m_PC_t": 10.0,
+        "m_radiator_t": 24.822695035460995,
+        "m_tank_t": 0.0,
+        "total_t": 54.97421018697615,
+        "radiator_fraction_of_total": 0.45153345452413063
+      },
+      "m_tug_t_with_tank": 58.58343207769656,
+      "m_kick_prop_t": 144.36904001160318,
+      "m_LEO_mission1_t": 212.95247208929973,
+      "m_LEO_missionN_t": 68.58343207769656,
+      "leo_multiplier_mission1": 1.0647623604464986,
+      "mass_ratio_chem": 3.1050133485307483,
+      "mass_ratio_inbound": 1.3872576772597904,
+      "thrust_inbound_N": 33.14077692178267,
+      "m_prop_inbound_t": 72.18444051581972,
+      "delivered_t": 127.81555948418028,
+      "delivered_fraction": 0.6390777974209014,
+      "t_outbound_burn_yr": 0.0,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 1.3537161603968284,
+      "round_trip_yr": 14.525431314856604,
+      "closes_strict_15yr": true,
+      "closes_soft_16yr": true,
+      "expected_delivered_t_uniform": 0.16616022732943436,
+      "expected_delivered_t_jeffreys": 0.03834466784525408,
+      "expected_delivered_t_skeptical": 0.012781555948418028
+    },
+    {
+      "reactor_kwe": 750.0,
+      "chunk_t": 200.0,
+      "isp_electric_s": 2000.0,
+      "dv_chem_km_s": 5.0,
+      "dv_inbound_km_s": 6.42,
+      "m_kick_dry_t": 10.0,
+      "tug_breakdown": {
+        "m_fixed_t": 5.0,
+        "m_reactor_t": 22.727272727272727,
+        "m_PC_t": 15.0,
+        "m_radiator_t": 37.234042553191486,
+        "m_tank_t": 0.0,
+        "total_t": 79.96131528046422,
+        "radiator_fraction_of_total": 0.46565070149975807
+      },
+      "m_tug_t_with_tank": 83.92423571435499,
+      "m_kick_prop_t": 197.7117699292657,
+      "m_LEO_mission1_t": 291.6360056436207,
+      "m_LEO_missionN_t": 93.92423571435499,
+      "leo_multiplier_mission1": 1.4581800282181034,
+      "mass_ratio_chem": 3.1050133485307483,
+      "mass_ratio_inbound": 1.3872576772597904,
+      "thrust_inbound_N": 49.711165382674004,
+      "m_prop_inbound_t": 79.25841164396151,
+      "delivered_t": 120.74158835603849,
+      "delivered_fraction": 0.6037079417801925,
+      "t_outbound_burn_yr": 0.0,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 0.990918928632556,
+      "round_trip_yr": 14.162634083092332,
+      "closes_strict_15yr": true,
+      "closes_soft_16yr": true,
+      "expected_delivered_t_uniform": 0.15696406486285003,
+      "expected_delivered_t_jeffreys": 0.03622247650681155,
+      "expected_delivered_t_skeptical": 0.01207415883560385
+    },
+    {
+      "reactor_kwe": 1000.0,
+      "chunk_t": 200.0,
+      "isp_electric_s": 2000.0,
+      "dv_chem_km_s": 5.0,
+      "dv_inbound_km_s": 6.42,
+      "m_kick_dry_t": 10.0,
+      "tug_breakdown": {
+        "m_fixed_t": 5.0,
+        "m_reactor_t": 30.303030303030305,
+        "m_PC_t": 20.0,
+        "m_radiator_t": 49.64539007092199,
+        "m_tank_t": 0.0,
+        "total_t": 104.9484203739523,
+        "radiator_fraction_of_total": 0.4730456151128859
+      },
+      "m_tug_t_with_tank": 109.26503935101344,
+      "m_kick_prop_t": 251.05449984692825,
+      "m_LEO_mission1_t": 370.3195391979417,
+      "m_LEO_missionN_t": 119.26503935101344,
+      "leo_multiplier_mission1": 1.8515976959897085,
+      "mass_ratio_chem": 3.1050133485307483,
+      "mass_ratio_inbound": 1.3872576772597904,
+      "thrust_inbound_N": 66.28155384356533,
+      "m_prop_inbound_t": 86.3323827721033,
+      "delivered_t": 113.6676172278967,
+      "delivered_fraction": 0.5683380861394834,
+      "t_outbound_burn_yr": 0.0,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 0.8095203127504202,
+      "round_trip_yr": 13.981235467210197,
+      "closes_strict_15yr": true,
+      "closes_soft_16yr": true,
+      "expected_delivered_t_uniform": 0.1477679023962657,
+      "expected_delivered_t_jeffreys": 0.03410028516836901,
+      "expected_delivered_t_skeptical": 0.01136676172278967
+    }
+  ],
+  "programmatic_risk_overlay_priors": {
+    "p_500kWe_avail_by_2035_uniform": 0.0013,
+    "p_500kWe_avail_by_2035_jeffreys": 0.0003,
+    "p_500kWe_avail_by_2035_skeptical": 0.0001
+  },
+  "hypothesis_grading": {
+    "H-vbs-a_500kWe_round_trip": {
+      "predicted_round_trip_yr": [
+        12.5,
+        14.5
+      ],
+      "point": 13.5,
+      "actual_round_trip_yr": 14.525431314856604,
+      "held": false
+    },
+    "H-vbs-b_500kWe_delivered": {
+      "predicted_delivered_t": [
+        80.0,
+        110.0
+      ],
+      "point": 95.0,
+      "actual_delivered_t": 127.81555948418028,
+      "held": false
+    },
+    "H-vbs-c_1000kWe_slope": {
+      "predicted_round_trip_yr_at_1000": [
+        12.0,
+        13.5
+      ],
+      "predicted_delivered_t_at_1000": [
+        100.0,
+        125.0
+      ],
+      "actual_round_trip_yr_at_1000": 13.981235467210197,
+      "actual_delivered_t_at_1000": 113.6676172278967,
+      "held": false
+    },
+    "H-vbs-d_500kWe_LEO_launch_mass": {
+      "predicted_LEO_t": [
+        350.0,
+        550.0
+      ],
+      "point": 450.0,
+      "actual_LEO_mission1_t": 527.1490925610465,
+      "held": true
+    },
+    "H-vbs-e_expected_delivered_500kWe_uniform": {
+      "predicted_expected_delivered_t": [
+        0.1,
+        0.15
+      ],
+      "point": 0.12,
+      "actual_expected_delivered_t_uniform": 0.16616022732943436,
+      "held": false
+    }
+  }
+}

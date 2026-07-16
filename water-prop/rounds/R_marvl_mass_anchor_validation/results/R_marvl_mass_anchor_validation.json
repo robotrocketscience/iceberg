@@ -1,0 +1,299 @@
+{
+  "config": {
+    "isp_electric_s": 2000.0,
+    "chunk_t": 200.0,
+    "dv_inbound_km_s": 19.9,
+    "dv_chem_outbound_km_s": 5.0,
+    "radiator_surface_conductance_W_th_per_m2": 700.0
+  },
+  "parameterizations": {
+    "pessimistic": {
+      "pct_reactor": 0.31,
+      "pct_pc": 0.21,
+      "pct_radiator": 0.45,
+      "eta_conv": 0.27,
+      "m_fixed_t": 5.0,
+      "total_t_at_1mwe": 166.66666666666683,
+      "alpha_reactor_W_per_kg": 19.354838709677402,
+      "alpha_PC_W_per_kg": 28.57142857142854,
+      "alpha_radiator_kW_th_per_kg": 0.03604938271604934,
+      "f_tank": 0.05
+    },
+    "rhea_baseline": {
+      "m_fixed_t": 5.0,
+      "alpha_reactor_W_per_kg": 33.0,
+      "alpha_PC_W_per_kg": 50.0,
+      "alpha_radiator_kW_th_per_kg": 0.047,
+      "eta_conv": 0.3,
+      "f_tank": 0.05
+    },
+    "optimistic": {
+      "pct_reactor": 0.28,
+      "pct_pc": 0.18,
+      "pct_radiator": 0.46,
+      "eta_conv": 0.32,
+      "m_fixed_t": 5.0,
+      "total_t_at_1mwe": 62.499999999999986,
+      "alpha_reactor_W_per_kg": 57.14285714285715,
+      "alpha_PC_W_per_kg": 88.88888888888891,
+      "alpha_radiator_kW_th_per_kg": 0.07391304347826086,
+      "f_tank": 0.05
+    }
+  },
+  "mass_breakdowns_at_1mwe": {
+    "pessimistic": {
+      "m_fixed_t": 5.0,
+      "m_reactor_t": 51.666666666666714,
+      "m_PC_t": 35.000000000000036,
+      "m_radiator_t": 75.00000000000007,
+      "m_tank_t": 0.0,
+      "total_t": 166.6666666666668,
+      "p_th_waste_kw": 2703.7037037037035,
+      "fractions": {
+        "reactor": 0.31000000000000005,
+        "PC": 0.21000000000000005,
+        "radiator": 0.45000000000000007
+      }
+    },
+    "rhea_baseline": {
+      "m_fixed_t": 5.0,
+      "m_reactor_t": 30.303030303030305,
+      "m_PC_t": 20.0,
+      "m_radiator_t": 49.64539007092199,
+      "m_tank_t": 0.0,
+      "total_t": 104.9484203739523,
+      "p_th_waste_kw": 2333.3333333333335,
+      "fractions": {
+        "reactor": 0.288742128705268,
+        "PC": 0.19056980494547687,
+        "radiator": 0.4730456151128859
+      }
+    },
+    "optimistic": {
+      "m_fixed_t": 5.0,
+      "m_reactor_t": 17.499999999999996,
+      "m_PC_t": 11.249999999999996,
+      "m_radiator_t": 28.749999999999996,
+      "m_tank_t": 0.0,
+      "total_t": 62.499999999999986,
+      "p_th_waste_kw": 2124.9999999999995,
+      "fractions": {
+        "reactor": 0.28,
+        "PC": 0.18,
+        "radiator": 0.4600000000000001
+      }
+    }
+  },
+  "variant_C_closures": {
+    "pessimistic": [
+      {
+        "feasible": true,
+        "reactor_kwe": 500.0,
+        "m_tug_t": 95.24361769295265,
+        "m_outbound_kick_prop_t": 221.53922009133217,
+        "m_LEO_mission1_t": 326.7828377842848,
+        "m_prop_inbound_t": 188.205687192385,
+        "delivered_t": 11.794312807615,
+        "delivered_fraction": 0.058971564038075,
+        "thrust_inbound_N": 33.14077692178267,
+        "mass_ratio_inbound": 2.758308506563939,
+        "t_inbound_burn_yr": 3.5295290565435047,
+        "round_trip_yr": 16.70124421100328,
+        "closes_strict_15yr": false,
+        "closes_soft_16yr": false,
+        "closes_double_soft_17yr": true,
+        "parameterization": "pessimistic"
+      },
+      {
+        "feasible": false,
+        "reason": "electric inbound burn requires 208.0 t but chunk has 200.0 t",
+        "reactor_kwe": 750.0,
+        "m_tug_t": 126.25000000000011,
+        "round_trip_yr": Infinity,
+        "delivered_t": -Infinity,
+        "parameterization": "pessimistic"
+      },
+      {
+        "feasible": false,
+        "reason": "electric inbound burn requires 233.7 t but chunk has 200.0 t",
+        "reactor_kwe": 1000.0,
+        "m_tug_t": 166.6666666666668,
+        "round_trip_yr": Infinity,
+        "delivered_t": -Infinity,
+        "parameterization": "pessimistic"
+      }
+    ],
+    "rhea_baseline": [
+      {
+        "feasible": true,
+        "reactor_kwe": 500.0,
+        "m_tug_t": 63.368541926552034,
+        "m_outbound_kick_prop_t": 154.4417601176299,
+        "m_LEO_mission1_t": 227.81030204418195,
+        "m_prop_inbound_t": 167.88663479151762,
+        "delivered_t": 32.11336520848238,
+        "delivered_fraction": 0.1605668260424119,
+        "thrust_inbound_N": 33.14077692178267,
+        "mass_ratio_inbound": 2.758308506563939,
+        "t_inbound_burn_yr": 3.148474228072874,
+        "round_trip_yr": 16.32018938253265,
+        "closes_strict_15yr": false,
+        "closes_soft_16yr": false,
+        "closes_double_soft_17yr": true,
+        "parameterization": "rhea_baseline"
+      },
+      {
+        "feasible": true,
+        "reactor_kwe": 750.0,
+        "m_tug_t": 89.17827943142231,
+        "m_outbound_kick_prop_t": 208.77160208745653,
+        "m_LEO_mission1_t": 307.94988151887884,
+        "m_prop_inbound_t": 184.33928301916168,
+        "delivered_t": 15.660716980838316,
+        "delivered_fraction": 0.07830358490419158,
+        "thrust_inbound_N": 49.711165382674004,
+        "mass_ratio_inbound": 2.758308506563939,
+        "t_inbound_burn_yr": 2.304680109598916,
+        "round_trip_yr": 15.476395264058691,
+        "closes_strict_15yr": false,
+        "closes_soft_16yr": true,
+        "closes_double_soft_17yr": true,
+        "parameterization": "rhea_baseline"
+      },
+      {
+        "feasible": false,
+        "reason": "electric inbound burn requires 200.6 t but chunk has 200.0 t",
+        "reactor_kwe": 1000.0,
+        "m_tug_t": 114.6680257105341,
+        "round_trip_yr": Infinity,
+        "delivered_t": -Infinity,
+        "parameterization": "rhea_baseline"
+      }
+    ],
+    "optimistic": [
+      {
+        "feasible": true,
+        "reactor_kwe": 500.0,
+        "m_tug_t": 41.44558239904722,
+        "m_outbound_kick_prop_t": 108.2936376729329,
+        "m_LEO_mission1_t": 159.73922007198013,
+        "m_prop_inbound_t": 153.91164798094454,
+        "delivered_t": 46.08835201905546,
+        "delivered_fraction": 0.2304417600952773,
+        "thrust_inbound_N": 33.14077692178267,
+        "mass_ratio_inbound": 2.758308506563939,
+        "t_inbound_burn_yr": 2.886393295511524,
+        "round_trip_yr": 16.0581084499713,
+        "closes_strict_15yr": false,
+        "closes_soft_16yr": false,
+        "closes_double_soft_17yr": true,
+        "parameterization": "optimistic"
+      },
+      {
+        "feasible": true,
+        "reactor_kwe": 750.0,
+        "m_tug_t": 56.29384014016511,
+        "m_outbound_kick_prop_t": 139.54941842041111,
+        "m_LEO_mission1_t": 205.84325856057623,
+        "m_prop_inbound_t": 163.37680280330213,
+        "delivered_t": 36.62319719669787,
+        "delivered_fraction": 0.18311598598348935,
+        "thrust_inbound_N": 49.711165382674004,
+        "mass_ratio_inbound": 2.758308506563939,
+        "t_inbound_burn_yr": 2.0425991770375678,
+        "round_trip_yr": 15.214314331497345,
+        "closes_strict_15yr": false,
+        "closes_soft_16yr": true,
+        "closes_double_soft_17yr": true,
+        "parameterization": "optimistic"
+      },
+      {
+        "feasible": true,
+        "reactor_kwe": 1000.0,
+        "m_tug_t": 71.14209788128296,
+        "m_outbound_kick_prop_t": 170.8051991678892,
+        "m_LEO_mission1_t": 251.94729704917216,
+        "m_prop_inbound_t": 172.84195762565966,
+        "delivered_t": 27.15804237434034,
+        "delivered_fraction": 0.1357902118717017,
+        "thrust_inbound_N": 66.28155384356533,
+        "mass_ratio_inbound": 2.758308506563939,
+        "t_inbound_burn_yr": 1.6207021178005885,
+        "round_trip_yr": 14.792417272260366,
+        "closes_strict_15yr": true,
+        "closes_soft_16yr": true,
+        "closes_double_soft_17yr": true,
+        "parameterization": "optimistic"
+      }
+    ]
+  },
+  "radiator_areal_density_at_500kwe": {
+    "pessimistic": {
+      "m_radiator_t": 37.500000000000036,
+      "p_th_waste_kw": 1351.8518518518517,
+      "radiator_area_m2": 1931.216931216931,
+      "implied_areal_density_kg_per_m2": 19.417808219178102,
+      "alpha_radiator_kW_th_per_kg": 0.03604938271604934,
+      "eta_conv": 0.27
+    },
+    "rhea_baseline": {
+      "m_radiator_t": 24.822695035460995,
+      "p_th_waste_kw": 1166.6666666666667,
+      "radiator_area_m2": 1666.6666666666667,
+      "implied_areal_density_kg_per_m2": 14.893617021276595,
+      "alpha_radiator_kW_th_per_kg": 0.047,
+      "eta_conv": 0.3
+    },
+    "optimistic": {
+      "m_radiator_t": 14.374999999999998,
+      "p_th_waste_kw": 1062.4999999999998,
+      "radiator_area_m2": 1517.8571428571424,
+      "implied_areal_density_kg_per_m2": 9.47058823529412,
+      "alpha_radiator_kW_th_per_kg": 0.07391304347826086,
+      "eta_conv": 0.32
+    }
+  },
+  "hypothesis_grading": {
+    "H-mmav-a_pessimistic_1mwe_mass": {
+      "predicted_range_t": [
+        130.0,
+        160.0
+      ],
+      "point_t": 145.0,
+      "actual_t": 166.6666666666668,
+      "held": false
+    },
+    "H-mmav-b_optimistic_1mwe_mass": {
+      "predicted_range_t": [
+        70.0,
+        95.0
+      ],
+      "point_t": 80.0,
+      "actual_t": 62.499999999999986,
+      "held": false
+    },
+    "H-mmav-c_pessimistic_500kwe_closure": {
+      "predicted": "closes \u00b12 yr soft margin with delivered 10-30 t, round-trip 16.5-17.0 yr",
+      "actual_round_trip_yr": 16.70124421100328,
+      "actual_delivered_t": 11.794312807615,
+      "actual_closes_double_soft": true,
+      "held": true
+    },
+    "H-mmav-d_optimistic_500kwe_closure": {
+      "predicted": "closes with delivered 40-55 t, round-trip 16.0-16.3 yr",
+      "actual_round_trip_yr": 16.0581084499713,
+      "actual_delivered_t": 46.08835201905546,
+      "actual_closes_soft": false,
+      "held": true
+    },
+    "H-mmav-e_rhea_areal_density": {
+      "predicted_range_kg_per_m2": [
+        2.5,
+        3.5
+      ],
+      "point_kg_per_m2": 3.0,
+      "actual_kg_per_m2": 14.893617021276595,
+      "held": false
+    }
+  }
+}

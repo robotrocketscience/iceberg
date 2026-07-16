@@ -1,0 +1,345 @@
+{
+  "round": "R-megawatt-aerocapture-engineering-closure",
+  "author": "rhea",
+  "date": "2026-05-15",
+  "branch": "iceberg-rhea-2",
+  "scope_predecessor": "water-prop/rounds/R_chunk_as_heat_shield_revisit/SCOPE.md",
+  "calibration_predecessor": "water-prop/rounds/R_chunk_as_heat_shield/STUDY.md",
+  "constants": {
+    "atmospheric_density_at_90km_kgpm3": 3.4e-06,
+    "ice_density_kgpm3": 917.0,
+    "heat_flux_calibration_v_mps": 12600.0,
+    "heat_flux_calibration_q_MWm2": 3.0,
+    "ablation_enthalpy_MJpkg_blocked": 25.0,
+    "tug_mass_t_1MWe_MARVL": 104.9,
+    "v_exhaust_kmps": 19.62,
+    "thrust_N": 71.35575942915392,
+    "mass_flow_kgps": 0.003636888859793778,
+    "dv_outbound_cont_thrust_kmps": 29.56,
+    "dv_inbound_post_rescue_kmps": 9.24,
+    "pulse_duration_s": 200.0,
+    "pulse_effective_integration_s": 60.0,
+    "cp_cm_offset_fraction": 0.1
+  },
+  "module_1_attitude_stability": [
+    {
+      "aspect_ratio": 1.5,
+      "half_length_m": 4.893108616456474,
+      "frontal_area_m2": 33.43005315352948,
+      "entry_velocity_mps": 12500,
+      "dynamic_pressure_Pa": 265.625,
+      "torque_Nm": 2172.505452562704,
+      "rcs_thrust_required_per_pair_N": 443.9928934453133,
+      "rcs_thrust_closure": {
+        "rcs_1N": false,
+        "rcs_10N": false,
+        "rcs_100N": false,
+        "rcs_1000N": true
+      },
+      "rcs_propellant_per_pulse_kg": 39.35583862476739
+    },
+    {
+      "aspect_ratio": 1.5,
+      "half_length_m": 4.893108616456474,
+      "frontal_area_m2": 33.43005315352948,
+      "entry_velocity_mps": 13000,
+      "dynamic_pressure_Pa": 287.3,
+      "torque_Nm": 2349.781897491821,
+      "rcs_thrust_required_per_pair_N": 480.222713550451,
+      "rcs_thrust_closure": {
+        "rcs_1N": false,
+        "rcs_10N": false,
+        "rcs_100N": false,
+        "rcs_1000N": true
+      },
+      "rcs_propellant_per_pulse_kg": 42.56727505654842
+    },
+    {
+      "aspect_ratio": 1.5,
+      "half_length_m": 4.893108616456474,
+      "frontal_area_m2": 33.43005315352948,
+      "entry_velocity_mps": 14000,
+      "dynamic_pressure_Pa": 333.20000000000005,
+      "torque_Nm": 2725.1908396946565,
+      "rcs_thrust_required_per_pair_N": 556.9446855378012,
+      "rcs_thrust_closure": {
+        "rcs_1N": false,
+        "rcs_10N": false,
+        "rcs_100N": false,
+        "rcs_1000N": true
+      },
+      "rcs_propellant_per_pulse_kg": 49.36796397090823
+    },
+    {
+      "aspect_ratio": 2.0,
+      "half_length_m": 5.927578953284959,
+      "frontal_area_m2": 27.595900859908674,
+      "entry_velocity_mps": 12500,
+      "dynamic_pressure_Pa": 265.625,
+      "torque_Nm": 2172.5054525627033,
+      "rcs_thrust_required_per_pair_N": 366.50805829566207,
+      "rcs_thrust_closure": {
+        "rcs_1N": false,
+        "rcs_10N": false,
+        "rcs_100N": false,
+        "rcs_1000N": true
+      },
+      "rcs_propellant_per_pulse_kg": 32.48752898955476
+    },
+    {
+      "aspect_ratio": 2.0,
+      "half_length_m": 5.927578953284959,
+      "frontal_area_m2": 27.595900859908674,
+      "entry_velocity_mps": 13000,
+      "dynamic_pressure_Pa": 287.3,
+      "torque_Nm": 2349.78189749182,
+      "rcs_thrust_required_per_pair_N": 396.41511585258814,
+      "rcs_thrust_closure": {
+        "rcs_1N": false,
+        "rcs_10N": false,
+        "rcs_100N": false,
+        "rcs_1000N": true
+      },
+      "rcs_propellant_per_pulse_kg": 35.13851135510243
+    },
+    {
+      "aspect_ratio": 2.0,
+      "half_length_m": 5.927578953284959,
+      "frontal_area_m2": 27.595900859908674,
+      "entry_velocity_mps": 14000,
+      "dynamic_pressure_Pa": 333.20000000000005,
+      "torque_Nm": 2725.190839694655,
+      "rcs_thrust_required_per_pair_N": 459.7477083260785,
+      "rcs_thrust_closure": {
+        "rcs_1N": false,
+        "rcs_10N": false,
+        "rcs_100N": false,
+        "rcs_1000N": true
+      },
+      "rcs_propellant_per_pulse_kg": 40.752356364497494
+    },
+    {
+      "aspect_ratio": 2.5,
+      "half_length_m": 6.878346069981398,
+      "frontal_area_m2": 23.781426446107183,
+      "entry_velocity_mps": 12500,
+      "dynamic_pressure_Pa": 265.625,
+      "torque_Nm": 2172.5054525627042,
+      "rcs_thrust_required_per_pair_N": 315.847069987361,
+      "rcs_thrust_closure": {
+        "rcs_1N": false,
+        "rcs_10N": false,
+        "rcs_100N": false,
+        "rcs_1000N": true
+      },
+      "rcs_propellant_per_pulse_kg": 27.99690377940531
+    },
+    {
+      "aspect_ratio": 2.5,
+      "half_length_m": 6.878346069981398,
+      "frontal_area_m2": 23.781426446107183,
+      "entry_velocity_mps": 13000,
+      "dynamic_pressure_Pa": 287.3,
+      "torque_Nm": 2349.781897491821,
+      "rcs_thrust_required_per_pair_N": 341.62019089832967,
+      "rcs_thrust_closure": {
+        "rcs_1N": false,
+        "rcs_10N": false,
+        "rcs_100N": false,
+        "rcs_1000N": true
+      },
+      "rcs_propellant_per_pulse_kg": 30.281451127804782
+    },
+    {
+      "aspect_ratio": 2.5,
+      "half_length_m": 6.878346069981398,
+      "frontal_area_m2": 23.781426446107183,
+      "entry_velocity_mps": 14000,
+      "dynamic_pressure_Pa": 333.20000000000005,
+      "torque_Nm": 2725.1908396946565,
+      "rcs_thrust_required_per_pair_N": 396.1985645921457,
+      "rcs_thrust_closure": {
+        "rcs_1N": false,
+        "rcs_10N": false,
+        "rcs_100N": false,
+        "rcs_1000N": true
+      },
+      "rcs_propellant_per_pulse_kg": 35.119316100886024
+    },
+    {
+      "aspect_ratio": 3.0,
+      "half_length_m": 7.767325765157668,
+      "frontal_area_m2": 21.059613833618133,
+      "entry_velocity_mps": 12500,
+      "dynamic_pressure_Pa": 265.625,
+      "torque_Nm": 2172.505452562704,
+      "rcs_thrust_required_per_pair_N": 279.6979962277408,
+      "rcs_thrust_closure": {
+        "rcs_1N": false,
+        "rcs_10N": false,
+        "rcs_100N": false,
+        "rcs_1000N": true
+      },
+      "rcs_propellant_per_pulse_kg": 24.79262475980506
+    },
+    {
+      "aspect_ratio": 3.0,
+      "half_length_m": 7.767325765157668,
+      "frontal_area_m2": 21.059613833618133,
+      "entry_velocity_mps": 13000,
+      "dynamic_pressure_Pa": 287.3,
+      "torque_Nm": 2349.781897491821,
+      "rcs_thrust_required_per_pair_N": 302.52135271992455,
+      "rcs_thrust_closure": {
+        "rcs_1N": false,
+        "rcs_10N": false,
+        "rcs_100N": false,
+        "rcs_1000N": true
+      },
+      "rcs_propellant_per_pulse_kg": 26.81570294020516
+    },
+    {
+      "aspect_ratio": 3.0,
+      "half_length_m": 7.767325765157668,
+      "frontal_area_m2": 21.059613833618133,
+      "entry_velocity_mps": 14000,
+      "dynamic_pressure_Pa": 333.20000000000005,
+      "torque_Nm": 2725.190839694656,
+      "rcs_thrust_required_per_pair_N": 350.85316646807814,
+      "rcs_thrust_closure": {
+        "rcs_1N": false,
+        "rcs_10N": false,
+        "rcs_100N": false,
+        "rcs_1000N": true
+      },
+      "rcs_propellant_per_pulse_kg": 31.099868498699472
+    }
+  ],
+  "module_2_ablation": [
+    {
+      "chunk_mass_t": 100,
+      "windward_area_m2": 25.0,
+      "entry_velocity_mps": 12500,
+      "peak_heat_flux_MWm2": 2.9291368222774117,
+      "integrated_heat_load_MJm2": 175.74820933664472,
+      "ablation_mass_kg": 175.7482093366447,
+      "ablation_fraction": 0.0017574820933664468
+    },
+    {
+      "chunk_mass_t": 100,
+      "windward_area_m2": 25.0,
+      "entry_velocity_mps": 13000,
+      "peak_heat_flux_MWm2": 3.29488056245426,
+      "integrated_heat_load_MJm2": 197.6928337472556,
+      "ablation_mass_kg": 197.6928337472556,
+      "ablation_fraction": 0.001976928337472556
+    },
+    {
+      "chunk_mass_t": 100,
+      "windward_area_m2": 25.0,
+      "entry_velocity_mps": 14000,
+      "peak_heat_flux_MWm2": 4.1152263374485605,
+      "integrated_heat_load_MJm2": 246.91358024691365,
+      "ablation_mass_kg": 246.91358024691365,
+      "ablation_fraction": 0.0024691358024691366
+    },
+    {
+      "chunk_mass_t": 200,
+      "windward_area_m2": 39.685026299204985,
+      "entry_velocity_mps": 12500,
+      "peak_heat_flux_MWm2": 2.9291368222774117,
+      "integrated_heat_load_MJm2": 175.74820933664472,
+      "ablation_mass_kg": 278.9828923825171,
+      "ablation_fraction": 0.0013949144619125856
+    },
+    {
+      "chunk_mass_t": 200,
+      "windward_area_m2": 39.685026299204985,
+      "entry_velocity_mps": 13000,
+      "peak_heat_flux_MWm2": 3.29488056245426,
+      "integrated_heat_load_MJm2": 197.6928337472556,
+      "ablation_mass_kg": 313.8178122569679,
+      "ablation_fraction": 0.0015690890612848395
+    },
+    {
+      "chunk_mass_t": 200,
+      "windward_area_m2": 39.685026299204985,
+      "entry_velocity_mps": 14000,
+      "peak_heat_flux_MWm2": 4.1152263374485605,
+      "integrated_heat_load_MJm2": 246.91358024691365,
+      "ablation_mass_kg": 391.95087702918516,
+      "ablation_fraction": 0.0019597543851459258
+    },
+    {
+      "chunk_mass_t": 500,
+      "windward_area_m2": 73.10044345532165,
+      "entry_velocity_mps": 12500,
+      "peak_heat_flux_MWm2": 2.9291368222774117,
+      "integrated_heat_load_MJm2": 175.74820933664472,
+      "ablation_mass_kg": 513.8908815594972,
+      "ablation_fraction": 0.0010277817631189944
+    },
+    {
+      "chunk_mass_t": 500,
+      "windward_area_m2": 73.10044345532165,
+      "entry_velocity_mps": 13000,
+      "peak_heat_flux_MWm2": 3.29488056245426,
+      "integrated_heat_load_MJm2": 197.6928337472556,
+      "ablation_mass_kg": 578.0573525945424,
+      "ablation_fraction": 0.0011561147051890848
+    },
+    {
+      "chunk_mass_t": 500,
+      "windward_area_m2": 73.10044345532165,
+      "entry_velocity_mps": 14000,
+      "peak_heat_flux_MWm2": 4.1152263374485605,
+      "integrated_heat_load_MJm2": 246.91358024691365,
+      "ablation_mass_kg": 721.9796884476215,
+      "ablation_fraction": 0.001443959376895243
+    }
+  ],
+  "module_3_mission_closure": [
+    {
+      "chunk_grappled_t": 100,
+      "outbound_propellant_t": 368.35455139009196,
+      "inbound_propellant_t": 76.95838295734337,
+      "chunk_delivered_t": 23.041617042656625,
+      "delivered_fraction": 0.23041617042656623,
+      "outbound_burn_time_yr": 3.2094605639965406,
+      "inbound_burn_time_yr": 0.6705357494251956,
+      "round_trip_yr_arch_A_pure_cont_thrust": 4.4799963134217355,
+      "round_trip_yr_arch_B_with_hohmann_coast": 10.539996313421735
+    },
+    {
+      "chunk_grappled_t": 200,
+      "outbound_propellant_t": 368.35455139009196,
+      "inbound_propellant_t": 114.51737903218155,
+      "chunk_delivered_t": 85.48262096781845,
+      "delivered_fraction": 0.4274131048390923,
+      "outbound_burn_time_yr": 3.2094605639965406,
+      "inbound_burn_time_yr": 0.9977859931661405,
+      "round_trip_yr_arch_A_pure_cont_thrust": 4.807246557162681,
+      "round_trip_yr_arch_B_with_hohmann_coast": 10.86724655716268
+    },
+    {
+      "chunk_grappled_t": 500,
+      "outbound_propellant_t": 368.35455139009196,
+      "inbound_propellant_t": 227.19436725669598,
+      "chunk_delivered_t": 272.805632743304,
+      "delivered_fraction": 0.545611265486608,
+      "outbound_burn_time_yr": 3.2094605639965406,
+      "inbound_burn_time_yr": 1.979536724388974,
+      "round_trip_yr_arch_A_pure_cont_thrust": 5.788997288385515,
+      "round_trip_yr_arch_B_with_hohmann_coast": 11.848997288385513
+    }
+  ],
+  "module_4_reactor_dependency": {
+    "required_reactor_kwe": 1000.0,
+    "fsp_phase_2_kwe": 100.0,
+    "factor_over_fsp_phase_2": 10.0,
+    "base_rate_prior": "US space-fission programs: zero of six reached orbit within stated decade since 1965",
+    "posterior_availability_by_2032_2035": "0.10 to 0.30 (locked finding 2)",
+    "dependency_changed_by_aerocapture": false,
+    "note": "Aerocapture rescues inbound delta-velocity, not outbound. Outbound 29.56 km/s continuous-thrust burn unchanged. Reactor power requirement unchanged. The rescue closes propulsion engineering and does not address the reactor program dependency."
+  }
+}

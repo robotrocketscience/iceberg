@@ -1,0 +1,480 @@
+{
+  "round": "R-reactor-specific-power-program-targets",
+  "author": "rhea",
+  "date": "2026-05-15",
+  "scope_deviations": [
+    "H1 recast to extrapolation (no in-envelope point closes L0-05 strict 15-yr)",
+    "H2 split into ladder (H2a/b/c) \u2014 SCOPE's (5 W/kg, 10 yr) at X=10 km/s is data-falsified; correct min-points read from constraint surface",
+    "H7 added on capital-class NPV (SCOPE pre-registered none)"
+  ],
+  "constraint_surface_min_X_at_25yr_ceiling": {
+    "sp_2.4": {
+      "L_5.0": null,
+      "L_8.0": null,
+      "L_10.0": null,
+      "L_15.0": null,
+      "L_inf": null
+    },
+    "sp_5.0": {
+      "L_5.0": null,
+      "L_8.0": null,
+      "L_10.0": 15.0,
+      "L_15.0": 10.0,
+      "L_inf": 10.0
+    },
+    "sp_6.0": {
+      "L_5.0": null,
+      "L_8.0": 20.0,
+      "L_10.0": 10.0,
+      "L_15.0": 5.0,
+      "L_inf": 5.0
+    },
+    "sp_7.0": {
+      "L_5.0": null,
+      "L_8.0": 15.0,
+      "L_10.0": 5.0,
+      "L_15.0": 5.0,
+      "L_inf": 5.0
+    },
+    "sp_8.0": {
+      "L_5.0": null,
+      "L_8.0": 10.0,
+      "L_10.0": 0.0,
+      "L_15.0": 0.0,
+      "L_inf": 0.0
+    },
+    "sp_9.0": {
+      "L_5.0": 25.0,
+      "L_8.0": 5.0,
+      "L_10.0": 0.0,
+      "L_15.0": 0.0,
+      "L_inf": 0.0
+    },
+    "sp_10.0": {
+      "L_5.0": 20.0,
+      "L_8.0": 0.0,
+      "L_10.0": 0.0,
+      "L_15.0": 0.0,
+      "L_inf": 0.0
+    }
+  },
+  "h1_extrapolation": {
+    "method": "burn-time scales 1/sp; baseline sp=10 W/kg burn=10.43 yr; strict-15-yr budget=1.83 yr; cruise+ops=13.17 yr held constant",
+    "min_sp_w_per_kg": 56.994535519125684,
+    "note": "Hohmann cruise; fast-cruise relaxation would lower this"
+  },
+  "priors": {
+    "P_fission_2035": {
+      "uniform": 0.089,
+      "jeffreys": 0.049,
+      "skeptical": 0.029
+    },
+    "P_delivers_sp": {
+      "5.0": 0.7,
+      "6.0": 0.6,
+      "7.0": 0.4,
+      "8.0": 0.25,
+      "9.0": 0.15,
+      "10.0": 0.1,
+      "20.0": 0.03,
+      "40.0": 0.005,
+      "57.0": 0.001
+    },
+    "P_delivers_lifetime": {
+      "5.0": 0.7,
+      "8.0": 0.45,
+      "10.0": 0.3,
+      "15.0": 0.05,
+      "inf": 0.05
+    },
+    "P_aerocapture_credit": {
+      "0.0": 1.0,
+      "5.0": 0.35,
+      "10.0": 0.2,
+      "15.0": 0.075
+    },
+    "P_bring_rendezvous": 0.25
+  },
+  "economics": {
+    "clearing_price_per_tonne_usd": 2500000.0,
+    "ship_capex_per_mission_usd": 2000000000.0,
+    "nre_program_usd": 7500000000.0,
+    "missions_over_program": 25,
+    "launch_cost_per_mission_usd": 3000000000.0
+  },
+  "synthesis_table": [
+    {
+      "min_point": "H1_strict_extrapolation",
+      "sp_w_per_kg": 56.994535519125684,
+      "L_yr": 10.0,
+      "X_km_s": 0.0,
+      "closure_in_envelope": false,
+      "prior": "uniform",
+      "reactor_posterior": 2.673432979749276e-05,
+      "aero_prior": 1.0,
+      "bring_prior": 0.25,
+      "conjunction_posterior": 6.68358244937319e-06,
+      "delivered_t_conditional": null,
+      "expected_delivered_t": null,
+      "program_npv0_usd": null,
+      "capital_class": "n/a (no in-envelope physics)"
+    },
+    {
+      "min_point": "H1_strict_extrapolation",
+      "sp_w_per_kg": 56.994535519125684,
+      "L_yr": 10.0,
+      "X_km_s": 0.0,
+      "closure_in_envelope": false,
+      "prior": "jeffreys",
+      "reactor_posterior": 1.4718900675024106e-05,
+      "aero_prior": 1.0,
+      "bring_prior": 0.25,
+      "conjunction_posterior": 3.6797251687560264e-06,
+      "delivered_t_conditional": null,
+      "expected_delivered_t": null,
+      "program_npv0_usd": null,
+      "capital_class": "n/a (no in-envelope physics)"
+    },
+    {
+      "min_point": "H1_strict_extrapolation",
+      "sp_w_per_kg": 56.994535519125684,
+      "L_yr": 10.0,
+      "X_km_s": 0.0,
+      "closure_in_envelope": false,
+      "prior": "skeptical",
+      "reactor_posterior": 8.711186113789777e-06,
+      "aero_prior": 1.0,
+      "bring_prior": 0.25,
+      "conjunction_posterior": 2.177796528447444e-06,
+      "delivered_t_conditional": null,
+      "expected_delivered_t": null,
+      "program_npv0_usd": null,
+      "capital_class": "n/a (no in-envelope physics)"
+    },
+    {
+      "min_point": "H2a_no_aerocapture",
+      "sp_w_per_kg": 8.0,
+      "L_yr": 10.0,
+      "X_km_s": 0.0,
+      "closure_in_envelope": true,
+      "prior": "uniform",
+      "reactor_posterior": 0.0066749999999999995,
+      "aero_prior": 1.0,
+      "bring_prior": 0.25,
+      "conjunction_posterior": 0.0016687499999999999,
+      "delivered_t_conditional": 42.03951383970784,
+      "expected_delivered_t": 0.07015343872001245,
+      "program_npv0_usd": -132495615410.08,
+      "capital_class": "sovereign-grant (NPV(0) < 0)"
+    },
+    {
+      "min_point": "H2a_no_aerocapture",
+      "sp_w_per_kg": 8.0,
+      "L_yr": 10.0,
+      "X_km_s": 0.0,
+      "closure_in_envelope": true,
+      "prior": "jeffreys",
+      "reactor_posterior": 0.003675,
+      "aero_prior": 1.0,
+      "bring_prior": 0.25,
+      "conjunction_posterior": 0.00091875,
+      "delivered_t_conditional": 42.03951383970784,
+      "expected_delivered_t": 0.03862380334023158,
+      "program_npv0_usd": -132497586012.29124,
+      "capital_class": "sovereign-grant (NPV(0) < 0)"
+    },
+    {
+      "min_point": "H2a_no_aerocapture",
+      "sp_w_per_kg": 8.0,
+      "L_yr": 10.0,
+      "X_km_s": 0.0,
+      "closure_in_envelope": true,
+      "prior": "skeptical",
+      "reactor_posterior": 0.002175,
+      "aero_prior": 1.0,
+      "bring_prior": 0.25,
+      "conjunction_posterior": 0.00054375,
+      "delivered_t_conditional": 42.03951383970784,
+      "expected_delivered_t": 0.022858985650341133,
+      "program_npv0_usd": -132498571313.39687,
+      "capital_class": "sovereign-grant (NPV(0) < 0)"
+    },
+    {
+      "min_point": "H2b_aerocapture_5",
+      "sp_w_per_kg": 6.0,
+      "L_yr": 15.0,
+      "X_km_s": 5.0,
+      "closure_in_envelope": true,
+      "prior": "uniform",
+      "reactor_posterior": 0.00267,
+      "aero_prior": 0.35,
+      "bring_prior": 0.25,
+      "conjunction_posterior": 0.000233625,
+      "delivered_t_conditional": 28.853097268019297,
+      "expected_delivered_t": 0.006740804849241009,
+      "program_npv0_usd": -132499578699.69693,
+      "capital_class": "sovereign-grant (NPV(0) < 0)"
+    },
+    {
+      "min_point": "H2b_aerocapture_5",
+      "sp_w_per_kg": 6.0,
+      "L_yr": 15.0,
+      "X_km_s": 5.0,
+      "closure_in_envelope": true,
+      "prior": "jeffreys",
+      "reactor_posterior": 0.00147,
+      "aero_prior": 0.35,
+      "bring_prior": 0.25,
+      "conjunction_posterior": 0.000128625,
+      "delivered_t_conditional": 28.853097268019297,
+      "expected_delivered_t": 0.003711229636098982,
+      "program_npv0_usd": -132499768048.14775,
+      "capital_class": "sovereign-grant (NPV(0) < 0)"
+    },
+    {
+      "min_point": "H2b_aerocapture_5",
+      "sp_w_per_kg": 6.0,
+      "L_yr": 15.0,
+      "X_km_s": 5.0,
+      "closure_in_envelope": true,
+      "prior": "skeptical",
+      "reactor_posterior": 0.00087,
+      "aero_prior": 0.35,
+      "bring_prior": 0.25,
+      "conjunction_posterior": 7.6125e-05,
+      "delivered_t_conditional": 28.853097268019297,
+      "expected_delivered_t": 0.002196442029527969,
+      "program_npv0_usd": -132499862722.37315,
+      "capital_class": "sovereign-grant (NPV(0) < 0)"
+    },
+    {
+      "min_point": "H2c_aerocapture_10",
+      "sp_w_per_kg": 5.0,
+      "L_yr": 15.0,
+      "X_km_s": 10.0,
+      "closure_in_envelope": true,
+      "prior": "uniform",
+      "reactor_posterior": 0.0031149999999999997,
+      "aero_prior": 0.2,
+      "bring_prior": 0.25,
+      "conjunction_posterior": 0.00015575,
+      "delivered_t_conditional": 18.303964010668466,
+      "expected_delivered_t": 0.0028508423946616134,
+      "program_npv0_usd": -132499821822.35034,
+      "capital_class": "sovereign-grant (NPV(0) < 0)"
+    },
+    {
+      "min_point": "H2c_aerocapture_10",
+      "sp_w_per_kg": 5.0,
+      "L_yr": 15.0,
+      "X_km_s": 10.0,
+      "closure_in_envelope": true,
+      "prior": "jeffreys",
+      "reactor_posterior": 0.001715,
+      "aero_prior": 0.2,
+      "bring_prior": 0.25,
+      "conjunction_posterior": 8.575e-05,
+      "delivered_t_conditional": 18.303964010668466,
+      "expected_delivered_t": 0.0015695649139148208,
+      "program_npv0_usd": -132499901902.19287,
+      "capital_class": "sovereign-grant (NPV(0) < 0)"
+    },
+    {
+      "min_point": "H2c_aerocapture_10",
+      "sp_w_per_kg": 5.0,
+      "L_yr": 15.0,
+      "X_km_s": 10.0,
+      "closure_in_envelope": true,
+      "prior": "skeptical",
+      "reactor_posterior": 0.001015,
+      "aero_prior": 0.2,
+      "bring_prior": 0.25,
+      "conjunction_posterior": 5.075000000000001e-05,
+      "delivered_t_conditional": 18.303964010668466,
+      "expected_delivered_t": 0.0009289261735414248,
+      "program_npv0_usd": -132499941942.11417,
+      "capital_class": "sovereign-grant (NPV(0) < 0)"
+    },
+    {
+      "min_point": "H2c_alt",
+      "sp_w_per_kg": 6.0,
+      "L_yr": 10.0,
+      "X_km_s": 10.0,
+      "closure_in_envelope": true,
+      "prior": "uniform",
+      "reactor_posterior": 0.01602,
+      "aero_prior": 0.2,
+      "bring_prior": 0.25,
+      "conjunction_posterior": 0.0008010000000000001,
+      "delivered_t_conditional": 28.853097268019297,
+      "expected_delivered_t": 0.02311133091168346,
+      "program_npv0_usd": -132498555541.81802,
+      "capital_class": "sovereign-grant (NPV(0) < 0)"
+    },
+    {
+      "min_point": "H2c_alt",
+      "sp_w_per_kg": 6.0,
+      "L_yr": 10.0,
+      "X_km_s": 10.0,
+      "closure_in_envelope": true,
+      "prior": "jeffreys",
+      "reactor_posterior": 0.00882,
+      "aero_prior": 0.2,
+      "bring_prior": 0.25,
+      "conjunction_posterior": 0.000441,
+      "delivered_t_conditional": 28.853097268019297,
+      "expected_delivered_t": 0.01272421589519651,
+      "program_npv0_usd": -132499204736.50656,
+      "capital_class": "sovereign-grant (NPV(0) < 0)"
+    },
+    {
+      "min_point": "H2c_alt",
+      "sp_w_per_kg": 6.0,
+      "L_yr": 10.0,
+      "X_km_s": 10.0,
+      "closure_in_envelope": true,
+      "prior": "skeptical",
+      "reactor_posterior": 0.00522,
+      "aero_prior": 0.2,
+      "bring_prior": 0.25,
+      "conjunction_posterior": 0.000261,
+      "delivered_t_conditional": 28.853097268019297,
+      "expected_delivered_t": 0.007530658386953036,
+      "program_npv0_usd": -132499529333.85081,
+      "capital_class": "sovereign-grant (NPV(0) < 0)"
+    }
+  ],
+  "grading": {
+    "H1": {
+      "predicted_range": "min sp 50\u201365 W/kg at L0-05 strict (Hohmann cruise)",
+      "extrapolated_min_sp_w_per_kg": 56.994535519125684,
+      "in_envelope_closure": false,
+      "status": "HELD",
+      "note": "extrapolation under Hohmann cruise; fast-cruise would lower floor"
+    },
+    "H2a": {
+      "predicted": "(8 W/kg, 10 yr, X=0)",
+      "surface_min_X_at_8_L10": 0.0,
+      "status": "HELD"
+    },
+    "H2b": {
+      "predicted": "(6 W/kg, 15 yr, X=5)",
+      "surface_min_X_at_6_L15": 5.0,
+      "status": "HELD"
+    },
+    "H2c": {
+      "predicted": "(5 W/kg, 15 yr, X=10) or (6 W/kg, 10 yr, X=10)",
+      "surface_min_X_at_5_L15": 10.0,
+      "surface_min_X_at_6_L10": 10.0,
+      "status": "HELD"
+    },
+    "H3": {
+      "predicted_range": [
+        0.002,
+        0.01
+      ],
+      "uniform_posterior": 0.0066749999999999995,
+      "skeptical_posterior": 0.002175,
+      "bracket_min": 0.002175,
+      "bracket_max": 0.0066749999999999995,
+      "status": "HELD"
+    },
+    "H4": {
+      "predicted_range_uniform": [
+        0.005,
+        0.017
+      ],
+      "h2c_alt_uniform_posterior": 0.01602,
+      "h2c_alt_skeptical_posterior": 0.00522,
+      "status": "HELD"
+    },
+    "H5": {
+      "predicted_range": [
+        0.0002,
+        0.002
+      ],
+      "best_conjunction_label": "H2a_no_aerocapture",
+      "best_conjunction_prior": "uniform",
+      "best_conjunction_posterior": 0.0016687499999999999,
+      "all_conjunctions": [
+        {
+          "label": "H2a_no_aerocapture",
+          "prior": "uniform",
+          "conjunction": 0.0016687499999999999
+        },
+        {
+          "label": "H2a_no_aerocapture",
+          "prior": "jeffreys",
+          "conjunction": 0.00091875
+        },
+        {
+          "label": "H2a_no_aerocapture",
+          "prior": "skeptical",
+          "conjunction": 0.00054375
+        },
+        {
+          "label": "H2b_aerocapture_5",
+          "prior": "uniform",
+          "conjunction": 0.000233625
+        },
+        {
+          "label": "H2b_aerocapture_5",
+          "prior": "jeffreys",
+          "conjunction": 0.000128625
+        },
+        {
+          "label": "H2b_aerocapture_5",
+          "prior": "skeptical",
+          "conjunction": 7.6125e-05
+        },
+        {
+          "label": "H2c_aerocapture_10",
+          "prior": "uniform",
+          "conjunction": 0.00015575
+        },
+        {
+          "label": "H2c_aerocapture_10",
+          "prior": "jeffreys",
+          "conjunction": 8.575e-05
+        },
+        {
+          "label": "H2c_aerocapture_10",
+          "prior": "skeptical",
+          "conjunction": 5.075000000000001e-05
+        },
+        {
+          "label": "H2c_alt",
+          "prior": "uniform",
+          "conjunction": 0.0008010000000000001
+        },
+        {
+          "label": "H2c_alt",
+          "prior": "jeffreys",
+          "conjunction": 0.000441
+        },
+        {
+          "label": "H2c_alt",
+          "prior": "skeptical",
+          "conjunction": 0.000261
+        }
+      ],
+      "status": "HELD"
+    },
+    "H6": {
+      "claim": "technology-demonstrator-only at conservative anchors",
+      "max_conjunction": 0.0016687499999999999,
+      "any_above_10pct": false,
+      "status": "HELD"
+    },
+    "H7": {
+      "claim": "program NPV(0) structurally negative across all min-points \u00d7 priors",
+      "max_program_npv0_usd": -132495615410.08,
+      "min_program_npv0_usd": -132499941942.11417,
+      "n_positive_npv0": 0,
+      "capital_classes_observed": [
+        "sovereign-grant (NPV(0) < 0)"
+      ],
+      "status": "HELD"
+    }
+  }
+}

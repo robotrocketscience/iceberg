@@ -1,0 +1,78 @@
+
+=== Cassini bus only (original) ===
+ P kWe  chunk    sp  aero   Isp   m_dry  delivered   RT yr  pass?
+   500    200    10    10  2934    67.0      91.53   12.69   PASS
+   200    200    10    10  2000    34.0      74.91   14.62   PASS
+   500    200     5    10  2934   117.0      71.21   13.76   PASS
+   500    200    10    10  2000    67.0      57.27   10.48   PASS
+   200    100    10    10  2934    29.0      47.59   13.87   PASS
+   200    100     5    10  2934    49.0      39.47   14.94   PASS
+   500    100    10    10  2934    62.0      34.18   10.45   PASS
+   200    100    10    10  2000    29.0      31.04   11.20   PASS
+   500    200     5    10  2000   117.0      30.54   11.13   PASS
+  → 9/9 cells still commercial-strict
+
+=== Cassini + light shield (1 kg/kWe) + 1.5t PCU + 0.5t cables ===
+ P kWe  chunk    sp  aero   Isp   m_dry  delivered   RT yr  pass?
+   500    200    10    10  2934    69.5      90.51   12.74   PASS
+   200    200    10    10  2000    35.3      74.22   14.67   PASS
+   500    200     5    10  2934   119.5      70.20   13.81   PASS
+   500    200    10    10  2000    69.5      55.93   10.51   PASS
+   200    100    10    10  2934    30.3      47.06   13.94   PASS
+   200    100     5    10  2934    50.3      38.94   15.01   FAIL
+   500    100    10    10  2934    64.5      33.17   10.51   PASS
+   200    100    10    10  2000    30.3      30.35   11.25   PASS
+   500    200     5    10  2000   119.5      29.21   11.16   FAIL
+  → 7/9 cells still commercial-strict
+
+=== Cassini + medium shield (3 kg/kWe) + 1.5t PCU + 0.5t cables ===
+ P kWe  chunk    sp  aero   Isp   m_dry  delivered   RT yr  pass?
+   500    200    10    10  2934    70.5      90.10   12.77   PASS
+   200    200    10    10  2000    35.7      74.00   14.68   PASS
+   500    200     5    10  2934   120.5      69.79   13.83   PASS
+   500    200    10    10  2000    70.5      55.40   10.53   PASS
+   200    100    10    10  2934    30.7      46.90   13.96   PASS
+   200    100     5    10  2934    50.7      38.78   15.03   FAIL
+   500    100    10    10  2934    65.5      32.76   10.53   PASS
+   200    100    10    10  2000    30.7      30.13   11.26   PASS
+   500    200     5    10  2000   120.5      28.67   11.18   FAIL
+  → 7/9 cells still commercial-strict
+
+=== Cassini + heavy shield (5 kg/kWe) + 2t PCU + 1t cables ===
+ P kWe  chunk    sp  aero   Isp   m_dry  delivered   RT yr  pass?
+   500    200    10    10  2934    72.5      89.29   12.81   PASS
+   200    200    10    10  2000    36.8      73.41   14.72   PASS
+   500    200     5    10  2934   122.5      68.98   13.87   PASS
+   500    200    10    10  2000    72.5      54.33   10.55   PASS
+   200    100    10    10  2934    31.8      46.45   14.02   PASS
+   200    100     5    10  2934    51.8      38.33   15.09   FAIL
+   500    100    10    10  2934    67.5      31.95   10.57   PASS
+   200    100    10    10  2000    31.8      29.54   11.29   FAIL
+   500    200     5    10  2000   122.5      27.60   11.20   FAIL
+  → 6/9 cells still commercial-strict
+
+=== Europa Clipper bus (5.9 t) + light shield (1 kg/kWe) ===
+ P kWe  chunk    sp  aero   Isp   m_dry  delivered   RT yr  pass?
+   500    200    10    10  2934    72.9      89.13   12.82   PASS
+   200    200    10    10  2000    39.0      72.24   14.79   PASS
+   500    200     5    10  2934   122.9      68.82   13.88   PASS
+   500    200    10    10  2000    72.9      54.12   10.56   PASS
+   200    100    10    10  2934    34.0      45.56   14.14   PASS
+   200    100     5    10  2934    54.0      37.43   15.21   FAIL
+   500    100    10    10  2934    67.9      31.79   10.58   PASS
+   200    100    10    10  2000    34.0      28.37   11.37   FAIL
+   500    200     5    10  2000   122.9      27.39   11.21   FAIL
+  → 6/9 cells still commercial-strict
+
+=== Europa Clipper bus (5.9 t) + medium shield (3 kg/kWe) ===
+ P kWe  chunk    sp  aero   Isp   m_dry  delivered   RT yr  pass?
+   500    200    10    10  2934    74.4      88.52   12.85   PASS
+   200    200    10    10  2000    39.6      71.92   14.81   PASS
+   500    200     5    10  2934   124.4      68.21   13.91   PASS
+   500    200    10    10  2000    74.4      53.31   10.58   PASS
+   200    100    10    10  2934    34.6      45.32   14.17   PASS
+   200    100     5    10  2934    54.6      37.19   15.24   FAIL
+   500    100    10    10  2934    69.4      31.18   10.61   PASS
+   200    100    10    10  2000    34.6      28.05   11.39   FAIL
+   500    200     5    10  2000   124.4      26.59   11.23   FAIL
+  → 6/9 cells still commercial-strict

@@ -1,0 +1,170 @@
+{
+  "heritage": {
+    "NSTAR_wear_test_demonstrated_hr": 30352,
+    "NSTAR_design_life_hr": 28000,
+    "AEPS_qualification_wear_test_hr": 23000,
+    "AEPS_design_life_hr": 50000,
+    "LaB6_Polk_Goebel_half_mass_life_hr": 35000000.0
+  },
+  "water_plasma_life_anchors_hr": {
+    "optimistic_matches_xenon_heritage": 50000,
+    "mid_case_half_of_xenon": 25000,
+    "pessimistic_Wang_2025_work_function": 3000
+  },
+  "all_electric_end_to_end": [
+    {
+      "regime": "canonical",
+      "n_missions": 1,
+      "per_mission_hr": 14639.22,
+      "per_mission_yr": 1.67,
+      "total_hr": 14639.22,
+      "total_yr": 1.67,
+      "fraction_NSTAR_design": 0.5228292857142857,
+      "fraction_AEPS_design": 0.2927844,
+      "verdict_optimistic": "closes",
+      "verdict_midcase": "closes",
+      "verdict_pessimistic": "exceeds"
+    },
+    {
+      "regime": "canonical",
+      "n_missions": 5,
+      "per_mission_hr": 14639.22,
+      "per_mission_yr": 1.67,
+      "total_hr": 73196.09999999999,
+      "total_yr": 8.35,
+      "fraction_NSTAR_design": 2.6141464285714284,
+      "fraction_AEPS_design": 1.4639219999999997,
+      "verdict_optimistic": "exceeds",
+      "verdict_midcase": "exceeds",
+      "verdict_pessimistic": "exceeds"
+    },
+    {
+      "regime": "canonical",
+      "n_missions": 10,
+      "per_mission_hr": 14639.22,
+      "per_mission_yr": 1.67,
+      "total_hr": 146392.19999999998,
+      "total_yr": 16.7,
+      "fraction_NSTAR_design": 5.228292857142857,
+      "fraction_AEPS_design": 2.9278439999999994,
+      "verdict_optimistic": "exceeds",
+      "verdict_midcase": "exceeds",
+      "verdict_pessimistic": "exceeds"
+    },
+    {
+      "regime": "canonical",
+      "n_missions": 20,
+      "per_mission_hr": 14639.22,
+      "per_mission_yr": 1.67,
+      "total_hr": 292784.39999999997,
+      "total_yr": 33.4,
+      "fraction_NSTAR_design": 10.456585714285714,
+      "fraction_AEPS_design": 5.855687999999999,
+      "verdict_optimistic": "exceeds",
+      "verdict_midcase": "exceeds",
+      "verdict_pessimistic": "exceeds"
+    },
+    {
+      "regime": "realistic",
+      "n_missions": 1,
+      "per_mission_hr": 31718.310000000005,
+      "per_mission_yr": 3.618333333333334,
+      "total_hr": 31718.310000000005,
+      "total_yr": 3.618333333333334,
+      "fraction_NSTAR_design": 1.132796785714286,
+      "fraction_AEPS_design": 0.6343662000000001,
+      "verdict_optimistic": "closes",
+      "verdict_midcase": "exceeds",
+      "verdict_pessimistic": "exceeds"
+    },
+    {
+      "regime": "realistic",
+      "n_missions": 5,
+      "per_mission_hr": 31718.310000000005,
+      "per_mission_yr": 3.618333333333334,
+      "total_hr": 158591.55000000002,
+      "total_yr": 18.09166666666667,
+      "fraction_NSTAR_design": 5.6639839285714295,
+      "fraction_AEPS_design": 3.1718310000000005,
+      "verdict_optimistic": "exceeds",
+      "verdict_midcase": "exceeds",
+      "verdict_pessimistic": "exceeds"
+    },
+    {
+      "regime": "realistic",
+      "n_missions": 10,
+      "per_mission_hr": 31718.310000000005,
+      "per_mission_yr": 3.618333333333334,
+      "total_hr": 317183.10000000003,
+      "total_yr": 36.18333333333334,
+      "fraction_NSTAR_design": 11.327967857142859,
+      "fraction_AEPS_design": 6.343662000000001,
+      "verdict_optimistic": "exceeds",
+      "verdict_midcase": "exceeds",
+      "verdict_pessimistic": "exceeds"
+    },
+    {
+      "regime": "realistic",
+      "n_missions": 20,
+      "per_mission_hr": 31718.310000000005,
+      "per_mission_yr": 3.618333333333334,
+      "total_hr": 634366.2000000001,
+      "total_yr": 72.36666666666667,
+      "fraction_NSTAR_design": 22.655935714285718,
+      "fraction_AEPS_design": 12.687324000000002,
+      "verdict_optimistic": "exceeds",
+      "verdict_midcase": "exceeds",
+      "verdict_pessimistic": "exceeds"
+    }
+  ],
+  "variant_b": [
+    {
+      "n_missions": 1,
+      "per_mission_hr": 5434.92,
+      "per_mission_yr": 0.62,
+      "total_hr": 5434.92,
+      "total_yr": 0.62,
+      "fraction_NSTAR_design": 0.19410428571428573,
+      "fraction_AEPS_design": 0.1086984,
+      "verdict_optimistic": "closes",
+      "verdict_midcase": "closes",
+      "verdict_pessimistic": "exceeds"
+    },
+    {
+      "n_missions": 5,
+      "per_mission_hr": 5434.92,
+      "per_mission_yr": 0.62,
+      "total_hr": 27174.6,
+      "total_yr": 3.0999999999999996,
+      "fraction_NSTAR_design": 0.9705214285714285,
+      "fraction_AEPS_design": 0.543492,
+      "verdict_optimistic": "closes",
+      "verdict_midcase": "exceeds",
+      "verdict_pessimistic": "exceeds"
+    },
+    {
+      "n_missions": 10,
+      "per_mission_hr": 5434.92,
+      "per_mission_yr": 0.62,
+      "total_hr": 54349.2,
+      "total_yr": 6.199999999999999,
+      "fraction_NSTAR_design": 1.941042857142857,
+      "fraction_AEPS_design": 1.086984,
+      "verdict_optimistic": "exceeds",
+      "verdict_midcase": "exceeds",
+      "verdict_pessimistic": "exceeds"
+    },
+    {
+      "n_missions": 20,
+      "per_mission_hr": 5434.92,
+      "per_mission_yr": 0.62,
+      "total_hr": 108698.4,
+      "total_yr": 12.399999999999999,
+      "fraction_NSTAR_design": 3.882085714285714,
+      "fraction_AEPS_design": 2.173968,
+      "verdict_optimistic": "exceeds",
+      "verdict_midcase": "exceeds",
+      "verdict_pessimistic": "exceeds"
+    }
+  ]
+}

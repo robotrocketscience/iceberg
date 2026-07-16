@@ -1,0 +1,76 @@
+{
+  "candidates": [
+    {
+      "relaxed_target": 0.75,
+      "launch_cadence_per_yr": 1.0,
+      "minimum_p_required": null,
+      "feasible": false
+    },
+    {
+      "relaxed_target": 0.75,
+      "launch_cadence_per_yr": 2.0,
+      "minimum_p_required": 0.93,
+      "feasible": true
+    },
+    {
+      "relaxed_target": 0.75,
+      "launch_cadence_per_yr": 4.0,
+      "minimum_p_required": 0.93,
+      "feasible": true
+    },
+    {
+      "relaxed_target": 0.8,
+      "launch_cadence_per_yr": 1.0,
+      "minimum_p_required": null,
+      "feasible": false
+    },
+    {
+      "relaxed_target": 0.8,
+      "launch_cadence_per_yr": 2.0,
+      "minimum_p_required": 0.93,
+      "feasible": true
+    },
+    {
+      "relaxed_target": 0.8,
+      "launch_cadence_per_yr": 4.0,
+      "minimum_p_required": 0.93,
+      "feasible": true
+    },
+    {
+      "relaxed_target": 0.85,
+      "launch_cadence_per_yr": 1.0,
+      "minimum_p_required": null,
+      "feasible": false
+    },
+    {
+      "relaxed_target": 0.85,
+      "launch_cadence_per_yr": 2.0,
+      "minimum_p_required": 0.99,
+      "feasible": true
+    },
+    {
+      "relaxed_target": 0.85,
+      "launch_cadence_per_yr": 4.0,
+      "minimum_p_required": 0.99,
+      "feasible": true
+    },
+    {
+      "relaxed_target": 0.9,
+      "launch_cadence_per_yr": 1.0,
+      "minimum_p_required": null,
+      "feasible": false
+    },
+    {
+      "relaxed_target": 0.9,
+      "launch_cadence_per_yr": 2.0,
+      "minimum_p_required": null,
+      "feasible": false
+    },
+    {
+      "relaxed_target": 0.9,
+      "launch_cadence_per_yr": 4.0,
+      "minimum_p_required": 0.99,
+      "feasible": true
+    }
+  ]
+}

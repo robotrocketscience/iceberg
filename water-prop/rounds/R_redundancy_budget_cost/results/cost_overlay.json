@@ -1,0 +1,46 @@
+{
+  "per_subsystem": [
+    {
+      "name": "reactor_power",
+      "KP_B_USD_M": 300.0,
+      "MWe_USD_M": 400.0
+    },
+    {
+      "name": "primary_propulsion",
+      "KP_B_USD_M": 50.0,
+      "MWe_USD_M": 30.0
+    },
+    {
+      "name": "rcs",
+      "KP_B_USD_M": 15.0,
+      "MWe_USD_M": 15.0
+    },
+    {
+      "name": "gnc_compute",
+      "KP_B_USD_M": 40.0,
+      "MWe_USD_M": 40.0
+    },
+    {
+      "name": "comms",
+      "KP_B_USD_M": 60.0,
+      "MWe_USD_M": 60.0
+    },
+    {
+      "name": "bag_harvest",
+      "KP_B_USD_M": 50.0,
+      "MWe_USD_M": 80.0
+    },
+    {
+      "name": "thermal_control",
+      "KP_B_USD_M": 30.0,
+      "MWe_USD_M": 60.0
+    },
+    {
+      "name": "return_handoff",
+      "KP_B_USD_M": 20.0,
+      "MWe_USD_M": 25.0
+    }
+  ],
+  "total_KP_B_USD_M": 565.0,
+  "total_MWe_USD_M": 710.0
+}

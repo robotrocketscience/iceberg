@@ -1,0 +1,75 @@
+{
+  "model": {
+    "num_launches": 58,
+    "tolerances_deg": [
+      2.0,
+      5.0,
+      10.0,
+      15.0
+    ],
+    "budgets_yr": [
+      0.0,
+      0.25,
+      0.5,
+      1.0,
+      2.0,
+      3.0
+    ],
+    "residence_grid_resolution_yr": 0.05,
+    "t_round_trip_base_yr": 12.60186409495913
+  },
+  "phase_shift_per_year_deg": 18.128363066714837,
+  "block5_reproduction": {
+    "viable_fraction_5deg_budget_0yr": 0.027777777777777776,
+    "block5_expected": 0.0278,
+    "matches": true
+  },
+  "headline_results": {
+    "viable_fraction_5deg_by_budget_yr": {
+      "0.00": 0.027777777777777776,
+      "0.25": 0.04032567049808429,
+      "0.50": 0.05292145593869732,
+      "1.00": 0.07811302681992337,
+      "2.00": 0.12840038314176244,
+      "3.00": 0.17878352490421456
+    },
+    "campaign_mean_deliv_5deg_by_budget_yr": {
+      "0.00": 0.15675,
+      "0.25": 0.1575405172413793,
+      "0.50": 0.15833405172413792,
+      "1.00": 0.15992112068965517,
+      "2.00": 0.16308922413793103,
+      "3.00": 0.1662633620689655
+    },
+    "duration_impact_pct_5deg_by_budget_yr": {
+      "0.00": 0.0,
+      "0.25": 0.39667485341253433,
+      "0.50": 1.03379767307513,
+      "1.00": 2.6296631321919435,
+      "2.00": 6.349218403796945,
+      "3.00": 10.209122181344569
+    }
+  },
+  "hypothesis_adjudication": {
+    "H1_phase_shift_per_year_in_15_22deg": {
+      "status": "held",
+      "observed_deg": 18.128363066714837
+    },
+    "H2_viable_fraction_5deg_1yr_ge_0p30": {
+      "status": "falsified_low",
+      "observed": 0.07811302681992337
+    },
+    "H3_viable_fraction_5deg_3yr_in_0p5_to_0p85": {
+      "status": "falsified_low",
+      "observed": 0.17878352490421456
+    },
+    "H4_campaign_mean_5deg_1yr_in_0p18_0p21": {
+      "status": "falsified_low",
+      "observed": 0.15992112068965517
+    },
+    "H5_duration_impact_5deg_1yr_in_2_6pct": {
+      "status": "held",
+      "observed_pct": 2.6296631321919435
+    }
+  }
+}

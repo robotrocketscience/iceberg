@@ -1,0 +1,68 @@
+{
+  "model_parameters": {
+    "m_at_exit_t": 380.0,
+    "dv_exit_kms": 7.4,
+    "eta_canonical": 0.65,
+    "eta_realistic": 0.3,
+    "residence_dwell_months": 6.0,
+    "aeps_design_life_hour": 50000.0
+  },
+  "block4_nominal_burn": {
+    "power_kwe": 500,
+    "isp_s": 7000,
+    "eta": 0.65,
+    "thrust_n": 9.46879340622362,
+    "m_propellant_t": 38.83279933852167,
+    "burn_time_years": 8.921108186457719,
+    "burn_time_months": 107.05329823749261,
+    "block4_assumed_months": 6.0,
+    "actual_vs_assumed_factor": 17.842216372915434
+  },
+  "min_power_for_6mo_dwell_canonical": {
+    "isp_3000_mwe": 3.5658669547505912,
+    "isp_5000_mwe": 6.2392058851275864,
+    "isp_7000_mwe": 8.921108186457719,
+    "isp_9000_mwe": 11.60598562938475
+  },
+  "isp5000_revert_path": {
+    "delivered_fraction_pct": 10.83601781153591,
+    "exit_burn_year_at_500kWe": 6.239205885127586
+  },
+  "hypothesis_adjudication": {
+    "H1_burn_5to7_months_block4_nominal": {
+      "status": "falsified_high",
+      "observed_months": 107.05329823749261,
+      "predicted": "[5, 7] months"
+    },
+    "H2_power_for_6mo_at_isp7000_1to3MWe": {
+      "status": "marginal",
+      "observed_mwe": 8.921108186457719,
+      "predicted": "[1, 3] MWe"
+    },
+    "H3_burn_5to15_years_at_500kWe_isp7000": {
+      "status": "held",
+      "observed_years": 8.921108186457719
+    },
+    "H4_min_power_isp5000_1to3MWe": {
+      "status": "marginal",
+      "observed_mwe": 6.2392058851275864
+    },
+    "H5_block4_composite_doesnt_close": {
+      "status": "held"
+    },
+    "H6_mission_duration_exceeds_L0-05": {
+      "status": "held",
+      "total_mission_years": 22.42110818645772
+    },
+    "H7_isp5000_revert_doesnt_save": {
+      "status": "held",
+      "df_isp5000_pct": 10.83601781153591,
+      "burn_year_isp5000_500kWe": 6.239205885127586
+    },
+    "H8_resolution_requires_3to15MWe": {
+      "status": "held",
+      "p_min_5000_mwe": 6.2392058851275864,
+      "p_min_7000_mwe": 8.921108186457719
+    }
+  }
+}

@@ -1,0 +1,1630 @@
+{
+  "round": "R-ramscoop-foundational-premise-revisit",
+  "date": "2026-05-26",
+  "inputs": {
+    "tier1_json": "water-prop/rounds/R_chunk_capture_monte_carlo/results/tier1_results.json",
+    "v_e_kms": 49.03325,
+    "isp_s": 5000.0,
+    "dv_kms": {
+      "harpoon": 24.7,
+      "ramscoop": 32.1,
+      "everting": 24.7
+    },
+    "dry_mass_fixed_t": 200.0,
+    "dry_ratio": 1.0,
+    "l0_04_floor_t": 25.0
+  },
+  "validation_gate": {
+    "max_abs_err": 0.0,
+    "per_arch": {
+      "harpoon": {
+        "published": 0.36540388732107376,
+        "regenerated": 0.36540388732107376,
+        "abs_err": 0.0
+      },
+      "ramscoop": {
+        "published": 0.40494819135141424,
+        "regenerated": 0.40494819135141424,
+        "abs_err": 0.0
+      },
+      "everting": {
+        "published": 0.2462997365251492,
+        "regenerated": 0.2462997365251492,
+        "abs_err": 0.0
+      }
+    },
+    "passed": true
+  },
+  "eta_dv_at_200t": {
+    "ratio": {
+      "harpoon": 0.20853317400684546,
+      "ramscoop": 0.039239683081307535,
+      "everting": 0.20853317400684546
+    },
+    "fixed": {
+      "harpoon": 0.20853317400684546,
+      "ramscoop": 0.039239683081307535,
+      "everting": 0.20853317400684546
+    }
+  },
+  "delivered_posteriors": {
+    "ratio": {
+      "harpoon": {
+        "median": 3.0093858782615346,
+        "q05": 0.7569888430646468,
+        "q25": 1.5171892474839215,
+        "q75": 6.0895891641689905,
+        "q95": 11.956665908079135,
+        "mean": 4.296123233234048,
+        "std": 3.5875805034781987,
+        "frac_positive": 1.0
+      },
+      "ramscoop": {
+        "median": 0.7126395694995517,
+        "q05": 0.19118562997232563,
+        "q25": 0.34993050849013274,
+        "q75": 1.4717937550546745,
+        "q95": 2.680314822568194,
+        "mean": 1.0054366854966637,
+        "std": 0.8062878048219959,
+        "frac_positive": 1.0
+      },
+      "everting": {
+        "median": 2.2247403075028727,
+        "q05": 0.6452409513625923,
+        "q25": 1.2075427797532088,
+        "q75": 4.168760321847558,
+        "q95": 7.879183250404581,
+        "mean": 3.0093266603152142,
+        "std": 2.3699797686373154,
+        "frac_positive": 1.0
+      }
+    },
+    "fixed": {
+      "harpoon": {
+        "median": 0.0,
+        "q05": 0.0,
+        "q25": 0.0,
+        "q75": 0.0,
+        "q95": 6.759462390249649,
+        "mean": 0.7933071267172548,
+        "std": 2.531500242744591,
+        "frac_positive": 0.137375
+      },
+      "ramscoop": {
+        "median": 0.0,
+        "q05": 0.0,
+        "q25": 0.0,
+        "q75": 0.0,
+        "q95": 0.0,
+        "mean": 0.041500403770389466,
+        "std": 0.2886607461162509,
+        "frac_positive": 0.027125
+      },
+      "everting": {
+        "median": 0.0,
+        "q05": 0.0,
+        "q25": 0.0,
+        "q75": 0.0,
+        "q95": 4.2474203868790665,
+        "mean": 0.5199589212091782,
+        "std": 1.6505557966545459,
+        "frac_positive": 0.13925
+      }
+    }
+  },
+  "h4_by_chunk_decile": {
+    "ratio": {
+      "deterministic_grid": [
+        {
+          "mass_t": 10.0,
+          "delivered_if_captured": {
+            "harpoon": 2.0853317400684546,
+            "ramscoop": 0.39239683081307497,
+            "everting": 2.0853317400684546
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.7619883241750323,
+            "ramscoop": 0.15890038692978162,
+            "everting": 0.5136166581463912
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 10.798408271867897,
+          "delivered_if_captured": {
+            "harpoon": 2.251826351154387,
+            "ramscoop": 0.4237261183706664,
+            "everting": 2.251826351154387
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.8228261022838422,
+            "ramscoop": 0.17158712526255662,
+            "everting": 0.5546242369897135
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 11.660562120594511,
+          "delivered_if_captured": {
+            "harpoon": 2.4316140297115663,
+            "ramscoop": 0.457556762162028,
+            "everting": 2.4316140297115663
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.8885212189210673,
+            "ramscoop": 0.18528678327812245,
+            "everting": 0.5989058948488151
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 12.591551045765724,
+          "delivered_if_captured": {
+            "harpoon": 2.62575610524274,
+            "ramscoop": 0.4940884725379533,
+            "everting": 2.62575610524274
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.9594614880127396,
+            "ramscoop": 0.2000802333218271,
+            "everting": 0.6467230369005887
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 13.596870896824354,
+          "delivered_if_captured": {
+            "harpoon": 2.8353986446760846,
+            "ramscoop": 0.533536904888841,
+            "everting": 2.8353986446760846
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 1.0360656868695453,
+            "ramscoop": 0.21605480465396767,
+            "everting": 0.6983579391274848
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 14.6824563163788,
+          "delivered_if_captured": {
+            "harpoon": 3.061779217871326,
+            "ramscoop": 0.5761349327098468,
+            "everting": 3.061779217871326
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 1.1187860283290594,
+            "ramscoop": 0.23330479897522122,
+            "everting": 0.754115414659885
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 15.854715773812398,
+          "delivered_if_captured": {
+            "harpoon": 3.306234203289499,
+            "ramscoop": 0.6221340223086074,
+            "everting": 3.306234203289499
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 1.208110830275876,
+            "ramscoop": 0.25193204711205097,
+            "everting": 0.8143246131606401
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 17.120569396005024,
+          "delivered_if_captured": {
+            "harpoon": 3.57020667695339,
+            "ramscoop": 0.6718057172707717,
+            "everting": 3.57020667695339
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 1.3045673982984216,
+            "ramscoop": 0.2720465101483385,
+            "everting": 0.8793409638739484
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 18.487489818490914,
+          "delivered_if_captured": {
+            "harpoon": 3.855254931269151,
+            "ramscoop": 0.7254432414464844,
+            "everting": 3.855254931269151
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 1.4087251384994868,
+            "ramscoop": 0.29376692855186115,
+            "everting": 0.9495482738088741
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 19.963546298206584,
+          "delivered_if_captured": {
+            "harpoon": 4.163061673997628,
+            "ramscoop": 0.783363229920635,
+            "everting": 4.163061673997628
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 1.5211989188361101,
+            "ramscoop": 0.31722152312756324,
+            "everting": 1.0253609934435624
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 21.557452348237184,
+          "delivered_if_captured": {
+            "harpoon": 4.495443961679225,
+            "ramscoop": 0.8459075981852173,
+            "everting": 4.495443961679225
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 1.642652698831637,
+            "ramscoop": 0.34254875193552264,
+            "everting": 1.107226663325166
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 23.278617175760242,
+          "delivered_if_captured": {
+            "harpoon": 4.854363926151553,
+            "ramscoop": 0.9134455605479133,
+            "everting": 4.854363926151553
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 1.7738034490869672,
+            "ramscoop": 0.3698981276418562,
+            "everting": 1.1956285560083162
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 25.13720122683757,
+          "delivered_if_captured": {
+            "harpoon": 5.241940357481209,
+            "ramscoop": 0.9863758096921629,
+            "everting": 5.241940357481209
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 1.9154253837288526,
+            "ramscoop": 0.3994311001276281,
+            "everting": 1.2910885289281682
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 27.144176165949066,
+          "delivered_if_captured": {
+            "harpoon": 5.6604612116863215,
+            "ramscoop": 1.0651288702550232,
+            "everting": 5.6604612116863215
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 2.0683545307803373,
+            "ramscoop": 0.4313220095659468,
+            "everting": 1.3941701050491677
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 29.311389644342384,
+          "delivered_if_captured": {
+            "harpoon": 6.112397117086097,
+            "ramscoop": 1.1501696403167152,
+            "everting": 6.112397117086097
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 2.2334936674333843,
+            "ramscoop": 0.4657591155935605,
+            "everting": 1.505481799475387
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 31.651635239541,
+          "delivered_if_captured": {
+            "harpoon": 6.600415959008409,
+            "ramscoop": 1.2420001358047372,
+            "everting": 6.600415959008409
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 2.4118176493577255,
+            "ramscoop": 0.5029457086523392,
+            "everting": 1.625680711660161
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 34.17872797888052,
+          "delivered_if_captured": {
+            "harpoon": 7.127398628952527,
+            "ramscoop": 1.3411624540134923,
+            "everting": 7.127398628952527
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 2.6043791655061446,
+            "ramscoop": 0.543101310061188,
+            "everting": 1.755476404420717
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 36.90758589290662,
+          "delivered_if_captured": {
+            "harpoon": 7.696456031178087,
+            "ramscoop": 1.4482419737337935,
+            "everting": 7.696456031178087
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 2.8123149523881965,
+            "ramscoop": 0.586462967902702,
+            "everting": 1.8956350926565584
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 39.85431808006378,
+          "delivered_if_captured": {
+            "harpoon": 8.31094744711411,
+            "ramscoop": 1.56387081088333,
+            "everting": 8.31094744711411
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 3.03685250449665,
+            "ramscoop": 0.633286656374474,
+            "everting": 2.0469841664985666
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 43.03631980254152,
+          "delivered_if_captured": {
+            "harpoon": 8.974500365997642,
+            "ramscoop": 1.6887315500375308,
+            "everting": 8.974500365997642
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 3.2793173204999375,
+            "ramscoop": 0.6838487868657684,
+            "everting": 2.2104170755900743
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 46.47237517465168,
+          "delivered_if_captured": {
+            "harpoon": 9.691031898807047,
+            "ramscoop": 1.8235612738889557,
+            "everting": 9.691031898807047
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 3.5411407279766216,
+            "ramscoop": 0.7384478396798135,
+            "everting": 2.386898603332992
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 50.18276804993071,
+          "delivered_if_captured": {
+            "harpoon": 10.464771901901365,
+            "ramscoop": 1.9691559144220463,
+            "everting": 10.464771901901365
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 3.823868332883105,
+            "ramscoop": 0.7974061260341478,
+            "everting": 2.5774705622340908
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 54.189401761559985,
+          "delivered_if_captured": {
+            "harpoon": 11.300287946870249,
+            "ramscoop": 2.126374951489261,
+            "everting": 11.300287946870249
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 4.129169143633864,
+            "ramscoop": 0.8610716907405274,
+            "everting": 2.7832579439724614
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 58.51592842296025,
+          "delivered_if_captured": {
+            "harpoon": 12.202512283997287,
+            "ramscoop": 2.296146486525437,
+            "everting": 12.202512283997287
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 4.458845423655763,
+            "ramscoop": 0.9298203667963802,
+            "everting": 3.0054755604934282
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 63.18788855185238,
+          "delivered_if_captured": {
+            "harpoon": 13.176770958508584,
+            "ramscoop": 2.4794727213516694,
+            "everting": 13.176770958508584
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 4.8148433305784675,
+            "ramscoop": 1.0040579940165277,
+            "everting": 3.245435215332902
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 68.23286184201899,
+          "delivered_if_captured": {
+            "harpoon": 14.228815251486793,
+            "ramscoop": 2.677435874411472,
+            "everting": 14.228815251486793
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 5.199264404866656,
+            "ramscoop": 1.0842228148023179,
+            "everting": 3.5045534475062214
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 73.68062997280774,
+          "delivered_if_captured": {
+            "harpoon": 15.364855631053501,
+            "ramscoop": 2.8912045693640636,
+            "everting": 15.364855631053501
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 5.6143779757140395,
+            "ramscoop": 1.170788061190922,
+            "everting": 3.784359893675432
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 79.56335241748049,
+          "delivered_if_captured": {
+            "harpoon": 16.591598414242426,
+            "ramscoop": 3.122040733748321,
+            "everting": 16.591598414242426
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 6.062634557434346,
+            "ramscoop": 1.2642647484568248,
+            "everting": 4.086506317958992
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 85.91575628824624,
+          "delivered_if_captured": {
+            "harpoon": 17.916285355986574,
+            "ramscoop": 3.3713070484416363,
+            "everting": 17.916285355986574
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 6.5466803154311215,
+            "ramscoop": 1.3652046917567153,
+            "everting": 4.412776362688882
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 92.77534133867852,
+          "delivered_if_captured": {
+            "harpoon": 19.346736398923127,
+            "ramscoop": 3.6404749918898744,
+            "everting": 19.346736398923127
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 7.069372687142622,
+            "ramscoop": 1.4742037636258591,
+            "everting": 4.76509607767628
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 100.18260133369537,
+          "delivered_if_captured": {
+            "harpoon": 20.891395836377924,
+            "ramscoop": 3.9311335265951897,
+            "everting": 20.891395836377924
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 7.633797250175789,
+            "ramscoop": 1.5919054115556288,
+            "everting": 5.145545290142482
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 108.18126309390202,
+          "delivered_if_captured": {
+            "harpoon": 22.559382161041,
+            "ramscoop": 4.244998479140264,
+            "everting": 22.559382161041
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 8.243285937206068,
+            "ramscoop": 1.719004456417354,
+            "everting": 5.5563698824345495
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 116.818544625431,
+          "delivered_if_captured": {
+            "harpoon": 24.360541893601436,
+            "ramscoop": 4.583922669121492,
+            "everting": 24.360541893601436
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 8.901436705169836,
+            "ramscoop": 1.8562511941554953,
+            "everting": 5.999995050003893
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 126.1454338590822,
+          "delivered_if_captured": {
+            "harpoon": 26.305507709105,
+            "ramscoop": 4.949906846784415,
+            "everting": 26.305507709105
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 9.61213477486144,
+            "ramscoop": 2.004455824963331,
+            "everting": 6.479039617912843
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 136.21698964422797,
+          "delivered_if_captured": {
+            "harpoon": 28.405761204168442,
+            "ramscoop": 5.345111503929246,
+            "everting": 28.405761204168442
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 10.379575566317294,
+            "ramscoop": 2.164493236087786,
+            "everting": 6.996331500382992
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 147.09266677431748,
+          "delivered_if_captured": {
+            "harpoon": 30.67370067557968,
+            "ramscoop": 5.771869627808599,
+            "everting": 30.67370067557968
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 11.208289465379861,
+            "ramscoop": 2.3373081664972526,
+            "everting": 7.554924394646567
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 158.83666696268983,
+          "delivered_if_captured": {
+            "harpoon": 33.12271431039795,
+            "ramscoop": 6.232700473307148,
+            "everting": 33.12271431039795
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 12.10316856764477,
+            "ramscoop": 2.523920783900833,
+            "everting": 8.158115807648805
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 171.51831784058382,
+          "delivered_if_captured": {
+            "harpoon": 35.7672592196119,
+            "ramscoop": 6.730324434703476,
+            "everting": 35.7672592196119
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 13.069495557666704,
+            "ramscoop": 2.7254327070414024,
+            "everting": 8.809466522017125
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 185.21248221466274,
+          "delivered_if_captured": {
+            "harpoon": 38.62294678191003,
+            "ramscoop": 7.267679104805666,
+            "everting": 38.62294678191003
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 14.112974893904882,
+            "ramscoop": 2.9430335088135195,
+            "everting": 9.5128216162093
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 200.00000000000003,
+          "delivered_if_captured": {
+            "harpoon": 41.70663480136909,
+            "ramscoop": 7.8479366162615065,
+            "everting": 41.70663480136909
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 15.239766483500645,
+            "ramscoop": 3.178007738595635,
+            "everting": 10.272333162927826
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        }
+      ],
+      "sampled_deciles": [
+        {
+          "chunk_mass_t_range": [
+            10.001490771173115,
+            13.319775145048165
+          ],
+          "median_delivered_t": {
+            "harpoon": 0.9760920294575116,
+            "ramscoop": 0.19037505707264663,
+            "everting": 0.7407757451751029
+          },
+          "winner": "harpoon"
+        },
+        {
+          "chunk_mass_t_range": [
+            13.319775145048165,
+            18.047823237452217
+          ],
+          "median_delivered_t": {
+            "harpoon": 1.2905849778826202,
+            "ramscoop": 0.25184283769466814,
+            "everting": 0.9583767178993043
+          },
+          "winner": "harpoon"
+        },
+        {
+          "chunk_mass_t_range": [
+            18.047823237452217,
+            24.503231842107006
+          ],
+          "median_delivered_t": {
+            "harpoon": 1.6751871405968597,
+            "ramscoop": 0.3393288138659322,
+            "everting": 1.2389533135843096
+          },
+          "winner": "harpoon"
+        },
+        {
+          "chunk_mass_t_range": [
+            24.503231842107006,
+            32.784491189750476
+          ],
+          "median_delivered_t": {
+            "harpoon": 2.221018380324222,
+            "ramscoop": 0.4525803601667492,
+            "everting": 1.557248666923209
+          },
+          "winner": "harpoon"
+        },
+        {
+          "chunk_mass_t_range": [
+            32.784491189750476,
+            44.35642302045376
+          ],
+          "median_delivered_t": {
+            "harpoon": 2.908499848636546,
+            "ramscoop": 0.6100195838615259,
+            "everting": 1.9911302704719678
+          },
+          "winner": "harpoon"
+        },
+        {
+          "chunk_mass_t_range": [
+            44.35642302045376,
+            59.20871489949057
+          ],
+          "median_delivered_t": {
+            "harpoon": 3.904782131684733,
+            "ramscoop": 0.8128516407609974,
+            "everting": 2.56947243477601
+          },
+          "winner": "harpoon"
+        },
+        {
+          "chunk_mass_t_range": [
+            59.20871489949057,
+            81.10037444283155
+          ],
+          "median_delivered_t": {
+            "harpoon": 5.010070597425964,
+            "ramscoop": 1.0960474116183687,
+            "everting": 3.2830906727255025
+          },
+          "winner": "harpoon"
+        },
+        {
+          "chunk_mass_t_range": [
+            81.10037444283155,
+            108.14175417441851
+          ],
+          "median_delivered_t": {
+            "harpoon": 6.825691438176686,
+            "ramscoop": 1.4609790476021496,
+            "everting": 4.243664483379426
+          },
+          "winner": "harpoon"
+        },
+        {
+          "chunk_mass_t_range": [
+            108.14175417441851,
+            146.48154527926405
+          ],
+          "median_delivered_t": {
+            "harpoon": 8.736334096921457,
+            "ramscoop": 1.9524392997070832,
+            "everting": 5.555023060142847
+          },
+          "winner": "harpoon"
+        },
+        {
+          "chunk_mass_t_range": [
+            146.48154527926405,
+            199.99427661660698
+          ],
+          "median_delivered_t": {
+            "harpoon": 11.475062615744193,
+            "ramscoop": 2.6439158687808897,
+            "everting": 6.998565979098856
+          },
+          "winner": "harpoon"
+        }
+      ],
+      "unique_winners_expected": [
+        "harpoon"
+      ],
+      "unique_winners_sampled_deciles": [
+        "harpoon"
+      ],
+      "trade_is_chunk_mass_dependent": false
+    },
+    "fixed": {
+      "deterministic_grid": [
+        {
+          "mass_t": 10.0,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 10.798408271867897,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 11.660562120594511,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 12.591551045765724,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 13.596870896824354,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 14.6824563163788,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 15.854715773812398,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 17.120569396005024,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 18.487489818490914,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 19.963546298206584,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 21.557452348237184,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 23.278617175760242,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 25.13720122683757,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 27.144176165949066,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 29.311389644342384,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 31.651635239541,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 34.17872797888052,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 36.90758589290662,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 39.85431808006378,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 43.03631980254152,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 46.47237517465168,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 50.18276804993071,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 54.189401761559985,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 58.51592842296025,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 63.18788855185238,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 68.23286184201899,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 73.68062997280774,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 79.56335241748049,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 85.91575628824624,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 92.77534133867852,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 100.18260133369537,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 108.18126309390202,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 116.818544625431,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 126.1454338590822,
+          "delivered_if_captured": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 136.21698964422797,
+          "delivered_if_captured": {
+            "harpoon": 3.1646928248827635,
+            "ramscoop": 0.0,
+            "everting": 3.1646928248827635
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 1.156391060389272,
+            "ramscoop": 0.0,
+            "everting": 0.7794630089516548
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 147.09266677431748,
+          "delivered_if_captured": {
+            "harpoon": 9.73650112563314,
+            "ramscoop": 0.0,
+            "everting": 9.73650112563314
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 3.5577553602123597,
+            "ramscoop": 0.0,
+            "everting": 2.3980976619202607
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 158.83666696268983,
+          "delivered_if_captured": {
+            "harpoon": 16.83300803722844,
+            "ramscoop": 0.0,
+            "everting": 16.83300803722844
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 6.150846572110149,
+            "ramscoop": 0.0,
+            "everting": 4.145965444495083
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 171.51831784058382,
+          "delivered_if_captured": {
+            "harpoon": 24.49610593078239,
+            "ramscoop": 0.0,
+            "everting": 24.49610593078239
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 8.950972331336695,
+            "ramscoop": 0.0,
+            "everting": 6.033384436643847
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 185.21248221466274,
+          "delivered_if_captured": {
+            "harpoon": 32.771031898970904,
+            "ramscoop": 0.16404896786494305,
+            "everting": 32.771031898970904
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 11.974662447406878,
+            "ramscoop": 0.06643133282997496,
+            "everting": 8.071496522373794
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        },
+        {
+          "mass_t": 200.00000000000003,
+          "delivered_if_captured": {
+            "harpoon": 41.70663480136909,
+            "ramscoop": 7.8479366162615065,
+            "everting": 41.70663480136909
+          },
+          "expected_delivered_at_median_p": {
+            "harpoon": 15.239766483500645,
+            "ramscoop": 3.178007738595635,
+            "everting": 10.272333162927826
+          },
+          "winner_deterministic": "harpoon",
+          "winner_expected": "harpoon"
+        }
+      ],
+      "sampled_deciles": [
+        {
+          "chunk_mass_t_range": [
+            10.001490771173115,
+            13.319775145048165
+          ],
+          "median_delivered_t": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner": "harpoon"
+        },
+        {
+          "chunk_mass_t_range": [
+            13.319775145048165,
+            18.047823237452217
+          ],
+          "median_delivered_t": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner": "harpoon"
+        },
+        {
+          "chunk_mass_t_range": [
+            18.047823237452217,
+            24.503231842107006
+          ],
+          "median_delivered_t": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner": "harpoon"
+        },
+        {
+          "chunk_mass_t_range": [
+            24.503231842107006,
+            32.784491189750476
+          ],
+          "median_delivered_t": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner": "harpoon"
+        },
+        {
+          "chunk_mass_t_range": [
+            32.784491189750476,
+            44.35642302045376
+          ],
+          "median_delivered_t": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner": "harpoon"
+        },
+        {
+          "chunk_mass_t_range": [
+            44.35642302045376,
+            59.20871489949057
+          ],
+          "median_delivered_t": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner": "harpoon"
+        },
+        {
+          "chunk_mass_t_range": [
+            59.20871489949057,
+            81.10037444283155
+          ],
+          "median_delivered_t": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner": "harpoon"
+        },
+        {
+          "chunk_mass_t_range": [
+            81.10037444283155,
+            108.14175417441851
+          ],
+          "median_delivered_t": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner": "harpoon"
+        },
+        {
+          "chunk_mass_t_range": [
+            108.14175417441851,
+            146.48154527926405
+          ],
+          "median_delivered_t": {
+            "harpoon": 0.0,
+            "ramscoop": 0.0,
+            "everting": 0.0
+          },
+          "winner": "harpoon"
+        },
+        {
+          "chunk_mass_t_range": [
+            146.48154527926405,
+            199.99427661660698
+          ],
+          "median_delivered_t": {
+            "harpoon": 6.7627363192880035,
+            "ramscoop": 0.0,
+            "everting": 4.267056430870956
+          },
+          "winner": "harpoon"
+        }
+      ],
+      "unique_winners_expected": [
+        "harpoon"
+      ],
+      "unique_winners_sampled_deciles": [
+        "harpoon"
+      ],
+      "trade_is_chunk_mass_dependent": false
+    }
+  },
+  "verdicts": {
+    "ratio": {
+      "H1_ramscoop_lead_survives": {
+        "verdict": "FALSIFIED",
+        "ramscoop_median_t": 0.7126395694995517,
+        "harpoon_median_t": 3.0093858782615346
+      },
+      "H2_penalty_3x_to_8x": {
+        "verdict": "HELD",
+        "relative_penalty_x": 5.3143439913811035
+      },
+      "H3_none_clears_25t": {
+        "verdict": "HELD",
+        "best_architecture_median_t": 3.0093858782615346,
+        "floor_t": 25.0
+      },
+      "H4_chunk_mass_dependent_trade": {
+        "verdict": "FALSIFIED",
+        "unique_winners": [
+          "harpoon"
+        ]
+      }
+    },
+    "fixed": {
+      "H1_ramscoop_lead_survives": {
+        "verdict": "HELD",
+        "ramscoop_median_t": 0.0,
+        "harpoon_median_t": 0.0
+      },
+      "H2_penalty_3x_to_8x": {
+        "verdict": "HELD",
+        "relative_penalty_x": 5.3143439913811035
+      },
+      "H3_none_clears_25t": {
+        "verdict": "HELD",
+        "best_architecture_median_t": 0.0,
+        "floor_t": 25.0
+      },
+      "H4_chunk_mass_dependent_trade": {
+        "verdict": "FALSIFIED",
+        "unique_winners": [
+          "harpoon"
+        ]
+      }
+    }
+  }
+}

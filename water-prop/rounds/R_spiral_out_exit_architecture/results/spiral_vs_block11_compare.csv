@@ -1,0 +1,5 @@
+power_mwe,spiral_tier,spiral_max_df_pct,spiral_isp_combo,spiral_t_total_burn_yr,spiral_t_total_mission_yr,spiral_m_delivered_t,block11_max_df_pct,block11_isp_combo,delta_pp
+0.5,FAIL,0.0,n/a,n/a,n/a,0.0,0.0,n/a (no closure at any Isp),0.0
+1.0,WAIVER,2.83,5000 / 7000,15.683,22.183,5.66,0.0,n/a (mass closure fails),2.83
+2.0,WAIVER,28.36,9000 / 9000,13.603,20.103,56.721,0.0,n/a (mass closure fails),28.36
+5.0,STRICT,28.36,9000 / 9000,5.441,11.941,56.721,22.76,3000 / 9000,5.6

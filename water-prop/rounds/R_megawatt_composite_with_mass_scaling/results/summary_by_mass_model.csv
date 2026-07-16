@@ -1,0 +1,17 @@
+mass_model,power_mwe,any_closure,n_closing,max_df_pct,isp_exit,isp_inbound,delivered_t,t_exit_month,t_inbound_year
+bottoms_up_moderate,1.0,no,0,n/a,n/a,n/a,n/a,n/a,n/a
+bottoms_up_moderate,2.0,no,0,n/a,n/a,n/a,n/a,n/a,n/a
+bottoms_up_moderate,5.0,no,0,n/a,n/a,n/a,n/a,n/a,n/a
+bottoms_up_moderate,10.0,no,0,n/a,n/a,n/a,n/a,n/a,n/a
+bundled_finding_4,1.0,no,0,n/a,n/a,n/a,n/a,n/a,n/a
+bundled_finding_4,2.0,no,0,n/a,n/a,n/a,n/a,n/a,n/a
+bundled_finding_4,5.0,no,0,n/a,n/a,n/a,n/a,n/a,n/a
+bundled_finding_4,10.0,no,0,n/a,n/a,n/a,n/a,n/a,n/a
+krusty_anchored,1.0,no,0,n/a,n/a,n/a,n/a,n/a,n/a
+krusty_anchored,2.0,no,0,n/a,n/a,n/a,n/a,n/a,n/a
+krusty_anchored,5.0,no,0,n/a,n/a,n/a,n/a,n/a,n/a
+krusty_anchored,10.0,no,0,n/a,n/a,n/a,n/a,n/a,n/a
+paper_aspirational,1.0,no,0,n/a,n/a,n/a,n/a,n/a,n/a
+paper_aspirational,2.0,no,0,n/a,n/a,n/a,n/a,n/a,n/a
+paper_aspirational,5.0,yes,1,7.6839,3000,9000,15.368,5.170,3.1340
+paper_aspirational,10.0,yes,1,1.0331,5000,9000,2.066,5.754,2.2047

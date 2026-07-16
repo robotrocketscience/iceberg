@@ -1,0 +1,311 @@
+{
+  "round": "R-per-mission-economics-sensitivity-revisit",
+  "author": "rhea",
+  "date": "2026-05-15",
+  "purpose": "Self-questioning round against R-reactor-specific-power-program-targets H7 cost anchors and decision-frame conflation",
+  "anchors_corrected": {
+    "ship_capex_b": 0.65,
+    "per_launch_b": 0.3,
+    "launches_per_mission": 3,
+    "ship_reuse_missions": 15,
+    "nre_b": 1.0,
+    "n_missions": 25,
+    "clearing_price_m_per_t_best_cell": 2.5,
+    "source_anchors": "R-architecture-D-cost (commit a4d163d) + R-LEO-water-demand-curve (Saturn e7d43dd)"
+  },
+  "anchors_round_9": {
+    "ship_capex_b": 2.0,
+    "per_launch_b": 3.0,
+    "launches_per_mission": "implicit-1 (3 separate cost line)",
+    "nre_b": 7.5,
+    "issue": "5x over-counting against own prior round; no ship-reuse modeled"
+  },
+  "central_anchored_results": {
+    "h2a_conditional_cashflow_per_mission_b": -0.8382333333333333,
+    "h2a_conditional_program_npv0_b": -21.95583333333333,
+    "h2a_conjunction_weighted_cashflow_per_mission_b": -0.9431579477083333,
+    "h2a_conjunction_weighted_program_npv0_b": -24.57894869270833,
+    "h2a_total_program_cost_b": 24.58333333333333
+  },
+  "breakeven_clearing_price_table": {
+    "launches=3_reuse=5": {
+      "per_mission_cost_b": 1.0299999999999998,
+      "breakeven_clearing_price_m_per_t": 24.500475737392954,
+      "x_over_best_cell": 9.800190294957181
+    },
+    "launches=3_reuse=15": {
+      "per_mission_cost_b": 0.9433333333333332,
+      "breakeven_clearing_price_m_per_t": 22.438947034570248,
+      "x_over_best_cell": 8.975578813828099
+    },
+    "launches=3_reuse=25": {
+      "per_mission_cost_b": 0.9259999999999999,
+      "breakeven_clearing_price_m_per_t": 22.026641294005707,
+      "x_over_best_cell": 8.810656517602283
+    },
+    "launches=5_reuse=5": {
+      "per_mission_cost_b": 1.63,
+      "breakeven_clearing_price_m_per_t": 38.772597526165555,
+      "x_over_best_cell": 15.509039010466221
+    },
+    "launches=5_reuse=15": {
+      "per_mission_cost_b": 1.5433333333333334,
+      "breakeven_clearing_price_m_per_t": 36.71106882334285,
+      "x_over_best_cell": 14.684427529337139
+    },
+    "launches=5_reuse=25": {
+      "per_mission_cost_b": 1.526,
+      "breakeven_clearing_price_m_per_t": 36.29876308277831,
+      "x_over_best_cell": 14.519505233111323
+    },
+    "launches=8_reuse=5": {
+      "per_mission_cost_b": 2.53,
+      "breakeven_clearing_price_m_per_t": 60.18078020932445,
+      "x_over_best_cell": 24.07231208372978
+    },
+    "launches=8_reuse=15": {
+      "per_mission_cost_b": 2.4433333333333334,
+      "breakeven_clearing_price_m_per_t": 58.11925150650175,
+      "x_over_best_cell": 23.2477006026007
+    },
+    "launches=8_reuse=25": {
+      "per_mission_cost_b": 2.4259999999999997,
+      "breakeven_clearing_price_m_per_t": 57.70694576593719,
+      "x_over_best_cell": 23.082778306374877
+    }
+  },
+  "n_sweep_rows": 324,
+  "n_sweep_rows_positive_conditional_npv": 99,
+  "n_sweep_rows_positive_conjunction_npv": 0,
+  "positive_conditional_npv_examples": [
+    {
+      "min_point": "H2a_no_aerocapture",
+      "launches_per_mission": 3,
+      "ship_reuse_missions": 5,
+      "clearing_price_m_per_t": 25,
+      "n_missions": 25,
+      "nre_b": 0.5,
+      "per_mission_cost_b": 1.0299999999999998,
+      "conditional_revenue_per_mission_b": 1.051,
+      "conditional_cashflow_per_mission_b": 0.02100000000000013,
+      "conditional_program_npv0_b": 0.025000000000003242,
+      "conjunction_posterior_uniform": 0.0016687499999999999,
+      "expected_revenue_per_mission_b": 0.0017538562499999997,
+      "conjunction_weighted_cashflow_b": -1.02824614375,
+      "conjunction_weighted_npv0_b": -26.20615359375
+    },
+    {
+      "min_point": "H2a_no_aerocapture",
+      "launches_per_mission": 3,
+      "ship_reuse_missions": 5,
+      "clearing_price_m_per_t": 25,
+      "n_missions": 50,
+      "nre_b": 0.5,
+      "per_mission_cost_b": 1.0299999999999998,
+      "conditional_revenue_per_mission_b": 1.051,
+      "conditional_cashflow_per_mission_b": 0.02100000000000013,
+      "conditional_program_npv0_b": 0.5500000000000065,
+      "conjunction_posterior_uniform": 0.0016687499999999999,
+      "expected_revenue_per_mission_b": 0.0017538562499999997,
+      "conjunction_weighted_cashflow_b": -1.02824614375,
+      "conjunction_weighted_npv0_b": -51.9123071875
+    },
+    {
+      "min_point": "H2a_no_aerocapture",
+      "launches_per_mission": 3,
+      "ship_reuse_missions": 5,
+      "clearing_price_m_per_t": 25,
+      "n_missions": 50,
+      "nre_b": 1.0,
+      "per_mission_cost_b": 1.0299999999999998,
+      "conditional_revenue_per_mission_b": 1.051,
+      "conditional_cashflow_per_mission_b": 0.02100000000000013,
+      "conditional_program_npv0_b": 0.050000000000006484,
+      "conjunction_posterior_uniform": 0.0016687499999999999,
+      "expected_revenue_per_mission_b": 0.0017538562499999997,
+      "conjunction_weighted_cashflow_b": -1.02824614375,
+      "conjunction_weighted_npv0_b": -52.4123071875
+    },
+    {
+      "min_point": "H2a_no_aerocapture",
+      "launches_per_mission": 3,
+      "ship_reuse_missions": 5,
+      "clearing_price_m_per_t": 100,
+      "n_missions": 10,
+      "nre_b": 0.5,
+      "per_mission_cost_b": 1.0299999999999998,
+      "conditional_revenue_per_mission_b": 4.204,
+      "conditional_cashflow_per_mission_b": 3.174,
+      "conditional_program_npv0_b": 31.24,
+      "conjunction_posterior_uniform": 0.0016687499999999999,
+      "expected_revenue_per_mission_b": 0.007015424999999999,
+      "conjunction_weighted_cashflow_b": -1.0229845749999997,
+      "conjunction_weighted_npv0_b": -10.729845749999997
+    },
+    {
+      "min_point": "H2a_no_aerocapture",
+      "launches_per_mission": 3,
+      "ship_reuse_missions": 5,
+      "clearing_price_m_per_t": 100,
+      "n_missions": 10,
+      "nre_b": 1.0,
+      "per_mission_cost_b": 1.0299999999999998,
+      "conditional_revenue_per_mission_b": 4.204,
+      "conditional_cashflow_per_mission_b": 3.174,
+      "conditional_program_npv0_b": 30.74,
+      "conjunction_posterior_uniform": 0.0016687499999999999,
+      "expected_revenue_per_mission_b": 0.007015424999999999,
+      "conjunction_weighted_cashflow_b": -1.0229845749999997,
+      "conjunction_weighted_npv0_b": -11.229845749999997
+    },
+    {
+      "min_point": "H2a_no_aerocapture",
+      "launches_per_mission": 3,
+      "ship_reuse_missions": 5,
+      "clearing_price_m_per_t": 100,
+      "n_missions": 10,
+      "nre_b": 3.0,
+      "per_mission_cost_b": 1.0299999999999998,
+      "conditional_revenue_per_mission_b": 4.204,
+      "conditional_cashflow_per_mission_b": 3.174,
+      "conditional_program_npv0_b": 28.74,
+      "conjunction_posterior_uniform": 0.0016687499999999999,
+      "expected_revenue_per_mission_b": 0.007015424999999999,
+      "conjunction_weighted_cashflow_b": -1.0229845749999997,
+      "conjunction_weighted_npv0_b": -13.229845749999997
+    },
+    {
+      "min_point": "H2a_no_aerocapture",
+      "launches_per_mission": 3,
+      "ship_reuse_missions": 5,
+      "clearing_price_m_per_t": 100,
+      "n_missions": 25,
+      "nre_b": 0.5,
+      "per_mission_cost_b": 1.0299999999999998,
+      "conditional_revenue_per_mission_b": 4.204,
+      "conditional_cashflow_per_mission_b": 3.174,
+      "conditional_program_npv0_b": 78.85,
+      "conjunction_posterior_uniform": 0.0016687499999999999,
+      "expected_revenue_per_mission_b": 0.007015424999999999,
+      "conjunction_weighted_cashflow_b": -1.0229845749999997,
+      "conjunction_weighted_npv0_b": -26.074614374999992
+    },
+    {
+      "min_point": "H2a_no_aerocapture",
+      "launches_per_mission": 3,
+      "ship_reuse_missions": 5,
+      "clearing_price_m_per_t": 100,
+      "n_missions": 25,
+      "nre_b": 1.0,
+      "per_mission_cost_b": 1.0299999999999998,
+      "conditional_revenue_per_mission_b": 4.204,
+      "conditional_cashflow_per_mission_b": 3.174,
+      "conditional_program_npv0_b": 78.35,
+      "conjunction_posterior_uniform": 0.0016687499999999999,
+      "expected_revenue_per_mission_b": 0.007015424999999999,
+      "conjunction_weighted_cashflow_b": -1.0229845749999997,
+      "conjunction_weighted_npv0_b": -26.574614374999992
+    },
+    {
+      "min_point": "H2a_no_aerocapture",
+      "launches_per_mission": 3,
+      "ship_reuse_missions": 5,
+      "clearing_price_m_per_t": 100,
+      "n_missions": 25,
+      "nre_b": 3.0,
+      "per_mission_cost_b": 1.0299999999999998,
+      "conditional_revenue_per_mission_b": 4.204,
+      "conditional_cashflow_per_mission_b": 3.174,
+      "conditional_program_npv0_b": 76.35,
+      "conjunction_posterior_uniform": 0.0016687499999999999,
+      "expected_revenue_per_mission_b": 0.007015424999999999,
+      "conjunction_weighted_cashflow_b": -1.0229845749999997,
+      "conjunction_weighted_npv0_b": -28.574614374999992
+    },
+    {
+      "min_point": "H2a_no_aerocapture",
+      "launches_per_mission": 3,
+      "ship_reuse_missions": 5,
+      "clearing_price_m_per_t": 100,
+      "n_missions": 50,
+      "nre_b": 0.5,
+      "per_mission_cost_b": 1.0299999999999998,
+      "conditional_revenue_per_mission_b": 4.204,
+      "conditional_cashflow_per_mission_b": 3.174,
+      "conditional_program_npv0_b": 158.2,
+      "conjunction_posterior_uniform": 0.0016687499999999999,
+      "expected_revenue_per_mission_b": 0.007015424999999999,
+      "conjunction_weighted_cashflow_b": -1.0229845749999997,
+      "conjunction_weighted_npv0_b": -51.649228749999985
+    }
+  ],
+  "positive_conjunction_npv_examples": [],
+  "grading": {
+    "H1": {
+      "predicted_range_b": [
+        -15.0,
+        -3.0
+      ],
+      "measured_conditional_npv0_b": -21.95583333333333,
+      "measured_conditional_cashflow_per_mission_b": -0.8382333333333333,
+      "status": "FALSIFIED"
+    },
+    "H2": {
+      "predicted_range_m_per_t": [
+        5.0,
+        40.0
+      ],
+      "measured_breakeven_range_m_per_t": [
+        22.026641294005707,
+        60.18078020932445
+      ],
+      "central_breakeven_m_per_t": 22.438947034570248,
+      "status": "HELD"
+    },
+    "H3": {
+      "predicted_range_b": [
+        -15.0,
+        -5.0
+      ],
+      "h7_original_b": -132.5,
+      "measured_conjunction_weighted_npv0_b": -24.57894869270833,
+      "magnitude_correction_ratio": 5.3907920007704755,
+      "predicted_correction_range": [
+        8,
+        15
+      ],
+      "status_npv": "FALSIFIED",
+      "status_correction": "HELD"
+    },
+    "H4": {
+      "predicted_program_cost_range_b": [
+        3.0,
+        11.0
+      ],
+      "measured_total_program_cost_b": 24.58333333333333,
+      "measured_per_mission_total_b": 0.9833333333333332,
+      "status": "FALSIFIED",
+      "note": "compare Europa Clipper $5B, Mars Sample Return $11B, Cassini $3.9B"
+    },
+    "H5": {
+      "track_a_return_seeking": {
+        "npv_b": -24.57894869270833,
+        "verdict": "ruled-out"
+      },
+      "track_b_sovereign_grant": {
+        "program_cost_b": 24.58333333333333,
+        "verdict": "ruled-out"
+      },
+      "two_track_consistent": "YES (different decision frames; not contradictory)",
+      "status": "HELD"
+    },
+    "H6": {
+      "round_9_per_mission_cost_b": 5.0,
+      "corrected_per_mission_cost_b": 0.9433333333333332,
+      "cost_correction_ratio": 5.30035335689046,
+      "h7_to_corrected_npv_ratio": 5.3907920007704755,
+      "cost_correction_explains_npv_correction": "YES (cost ratio 14.6x \u2248 NPV ratio 14x)",
+      "status": "HELD"
+    }
+  }
+}

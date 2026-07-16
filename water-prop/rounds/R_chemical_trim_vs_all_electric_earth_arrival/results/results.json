@@ -1,0 +1,1280 @@
+{
+  "base_case_50t": {
+    "A": {
+      "chain": [
+        {
+          "dv_km_s": 3.0,
+          "label": "(1) Saturn-departure chemical",
+          "mass_after_t": 25.34152473606233,
+          "mass_before_t": 50.0,
+          "propellant_burned_t": 24.65847526393767,
+          "ve_km_s": 4.4145
+        },
+        {
+          "dv_km_s": 2.42,
+          "label": "(5a) Earth-capture chemical (impulsive)",
+          "mass_after_t": 14.647224898644417,
+          "mass_before_t": 25.34152473606233,
+          "propellant_burned_t": 10.694299837417912,
+          "ve_km_s": 4.4145
+        },
+        {
+          "dv_km_s": 1.18,
+          "label": "(5b) Edelbaum electric (small spiral)",
+          "mass_after_t": 13.792268468936415,
+          "mass_before_t": 14.647224898644417,
+          "propellant_burned_t": 0.8549564297080021,
+          "ve_km_s": 19.62
+        }
+      ],
+      "chunk_t": 50.0,
+      "delivered_fraction": 0.2758453693787283,
+      "delivered_t": 13.792268468936415,
+      "dv_chemical_km_s": 5.42,
+      "dv_electric_km_s": 1.18,
+      "dv_total_km_s": 6.6,
+      "scenario": "A \u2014 matrix literal (impulsive Hohmann + chemical Earth-capture)"
+    },
+    "B": {
+      "chain": [
+        {
+          "dv_km_s": 3.0,
+          "label": "(1) Saturn-departure chemical",
+          "mass_after_t": 25.34152473606233,
+          "mass_before_t": 50.0,
+          "propellant_burned_t": 24.65847526393767,
+          "ve_km_s": 4.4145
+        },
+        {
+          "dv_km_s": 5.44,
+          "label": "(2) Heliocentric Saturn-to-Hohmann electric",
+          "mass_after_t": 19.205107329716004,
+          "mass_before_t": 25.34152473606233,
+          "propellant_burned_t": 6.136417406346325,
+          "ve_km_s": 19.62
+        },
+        {
+          "dv_km_s": 8.3,
+          "label": "(4) Heliocentric Earth-side electric (with LGA)",
+          "mass_after_t": 12.580380959973708,
+          "mass_before_t": 19.205107329716004,
+          "propellant_burned_t": 6.624726369742296,
+          "ve_km_s": 19.62
+        },
+        {
+          "dv_km_s": 7.67,
+          "label": "(5) Earth Edelbaum capture-spiral electric (full)",
+          "mass_after_t": 8.50973590767422,
+          "mass_before_t": 12.580380959973708,
+          "propellant_burned_t": 4.070645052299488,
+          "ve_km_s": 19.62
+        }
+      ],
+      "chunk_t": 50.0,
+      "delivered_fraction": 0.1701947181534844,
+      "delivered_t": 8.50973590767422,
+      "dv_chemical_km_s": 3.0,
+      "dv_electric_km_s": 21.410000000000004,
+      "dv_total_km_s": 24.410000000000004,
+      "scenario": "B \u2014 all-electric inbound (matrix cell as written)"
+    },
+    "C": {
+      "chain": [
+        {
+          "dv_km_s": 3.0,
+          "label": "(1) Saturn-departure chemical",
+          "mass_after_t": 25.34152473606233,
+          "mass_before_t": 50.0,
+          "propellant_burned_t": 24.65847526393767,
+          "ve_km_s": 4.4145
+        },
+        {
+          "dv_km_s": 5.44,
+          "label": "(2) Heliocentric Saturn-to-Hohmann electric",
+          "mass_after_t": 19.205107329716004,
+          "mass_before_t": 25.34152473606233,
+          "propellant_burned_t": 6.136417406346325,
+          "ve_km_s": 19.62
+        },
+        {
+          "dv_km_s": 8.3,
+          "label": "(4) Heliocentric Earth-side electric (with LGA)",
+          "mass_after_t": 12.580380959973708,
+          "mass_before_t": 19.205107329716004,
+          "propellant_burned_t": 6.624726369742296,
+          "ve_km_s": 19.62
+        },
+        {
+          "dv_km_s": 2.42,
+          "label": "(5a) Earth-capture chemical (impulsive)",
+          "mass_after_t": 7.271372624597304,
+          "mass_before_t": 12.580380959973708,
+          "propellant_burned_t": 5.3090083353764035,
+          "ve_km_s": 4.4145
+        },
+        {
+          "dv_km_s": 1.18,
+          "label": "(5b) Edelbaum electric (small spiral)",
+          "mass_after_t": 6.846943640866907,
+          "mass_before_t": 7.271372624597304,
+          "propellant_burned_t": 0.4244289837303974,
+          "ve_km_s": 19.62
+        }
+      ],
+      "chunk_t": 50.0,
+      "delivered_fraction": 0.13693887281733813,
+      "delivered_t": 6.846943640866907,
+      "dv_chemical_km_s": 5.42,
+      "dv_electric_km_s": 14.920000000000002,
+      "dv_total_km_s": 20.340000000000003,
+      "scenario": "C \u2014 chemical-trim Earth-capture + electric elsewhere"
+    },
+    "D": {
+      "chain": [
+        {
+          "dv_km_s": 3.0,
+          "label": "(1) Saturn-departure chemical",
+          "mass_after_t": 25.34152473606233,
+          "mass_before_t": 50.0,
+          "propellant_burned_t": 24.65847526393767,
+          "ve_km_s": 4.4145
+        },
+        {
+          "dv_km_s": 5.44,
+          "label": "(2) Heliocentric Saturn-to-Hohmann electric",
+          "mass_after_t": 19.205107329716004,
+          "mass_before_t": 25.34152473606233,
+          "propellant_burned_t": 6.136417406346325,
+          "ve_km_s": 19.62
+        },
+        {
+          "dv_km_s": 8.3,
+          "label": "(4) Heliocentric Earth-side electric (with LGA)",
+          "mass_after_t": 12.580380959973708,
+          "mass_before_t": 19.205107329716004,
+          "propellant_burned_t": 6.624726369742296,
+          "ve_km_s": 19.62
+        },
+        {
+          "dv_km_s": 2.42,
+          "label": "(5a) Earth-capture chemical (impulsive)",
+          "mass_after_t": 7.271372624597304,
+          "mass_before_t": 12.580380959973708,
+          "propellant_burned_t": 5.3090083353764035,
+          "ve_km_s": 4.4145
+        },
+        {
+          "dv_km_s": 1.18,
+          "label": "(5b) Edelbaum chemical (small spiral)",
+          "mass_after_t": 5.5658189811546706,
+          "mass_before_t": 7.271372624597304,
+          "propellant_burned_t": 1.7055536434426335,
+          "ve_km_s": 4.4145
+        }
+      ],
+      "chunk_t": 50.0,
+      "delivered_fraction": 0.11131637962309342,
+      "delivered_t": 5.5658189811546706,
+      "dv_chemical_km_s": 6.6,
+      "dv_electric_km_s": 13.740000000000002,
+      "dv_total_km_s": 20.340000000000003,
+      "scenario": "D \u2014 full chemical Earth-arrival (capture + Edelbaum chemical)"
+    },
+    "E": {
+      "chain": [
+        {
+          "dv_km_s": 3.0,
+          "label": "(1) Saturn-departure chemical",
+          "mass_after_t": 25.34152473606233,
+          "mass_before_t": 50.0,
+          "propellant_burned_t": 24.65847526393767,
+          "ve_km_s": 4.4145
+        },
+        {
+          "dv_km_s": 5.44,
+          "label": "(2) Heliocentric Saturn-to-Hohmann chemical",
+          "mass_after_t": 7.390103240554795,
+          "mass_before_t": 25.34152473606233,
+          "propellant_burned_t": 17.951421495507535,
+          "ve_km_s": 4.4145
+        },
+        {
+          "dv_km_s": 8.3,
+          "label": "(4) Heliocentric Earth-side chemical (with LGA)",
+          "mass_after_t": 1.1274676224643851,
+          "mass_before_t": 7.390103240554795,
+          "propellant_burned_t": 6.2626356180904095,
+          "ve_km_s": 4.4145
+        },
+        {
+          "dv_km_s": 2.42,
+          "label": "(5a) Earth-capture chemical (impulsive)",
+          "mass_after_t": 0.6516684376404188,
+          "mass_before_t": 1.1274676224643851,
+          "propellant_burned_t": 0.4757991848239663,
+          "ve_km_s": 4.4145
+        },
+        {
+          "dv_km_s": 1.18,
+          "label": "(5b) Edelbaum chemical (small spiral)",
+          "mass_after_t": 0.49881483825611567,
+          "mass_before_t": 0.6516684376404188,
+          "propellant_burned_t": 0.15285359938430315,
+          "ve_km_s": 4.4145
+        }
+      ],
+      "chunk_t": 50.0,
+      "delivered_fraction": 0.009976296765122314,
+      "delivered_t": 0.49881483825611567,
+      "dv_chemical_km_s": 20.340000000000003,
+      "dv_electric_km_s": 0.0,
+      "dv_total_km_s": 20.340000000000003,
+      "scenario": "E \u2014 pure chemical inbound (bracketing only)"
+    }
+  },
+  "chunk_sensitivity": {
+    "chunk_100t": {
+      "A": {
+        "chain": [
+          {
+            "dv_km_s": 3.0,
+            "label": "(1) Saturn-departure chemical",
+            "mass_after_t": 50.68304947212466,
+            "mass_before_t": 100.0,
+            "propellant_burned_t": 49.31695052787534,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 2.42,
+            "label": "(5a) Earth-capture chemical (impulsive)",
+            "mass_after_t": 29.294449797288834,
+            "mass_before_t": 50.68304947212466,
+            "propellant_burned_t": 21.388599674835824,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 1.18,
+            "label": "(5b) Edelbaum electric (small spiral)",
+            "mass_after_t": 27.58453693787283,
+            "mass_before_t": 29.294449797288834,
+            "propellant_burned_t": 1.7099128594160042,
+            "ve_km_s": 19.62
+          }
+        ],
+        "chunk_t": 100.0,
+        "delivered_fraction": 0.2758453693787283,
+        "delivered_t": 27.58453693787283,
+        "dv_chemical_km_s": 5.42,
+        "dv_electric_km_s": 1.18,
+        "dv_total_km_s": 6.6,
+        "scenario": "A \u2014 matrix literal (impulsive Hohmann + chemical Earth-capture)"
+      },
+      "B": {
+        "chain": [
+          {
+            "dv_km_s": 3.0,
+            "label": "(1) Saturn-departure chemical",
+            "mass_after_t": 50.68304947212466,
+            "mass_before_t": 100.0,
+            "propellant_burned_t": 49.31695052787534,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 5.44,
+            "label": "(2) Heliocentric Saturn-to-Hohmann electric",
+            "mass_after_t": 38.41021465943201,
+            "mass_before_t": 50.68304947212466,
+            "propellant_burned_t": 12.27283481269265,
+            "ve_km_s": 19.62
+          },
+          {
+            "dv_km_s": 8.3,
+            "label": "(4) Heliocentric Earth-side electric (with LGA)",
+            "mass_after_t": 25.160761919947415,
+            "mass_before_t": 38.41021465943201,
+            "propellant_burned_t": 13.249452739484592,
+            "ve_km_s": 19.62
+          },
+          {
+            "dv_km_s": 7.67,
+            "label": "(5) Earth Edelbaum capture-spiral electric (full)",
+            "mass_after_t": 17.01947181534844,
+            "mass_before_t": 25.160761919947415,
+            "propellant_burned_t": 8.141290104598976,
+            "ve_km_s": 19.62
+          }
+        ],
+        "chunk_t": 100.0,
+        "delivered_fraction": 0.1701947181534844,
+        "delivered_t": 17.01947181534844,
+        "dv_chemical_km_s": 3.0,
+        "dv_electric_km_s": 21.410000000000004,
+        "dv_total_km_s": 24.410000000000004,
+        "scenario": "B \u2014 all-electric inbound (matrix cell as written)"
+      },
+      "C": {
+        "chain": [
+          {
+            "dv_km_s": 3.0,
+            "label": "(1) Saturn-departure chemical",
+            "mass_after_t": 50.68304947212466,
+            "mass_before_t": 100.0,
+            "propellant_burned_t": 49.31695052787534,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 5.44,
+            "label": "(2) Heliocentric Saturn-to-Hohmann electric",
+            "mass_after_t": 38.41021465943201,
+            "mass_before_t": 50.68304947212466,
+            "propellant_burned_t": 12.27283481269265,
+            "ve_km_s": 19.62
+          },
+          {
+            "dv_km_s": 8.3,
+            "label": "(4) Heliocentric Earth-side electric (with LGA)",
+            "mass_after_t": 25.160761919947415,
+            "mass_before_t": 38.41021465943201,
+            "propellant_burned_t": 13.249452739484592,
+            "ve_km_s": 19.62
+          },
+          {
+            "dv_km_s": 2.42,
+            "label": "(5a) Earth-capture chemical (impulsive)",
+            "mass_after_t": 14.542745249194608,
+            "mass_before_t": 25.160761919947415,
+            "propellant_burned_t": 10.618016670752807,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 1.18,
+            "label": "(5b) Edelbaum electric (small spiral)",
+            "mass_after_t": 13.693887281733813,
+            "mass_before_t": 14.542745249194608,
+            "propellant_burned_t": 0.8488579674607948,
+            "ve_km_s": 19.62
+          }
+        ],
+        "chunk_t": 100.0,
+        "delivered_fraction": 0.13693887281733813,
+        "delivered_t": 13.693887281733813,
+        "dv_chemical_km_s": 5.42,
+        "dv_electric_km_s": 14.920000000000002,
+        "dv_total_km_s": 20.340000000000003,
+        "scenario": "C \u2014 chemical-trim Earth-capture + electric elsewhere"
+      },
+      "D": {
+        "chain": [
+          {
+            "dv_km_s": 3.0,
+            "label": "(1) Saturn-departure chemical",
+            "mass_after_t": 50.68304947212466,
+            "mass_before_t": 100.0,
+            "propellant_burned_t": 49.31695052787534,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 5.44,
+            "label": "(2) Heliocentric Saturn-to-Hohmann electric",
+            "mass_after_t": 38.41021465943201,
+            "mass_before_t": 50.68304947212466,
+            "propellant_burned_t": 12.27283481269265,
+            "ve_km_s": 19.62
+          },
+          {
+            "dv_km_s": 8.3,
+            "label": "(4) Heliocentric Earth-side electric (with LGA)",
+            "mass_after_t": 25.160761919947415,
+            "mass_before_t": 38.41021465943201,
+            "propellant_burned_t": 13.249452739484592,
+            "ve_km_s": 19.62
+          },
+          {
+            "dv_km_s": 2.42,
+            "label": "(5a) Earth-capture chemical (impulsive)",
+            "mass_after_t": 14.542745249194608,
+            "mass_before_t": 25.160761919947415,
+            "propellant_burned_t": 10.618016670752807,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 1.18,
+            "label": "(5b) Edelbaum chemical (small spiral)",
+            "mass_after_t": 11.131637962309341,
+            "mass_before_t": 14.542745249194608,
+            "propellant_burned_t": 3.411107286885267,
+            "ve_km_s": 4.4145
+          }
+        ],
+        "chunk_t": 100.0,
+        "delivered_fraction": 0.11131637962309342,
+        "delivered_t": 11.131637962309341,
+        "dv_chemical_km_s": 6.6,
+        "dv_electric_km_s": 13.740000000000002,
+        "dv_total_km_s": 20.340000000000003,
+        "scenario": "D \u2014 full chemical Earth-arrival (capture + Edelbaum chemical)"
+      },
+      "E": {
+        "chain": [
+          {
+            "dv_km_s": 3.0,
+            "label": "(1) Saturn-departure chemical",
+            "mass_after_t": 50.68304947212466,
+            "mass_before_t": 100.0,
+            "propellant_burned_t": 49.31695052787534,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 5.44,
+            "label": "(2) Heliocentric Saturn-to-Hohmann chemical",
+            "mass_after_t": 14.78020648110959,
+            "mass_before_t": 50.68304947212466,
+            "propellant_burned_t": 35.90284299101507,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 8.3,
+            "label": "(4) Heliocentric Earth-side chemical (with LGA)",
+            "mass_after_t": 2.2549352449287703,
+            "mass_before_t": 14.78020648110959,
+            "propellant_burned_t": 12.525271236180819,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 2.42,
+            "label": "(5a) Earth-capture chemical (impulsive)",
+            "mass_after_t": 1.3033368752808376,
+            "mass_before_t": 2.2549352449287703,
+            "propellant_burned_t": 0.9515983696479327,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 1.18,
+            "label": "(5b) Edelbaum chemical (small spiral)",
+            "mass_after_t": 0.9976296765122313,
+            "mass_before_t": 1.3033368752808376,
+            "propellant_burned_t": 0.3057071987686063,
+            "ve_km_s": 4.4145
+          }
+        ],
+        "chunk_t": 100.0,
+        "delivered_fraction": 0.009976296765122314,
+        "delivered_t": 0.9976296765122313,
+        "dv_chemical_km_s": 20.340000000000003,
+        "dv_electric_km_s": 0.0,
+        "dv_total_km_s": 20.340000000000003,
+        "scenario": "E \u2014 pure chemical inbound (bracketing only)"
+      }
+    },
+    "chunk_200t": {
+      "A": {
+        "chain": [
+          {
+            "dv_km_s": 3.0,
+            "label": "(1) Saturn-departure chemical",
+            "mass_after_t": 101.36609894424932,
+            "mass_before_t": 200.0,
+            "propellant_burned_t": 98.63390105575068,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 2.42,
+            "label": "(5a) Earth-capture chemical (impulsive)",
+            "mass_after_t": 58.58889959457767,
+            "mass_before_t": 101.36609894424932,
+            "propellant_burned_t": 42.77719934967165,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 1.18,
+            "label": "(5b) Edelbaum electric (small spiral)",
+            "mass_after_t": 55.16907387574566,
+            "mass_before_t": 58.58889959457767,
+            "propellant_burned_t": 3.4198257188320085,
+            "ve_km_s": 19.62
+          }
+        ],
+        "chunk_t": 200.0,
+        "delivered_fraction": 0.2758453693787283,
+        "delivered_t": 55.16907387574566,
+        "dv_chemical_km_s": 5.42,
+        "dv_electric_km_s": 1.18,
+        "dv_total_km_s": 6.6,
+        "scenario": "A \u2014 matrix literal (impulsive Hohmann + chemical Earth-capture)"
+      },
+      "B": {
+        "chain": [
+          {
+            "dv_km_s": 3.0,
+            "label": "(1) Saturn-departure chemical",
+            "mass_after_t": 101.36609894424932,
+            "mass_before_t": 200.0,
+            "propellant_burned_t": 98.63390105575068,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 5.44,
+            "label": "(2) Heliocentric Saturn-to-Hohmann electric",
+            "mass_after_t": 76.82042931886402,
+            "mass_before_t": 101.36609894424932,
+            "propellant_burned_t": 24.5456696253853,
+            "ve_km_s": 19.62
+          },
+          {
+            "dv_km_s": 8.3,
+            "label": "(4) Heliocentric Earth-side electric (with LGA)",
+            "mass_after_t": 50.32152383989483,
+            "mass_before_t": 76.82042931886402,
+            "propellant_burned_t": 26.498905478969185,
+            "ve_km_s": 19.62
+          },
+          {
+            "dv_km_s": 7.67,
+            "label": "(5) Earth Edelbaum capture-spiral electric (full)",
+            "mass_after_t": 34.03894363069688,
+            "mass_before_t": 50.32152383989483,
+            "propellant_burned_t": 16.282580209197953,
+            "ve_km_s": 19.62
+          }
+        ],
+        "chunk_t": 200.0,
+        "delivered_fraction": 0.1701947181534844,
+        "delivered_t": 34.03894363069688,
+        "dv_chemical_km_s": 3.0,
+        "dv_electric_km_s": 21.410000000000004,
+        "dv_total_km_s": 24.410000000000004,
+        "scenario": "B \u2014 all-electric inbound (matrix cell as written)"
+      },
+      "C": {
+        "chain": [
+          {
+            "dv_km_s": 3.0,
+            "label": "(1) Saturn-departure chemical",
+            "mass_after_t": 101.36609894424932,
+            "mass_before_t": 200.0,
+            "propellant_burned_t": 98.63390105575068,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 5.44,
+            "label": "(2) Heliocentric Saturn-to-Hohmann electric",
+            "mass_after_t": 76.82042931886402,
+            "mass_before_t": 101.36609894424932,
+            "propellant_burned_t": 24.5456696253853,
+            "ve_km_s": 19.62
+          },
+          {
+            "dv_km_s": 8.3,
+            "label": "(4) Heliocentric Earth-side electric (with LGA)",
+            "mass_after_t": 50.32152383989483,
+            "mass_before_t": 76.82042931886402,
+            "propellant_burned_t": 26.498905478969185,
+            "ve_km_s": 19.62
+          },
+          {
+            "dv_km_s": 2.42,
+            "label": "(5a) Earth-capture chemical (impulsive)",
+            "mass_after_t": 29.085490498389216,
+            "mass_before_t": 50.32152383989483,
+            "propellant_burned_t": 21.236033341505614,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 1.18,
+            "label": "(5b) Edelbaum electric (small spiral)",
+            "mass_after_t": 27.387774563467627,
+            "mass_before_t": 29.085490498389216,
+            "propellant_burned_t": 1.6977159349215896,
+            "ve_km_s": 19.62
+          }
+        ],
+        "chunk_t": 200.0,
+        "delivered_fraction": 0.13693887281733813,
+        "delivered_t": 27.387774563467627,
+        "dv_chemical_km_s": 5.42,
+        "dv_electric_km_s": 14.920000000000002,
+        "dv_total_km_s": 20.340000000000003,
+        "scenario": "C \u2014 chemical-trim Earth-capture + electric elsewhere"
+      },
+      "D": {
+        "chain": [
+          {
+            "dv_km_s": 3.0,
+            "label": "(1) Saturn-departure chemical",
+            "mass_after_t": 101.36609894424932,
+            "mass_before_t": 200.0,
+            "propellant_burned_t": 98.63390105575068,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 5.44,
+            "label": "(2) Heliocentric Saturn-to-Hohmann electric",
+            "mass_after_t": 76.82042931886402,
+            "mass_before_t": 101.36609894424932,
+            "propellant_burned_t": 24.5456696253853,
+            "ve_km_s": 19.62
+          },
+          {
+            "dv_km_s": 8.3,
+            "label": "(4) Heliocentric Earth-side electric (with LGA)",
+            "mass_after_t": 50.32152383989483,
+            "mass_before_t": 76.82042931886402,
+            "propellant_burned_t": 26.498905478969185,
+            "ve_km_s": 19.62
+          },
+          {
+            "dv_km_s": 2.42,
+            "label": "(5a) Earth-capture chemical (impulsive)",
+            "mass_after_t": 29.085490498389216,
+            "mass_before_t": 50.32152383989483,
+            "propellant_burned_t": 21.236033341505614,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 1.18,
+            "label": "(5b) Edelbaum chemical (small spiral)",
+            "mass_after_t": 22.263275924618682,
+            "mass_before_t": 29.085490498389216,
+            "propellant_burned_t": 6.822214573770534,
+            "ve_km_s": 4.4145
+          }
+        ],
+        "chunk_t": 200.0,
+        "delivered_fraction": 0.11131637962309342,
+        "delivered_t": 22.263275924618682,
+        "dv_chemical_km_s": 6.6,
+        "dv_electric_km_s": 13.740000000000002,
+        "dv_total_km_s": 20.340000000000003,
+        "scenario": "D \u2014 full chemical Earth-arrival (capture + Edelbaum chemical)"
+      },
+      "E": {
+        "chain": [
+          {
+            "dv_km_s": 3.0,
+            "label": "(1) Saturn-departure chemical",
+            "mass_after_t": 101.36609894424932,
+            "mass_before_t": 200.0,
+            "propellant_burned_t": 98.63390105575068,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 5.44,
+            "label": "(2) Heliocentric Saturn-to-Hohmann chemical",
+            "mass_after_t": 29.56041296221918,
+            "mass_before_t": 101.36609894424932,
+            "propellant_burned_t": 71.80568598203014,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 8.3,
+            "label": "(4) Heliocentric Earth-side chemical (with LGA)",
+            "mass_after_t": 4.509870489857541,
+            "mass_before_t": 29.56041296221918,
+            "propellant_burned_t": 25.050542472361638,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 2.42,
+            "label": "(5a) Earth-capture chemical (impulsive)",
+            "mass_after_t": 2.6066737505616753,
+            "mass_before_t": 4.509870489857541,
+            "propellant_burned_t": 1.9031967392958653,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 1.18,
+            "label": "(5b) Edelbaum chemical (small spiral)",
+            "mass_after_t": 1.9952593530244627,
+            "mass_before_t": 2.6066737505616753,
+            "propellant_burned_t": 0.6114143975372126,
+            "ve_km_s": 4.4145
+          }
+        ],
+        "chunk_t": 200.0,
+        "delivered_fraction": 0.009976296765122314,
+        "delivered_t": 1.9952593530244627,
+        "dv_chemical_km_s": 20.340000000000003,
+        "dv_electric_km_s": 0.0,
+        "dv_total_km_s": 20.340000000000003,
+        "scenario": "E \u2014 pure chemical inbound (bracketing only)"
+      }
+    },
+    "chunk_25t": {
+      "A": {
+        "chain": [
+          {
+            "dv_km_s": 3.0,
+            "label": "(1) Saturn-departure chemical",
+            "mass_after_t": 12.670762368031165,
+            "mass_before_t": 25.0,
+            "propellant_burned_t": 12.329237631968835,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 2.42,
+            "label": "(5a) Earth-capture chemical (impulsive)",
+            "mass_after_t": 7.323612449322209,
+            "mass_before_t": 12.670762368031165,
+            "propellant_burned_t": 5.347149918708956,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 1.18,
+            "label": "(5b) Edelbaum electric (small spiral)",
+            "mass_after_t": 6.8961342344682075,
+            "mass_before_t": 7.323612449322209,
+            "propellant_burned_t": 0.42747821485400106,
+            "ve_km_s": 19.62
+          }
+        ],
+        "chunk_t": 25.0,
+        "delivered_fraction": 0.2758453693787283,
+        "delivered_t": 6.8961342344682075,
+        "dv_chemical_km_s": 5.42,
+        "dv_electric_km_s": 1.18,
+        "dv_total_km_s": 6.6,
+        "scenario": "A \u2014 matrix literal (impulsive Hohmann + chemical Earth-capture)"
+      },
+      "B": {
+        "chain": [
+          {
+            "dv_km_s": 3.0,
+            "label": "(1) Saturn-departure chemical",
+            "mass_after_t": 12.670762368031165,
+            "mass_before_t": 25.0,
+            "propellant_burned_t": 12.329237631968835,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 5.44,
+            "label": "(2) Heliocentric Saturn-to-Hohmann electric",
+            "mass_after_t": 9.602553664858002,
+            "mass_before_t": 12.670762368031165,
+            "propellant_burned_t": 3.0682087031731626,
+            "ve_km_s": 19.62
+          },
+          {
+            "dv_km_s": 8.3,
+            "label": "(4) Heliocentric Earth-side electric (with LGA)",
+            "mass_after_t": 6.290190479986854,
+            "mass_before_t": 9.602553664858002,
+            "propellant_burned_t": 3.312363184871148,
+            "ve_km_s": 19.62
+          },
+          {
+            "dv_km_s": 7.67,
+            "label": "(5) Earth Edelbaum capture-spiral electric (full)",
+            "mass_after_t": 4.25486795383711,
+            "mass_before_t": 6.290190479986854,
+            "propellant_burned_t": 2.035322526149744,
+            "ve_km_s": 19.62
+          }
+        ],
+        "chunk_t": 25.0,
+        "delivered_fraction": 0.1701947181534844,
+        "delivered_t": 4.25486795383711,
+        "dv_chemical_km_s": 3.0,
+        "dv_electric_km_s": 21.410000000000004,
+        "dv_total_km_s": 24.410000000000004,
+        "scenario": "B \u2014 all-electric inbound (matrix cell as written)"
+      },
+      "C": {
+        "chain": [
+          {
+            "dv_km_s": 3.0,
+            "label": "(1) Saturn-departure chemical",
+            "mass_after_t": 12.670762368031165,
+            "mass_before_t": 25.0,
+            "propellant_burned_t": 12.329237631968835,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 5.44,
+            "label": "(2) Heliocentric Saturn-to-Hohmann electric",
+            "mass_after_t": 9.602553664858002,
+            "mass_before_t": 12.670762368031165,
+            "propellant_burned_t": 3.0682087031731626,
+            "ve_km_s": 19.62
+          },
+          {
+            "dv_km_s": 8.3,
+            "label": "(4) Heliocentric Earth-side electric (with LGA)",
+            "mass_after_t": 6.290190479986854,
+            "mass_before_t": 9.602553664858002,
+            "propellant_burned_t": 3.312363184871148,
+            "ve_km_s": 19.62
+          },
+          {
+            "dv_km_s": 2.42,
+            "label": "(5a) Earth-capture chemical (impulsive)",
+            "mass_after_t": 3.635686312298652,
+            "mass_before_t": 6.290190479986854,
+            "propellant_burned_t": 2.6545041676882017,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 1.18,
+            "label": "(5b) Edelbaum electric (small spiral)",
+            "mass_after_t": 3.4234718204334533,
+            "mass_before_t": 3.635686312298652,
+            "propellant_burned_t": 0.2122144918651987,
+            "ve_km_s": 19.62
+          }
+        ],
+        "chunk_t": 25.0,
+        "delivered_fraction": 0.13693887281733813,
+        "delivered_t": 3.4234718204334533,
+        "dv_chemical_km_s": 5.42,
+        "dv_electric_km_s": 14.920000000000002,
+        "dv_total_km_s": 20.340000000000003,
+        "scenario": "C \u2014 chemical-trim Earth-capture + electric elsewhere"
+      },
+      "D": {
+        "chain": [
+          {
+            "dv_km_s": 3.0,
+            "label": "(1) Saturn-departure chemical",
+            "mass_after_t": 12.670762368031165,
+            "mass_before_t": 25.0,
+            "propellant_burned_t": 12.329237631968835,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 5.44,
+            "label": "(2) Heliocentric Saturn-to-Hohmann electric",
+            "mass_after_t": 9.602553664858002,
+            "mass_before_t": 12.670762368031165,
+            "propellant_burned_t": 3.0682087031731626,
+            "ve_km_s": 19.62
+          },
+          {
+            "dv_km_s": 8.3,
+            "label": "(4) Heliocentric Earth-side electric (with LGA)",
+            "mass_after_t": 6.290190479986854,
+            "mass_before_t": 9.602553664858002,
+            "propellant_burned_t": 3.312363184871148,
+            "ve_km_s": 19.62
+          },
+          {
+            "dv_km_s": 2.42,
+            "label": "(5a) Earth-capture chemical (impulsive)",
+            "mass_after_t": 3.635686312298652,
+            "mass_before_t": 6.290190479986854,
+            "propellant_burned_t": 2.6545041676882017,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 1.18,
+            "label": "(5b) Edelbaum chemical (small spiral)",
+            "mass_after_t": 2.7829094905773353,
+            "mass_before_t": 3.635686312298652,
+            "propellant_burned_t": 0.8527768217213167,
+            "ve_km_s": 4.4145
+          }
+        ],
+        "chunk_t": 25.0,
+        "delivered_fraction": 0.11131637962309342,
+        "delivered_t": 2.7829094905773353,
+        "dv_chemical_km_s": 6.6,
+        "dv_electric_km_s": 13.740000000000002,
+        "dv_total_km_s": 20.340000000000003,
+        "scenario": "D \u2014 full chemical Earth-arrival (capture + Edelbaum chemical)"
+      },
+      "E": {
+        "chain": [
+          {
+            "dv_km_s": 3.0,
+            "label": "(1) Saturn-departure chemical",
+            "mass_after_t": 12.670762368031165,
+            "mass_before_t": 25.0,
+            "propellant_burned_t": 12.329237631968835,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 5.44,
+            "label": "(2) Heliocentric Saturn-to-Hohmann chemical",
+            "mass_after_t": 3.6950516202773973,
+            "mass_before_t": 12.670762368031165,
+            "propellant_burned_t": 8.975710747753768,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 8.3,
+            "label": "(4) Heliocentric Earth-side chemical (with LGA)",
+            "mass_after_t": 0.5637338112321926,
+            "mass_before_t": 3.6950516202773973,
+            "propellant_burned_t": 3.1313178090452047,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 2.42,
+            "label": "(5a) Earth-capture chemical (impulsive)",
+            "mass_after_t": 0.3258342188202094,
+            "mass_before_t": 0.5637338112321926,
+            "propellant_burned_t": 0.23789959241198316,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 1.18,
+            "label": "(5b) Edelbaum chemical (small spiral)",
+            "mass_after_t": 0.24940741912805783,
+            "mass_before_t": 0.3258342188202094,
+            "propellant_burned_t": 0.07642679969215158,
+            "ve_km_s": 4.4145
+          }
+        ],
+        "chunk_t": 25.0,
+        "delivered_fraction": 0.009976296765122314,
+        "delivered_t": 0.24940741912805783,
+        "dv_chemical_km_s": 20.340000000000003,
+        "dv_electric_km_s": 0.0,
+        "dv_total_km_s": 20.340000000000003,
+        "scenario": "E \u2014 pure chemical inbound (bracketing only)"
+      }
+    },
+    "chunk_50t": {
+      "A": {
+        "chain": [
+          {
+            "dv_km_s": 3.0,
+            "label": "(1) Saturn-departure chemical",
+            "mass_after_t": 25.34152473606233,
+            "mass_before_t": 50.0,
+            "propellant_burned_t": 24.65847526393767,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 2.42,
+            "label": "(5a) Earth-capture chemical (impulsive)",
+            "mass_after_t": 14.647224898644417,
+            "mass_before_t": 25.34152473606233,
+            "propellant_burned_t": 10.694299837417912,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 1.18,
+            "label": "(5b) Edelbaum electric (small spiral)",
+            "mass_after_t": 13.792268468936415,
+            "mass_before_t": 14.647224898644417,
+            "propellant_burned_t": 0.8549564297080021,
+            "ve_km_s": 19.62
+          }
+        ],
+        "chunk_t": 50.0,
+        "delivered_fraction": 0.2758453693787283,
+        "delivered_t": 13.792268468936415,
+        "dv_chemical_km_s": 5.42,
+        "dv_electric_km_s": 1.18,
+        "dv_total_km_s": 6.6,
+        "scenario": "A \u2014 matrix literal (impulsive Hohmann + chemical Earth-capture)"
+      },
+      "B": {
+        "chain": [
+          {
+            "dv_km_s": 3.0,
+            "label": "(1) Saturn-departure chemical",
+            "mass_after_t": 25.34152473606233,
+            "mass_before_t": 50.0,
+            "propellant_burned_t": 24.65847526393767,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 5.44,
+            "label": "(2) Heliocentric Saturn-to-Hohmann electric",
+            "mass_after_t": 19.205107329716004,
+            "mass_before_t": 25.34152473606233,
+            "propellant_burned_t": 6.136417406346325,
+            "ve_km_s": 19.62
+          },
+          {
+            "dv_km_s": 8.3,
+            "label": "(4) Heliocentric Earth-side electric (with LGA)",
+            "mass_after_t": 12.580380959973708,
+            "mass_before_t": 19.205107329716004,
+            "propellant_burned_t": 6.624726369742296,
+            "ve_km_s": 19.62
+          },
+          {
+            "dv_km_s": 7.67,
+            "label": "(5) Earth Edelbaum capture-spiral electric (full)",
+            "mass_after_t": 8.50973590767422,
+            "mass_before_t": 12.580380959973708,
+            "propellant_burned_t": 4.070645052299488,
+            "ve_km_s": 19.62
+          }
+        ],
+        "chunk_t": 50.0,
+        "delivered_fraction": 0.1701947181534844,
+        "delivered_t": 8.50973590767422,
+        "dv_chemical_km_s": 3.0,
+        "dv_electric_km_s": 21.410000000000004,
+        "dv_total_km_s": 24.410000000000004,
+        "scenario": "B \u2014 all-electric inbound (matrix cell as written)"
+      },
+      "C": {
+        "chain": [
+          {
+            "dv_km_s": 3.0,
+            "label": "(1) Saturn-departure chemical",
+            "mass_after_t": 25.34152473606233,
+            "mass_before_t": 50.0,
+            "propellant_burned_t": 24.65847526393767,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 5.44,
+            "label": "(2) Heliocentric Saturn-to-Hohmann electric",
+            "mass_after_t": 19.205107329716004,
+            "mass_before_t": 25.34152473606233,
+            "propellant_burned_t": 6.136417406346325,
+            "ve_km_s": 19.62
+          },
+          {
+            "dv_km_s": 8.3,
+            "label": "(4) Heliocentric Earth-side electric (with LGA)",
+            "mass_after_t": 12.580380959973708,
+            "mass_before_t": 19.205107329716004,
+            "propellant_burned_t": 6.624726369742296,
+            "ve_km_s": 19.62
+          },
+          {
+            "dv_km_s": 2.42,
+            "label": "(5a) Earth-capture chemical (impulsive)",
+            "mass_after_t": 7.271372624597304,
+            "mass_before_t": 12.580380959973708,
+            "propellant_burned_t": 5.3090083353764035,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 1.18,
+            "label": "(5b) Edelbaum electric (small spiral)",
+            "mass_after_t": 6.846943640866907,
+            "mass_before_t": 7.271372624597304,
+            "propellant_burned_t": 0.4244289837303974,
+            "ve_km_s": 19.62
+          }
+        ],
+        "chunk_t": 50.0,
+        "delivered_fraction": 0.13693887281733813,
+        "delivered_t": 6.846943640866907,
+        "dv_chemical_km_s": 5.42,
+        "dv_electric_km_s": 14.920000000000002,
+        "dv_total_km_s": 20.340000000000003,
+        "scenario": "C \u2014 chemical-trim Earth-capture + electric elsewhere"
+      },
+      "D": {
+        "chain": [
+          {
+            "dv_km_s": 3.0,
+            "label": "(1) Saturn-departure chemical",
+            "mass_after_t": 25.34152473606233,
+            "mass_before_t": 50.0,
+            "propellant_burned_t": 24.65847526393767,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 5.44,
+            "label": "(2) Heliocentric Saturn-to-Hohmann electric",
+            "mass_after_t": 19.205107329716004,
+            "mass_before_t": 25.34152473606233,
+            "propellant_burned_t": 6.136417406346325,
+            "ve_km_s": 19.62
+          },
+          {
+            "dv_km_s": 8.3,
+            "label": "(4) Heliocentric Earth-side electric (with LGA)",
+            "mass_after_t": 12.580380959973708,
+            "mass_before_t": 19.205107329716004,
+            "propellant_burned_t": 6.624726369742296,
+            "ve_km_s": 19.62
+          },
+          {
+            "dv_km_s": 2.42,
+            "label": "(5a) Earth-capture chemical (impulsive)",
+            "mass_after_t": 7.271372624597304,
+            "mass_before_t": 12.580380959973708,
+            "propellant_burned_t": 5.3090083353764035,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 1.18,
+            "label": "(5b) Edelbaum chemical (small spiral)",
+            "mass_after_t": 5.5658189811546706,
+            "mass_before_t": 7.271372624597304,
+            "propellant_burned_t": 1.7055536434426335,
+            "ve_km_s": 4.4145
+          }
+        ],
+        "chunk_t": 50.0,
+        "delivered_fraction": 0.11131637962309342,
+        "delivered_t": 5.5658189811546706,
+        "dv_chemical_km_s": 6.6,
+        "dv_electric_km_s": 13.740000000000002,
+        "dv_total_km_s": 20.340000000000003,
+        "scenario": "D \u2014 full chemical Earth-arrival (capture + Edelbaum chemical)"
+      },
+      "E": {
+        "chain": [
+          {
+            "dv_km_s": 3.0,
+            "label": "(1) Saturn-departure chemical",
+            "mass_after_t": 25.34152473606233,
+            "mass_before_t": 50.0,
+            "propellant_burned_t": 24.65847526393767,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 5.44,
+            "label": "(2) Heliocentric Saturn-to-Hohmann chemical",
+            "mass_after_t": 7.390103240554795,
+            "mass_before_t": 25.34152473606233,
+            "propellant_burned_t": 17.951421495507535,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 8.3,
+            "label": "(4) Heliocentric Earth-side chemical (with LGA)",
+            "mass_after_t": 1.1274676224643851,
+            "mass_before_t": 7.390103240554795,
+            "propellant_burned_t": 6.2626356180904095,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 2.42,
+            "label": "(5a) Earth-capture chemical (impulsive)",
+            "mass_after_t": 0.6516684376404188,
+            "mass_before_t": 1.1274676224643851,
+            "propellant_burned_t": 0.4757991848239663,
+            "ve_km_s": 4.4145
+          },
+          {
+            "dv_km_s": 1.18,
+            "label": "(5b) Edelbaum chemical (small spiral)",
+            "mass_after_t": 0.49881483825611567,
+            "mass_before_t": 0.6516684376404188,
+            "propellant_burned_t": 0.15285359938430315,
+            "ve_km_s": 4.4145
+          }
+        ],
+        "chunk_t": 50.0,
+        "delivered_fraction": 0.009976296765122314,
+        "delivered_t": 0.49881483825611567,
+        "dv_chemical_km_s": 20.340000000000003,
+        "dv_electric_km_s": 0.0,
+        "dv_total_km_s": 20.340000000000003,
+        "scenario": "E \u2014 pure chemical inbound (bracketing only)"
+      }
+    }
+  },
+  "constants": {
+    "dv_earth_capture_impulsive_km_s": 2.42,
+    "dv_earth_edelbaum_full_km_s": 7.67,
+    "dv_earth_edelbaum_small_km_s": 1.18,
+    "dv_heliocentric_earth_no_lga_km_s": 10.3,
+    "dv_heliocentric_earth_with_lga_km_s": 8.3,
+    "dv_heliocentric_saturn_km_s": 5.44,
+    "dv_lga_credit_km_s": 2.0,
+    "dv_saturn_departure_chem_km_s": 3.0,
+    "isp_chemical_s": 450.0,
+    "isp_electric_s": 2000.0,
+    "matrix_stated_inbound_dv_km_s": 6.42,
+    "ve_chemical_km_s": 4.4145,
+    "ve_electric_km_s": 19.62
+  },
+  "lga_sensitivity": {
+    "B_no_lga": {
+      "chain": [
+        {
+          "dv_km_s": 3.0,
+          "label": "(1) Saturn-departure chemical",
+          "mass_after_t": 25.34152473606233,
+          "mass_before_t": 50.0,
+          "propellant_burned_t": 24.65847526393767,
+          "ve_km_s": 4.4145
+        },
+        {
+          "dv_km_s": 5.44,
+          "label": "(2) Heliocentric Saturn-to-Hohmann electric",
+          "mass_after_t": 19.205107329716004,
+          "mass_before_t": 25.34152473606233,
+          "propellant_burned_t": 6.136417406346325,
+          "ve_km_s": 19.62
+        },
+        {
+          "dv_km_s": 10.3,
+          "label": "(4) Heliocentric Earth-side electric (no LGA)",
+          "mass_after_t": 11.361173790867552,
+          "mass_before_t": 19.205107329716004,
+          "propellant_burned_t": 7.843933538848452,
+          "ve_km_s": 19.62
+        },
+        {
+          "dv_km_s": 7.67,
+          "label": "(5) Earth Edelbaum capture-spiral electric (full)",
+          "mass_after_t": 7.685028686259664,
+          "mass_before_t": 11.361173790867552,
+          "propellant_burned_t": 3.6761451046078877,
+          "ve_km_s": 19.62
+        }
+      ],
+      "chunk_t": 50.0,
+      "delivered_fraction": 0.15370057372519327,
+      "delivered_t": 7.685028686259664,
+      "dv_chemical_km_s": 3.0,
+      "dv_electric_km_s": 23.410000000000004,
+      "dv_total_km_s": 26.410000000000004,
+      "scenario": "B (no-LGA) \u2014 all-electric inbound"
+    },
+    "C_no_lga": {
+      "chain": [
+        {
+          "dv_km_s": 3.0,
+          "label": "(1) Saturn-departure chemical",
+          "mass_after_t": 25.34152473606233,
+          "mass_before_t": 50.0,
+          "propellant_burned_t": 24.65847526393767,
+          "ve_km_s": 4.4145
+        },
+        {
+          "dv_km_s": 5.44,
+          "label": "(2) Heliocentric Saturn-to-Hohmann electric",
+          "mass_after_t": 19.205107329716004,
+          "mass_before_t": 25.34152473606233,
+          "propellant_burned_t": 6.136417406346325,
+          "ve_km_s": 19.62
+        },
+        {
+          "dv_km_s": 10.3,
+          "label": "(4) Heliocentric Earth-side electric (no LGA)",
+          "mass_after_t": 11.361173790867552,
+          "mass_before_t": 19.205107329716004,
+          "propellant_burned_t": 7.843933538848452,
+          "ve_km_s": 19.62
+        },
+        {
+          "dv_km_s": 2.42,
+          "label": "(5a) Earth-capture chemical (impulsive)",
+          "mass_after_t": 6.56667936758406,
+          "mass_before_t": 11.361173790867552,
+          "propellant_burned_t": 4.794494423283492,
+          "ve_km_s": 4.4145
+        },
+        {
+          "dv_km_s": 1.18,
+          "label": "(5b) Edelbaum electric (small spiral)",
+          "mass_after_t": 6.183383228827669,
+          "mass_before_t": 6.56667936758406,
+          "propellant_burned_t": 0.3832961387563909,
+          "ve_km_s": 19.62
+        }
+      ],
+      "chunk_t": 50.0,
+      "delivered_fraction": 0.12366766457655337,
+      "delivered_t": 6.183383228827669,
+      "dv_chemical_km_s": 5.42,
+      "dv_electric_km_s": 16.92,
+      "dv_total_km_s": 22.340000000000003,
+      "scenario": "C (no-LGA) \u2014 chemical-trim Earth-capture"
+    }
+  }
+}

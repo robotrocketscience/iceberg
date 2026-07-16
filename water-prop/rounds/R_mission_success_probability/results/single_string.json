@@ -1,0 +1,54 @@
+{
+  "n_subsystems": 8,
+  "subsystems": [
+    {
+      "name": "reactor_power",
+      "R_single": 0.95,
+      "heritage": "NONE",
+      "note": "Kilopower / fission surface power has NO flight heritage. SNAP-10A (1965) partial-failed after 43 days. 0.95 is a placeholder lift from RTG heritage (which is excellent: Voyager / Cassini / NH all >0.99 over 10-30 yr); active fission is meaningfully harder."
+    },
+    {
+      "name": "primary_propulsion",
+      "R_single": 0.9,
+      "heritage": "ADJACENT",
+      "note": "Deep-space ion-thruster heritage from Dawn (3 thrusters, 1 grid wear failure, system survived) and Hayabusa (4 thrusters, multiple anomalies, mission limped). 0.90 per system. Water-MET is HERITAGE-NONE and likely lower without redundancy."
+    },
+    {
+      "name": "rcs",
+      "R_single": 0.97,
+      "heritage": "AVAILABLE",
+      "note": "Standard monoprop or cold-gas RCS heritage is high. Cassini, Juno, etc."
+    },
+    {
+      "name": "gnc_compute",
+      "R_single": 0.95,
+      "heritage": "AVAILABLE",
+      "note": "Flight-computer + IMU + star-tracker chain. Reaction-wheel anomalies are common (Kepler, Hayabusa, MRO, Dawn) and bring the chain reliability below the individual-component spec."
+    },
+    {
+      "name": "comms",
+      "R_single": 0.93,
+      "heritage": "AVAILABLE",
+      "note": "HGA + radio + DSN. Galileo HGA failure is the canonical degradation (brought Galileo mass-return to ~0.70 not 1.0). Voyager 49 yr operating is the upper-bound demonstration."
+    },
+    {
+      "name": "bag_harvest",
+      "R_single": 0.85,
+      "heritage": "NONE",
+      "note": "No flight heritage for ring-mining bag at this scale. AstroMesh-class deployable structures have >0.98 heritage but at radio-frequency mesh apertures, not 1 m apertures. Bag-engineering doc treats this as the highest-risk subsystem; 0.85 is the analyst's paper estimate."
+    },
+    {
+      "name": "thermal_control",
+      "R_single": 0.95,
+      "heritage": "ADJACENT",
+      "note": "Cruise spacecraft thermal heritage is high (~0.99 per loop). Megawatt-class radiator stack with two-phase ammonia loop is heritage-adjacent (ISS) but never run in cruise for 14 yr. 0.95 is the paper estimate."
+    },
+    {
+      "name": "return_handoff",
+      "R_single": 0.95,
+      "heritage": "AVAILABLE",
+      "note": "Sample-return / customer-interface heritage from Stardust, OSIRIS-REx, Hayabusa2. 0.95 is the heritage average; ICEBERG hand-off is propellant transfer, which is technically harder than passive sample release."
+    }
+  ],
+  "single_string_mission_success": 0.562096057415625
+}

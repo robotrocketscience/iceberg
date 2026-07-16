@@ -1,0 +1,396 @@
+{
+  "rows": [
+    {
+      "m_dry_baseline_t": 29.0,
+      "m_dry_with_overlay_t": 41.76,
+      "baseline": {
+        "m_dry_t": 29.0,
+        "outbound_burn_yr": 0.1632044835934801,
+        "outbound_propellant_t": 17.393276418320387,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.5996580766519626,
+        "inbound_propellant_t": 63.907672473421,
+        "round_trip_yr": 13.93457771470522,
+        "L0_05_margin_yr": 1.0654222852947797,
+        "clears_L0_05": true
+      },
+      "with_overlay": {
+        "m_dry_t": 41.76,
+        "outbound_burn_yr": 0.23501445637461138,
+        "outbound_propellant_t": 25.04631804238136,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.6330713389143164,
+        "inbound_propellant_t": 67.46864147237669,
+        "round_trip_yr": 14.039800949748706,
+        "L0_05_margin_yr": 0.960199050251294,
+        "clears_L0_05": true
+      }
+    },
+    {
+      "m_dry_baseline_t": 50.0,
+      "m_dry_with_overlay_t": 62.76,
+      "baseline": {
+        "m_dry_t": 50.0,
+        "outbound_burn_yr": 0.281387040678414,
+        "outbound_propellant_t": 29.988407617793772,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.6546485552969022,
+        "inbound_propellant_t": 69.7682013901976,
+        "round_trip_yr": 14.107750750435095,
+        "L0_05_margin_yr": 0.8922492495649053,
+        "clears_L0_05": true
+      },
+      "with_overlay": {
+        "m_dry_t": 62.76,
+        "outbound_burn_yr": 0.3531970134595453,
+        "outbound_propellant_t": 37.641449241854744,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.6880618175592562,
+        "inbound_propellant_t": 73.32917038915328,
+        "round_trip_yr": 14.21297398547858,
+        "L0_05_margin_yr": 0.7870260145214196,
+        "clears_L0_05": true
+      }
+    },
+    {
+      "m_dry_baseline_t": 70.0,
+      "m_dry_with_overlay_t": 82.76,
+      "baseline": {
+        "m_dry_t": 70.0,
+        "outbound_burn_yr": 0.3939418569497796,
+        "outbound_propellant_t": 41.98377066491128,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.7070204397206543,
+        "inbound_propellant_t": 75.3496575014134,
+        "round_trip_yr": 14.27267745113021,
+        "L0_05_margin_yr": 0.7273225488697896,
+        "clears_L0_05": true
+      },
+      "with_overlay": {
+        "m_dry_t": 82.76,
+        "outbound_burn_yr": 0.4657518297309109,
+        "outbound_propellant_t": 49.63681228897225,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.7404337019830084,
+        "inbound_propellant_t": 78.91062650036909,
+        "round_trip_yr": 14.377900686173696,
+        "L0_05_margin_yr": 0.622099313826304,
+        "clears_L0_05": true
+      }
+    },
+    {
+      "m_dry_baseline_t": 80.0,
+      "m_dry_with_overlay_t": 92.76,
+      "baseline": {
+        "m_dry_t": 80.0,
+        "outbound_burn_yr": 0.45021926508546245,
+        "outbound_propellant_t": 47.98145218847004,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.7332063819325304,
+        "inbound_propellant_t": 78.1403855570213,
+        "round_trip_yr": 14.35514080147777,
+        "L0_05_margin_yr": 0.6448591985222301,
+        "clears_L0_05": true
+      },
+      "with_overlay": {
+        "m_dry_t": 92.76,
+        "outbound_burn_yr": 0.5220292378665937,
+        "outbound_propellant_t": 55.63449381253101,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.7666196441948844,
+        "inbound_propellant_t": 81.70135455597699,
+        "round_trip_yr": 14.460364036521256,
+        "L0_05_margin_yr": 0.5396359634787444,
+        "clears_L0_05": true
+      }
+    },
+    {
+      "m_dry_baseline_t": 90.0,
+      "m_dry_with_overlay_t": 102.76,
+      "baseline": {
+        "m_dry_t": 90.0,
+        "outbound_burn_yr": 0.5064966732211452,
+        "outbound_propellant_t": 53.97913371202879,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.7593923241444067,
+        "inbound_propellant_t": 80.93111361262922,
+        "round_trip_yr": 14.43760415182533,
+        "L0_05_margin_yr": 0.5623958481746705,
+        "clears_L0_05": true
+      },
+      "with_overlay": {
+        "m_dry_t": 102.76,
+        "outbound_burn_yr": 0.5783066460022765,
+        "outbound_propellant_t": 61.632175336089766,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.7928055864067605,
+        "inbound_propellant_t": 84.49208261158489,
+        "round_trip_yr": 14.542827386868815,
+        "L0_05_margin_yr": 0.45717261313118485,
+        "clears_L0_05": true
+      }
+    },
+    {
+      "m_dry_baseline_t": 100.0,
+      "m_dry_with_overlay_t": 112.76,
+      "baseline": {
+        "m_dry_t": 100.0,
+        "outbound_burn_yr": 0.562774081356828,
+        "outbound_propellant_t": 59.976815235587544,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.7855782663562828,
+        "inbound_propellant_t": 83.72184166823712,
+        "round_trip_yr": 14.520067502172889,
+        "L0_05_margin_yr": 0.4799324978271109,
+        "clears_L0_05": true
+      },
+      "with_overlay": {
+        "m_dry_t": 112.76,
+        "outbound_burn_yr": 0.6345840541379593,
+        "outbound_propellant_t": 67.62985685964851,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.8189915286186368,
+        "inbound_propellant_t": 87.2828106671928,
+        "round_trip_yr": 14.625290737216375,
+        "L0_05_margin_yr": 0.37470926278362526,
+        "clears_L0_05": true
+      }
+    },
+    {
+      "m_dry_baseline_t": 105.0,
+      "m_dry_with_overlay_t": 117.76,
+      "baseline": {
+        "m_dry_t": 105.0,
+        "outbound_burn_yr": 0.5909127854246695,
+        "outbound_propellant_t": 62.97565599736692,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.7986712374622208,
+        "inbound_propellant_t": 85.11720569604107,
+        "round_trip_yr": 14.561299177346669,
+        "L0_05_margin_yr": 0.4387008226533311,
+        "clears_L0_05": true
+      },
+      "with_overlay": {
+        "m_dry_t": 117.76,
+        "outbound_burn_yr": 0.6627227582058005,
+        "outbound_propellant_t": 70.62869762142789,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.8320844997245747,
+        "inbound_propellant_t": 88.67817469499676,
+        "round_trip_yr": 14.666522412390151,
+        "L0_05_margin_yr": 0.333477587609849,
+        "clears_L0_05": true
+      }
+    },
+    {
+      "m_dry_baseline_t": 110.0,
+      "m_dry_with_overlay_t": 122.76,
+      "baseline": {
+        "m_dry_t": 110.0,
+        "outbound_burn_yr": 0.6190514894925109,
+        "outbound_propellant_t": 65.9744967591463,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.8117642085681589,
+        "inbound_propellant_t": 86.51256972384502,
+        "round_trip_yr": 14.602530852520449,
+        "L0_05_margin_yr": 0.3974691474795513,
+        "clears_L0_05": true
+      },
+      "with_overlay": {
+        "m_dry_t": 122.76,
+        "outbound_burn_yr": 0.6908614622736422,
+        "outbound_propellant_t": 73.62753838320727,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.8451774708305126,
+        "inbound_propellant_t": 90.0735387228007,
+        "round_trip_yr": 14.70775408756393,
+        "L0_05_margin_yr": 0.29224591243606923,
+        "clears_L0_05": true
+      }
+    },
+    {
+      "m_dry_baseline_t": 120.0,
+      "m_dry_with_overlay_t": 132.76,
+      "baseline": {
+        "m_dry_t": 120.0,
+        "outbound_burn_yr": 0.6753288976281937,
+        "outbound_propellant_t": 71.97217828270506,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.8379501507800349,
+        "inbound_propellant_t": 89.30329777945292,
+        "round_trip_yr": 14.684994202868005,
+        "L0_05_margin_yr": 0.3150057971319953,
+        "clears_L0_05": true
+      },
+      "with_overlay": {
+        "m_dry_t": 132.76,
+        "outbound_burn_yr": 0.7471388704093249,
+        "outbound_propellant_t": 79.62521990676602,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.8713634130423887,
+        "inbound_propellant_t": 92.8642667784086,
+        "round_trip_yr": 14.79021743791149,
+        "L0_05_margin_yr": 0.20978256208850965,
+        "clears_L0_05": true
+      }
+    },
+    {
+      "m_dry_baseline_t": 130.0,
+      "m_dry_with_overlay_t": 142.76,
+      "baseline": {
+        "m_dry_t": 130.0,
+        "outbound_burn_yr": 0.7316063057638765,
+        "outbound_propellant_t": 77.96985980626381,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.8641360929919111,
+        "inbound_propellant_t": 92.09402583506083,
+        "round_trip_yr": 14.767457553215564,
+        "L0_05_margin_yr": 0.2325424467844357,
+        "clears_L0_05": true
+      },
+      "with_overlay": {
+        "m_dry_t": 142.76,
+        "outbound_burn_yr": 0.8034162785450075,
+        "outbound_propellant_t": 85.62290143032477,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.8975493552542648,
+        "inbound_propellant_t": 95.6549948340165,
+        "round_trip_yr": 14.87268078825905,
+        "L0_05_margin_yr": 0.12731921174095007,
+        "clears_L0_05": true
+      }
+    },
+    {
+      "m_dry_baseline_t": 140.0,
+      "m_dry_with_overlay_t": 152.76,
+      "baseline": {
+        "m_dry_t": 140.0,
+        "outbound_burn_yr": 0.7878837138995592,
+        "outbound_propellant_t": 83.96754132982257,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.8903220352037872,
+        "inbound_propellant_t": 94.88475389066873,
+        "round_trip_yr": 14.849920903563124,
+        "L0_05_margin_yr": 0.1500790964368761,
+        "clears_L0_05": true
+      },
+      "with_overlay": {
+        "m_dry_t": 152.76,
+        "outbound_burn_yr": 0.8596936866806905,
+        "outbound_propellant_t": 91.62058295388353,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.923735297466141,
+        "inbound_propellant_t": 98.44572288962442,
+        "round_trip_yr": 14.95514413860661,
+        "L0_05_margin_yr": 0.044855861393390484,
+        "clears_L0_05": true
+      }
+    },
+    {
+      "m_dry_baseline_t": 150.0,
+      "m_dry_with_overlay_t": 162.76,
+      "baseline": {
+        "m_dry_t": 150.0,
+        "outbound_burn_yr": 0.8441611220352421,
+        "outbound_propellant_t": 89.96522285338132,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.9165079774156631,
+        "inbound_propellant_t": 97.67548194627663,
+        "round_trip_yr": 14.932384253910683,
+        "L0_05_margin_yr": 0.06761574608931653,
+        "clears_L0_05": true
+      },
+      "with_overlay": {
+        "m_dry_t": 162.76,
+        "outbound_burn_yr": 0.9159710948163733,
+        "outbound_propellant_t": 97.61826447744228,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.9499212396780171,
+        "inbound_propellant_t": 101.23645094523232,
+        "round_trip_yr": 15.037607488954169,
+        "L0_05_margin_yr": -0.0376074889541691,
+        "clears_L0_05": false
+      }
+    },
+    {
+      "m_dry_baseline_t": 160.0,
+      "m_dry_with_overlay_t": 172.76,
+      "baseline": {
+        "m_dry_t": 160.0,
+        "outbound_burn_yr": 0.9004385301709249,
+        "outbound_propellant_t": 95.96290437694007,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.9426939196275395,
+        "inbound_propellant_t": 100.46621000188455,
+        "round_trip_yr": 15.014847604258243,
+        "L0_05_margin_yr": -0.014847604258243052,
+        "clears_L0_05": false
+      },
+      "with_overlay": {
+        "m_dry_t": 172.76,
+        "outbound_burn_yr": 0.9722485029520561,
+        "outbound_propellant_t": 103.61594600100103,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.976107181889893,
+        "inbound_propellant_t": 104.02717900084022,
+        "round_trip_yr": 15.120070839301725,
+        "L0_05_margin_yr": -0.12007083930172513,
+        "clears_L0_05": false
+      }
+    },
+    {
+      "m_dry_baseline_t": 180.0,
+      "m_dry_with_overlay_t": 192.76,
+      "baseline": {
+        "m_dry_t": 180.0,
+        "outbound_burn_yr": 1.0129933464422904,
+        "outbound_propellant_t": 107.95826742405758,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 0.9950658040512914,
+        "inbound_propellant_t": 106.04766611310035,
+        "round_trip_yr": 15.179774304953359,
+        "L0_05_margin_yr": -0.17977430495335867,
+        "clears_L0_05": false
+      },
+      "with_overlay": {
+        "m_dry_t": 192.76,
+        "outbound_burn_yr": 1.0848033192234214,
+        "outbound_propellant_t": 115.61130904811854,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 1.0284790663136452,
+        "inbound_propellant_t": 109.60863511205604,
+        "round_trip_yr": 15.284997539996844,
+        "L0_05_margin_yr": -0.2849975399968443,
+        "clears_L0_05": false
+      }
+    },
+    {
+      "m_dry_baseline_t": 200.0,
+      "m_dry_with_overlay_t": 212.76,
+      "baseline": {
+        "m_dry_t": 200.0,
+        "outbound_burn_yr": 1.125548162713656,
+        "outbound_propellant_t": 119.95363047117509,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 1.0474376884750436,
+        "inbound_propellant_t": 111.62912222431616,
+        "round_trip_yr": 15.344701005648474,
+        "L0_05_margin_yr": -0.3447010056484743,
+        "clears_L0_05": false
+      },
+      "with_overlay": {
+        "m_dry_t": 212.76,
+        "outbound_burn_yr": 1.1973581354947873,
+        "outbound_propellant_t": 127.60667209523605,
+        "cruise_yr_each_way": 6.085857577229889,
+        "inbound_burn_yr": 1.0808509507373973,
+        "inbound_propellant_t": 115.19009122327184,
+        "round_trip_yr": 15.449924240691963,
+        "L0_05_margin_yr": -0.44992424069196346,
+        "clears_L0_05": false
+      }
+    }
+  ],
+  "max_dry_clearing_L0_05_baseline_t": 150.0,
+  "max_dry_clearing_L0_05_with_overlay_t": 140.0
+}

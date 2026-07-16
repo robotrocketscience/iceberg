@@ -1,0 +1,82 @@
+[
+  {
+    "flavor": "larger_fleet",
+    "N_ships_per_event": 1,
+    "fleet_size": 37,
+    "irr_no_tv": 0.03634263947807558,
+    "irr_with_tv": 0.06971571723545221,
+    "npv_8pct_with_tv": -1617977863.7486036,
+    "undisc_breakeven_year": 40,
+    "undisc_final_cumcf": 21890000000.0
+  },
+  {
+    "flavor": "larger_fleet",
+    "N_ships_per_event": 2,
+    "fleet_size": 74,
+    "irr_no_tv": 0.0370018348900395,
+    "irr_with_tv": 0.07045552801323295,
+    "npv_8pct_with_tv": -2920287840.1599545,
+    "undisc_breakeven_year": 40,
+    "undisc_final_cumcf": 44530000000.0
+  },
+  {
+    "flavor": "larger_fleet",
+    "N_ships_per_event": 3,
+    "fleet_size": 111,
+    "irr_no_tv": 0.03722431190176533,
+    "irr_with_tv": 0.07070998758755326,
+    "npv_8pct_with_tv": -4222597816.5713024,
+    "undisc_breakeven_year": 40,
+    "undisc_final_cumcf": 67170000000.0
+  },
+  {
+    "flavor": "larger_fleet",
+    "N_ships_per_event": 5,
+    "fleet_size": 185,
+    "irr_no_tv": 0.037403332578304416,
+    "irr_with_tv": 0.07091656336211237,
+    "npv_8pct_with_tv": -6827217769.393982,
+    "undisc_breakeven_year": 40,
+    "undisc_final_cumcf": 112450000000.0
+  },
+  {
+    "flavor": "compressed_schedule",
+    "N_ships_per_event": 1,
+    "fleet_size": 37,
+    "irr_no_tv": 0.03634263947807558,
+    "irr_with_tv": 0.06971571723545221,
+    "npv_8pct_with_tv": -1617977863.7486036,
+    "undisc_breakeven_year": 40,
+    "undisc_final_cumcf": 21890000000.0
+  },
+  {
+    "flavor": "compressed_schedule",
+    "N_ships_per_event": 2,
+    "fleet_size": 37,
+    "irr_no_tv": 0.05258285537313656,
+    "irr_with_tv": 0.07518566047385256,
+    "npv_8pct_with_tv": -1362754640.6545763,
+    "undisc_breakeven_year": 36,
+    "undisc_final_cumcf": 63520000000.0
+  },
+  {
+    "flavor": "compressed_schedule",
+    "N_ships_per_event": 3,
+    "fleet_size": 37,
+    "irr_no_tv": 0.026583673048282574,
+    "irr_with_tv": 0.026583673048282574,
+    "npv_8pct_with_tv": -7709365009.819743,
+    "undisc_breakeven_year": 34,
+    "undisc_final_cumcf": 19140000000.0
+  },
+  {
+    "flavor": "compressed_schedule",
+    "N_ships_per_event": 5,
+    "fleet_size": 37,
+    "irr_no_tv": -0.01451025079479068,
+    "irr_with_tv": -0.01451025079479068,
+    "npv_8pct_with_tv": -10874977726.659983,
+    "undisc_breakeven_year": null,
+    "undisc_final_cumcf": -5800000000.0
+  }
+]

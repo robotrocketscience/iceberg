@@ -1,0 +1,78 @@
+{
+  "seed": 20260515,
+  "n_samples": 100000,
+  "fission_stages_uniform_prior_ranges": [
+    [
+      "phase2_awarded_by_FY27",
+      0.3,
+      0.65
+    ],
+    [
+      "phase2_commits_10W_per_kg",
+      0.35,
+      0.7
+    ],
+    [
+      "10W_per_kg_achieved_on_demonstrator_by_2032",
+      0.1,
+      0.35
+    ],
+    [
+      "flight_demonstrator_launched_by_2035",
+      0.15,
+      0.4
+    ],
+    [
+      "ICEBERG_integration_at_200_300kWe",
+      0.4,
+      0.75
+    ]
+  ],
+  "solar_thermal_stages_uniform_prior_ranges": [
+    [
+      "mirror_at_30000m2_qualified_by_2035",
+      0.05,
+      0.35
+    ],
+    [
+      "SOEC_at_200kW_space_qualified_by_2035",
+      0.1,
+      0.5
+    ],
+    [
+      "saturn_orbit_conops_viable_for_chunk_delivery",
+      0.55,
+      0.85
+    ],
+    [
+      "ICEBERG_integration_per_mission_completion",
+      0.4,
+      0.75
+    ]
+  ],
+  "fission_posterior": {
+    "mean": 0.00888170924399919,
+    "median": 0.007766304538616691,
+    "p05": 0.002927721975159089,
+    "p25": 0.005196468300278471,
+    "p75": 0.011393529831969899,
+    "p95": 0.0186830774850194,
+    "p_above_0p02": 0.03648,
+    "p_above_0p05": 0.0,
+    "p_above_0p10": 0.0,
+    "p_above_0p15": 0.0,
+    "classification_vs_solar_thermal_band": "FALSIFIES_REFRAME_lower_than_solar_thermal"
+  },
+  "solar_thermal_posterior": {
+    "mean": 0.024174787245195666,
+    "median": 0.020335823820981844,
+    "p05": 0.005466687506819457,
+    "p25": 0.011964685962356189,
+    "p75": 0.033028962496521166,
+    "p95": 0.05550399585538374,
+    "p_above_0p02": 0.50855,
+    "p_above_0p05": 0.07793,
+    "p_above_0p10": 3e-05,
+    "p_above_0p15": 0.0
+  }
+}

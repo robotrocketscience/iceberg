@@ -1,0 +1,647 @@
+{
+  "meta": {
+    "method": "patched-conic, best-case tangential coplanar, optimal turn/pass (UPPER bounds); resonance = 2x moon period nominal",
+    "mu_saturn_km3_s2": 37931206.0,
+    "note": "*_VINF_REDUCTION constants in framework are documentary only (not used in any precondition/executor); live anchors are the min-vinf gate, trim_dv, and tour_months. Reduction is capped by arrival v_inf (cannot bleed more v_inf than you arrive with)."
+  },
+  "moon_constants": {
+    "Titan": {
+      "mu": 8978.14,
+      "radius_km": 2574.7,
+      "a_km": 1221870,
+      "v_orb_kms": 5.5717,
+      "period_days": 15.948,
+      "r_p_km": 3574.7,
+      "v_esc_at_orbit_kms": 7.8795
+    },
+    "Rhea": {
+      "mu": 153.94,
+      "radius_km": 763.8,
+      "a_km": 527108,
+      "v_orb_kms": 8.483,
+      "period_days": 4.5187,
+      "r_p_km": 863.8,
+      "v_esc_at_orbit_kms": 11.9967
+    },
+    "Dione": {
+      "mu": 73.116,
+      "radius_km": 561.4,
+      "a_km": 377396,
+      "v_orb_kms": 10.0254,
+      "period_days": 2.7376,
+      "r_p_km": 661.4,
+      "v_esc_at_orbit_kms": 14.178
+    },
+    "Tethys": {
+      "mu": 41.21,
+      "radius_km": 531.1,
+      "a_km": 294619,
+      "v_orb_kms": 11.3467,
+      "period_days": 1.8882,
+      "r_p_km": 631.1,
+      "v_esc_at_orbit_kms": 16.0466
+    },
+    "Enceladus": {
+      "mu": 7.211,
+      "radius_km": 252.1,
+      "a_km": 237948,
+      "v_orb_kms": 12.6258,
+      "period_days": 1.3705,
+      "r_p_km": 352.1,
+      "v_esc_at_orbit_kms": 17.8555
+    },
+    "Mimas": {
+      "mu": 2.503,
+      "radius_km": 198.2,
+      "a_km": 185539,
+      "v_orb_kms": 14.2982,
+      "period_days": 0.9437,
+      "r_p_km": 298.2,
+      "v_esc_at_orbit_kms": 20.2207
+    }
+  },
+  "per_flyby_ceilings": {
+    "Titan": 1.5848,
+    "Rhea": 0.42215,
+    "Dione": 0.33249,
+    "Tethys": 0.25554,
+    "Enceladus": 0.14311,
+    "Mimas": 0.09162
+  },
+  "single_moon_capture": {
+    "Titan": [
+      {
+        "moon": "Titan",
+        "v_inf_S_arrival": 3.0,
+        "target_v_inf_S": 0.0,
+        "v_inf_m_kms": 2.8596,
+        "v_sc_arrival_kms": 8.4313,
+        "v_esc_at_orbit_kms": 7.8795,
+        "per_flyby_dv_kms": 1.34383,
+        "dv_ceiling_kms": 1.5848,
+        "turn_max_deg": 27.179,
+        "target_reachable": true,
+        "deepest_v_inf_S_reachable_kms": 0.0,
+        "max_reduction_kms": 3.0,
+        "flybys_to_target": 2,
+        "tour_months_est": 2.1,
+        "resonance_periods_assumed": 2.0,
+        "moon_period_days": 15.948
+      },
+      {
+        "moon": "Titan",
+        "v_inf_S_arrival": 3.5,
+        "target_v_inf_S": 0.0,
+        "v_inf_m_kms": 3.0502,
+        "v_sc_arrival_kms": 8.6219,
+        "v_esc_at_orbit_kms": 7.8795,
+        "per_flyby_dv_kms": 1.29676,
+        "dv_ceiling_kms": 1.5848,
+        "turn_max_deg": 24.546,
+        "target_reachable": true,
+        "deepest_v_inf_S_reachable_kms": 0.0,
+        "max_reduction_kms": 3.5,
+        "flybys_to_target": 3,
+        "tour_months_est": 3.14,
+        "resonance_periods_assumed": 2.0,
+        "moon_period_days": 15.948
+      },
+      {
+        "moon": "Titan",
+        "v_inf_S_arrival": 4.0,
+        "target_v_inf_S": 0.0,
+        "v_inf_m_kms": 3.265,
+        "v_sc_arrival_kms": 8.8367,
+        "v_esc_at_orbit_kms": 7.8795,
+        "per_flyby_dv_kms": 1.24513,
+        "dv_ceiling_kms": 1.5848,
+        "turn_max_deg": 21.985,
+        "target_reachable": true,
+        "deepest_v_inf_S_reachable_kms": 0.0,
+        "max_reduction_kms": 4.0,
+        "flybys_to_target": 3,
+        "tour_months_est": 3.14,
+        "resonance_periods_assumed": 2.0,
+        "moon_period_days": 15.948
+      },
+      {
+        "moon": "Titan",
+        "v_inf_S_arrival": 4.5,
+        "target_v_inf_S": 0.0,
+        "v_inf_m_kms": 3.5023,
+        "v_sc_arrival_kms": 9.074,
+        "v_esc_at_orbit_kms": 7.8795,
+        "per_flyby_dv_kms": 1.19048,
+        "dv_ceiling_kms": 1.5848,
+        "turn_max_deg": 19.571,
+        "target_reachable": true,
+        "deepest_v_inf_S_reachable_kms": 0.0,
+        "max_reduction_kms": 4.5,
+        "flybys_to_target": 4,
+        "tour_months_est": 4.19,
+        "resonance_periods_assumed": 2.0,
+        "moon_period_days": 15.948
+      },
+      {
+        "moon": "Titan",
+        "v_inf_S_arrival": 5.0,
+        "target_v_inf_S": 0.0,
+        "v_inf_m_kms": 3.7604,
+        "v_sc_arrival_kms": 9.332,
+        "v_esc_at_orbit_kms": 7.8795,
+        "per_flyby_dv_kms": 1.13434,
+        "dv_ceiling_kms": 1.5848,
+        "turn_max_deg": 17.35,
+        "target_reachable": true,
+        "deepest_v_inf_S_reachable_kms": 0.0,
+        "max_reduction_kms": 5.0,
+        "flybys_to_target": 4,
+        "tour_months_est": 4.19,
+        "resonance_periods_assumed": 2.0,
+        "moon_period_days": 15.948
+      },
+      {
+        "moon": "Titan",
+        "v_inf_S_arrival": 5.5,
+        "target_v_inf_S": 0.0,
+        "v_inf_m_kms": 4.0375,
+        "v_sc_arrival_kms": 9.6092,
+        "v_esc_at_orbit_kms": 7.8795,
+        "per_flyby_dv_kms": 1.07802,
+        "dv_ceiling_kms": 1.5848,
+        "turn_max_deg": 15.344,
+        "target_reachable": true,
+        "deepest_v_inf_S_reachable_kms": 0.0,
+        "max_reduction_kms": 5.5,
+        "flybys_to_target": 5,
+        "tour_months_est": 5.24,
+        "resonance_periods_assumed": 2.0,
+        "moon_period_days": 15.948
+      },
+      {
+        "moon": "Titan",
+        "v_inf_S_arrival": 6.0,
+        "target_v_inf_S": 0.0,
+        "v_inf_m_kms": 4.3322,
+        "v_sc_arrival_kms": 9.9039,
+        "v_esc_at_orbit_kms": 7.8795,
+        "per_flyby_dv_kms": 1.02264,
+        "dv_ceiling_kms": 1.5848,
+        "turn_max_deg": 13.556,
+        "target_reachable": true,
+        "deepest_v_inf_S_reachable_kms": 0.0,
+        "max_reduction_kms": 6.0,
+        "flybys_to_target": 6,
+        "tour_months_est": 6.29,
+        "resonance_periods_assumed": 2.0,
+        "moon_period_days": 15.948
+      },
+      {
+        "moon": "Titan",
+        "v_inf_S_arrival": 6.5,
+        "target_v_inf_S": 0.0,
+        "v_inf_m_kms": 4.6429,
+        "v_sc_arrival_kms": 10.2146,
+        "v_esc_at_orbit_kms": 7.8795,
+        "per_flyby_dv_kms": 0.969,
+        "dv_ceiling_kms": 1.5848,
+        "turn_max_deg": 11.98,
+        "target_reachable": true,
+        "deepest_v_inf_S_reachable_kms": 0.0,
+        "max_reduction_kms": 6.5,
+        "flybys_to_target": 7,
+        "tour_months_est": 7.33,
+        "resonance_periods_assumed": 2.0,
+        "moon_period_days": 15.948
+      }
+    ],
+    "Rhea": [
+      {
+        "moon": "Rhea",
+        "v_inf_S_arrival": 3.0,
+        "target_v_inf_S": 0.0,
+        "v_inf_m_kms": 3.8832,
+        "v_sc_arrival_kms": 12.3662,
+        "v_esc_at_orbit_kms": 11.9967,
+        "per_flyby_dv_kms": 0.09071,
+        "dv_ceiling_kms": 0.42215,
+        "turn_max_deg": 1.339,
+        "target_reachable": true,
+        "deepest_v_inf_S_reachable_kms": 0.0,
+        "max_reduction_kms": 3.0,
+        "flybys_to_target": 23,
+        "tour_months_est": 6.83,
+        "resonance_periods_assumed": 2.0,
+        "moon_period_days": 4.5187
+      },
+      {
+        "moon": "Rhea",
+        "v_inf_S_arrival": 3.5,
+        "target_v_inf_S": 0.0,
+        "v_inf_m_kms": 4.0139,
+        "v_sc_arrival_kms": 12.4969,
+        "v_esc_at_orbit_kms": 11.9967,
+        "per_flyby_dv_kms": 0.08783,
+        "dv_ceiling_kms": 0.42215,
+        "turn_max_deg": 1.254,
+        "target_reachable": true,
+        "deepest_v_inf_S_reachable_kms": 0.0,
+        "max_reduction_kms": 3.5,
+        "flybys_to_target": 28,
+        "tour_months_est": 8.31,
+        "resonance_periods_assumed": 2.0,
+        "moon_period_days": 4.5187
+      },
+      {
+        "moon": "Rhea",
+        "v_inf_S_arrival": 4.0,
+        "target_v_inf_S": 0.0,
+        "v_inf_m_kms": 4.163,
+        "v_sc_arrival_kms": 12.646,
+        "v_esc_at_orbit_kms": 11.9967,
+        "per_flyby_dv_kms": 0.08475,
+        "dv_ceiling_kms": 0.42215,
+        "turn_max_deg": 1.166,
+        "target_reachable": true,
+        "deepest_v_inf_S_reachable_kms": 0.0,
+        "max_reduction_kms": 4.0,
+        "flybys_to_target": 34,
+        "tour_months_est": 10.09,
+        "resonance_periods_assumed": 2.0,
+        "moon_period_days": 4.5187
+      },
+      {
+        "moon": "Rhea",
+        "v_inf_S_arrival": 4.5,
+        "target_v_inf_S": 0.0,
+        "v_inf_m_kms": 4.33,
+        "v_sc_arrival_kms": 12.813,
+        "v_esc_at_orbit_kms": 11.9967,
+        "per_flyby_dv_kms": 0.08154,
+        "dv_ceiling_kms": 0.42215,
+        "turn_max_deg": 1.079,
+        "target_reachable": true,
+        "deepest_v_inf_S_reachable_kms": 0.0,
+        "max_reduction_kms": 4.5,
+        "flybys_to_target": 41,
+        "tour_months_est": 12.17,
+        "resonance_periods_assumed": 2.0,
+        "moon_period_days": 4.5187
+      },
+      {
+        "moon": "Rhea",
+        "v_inf_S_arrival": 5.0,
+        "target_v_inf_S": 0.0,
+        "v_inf_m_kms": 4.514,
+        "v_sc_arrival_kms": 12.997,
+        "v_esc_at_orbit_kms": 11.9967,
+        "per_flyby_dv_kms": 0.07828,
+        "dv_ceiling_kms": 0.42215,
+        "turn_max_deg": 0.994,
+        "target_reachable": true,
+        "deepest_v_inf_S_reachable_kms": 0.0,
+        "max_reduction_kms": 5.0,
+        "flybys_to_target": 48,
+        "tour_months_est": 14.25,
+        "resonance_periods_assumed": 2.0,
+        "moon_period_days": 4.5187
+      },
+      {
+        "moon": "Rhea",
+        "v_inf_S_arrival": 5.5,
+        "target_v_inf_S": 0.0,
+        "v_inf_m_kms": 4.7144,
+        "v_sc_arrival_kms": 13.1974,
+        "v_esc_at_orbit_kms": 11.9967,
+        "per_flyby_dv_kms": 0.075,
+        "dv_ceiling_kms": 0.42215,
+        "turn_max_deg": 0.912,
+        "target_reachable": true,
+        "deepest_v_inf_S_reachable_kms": 0.0,
+        "max_reduction_kms": 5.5,
+        "flybys_to_target": 57,
+        "tour_months_est": 16.92,
+        "resonance_periods_assumed": 2.0,
+        "moon_period_days": 4.5187
+      },
+      {
+        "moon": "Rhea",
+        "v_inf_S_arrival": 6.0,
+        "target_v_inf_S": 0.0,
+        "v_inf_m_kms": 4.9305,
+        "v_sc_arrival_kms": 13.4135,
+        "v_esc_at_orbit_kms": 11.9967,
+        "per_flyby_dv_kms": 0.07176,
+        "dv_ceiling_kms": 0.42215,
+        "turn_max_deg": 0.834,
+        "target_reachable": true,
+        "deepest_v_inf_S_reachable_kms": 0.0,
+        "max_reduction_kms": 6.0,
+        "flybys_to_target": 67,
+        "tour_months_est": 19.89,
+        "resonance_periods_assumed": 2.0,
+        "moon_period_days": 4.5187
+      },
+      {
+        "moon": "Rhea",
+        "v_inf_S_arrival": 6.5,
+        "target_v_inf_S": 0.0,
+        "v_inf_m_kms": 5.1615,
+        "v_sc_arrival_kms": 13.6445,
+        "v_esc_at_orbit_kms": 11.9967,
+        "per_flyby_dv_kms": 0.0686,
+        "dv_ceiling_kms": 0.42215,
+        "turn_max_deg": 0.761,
+        "target_reachable": true,
+        "deepest_v_inf_S_reachable_kms": 0.0,
+        "max_reduction_kms": 6.5,
+        "flybys_to_target": 78,
+        "tour_months_est": 23.16,
+        "resonance_periods_assumed": 2.0,
+        "moon_period_days": 4.5187
+      }
+    ]
+  },
+  "anchor_assessment": {
+    "titan_gravity_assist_capture": {
+      "anchor": {
+        "moon": "Titan",
+        "doc_reduction": 4.0,
+        "min_vinf_gate": 3.5,
+        "tour_months": 8.0,
+        "trim_dv": 0.3
+      },
+      "rows": [
+        {
+          "arrival_v_inf": 3.5,
+          "achievable_reduction_kms": 3.5,
+          "doc_anchor_reduction_kms": 4.0,
+          "doc_anchor_reachable": false,
+          "flybys_to_full_capture": 3,
+          "tour_months_est_full_capture": 3.14,
+          "anchor_tour_months": 8.0,
+          "tour_time_consistent": true
+        },
+        {
+          "arrival_v_inf": 4.0,
+          "achievable_reduction_kms": 4.0,
+          "doc_anchor_reduction_kms": 4.0,
+          "doc_anchor_reachable": true,
+          "flybys_to_full_capture": 3,
+          "tour_months_est_full_capture": 3.14,
+          "anchor_tour_months": 8.0,
+          "tour_time_consistent": true
+        },
+        {
+          "arrival_v_inf": 4.5,
+          "achievable_reduction_kms": 4.5,
+          "doc_anchor_reduction_kms": 4.0,
+          "doc_anchor_reachable": true,
+          "flybys_to_full_capture": 4,
+          "tour_months_est_full_capture": 4.19,
+          "anchor_tour_months": 8.0,
+          "tour_time_consistent": true
+        },
+        {
+          "arrival_v_inf": 5.0,
+          "achievable_reduction_kms": 5.0,
+          "doc_anchor_reduction_kms": 4.0,
+          "doc_anchor_reachable": true,
+          "flybys_to_full_capture": 4,
+          "tour_months_est_full_capture": 4.19,
+          "anchor_tour_months": 8.0,
+          "tour_time_consistent": true
+        },
+        {
+          "arrival_v_inf": 5.5,
+          "achievable_reduction_kms": 5.5,
+          "doc_anchor_reduction_kms": 4.0,
+          "doc_anchor_reachable": true,
+          "flybys_to_full_capture": 5,
+          "tour_months_est_full_capture": 5.24,
+          "anchor_tour_months": 8.0,
+          "tour_time_consistent": true
+        },
+        {
+          "arrival_v_inf": 6.0,
+          "achievable_reduction_kms": 6.0,
+          "doc_anchor_reduction_kms": 4.0,
+          "doc_anchor_reachable": true,
+          "flybys_to_full_capture": 6,
+          "tour_months_est_full_capture": 6.29,
+          "anchor_tour_months": 8.0,
+          "tour_time_consistent": true
+        },
+        {
+          "arrival_v_inf": 6.5,
+          "achievable_reduction_kms": 6.5,
+          "doc_anchor_reduction_kms": 4.0,
+          "doc_anchor_reachable": true,
+          "flybys_to_full_capture": 7,
+          "tour_months_est_full_capture": 7.33,
+          "anchor_tour_months": 8.0,
+          "tour_time_consistent": true
+        }
+      ]
+    },
+    "rhea_gravity_assist_capture": {
+      "anchor": {
+        "moon": "Rhea",
+        "doc_reduction": 1.5,
+        "min_vinf_gate": 4.0,
+        "tour_months": 12.0,
+        "trim_dv": 0.7
+      },
+      "rows": [
+        {
+          "arrival_v_inf": 4.0,
+          "achievable_reduction_kms": 4.0,
+          "doc_anchor_reduction_kms": 1.5,
+          "doc_anchor_reachable": true,
+          "flybys_to_full_capture": 34,
+          "tour_months_est_full_capture": 10.09,
+          "anchor_tour_months": 12.0,
+          "tour_time_consistent": true
+        },
+        {
+          "arrival_v_inf": 4.5,
+          "achievable_reduction_kms": 4.5,
+          "doc_anchor_reduction_kms": 1.5,
+          "doc_anchor_reachable": true,
+          "flybys_to_full_capture": 41,
+          "tour_months_est_full_capture": 12.17,
+          "anchor_tour_months": 12.0,
+          "tour_time_consistent": true
+        },
+        {
+          "arrival_v_inf": 5.0,
+          "achievable_reduction_kms": 5.0,
+          "doc_anchor_reduction_kms": 1.5,
+          "doc_anchor_reachable": true,
+          "flybys_to_full_capture": 48,
+          "tour_months_est_full_capture": 14.25,
+          "anchor_tour_months": 12.0,
+          "tour_time_consistent": true
+        },
+        {
+          "arrival_v_inf": 5.5,
+          "achievable_reduction_kms": 5.5,
+          "doc_anchor_reduction_kms": 1.5,
+          "doc_anchor_reachable": true,
+          "flybys_to_full_capture": 57,
+          "tour_months_est_full_capture": 16.92,
+          "anchor_tour_months": 12.0,
+          "tour_time_consistent": true
+        },
+        {
+          "arrival_v_inf": 6.0,
+          "achievable_reduction_kms": 6.0,
+          "doc_anchor_reduction_kms": 1.5,
+          "doc_anchor_reachable": true,
+          "flybys_to_full_capture": 67,
+          "tour_months_est_full_capture": 19.89,
+          "anchor_tour_months": 12.0,
+          "tour_time_consistent": false
+        },
+        {
+          "arrival_v_inf": 6.5,
+          "achievable_reduction_kms": 6.5,
+          "doc_anchor_reduction_kms": 1.5,
+          "doc_anchor_reachable": true,
+          "flybys_to_full_capture": 78,
+          "tour_months_est_full_capture": 23.16,
+          "anchor_tour_months": 12.0,
+          "tour_time_consistent": false
+        }
+      ]
+    },
+    "cassini_class_multi_moon_tour": {
+      "anchor": {
+        "moon": "Titan",
+        "doc_reduction": 5.5,
+        "min_vinf_gate": 3.0,
+        "tour_months": 24.0,
+        "trim_dv": 0.2
+      },
+      "rows": [
+        {
+          "arrival_v_inf": 3.0,
+          "achievable_reduction_kms": 3.0,
+          "doc_anchor_reduction_kms": 5.5,
+          "doc_anchor_reachable": false,
+          "flybys_to_full_capture": 2,
+          "tour_months_est_full_capture": 2.1,
+          "anchor_tour_months": 24.0,
+          "tour_time_consistent": true
+        },
+        {
+          "arrival_v_inf": 3.5,
+          "achievable_reduction_kms": 3.5,
+          "doc_anchor_reduction_kms": 5.5,
+          "doc_anchor_reachable": false,
+          "flybys_to_full_capture": 3,
+          "tour_months_est_full_capture": 3.14,
+          "anchor_tour_months": 24.0,
+          "tour_time_consistent": true
+        },
+        {
+          "arrival_v_inf": 4.0,
+          "achievable_reduction_kms": 4.0,
+          "doc_anchor_reduction_kms": 5.5,
+          "doc_anchor_reachable": false,
+          "flybys_to_full_capture": 3,
+          "tour_months_est_full_capture": 3.14,
+          "anchor_tour_months": 24.0,
+          "tour_time_consistent": true
+        },
+        {
+          "arrival_v_inf": 4.5,
+          "achievable_reduction_kms": 4.5,
+          "doc_anchor_reduction_kms": 5.5,
+          "doc_anchor_reachable": false,
+          "flybys_to_full_capture": 4,
+          "tour_months_est_full_capture": 4.19,
+          "anchor_tour_months": 24.0,
+          "tour_time_consistent": true
+        },
+        {
+          "arrival_v_inf": 5.0,
+          "achievable_reduction_kms": 5.0,
+          "doc_anchor_reduction_kms": 5.5,
+          "doc_anchor_reachable": false,
+          "flybys_to_full_capture": 4,
+          "tour_months_est_full_capture": 4.19,
+          "anchor_tour_months": 24.0,
+          "tour_time_consistent": true
+        },
+        {
+          "arrival_v_inf": 5.5,
+          "achievable_reduction_kms": 5.5,
+          "doc_anchor_reduction_kms": 5.5,
+          "doc_anchor_reachable": true,
+          "flybys_to_full_capture": 5,
+          "tour_months_est_full_capture": 5.24,
+          "anchor_tour_months": 24.0,
+          "tour_time_consistent": true
+        },
+        {
+          "arrival_v_inf": 6.0,
+          "achievable_reduction_kms": 6.0,
+          "doc_anchor_reduction_kms": 5.5,
+          "doc_anchor_reachable": true,
+          "flybys_to_full_capture": 6,
+          "tour_months_est_full_capture": 6.29,
+          "anchor_tour_months": 24.0,
+          "tour_time_consistent": true
+        },
+        {
+          "arrival_v_inf": 6.5,
+          "achievable_reduction_kms": 6.5,
+          "doc_anchor_reduction_kms": 5.5,
+          "doc_anchor_reachable": true,
+          "flybys_to_full_capture": 7,
+          "tour_months_est_full_capture": 7.33,
+          "anchor_tour_months": 24.0,
+          "tour_time_consistent": true
+        }
+      ]
+    }
+  },
+  "small_moon_inertness": {
+    "Rhea": {
+      "per_flyby_dv_kms": 0.08475,
+      "dv_ceiling_kms": 0.42215,
+      "turn_max_deg": 1.166,
+      "flybys_for_1kms_from_4kms": 23,
+      "tour_months_for_1kms": 6.83
+    },
+    "Dione": {
+      "per_flyby_dv_kms": 0.04675,
+      "dv_ceiling_kms": 0.33249,
+      "turn_max_deg": 0.569,
+      "flybys_for_1kms_from_4kms": 40,
+      "tour_months_for_1kms": 7.19
+    },
+    "Tethys": {
+      "per_flyby_dv_kms": 0.0251,
+      "dv_ceiling_kms": 0.25554,
+      "turn_max_deg": 0.277,
+      "flybys_for_1kms_from_4kms": 72,
+      "tour_months_for_1kms": 8.93
+    },
+    "Enceladus": {
+      "per_flyby_dv_kms": 0.00722,
+      "dv_ceiling_kms": 0.14311,
+      "turn_max_deg": 0.073,
+      "flybys_for_1kms_from_4kms": 247,
+      "tour_months_for_1kms": 22.24
+    },
+    "Mimas": {
+      "per_flyby_dv_kms": 0.00266,
+      "dv_ceiling_kms": 0.09162,
+      "turn_max_deg": 0.024,
+      "flybys_for_1kms_from_4kms": 664,
+      "tour_months_for_1kms": 41.17
+    }
+  }
+}

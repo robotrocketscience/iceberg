@@ -1,0 +1,120 @@
+{
+  "trajectory": {
+    "r_min_au": 1.0,
+    "r_max_au": 9.58,
+    "n_grid": 1000,
+    "weighting": "time_density_proportional_to_r_to_the_minus_one_and_a_half",
+    "harmonic_mean_interpretation": "P_avg_time = sum(weight) / sum(weight / P)"
+  },
+  "solar_array": {
+    "power_per_m2_at_1au_w": 300.0,
+    "areal_density_kg_per_m2_default": 3.0,
+    "lilt_derate": "linear_1p0_at_1au_to_0p79_at_9p58au"
+  },
+  "fixed_array_size_m2": 200.0,
+  "fixed_array_power_at_1au_kwe": 60.0,
+  "sweep_reactor": [
+    {
+      "reactor_kwe": 1.0,
+      "p_reactor_only_kwe": 1.0,
+      "p_hybrid_time_averaged_kwe": 6.224781732650256,
+      "gain_factor": 6.224781732650256
+    },
+    {
+      "reactor_kwe": 3.0,
+      "p_reactor_only_kwe": 3.0,
+      "p_hybrid_time_averaged_kwe": 9.89198108344703,
+      "gain_factor": 3.2973270278156765
+    },
+    {
+      "reactor_kwe": 10.0,
+      "p_reactor_only_kwe": 10.0,
+      "p_hybrid_time_averaged_kwe": 19.705983937859713,
+      "gain_factor": 1.9705983937859712
+    },
+    {
+      "reactor_kwe": 30.0,
+      "p_reactor_only_kwe": 30.0,
+      "p_hybrid_time_averaged_kwe": 42.706975233047075,
+      "gain_factor": 1.4235658411015693
+    },
+    {
+      "reactor_kwe": 100.0,
+      "p_reactor_only_kwe": 100.0,
+      "p_hybrid_time_averaged_kwe": 115.35814247912698,
+      "gain_factor": 1.15358142479127
+    },
+    {
+      "reactor_kwe": 300.0,
+      "p_reactor_only_kwe": 300.0,
+      "p_hybrid_time_averaged_kwe": 316.66975115012065,
+      "gain_factor": 1.0555658371670689
+    },
+    {
+      "reactor_kwe": 1000.0,
+      "p_reactor_only_kwe": 1000.0,
+      "p_hybrid_time_averaged_kwe": 1017.2508881966683,
+      "gain_factor": 1.0172508881966682
+    }
+  ],
+  "chunk_mass_at_10kwe_kilopower": {
+    "p_reactor_only_kwe": 10.0,
+    "p_hybrid_time_averaged_kwe": 19.705983937859713,
+    "chunk_reactor_only_tonnes": 250.0,
+    "chunk_hybrid_gross_tonnes": 492.64959844649286,
+    "array_mass_tonnes": 0.6,
+    "chunk_hybrid_net_tonnes": 492.04959844649284,
+    "chunk_gain_percent": 96.81983937859714
+  },
+  "concentrated_burn_at_1p2au": {
+    "r_au": 1.2,
+    "array_power_at_burn_kwe": 41.45833333333333,
+    "p_reactor_at_burn_kwe": 10.0,
+    "p_hybrid_at_burn_kwe": 51.45833333333333,
+    "gain_factor": 5.145833333333333
+  },
+  "hypothesis_grading": {
+    "H-hsa-a": {
+      "measured": 1.9705983937859712,
+      "lo": 1.5,
+      "hi": 2.2,
+      "held": true
+    },
+    "H-hsa-b": {
+      "measured": 1.15358142479127,
+      "lo": 1.05,
+      "hi": 1.2,
+      "held": true
+    },
+    "H-hsa-c": {
+      "measured": 1.0172508881966682,
+      "lo": 1.0,
+      "hi": 1.02,
+      "held": true
+    },
+    "H-hsa-d": {
+      "measured": 24.374441501222204,
+      "lo": 15.0,
+      "hi": 40.0,
+      "held": true
+    },
+    "H-hsa-e": {
+      "measured": 96.81983937859714,
+      "lo": 25.0,
+      "hi": 55.0,
+      "held": false
+    },
+    "H-hsa-f": {
+      "measured": 9.729096989966555,
+      "lo": 6.0,
+      "hi": 15.0,
+      "held": true
+    },
+    "H-hsa-g": {
+      "measured": 5.145833333333333,
+      "lo": 4.0,
+      "hi": 6.5,
+      "held": true
+    }
+  }
+}

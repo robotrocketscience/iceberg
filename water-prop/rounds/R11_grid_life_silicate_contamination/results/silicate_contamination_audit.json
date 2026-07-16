@@ -1,0 +1,162 @@
+{
+  "inputs": {
+    "bring_silicate_frac_low": 0.001,
+    "bring_silicate_frac_mid": 0.01,
+    "bring_silicate_frac_high": 0.05,
+    "rejection_ratio_pessimistic": 0.001,
+    "rejection_ratio_mid": 0.0001,
+    "rejection_ratio_optimistic": 1e-05,
+    "total_chunk_water_consumed_t": 8.0,
+    "nstar_xenon_throughput_kg": 235.0,
+    "nstar_peak_grid_wear_mm": 1.5,
+    "nstar_grid_thickness_mm": 0.38,
+    "sputter_yield_ratio_silicate_to_xenon": 3.5,
+    "cruise_years": 7.0
+  },
+  "nominal_silicate_matrix": [
+    {
+      "silicate_frac": 0.001,
+      "silicate_frac_label": "low_0.1pct",
+      "rej_pessimistic": {
+        "silicate_kg_into_thruster": 0.008,
+        "xenon_equivalent_kg": 0.028,
+        "added_grid_wear_mm": 0.00017872340425531915,
+        "added_wear_frac_of_grid": 0.00047032474804031355
+      },
+      "rej_mid": {
+        "silicate_kg_into_thruster": 0.0008,
+        "xenon_equivalent_kg": 0.0028,
+        "added_grid_wear_mm": 1.7872340425531915e-05,
+        "added_wear_frac_of_grid": 4.703247480403136e-05
+      },
+      "rej_optimistic": {
+        "silicate_kg_into_thruster": 8e-05,
+        "xenon_equivalent_kg": 0.00028000000000000003,
+        "added_grid_wear_mm": 1.7872340425531918e-06,
+        "added_wear_frac_of_grid": 4.7032474804031364e-06
+      }
+    },
+    {
+      "silicate_frac": 0.01,
+      "silicate_frac_label": "mid_1pct",
+      "rej_pessimistic": {
+        "silicate_kg_into_thruster": 0.08,
+        "xenon_equivalent_kg": 0.28,
+        "added_grid_wear_mm": 0.0017872340425531914,
+        "added_wear_frac_of_grid": 0.0047032474804031355
+      },
+      "rej_mid": {
+        "silicate_kg_into_thruster": 0.008000000000000002,
+        "xenon_equivalent_kg": 0.028000000000000008,
+        "added_grid_wear_mm": 0.0001787234042553192,
+        "added_wear_frac_of_grid": 0.0004703247480403137
+      },
+      "rej_optimistic": {
+        "silicate_kg_into_thruster": 0.0008,
+        "xenon_equivalent_kg": 0.0028,
+        "added_grid_wear_mm": 1.7872340425531915e-05,
+        "added_wear_frac_of_grid": 4.703247480403136e-05
+      }
+    },
+    {
+      "silicate_frac": 0.05,
+      "silicate_frac_label": "high_5pct",
+      "rej_pessimistic": {
+        "silicate_kg_into_thruster": 0.4,
+        "xenon_equivalent_kg": 1.4000000000000001,
+        "added_grid_wear_mm": 0.008936170212765958,
+        "added_wear_frac_of_grid": 0.023516237402015677
+      },
+      "rej_mid": {
+        "silicate_kg_into_thruster": 0.04,
+        "xenon_equivalent_kg": 0.14,
+        "added_grid_wear_mm": 0.0008936170212765957,
+        "added_wear_frac_of_grid": 0.0023516237402015677
+      },
+      "rej_optimistic": {
+        "silicate_kg_into_thruster": 0.004000000000000001,
+        "xenon_equivalent_kg": 0.014000000000000004,
+        "added_grid_wear_mm": 8.93617021276596e-05,
+        "added_wear_frac_of_grid": 0.00023516237402015686
+      }
+    }
+  ],
+  "baseline_throughput": {
+    "water_kg": 8000.0,
+    "scaled_grid_wear_mm_NSTAR_proxy": 51.06382978723404,
+    "scaled_grid_wear_frac_of_grid": 134.37849944008957,
+    "note": "NSTAR-proxy scaling is conservative; Pale Blue's radio-frequency ion architecture has no DC hollow cathode and typically lower grid wear per propellant kilogram. Real Pale Blue grid life with terrestrial water is multi-thousand hours demonstrated."
+  },
+  "bag_failure_scenario": {
+    "scenario": "Bag thermal control fails; raw chunk water (no distillation) flows to thruster.",
+    "silicate_mass_full_cruise_kg": 80.0,
+    "silicate_flux_kg_per_hour": 0.0013037384700629053,
+    "time_to_grid_failure_hours": 13046.730000000001,
+    "time_to_grid_failure_days": 543.6137500000001,
+    "time_to_grid_failure_months": 18.120458333333335
+  },
+  "backup_filter_sizing": {
+    "primary_mesh_filter_stages": 5,
+    "primary_mesh_mass_kg": 0.42,
+    "zeolite_stages": 5,
+    "zeolite_mass_kg": 1.0,
+    "redundant_thruster_count": 2,
+    "structural_and_plumbing_overhead_factor": 5.0,
+    "total_filter_mass_kg_estimate": 14.2,
+    "buys_thruster_protection_for_days_during_bag_failure": 30.0
+  },
+  "hypothesis_grading": {
+    "H11a_silicate_frac": {
+      "predicted_range": [
+        0.001,
+        0.05
+      ],
+      "measured_range_used": [
+        0.001,
+        0.05
+      ],
+      "verdict": "held (range used spans predicted range)"
+    },
+    "H11b_rejection_ratio": {
+      "predicted_range": [
+        1e-05,
+        0.001
+      ],
+      "measured_range_used": [
+        1e-05,
+        0.001
+      ],
+      "verdict": "held (range used spans predicted range)"
+    },
+    "H11c_silicate_mass_into_thruster": {
+      "predicted_range_kg": [
+        1e-06,
+        0.5
+      ],
+      "measured_range_kg": [
+        8e-05,
+        0.4
+      ],
+      "verdict": "held"
+    },
+    "H11d_nominal_grid_life": {
+      "predicted": "silicate adds < 10% to baseline wear",
+      "measured_worst_added_wear_frac_of_grid": 0.023516237402015677,
+      "measured_baseline_wear_frac_of_grid": 134.37849944008957,
+      "verdict": "held"
+    },
+    "H11e_bag_failure_grid_life": {
+      "predicted": "< 6 months",
+      "measured_months": 18.120458333333335,
+      "verdict": "longer than predicted"
+    },
+    "H11f_backup_filter_mass": {
+      "predicted_range_kg": [
+        5,
+        50
+      ],
+      "measured_kg": 14.2,
+      "verdict": "held"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+label,dv_exit_kms,dv_inbound_kms,isp_s,m_delivered_t,delivered_fraction
+A2 Earth aerocapture,7.4,23.2,5000.0,14.304569414595903,0.07152284707297951
+A3 Earth aerocapture + Jupiter GA,7.4,20.7,5000.0,25.514404604410572,0.12757202302205287
+A3- Jupiter GA only (no aerocapture),7.4,22.2,5000.0,18.720038505530084,0.09360019252765042

@@ -1,0 +1,2 @@
+label,dv_entry_saved_kms,dv_exit_kms,dv_inbound_kms,m_delivered_t,delivered_fraction,note
+A8 — Saturn aerobraking entry only (exit + inbound unchanged),7.4,7.4,24.7,7.8479366162615065,0.039239683081307535,"Identical to A1 by construction. Aerobraking helps outbound mass budget, not chunk-fed delivered fraction."

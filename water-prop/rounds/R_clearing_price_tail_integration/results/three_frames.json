@@ -1,0 +1,175 @@
+{
+  "round": "R-clearing-price-tail-integration-decision-frame",
+  "author": "rhea",
+  "date": "2026-05-15",
+  "log_normal_fit": {
+    "mu_log10": 3.7229634243308403,
+    "sigma_log10": 0.6580338582108335,
+    "p25_measured_per_kg": 1856.078562492629,
+    "p25_predicted_per_kg": 1901.6313639895131,
+    "p25_error_pct": 2.4542496431675134,
+    "p75_measured_per_kg": 14585.554811790415,
+    "p75_predicted_per_kg": 14682.5171561033,
+    "p75_error_pct": 0.6647833802969569
+  },
+  "demand_curve_anchors": {
+    "p05_per_kg": 419.25897182567496,
+    "p50_per_kg": 5284.007487348984,
+    "p95_per_kg": 61266.22501381815
+  },
+  "breakeven_ladder_p_price_above": [
+    {
+      "label": "launches=3_reuse=5",
+      "breakeven_m_per_t": 24.500475737392954,
+      "breakeven_per_kg": 24500.475737392953,
+      "per_mission_cost_b": 1.0299999999999998,
+      "p_price_above_breakeven": 0.15566702224739004
+    },
+    {
+      "label": "launches=3_reuse=15",
+      "breakeven_m_per_t": 22.438947034570248,
+      "breakeven_per_kg": 22438.947034570247,
+      "per_mission_cost_b": 0.9433333333333332,
+      "p_price_above_breakeven": 0.1699361683223768
+    },
+    {
+      "label": "launches=3_reuse=25",
+      "breakeven_m_per_t": 22.026641294005707,
+      "breakeven_per_kg": 22026.641294005705,
+      "per_mission_cost_b": 0.9259999999999999,
+      "p_price_above_breakeven": 0.1730508236361108
+    },
+    {
+      "label": "launches=5_reuse=5",
+      "breakeven_m_per_t": 38.772597526165555,
+      "breakeven_per_kg": 38772.597526165555,
+      "per_mission_cost_b": 1.63,
+      "p_price_above_breakeven": 0.09419190403999778
+    },
+    {
+      "label": "launches=5_reuse=15",
+      "breakeven_m_per_t": 36.71106882334285,
+      "breakeven_per_kg": 36711.06882334285,
+      "per_mission_cost_b": 1.5433333333333334,
+      "p_price_above_breakeven": 0.10039280363167546
+    },
+    {
+      "label": "launches=5_reuse=25",
+      "breakeven_m_per_t": 36.29876308277831,
+      "breakeven_per_kg": 36298.76308277831,
+      "per_mission_cost_b": 1.526,
+      "p_price_above_breakeven": 0.10171103911525847
+    },
+    {
+      "label": "launches=8_reuse=5",
+      "breakeven_m_per_t": 60.18078020932445,
+      "breakeven_per_kg": 60180.78020932445,
+      "per_mission_cost_b": 2.53,
+      "p_price_above_breakeven": 0.05418839287013322
+    },
+    {
+      "label": "launches=8_reuse=15",
+      "breakeven_m_per_t": 58.11925150650175,
+      "breakeven_per_kg": 58119.25150650175,
+      "per_mission_cost_b": 2.4433333333333334,
+      "p_price_above_breakeven": 0.05676461507428909
+    },
+    {
+      "label": "launches=8_reuse=25",
+      "breakeven_m_per_t": 57.70694576593719,
+      "breakeven_per_kg": 57706.94576593719,
+      "per_mission_cost_b": 2.4259999999999997,
+      "p_price_above_breakeven": 0.05730249164551404
+    }
+  ],
+  "h2a_uniform_prior_conjunction_posterior": 0.0016687499999999999,
+  "demand_curve_E_500kWe_200t_p_npv_positive": {
+    "WACC_0.0_LR_0.0": 0.4656,
+    "WACC_0.0_LR_0.15": 0.6212,
+    "WACC_0.03_LR_0.0": 0.2911,
+    "WACC_0.03_LR_0.15": 0.4282,
+    "WACC_0.06_LR_0.0": 0.1577,
+    "WACC_0.06_LR_0.15": 0.258,
+    "WACC_0.087_LR_0.0": 0.0807,
+    "WACC_0.087_LR_0.15": 0.1438,
+    "WACC_0.12_LR_0.0": 0.0302,
+    "WACC_0.12_LR_0.15": 0.0594
+  },
+  "three_decision_frames": {
+    "frame_A_full_chain_return_seeking": {
+      "description": "Full conjunction \u00d7 conditional P(NPV>0) at zero discount, demand-curve integrated",
+      "p_positive_npv_zero_disc_lower": 0.00028358098088796625,
+      "p_positive_npv_zero_disc_upper": 0.00077697,
+      "verdict": "RULED OUT (P < 0.1% at any prior choice)"
+    },
+    "frame_B_conditional_success_price_tail_integrated": {
+      "description": "Conditional on reactor + engineering success; integrate over demand-curve",
+      "p_positive_npv_zero_disc_lower_3_launches": 0.1699361683223768,
+      "p_positive_npv_zero_disc_upper_demand_curve_fleet": 0.4656,
+      "p_positive_npv_zero_disc_1_launch_architecture": 0.3869199548826019,
+      "p_positive_npv_at_sovereign_bond_3pct_demand_curve": 0.2911,
+      "p_positive_npv_at_venture_8pct_demand_curve": 0.0807,
+      "p_positive_npv_at_venture_12pct_demand_curve": 0.0302,
+      "verdict": "VIABLE IN PRINCIPLE at zero-discount and sovereign-bond discount; tight at venture-class"
+    },
+    "frame_C_conditional_point_estimate": {
+      "description": "Conditional success at BEST_CELL clearing price ($2.5M/tonne)",
+      "program_npv0_b": -21.95583333333333,
+      "verdict": "RULED OUT at point estimate; ignores price distribution tail"
+    }
+  },
+  "grading": {
+    "H1": {
+      "predicted_range": [
+        0.1,
+        0.25
+      ],
+      "measured_p_price_above": 0.1699361683223768,
+      "breakeven_m_per_t": 22.438947034570248,
+      "status": "HELD"
+    },
+    "H2": {
+      "predicted_range": [
+        0.3,
+        0.5
+      ],
+      "measured_p_price_above": 0.3869199548826019,
+      "breakeven_m_per_t": 8.166825245797654,
+      "status": "HELD"
+    },
+    "H3": {
+      "predicted_range": [
+        0.1,
+        0.5
+      ],
+      "h1_my_point_estimate_3_launches": 0.1699361683223768,
+      "demand_curve_fleet_47pct": 0.4656,
+      "bracket_min": 0.1699361683223768,
+      "bracket_max": 0.4656,
+      "status": "HELD"
+    },
+    "H4": {
+      "predicted_range": [
+        0.0002,
+        0.001
+      ],
+      "measured_lower": 0.00028358098088796625,
+      "measured_upper": 0.00077697,
+      "status": "HELD"
+    },
+    "H5": {
+      "frame_A_verdict": "RULED OUT",
+      "frame_B_p_at_zero_disc_3_launches": 0.1699361683223768,
+      "frame_B_viable": true,
+      "frame_C_verdict": "RULED OUT at point estimate",
+      "three_frames_distinct": true,
+      "status": "HELD"
+    },
+    "H6": {
+      "demand_curve_p_npv_positive_at_venture_wacc_12pct": 0.0302,
+      "frame_b_viable_at_venture_wacc": false,
+      "matrix_amendment_recommendation": "venture-class framing should NOT be structurally retired; Frame B P(NPV>0) at venture WACC is 3.0%, above 5% threshold",
+      "status": "FALSIFIED"
+    }
+  }
+}

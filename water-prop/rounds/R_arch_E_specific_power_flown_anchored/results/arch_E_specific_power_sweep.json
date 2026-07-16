@@ -1,0 +1,364 @@
+{
+  "round": "R-arch-E-specific-power-flown-anchored",
+  "author": "enceladus-r5",
+  "date": "2026-05-15",
+  "pre_registration": "STUDY.md (H-9-a..h)",
+  "mass_models": {
+    "decomposed_marvl": {
+      "kind": "decomposed",
+      "m_fixed_t": 5.0,
+      "alpha_reactor_W_per_kg": 33.0,
+      "alpha_PC_W_per_kg": 50.0,
+      "alpha_radiator_kW_th_per_kg": 0.047,
+      "eta_conv": 0.3,
+      "f_tank": 0.05
+    },
+    "bundled_10_W_per_kg": {
+      "kind": "bundled",
+      "m_fixed_t": 5.0,
+      "specific_power_total_w_per_kg": 10.0
+    },
+    "bundled_5_W_per_kg": {
+      "kind": "bundled",
+      "m_fixed_t": 5.0,
+      "specific_power_total_w_per_kg": 5.0
+    },
+    "bundled_2p4_W_per_kg": {
+      "kind": "bundled",
+      "m_fixed_t": 5.0,
+      "specific_power_total_w_per_kg": 2.4
+    }
+  },
+  "constants": {
+    "eta_thr": 0.65,
+    "saturn_ops_yr": 1.0,
+    "dv_outbound_km_s": 29.56,
+    "dv_inbound_km_s": 24.7,
+    "hohmann_cruise_yr": 6.085857577229889
+  },
+  "sweep_axes": {
+    "reactor_kwe": [
+      40.0,
+      100.0,
+      200.0,
+      500.0,
+      1000.0
+    ],
+    "chunk_t": [
+      30.0,
+      50.0,
+      100.0,
+      200.0
+    ],
+    "isp_s": [
+      1500.0,
+      2000.0,
+      2934.0
+    ]
+  },
+  "H_9_a_equivalence_check": {
+    "max_round_trip_diff_yr": 0.0029226956264132298,
+    "max_delivered_diff_t": 0.06197544760522078,
+    "n_match_at_0p01yr_0p1t": 60,
+    "n_cells": 60,
+    "equivalent": true
+  },
+  "closure_counts": {
+    "decomposed_marvl": {
+      "n_cells_total": 60,
+      "n_pos_payload": 29,
+      "n_close_15yr": 0,
+      "n_close_20yr": 0,
+      "n_close_25yr": 9,
+      "n_close_30yr": 15
+    },
+    "bundled_10_W_per_kg": {
+      "n_cells_total": 60,
+      "n_pos_payload": 29,
+      "n_close_15yr": 0,
+      "n_close_20yr": 0,
+      "n_close_25yr": 9,
+      "n_close_30yr": 15
+    },
+    "bundled_5_W_per_kg": {
+      "n_cells_total": 60,
+      "n_pos_payload": 19,
+      "n_close_15yr": 0,
+      "n_close_20yr": 0,
+      "n_close_25yr": 0,
+      "n_close_30yr": 1
+    },
+    "bundled_2p4_W_per_kg": {
+      "n_cells_total": 60,
+      "n_pos_payload": 10,
+      "n_close_15yr": 0,
+      "n_close_20yr": 0,
+      "n_close_25yr": 0,
+      "n_close_30yr": 0
+    }
+  },
+  "best_cells": {
+    "decomposed_marvl": {
+      "best_at_15yr": null,
+      "best_at_20yr": null,
+      "best_at_25yr": {
+        "feasible": true,
+        "m_tug_t": 60.390270800115026,
+        "m_prop_outbound_t": 108.32126357327289,
+        "m_LEO_t": 168.7115343733879,
+        "thrust_N": 22.590849980765284,
+        "mass_ratio_outbound": 2.7936873297323674,
+        "m_prop_inbound_t": 150.03231260682279,
+        "mass_ratio_inbound": 2.3595060570443027,
+        "t_outbound_burn_yr": 4.371776627211268,
+        "t_cruise_each_yr": 6.085857577229889,
+        "t_saturn_ops_yr": 1.0,
+        "t_inbound_burn_yr": 6.055207776793334,
+        "round_trip_yr": 23.59869955846438,
+        "closes_15yr": false,
+        "closes_20yr": false,
+        "closes_25yr": true,
+        "closes_30yr": true,
+        "delivered_t": 49.967687393177215,
+        "delivered_fraction": 0.24983843696588606,
+        "mass_model": "decomposed_marvl",
+        "reactor_kwe": 500.0,
+        "chunk_t": 200.0,
+        "isp_s": 2934.0
+      },
+      "best_at_30yr": {
+        "feasible": true,
+        "m_tug_t": 60.390270800115026,
+        "m_prop_outbound_t": 108.32126357327289,
+        "m_LEO_t": 168.7115343733879,
+        "thrust_N": 22.590849980765284,
+        "mass_ratio_outbound": 2.7936873297323674,
+        "m_prop_inbound_t": 150.03231260682279,
+        "mass_ratio_inbound": 2.3595060570443027,
+        "t_outbound_burn_yr": 4.371776627211268,
+        "t_cruise_each_yr": 6.085857577229889,
+        "t_saturn_ops_yr": 1.0,
+        "t_inbound_burn_yr": 6.055207776793334,
+        "round_trip_yr": 23.59869955846438,
+        "closes_15yr": false,
+        "closes_20yr": false,
+        "closes_25yr": true,
+        "closes_30yr": true,
+        "delivered_t": 49.967687393177215,
+        "delivered_fraction": 0.24983843696588606,
+        "mass_model": "decomposed_marvl",
+        "reactor_kwe": 500.0,
+        "chunk_t": 200.0,
+        "isp_s": 2934.0
+      }
+    },
+    "bundled_10_W_per_kg": {
+      "best_at_15yr": null,
+      "best_at_20yr": null,
+      "best_at_25yr": {
+        "feasible": true,
+        "m_tug_t": 60.41860142618673,
+        "m_prop_outbound_t": 108.37207985830109,
+        "m_LEO_t": 168.79068128448782,
+        "thrust_N": 22.590849980765284,
+        "mass_ratio_outbound": 2.7936873297323674,
+        "m_prop_inbound_t": 150.048636217279,
+        "mass_ratio_inbound": 2.3595060570443027,
+        "t_outbound_burn_yr": 4.37382753983765,
+        "t_cruise_each_yr": 6.085857577229889,
+        "t_saturn_ops_yr": 1.0,
+        "t_inbound_burn_yr": 6.055866587227315,
+        "round_trip_yr": 23.60140928152474,
+        "closes_15yr": false,
+        "closes_20yr": false,
+        "closes_25yr": true,
+        "closes_30yr": true,
+        "delivered_t": 49.95136378272099,
+        "delivered_fraction": 0.24975681891360493,
+        "mass_model": "bundled_10_W_per_kg",
+        "reactor_kwe": 500.0,
+        "chunk_t": 200.0,
+        "isp_s": 2934.0
+      },
+      "best_at_30yr": {
+        "feasible": true,
+        "m_tug_t": 60.41860142618673,
+        "m_prop_outbound_t": 108.37207985830109,
+        "m_LEO_t": 168.79068128448782,
+        "thrust_N": 22.590849980765284,
+        "mass_ratio_outbound": 2.7936873297323674,
+        "m_prop_inbound_t": 150.048636217279,
+        "mass_ratio_inbound": 2.3595060570443027,
+        "t_outbound_burn_yr": 4.37382753983765,
+        "t_cruise_each_yr": 6.085857577229889,
+        "t_saturn_ops_yr": 1.0,
+        "t_inbound_burn_yr": 6.055866587227315,
+        "round_trip_yr": 23.60140928152474,
+        "closes_15yr": false,
+        "closes_20yr": false,
+        "closes_25yr": true,
+        "closes_30yr": true,
+        "delivered_t": 49.95136378272099,
+        "delivered_fraction": 0.24975681891360493,
+        "mass_model": "bundled_10_W_per_kg",
+        "reactor_kwe": 500.0,
+        "chunk_t": 200.0,
+        "isp_s": 2934.0
+      }
+    },
+    "bundled_5_W_per_kg": {
+      "best_at_15yr": null,
+      "best_at_20yr": null,
+      "best_at_25yr": null,
+      "best_at_30yr": {
+        "feasible": true,
+        "m_tug_t": 115.34460272272013,
+        "m_prop_outbound_t": 206.89215245675663,
+        "m_LEO_t": 322.23675517947675,
+        "thrust_N": 22.590849980765284,
+        "mass_ratio_outbound": 2.7936873297323674,
+        "m_prop_inbound_t": 181.69603598933153,
+        "mass_ratio_inbound": 2.3595060570443027,
+        "t_outbound_burn_yr": 8.350034394235513,
+        "t_cruise_each_yr": 6.085857577229889,
+        "t_saturn_ops_yr": 1.0,
+        "t_inbound_burn_yr": 7.333135316112492,
+        "round_trip_yr": 28.854884864807783,
+        "closes_15yr": false,
+        "closes_20yr": false,
+        "closes_25yr": false,
+        "closes_30yr": true,
+        "delivered_t": 18.303964010668466,
+        "delivered_fraction": 0.09151982005334233,
+        "mass_model": "bundled_5_W_per_kg",
+        "reactor_kwe": 500.0,
+        "chunk_t": 200.0,
+        "isp_s": 2934.0
+      }
+    },
+    "bundled_2p4_W_per_kg": {
+      "best_at_15yr": null,
+      "best_at_20yr": null,
+      "best_at_25yr": null,
+      "best_at_30yr": null
+    }
+  },
+  "joint_expected_value": {
+    "decomposed_marvl": {
+      "best_25yr_delivered_t": 49.967687393177215,
+      "best_25yr_round_trip_yr": 23.59869955846438,
+      "best_25yr_cell": {
+        "reactor_kwe": 500.0,
+        "chunk_t": 200.0,
+        "isp_s": 2934.0
+      },
+      "posterior_arch_E_unscaled": 0.0478,
+      "posterior_arch_E_scaled_by_delivery": 0.047769109147877416,
+      "p_npv": {
+        "p_npv_corp_8p7_LR15": 0.14627314219599044,
+        "p_npv_sov_3_LR15": 0.4278389625579214,
+        "be_dollar_per_kg_corp": 25960.0,
+        "be_dollar_per_kg_sov": 6920.0
+      },
+      "joint_naive_product": {
+        "arch_E_corp": 0.006987337694963261,
+        "arch_E_sov": 0.020437486100143988,
+        "variant_B_corp": 0.0022697999999999998,
+        "variant_B_sov": 0.0039858
+      }
+    },
+    "bundled_10_W_per_kg": {
+      "best_25yr_delivered_t": 49.95136378272099,
+      "best_25yr_round_trip_yr": 23.60140928152474,
+      "best_25yr_cell": {
+        "reactor_kwe": 500.0,
+        "chunk_t": 200.0,
+        "isp_s": 2934.0
+      },
+      "posterior_arch_E_unscaled": 0.0478,
+      "posterior_arch_E_scaled_by_delivery": 0.047753503776281264,
+      "p_npv": {
+        "p_npv_corp_8p7_LR15": 0.14627314219599044,
+        "p_npv_sov_3_LR15": 0.4278389625579214,
+        "be_dollar_per_kg_corp": 25960.0,
+        "be_dollar_per_kg_sov": 6920.0
+      },
+      "joint_naive_product": {
+        "arch_E_corp": 0.006985055048224756,
+        "arch_E_sov": 0.02043080951414996,
+        "variant_B_corp": 0.0022697999999999998,
+        "variant_B_sov": 0.0039858
+      }
+    },
+    "bundled_5_W_per_kg": {
+      "best_25yr_delivered_t": null,
+      "p_npv": {
+        "p_npv_corp_8p7_LR15": 0.0,
+        "p_npv_sov_3_LR15": 0.0
+      },
+      "joint_naive_product": {
+        "arch_E_corp": 0.0,
+        "arch_E_sov": 0.0,
+        "variant_B_corp": 0.0022697999999999998,
+        "variant_B_sov": 0.0039858
+      },
+      "note": "no positive-payload cell at 25-yr ceiling"
+    },
+    "bundled_2p4_W_per_kg": {
+      "best_25yr_delivered_t": null,
+      "p_npv": {
+        "p_npv_corp_8p7_LR15": 0.0,
+        "p_npv_sov_3_LR15": 0.0
+      },
+      "joint_naive_product": {
+        "arch_E_corp": 0.0,
+        "arch_E_sov": 0.0,
+        "variant_B_corp": 0.0022697999999999998,
+        "variant_B_sov": 0.0039858
+      },
+      "note": "no positive-payload cell at 25-yr ceiling"
+    }
+  },
+  "hypothesis_grading": {
+    "H_9_a": {
+      "predicted": "decomposed_marvl == bundled_10_W_per_kg cell-by-cell to 0.01 yr / 0.1 t",
+      "measured": "max_rt_diff=0.0029 yr, max_del_diff=0.0620 t, 60/60 match",
+      "status": "HELD"
+    },
+    "H_9_b": {
+      "predicted": "2-5 close cells at 25-yr, 5 W/kg",
+      "measured": "0/60",
+      "status": "FALSIFIED"
+    },
+    "H_9_c": {
+      "predicted": "0-1 close cells at 25-yr, 2.4 W/kg",
+      "measured": "0/60",
+      "status": "HELD"
+    },
+    "H_9_d": {
+      "predicted": "best cell at 5 W/kg exists with delivered 15-30 t",
+      "measured": "no positive-payload cell at 25-yr ceiling at 5 W/kg",
+      "status": "FALSIFIED"
+    },
+    "H_9_e_refined": {
+      "predicted": "at 2.4 W/kg, NO cell at reactor <= 500 kWe closes at any ceiling <= 30 yr",
+      "measured": "0 sub-500-kWe cells close at <= 30 yr at 2.4 W/kg",
+      "status": "HELD"
+    },
+    "H_9_f": {
+      "predicted": "best-case RT at 2.4 W/kg >= 28 yr",
+      "measured": "no positive-payload cell at <= 30 yr",
+      "status": "VACUOUS (no cell to test)"
+    },
+    "H_9_g": {
+      "predicted": "Arch E_500 joint corp at 5 W/kg < 0.5% (vs round-8's 2.05% at 10 W/kg)",
+      "measured": "Arch E_500 joint corp = 0.000%, Variant B joint corp = 0.227%",
+      "status": "HELD"
+    },
+    "H_9_h_aggregate": {
+      "predicted": "Architecture E's 8x credibility lift was conditioned on 10 W/kg, which has no flight or qualified-ground heritage. Under 2.4 W/kg, no L0-05 closure at any ceiling tested <= 30 yr.",
+      "measured": "close-cells (25 yr): 10 W/kg=9, 5 W/kg=0, 2.4 W/kg=0. At 2.4 W/kg: sub-500-kWe close-cells (30 yr) = 0",
+      "status_short": "see component hypotheses H-9-a through H-9-g"
+    }
+  }
+}

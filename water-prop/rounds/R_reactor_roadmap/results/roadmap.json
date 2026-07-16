@@ -1,0 +1,209 @@
+{
+  "marvl_chunk_delivered_t": {
+    "Kilopower_10kWe": 0.0,
+    "FSP_40kWe": 0.0,
+    "stretch_100kWe": 0.0,
+    "sub_MW_200kWe": 0.0,
+    "Chemical_kick_500kWe": 128.8,
+    "MW_1000kWe": 128.8
+  },
+  "ship_cost": {
+    "Chemical_kick_500kWe": 650000000.0,
+    "MW_1000kWe": 700000000.0,
+    "Kilopower_10kWe": 250000000.0,
+    "FSP_40kWe": 350000000.0,
+    "stretch_100kWe": 450000000.0,
+    "sub_MW_200kWe": 550000000.0
+  },
+  "round_trip_yr_marvl": 14.5,
+  "horizon_yr": 45,
+  "best_case_cell": {
+    "price_per_kg": 10000.0,
+    "sovereign_amount": 2000000000.0,
+    "sovereign_year": 11
+  },
+  "conops_baseline_cell": {
+    "price_per_kg": 2000.0,
+    "sovereign_amount": 0.0,
+    "sovereign_year": 11
+  },
+  "conditional_curve_best": {
+    "8": {
+      "mw_year": 8,
+      "irr": 0.016106860758566086,
+      "npv_at_0pct": -7455999999.999994,
+      "npv_at_5pct_with_tv": -5862705806.371098,
+      "npv_at_8pct_with_tv": -5189316845.104519
+    },
+    "10": {
+      "mw_year": 10,
+      "irr": 0.016350512695677222,
+      "npv_at_0pct": -7255999999.999994,
+      "npv_at_5pct_with_tv": -5696633392.458774,
+      "npv_at_8pct_with_tv": -5037290952.522847
+    },
+    "12": {
+      "mw_year": 12,
+      "irr": 0.014486081493807125,
+      "npv_at_0pct": -9531999999.999994,
+      "npv_at_5pct_with_tv": -6400572095.728649,
+      "npv_at_8pct_with_tv": -5373095183.138765
+    },
+    "15": {
+      "mw_year": 15,
+      "irr": 0.012640135445405418,
+      "npv_at_0pct": -12545999999.999996,
+      "npv_at_5pct_with_tv": -7032480933.172597,
+      "npv_at_8pct_with_tv": -5526752084.903714
+    },
+    "18": {
+      "mw_year": 18,
+      "irr": 0.011307383782687253,
+      "npv_at_0pct": -15359999999.999996,
+      "npv_at_5pct_with_tv": -7461518344.816481,
+      "npv_at_8pct_with_tv": -5565712286.99246
+    },
+    "20": {
+      "mw_year": 20,
+      "irr": 0.010558988257234003,
+      "npv_at_0pct": -17235999999.999996,
+      "npv_at_5pct_with_tv": -7714573583.018164,
+      "npv_at_8pct_with_tv": -5587113332.732593
+    },
+    "22": {
+      "mw_year": 22,
+      "irr": 0.009971027148509042,
+      "npv_at_0pct": -18961999999.999996,
+      "npv_at_5pct_with_tv": -7824194548.673082,
+      "npv_at_8pct_with_tv": -5503812762.434455
+    },
+    "25": {
+      "mw_year": 25,
+      "irr": 0.009598767573064253,
+      "npv_at_0pct": -20287999999.999996,
+      "npv_at_5pct_with_tv": -7737295247.547718,
+      "npv_at_8pct_with_tv": -5314685601.159119
+    },
+    "28": {
+      "mw_year": 28,
+      "irr": 0.008873952430951133,
+      "npv_at_0pct": -22902000000.0,
+      "npv_at_5pct_with_tv": -7879153276.926184,
+      "npv_at_8pct_with_tv": -5243659261.333358
+    },
+    "30": {
+      "mw_year": 30,
+      "irr": null,
+      "npv_at_0pct": -24678000000.0,
+      "npv_at_5pct_with_tv": -8530314012.039194,
+      "npv_at_8pct_with_tv": -5311430117.064787
+    },
+    "never": {
+      "mw_year": "inf",
+      "irr": 0.014826247628937542,
+      "npv_at_0pct": -11545999999.999996,
+      "npv_at_5pct_with_tv": -6864552980.585206,
+      "npv_at_8pct_with_tv": -5592310828.404666
+    }
+  },
+  "conditional_curve_conops": {
+    "8": {
+      "mw_year": 8,
+      "irr": null,
+      "npv_at_0pct": -33155200000.0,
+      "npv_at_5pct_with_tv": -12746613567.755266,
+      "npv_at_8pct_with_tv": -8396530680.495451
+    },
+    "10": {
+      "mw_year": 10,
+      "irr": null,
+      "npv_at_0pct": -32955200000.0,
+      "npv_at_5pct_with_tv": -12580541153.842941,
+      "npv_at_8pct_with_tv": -8244504787.913779
+    },
+    "12": {
+      "mw_year": 12,
+      "irr": null,
+      "npv_at_0pct": -33170400000.0,
+      "npv_at_5pct_with_tv": -12562383537.419123,
+      "npv_at_8pct_with_tv": -8186081837.75894
+    },
+    "15": {
+      "mw_year": 15,
+      "irr": null,
+      "npv_at_0pct": -33093200000.0,
+      "npv_at_5pct_with_tv": -12235049750.65745,
+      "npv_at_8pct_with_tv": -7851295624.208724
+    },
+    "18": {
+      "mw_year": 18,
+      "irr": null,
+      "npv_at_0pct": -32816000000.0,
+      "npv_at_5pct_with_tv": -11835457317.39852,
+      "npv_at_8pct_with_tv": -7502513933.455959
+    },
+    "20": {
+      "mw_year": 20,
+      "irr": null,
+      "npv_at_0pct": -32631200000.0,
+      "npv_at_5pct_with_tv": -11599769343.25546,
+      "npv_at_8pct_with_tv": -7310926300.000717
+    },
+    "22": {
+      "mw_year": 22,
+      "irr": null,
+      "npv_at_0pct": -32296400000.0,
+      "npv_at_5pct_with_tv": -11266085807.917416,
+      "npv_at_8pct_with_tv": -7045022266.743581
+    },
+    "25": {
+      "mw_year": 25,
+      "irr": null,
+      "npv_at_0pct": -31561600000.0,
+      "npv_at_5pct_with_tv": -10786436331.959663,
+      "npv_at_8pct_with_tv": -6704917318.575756
+    },
+    "28": {
+      "mw_year": 28,
+      "irr": null,
+      "npv_at_0pct": -31084400000.0,
+      "npv_at_5pct_with_tv": -10419587517.272867,
+      "npv_at_8pct_with_tv": -6454291458.928179
+    },
+    "30": {
+      "mw_year": 30,
+      "irr": null,
+      "npv_at_0pct": -30799600000.0,
+      "npv_at_5pct_with_tv": -10218671632.525333,
+      "npv_at_8pct_with_tv": -6326290918.201871
+    },
+    "never": {
+      "mw_year": "inf",
+      "irr": null,
+      "npv_at_0pct": -32093200000.0,
+      "npv_at_5pct_with_tv": -12178418306.986193,
+      "npv_at_8pct_with_tv": -7936434292.552152
+    }
+  },
+  "irr_8pct_crossover_megawatt_year": null,
+  "baseline_cdf_summary": {
+    "p_mw_by_y20": 0.005,
+    "p_mw_by_y30": 0.0146,
+    "p_mw_by_y49": 0.0328
+  },
+  "marginal_baseline": {
+    "marginal_irr": 0.01448689087824027,
+    "p_never_branch": 0.9672,
+    "p_megawatt_branch": 0.03280000000000005,
+    "total_weight_used": 1.0,
+    "irr_never_branch": 0.014826247628937542
+  },
+  "marginal_aggressive": {
+    "marginal_irr": 0.014863823773938401,
+    "p_never_branch": 0.9672,
+    "p_megawatt_branch": 0.03280000000000005,
+    "total_weight_used": 1.0,
+    "irr_never_branch": 0.014826247628937542
+  },
+  "uplift_pp": 0.037693289569813195
+}

@@ -1,0 +1,80 @@
+{
+  "uniform_Beta_1_1": {
+    "megawatt_class_0_of_6": {
+      "alpha_post": 1.0,
+      "beta_post": 7.0,
+      "posterior_mean": 0.125,
+      "posterior_sd": 0.11023963796102461,
+      "approx_95CI_low": 0.0,
+      "approx_95CI_high": 0.3454792759220492
+    },
+    "megawatt_class_0_of_6_plus_FY2026_budget_zero": {
+      "alpha_post": 1.0,
+      "beta_post": 7.5,
+      "posterior_mean": 0.11764705882352941,
+      "posterior_sd": 0.10453215489866335,
+      "approx_95CI_low": 0.0,
+      "approx_95CI_high": 0.32671136862085615
+    },
+    "Kilopower_variant_B_with_KRUSTY_credit": {
+      "alpha_post": 1.5,
+      "beta_post": 7.0,
+      "posterior_mean": 0.17647058823529413,
+      "posterior_sd": 0.12368411365596396,
+      "approx_95CI_low": 0.0,
+      "approx_95CI_high": 0.423838815547222
+    }
+  },
+  "Jeffreys_Beta_0p5_0p5": {
+    "megawatt_class_0_of_6": {
+      "alpha_post": 0.5,
+      "beta_post": 6.5,
+      "posterior_mean": 0.07142857142857142,
+      "posterior_sd": 0.09105391988558545,
+      "approx_95CI_low": 0.0,
+      "approx_95CI_high": 0.25353641119974235
+    },
+    "megawatt_class_0_of_6_plus_FY2026_budget_zero": {
+      "alpha_post": 0.5,
+      "beta_post": 7.0,
+      "posterior_mean": 0.06666666666666667,
+      "posterior_sd": 0.08555852638929971,
+      "approx_95CI_low": 0.0,
+      "approx_95CI_high": 0.2377837194452661
+    },
+    "Kilopower_variant_B_with_KRUSTY_credit": {
+      "alpha_post": 1.0,
+      "beta_post": 6.5,
+      "posterior_mean": 0.13333333333333333,
+      "posterior_sd": 0.1165966176260275,
+      "approx_95CI_low": 0.0,
+      "approx_95CI_high": 0.36652656858538835
+    }
+  },
+  "weakly_favorable_Beta_2_2": {
+    "megawatt_class_0_of_6": {
+      "alpha_post": 2.0,
+      "beta_post": 8.0,
+      "posterior_mean": 0.2,
+      "posterior_sd": 0.12060453783110545,
+      "approx_95CI_low": 0.0,
+      "approx_95CI_high": 0.4412090756622109
+    },
+    "megawatt_class_0_of_6_plus_FY2026_budget_zero": {
+      "alpha_post": 2.0,
+      "beta_post": 8.5,
+      "posterior_mean": 0.19047619047619047,
+      "posterior_sd": 0.11579404930939596,
+      "approx_95CI_low": 0.0,
+      "approx_95CI_high": 0.4220642890949824
+    },
+    "Kilopower_variant_B_with_KRUSTY_credit": {
+      "alpha_post": 2.5,
+      "beta_post": 8.0,
+      "posterior_mean": 0.23809523809523808,
+      "posterior_sd": 0.12559628064681658,
+      "approx_95CI_low": 0.0,
+      "approx_95CI_high": 0.48928779938887124
+    }
+  }
+}

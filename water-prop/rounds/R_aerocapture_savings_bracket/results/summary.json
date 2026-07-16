@@ -1,0 +1,69 @@
+{
+  "model": {
+    "cargo_water_mass_t": 200.0,
+    "cargo_volume_m3": 200.0,
+    "cargo_radius_m": 3.627831678597809,
+    "cargo_surface_area_m2": 165.38804805627183,
+    "dv_savings_grid_kms": [
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0
+    ],
+    "tps_areal_density_grid_kg_m2": [
+      0,
+      30,
+      50,
+      80,
+      120,
+      200
+    ],
+    "jupiter_viable_fraction_used": 0.075
+  },
+  "block4_reproduction": {
+    "a1_no_levers_pct": 3.9239683081307533,
+    "a2_aerocapture_only_no_shield_at_1p5_pct": 7.152284707297952,
+    "composite_no_jupiter_no_shield_pct": 16.280006096314125
+  },
+  "headline_results": {
+    "composite_no_jupiter_central_shield_pct": 15.369066203221124,
+    "composite_with_jupiter_central_shield_pct": 20.98884616893099,
+    "composite_with_jupiter_no_shield_pct": 21.839296575124763,
+    "campaign_mean_corrected_pct": 15.790549700649365,
+    "no_aerocapture_pct": 13.077969970611674,
+    "net_uplift_aerocapture_pp": 2.291096232609449,
+    "v_infinity_central_kms": 3.0,
+    "entry_velocity_central_kms": 11.415826303169755,
+    "heat_shield_mass_central_t": 8.269402402813592
+  },
+  "hypothesis_adjudication": {
+    "H1_entry_velocity_in_range": {
+      "status": "held",
+      "v_inf_kms": 3.0,
+      "v_entry_kms": 11.415826303169755
+    },
+    "H2_heat_shield_mass_5_to_15t": {
+      "status": "falsified",
+      "masses_t": [
+        4.961641441688155,
+        8.269402402813592,
+        13.231043844501746,
+        19.84656576675262
+      ]
+    },
+    "H3_savings_range_assumed": {
+      "status": "n/a \u2014 assumed range [1.0, 2.5] km/s based on Block 4 framing"
+    },
+    "H4_net_uplift_in_1p5_2p5pp": {
+      "status": "held",
+      "observed_pp": 2.291096232609449
+    },
+    "H5_composite_central_14_15pct": {
+      "status": "marginal",
+      "observed_pct": 15.369066203221124
+    }
+  }
+}

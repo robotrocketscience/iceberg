@@ -1,0 +1,18 @@
+{
+  "threshold_0.75": {
+    "min_p": 0.93,
+    "block5_score_at_min_p": 0.9575065728000001
+  },
+  "threshold_0.8": {
+    "min_p": 0.93,
+    "block5_score_at_min_p": 0.9575065728000001
+  },
+  "threshold_0.85": {
+    "min_p": 0.99,
+    "block5_score_at_min_p": 0.9509900498999999
+  },
+  "threshold_0.9": {
+    "min_p": 0.99,
+    "block5_score_at_min_p": 0.9509900498999999
+  }
+}

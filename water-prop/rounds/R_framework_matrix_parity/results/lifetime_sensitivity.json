@@ -1,0 +1,18 @@
+{
+ "5.0": {
+  "closing_30t_waiver": 0,
+  "closing_30t_strict": 0
+ },
+ "10.0": {
+  "closing_30t_waiver": 0,
+  "closing_30t_strict": 0
+ },
+ "15.0": {
+  "closing_30t_waiver": 0,
+  "closing_30t_strict": 0
+ },
+ "inf": {
+  "closing_30t_waiver": 0,
+  "closing_30t_strict": 0
+ }
+}

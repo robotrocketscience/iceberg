@@ -1,0 +1,1807 @@
+{
+ "note": "titan-3 modeled INBOUND-ONLY (vehicle already at Saturn, chunk as sole propellant, no Earth-launched propellant, no powerplant mass). The framework models the FULL round-trip from Earth launch. They are not cell-comparable; the framework delivers ~half for the same chunk.",
+ "sp2.4_OFF": {
+  "closing_30t_strict": [
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 34.85,
+    "best_rt_yr": 12.41,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_2_launch.39892f -> P0b_assembly.autonomous_assembly.39892f -> P1_LEO_to_Saturn.low_thrust_spiral.39892f -> P1b_cruise_ops.ballistic_coast.39892f -> P2_Saturn_capture.fg_gap_periapsis_capture.39892f -> P3_chunk_acquisition.single_pass_trawl.39892f -> P4_Saturn_departure.chunk_fed_spiral_departure.39892f -> P5_inbound_cruise_ops.inbound_ballistic.39892f -> P6_Earth_arrival.direct_propulsive_capture.39892f -> P7_lunar_processing.passthrough_already_at_leo.39892f",
+    "skipped_reason": null
+   }
+  ],
+  "closing_30t_waiver": [
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 34.85,
+    "best_rt_yr": 12.41,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_2_launch.39892f -> P0b_assembly.autonomous_assembly.39892f -> P1_LEO_to_Saturn.low_thrust_spiral.39892f -> P1b_cruise_ops.ballistic_coast.39892f -> P2_Saturn_capture.fg_gap_periapsis_capture.39892f -> P3_chunk_acquisition.single_pass_trawl.39892f -> P4_Saturn_departure.chunk_fed_spiral_departure.39892f -> P5_inbound_cruise_ops.inbound_ballistic.39892f -> P6_Earth_arrival.direct_propulsive_capture.39892f -> P7_lunar_processing.passthrough_already_at_leo.39892f",
+    "skipped_reason": null
+   }
+  ],
+  "all": [
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 19.45,
+    "best_rt_yr": 11.93,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_2_launch.cb0865 -> P0b_assembly.autonomous_assembly.cb0865 -> P1_LEO_to_Saturn.low_thrust_spiral.cb0865 -> P1b_cruise_ops.mcc_only.cb0865 -> P2_Saturn_capture.direct_chemical_capture.cb0865 -> P3_chunk_acquisition.single_pass_trawl.cb0865 -> P4_Saturn_departure.chunk_fed_spiral_departure.cb0865 -> P5_inbound_cruise_ops.inbound_ballistic.cb0865 -> P6_Earth_arrival.aerocapture.cb0865 -> P7_lunar_processing.passthrough_already_at_leo.cb0865",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 24.55,
+    "best_rt_yr": 11.93,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_2_launch.a76c65 -> P0b_assembly.autonomous_assembly.a76c65 -> P1_LEO_to_Saturn.low_thrust_spiral.a76c65 -> P1b_cruise_ops.mcc_only.a76c65 -> P2_Saturn_capture.direct_chemical_capture.a76c65 -> P3_chunk_acquisition.single_pass_trawl.a76c65 -> P4_Saturn_departure.chunk_fed_spiral_departure.a76c65 -> P5_inbound_cruise_ops.inbound_ballistic.a76c65 -> P6_Earth_arrival.aerocapture.a76c65 -> P7_lunar_processing.passthrough_already_at_leo.a76c65",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 34.85,
+    "best_rt_yr": 12.41,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_2_launch.39892f -> P0b_assembly.autonomous_assembly.39892f -> P1_LEO_to_Saturn.low_thrust_spiral.39892f -> P1b_cruise_ops.ballistic_coast.39892f -> P2_Saturn_capture.fg_gap_periapsis_capture.39892f -> P3_chunk_acquisition.single_pass_trawl.39892f -> P4_Saturn_departure.chunk_fed_spiral_departure.39892f -> P5_inbound_cruise_ops.inbound_ballistic.39892f -> P6_Earth_arrival.direct_propulsive_capture.39892f -> P7_lunar_processing.passthrough_already_at_leo.39892f",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 16.71,
+    "best_rt_yr": 13.94,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_2_launch.cb0865 -> P0b_assembly.autonomous_assembly.cb0865 -> P1_LEO_to_Saturn.low_thrust_spiral.cb0865 -> P1b_cruise_ops.mcc_only.cb0865 -> P2_Saturn_capture.direct_chemical_capture.cb0865 -> P3_chunk_acquisition.single_pass_trawl.cb0865 -> P4_Saturn_departure.chunk_fed_spiral_departure.cb0865 -> P5_inbound_cruise_ops.inbound_ballistic.cb0865 -> P6_Earth_arrival.direct_propulsive_capture.cb0865 -> P7_lunar_processing.passthrough_already_at_leo.cb0865",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 22.08,
+    "best_rt_yr": 13.94,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_2_launch.a76c65 -> P0b_assembly.autonomous_assembly.a76c65 -> P1_LEO_to_Saturn.low_thrust_spiral.a76c65 -> P1b_cruise_ops.mcc_only.a76c65 -> P2_Saturn_capture.direct_chemical_capture.a76c65 -> P3_chunk_acquisition.single_pass_trawl.a76c65 -> P4_Saturn_departure.chunk_fed_spiral_departure.a76c65 -> P5_inbound_cruise_ops.inbound_ballistic.a76c65 -> P6_Earth_arrival.direct_propulsive_capture.a76c65 -> P7_lunar_processing.passthrough_already_at_leo.a76c65",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 29.54,
+    "best_rt_yr": 13.98,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_2_launch.39892f -> P0b_assembly.autonomous_assembly.39892f -> P1_LEO_to_Saturn.low_thrust_spiral.39892f -> P1b_cruise_ops.mcc_only.39892f -> P2_Saturn_capture.direct_chemical_capture.39892f -> P3_chunk_acquisition.single_pass_trawl.39892f -> P4_Saturn_departure.chunk_fed_spiral_departure.39892f -> P5_inbound_cruise_ops.inbound_ballistic.39892f -> P6_Earth_arrival.hybrid_aerocapture_aerobraking.39892f -> P7_lunar_processing.passthrough_already_at_leo.39892f",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   }
+  ]
+ },
+ "sp10.0_OFF": {
+  "closing_30t_strict": [
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 34.85,
+    "best_rt_yr": 12.41,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_2_launch.7dbbbe -> P0b_assembly.autonomous_assembly.7dbbbe -> P1_LEO_to_Saturn.low_thrust_spiral.7dbbbe -> P1b_cruise_ops.ballistic_coast.7dbbbe -> P2_Saturn_capture.fg_gap_periapsis_capture.7dbbbe -> P3_chunk_acquisition.single_pass_trawl.7dbbbe -> P4_Saturn_departure.chunk_fed_spiral_departure.7dbbbe -> P5_inbound_cruise_ops.inbound_ballistic.7dbbbe -> P6_Earth_arrival.direct_propulsive_capture.7dbbbe -> P7_lunar_processing.passthrough_already_at_leo.7dbbbe",
+    "skipped_reason": null
+   }
+  ],
+  "closing_30t_waiver": [
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 34.85,
+    "best_rt_yr": 12.41,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_2_launch.7dbbbe -> P0b_assembly.autonomous_assembly.7dbbbe -> P1_LEO_to_Saturn.low_thrust_spiral.7dbbbe -> P1b_cruise_ops.ballistic_coast.7dbbbe -> P2_Saturn_capture.fg_gap_periapsis_capture.7dbbbe -> P3_chunk_acquisition.single_pass_trawl.7dbbbe -> P4_Saturn_departure.chunk_fed_spiral_departure.7dbbbe -> P5_inbound_cruise_ops.inbound_ballistic.7dbbbe -> P6_Earth_arrival.direct_propulsive_capture.7dbbbe -> P7_lunar_processing.passthrough_already_at_leo.7dbbbe",
+    "skipped_reason": null
+   }
+  ],
+  "all": [
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 19.45,
+    "best_rt_yr": 11.93,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_2_launch.99e7a2 -> P0b_assembly.autonomous_assembly.99e7a2 -> P1_LEO_to_Saturn.low_thrust_spiral.99e7a2 -> P1b_cruise_ops.mcc_only.99e7a2 -> P2_Saturn_capture.direct_chemical_capture.99e7a2 -> P3_chunk_acquisition.single_pass_trawl.99e7a2 -> P4_Saturn_departure.chunk_fed_spiral_departure.99e7a2 -> P5_inbound_cruise_ops.inbound_ballistic.99e7a2 -> P6_Earth_arrival.aerocapture.99e7a2 -> P7_lunar_processing.passthrough_already_at_leo.99e7a2",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 24.55,
+    "best_rt_yr": 11.93,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_2_launch.4c9d44 -> P0b_assembly.autonomous_assembly.4c9d44 -> P1_LEO_to_Saturn.low_thrust_spiral.4c9d44 -> P1b_cruise_ops.mcc_only.4c9d44 -> P2_Saturn_capture.direct_chemical_capture.4c9d44 -> P3_chunk_acquisition.single_pass_trawl.4c9d44 -> P4_Saturn_departure.chunk_fed_spiral_departure.4c9d44 -> P5_inbound_cruise_ops.inbound_ballistic.4c9d44 -> P6_Earth_arrival.aerocapture.4c9d44 -> P7_lunar_processing.passthrough_already_at_leo.4c9d44",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 34.85,
+    "best_rt_yr": 12.41,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_2_launch.7dbbbe -> P0b_assembly.autonomous_assembly.7dbbbe -> P1_LEO_to_Saturn.low_thrust_spiral.7dbbbe -> P1b_cruise_ops.ballistic_coast.7dbbbe -> P2_Saturn_capture.fg_gap_periapsis_capture.7dbbbe -> P3_chunk_acquisition.single_pass_trawl.7dbbbe -> P4_Saturn_departure.chunk_fed_spiral_departure.7dbbbe -> P5_inbound_cruise_ops.inbound_ballistic.7dbbbe -> P6_Earth_arrival.direct_propulsive_capture.7dbbbe -> P7_lunar_processing.passthrough_already_at_leo.7dbbbe",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 16.71,
+    "best_rt_yr": 13.94,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_2_launch.99e7a2 -> P0b_assembly.autonomous_assembly.99e7a2 -> P1_LEO_to_Saturn.low_thrust_spiral.99e7a2 -> P1b_cruise_ops.mcc_only.99e7a2 -> P2_Saturn_capture.direct_chemical_capture.99e7a2 -> P3_chunk_acquisition.single_pass_trawl.99e7a2 -> P4_Saturn_departure.chunk_fed_spiral_departure.99e7a2 -> P5_inbound_cruise_ops.inbound_ballistic.99e7a2 -> P6_Earth_arrival.direct_propulsive_capture.99e7a2 -> P7_lunar_processing.passthrough_already_at_leo.99e7a2",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 22.08,
+    "best_rt_yr": 13.94,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_2_launch.4c9d44 -> P0b_assembly.autonomous_assembly.4c9d44 -> P1_LEO_to_Saturn.low_thrust_spiral.4c9d44 -> P1b_cruise_ops.mcc_only.4c9d44 -> P2_Saturn_capture.direct_chemical_capture.4c9d44 -> P3_chunk_acquisition.single_pass_trawl.4c9d44 -> P4_Saturn_departure.chunk_fed_spiral_departure.4c9d44 -> P5_inbound_cruise_ops.inbound_ballistic.4c9d44 -> P6_Earth_arrival.direct_propulsive_capture.4c9d44 -> P7_lunar_processing.passthrough_already_at_leo.4c9d44",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 29.54,
+    "best_rt_yr": 13.98,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_2_launch.7dbbbe -> P0b_assembly.autonomous_assembly.7dbbbe -> P1_LEO_to_Saturn.low_thrust_spiral.7dbbbe -> P1b_cruise_ops.mcc_only.7dbbbe -> P2_Saturn_capture.direct_chemical_capture.7dbbbe -> P3_chunk_acquisition.single_pass_trawl.7dbbbe -> P4_Saturn_departure.chunk_fed_spiral_departure.7dbbbe -> P5_inbound_cruise_ops.inbound_ballistic.7dbbbe -> P6_Earth_arrival.hybrid_aerocapture_aerobraking.7dbbbe -> P7_lunar_processing.passthrough_already_at_leo.7dbbbe",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   }
+  ]
+ },
+ "sp2.4_ON": {
+  "closing_30t_strict": [],
+  "closing_30t_waiver": [],
+  "all": [
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   }
+  ]
+ },
+ "sp10.0_ON": {
+  "closing_30t_strict": [],
+  "closing_30t_waiver": [],
+  "all": [
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 63000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 100000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 20.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 50000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 60000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 2.5
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 30.0,
+     "chunk_mass_kg": 80000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,578 @@
+[
+  {
+    "round_name": "R6_power_constrained_isp_optimum",
+    "file": "water-prop/rounds/R6_power_constrained_isp_optimum/run.py",
+    "line": 193,
+    "callee": "power_optimal_isp",
+    "args_text": [],
+    "first_positional": null,
+    "convention_verdict": "ambiguous",
+    "notes": "arg text '' not classifiable"
+  },
+  {
+    "round_name": "R6_power_constrained_isp_optimum",
+    "file": "water-prop/rounds/R6_power_constrained_isp_optimum/run.py",
+    "line": 81,
+    "callee": "power_optimal_isp",
+    "args_text": [],
+    "first_positional": null,
+    "convention_verdict": "ambiguous",
+    "notes": "arg text '' not classifiable"
+  },
+  {
+    "round_name": "R6_power_constrained_isp_optimum",
+    "file": "water-prop/rounds/R6_power_constrained_isp_optimum/run.py",
+    "line": 127,
+    "callee": "power_optimal_isp",
+    "args_text": [],
+    "first_positional": null,
+    "convention_verdict": "ambiguous",
+    "notes": "arg text '' not classifiable"
+  },
+  {
+    "round_name": "R6_power_constrained_isp_optimum",
+    "file": "water-prop/rounds/R6_power_constrained_isp_optimum/run.py",
+    "line": 156,
+    "callee": "power_optimal_isp",
+    "args_text": [],
+    "first_positional": null,
+    "convention_verdict": "ambiguous",
+    "notes": "arg text '' not classifiable"
+  },
+  {
+    "round_name": "R_all_electric_thruster_sweep",
+    "file": "water-prop/rounds/R_all_electric_thruster_sweep/run.py",
+    "line": 140,
+    "callee": "constant_thrust_burn",
+    "args_text": [
+      "tug_dry_t + chunk_t",
+      "dv_in_km_s",
+      "power_kwe",
+      "isp_s",
+      "eta"
+    ],
+    "first_positional": "tug_dry_t + chunk_t",
+    "convention_verdict": "correct",
+    "notes": "local def at water-prop/rounds/R_all_electric_thruster_sweep/run.py:87 variant=wet_at_start; arg is a sum suggesting wet-mass assembly; expects=wet_at_start observed=wet_at_start"
+  },
+  {
+    "round_name": "R_arch_E_specific_power_flown_anchored",
+    "file": "water-prop/rounds/R_arch_E_specific_power_flown_anchored/run.py",
+    "line": 117,
+    "callee": "burn_from_dry_end",
+    "args_text": [
+      "m_tug_t",
+      "dv_outbound_km_s",
+      "reactor_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_tug_t",
+    "convention_verdict": "correct",
+    "notes": "local def at water-prop/rounds/R_arch_E_specific_power_flown_anchored/run.py:74 variant=dry_at_end; arg name matches dry-hints: 'm_tug_t'; expects=dry_at_end observed=dry_at_end"
+  },
+  {
+    "round_name": "R_arch_E_specific_power_flown_anchored",
+    "file": "water-prop/rounds/R_arch_E_specific_power_flown_anchored/run.py",
+    "line": 118,
+    "callee": "burn_from_wet",
+    "args_text": [
+      "m_tug_t + chunk_t",
+      "dv_inbound_km_s",
+      "reactor_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_tug_t + chunk_t",
+    "convention_verdict": "correct",
+    "notes": "local def at water-prop/rounds/R_arch_E_specific_power_flown_anchored/run.py:84 variant=wet_at_start; arg is a sum suggesting wet-mass assembly; expects=wet_at_start observed=wet_at_start"
+  },
+  {
+    "round_name": "R_arch_E_specific_power_flown_anchored",
+    "file": "water-prop/rounds/R_arch_E_specific_power_flown_anchored/run.py",
+    "line": 106,
+    "callee": "burn_from_dry_end",
+    "args_text": [
+      "m_tug_t",
+      "dv_outbound_km_s",
+      "reactor_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_tug_t",
+    "convention_verdict": "correct",
+    "notes": "local def at water-prop/rounds/R_arch_E_specific_power_flown_anchored/run.py:74 variant=dry_at_end; arg name matches dry-hints: 'm_tug_t'; expects=dry_at_end observed=dry_at_end"
+  },
+  {
+    "round_name": "R_architecture_E_no_saturn_side_electrolysis",
+    "file": "water-prop/rounds/R_architecture_E_no_saturn_side_electrolysis/run.py",
+    "line": 134,
+    "callee": "burn_from_dry_end",
+    "args_text": [
+      "m_tug_t",
+      "dv_outbound_km_s",
+      "reactor_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_tug_t",
+    "convention_verdict": "correct",
+    "notes": "local def at water-prop/rounds/R_architecture_E_no_saturn_side_electrolysis/run.py:78 variant=dry_at_end; arg name matches dry-hints: 'm_tug_t'; expects=dry_at_end observed=dry_at_end"
+  },
+  {
+    "round_name": "R_architecture_E_no_saturn_side_electrolysis",
+    "file": "water-prop/rounds/R_architecture_E_no_saturn_side_electrolysis/run.py",
+    "line": 136,
+    "callee": "burn_from_wet",
+    "args_text": [
+      "m_tug_t + chunk_t",
+      "dv_inbound_km_s",
+      "reactor_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_tug_t + chunk_t",
+    "convention_verdict": "correct",
+    "notes": "local def at water-prop/rounds/R_architecture_E_no_saturn_side_electrolysis/run.py:88 variant=wet_at_start; arg is a sum suggesting wet-mass assembly; expects=wet_at_start observed=wet_at_start"
+  },
+  {
+    "round_name": "R_architecture_E_no_saturn_side_electrolysis",
+    "file": "water-prop/rounds/R_architecture_E_no_saturn_side_electrolysis/run.py",
+    "line": 110,
+    "callee": "burn_from_dry_end",
+    "args_text": [
+      "m_tug_t",
+      "dv_outbound_km_s",
+      "reactor_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_tug_t",
+    "convention_verdict": "correct",
+    "notes": "local def at water-prop/rounds/R_architecture_E_no_saturn_side_electrolysis/run.py:78 variant=dry_at_end; arg name matches dry-hints: 'm_tug_t'; expects=dry_at_end observed=dry_at_end"
+  },
+  {
+    "round_name": "R_electric_outbound",
+    "file": "water-prop/rounds/R_electric_outbound/run.py",
+    "line": 230,
+    "callee": "constant_thrust_burn",
+    "args_text": [
+      "m_tug_t",
+      "dv_outbound_km_s",
+      "reactor_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_tug_t",
+    "convention_verdict": "incorrect",
+    "notes": "local def at water-prop/rounds/R_electric_outbound/run.py:137 variant=wet_at_start; arg name matches dry-hints: 'm_tug_t'; expects=wet_at_start observed=dry_at_end \u2014 CONVENTION MISMATCH"
+  },
+  {
+    "round_name": "R_electric_outbound",
+    "file": "water-prop/rounds/R_electric_outbound/run.py",
+    "line": 236,
+    "callee": "constant_thrust_burn",
+    "args_text": [
+      "m_tug_t + chunk_t",
+      "DV_INBOUND_KM_S",
+      "reactor_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_tug_t + chunk_t",
+    "convention_verdict": "correct",
+    "notes": "local def at water-prop/rounds/R_electric_outbound/run.py:137 variant=wet_at_start; arg is a sum suggesting wet-mass assembly; expects=wet_at_start observed=wet_at_start"
+  },
+  {
+    "round_name": "R_electric_outbound",
+    "file": "water-prop/rounds/R_electric_outbound/run.py",
+    "line": 223,
+    "callee": "constant_thrust_burn",
+    "args_text": [
+      "m_tug_t",
+      "dv_outbound_km_s",
+      "reactor_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_tug_t",
+    "convention_verdict": "incorrect",
+    "notes": "local def at water-prop/rounds/R_electric_outbound/run.py:137 variant=wet_at_start; arg name matches dry-hints: 'm_tug_t'; expects=wet_at_start observed=dry_at_end \u2014 CONVENTION MISMATCH"
+  },
+  {
+    "round_name": "R_electric_outbound_rerun",
+    "file": "water-prop/rounds/R_electric_outbound_rerun/run.py",
+    "line": 193,
+    "callee": "burn_from_dry_end",
+    "args_text": [
+      "m_final",
+      "dv",
+      "power",
+      "isp"
+    ],
+    "first_positional": "m_final",
+    "convention_verdict": "correct",
+    "notes": "local def at water-prop/rounds/R_electric_outbound_rerun/run.py:155 variant=dry_at_end; arg name matches dry-hints: 'm_final'; expects=dry_at_end observed=dry_at_end"
+  },
+  {
+    "round_name": "R_electric_outbound_rerun",
+    "file": "water-prop/rounds/R_electric_outbound_rerun/run.py",
+    "line": 194,
+    "callee": "burn_from_wet",
+    "args_text": [
+      "m_wet_truth",
+      "dv",
+      "power",
+      "isp"
+    ],
+    "first_positional": "m_wet_truth",
+    "convention_verdict": "correct",
+    "notes": "local def at water-prop/rounds/R_electric_outbound_rerun/run.py:134 variant=wet_at_start; arg name matches wet-hints: 'm_wet_truth'; expects=wet_at_start observed=wet_at_start"
+  },
+  {
+    "round_name": "R_electric_outbound_rerun",
+    "file": "water-prop/rounds/R_electric_outbound_rerun/run.py",
+    "line": 195,
+    "callee": "burn_from_wet",
+    "args_text": [
+      "m_final",
+      "dv",
+      "power",
+      "isp"
+    ],
+    "first_positional": "m_final",
+    "convention_verdict": "intentional",
+    "notes": "manual-carveout: unit_sanity_check intentionally calls burn_from_wet(m_final) to demonstrate the bugged pattern"
+  },
+  {
+    "round_name": "R_electric_outbound_rerun",
+    "file": "water-prop/rounds/R_electric_outbound_rerun/run.py",
+    "line": 239,
+    "callee": "burn_from_wet",
+    "args_text": [
+      "m_tug_t + chunk_t",
+      "dv_inbound_km_s",
+      "reactor_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_tug_t + chunk_t",
+    "convention_verdict": "correct",
+    "notes": "local def at water-prop/rounds/R_electric_outbound_rerun/run.py:134 variant=wet_at_start; arg is a sum suggesting wet-mass assembly; expects=wet_at_start observed=wet_at_start"
+  },
+  {
+    "round_name": "R_electric_outbound_rerun",
+    "file": "water-prop/rounds/R_electric_outbound_rerun/run.py",
+    "line": 234,
+    "callee": "burn_from_wet",
+    "args_text": [
+      "m_tug_t",
+      "dv_outbound_km_s",
+      "reactor_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_tug_t",
+    "convention_verdict": "intentional",
+    "notes": "manual-carveout: round_trip reproduces the bugged call under use_bugged_outbound=True flag (documented at line 213-220)"
+  },
+  {
+    "round_name": "R_electric_outbound_rerun",
+    "file": "water-prop/rounds/R_electric_outbound_rerun/run.py",
+    "line": 236,
+    "callee": "burn_from_dry_end",
+    "args_text": [
+      "m_tug_t",
+      "dv_outbound_km_s",
+      "reactor_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_tug_t",
+    "convention_verdict": "correct",
+    "notes": "local def at water-prop/rounds/R_electric_outbound_rerun/run.py:155 variant=dry_at_end; arg name matches dry-hints: 'm_tug_t'; expects=dry_at_end observed=dry_at_end"
+  },
+  {
+    "round_name": "R_electric_outbound_rerun",
+    "file": "water-prop/rounds/R_electric_outbound_rerun/run.py",
+    "line": 225,
+    "callee": "burn_from_wet",
+    "args_text": [
+      "m_tug_t",
+      "dv_outbound_km_s",
+      "reactor_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_tug_t",
+    "convention_verdict": "intentional",
+    "notes": "manual-carveout: round_trip reproduces the bugged call under use_bugged_outbound=True flag (documented at line 213-220)"
+  },
+  {
+    "round_name": "R_electric_outbound_rerun",
+    "file": "water-prop/rounds/R_electric_outbound_rerun/run.py",
+    "line": 227,
+    "callee": "burn_from_dry_end",
+    "args_text": [
+      "m_tug_t",
+      "dv_outbound_km_s",
+      "reactor_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_tug_t",
+    "convention_verdict": "correct",
+    "notes": "local def at water-prop/rounds/R_electric_outbound_rerun/run.py:155 variant=dry_at_end; arg name matches dry-hints: 'm_tug_t'; expects=dry_at_end observed=dry_at_end"
+  },
+  {
+    "round_name": "R_inbound_dv_continuous_thrust",
+    "file": "water-prop/rounds/R_inbound_dv_continuous_thrust/run.py",
+    "line": 185,
+    "callee": "constant_thrust_burn",
+    "args_text": [
+      "m_tug_t + chunk_t",
+      "dv_inbound_km_s",
+      "power_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_tug_t + chunk_t",
+    "convention_verdict": "correct",
+    "notes": "local def at water-prop/rounds/R_inbound_dv_continuous_thrust/run.py:160 variant=wet_at_start; arg is a sum suggesting wet-mass assembly; expects=wet_at_start observed=wet_at_start"
+  },
+  {
+    "round_name": "R_megawatt_architecture_viability",
+    "file": "water-prop/rounds/R_megawatt_architecture_viability/run.py",
+    "line": 76,
+    "callee": "constant_thrust_burn",
+    "args_text": [
+      "m_dry_t",
+      "dv_out",
+      "reactor_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_dry_t",
+    "convention_verdict": "incorrect",
+    "notes": "local def at water-prop/rounds/R_megawatt_architecture_viability/run.py:62 variant=wet_at_start; arg name matches dry-hints: 'm_dry_t'; expects=wet_at_start observed=dry_at_end \u2014 CONVENTION MISMATCH"
+  },
+  {
+    "round_name": "R_megawatt_architecture_viability",
+    "file": "water-prop/rounds/R_megawatt_architecture_viability/run.py",
+    "line": 77,
+    "callee": "constant_thrust_burn",
+    "args_text": [
+      "m_dry_t + chunk_t",
+      "DV_INBOUND_KM_S",
+      "reactor_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_dry_t + chunk_t",
+    "convention_verdict": "correct",
+    "notes": "local def at water-prop/rounds/R_megawatt_architecture_viability/run.py:62 variant=wet_at_start; arg is a sum suggesting wet-mass assembly; expects=wet_at_start observed=wet_at_start"
+  },
+  {
+    "round_name": "R_megawatt_marvl_radiator",
+    "file": "water-prop/rounds/R_megawatt_marvl_radiator/run.py",
+    "line": 212,
+    "callee": "burn_from_dry_end",
+    "args_text": [
+      "m_tug_t",
+      "dv_outbound_km_s",
+      "reactor_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_tug_t",
+    "convention_verdict": "correct",
+    "notes": "local def at water-prop/rounds/R_megawatt_marvl_radiator/run.py:157 variant=dry_at_end; arg name matches dry-hints: 'm_tug_t'; expects=dry_at_end observed=dry_at_end"
+  },
+  {
+    "round_name": "R_megawatt_marvl_radiator",
+    "file": "water-prop/rounds/R_megawatt_marvl_radiator/run.py",
+    "line": 213,
+    "callee": "burn_from_wet",
+    "args_text": [
+      "m_tug_t + chunk_t",
+      "dv_inbound_km_s",
+      "reactor_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_tug_t + chunk_t",
+    "convention_verdict": "correct",
+    "notes": "local def at water-prop/rounds/R_megawatt_marvl_radiator/run.py:167 variant=wet_at_start; arg is a sum suggesting wet-mass assembly; expects=wet_at_start observed=wet_at_start"
+  },
+  {
+    "round_name": "R_megawatt_marvl_radiator",
+    "file": "water-prop/rounds/R_megawatt_marvl_radiator/run.py",
+    "line": 186,
+    "callee": "burn_from_dry_end",
+    "args_text": [
+      "m_tug_t",
+      "dv_outbound_km_s",
+      "reactor_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_tug_t",
+    "convention_verdict": "correct",
+    "notes": "local def at water-prop/rounds/R_megawatt_marvl_radiator/run.py:157 variant=dry_at_end; arg name matches dry-hints: 'm_tug_t'; expects=dry_at_end observed=dry_at_end"
+  },
+  {
+    "round_name": "R_megawatt_marvl_radiator",
+    "file": "water-prop/rounds/R_megawatt_marvl_radiator/run.py",
+    "line": 284,
+    "callee": "burn_from_wet",
+    "args_text": [
+      "m_tug_t + CHUNK_BASELINE_T",
+      "DV_INBOUND_MATRIX_IMPULSIVE_KM_S",
+      "reactor",
+      "ISP_BASELINE_S"
+    ],
+    "first_positional": "m_tug_t + CHUNK_BASELINE_T",
+    "convention_verdict": "correct",
+    "notes": "local def at water-prop/rounds/R_megawatt_marvl_radiator/run.py:167 variant=wet_at_start; arg is a sum suggesting wet-mass assembly; expects=wet_at_start observed=wet_at_start"
+  },
+  {
+    "round_name": "R_megawatt_relaxed_specific_power",
+    "file": "water-prop/rounds/R_megawatt_relaxed_specific_power/run.py",
+    "line": 109,
+    "callee": "burn_from_dry_end",
+    "args_text": [
+      "m_tug_t",
+      "dv_outbound_km_s",
+      "reactor_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_tug_t",
+    "convention_verdict": "correct",
+    "notes": "local def at water-prop/rounds/R_megawatt_relaxed_specific_power/run.py:53 variant=dry_at_end; arg name matches dry-hints: 'm_tug_t'; expects=dry_at_end observed=dry_at_end"
+  },
+  {
+    "round_name": "R_megawatt_relaxed_specific_power",
+    "file": "water-prop/rounds/R_megawatt_relaxed_specific_power/run.py",
+    "line": 110,
+    "callee": "burn_from_wet",
+    "args_text": [
+      "m_tug_t + chunk_t",
+      "dv_inbound_km_s",
+      "reactor_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_tug_t + chunk_t",
+    "convention_verdict": "correct",
+    "notes": "local def at water-prop/rounds/R_megawatt_relaxed_specific_power/run.py:63 variant=wet_at_start; arg is a sum suggesting wet-mass assembly; expects=wet_at_start observed=wet_at_start"
+  },
+  {
+    "round_name": "R_megawatt_relaxed_specific_power",
+    "file": "water-prop/rounds/R_megawatt_relaxed_specific_power/run.py",
+    "line": 90,
+    "callee": "burn_from_dry_end",
+    "args_text": [
+      "m_tug_t",
+      "dv_outbound_km_s",
+      "reactor_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_tug_t",
+    "convention_verdict": "correct",
+    "notes": "local def at water-prop/rounds/R_megawatt_relaxed_specific_power/run.py:53 variant=dry_at_end; arg name matches dry-hints: 'm_tug_t'; expects=dry_at_end observed=dry_at_end"
+  },
+  {
+    "round_name": "R_non_fission_baseline",
+    "file": "water-prop/rounds/R_non_fission_baseline/run.py",
+    "line": 83,
+    "callee": "edelbaum_spiral_dv_km_s",
+    "args_text": [],
+    "first_positional": null,
+    "convention_verdict": "ambiguous",
+    "notes": "local def at water-prop/rounds/R_non_fission_baseline/run.py:75 variant=other; arg text '' not classifiable"
+  },
+  {
+    "round_name": "R_non_fission_baseline",
+    "file": "water-prop/rounds/R_non_fission_baseline/run.py",
+    "line": 206,
+    "callee": "edelbaum_spiral_dv_km_s",
+    "args_text": [],
+    "first_positional": null,
+    "convention_verdict": "ambiguous",
+    "notes": "local def at water-prop/rounds/R_non_fission_baseline/run.py:75 variant=other; arg text '' not classifiable"
+  },
+  {
+    "round_name": "R_non_fission_baseline",
+    "file": "water-prop/rounds/R_non_fission_baseline/run.py",
+    "line": 256,
+    "callee": "constant_thrust_burn",
+    "args_text": [],
+    "first_positional": null,
+    "convention_verdict": "ambiguous",
+    "notes": "local def at water-prop/rounds/R_non_fission_baseline/run.py:89 variant=dry_at_end; arg text '' not classifiable"
+  },
+  {
+    "round_name": "R_non_fission_baseline",
+    "file": "water-prop/rounds/R_non_fission_baseline/run.py",
+    "line": 539,
+    "callee": "edelbaum_spiral_dv_km_s",
+    "args_text": [],
+    "first_positional": null,
+    "convention_verdict": "ambiguous",
+    "notes": "local def at water-prop/rounds/R_non_fission_baseline/run.py:75 variant=other; arg text '' not classifiable"
+  },
+  {
+    "round_name": "R_outbound_dv_continuous_thrust",
+    "file": "water-prop/rounds/R_outbound_dv_continuous_thrust/run.py",
+    "line": 195,
+    "callee": "burn_from_dry_end",
+    "args_text": [
+      "m_tug_t",
+      "dv_outbound_km_s",
+      "power_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_tug_t",
+    "convention_verdict": "correct",
+    "notes": "local def at water-prop/rounds/R_outbound_dv_continuous_thrust/run.py:152 variant=dry_at_end; arg name matches dry-hints: 'm_tug_t'; expects=dry_at_end observed=dry_at_end"
+  },
+  {
+    "round_name": "R_outbound_dv_continuous_thrust",
+    "file": "water-prop/rounds/R_outbound_dv_continuous_thrust/run.py",
+    "line": 196,
+    "callee": "burn_from_wet",
+    "args_text": [
+      "m_tug_t + chunk_t",
+      "dv_inbound_km_s",
+      "power_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_tug_t + chunk_t",
+    "convention_verdict": "correct",
+    "notes": "local def at water-prop/rounds/R_outbound_dv_continuous_thrust/run.py:170 variant=wet_at_start; arg is a sum suggesting wet-mass assembly; expects=wet_at_start observed=wet_at_start"
+  },
+  {
+    "round_name": "R_redundancy_budget_cost",
+    "file": "water-prop/rounds/R_redundancy_budget_cost/run.py",
+    "line": 222,
+    "callee": "constant_thrust_burn",
+    "args_text": [
+      "m_after_kick",
+      "3.42",
+      "reactor_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_after_kick",
+    "convention_verdict": "intentional",
+    "notes": "manual-carveout: m_after_kick is wet-at-start-of-electric-burn (m_initial_inbound / math.exp(...) is Tsiolkovsky-after-kick); the variable name 'after_kick' trips the dry-hint regex but the semantic is wet-at-start-of-next-burn"
+  },
+  {
+    "round_name": "R_redundancy_budget_cost",
+    "file": "water-prop/rounds/R_redundancy_budget_cost/run.py",
+    "line": 226,
+    "callee": "constant_thrust_burn",
+    "args_text": [
+      "m_dry",
+      "dv_outbound_km_s",
+      "reactor_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_dry",
+    "convention_verdict": "incorrect",
+    "notes": "local def at water-prop/rounds/R_redundancy_budget_cost/run.py:162 variant=wet_at_start; arg name matches dry-hints: 'm_dry'; expects=wet_at_start observed=dry_at_end \u2014 CONVENTION MISMATCH"
+  },
+  {
+    "round_name": "R_redundancy_budget_cost",
+    "file": "water-prop/rounds/R_redundancy_budget_cost/run.py",
+    "line": 228,
+    "callee": "constant_thrust_burn",
+    "args_text": [
+      "m_dry + chunk_t",
+      "DV_INBOUND_KM_S",
+      "reactor_kwe",
+      "isp_s"
+    ],
+    "first_positional": "m_dry + chunk_t",
+    "convention_verdict": "correct",
+    "notes": "local def at water-prop/rounds/R_redundancy_budget_cost/run.py:162 variant=wet_at_start; arg is a sum suggesting wet-mass assembly; expects=wet_at_start observed=wet_at_start"
+  }
+]

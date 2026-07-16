@@ -1,0 +1,59 @@
+{
+  "architecture": "C",
+  "us_production_kg_per_yr": 1.5,
+  "us_inventory_kg": 35.0,
+  "pu_electrical_specific_W_per_kg_theory": 34.02,
+  "pu_electrical_specific_W_per_kg_flown": 8.787878787878787,
+  "cells": [
+    {
+      "power_kwe": 1.0,
+      "pu_mass_kg_theory_stirling": 29.39447383891828,
+      "pu_mass_kg_flown_mmrtg": 113.79310344827587,
+      "production_years_for_one_mission_theory": 19.596315892612186,
+      "production_years_for_one_mission_flown": 75.86206896551725,
+      "ratio_to_us_inventory_theory": 0.8398421096833795,
+      "ratio_to_us_inventory_flown": 3.2512315270935965,
+      "feasible_single_mission": true
+    },
+    {
+      "power_kwe": 10.0,
+      "pu_mass_kg_theory_stirling": 293.9447383891828,
+      "pu_mass_kg_flown_mmrtg": 1137.9310344827586,
+      "production_years_for_one_mission_theory": 195.96315892612188,
+      "production_years_for_one_mission_flown": 758.6206896551724,
+      "ratio_to_us_inventory_theory": 8.398421096833795,
+      "ratio_to_us_inventory_flown": 32.51231527093596,
+      "feasible_single_mission": false
+    },
+    {
+      "power_kwe": 40.0,
+      "pu_mass_kg_theory_stirling": 1175.7789535567313,
+      "pu_mass_kg_flown_mmrtg": 4551.724137931034,
+      "production_years_for_one_mission_theory": 783.8526357044875,
+      "production_years_for_one_mission_flown": 3034.4827586206898,
+      "ratio_to_us_inventory_theory": 33.59368438733518,
+      "ratio_to_us_inventory_flown": 130.04926108374383,
+      "feasible_single_mission": false
+    },
+    {
+      "power_kwe": 100.0,
+      "pu_mass_kg_theory_stirling": 2939.447383891828,
+      "pu_mass_kg_flown_mmrtg": 11379.310344827587,
+      "production_years_for_one_mission_theory": 1959.6315892612186,
+      "production_years_for_one_mission_flown": 7586.206896551725,
+      "ratio_to_us_inventory_theory": 83.98421096833795,
+      "ratio_to_us_inventory_flown": 325.1231527093596,
+      "feasible_single_mission": false
+    },
+    {
+      "power_kwe": 1000.0,
+      "pu_mass_kg_theory_stirling": 29394.473838918282,
+      "pu_mass_kg_flown_mmrtg": 113793.10344827587,
+      "production_years_for_one_mission_theory": 19596.315892612187,
+      "production_years_for_one_mission_flown": 75862.06896551725,
+      "ratio_to_us_inventory_theory": 839.8421096833795,
+      "ratio_to_us_inventory_flown": 3251.2315270935965,
+      "feasible_single_mission": false
+    }
+  ]
+}

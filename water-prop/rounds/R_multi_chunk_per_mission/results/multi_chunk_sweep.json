@@ -1,0 +1,752 @@
+{
+  "rows": [
+    {
+      "n": 1,
+      "m_each_t": 100.0,
+      "m_dry_t": 8.27,
+      "captured_t": 100.0,
+      "dv_total_km_s": 24.4,
+      "mass_ratio": 3.468176494939085,
+      "delivered_t": 22.948134416743876,
+      "delivered_fraction": 0.22948134416743876,
+      "m_dry_anchor": "face_value",
+      "irr_pct": {
+        "current_290M": null,
+        "starship_50M": null
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 1,
+      "m_each_t": 100.0,
+      "m_dry_t": 50.0,
+      "captured_t": 100.0,
+      "dv_total_km_s": 24.4,
+      "mass_ratio": 3.468176494939085,
+      "delivered_t": 0.0,
+      "delivered_fraction": 0.0,
+      "m_dry_anchor": "structural",
+      "irr_pct": {
+        "current_290M": null,
+        "starship_50M": null
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 1,
+      "m_each_t": 200.0,
+      "m_dry_t": 8.27,
+      "captured_t": 200.0,
+      "dv_total_km_s": 24.4,
+      "mass_ratio": 3.468176494939085,
+      "delivered_t": 51.78173044218387,
+      "delivered_fraction": 0.25890865221091935,
+      "m_dry_anchor": "face_value",
+      "irr_pct": {
+        "current_290M": null,
+        "starship_50M": null
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 1,
+      "m_each_t": 200.0,
+      "m_dry_t": 50.0,
+      "captured_t": 200.0,
+      "dv_total_km_s": 24.4,
+      "mass_ratio": 3.468176494939085,
+      "delivered_t": 22.083990063599984,
+      "delivered_fraction": 0.11041995031799992,
+      "m_dry_anchor": "structural",
+      "irr_pct": {
+        "current_290M": null,
+        "starship_50M": null
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 1,
+      "m_each_t": 482.0,
+      "m_dry_t": 8.27,
+      "captured_t": 482.0,
+      "dv_total_km_s": 24.4,
+      "mass_ratio": 3.468176494939085,
+      "delivered_t": 133.09247123392464,
+      "delivered_fraction": 0.2761254589915449,
+      "m_dry_anchor": "face_value",
+      "irr_pct": {
+        "current_290M": 2.35,
+        "starship_50M": 4.49
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 1,
+      "m_each_t": 482.0,
+      "m_dry_t": 50.0,
+      "captured_t": 482.0,
+      "dv_total_km_s": 24.4,
+      "mass_ratio": 3.468176494939085,
+      "delivered_t": 103.39473085534075,
+      "delivered_fraction": 0.21451188974137086,
+      "m_dry_anchor": "structural",
+      "irr_pct": {
+        "current_290M": 0.36,
+        "starship_50M": 2.59
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 2,
+      "m_each_t": 100.0,
+      "m_dry_t": 8.27,
+      "captured_t": 200.0,
+      "dv_total_km_s": 24.5,
+      "mass_ratio": 3.4858983598742745,
+      "delivered_t": 51.47643506459312,
+      "delivered_fraction": 0.2573821753229656,
+      "m_dry_anchor": "face_value",
+      "irr_pct": {
+        "current_290M": null,
+        "starship_50M": null
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 2,
+      "m_each_t": 100.0,
+      "m_dry_t": 50.0,
+      "captured_t": 200.0,
+      "dv_total_km_s": 24.5,
+      "mass_ratio": 3.4858983598742745,
+      "delivered_t": 21.717524204870017,
+      "delivered_fraction": 0.10858762102435009,
+      "m_dry_anchor": "structural",
+      "irr_pct": {
+        "current_290M": null,
+        "starship_50M": null
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 2,
+      "m_each_t": 200.0,
+      "m_dry_t": 8.27,
+      "captured_t": 400.0,
+      "dv_total_km_s": 24.5,
+      "mass_ratio": 3.4858983598742745,
+      "delivered_t": 108.85045442848913,
+      "delivered_fraction": 0.2721261360712228,
+      "m_dry_anchor": "face_value",
+      "irr_pct": {
+        "current_290M": 0.78,
+        "starship_50M": 2.98
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 2,
+      "m_each_t": 200.0,
+      "m_dry_t": 50.0,
+      "captured_t": 400.0,
+      "dv_total_km_s": 24.5,
+      "mass_ratio": 3.4858983598742745,
+      "delivered_t": 79.09154356876604,
+      "delivered_fraction": 0.1977288589219151,
+      "m_dry_anchor": "structural",
+      "irr_pct": {
+        "current_290M": null,
+        "starship_50M": 0.45
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 2,
+      "m_each_t": 482.0,
+      "m_dry_t": 8.27,
+      "captured_t": 964.0,
+      "dv_total_km_s": 24.5,
+      "mass_ratio": 3.4858983598742745,
+      "delivered_t": 270.6451890346759,
+      "delivered_fraction": 0.28075227078285886,
+      "m_dry_anchor": "face_value",
+      "irr_pct": {
+        "current_290M": 7.59,
+        "starship_50M": 9.6
+      },
+      "hurdle_class": "sovereign_bond_4pct"
+    },
+    {
+      "n": 2,
+      "m_each_t": 482.0,
+      "m_dry_t": 50.0,
+      "captured_t": 964.0,
+      "dv_total_km_s": 24.5,
+      "mass_ratio": 3.4858983598742745,
+      "delivered_t": 240.8862781749528,
+      "delivered_fraction": 0.24988203130181824,
+      "m_dry_anchor": "structural",
+      "irr_pct": {
+        "current_290M": 6.74,
+        "starship_50M": 8.77
+      },
+      "hurdle_class": "sovereign_bond_4pct"
+    },
+    {
+      "n": 3,
+      "m_each_t": 100.0,
+      "m_dry_t": 8.27,
+      "captured_t": 300.0,
+      "dv_total_km_s": 24.599999999999998,
+      "mass_ratio": 3.503710780897725,
+      "delivered_t": 79.71386033478902,
+      "delivered_fraction": 0.26571286778263004,
+      "m_dry_anchor": "face_value",
+      "irr_pct": {
+        "current_290M": null,
+        "starship_50M": 0.52
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 3,
+      "m_each_t": 100.0,
+      "m_dry_t": 50.0,
+      "captured_t": 300.0,
+      "dv_total_km_s": 24.599999999999998,
+      "mass_ratio": 3.503710780897725,
+      "delivered_t": 49.894089976890896,
+      "delivered_fraction": 0.166313633256303,
+      "m_dry_anchor": "structural",
+      "irr_pct": {
+        "current_290M": null,
+        "starship_50M": null
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 3,
+      "m_each_t": 200.0,
+      "m_dry_t": 8.27,
+      "captured_t": 600.0,
+      "dv_total_km_s": 24.599999999999998,
+      "mass_ratio": 3.503710780897725,
+      "delivered_t": 165.33736602926692,
+      "delivered_fraction": 0.27556227671544486,
+      "m_dry_anchor": "face_value",
+      "irr_pct": {
+        "current_290M": 3.97,
+        "starship_50M": 6.07
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 3,
+      "m_each_t": 200.0,
+      "m_dry_t": 50.0,
+      "captured_t": 600.0,
+      "dv_total_km_s": 24.599999999999998,
+      "mass_ratio": 3.503710780897725,
+      "delivered_t": 135.5175956713688,
+      "delivered_fraction": 0.22586265945228134,
+      "m_dry_anchor": "structural",
+      "irr_pct": {
+        "current_290M": 2.48,
+        "starship_50M": 4.62
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 3,
+      "m_each_t": 482.0,
+      "m_dry_t": 8.27,
+      "captured_t": 1446.0,
+      "dv_total_km_s": 24.599999999999998,
+      "mass_ratio": 3.503710780897725,
+      "delivered_t": 406.79565208769463,
+      "delivered_fraction": 0.2813247939748926,
+      "m_dry_anchor": "face_value",
+      "irr_pct": {
+        "current_290M": 10.54,
+        "starship_50M": 12.48
+      },
+      "hurdle_class": "sovereign_bond_4pct"
+    },
+    {
+      "n": 3,
+      "m_each_t": 482.0,
+      "m_dry_t": 50.0,
+      "captured_t": 1446.0,
+      "dv_total_km_s": 24.599999999999998,
+      "mass_ratio": 3.503710780897725,
+      "delivered_t": 376.9758817297965,
+      "delivered_fraction": 0.26070254614785376,
+      "m_dry_anchor": "structural",
+      "irr_pct": {
+        "current_290M": 9.99,
+        "starship_50M": 11.95
+      },
+      "hurdle_class": "sovereign_bond_4pct"
+    },
+    {
+      "n": 5,
+      "m_each_t": 100.0,
+      "m_dry_t": 8.27,
+      "captured_t": 500.0,
+      "dv_total_km_s": 24.799999999999997,
+      "mass_ratio": 3.5396091444863336,
+      "delivered_t": 135.3249505305507,
+      "delivered_fraction": 0.2706499010611014,
+      "m_dry_anchor": "face_value",
+      "irr_pct": {
+        "current_290M": 2.47,
+        "starship_50M": 4.61
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 5,
+      "m_each_t": 100.0,
+      "m_dry_t": 50.0,
+      "captured_t": 500.0,
+      "dv_total_km_s": 24.799999999999997,
+      "mass_ratio": 3.5396091444863336,
+      "delivered_t": 105.38438780924093,
+      "delivered_fraction": 0.21076877561848187,
+      "m_dry_anchor": "structural",
+      "irr_pct": {
+        "current_290M": 0.52,
+        "starship_50M": 2.74
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 5,
+      "m_each_t": 200.0,
+      "m_dry_t": 8.27,
+      "captured_t": 1000.0,
+      "dv_total_km_s": 24.799999999999997,
+      "mass_ratio": 3.5396091444863336,
+      "delivered_t": 276.58348490258794,
+      "delivered_fraction": 0.27658348490258794,
+      "m_dry_anchor": "face_value",
+      "irr_pct": {
+        "current_290M": 7.74,
+        "starship_50M": 9.75
+      },
+      "hurdle_class": "sovereign_bond_4pct"
+    },
+    {
+      "n": 5,
+      "m_each_t": 200.0,
+      "m_dry_t": 50.0,
+      "captured_t": 1000.0,
+      "dv_total_km_s": 24.799999999999997,
+      "mass_ratio": 3.5396091444863336,
+      "delivered_t": 246.64292218127815,
+      "delivered_fraction": 0.24664292218127815,
+      "m_dry_anchor": "structural",
+      "irr_pct": {
+        "current_290M": 6.91,
+        "starship_50M": 8.94
+      },
+      "hurdle_class": "sovereign_bond_4pct"
+    },
+    {
+      "n": 5,
+      "m_each_t": 482.0,
+      "m_dry_t": 8.27,
+      "captured_t": 2410.0,
+      "dv_total_km_s": 24.799999999999997,
+      "mass_ratio": 3.5396091444863336,
+      "delivered_t": 674.9325518317329,
+      "delivered_fraction": 0.28005500076005513,
+      "m_dry_anchor": "face_value",
+      "irr_pct": {
+        "current_290M": 14.23,
+        "starship_50M": 16.08
+      },
+      "hurdle_class": "regulated_utility_8pct"
+    },
+    {
+      "n": 5,
+      "m_each_t": 482.0,
+      "m_dry_t": 50.0,
+      "captured_t": 2410.0,
+      "dv_total_km_s": 24.799999999999997,
+      "mass_ratio": 3.5396091444863336,
+      "delivered_t": 644.9919891104231,
+      "delivered_fraction": 0.26763153075121293,
+      "m_dry_anchor": "structural",
+      "irr_pct": {
+        "current_290M": 13.9,
+        "starship_50M": 15.76
+      },
+      "hurdle_class": "regulated_utility_8pct"
+    },
+    {
+      "n": 8,
+      "m_each_t": 100.0,
+      "m_dry_t": 8.27,
+      "captured_t": 800.0,
+      "dv_total_km_s": 25.099999999999998,
+      "mass_ratio": 3.594147505833518,
+      "delivered_t": 216.6150384376626,
+      "delivered_fraction": 0.27076879804707826,
+      "m_dry_anchor": "face_value",
+      "irr_pct": {
+        "current_290M": 5.96,
+        "starship_50M": 8.02
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 8,
+      "m_each_t": 100.0,
+      "m_dry_t": 50.0,
+      "captured_t": 800.0,
+      "dv_total_km_s": 25.099999999999998,
+      "mass_ratio": 3.594147505833518,
+      "delivered_t": 186.49558027888358,
+      "delivered_fraction": 0.23311947534860447,
+      "m_dry_anchor": "structural",
+      "irr_pct": {
+        "current_290M": 4.86,
+        "starship_50M": 6.94
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 8,
+      "m_each_t": 200.0,
+      "m_dry_t": 8.27,
+      "captured_t": 1600.0,
+      "dv_total_km_s": 25.099999999999998,
+      "mass_ratio": 3.594147505833518,
+      "delivered_t": 439.19911399425894,
+      "delivered_fraction": 0.2744994462464118,
+      "m_dry_anchor": "face_value",
+      "irr_pct": {
+        "current_290M": 11.1,
+        "starship_50M": 13.03
+      },
+      "hurdle_class": "sovereign_bond_4pct"
+    },
+    {
+      "n": 8,
+      "m_each_t": 200.0,
+      "m_dry_t": 50.0,
+      "captured_t": 1600.0,
+      "dv_total_km_s": 25.099999999999998,
+      "mass_ratio": 3.594147505833518,
+      "delivered_t": 409.0796558354799,
+      "delivered_fraction": 0.25567478489717493,
+      "m_dry_anchor": "structural",
+      "irr_pct": {
+        "current_290M": 10.58,
+        "starship_50M": 12.52
+      },
+      "hurdle_class": "sovereign_bond_4pct"
+    },
+    {
+      "n": 8,
+      "m_each_t": 482.0,
+      "m_dry_t": 8.27,
+      "captured_t": 3856.0,
+      "dv_total_km_s": 25.099999999999998,
+      "mass_ratio": 3.594147505833518,
+      "delivered_t": 1066.8862070638606,
+      "delivered_fraction": 0.2766821076410427,
+      "m_dry_anchor": "face_value",
+      "irr_pct": {
+        "current_290M": 17.61,
+        "starship_50M": 19.4
+      },
+      "hurdle_class": "corporate_growth_10pct"
+    },
+    {
+      "n": 8,
+      "m_each_t": 482.0,
+      "m_dry_t": 50.0,
+      "captured_t": 3856.0,
+      "dv_total_km_s": 25.099999999999998,
+      "mass_ratio": 3.594147505833518,
+      "delivered_t": 1036.7667489050816,
+      "delivered_fraction": 0.2688710448405295,
+      "m_dry_anchor": "structural",
+      "irr_pct": {
+        "current_290M": 17.4,
+        "starship_50M": 19.19
+      },
+      "hurdle_class": "corporate_growth_10pct"
+    },
+    {
+      "n": 10,
+      "m_each_t": 100.0,
+      "m_dry_t": 8.27,
+      "captured_t": 1000.0,
+      "dv_total_km_s": 25.299999999999997,
+      "mass_ratio": 3.6309724671456625,
+      "delivered_t": 269.4159392692144,
+      "delivered_fraction": 0.26941593926921437,
+      "m_dry_anchor": "face_value",
+      "irr_pct": {
+        "current_290M": 7.55,
+        "starship_50M": 9.57
+      },
+      "hurdle_class": "sovereign_bond_4pct"
+    },
+    {
+      "n": 10,
+      "m_each_t": 100.0,
+      "m_dry_t": 50.0,
+      "captured_t": 1000.0,
+      "dv_total_km_s": 25.299999999999997,
+      "mass_ratio": 3.6309724671456625,
+      "delivered_t": 239.17872815086747,
+      "delivered_fraction": 0.23917872815086746,
+      "m_dry_anchor": "structural",
+      "irr_pct": {
+        "current_290M": 6.69,
+        "starship_50M": 8.72
+      },
+      "hurdle_class": "sovereign_bond_4pct"
+    },
+    {
+      "n": 10,
+      "m_each_t": 200.0,
+      "m_dry_t": 8.27,
+      "captured_t": 2000.0,
+      "dv_total_km_s": 25.299999999999997,
+      "mass_ratio": 3.6309724671456625,
+      "delivered_t": 544.8242517938501,
+      "delivered_fraction": 0.27241212589692504,
+      "m_dry_anchor": "face_value",
+      "irr_pct": {
+        "current_290M": 12.67,
+        "starship_50M": 14.56
+      },
+      "hurdle_class": "regulated_utility_8pct"
+    },
+    {
+      "n": 10,
+      "m_each_t": 200.0,
+      "m_dry_t": 50.0,
+      "captured_t": 2000.0,
+      "dv_total_km_s": 25.299999999999997,
+      "mass_ratio": 3.6309724671456625,
+      "delivered_t": 514.5870406755031,
+      "delivered_fraction": 0.25729352033775155,
+      "m_dry_anchor": "structural",
+      "irr_pct": {
+        "current_290M": 12.25,
+        "starship_50M": 14.15
+      },
+      "hurdle_class": "regulated_utility_8pct"
+    },
+    {
+      "n": 10,
+      "m_each_t": 482.0,
+      "m_dry_t": 8.27,
+      "captured_t": 4820.0,
+      "dv_total_km_s": 25.299999999999997,
+      "mass_ratio": 3.6309724671456625,
+      "delivered_t": 1321.4756931133227,
+      "delivered_fraction": 0.27416508155878067,
+      "m_dry_anchor": "face_value",
+      "irr_pct": {
+        "current_290M": 19.22,
+        "starship_50M": 20.99
+      },
+      "hurdle_class": "venture_class_15pct"
+    },
+    {
+      "n": 10,
+      "m_each_t": 482.0,
+      "m_dry_t": 50.0,
+      "captured_t": 4820.0,
+      "dv_total_km_s": 25.299999999999997,
+      "mass_ratio": 3.6309724671456625,
+      "delivered_t": 1291.2384819949757,
+      "delivered_fraction": 0.2678918012437709,
+      "m_dry_anchor": "structural",
+      "irr_pct": {
+        "current_290M": 19.04,
+        "starship_50M": 20.82
+      },
+      "hurdle_class": "venture_class_15pct"
+    }
+  ],
+  "prob_rows": [
+    {
+      "n": 1,
+      "p_capture": 0.85,
+      "full_success_p": 0.85,
+      "full_success_delivered_t": 103.4,
+      "expected_delivered_binary_t": 87.9
+    },
+    {
+      "n": 1,
+      "p_capture": 0.95,
+      "full_success_p": 0.95,
+      "full_success_delivered_t": 103.4,
+      "expected_delivered_binary_t": 98.2
+    },
+    {
+      "n": 2,
+      "p_capture": 0.85,
+      "full_success_p": 0.7225,
+      "full_success_delivered_t": 240.9,
+      "expected_delivered_binary_t": 174.0
+    },
+    {
+      "n": 2,
+      "p_capture": 0.95,
+      "full_success_p": 0.9025,
+      "full_success_delivered_t": 240.9,
+      "expected_delivered_binary_t": 217.4
+    },
+    {
+      "n": 3,
+      "p_capture": 0.85,
+      "full_success_p": 0.6141,
+      "full_success_delivered_t": 377.0,
+      "expected_delivered_binary_t": 231.5
+    },
+    {
+      "n": 3,
+      "p_capture": 0.95,
+      "full_success_p": 0.8574,
+      "full_success_delivered_t": 377.0,
+      "expected_delivered_binary_t": 323.2
+    },
+    {
+      "n": 5,
+      "p_capture": 0.85,
+      "full_success_p": 0.4437,
+      "full_success_delivered_t": 645.0,
+      "expected_delivered_binary_t": 286.2
+    },
+    {
+      "n": 5,
+      "p_capture": 0.95,
+      "full_success_p": 0.7738,
+      "full_success_delivered_t": 645.0,
+      "expected_delivered_binary_t": 499.1
+    },
+    {
+      "n": 8,
+      "p_capture": 0.85,
+      "full_success_p": 0.2725,
+      "full_success_delivered_t": 1036.8,
+      "expected_delivered_binary_t": 282.5
+    },
+    {
+      "n": 8,
+      "p_capture": 0.95,
+      "full_success_p": 0.6634,
+      "full_success_delivered_t": 1036.8,
+      "expected_delivered_binary_t": 687.8
+    },
+    {
+      "n": 10,
+      "p_capture": 0.85,
+      "full_success_p": 0.1969,
+      "full_success_delivered_t": 1291.2,
+      "expected_delivered_binary_t": 254.2
+    },
+    {
+      "n": 10,
+      "p_capture": 0.95,
+      "full_success_p": 0.5987,
+      "full_success_delivered_t": 1291.2,
+      "expected_delivered_binary_t": 773.1
+    }
+  ],
+  "grading": {
+    "H-mc-a": {
+      "observed_pct": 21.45,
+      "predicted_pct": [
+        28,
+        34
+      ],
+      "verdict": "wrong-and-load-bearing",
+      "note": "delivered fraction at N=1, 482 t, structural dry: 21.5%"
+    },
+    "H-mc-b": {
+      "observed_pct": 26.07,
+      "predicted_pct": [
+        35,
+        42
+      ],
+      "verdict": "wrong-and-load-bearing",
+      "note": "delivered fraction at N=3, 482 t each, structural dry: 26.1%"
+    },
+    "H-mc-c": {
+      "observed_pct": 26.76,
+      "predicted_pct": [
+        38,
+        45
+      ],
+      "verdict": "wrong-and-load-bearing",
+      "note": "delivered fraction at N=5, 482 t each, structural dry: 26.8%"
+    },
+    "H-mc-d": {
+      "observed_t": 377.0,
+      "predicted_t": [
+        500,
+        600
+      ],
+      "verdict": "wrong-and-load-bearing",
+      "note": "delivered at N=3\u00d7482 t, structural dry: 377.0 t (corp-growth threshold 700 t)"
+    },
+    "H-mc-e": {
+      "observed_t": 645.0,
+      "predicted_t": [
+        850,
+        1000
+      ],
+      "verdict": "wrong-and-load-bearing",
+      "note": "delivered at N=5\u00d7482 t, structural dry: 645.0 t"
+    },
+    "H-mc-f": {
+      "observed_pp": 9.63,
+      "predicted_pp": [
+        2,
+        4
+      ],
+      "verdict": "wrong-and-load-bearing",
+      "note": "IRR uplift N=1\u2192N=3 (482 t each, structural, $290M): +9.63pp"
+    },
+    "H-mc-g": {
+      "observed_pct": 15.76,
+      "predicted_pct": [
+        14,
+        18
+      ],
+      "verdict": "held",
+      "note": "IRR at N=5\u00d7482 t (structural, $50M launch): 15.76%"
+    },
+    "H-mc-h": {
+      "observed_p3": 0.6141,
+      "observed_p5": 0.4437,
+      "verdict": "held",
+      "note": "P(all-N-success | p=0.85): N=3 \u2192 0.6141, N=5 \u2192 0.4437"
+    }
+  },
+  "constants": {
+    "dv_inbound_km_s": 24.4,
+    "v_e_km_s": 19.62,
+    "dv_ring_traversal_km_s": 0.1,
+    "m_dry_anchors_t": {
+      "face_value": 8.27,
+      "structural": 50.0
+    },
+    "hurdles_t": {
+      "sovereign_bond_4pct": 220.0,
+      "regulated_utility_8pct": 460.0,
+      "corporate_growth_10pct": 700.0,
+      "venture_class_15pct_extrap": 1200.0
+    }
+  }
+}

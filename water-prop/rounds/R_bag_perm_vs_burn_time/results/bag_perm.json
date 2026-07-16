@@ -1,0 +1,1444 @@
+{
+  "axes": {
+    "perm_rates_per_yr": [
+      0.0,
+      0.005,
+      0.0065,
+      0.01,
+      0.02
+    ],
+    "reactor_kwe": [
+      10.0,
+      40.0,
+      100.0
+    ],
+    "chunk_t": [
+      50.0,
+      100.0,
+      200.0
+    ],
+    "electric_isps": [
+      1500.0,
+      2000.0,
+      2934.0,
+      5000.0
+    ]
+  },
+  "grid": [
+    {
+      "reactor_kwe": 10.0,
+      "chunk_t": 50.0,
+      "perm_rate_per_yr": 0.0,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 43.1275574550869,
+        "burn_time_yr": 47.598780418500866,
+        "M_v_t": 6.0,
+        "M_LEO_t": 9.493731750240556,
+        "delivered_t_after_perm": 43.1275574550869,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 32.15781789788019,
+        "burn_time_yr": 30.888781720541594,
+        "M_v_t": 6.0,
+        "M_LEO_t": 25.316618000641483,
+        "delivered_t_after_perm": 32.15781789788019,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 43.1275574550869,
+      "winner_burn_time_yr": 47.598780418500866
+    },
+    {
+      "reactor_kwe": 10.0,
+      "chunk_t": 50.0,
+      "perm_rate_per_yr": 0.005,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 2934.0,
+        "delivered_t_raw": 38.800692784128834,
+        "burn_time_yr": 22.59984231728655,
+        "M_v_t": 6.0,
+        "M_LEO_t": 9.493731750240556,
+        "delivered_t_after_perm": 34.416245090514884,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 32.15781789788019,
+        "burn_time_yr": 30.888781720541594,
+        "M_v_t": 6.0,
+        "M_LEO_t": 25.316618000641483,
+        "delivered_t_after_perm": 27.191238809597458,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 34.416245090514884,
+      "winner_burn_time_yr": 22.59984231728655
+    },
+    {
+      "reactor_kwe": 10.0,
+      "chunk_t": 50.0,
+      "perm_rate_per_yr": 0.0065,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 2934.0,
+        "delivered_t_raw": 38.800692784128834,
+        "burn_time_yr": 22.59984231728655,
+        "M_v_t": 6.0,
+        "M_LEO_t": 9.493731750240556,
+        "delivered_t_after_perm": 33.1009107824307,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 2934.0,
+        "delivered_t_raw": 29.30042366739807,
+        "burn_time_yr": 14.76587725589466,
+        "M_v_t": 6.0,
+        "M_LEO_t": 25.316618000641483,
+        "delivered_t_after_perm": 26.48822168117775,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 33.1009107824307,
+      "winner_burn_time_yr": 22.59984231728655
+    },
+    {
+      "reactor_kwe": 10.0,
+      "chunk_t": 50.0,
+      "perm_rate_per_yr": 0.01,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 2934.0,
+        "delivered_t_raw": 38.800692784128834,
+        "burn_time_yr": 22.59984231728655,
+        "M_v_t": 6.0,
+        "M_LEO_t": 9.493731750240556,
+        "delivered_t_after_perm": 30.031797396900934,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 2934.0,
+        "delivered_t_raw": 29.30042366739807,
+        "burn_time_yr": 14.76587725589466,
+        "M_v_t": 6.0,
+        "M_LEO_t": 25.316618000641483,
+        "delivered_t_after_perm": 24.973959073212963,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 30.031797396900934,
+      "winner_burn_time_yr": 22.59984231728655
+    },
+    {
+      "reactor_kwe": 10.0,
+      "chunk_t": 50.0,
+      "perm_rate_per_yr": 0.02,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 2000.0,
+        "delivered_t_raw": 34.36741040829211,
+        "burn_time_yr": 14.65834534972146,
+        "M_v_t": 6.0,
+        "M_LEO_t": 9.493731750240556,
+        "delivered_t_after_perm": 24.29202299748496,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 2000.0,
+        "delivered_t_raw": 26.327711569871667,
+        "burn_time_yr": 9.648632006267812,
+        "M_v_t": 6.0,
+        "M_LEO_t": 25.316618000641483,
+        "delivered_t_after_perm": 21.247183559774644,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 24.29202299748496,
+      "winner_burn_time_yr": 14.65834534972146
+    },
+    {
+      "reactor_kwe": 10.0,
+      "chunk_t": 100.0,
+      "perm_rate_per_yr": 0.0,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 2934.0,
+        "delivered_t_raw": 78.80131134138672,
+        "burn_time_yr": 42.77827295772098,
+        "M_v_t": 6.0,
+        "M_LEO_t": 9.493731750240556,
+        "delivered_t_after_perm": 78.80131134138672,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 2934.0,
+        "delivered_t_raw": 62.31821240414162,
+        "burn_time_yr": 28.576947070280056,
+        "M_v_t": 6.0,
+        "M_LEO_t": 25.316618000641483,
+        "delivered_t_after_perm": 62.31821240414162,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 78.80131134138672,
+      "winner_burn_time_yr": 42.77827295772098
+    },
+    {
+      "reactor_kwe": 10.0,
+      "chunk_t": 100.0,
+      "perm_rate_per_yr": 0.005,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 2934.0,
+        "delivered_t_raw": 78.80131134138672,
+        "burn_time_yr": 42.77827295772098,
+        "M_v_t": 6.0,
+        "M_LEO_t": 9.493731750240556,
+        "delivered_t_after_perm": 61.946391311445744,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 2934.0,
+        "delivered_t_raw": 62.31821240414162,
+        "burn_time_yr": 28.576947070280056,
+        "M_v_t": 6.0,
+        "M_LEO_t": 25.316618000641483,
+        "delivered_t_after_perm": 53.4138911172035,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 61.946391311445744,
+      "winner_burn_time_yr": 42.77827295772098
+    },
+    {
+      "reactor_kwe": 10.0,
+      "chunk_t": 100.0,
+      "perm_rate_per_yr": 0.0065,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 2000.0,
+        "delivered_t_raw": 70.40974112998148,
+        "burn_time_yr": 27.746153697687053,
+        "M_v_t": 6.0,
+        "M_LEO_t": 9.493731750240556,
+        "delivered_t_after_perm": 57.71134438513713,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 2934.0,
+        "delivered_t_raw": 62.31821240414162,
+        "burn_time_yr": 28.576947070280056,
+        "M_v_t": 6.0,
+        "M_LEO_t": 25.316618000641483,
+        "delivered_t_after_perm": 50.74259473112206,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 57.71134438513713,
+      "winner_burn_time_yr": 27.746153697687053
+    },
+    {
+      "reactor_kwe": 10.0,
+      "chunk_t": 100.0,
+      "perm_rate_per_yr": 0.01,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 2000.0,
+        "delivered_t_raw": 70.40974112998148,
+        "burn_time_yr": 27.746153697687053,
+        "M_v_t": 6.0,
+        "M_LEO_t": 9.493731750240556,
+        "delivered_t_after_perm": 50.87374613791325,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 2000.0,
+        "delivered_t_raw": 56.565012997565226,
+        "burn_time_yr": 18.673353527549608,
+        "M_v_t": 6.0,
+        "M_LEO_t": 25.316618000641483,
+        "delivered_t_after_perm": 46.00242814762549,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 50.87374613791325,
+      "winner_burn_time_yr": 27.746153697687053
+    },
+    {
+      "reactor_kwe": 10.0,
+      "chunk_t": 100.0,
+      "perm_rate_per_yr": 0.02,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 1500.0,
+        "delivered_t_raw": 62.51142741679482,
+        "burn_time_yr": 23.368246305975052,
+        "M_v_t": 6.0,
+        "M_LEO_t": 9.493731750240556,
+        "delivered_t_after_perm": 33.29577876051996,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 2000.0,
+        "delivered_t_raw": 56.565012997565226,
+        "burn_time_yr": 18.673353527549608,
+        "M_v_t": 6.0,
+        "M_LEO_t": 25.316618000641483,
+        "delivered_t_after_perm": 35.43984329768575,
+        "architecture": "variant_b"
+      },
+      "winner": "variant_b",
+      "winner_delivered_t": 35.43984329768575,
+      "winner_burn_time_yr": 18.673353527549608
+    },
+    {
+      "reactor_kwe": 10.0,
+      "chunk_t": 200.0,
+      "perm_rate_per_yr": 0.0,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 1500.0,
+        "delivered_t_raw": 127.14484950811067,
+        "burn_time_yr": 45.413761688970396,
+        "M_v_t": 6.0,
+        "M_LEO_t": 9.493731750240556,
+        "delivered_t_after_perm": 127.14484950811067,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 2000.0,
+        "delivered_t_raw": 117.03961585295235,
+        "burn_time_yr": 36.72279657011321,
+        "M_v_t": 6.0,
+        "M_LEO_t": 25.316618000641483,
+        "delivered_t_after_perm": 117.03961585295235,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 127.14484950811067,
+      "winner_burn_time_yr": 45.413761688970396
+    },
+    {
+      "reactor_kwe": 10.0,
+      "chunk_t": 200.0,
+      "perm_rate_per_yr": 0.005,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 1500.0,
+        "delivered_t_raw": 127.14484950811067,
+        "burn_time_yr": 45.413761688970396,
+        "M_v_t": 6.0,
+        "M_LEO_t": 9.493731750240556,
+        "delivered_t_after_perm": 98.27422003040395,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 2000.0,
+        "delivered_t_raw": 117.03961585295235,
+        "burn_time_yr": 36.72279657011321,
+        "M_v_t": 6.0,
+        "M_LEO_t": 25.316618000641483,
+        "delivered_t_after_perm": 95.54950583489152,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 98.27422003040395,
+      "winner_burn_time_yr": 45.413761688970396
+    },
+    {
+      "reactor_kwe": 10.0,
+      "chunk_t": 200.0,
+      "perm_rate_per_yr": 0.0065,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 1500.0,
+        "delivered_t_raw": 127.14484950811067,
+        "burn_time_yr": 45.413761688970396,
+        "M_v_t": 6.0,
+        "M_LEO_t": 9.493731750240556,
+        "delivered_t_after_perm": 89.61303118709195,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 2000.0,
+        "delivered_t_raw": 117.03961585295235,
+        "burn_time_yr": 36.72279657011321,
+        "M_v_t": 6.0,
+        "M_LEO_t": 25.316618000641483,
+        "delivered_t_after_perm": 89.10247282947327,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 89.61303118709195,
+      "winner_burn_time_yr": 45.413761688970396
+    },
+    {
+      "reactor_kwe": 10.0,
+      "chunk_t": 200.0,
+      "perm_rate_per_yr": 0.01,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 1500.0,
+        "delivered_t_raw": 127.14484950811067,
+        "burn_time_yr": 45.413761688970396,
+        "M_v_t": 6.0,
+        "M_LEO_t": 9.493731750240556,
+        "delivered_t_after_perm": 69.40359055269724,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 2000.0,
+        "delivered_t_raw": 117.03961585295235,
+        "burn_time_yr": 36.72279657011321,
+        "M_v_t": 6.0,
+        "M_LEO_t": 25.316618000641483,
+        "delivered_t_after_perm": 74.05939581683069,
+        "architecture": "variant_b"
+      },
+      "winner": "variant_b",
+      "winner_delivered_t": 74.05939581683069,
+      "winner_burn_time_yr": 36.72279657011321
+    },
+    {
+      "reactor_kwe": 10.0,
+      "chunk_t": 200.0,
+      "perm_rate_per_yr": 0.02,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 1500.0,
+        "delivered_t_raw": 127.14484950811067,
+        "burn_time_yr": 45.413761688970396,
+        "M_v_t": 6.0,
+        "M_LEO_t": 9.493731750240556,
+        "delivered_t_after_perm": 11.662331597283803,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 3.0,
+        "isp_s": 2000.0,
+        "delivered_t_raw": 77.53646852615454,
+        "burn_time_yr": 14.921755466708236,
+        "M_v_t": 6.0,
+        "M_LEO_t": 25.316618000641483,
+        "delivered_t_after_perm": 54.396864064166586,
+        "architecture": "variant_b"
+      },
+      "winner": "variant_b",
+      "winner_delivered_t": 54.396864064166586,
+      "winner_burn_time_yr": 14.921755466708236
+    },
+    {
+      "reactor_kwe": 40.0,
+      "chunk_t": 50.0,
+      "perm_rate_per_yr": 0.0,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 42.75939089018084,
+        "burn_time_yr": 12.53717877094443,
+        "M_v_t": 9.0,
+        "M_LEO_t": 14.240597625360834,
+        "delivered_t_after_perm": 42.75939089018084,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 31.299242797271845,
+        "burn_time_yr": 8.155566688846148,
+        "M_v_t": 9.0,
+        "M_LEO_t": 30.06348387576176,
+        "delivered_t_after_perm": 31.299242797271845,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 42.75939089018084,
+      "winner_burn_time_yr": 12.53717877094443
+    },
+    {
+      "reactor_kwe": 40.0,
+      "chunk_t": 50.0,
+      "perm_rate_per_yr": 0.005,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 42.75939089018084,
+        "burn_time_yr": 12.53717877094443,
+        "M_v_t": 9.0,
+        "M_LEO_t": 14.240597625360834,
+        "delivered_t_after_perm": 40.07898025154639,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 31.299242797271845,
+        "burn_time_yr": 8.155566688846148,
+        "M_v_t": 9.0,
+        "M_LEO_t": 30.06348387576176,
+        "delivered_t_after_perm": 30.022927487554156,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 40.07898025154639,
+      "winner_burn_time_yr": 12.53717877094443
+    },
+    {
+      "reactor_kwe": 40.0,
+      "chunk_t": 50.0,
+      "perm_rate_per_yr": 0.0065,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 42.75939089018084,
+        "burn_time_yr": 12.53717877094443,
+        "M_v_t": 9.0,
+        "M_LEO_t": 14.240597625360834,
+        "delivered_t_after_perm": 39.274857059956055,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 31.299242797271845,
+        "burn_time_yr": 8.155566688846148,
+        "M_v_t": 9.0,
+        "M_LEO_t": 30.06348387576176,
+        "delivered_t_after_perm": 29.640032894638846,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 39.274857059956055,
+      "winner_burn_time_yr": 12.53717877094443
+    },
+    {
+      "reactor_kwe": 40.0,
+      "chunk_t": 50.0,
+      "perm_rate_per_yr": 0.01,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 42.75939089018084,
+        "burn_time_yr": 12.53717877094443,
+        "M_v_t": 9.0,
+        "M_LEO_t": 14.240597625360834,
+        "delivered_t_after_perm": 37.39856961291194,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 31.299242797271845,
+        "burn_time_yr": 8.155566688846148,
+        "M_v_t": 9.0,
+        "M_LEO_t": 30.06348387576176,
+        "delivered_t_after_perm": 28.746612177836464,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 37.39856961291194,
+      "winner_burn_time_yr": 12.53717877094443
+    },
+    {
+      "reactor_kwe": 40.0,
+      "chunk_t": 50.0,
+      "perm_rate_per_yr": 0.02,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 2934.0,
+        "delivered_t_raw": 38.20072989756431,
+        "burn_time_yr": 5.952637038928155,
+        "M_v_t": 9.0,
+        "M_LEO_t": 14.240597625360834,
+        "delivered_t_after_perm": 33.65282830351768,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 31.299242797271845,
+        "burn_time_yr": 8.155566688846148,
+        "M_v_t": 9.0,
+        "M_LEO_t": 30.06348387576176,
+        "delivered_t_after_perm": 26.193981558401084,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 33.65282830351768,
+      "winner_burn_time_yr": 5.952637038928155
+    },
+    {
+      "reactor_kwe": 40.0,
+      "chunk_t": 100.0,
+      "perm_rate_per_yr": 0.0,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 86.62328147507986,
+        "burn_time_yr": 23.16190654293122,
+        "M_v_t": 9.0,
+        "M_LEO_t": 14.240597625360834,
+        "delivered_t_after_perm": 86.62328147507986,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 66.98965778713264,
+        "burn_time_yr": 15.378421000692153,
+        "M_v_t": 9.0,
+        "M_LEO_t": 30.06348387576176,
+        "delivered_t_after_perm": 66.98965778713264,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 86.62328147507986,
+      "winner_burn_time_yr": 23.16190654293122
+    },
+    {
+      "reactor_kwe": 40.0,
+      "chunk_t": 100.0,
+      "perm_rate_per_yr": 0.005,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 86.62328147507986,
+        "burn_time_yr": 23.16190654293122,
+        "M_v_t": 9.0,
+        "M_LEO_t": 14.240597625360834,
+        "delivered_t_after_perm": 76.59147972524075,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 66.98965778713264,
+        "burn_time_yr": 15.378421000692153,
+        "M_v_t": 9.0,
+        "M_LEO_t": 30.06348387576176,
+        "delivered_t_after_perm": 61.838681986418536,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 76.59147972524075,
+      "winner_burn_time_yr": 23.16190654293122
+    },
+    {
+      "reactor_kwe": 40.0,
+      "chunk_t": 100.0,
+      "perm_rate_per_yr": 0.0065,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 86.62328147507986,
+        "burn_time_yr": 23.16190654293122,
+        "M_v_t": 9.0,
+        "M_LEO_t": 14.240597625360834,
+        "delivered_t_after_perm": 73.581939200289,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 66.98965778713264,
+        "burn_time_yr": 15.378421000692153,
+        "M_v_t": 9.0,
+        "M_LEO_t": 30.06348387576176,
+        "delivered_t_after_perm": 60.293389246204306,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 73.581939200289,
+      "winner_burn_time_yr": 23.16190654293122
+    },
+    {
+      "reactor_kwe": 40.0,
+      "chunk_t": 100.0,
+      "perm_rate_per_yr": 0.01,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 2934.0,
+        "delivered_t_raw": 78.2013484548222,
+        "burn_time_yr": 10.99724469903676,
+        "M_v_t": 9.0,
+        "M_LEO_t": 14.240597625360834,
+        "delivered_t_after_perm": 69.601354807299,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 2934.0,
+        "delivered_t_raw": 61.29927972834625,
+        "burn_time_yr": 7.351402814785793,
+        "M_v_t": 9.0,
+        "M_LEO_t": 30.06348387576176,
+        "delivered_t_after_perm": 56.79292275295319,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 69.601354807299,
+      "winner_burn_time_yr": 10.99724469903676
+    },
+    {
+      "reactor_kwe": 40.0,
+      "chunk_t": 100.0,
+      "perm_rate_per_yr": 0.02,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 2934.0,
+        "delivered_t_raw": 78.2013484548222,
+        "burn_time_yr": 10.99724469903676,
+        "M_v_t": 9.0,
+        "M_LEO_t": 14.240597625360834,
+        "delivered_t_after_perm": 61.001361159775804,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 2934.0,
+        "delivered_t_raw": 61.29927972834625,
+        "burn_time_yr": 7.351402814785793,
+        "M_v_t": 9.0,
+        "M_LEO_t": 30.06348387576176,
+        "delivered_t_after_perm": 52.28656577756013,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 61.001361159775804,
+      "winner_burn_time_yr": 10.99724469903676
+    },
+    {
+      "reactor_kwe": 40.0,
+      "chunk_t": 200.0,
+      "perm_rate_per_yr": 0.0,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 174.35106264487789,
+        "burn_time_yr": 44.41136208690484,
+        "M_v_t": 9.0,
+        "M_LEO_t": 14.240597625360834,
+        "delivered_t_after_perm": 174.35106264487789,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 138.3704877668542,
+        "burn_time_yr": 29.8241296243842,
+        "M_v_t": 9.0,
+        "M_LEO_t": 30.06348387576176,
+        "delivered_t_after_perm": 138.3704877668542,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 174.35106264487789,
+      "winner_burn_time_yr": 44.41136208690484
+    },
+    {
+      "reactor_kwe": 40.0,
+      "chunk_t": 200.0,
+      "perm_rate_per_yr": 0.005,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 2934.0,
+        "delivered_t_raw": 158.20258556933797,
+        "burn_time_yr": 21.086460019253973,
+        "M_v_t": 9.0,
+        "M_LEO_t": 14.240597625360834,
+        "delivered_t_after_perm": 141.5229230915857,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 2934.0,
+        "delivered_t_raw": 127.33485720183336,
+        "burn_time_yr": 14.256937721978494,
+        "M_v_t": 9.0,
+        "M_LEO_t": 30.06348387576176,
+        "delivered_t_after_perm": 118.25783155701555,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 141.5229230915857,
+      "winner_burn_time_yr": 21.086460019253973
+    },
+    {
+      "reactor_kwe": 40.0,
+      "chunk_t": 200.0,
+      "perm_rate_per_yr": 0.0065,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 2934.0,
+        "delivered_t_raw": 158.20258556933797,
+        "burn_time_yr": 21.086460019253973,
+        "M_v_t": 9.0,
+        "M_LEO_t": 14.240597625360834,
+        "delivered_t_after_perm": 136.51902434826005,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 2934.0,
+        "delivered_t_raw": 127.33485720183336,
+        "burn_time_yr": 14.256937721978494,
+        "M_v_t": 9.0,
+        "M_LEO_t": 30.06348387576176,
+        "delivered_t_after_perm": 115.5347238635702,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 136.51902434826005,
+      "winner_burn_time_yr": 21.086460019253973
+    },
+    {
+      "reactor_kwe": 40.0,
+      "chunk_t": 200.0,
+      "perm_rate_per_yr": 0.01,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 2934.0,
+        "delivered_t_raw": 158.20258556933797,
+        "burn_time_yr": 21.086460019253973,
+        "M_v_t": 9.0,
+        "M_LEO_t": 14.240597625360834,
+        "delivered_t_after_perm": 124.84326061383346,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 2934.0,
+        "delivered_t_raw": 127.33485720183336,
+        "burn_time_yr": 14.256937721978494,
+        "M_v_t": 9.0,
+        "M_LEO_t": 30.06348387576176,
+        "delivered_t_after_perm": 109.18080591219773,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 124.84326061383346,
+      "winner_burn_time_yr": 21.086460019253973
+    },
+    {
+      "reactor_kwe": 40.0,
+      "chunk_t": 200.0,
+      "perm_rate_per_yr": 0.02,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 2000.0,
+        "delivered_t_raw": 141.65694241666162,
+        "burn_time_yr": 13.676759723624041,
+        "M_v_t": 9.0,
+        "M_LEO_t": 14.240597625360834,
+        "delivered_t_after_perm": 102.90878312434306,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 2000.0,
+        "delivered_t_raw": 115.85385393861398,
+        "burn_time_yr": 9.316069965347527,
+        "M_v_t": 9.0,
+        "M_LEO_t": 30.06348387576176,
+        "delivered_t_after_perm": 94.26780175766835,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 102.90878312434306,
+      "winner_burn_time_yr": 13.676759723624041
+    },
+    {
+      "reactor_kwe": 100.0,
+      "chunk_t": 50.0,
+      "perm_rate_per_yr": 0.0,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 42.02305776036872,
+        "burn_time_yr": 5.524858441433136,
+        "M_v_t": 15.0,
+        "M_LEO_t": 23.73432937560139,
+        "delivered_t_after_perm": 42.02305776036872,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 29.582092596055134,
+        "burn_time_yr": 3.608923682507069,
+        "M_v_t": 15.0,
+        "M_LEO_t": 39.55721562600232,
+        "delivered_t_after_perm": 29.582092596055134,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 42.02305776036872,
+      "winner_burn_time_yr": 5.524858441433136
+    },
+    {
+      "reactor_kwe": 100.0,
+      "chunk_t": 50.0,
+      "perm_rate_per_yr": 0.005,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 42.02305776036872,
+        "burn_time_yr": 5.524858441433136,
+        "M_v_t": 15.0,
+        "M_LEO_t": 23.73432937560139,
+        "delivered_t_after_perm": 40.862200533357694,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 29.582092596055134,
+        "burn_time_yr": 3.608923682507069,
+        "M_v_t": 15.0,
+        "M_LEO_t": 39.55721562600232,
+        "delivered_t_after_perm": 29.04829502331503,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 40.862200533357694,
+      "winner_burn_time_yr": 5.524858441433136
+    },
+    {
+      "reactor_kwe": 100.0,
+      "chunk_t": 50.0,
+      "perm_rate_per_yr": 0.0065,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 42.02305776036872,
+        "burn_time_yr": 5.524858441433136,
+        "M_v_t": 15.0,
+        "M_LEO_t": 23.73432937560139,
+        "delivered_t_after_perm": 40.51394336525439,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 29.582092596055134,
+        "burn_time_yr": 3.608923682507069,
+        "M_v_t": 15.0,
+        "M_LEO_t": 39.55721562600232,
+        "delivered_t_after_perm": 28.888155751493002,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 40.51394336525439,
+      "winner_burn_time_yr": 5.524858441433136
+    },
+    {
+      "reactor_kwe": 100.0,
+      "chunk_t": 50.0,
+      "perm_rate_per_yr": 0.01,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 42.02305776036872,
+        "burn_time_yr": 5.524858441433136,
+        "M_v_t": 15.0,
+        "M_LEO_t": 23.73432937560139,
+        "delivered_t_after_perm": 39.70134330634667,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 29.582092596055134,
+        "burn_time_yr": 3.608923682507069,
+        "M_v_t": 15.0,
+        "M_LEO_t": 39.55721562600232,
+        "delivered_t_after_perm": 28.51449745057493,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 39.70134330634667,
+      "winner_burn_time_yr": 5.524858441433136
+    },
+    {
+      "reactor_kwe": 100.0,
+      "chunk_t": 50.0,
+      "perm_rate_per_yr": 0.02,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 42.02305776036872,
+        "burn_time_yr": 5.524858441433136,
+        "M_v_t": 15.0,
+        "M_LEO_t": 23.73432937560139,
+        "delivered_t_after_perm": 37.379628852324615,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 29.582092596055134,
+        "burn_time_yr": 3.608923682507069,
+        "M_v_t": 15.0,
+        "M_LEO_t": 39.55721562600232,
+        "delivered_t_after_perm": 27.446902305094724,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 37.379628852324615,
+      "winner_burn_time_yr": 5.524858441433136
+    },
+    {
+      "reactor_kwe": 100.0,
+      "chunk_t": 100.0,
+      "perm_rate_per_yr": 0.0,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 85.88694834526774,
+        "burn_time_yr": 9.774749550227856,
+        "M_v_t": 15.0,
+        "M_LEO_t": 23.73432937560139,
+        "delivered_t_after_perm": 85.88694834526774,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 65.27250758591593,
+        "burn_time_yr": 6.498065407245471,
+        "M_v_t": 15.0,
+        "M_LEO_t": 39.55721562600232,
+        "delivered_t_after_perm": 65.27250758591593,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 85.88694834526774,
+      "winner_burn_time_yr": 9.774749550227856
+    },
+    {
+      "reactor_kwe": 100.0,
+      "chunk_t": 100.0,
+      "perm_rate_per_yr": 0.005,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 85.88694834526774,
+        "burn_time_yr": 9.774749550227856,
+        "M_v_t": 15.0,
+        "M_LEO_t": 23.73432937560139,
+        "delivered_t_after_perm": 81.689331296726,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 65.27250758591593,
+        "burn_time_yr": 6.498065407245471,
+        "M_v_t": 15.0,
+        "M_LEO_t": 39.55721562600232,
+        "delivered_t_after_perm": 63.15178246797489,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 81.689331296726,
+      "winner_burn_time_yr": 9.774749550227856
+    },
+    {
+      "reactor_kwe": 100.0,
+      "chunk_t": 100.0,
+      "perm_rate_per_yr": 0.0065,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 85.88694834526774,
+        "burn_time_yr": 9.774749550227856,
+        "M_v_t": 15.0,
+        "M_LEO_t": 23.73432937560139,
+        "delivered_t_after_perm": 80.43004618216348,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 65.27250758591593,
+        "burn_time_yr": 6.498065407245471,
+        "M_v_t": 15.0,
+        "M_LEO_t": 39.55721562600232,
+        "delivered_t_after_perm": 62.515564932592575,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 80.43004618216348,
+      "winner_burn_time_yr": 9.774749550227856
+    },
+    {
+      "reactor_kwe": 100.0,
+      "chunk_t": 100.0,
+      "perm_rate_per_yr": 0.01,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 85.88694834526774,
+        "burn_time_yr": 9.774749550227856,
+        "M_v_t": 15.0,
+        "M_LEO_t": 23.73432937560139,
+        "delivered_t_after_perm": 77.49171424818425,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 65.27250758591593,
+        "burn_time_yr": 6.498065407245471,
+        "M_v_t": 15.0,
+        "M_LEO_t": 39.55721562600232,
+        "delivered_t_after_perm": 61.031057350033855,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 77.49171424818425,
+      "winner_burn_time_yr": 9.774749550227856
+    },
+    {
+      "reactor_kwe": 100.0,
+      "chunk_t": 100.0,
+      "perm_rate_per_yr": 0.02,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 2934.0,
+        "delivered_t_raw": 77.00142268169314,
+        "burn_time_yr": 4.641039047299918,
+        "M_v_t": 15.0,
+        "M_LEO_t": 23.73432937560139,
+        "delivered_t_after_perm": 69.85409049442548,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 65.27250758591593,
+        "burn_time_yr": 6.498065407245471,
+        "M_v_t": 15.0,
+        "M_LEO_t": 39.55721562600232,
+        "delivered_t_after_perm": 56.78960711415178,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 69.85409049442548,
+      "winner_burn_time_yr": 4.641039047299918
+    },
+    {
+      "reactor_kwe": 100.0,
+      "chunk_t": 200.0,
+      "perm_rate_per_yr": 0.0,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 173.6147295150658,
+        "burn_time_yr": 18.274531767817287,
+        "M_v_t": 15.0,
+        "M_LEO_t": 23.73432937560139,
+        "delivered_t_after_perm": 173.6147295150658,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 136.65333756563751,
+        "burn_time_yr": 12.276348856722276,
+        "M_v_t": 15.0,
+        "M_LEO_t": 39.55721562600232,
+        "delivered_t_after_perm": 136.65333756563751,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 173.6147295150658,
+      "winner_burn_time_yr": 18.274531767817287
+    },
+    {
+      "reactor_kwe": 100.0,
+      "chunk_t": 200.0,
+      "perm_rate_per_yr": 0.005,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 173.6147295150658,
+        "burn_time_yr": 18.274531767817287,
+        "M_v_t": 15.0,
+        "M_LEO_t": 23.73432937560139,
+        "delivered_t_after_perm": 157.75109006564543,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 136.65333756563751,
+        "burn_time_yr": 12.276348856722276,
+        "M_v_t": 15.0,
+        "M_LEO_t": 39.55721562600232,
+        "delivered_t_after_perm": 128.26531734368152,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 157.75109006564543,
+      "winner_burn_time_yr": 18.274531767817287
+    },
+    {
+      "reactor_kwe": 100.0,
+      "chunk_t": 200.0,
+      "perm_rate_per_yr": 0.0065,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 173.6147295150658,
+        "burn_time_yr": 18.274531767817287,
+        "M_v_t": 15.0,
+        "M_LEO_t": 23.73432937560139,
+        "delivered_t_after_perm": 152.9919982308193,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 136.65333756563751,
+        "burn_time_yr": 12.276348856722276,
+        "M_v_t": 15.0,
+        "M_LEO_t": 39.55721562600232,
+        "delivered_t_after_perm": 125.74891127709473,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 152.9919982308193,
+      "winner_burn_time_yr": 18.274531767817287
+    },
+    {
+      "reactor_kwe": 100.0,
+      "chunk_t": 200.0,
+      "perm_rate_per_yr": 0.01,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 2934.0,
+        "delivered_t_raw": 157.00265979620892,
+        "burn_time_yr": 8.676725175386803,
+        "M_v_t": 15.0,
+        "M_LEO_t": 23.73432937560139,
+        "delivered_t_after_perm": 143.37997048764436,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 5000.0,
+        "delivered_t_raw": 136.65333756563751,
+        "burn_time_yr": 12.276348856722276,
+        "M_v_t": 15.0,
+        "M_LEO_t": 39.55721562600232,
+        "delivered_t_after_perm": 119.87729712172555,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 143.37997048764436,
+      "winner_burn_time_yr": 8.676725175386803
+    },
+    {
+      "reactor_kwe": 100.0,
+      "chunk_t": 200.0,
+      "perm_rate_per_yr": 0.02,
+      "all_electric": {
+        "feasible": true,
+        "isp_s": 2934.0,
+        "delivered_t_raw": 157.00265979620892,
+        "burn_time_yr": 8.676725175386803,
+        "M_v_t": 15.0,
+        "M_LEO_t": 23.73432937560139,
+        "delivered_t_after_perm": 129.75728117907983,
+        "architecture": "all_electric",
+        "dv_chem_km_s": 0.0
+      },
+      "variant_b": {
+        "feasible": true,
+        "dv_chem_km_s": 1.0,
+        "isp_s": 2934.0,
+        "delivered_t_raw": 125.29699185024259,
+        "burn_time_yr": 5.86850792656402,
+        "M_v_t": 15.0,
+        "M_LEO_t": 39.55721562600232,
+        "delivered_t_after_perm": 110.59086405328706,
+        "architecture": "variant_b"
+      },
+      "winner": "all_electric",
+      "winner_delivered_t": 129.75728117907983,
+      "winner_burn_time_yr": 8.676725175386803
+    }
+  ],
+  "breakevens": [
+    {
+      "reactor_kwe": 10.0,
+      "chunk_t": 50.0,
+      "winner_at_zero_perm": "all_electric",
+      "winner_at_2pct": "all_electric",
+      "breakeven_rate_per_yr": null
+    },
+    {
+      "reactor_kwe": 10.0,
+      "chunk_t": 100.0,
+      "winner_at_zero_perm": "all_electric",
+      "winner_at_2pct": "variant_b",
+      "breakeven_rate_per_yr": 0.02
+    },
+    {
+      "reactor_kwe": 10.0,
+      "chunk_t": 200.0,
+      "winner_at_zero_perm": "all_electric",
+      "winner_at_2pct": "variant_b",
+      "breakeven_rate_per_yr": 0.01
+    },
+    {
+      "reactor_kwe": 40.0,
+      "chunk_t": 50.0,
+      "winner_at_zero_perm": "all_electric",
+      "winner_at_2pct": "all_electric",
+      "breakeven_rate_per_yr": null
+    },
+    {
+      "reactor_kwe": 40.0,
+      "chunk_t": 100.0,
+      "winner_at_zero_perm": "all_electric",
+      "winner_at_2pct": "all_electric",
+      "breakeven_rate_per_yr": null
+    },
+    {
+      "reactor_kwe": 40.0,
+      "chunk_t": 200.0,
+      "winner_at_zero_perm": "all_electric",
+      "winner_at_2pct": "all_electric",
+      "breakeven_rate_per_yr": null
+    },
+    {
+      "reactor_kwe": 100.0,
+      "chunk_t": 50.0,
+      "winner_at_zero_perm": "all_electric",
+      "winner_at_2pct": "all_electric",
+      "breakeven_rate_per_yr": null
+    },
+    {
+      "reactor_kwe": 100.0,
+      "chunk_t": 100.0,
+      "winner_at_zero_perm": "all_electric",
+      "winner_at_2pct": "all_electric",
+      "breakeven_rate_per_yr": null
+    },
+    {
+      "reactor_kwe": 100.0,
+      "chunk_t": 200.0,
+      "winner_at_zero_perm": "all_electric",
+      "winner_at_2pct": "all_electric",
+      "breakeven_rate_per_yr": null
+    }
+  ]
+}

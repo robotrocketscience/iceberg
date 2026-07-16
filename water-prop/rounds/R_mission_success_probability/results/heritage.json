@@ -1,0 +1,12 @@
+{
+  "n_missions_total": 23,
+  "rate_L0_10_definition_all": 0.7391304347826086,
+  "n_L0_10_successes_all": 17,
+  "rate_strict_definition_all": 0.6521739130434783,
+  "n_long_design_subset": 7,
+  "rate_L0_10_long_design_subset": 1.0,
+  "n_outer_planet_subset": 8,
+  "rate_L0_10_outer_planet_subset": 1.0,
+  "n_survival_to_operations": 19,
+  "rate_survival_all": 0.8260869565217391
+}

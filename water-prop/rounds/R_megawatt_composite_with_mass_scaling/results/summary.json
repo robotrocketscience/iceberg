@@ -1,0 +1,145 @@
+{
+  "model_parameters": {
+    "m_collected_t": 200.0,
+    "m_struct_base_t": 150.0,
+    "m_jettison_t": 20.0,
+    "m_shield_t": 4.13,
+    "dv_exit_kms": 7.4,
+    "dv_inbound_net_kms": 23.2,
+    "eta": 0.65,
+    "exit_dwell_budget_months": 6.0,
+    "cruise_budget_years": 6.0,
+    "power_grid_mwe": [
+      1.0,
+      2.0,
+      5.0,
+      10.0
+    ],
+    "isp_grid_s": [
+      3000,
+      5000,
+      7000,
+      9000
+    ],
+    "mass_models": {
+      "paper_aspirational": "M_power_t = 25 * P_MWe (40 W/kg, TRL-2 aspirational)",
+      "bottoms_up_moderate": "M_power_t = 100 * P_MWe (10 W/kg)",
+      "krusty_anchored": "M_power_t = 417 * P_MWe (2.4 W/kg, KRUSTY system-level)",
+      "bundled_finding_4": "M_power_t = 5 + 100 * P_MWe (orchestrator rule-of-thumb)"
+    }
+  },
+  "headline_per_model_power": {
+    "paper_aspirational@1.0MWe": {
+      "max_df_pct": null,
+      "isp_exit": null,
+      "isp_inbound": null,
+      "n_closing": 0
+    },
+    "paper_aspirational@2.0MWe": {
+      "max_df_pct": null,
+      "isp_exit": null,
+      "isp_inbound": null,
+      "n_closing": 0
+    },
+    "paper_aspirational@5.0MWe": {
+      "max_df_pct": 7.6839,
+      "isp_exit": 3000,
+      "isp_inbound": 9000,
+      "n_closing": 1
+    },
+    "paper_aspirational@10.0MWe": {
+      "max_df_pct": 1.0331,
+      "isp_exit": 5000,
+      "isp_inbound": 9000,
+      "n_closing": 1
+    },
+    "bottoms_up_moderate@1.0MWe": {
+      "max_df_pct": null,
+      "isp_exit": null,
+      "isp_inbound": null,
+      "n_closing": 0
+    },
+    "bottoms_up_moderate@2.0MWe": {
+      "max_df_pct": null,
+      "isp_exit": null,
+      "isp_inbound": null,
+      "n_closing": 0
+    },
+    "bottoms_up_moderate@5.0MWe": {
+      "max_df_pct": null,
+      "isp_exit": null,
+      "isp_inbound": null,
+      "n_closing": 0
+    },
+    "bottoms_up_moderate@10.0MWe": {
+      "max_df_pct": null,
+      "isp_exit": null,
+      "isp_inbound": null,
+      "n_closing": 0
+    },
+    "krusty_anchored@1.0MWe": {
+      "max_df_pct": null,
+      "isp_exit": null,
+      "isp_inbound": null,
+      "n_closing": 0
+    },
+    "krusty_anchored@2.0MWe": {
+      "max_df_pct": null,
+      "isp_exit": null,
+      "isp_inbound": null,
+      "n_closing": 0
+    },
+    "krusty_anchored@5.0MWe": {
+      "max_df_pct": null,
+      "isp_exit": null,
+      "isp_inbound": null,
+      "n_closing": 0
+    },
+    "krusty_anchored@10.0MWe": {
+      "max_df_pct": null,
+      "isp_exit": null,
+      "isp_inbound": null,
+      "n_closing": 0
+    },
+    "bundled_finding_4@1.0MWe": {
+      "max_df_pct": null,
+      "isp_exit": null,
+      "isp_inbound": null,
+      "n_closing": 0
+    },
+    "bundled_finding_4@2.0MWe": {
+      "max_df_pct": null,
+      "isp_exit": null,
+      "isp_inbound": null,
+      "n_closing": 0
+    },
+    "bundled_finding_4@5.0MWe": {
+      "max_df_pct": null,
+      "isp_exit": null,
+      "isp_inbound": null,
+      "n_closing": 0
+    },
+    "bundled_finding_4@10.0MWe": {
+      "max_df_pct": null,
+      "isp_exit": null,
+      "isp_inbound": null,
+      "n_closing": 0
+    }
+  },
+  "hypothesis_adjudication": {
+    "H1_krusty_5MWe_zero_closure": "held",
+    "H2_bottomsup_5MWe_zero_closure": "held",
+    "H3_paper_5MWe_in_5_12_pct": "held",
+    "H4_bundled_5MWe_zero_closure": "held",
+    "H5_krusty_10MWe_zero_closure": "held",
+    "H6_bottomsup_10MWe_zero_closure": "held",
+    "H7_paper_10MWe_in_7_14_pct": "falsified",
+    "H8_bundled_10MWe_zero_closure": "held",
+    "H9_no_low_power_closure": "held",
+    "H10_architectural_verdict": "held_paper_only",
+    "H11_methodology_functional_form_robust": "marginal"
+  },
+  "verdict": "verdict_2_conditional_on_paper_aspirational",
+  "n_total_cells": 256,
+  "n_all_closing": 2
+}

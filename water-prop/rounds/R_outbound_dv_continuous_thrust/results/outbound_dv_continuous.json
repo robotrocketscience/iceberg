@@ -1,0 +1,268 @@
+{
+  "hohmann_velocities": {
+    "a_hohmann_km": 791567213.2349099,
+    "v_hohmann_perihelion_km_s": 40.08238898319444,
+    "v_hohmann_aphelion_km_s": 4.182830232211972,
+    "v_earth_helio_km_s": 29.784691831696804,
+    "v_saturn_helio_km_s": 9.621691565667968,
+    "v_inf_at_earth_km_s": 10.297697151497637,
+    "v_inf_at_saturn_km_s": 5.438861333455995,
+    "hohmann_cruise_yr": 6.085857577229889
+  },
+  "outbound_dv_no_lga": {
+    "b_ring_1.35e5_km": {
+      "r_saturn_arr_km": 135000.0,
+      "lga_credit_km_s": 0.0,
+      "dv5p_leo_spiral_km_s": 7.668558175407055,
+      "dv4p_earth_helio_km_s": 10.297697151497637,
+      "dv2p_saturn_helio_km_s": 5.438861333455995,
+      "dv1p_saturn_spiral_km_s": 16.762212131922073,
+      "dv_earth_combined_pre_lga_km_s": 17.966255326904694,
+      "dv_earth_after_lga_km_s": 17.966255326904694,
+      "dv_total_km_s": 40.16732879228276,
+      "delta_vs_R_electric_outbound_km_s": 22.19732879228276
+    },
+    "high_elliptical_1e6_km": {
+      "r_saturn_arr_km": 1000000.0,
+      "lga_credit_km_s": 0.0,
+      "dv5p_leo_spiral_km_s": 7.668558175407055,
+      "dv4p_earth_helio_km_s": 10.297697151497637,
+      "dv2p_saturn_helio_km_s": 5.438861333455995,
+      "dv1p_saturn_spiral_km_s": 6.15883000252483,
+      "dv_earth_combined_pre_lga_km_s": 17.966255326904694,
+      "dv_earth_after_lga_km_s": 17.966255326904694,
+      "dv_total_km_s": 29.56394666288552,
+      "delta_vs_R_electric_outbound_km_s": 11.593946662885521
+    },
+    "iapetus_3.561e6_km": {
+      "r_saturn_arr_km": 3561000.0,
+      "lga_credit_km_s": 0.0,
+      "dv5p_leo_spiral_km_s": 7.668558175407055,
+      "dv4p_earth_helio_km_s": 10.297697151497637,
+      "dv2p_saturn_helio_km_s": 5.438861333455995,
+      "dv1p_saturn_spiral_km_s": 3.2637150182427517,
+      "dv_earth_combined_pre_lga_km_s": 17.966255326904694,
+      "dv_earth_after_lga_km_s": 17.966255326904694,
+      "dv_total_km_s": 26.668831678603443,
+      "delta_vs_R_electric_outbound_km_s": 8.698831678603444
+    }
+  },
+  "outbound_dv_with_lga": {
+    "b_ring_1.35e5_km": {
+      "r_saturn_arr_km": 135000.0,
+      "lga_credit_km_s": 2.0,
+      "dv5p_leo_spiral_km_s": 7.668558175407055,
+      "dv4p_earth_helio_km_s": 10.297697151497637,
+      "dv2p_saturn_helio_km_s": 5.438861333455995,
+      "dv1p_saturn_spiral_km_s": 16.762212131922073,
+      "dv_earth_combined_pre_lga_km_s": 17.966255326904694,
+      "dv_earth_after_lga_km_s": 15.966255326904694,
+      "dv_total_km_s": 38.16732879228276,
+      "delta_vs_R_electric_outbound_km_s": 20.19732879228276
+    },
+    "high_elliptical_1e6_km": {
+      "r_saturn_arr_km": 1000000.0,
+      "lga_credit_km_s": 2.0,
+      "dv5p_leo_spiral_km_s": 7.668558175407055,
+      "dv4p_earth_helio_km_s": 10.297697151497637,
+      "dv2p_saturn_helio_km_s": 5.438861333455995,
+      "dv1p_saturn_spiral_km_s": 6.15883000252483,
+      "dv_earth_combined_pre_lga_km_s": 17.966255326904694,
+      "dv_earth_after_lga_km_s": 15.966255326904694,
+      "dv_total_km_s": 27.56394666288552,
+      "delta_vs_R_electric_outbound_km_s": 9.593946662885521
+    },
+    "iapetus_3.561e6_km": {
+      "r_saturn_arr_km": 3561000.0,
+      "lga_credit_km_s": 2.0,
+      "dv5p_leo_spiral_km_s": 7.668558175407055,
+      "dv4p_earth_helio_km_s": 10.297697151497637,
+      "dv2p_saturn_helio_km_s": 5.438861333455995,
+      "dv1p_saturn_spiral_km_s": 3.2637150182427517,
+      "dv_earth_combined_pre_lga_km_s": 17.966255326904694,
+      "dv_earth_after_lga_km_s": 15.966255326904694,
+      "dv_total_km_s": 24.668831678603443,
+      "delta_vs_R_electric_outbound_km_s": 6.698831678603444
+    }
+  },
+  "round_trips_corrected": {
+    "out_arr_b_ring_1.35e5_km__in_titan_inbound_high_elliptical_24.7_km_s": {
+      "m_tug_t": 31.5,
+      "dv_outbound_km_s": 40.16732879228276,
+      "dv_inbound_km_s": 24.7,
+      "m_prop_outbound_t": 212.69116115299897,
+      "m_LEO_t": 244.19116115299897,
+      "mass_ratio_outbound": 7.75210035406346,
+      "m_prop_inbound_t": 165.79136480954799,
+      "mass_ratio_inbound": 3.523129027547338,
+      "t_outbound_burn_yr": 1.9943595875296725,
+      "t_inbound_burn_yr": 1.5545902149629098,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "round_trip_yr": 16.72066495695236,
+      "delivered_t": 34.208635190452014,
+      "delivered_fraction": 0.17104317595226007,
+      "closes_15yr": false
+    },
+    "out_arr_b_ring_1.35e5_km__in_titan_inbound_b_ring_40.2_km_s": {
+      "m_tug_t": 31.5,
+      "dv_outbound_km_s": 40.16732879228276,
+      "dv_inbound_km_s": 40.2,
+      "m_prop_outbound_t": 212.69116115299897,
+      "m_LEO_t": 244.19116115299897,
+      "mass_ratio_outbound": 7.75210035406346,
+      "m_prop_inbound_t": 201.68682871057808,
+      "mass_ratio_inbound": 7.765024316018983,
+      "t_outbound_burn_yr": 1.9943595875296725,
+      "t_inbound_burn_yr": 1.8911743127306004,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "round_trip_yr": 17.05724905472005,
+      "delivered_t": -1.6868287105780837,
+      "delivered_fraction": -0.008434143552890419,
+      "closes_15yr": false
+    },
+    "out_arr_high_elliptical_1e6_km__in_titan_inbound_high_elliptical_24.7_km_s": {
+      "m_tug_t": 31.5,
+      "dv_outbound_km_s": 29.56394666288552,
+      "dv_inbound_km_s": 24.7,
+      "m_prop_outbound_t": 110.71348333936868,
+      "m_LEO_t": 142.21348333936868,
+      "mass_ratio_outbound": 4.514713756805355,
+      "m_prop_inbound_t": 165.79136480954799,
+      "mass_ratio_inbound": 3.523129027547338,
+      "t_outbound_burn_yr": 1.0381366849929545,
+      "t_inbound_burn_yr": 1.5545902149629098,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "round_trip_yr": 15.764442054415643,
+      "delivered_t": 34.208635190452014,
+      "delivered_fraction": 0.17104317595226007,
+      "closes_15yr": false
+    },
+    "out_arr_high_elliptical_1e6_km__in_titan_inbound_b_ring_40.2_km_s": {
+      "m_tug_t": 31.5,
+      "dv_outbound_km_s": 29.56394666288552,
+      "dv_inbound_km_s": 40.2,
+      "m_prop_outbound_t": 110.71348333936868,
+      "m_LEO_t": 142.21348333936868,
+      "mass_ratio_outbound": 4.514713756805355,
+      "m_prop_inbound_t": 201.68682871057808,
+      "mass_ratio_inbound": 7.765024316018983,
+      "t_outbound_burn_yr": 1.0381366849929545,
+      "t_inbound_burn_yr": 1.8911743127306004,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "round_trip_yr": 16.101026152183334,
+      "delivered_t": -1.6868287105780837,
+      "delivered_fraction": -0.008434143552890419,
+      "closes_15yr": false
+    },
+    "out_arr_iapetus_3.561e6_km__in_titan_inbound_high_elliptical_24.7_km_s": {
+      "m_tug_t": 31.5,
+      "dv_outbound_km_s": 26.668831678603443,
+      "dv_inbound_km_s": 24.7,
+      "m_prop_outbound_t": 91.19720201880638,
+      "m_LEO_t": 122.69720201880638,
+      "mass_ratio_outbound": 3.895149270438298,
+      "m_prop_inbound_t": 165.79136480954799,
+      "mass_ratio_inbound": 3.523129027547338,
+      "t_outbound_burn_yr": 0.855136683706625,
+      "t_inbound_burn_yr": 1.5545902149629098,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "round_trip_yr": 15.581442053129312,
+      "delivered_t": 34.208635190452014,
+      "delivered_fraction": 0.17104317595226007,
+      "closes_15yr": false
+    },
+    "out_arr_iapetus_3.561e6_km__in_titan_inbound_b_ring_40.2_km_s": {
+      "m_tug_t": 31.5,
+      "dv_outbound_km_s": 26.668831678603443,
+      "dv_inbound_km_s": 40.2,
+      "m_prop_outbound_t": 91.19720201880638,
+      "m_LEO_t": 122.69720201880638,
+      "mass_ratio_outbound": 3.895149270438298,
+      "m_prop_inbound_t": 201.68682871057808,
+      "mass_ratio_inbound": 7.765024316018983,
+      "t_outbound_burn_yr": 0.855136683706625,
+      "t_inbound_burn_yr": 1.8911743127306004,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "round_trip_yr": 15.918026150897003,
+      "delivered_t": -1.6868287105780837,
+      "delivered_fraction": -0.008434143552890419,
+      "closes_15yr": false
+    }
+  },
+  "best_case_high_elliptical_both_ends_with_lga": {
+    "m_tug_t": 31.5,
+    "dv_outbound_km_s": 27.56394666288552,
+    "dv_inbound_km_s": 24.7,
+    "m_prop_outbound_t": 96.92662263038474,
+    "m_LEO_t": 128.42662263038474,
+    "mass_ratio_outbound": 4.077035639059833,
+    "m_prop_inbound_t": 165.79136480954799,
+    "mass_ratio_inbound": 3.523129027547338,
+    "t_outbound_burn_yr": 0.9088602369833491,
+    "t_inbound_burn_yr": 1.5545902149629098,
+    "t_cruise_each_yr": 6.085857577229889,
+    "t_saturn_ops_yr": 1.0,
+    "round_trip_yr": 15.635165606406037,
+    "delivered_t": 34.208635190452014,
+    "delivered_fraction": 0.17104317595226007,
+    "closes_15yr": false
+  },
+  "cross_check_rerun_dv_in_use": {
+    "m_tug_t": 31.5,
+    "dv_outbound_km_s": 17.97,
+    "dv_inbound_km_s": 24.7,
+    "m_prop_outbound_t": 47.24403770778181,
+    "m_LEO_t": 78.74403770778181,
+    "mass_ratio_outbound": 2.499810720881962,
+    "m_prop_inbound_t": 165.79136480954799,
+    "mass_ratio_inbound": 3.523129027547338,
+    "t_outbound_burn_yr": 0.44299725031050957,
+    "t_inbound_burn_yr": 1.5545902149629098,
+    "t_cruise_each_yr": 6.085857577229889,
+    "t_saturn_ops_yr": 1.0,
+    "round_trip_yr": 15.169302619733195,
+    "delivered_t": 34.208635190452014,
+    "delivered_fraction": 0.17104317595226007,
+    "closes_15yr": false
+  },
+  "hypothesis_grading": {
+    "H_od_a": {
+      "predicted_km_s": [
+        27.0,
+        32.0
+      ],
+      "actual_km_s": 29.56394666288552,
+      "held": true
+    },
+    "H_od_b": {
+      "predicted_km_s": [
+        37.0,
+        42.0
+      ],
+      "actual_km_s": 40.16732879228276,
+      "held": true
+    },
+    "H_od_c": {
+      "predicted": ">= 1.5x R-electric-outbound outbound DV",
+      "actual_ratio": 1.6451834536942416,
+      "held": true
+    },
+    "H_od_d": {
+      "predicted": "> 18.0 yr",
+      "actual_yr": 15.764442054415643,
+      "held": false
+    },
+    "H_od_e": {
+      "predicted": "best case round-trip > 15 yr (architecture falsified at L0-05)",
+      "actual_best_case_yr": 15.635165606406037,
+      "delivered_t": 34.208635190452014,
+      "held": true
+    }
+  }
+}

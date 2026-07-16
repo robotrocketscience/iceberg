@@ -1,0 +1,129 @@
+{
+  "reference_orbit": {
+    "r_periapsis_km": 105000.0,
+    "r_apoapsis_km": 1000000.0,
+    "semi_major_axis_km": 552500.0,
+    "eccentricity": 0.81,
+    "period_days": 4.85
+  },
+  "velocities": {
+    "v_p_spacecraft_km_s": 25.57,
+    "v_p_b_ring_particle_km_s": 19.01,
+    "v_relative_km_s": 6.56
+  },
+  "impact_kinetic_energy_for_482t_chunk": {
+    "joules": 10382893758801.0,
+    "terajoules": 10.38,
+    "equivalent_tons_tnt": 2481.6
+  },
+  "circularisation_dv_km_s": 6.56,
+  "max_v_rel_for_bag_capture_m_s": {
+    "conservative_10MJ": 6.4,
+    "moderate_100MJ": 20.4,
+    "aspirational_1GJ": 64.4
+  },
+  "periapsis_pass_duration_minutes": 104.1,
+  "apoapsis_sweep": [
+    {
+      "r_apoapsis_km": 200000,
+      "v_spacecraft_periapsis_km_s": 21.77,
+      "v_relative_km_s": 2.76,
+      "kinetic_energy_TJ_for_482t": 1.84,
+      "orbital_period_days": 0.7,
+      "time_in_upper_b_ring_minutes": 171.4
+    },
+    {
+      "r_apoapsis_km": 500000,
+      "v_spacecraft_periapsis_km_s": 24.44,
+      "v_relative_km_s": 5.43,
+      "kinetic_energy_TJ_for_482t": 7.1,
+      "orbital_period_days": 1.96,
+      "time_in_upper_b_ring_minutes": 116.3
+    },
+    {
+      "r_apoapsis_km": 1000000,
+      "v_spacecraft_periapsis_km_s": 25.57,
+      "v_relative_km_s": 6.56,
+      "kinetic_energy_TJ_for_482t": 10.38,
+      "orbital_period_days": 4.85,
+      "time_in_upper_b_ring_minutes": 104.1
+    },
+    {
+      "r_apoapsis_km": 2000000,
+      "v_spacecraft_periapsis_km_s": 26.2,
+      "v_relative_km_s": 7.19,
+      "kinetic_energy_TJ_for_482t": 12.47,
+      "orbital_period_days": 12.75,
+      "time_in_upper_b_ring_minutes": 98.6
+    },
+    {
+      "r_apoapsis_km": 5000000,
+      "v_spacecraft_periapsis_km_s": 26.6,
+      "v_relative_km_s": 7.59,
+      "kinetic_energy_TJ_for_482t": 13.9,
+      "orbital_period_days": 48.15,
+      "time_in_upper_b_ring_minutes": 95.4
+    }
+  ],
+  "grading": {
+    "H-hgf-a": {
+      "observed_km_s": 6.56,
+      "predicted_km_s": [
+        7,
+        8
+      ],
+      "verdict": "wrong-but-informative",
+      "note": "relative velocity at HE-graze periapsis: 6.56 km/s"
+    },
+    "H-hgf-b": {
+      "observed_TJ": 10.38,
+      "predicted_TJ": [
+        10,
+        15
+      ],
+      "verdict": "held",
+      "note": "capture kinetic energy at 482 t chunk: 10.38 TJ"
+    },
+    "H-hgf-c": {
+      "observed_m_s": 20.4,
+      "predicted_below_m_s": 100,
+      "verdict": "held",
+      "note": "max v_rel for moderate (100 MJ) bag capture: 20.4 m/s"
+    },
+    "H-hgf-d": {
+      "observed_km_s": 6.56,
+      "predicted_km_s": [
+        6,
+        8
+      ],
+      "verdict": "held",
+      "note": "circularisation delta-velocity from HE-graze to B-ring circular: 6.56 km/s"
+    },
+    "H-hgf-e": {
+      "observed_minutes": 104.1,
+      "predicted_minutes": [
+        90,
+        150
+      ],
+      "verdict": "held",
+      "note": "time in upper B-ring per pass: 104.1 minutes"
+    },
+    "H-hgf-f": {
+      "v_rel_m_s": 6564.0,
+      "aspirational_bag_max_m_s": 64.4,
+      "verdict": "held",
+      "note": "HE-graze v_rel (6564 m/s) exceeds aspirational bag tolerance (64 m/s) by factor 101.9\u00d7 \u2014 falsified as soft-capture mode"
+    }
+  },
+  "constants": {
+    "GM_saturn_km3_s2": 37930000.0,
+    "b_ring_inner_km": 92000.0,
+    "b_ring_outer_km": 117500.0,
+    "chunk_mass_t": 482.0,
+    "bag_energy_absorption_J_limits": {
+      "conservative_10MJ": 10000000.0,
+      "moderate_100MJ": 100000000.0,
+      "aspirational_1GJ": 1000000000.0
+    }
+  }
+}

@@ -1,0 +1,5766 @@
+{
+  "axes": {
+    "eta": [
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9
+    ],
+    "chunk_t": [
+      10.0,
+      25.0,
+      50.0,
+      100.0,
+      200.0,
+      350.0,
+      500.0
+    ],
+    "dv_km_s": [
+      4.47,
+      6.42,
+      8.87
+    ],
+    "tau_yr": [
+      3.0,
+      5.0,
+      7.0
+    ],
+    "eta_thr_classes": {
+      "MET_class": 0.3,
+      "Hall_class": 0.55,
+      "RF_ion_class": 0.65
+    }
+  },
+  "isp_required_by_eta_x_dv": [
+    {
+      "eta_delivered": 0.5,
+      "isp_dv4.47": 657.599367039067,
+      "isp_dv6.42": 944.4715741366467,
+      "isp_dv8.87": 1304.9007574130928
+    },
+    {
+      "eta_delivered": 0.6,
+      "isp_dv4.47": 892.3067402937132,
+      "isp_dv6.42": 1281.5680699520444,
+      "isp_dv8.87": 1770.639996958666
+    },
+    {
+      "eta_delivered": 0.7,
+      "isp_dv4.47": 1277.9511287437979,
+      "isp_dv6.42": 1835.4465875917635,
+      "isp_dv8.87": 2535.8895999904894
+    },
+    {
+      "eta_delivered": 0.8,
+      "isp_dv4.47": 2042.6902077905038,
+      "isp_dv6.42": 2933.7966742762937,
+      "isp_dv8.87": 4053.3919783225433
+    },
+    {
+      "eta_delivered": 0.9,
+      "isp_dv4.47": 4326.223579632563,
+      "isp_dv6.42": 6213.502322425293,
+      "isp_dv8.87": 8584.698691575131
+    }
+  ],
+  "thrust_required_by_eta_x_chunk_at_dv6.42_tau5": [
+    {
+      "eta_delivered": 0.5,
+      "thrust_M10": 0.2934983066680339,
+      "thrust_M25": 0.7337457666700847,
+      "thrust_M50": 1.4674915333401695,
+      "thrust_M100": 2.934983066680339,
+      "thrust_M200": 5.869966133360678,
+      "thrust_M350": 10.272440733381185,
+      "thrust_M500": 14.674915333401696
+    },
+    {
+      "eta_delivered": 0.6,
+      "thrust_M10": 0.3186019092249149,
+      "thrust_M25": 0.7965047730622871,
+      "thrust_M50": 1.5930095461245741,
+      "thrust_M100": 3.1860190922491483,
+      "thrust_M200": 6.3720381844982965,
+      "thrust_M350": 11.15106682287202,
+      "thrust_M500": 15.930095461245743
+    },
+    {
+      "eta_delivered": 0.7,
+      "thrust_M10": 0.3422234063085932,
+      "thrust_M25": 0.8555585157714831,
+      "thrust_M50": 1.7111170315429662,
+      "thrust_M100": 3.4222340630859325,
+      "thrust_M200": 6.844468126171865,
+      "thrust_M350": 11.977819220800763,
+      "thrust_M500": 17.111170315429664
+    },
+    {
+      "eta_delivered": 0.8,
+      "thrust_M10": 0.3646756046821255,
+      "thrust_M25": 0.9116890117053138,
+      "thrust_M50": 1.8233780234106276,
+      "thrust_M100": 3.646756046821255,
+      "thrust_M200": 7.29351209364251,
+      "thrust_M350": 12.763646163874393,
+      "thrust_M500": 18.233780234106273
+    },
+    {
+      "eta_delivered": 0.9,
+      "thrust_M10": 0.3861741231919536,
+      "thrust_M25": 0.9654353079798841,
+      "thrust_M50": 1.9308706159597682,
+      "thrust_M100": 3.8617412319195363,
+      "thrust_M200": 7.723482463839073,
+      "thrust_M350": 13.516094311718376,
+      "thrust_M500": 19.30870615959768
+    }
+  ],
+  "power_required_by_eta_x_chunk_at_dv6.42_tau5": [
+    {
+      "eta_delivered": 0.5,
+      "pe_M10_kw": 4.5306855014703045,
+      "cls_M10": "MET_class",
+      "pe_M25_kw": 11.326713753675762,
+      "cls_M25": "MET_class",
+      "pe_M50_kw": 22.653427507351523,
+      "cls_M50": "MET_class",
+      "pe_M100_kw": 45.306855014703046,
+      "cls_M100": "MET_class",
+      "pe_M200_kw": 90.61371002940609,
+      "cls_M200": "MET_class",
+      "pe_M350_kw": 158.5739925514606,
+      "cls_M350": "MET_class",
+      "pe_M500_kw": 226.53427507351523,
+      "cls_M500": "MET_class"
+    },
+    {
+      "eta_delivered": 0.6,
+      "pe_M10_kw": 3.6401396307561646,
+      "cls_M10": "Hall_class",
+      "pe_M25_kw": 9.100349076890412,
+      "cls_M25": "Hall_class",
+      "pe_M50_kw": 18.200698153780824,
+      "cls_M50": "Hall_class",
+      "pe_M100_kw": 36.40139630756165,
+      "cls_M100": "Hall_class",
+      "pe_M200_kw": 72.8027926151233,
+      "cls_M200": "Hall_class",
+      "pe_M350_kw": 127.40488707646574,
+      "cls_M350": "Hall_class",
+      "pe_M500_kw": 182.00698153780823,
+      "cls_M500": "Hall_class"
+    },
+    {
+      "eta_delivered": 0.7,
+      "pe_M10_kw": 4.7383679687536215,
+      "cls_M10": "RF_ion_class",
+      "pe_M25_kw": 11.845919921884056,
+      "cls_M25": "RF_ion_class",
+      "pe_M50_kw": 23.69183984376811,
+      "cls_M50": "RF_ion_class",
+      "pe_M100_kw": 47.38367968753622,
+      "cls_M100": "RF_ion_class",
+      "pe_M200_kw": 94.76735937507245,
+      "cls_M200": "RF_ion_class",
+      "pe_M350_kw": 165.84287890637674,
+      "cls_M350": "RF_ion_class",
+      "pe_M500_kw": 236.9183984376811,
+      "cls_M500": "RF_ion_class"
+    },
+    {
+      "eta_delivered": 0.8,
+      "pe_M10_kw": 8.07075282763593,
+      "cls_M10": "RF_ion_class",
+      "pe_M25_kw": 20.176882069089825,
+      "cls_M25": "RF_ion_class",
+      "pe_M50_kw": 40.35376413817965,
+      "cls_M50": "RF_ion_class",
+      "pe_M100_kw": 80.7075282763593,
+      "cls_M100": "RF_ion_class",
+      "pe_M200_kw": 161.4150565527186,
+      "cls_M200": "RF_ion_class",
+      "pe_M350_kw": 282.47634896725754,
+      "cls_M350": "RF_ion_class",
+      "pe_M500_kw": 403.5376413817964,
+      "cls_M500": "RF_ion_class"
+    },
+    {
+      "eta_delivered": 0.9,
+      "pe_M10_kw": 21.39181453156366,
+      "cls_M10": "dual_ion_class",
+      "pe_M25_kw": 53.479536328909155,
+      "cls_M25": "dual_ion_class",
+      "pe_M50_kw": 106.95907265781831,
+      "cls_M50": "dual_ion_class",
+      "pe_M100_kw": 213.91814531563662,
+      "cls_M100": "dual_ion_class",
+      "pe_M200_kw": 427.83629063127324,
+      "cls_M200": "dual_ion_class",
+      "pe_M350_kw": 748.7135086047282,
+      "cls_M350": "dual_ion_class",
+      "pe_M500_kw": 1069.5907265781832,
+      "cls_M500": "dual_ion_class"
+    }
+  ],
+  "known_thruster_max_eta": [
+    {
+      "name": "water_MET",
+      "isp_s": 700.0,
+      "eta_dv4.47": 0.5214397001898792,
+      "eta_dv6.42": 0.3924973705391323,
+      "eta_dv8.87": 0.27468614730882823
+    },
+    {
+      "name": "water_Hall",
+      "isp_s": 1500.0,
+      "eta_dv4.47": 0.7379527864210202,
+      "eta_dv6.42": 0.6463342209131586,
+      "eta_dv8.87": 0.5471719432579197
+    },
+    {
+      "name": "water_RF_ion",
+      "isp_s": 2000.0,
+      "eta_dv4.47": 0.7961986423331419,
+      "eta_dv6.42": 0.7208466144337876,
+      "eta_dv8.87": 0.6361988288913591
+    },
+    {
+      "name": "water_dual_ion",
+      "isp_s": 5000.0,
+      "eta_dv4.47": 0.9128692394132697,
+      "eta_dv6.42": 0.8772778116979804,
+      "eta_dv8.87": 0.8345207623662296
+    },
+    {
+      "name": "H2_NTP_solid_core",
+      "isp_s": 900.0,
+      "eta_dv4.47": 0.6026256712105145,
+      "eta_dv6.42": 0.4831647601097145,
+      "eta_dv8.87": 0.3660494011789346
+    }
+  ],
+  "coverage_by_isp_pow_band_at_dv6.42_tau5": {
+    "MET|<=50 kWe": [
+      [
+        0.5,
+        10.0
+      ],
+      [
+        0.5,
+        25.0
+      ],
+      [
+        0.5,
+        50.0
+      ],
+      [
+        0.5,
+        100.0
+      ]
+    ],
+    "MET|50-200 kWe": [
+      [
+        0.5,
+        200.0
+      ],
+      [
+        0.5,
+        350.0
+      ]
+    ],
+    "MET|200-500 kWe": [
+      [
+        0.5,
+        500.0
+      ]
+    ],
+    "Hall|<=50 kWe": [
+      [
+        0.6,
+        10.0
+      ],
+      [
+        0.6,
+        25.0
+      ],
+      [
+        0.6,
+        50.0
+      ],
+      [
+        0.6,
+        100.0
+      ]
+    ],
+    "Hall|50-200 kWe": [
+      [
+        0.6,
+        200.0
+      ],
+      [
+        0.6,
+        350.0
+      ],
+      [
+        0.6,
+        500.0
+      ]
+    ],
+    "RF_ion|<=50 kWe": [
+      [
+        0.7,
+        10.0
+      ],
+      [
+        0.7,
+        25.0
+      ],
+      [
+        0.7,
+        50.0
+      ],
+      [
+        0.7,
+        100.0
+      ],
+      [
+        0.8,
+        10.0
+      ],
+      [
+        0.8,
+        25.0
+      ],
+      [
+        0.8,
+        50.0
+      ]
+    ],
+    "RF_ion|50-200 kWe": [
+      [
+        0.7,
+        200.0
+      ],
+      [
+        0.7,
+        350.0
+      ],
+      [
+        0.8,
+        100.0
+      ],
+      [
+        0.8,
+        200.0
+      ]
+    ],
+    "RF_ion|200-500 kWe": [
+      [
+        0.7,
+        500.0
+      ],
+      [
+        0.8,
+        350.0
+      ],
+      [
+        0.8,
+        500.0
+      ]
+    ],
+    "dual_ion|<=50 kWe": [
+      [
+        0.9,
+        10.0
+      ]
+    ],
+    "dual_ion|50-200 kWe": [
+      [
+        0.9,
+        25.0
+      ],
+      [
+        0.9,
+        50.0
+      ]
+    ],
+    "dual_ion|200-500 kWe": [
+      [
+        0.9,
+        100.0
+      ],
+      [
+        0.9,
+        200.0
+      ]
+    ],
+    "dual_ion|500 kWe - 2 MWe": [
+      [
+        0.9,
+        350.0
+      ],
+      [
+        0.9,
+        500.0
+      ]
+    ]
+  },
+  "all_cells": [
+    {
+      "feasible": true,
+      "isp_s": 657.599367039067,
+      "v_e_m_s": 6448.846832773666,
+      "thrust_N": 0.340586041226924,
+      "m_prop_t": 5.0,
+      "p_jet_kw": 1.0981936066265852,
+      "p_electrical_kw": {
+        "MET_class": 3.6606453554219502,
+        "Hall_class": 1.9967156484119726,
+        "RF_ion_class": 1.6895286255793616
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 10.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 657.599367039067,
+      "v_e_m_s": 6448.846832773666,
+      "thrust_N": 0.2043516247361544,
+      "m_prop_t": 5.0,
+      "p_jet_kw": 0.658916163975951,
+      "p_electrical_kw": {
+        "MET_class": 2.1963872132531703,
+        "Hall_class": 1.1980293890471836,
+        "RF_ion_class": 1.0137171753476169
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 10.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 657.599367039067,
+      "v_e_m_s": 6448.846832773666,
+      "thrust_N": 0.1459654462401103,
+      "m_prop_t": 5.0,
+      "p_jet_kw": 0.47065440283996507,
+      "p_electrical_kw": {
+        "MET_class": 1.5688480094665505,
+        "Hall_class": 0.8557352778908455,
+        "RF_ion_class": 0.7240836966768693
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 10.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 944.4715741366467,
+      "v_e_m_s": 9262.102162507146,
+      "thrust_N": 0.4891638444467232,
+      "m_prop_t": 5.0,
+      "p_jet_kw": 2.2653427507351522,
+      "p_electrical_kw": {
+        "MET_class": 7.5511425024505066,
+        "Hall_class": 4.11880500133664,
+        "RF_ion_class": 3.4851426934386955
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 10.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 944.4715741366467,
+      "v_e_m_s": 9262.102162507146,
+      "thrust_N": 0.2934983066680339,
+      "m_prop_t": 5.0,
+      "p_jet_kw": 1.3592056504410912,
+      "p_electrical_kw": {
+        "MET_class": 4.5306855014703045,
+        "Hall_class": 2.4712830008019835,
+        "RF_ion_class": 2.091085616063217
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 10.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 944.4715741366467,
+      "v_e_m_s": 9262.102162507146,
+      "thrust_N": 0.2096416476200242,
+      "m_prop_t": 5.0,
+      "p_jet_kw": 0.9708611788864937,
+      "p_electrical_kw": {
+        "MET_class": 3.2362039296216456,
+        "Hall_class": 1.7652021434299885,
+        "RF_ion_class": 1.4936325829022978
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 10.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1304.9007574130928,
+      "v_e_m_s": 12796.705012685106,
+      "thrust_N": 0.6758385202869835,
+      "m_prop_t": 5.0,
+      "p_jet_kw": 4.324253090161063,
+      "p_electrical_kw": {
+        "MET_class": 14.414176967203547,
+        "Hall_class": 7.862278345747388,
+        "RF_ion_class": 6.6526970617862515
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 10.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1304.9007574130928,
+      "v_e_m_s": 12796.705012685106,
+      "thrust_N": 0.4055031121721901,
+      "m_prop_t": 5.0,
+      "p_jet_kw": 2.5945518540966384,
+      "p_electrical_kw": {
+        "MET_class": 8.648506180322126,
+        "Hall_class": 4.717367007448432,
+        "RF_ion_class": 3.991618237071751
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 10.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1304.9007574130928,
+      "v_e_m_s": 12796.705012685106,
+      "thrust_N": 0.28964508012299295,
+      "m_prop_t": 5.0,
+      "p_jet_kw": 1.8532513243547417,
+      "p_electrical_kw": {
+        "MET_class": 6.177504414515806,
+        "Hall_class": 3.3695478624631665,
+        "RF_ion_class": 2.8511558836226794
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 10.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 657.599367039067,
+      "v_e_m_s": 6448.846832773666,
+      "thrust_N": 0.85146510306731,
+      "m_prop_t": 12.5,
+      "p_jet_kw": 2.7454840165664627,
+      "p_electrical_kw": {
+        "MET_class": 9.151613388554876,
+        "Hall_class": 4.9917891210299326,
+        "RF_ion_class": 4.2238215639484045
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 25.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 657.599367039067,
+      "v_e_m_s": 6448.846832773666,
+      "thrust_N": 0.510879061840386,
+      "m_prop_t": 12.5,
+      "p_jet_kw": 1.6472904099398777,
+      "p_electrical_kw": {
+        "MET_class": 5.490968033132925,
+        "Hall_class": 2.9950734726179595,
+        "RF_ion_class": 2.5342929383690427
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 25.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 657.599367039067,
+      "v_e_m_s": 6448.846832773666,
+      "thrust_N": 0.36491361560027574,
+      "m_prop_t": 12.5,
+      "p_jet_kw": 1.1766360070999127,
+      "p_electrical_kw": {
+        "MET_class": 3.922120023666375,
+        "Hall_class": 2.1393381947271135,
+        "RF_ion_class": 1.8102092416921733
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 25.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 944.4715741366467,
+      "v_e_m_s": 9262.102162507146,
+      "thrust_N": 1.2229096111168078,
+      "m_prop_t": 12.5,
+      "p_jet_kw": 5.66335687683788,
+      "p_electrical_kw": {
+        "MET_class": 18.877856256126265,
+        "Hall_class": 10.297012503341598,
+        "RF_ion_class": 8.712856733596738
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 25.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 944.4715741366467,
+      "v_e_m_s": 9262.102162507146,
+      "thrust_N": 0.7337457666700847,
+      "m_prop_t": 12.5,
+      "p_jet_kw": 3.398014126102728,
+      "p_electrical_kw": {
+        "MET_class": 11.32671375367576,
+        "Hall_class": 6.17820750200496,
+        "RF_ion_class": 5.227714040158043
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 25.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 944.4715741366467,
+      "v_e_m_s": 9262.102162507146,
+      "thrust_N": 0.5241041190500605,
+      "m_prop_t": 12.5,
+      "p_jet_kw": 2.4271529472162343,
+      "p_electrical_kw": {
+        "MET_class": 8.090509824054115,
+        "Hall_class": 4.413005358574971,
+        "RF_ion_class": 3.7340814572557446
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 25.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1304.9007574130928,
+      "v_e_m_s": 12796.705012685106,
+      "thrust_N": 1.6895963007174586,
+      "m_prop_t": 12.5,
+      "p_jet_kw": 10.810632725402657,
+      "p_electrical_kw": {
+        "MET_class": 36.035442418008856,
+        "Hall_class": 19.655695864368464,
+        "RF_ion_class": 16.631742654465626
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 25.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1304.9007574130928,
+      "v_e_m_s": 12796.705012685106,
+      "thrust_N": 1.0137577804304752,
+      "m_prop_t": 12.5,
+      "p_jet_kw": 6.486379635241595,
+      "p_electrical_kw": {
+        "MET_class": 21.621265450805318,
+        "Hall_class": 11.79341751862108,
+        "RF_ion_class": 9.979045592679377
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 25.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1304.9007574130928,
+      "v_e_m_s": 12796.705012685106,
+      "thrust_N": 0.7241127003074823,
+      "m_prop_t": 12.5,
+      "p_jet_kw": 4.633128310886854,
+      "p_electrical_kw": {
+        "MET_class": 15.443761036289514,
+        "Hall_class": 8.423869656157915,
+        "RF_ion_class": 7.1278897090566975
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 25.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 657.599367039067,
+      "v_e_m_s": 6448.846832773666,
+      "thrust_N": 1.70293020613462,
+      "m_prop_t": 25.0,
+      "p_jet_kw": 5.490968033132925,
+      "p_electrical_kw": {
+        "MET_class": 18.303226777109753,
+        "Hall_class": 9.983578242059865,
+        "RF_ion_class": 8.447643127896809
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 50.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 657.599367039067,
+      "v_e_m_s": 6448.846832773666,
+      "thrust_N": 1.021758123680772,
+      "m_prop_t": 25.0,
+      "p_jet_kw": 3.2945808198797555,
+      "p_electrical_kw": {
+        "MET_class": 10.98193606626585,
+        "Hall_class": 5.990146945235919,
+        "RF_ion_class": 5.068585876738085
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 50.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 657.599367039067,
+      "v_e_m_s": 6448.846832773666,
+      "thrust_N": 0.7298272312005515,
+      "m_prop_t": 25.0,
+      "p_jet_kw": 2.3532720141998253,
+      "p_electrical_kw": {
+        "MET_class": 7.84424004733275,
+        "Hall_class": 4.278676389454227,
+        "RF_ion_class": 3.6204184833843467
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 50.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 944.4715741366467,
+      "v_e_m_s": 9262.102162507146,
+      "thrust_N": 2.4458192222336157,
+      "m_prop_t": 25.0,
+      "p_jet_kw": 11.32671375367576,
+      "p_electrical_kw": {
+        "MET_class": 37.75571251225253,
+        "Hall_class": 20.594025006683196,
+        "RF_ion_class": 17.425713467193475
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 50.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 944.4715741366467,
+      "v_e_m_s": 9262.102162507146,
+      "thrust_N": 1.4674915333401695,
+      "m_prop_t": 25.0,
+      "p_jet_kw": 6.796028252205456,
+      "p_electrical_kw": {
+        "MET_class": 22.65342750735152,
+        "Hall_class": 12.35641500400992,
+        "RF_ion_class": 10.455428080316086
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 50.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 944.4715741366467,
+      "v_e_m_s": 9262.102162507146,
+      "thrust_N": 1.048208238100121,
+      "m_prop_t": 25.0,
+      "p_jet_kw": 4.854305894432469,
+      "p_electrical_kw": {
+        "MET_class": 16.18101964810823,
+        "Hall_class": 8.826010717149941,
+        "RF_ion_class": 7.468162914511489
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 50.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1304.9007574130928,
+      "v_e_m_s": 12796.705012685106,
+      "thrust_N": 3.379192601434917,
+      "m_prop_t": 25.0,
+      "p_jet_kw": 21.621265450805314,
+      "p_electrical_kw": {
+        "MET_class": 72.07088483601771,
+        "Hall_class": 39.31139172873693,
+        "RF_ion_class": 33.26348530893125
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 50.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1304.9007574130928,
+      "v_e_m_s": 12796.705012685106,
+      "thrust_N": 2.0275155608609503,
+      "m_prop_t": 25.0,
+      "p_jet_kw": 12.97275927048319,
+      "p_electrical_kw": {
+        "MET_class": 43.242530901610635,
+        "Hall_class": 23.58683503724216,
+        "RF_ion_class": 19.958091185358754
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 50.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1304.9007574130928,
+      "v_e_m_s": 12796.705012685106,
+      "thrust_N": 1.4482254006149646,
+      "m_prop_t": 25.0,
+      "p_jet_kw": 9.266256621773708,
+      "p_electrical_kw": {
+        "MET_class": 30.887522072579028,
+        "Hall_class": 16.84773931231583,
+        "RF_ion_class": 14.255779418113395
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 50.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 657.599367039067,
+      "v_e_m_s": 6448.846832773666,
+      "thrust_N": 3.40586041226924,
+      "m_prop_t": 50.0,
+      "p_jet_kw": 10.98193606626585,
+      "p_electrical_kw": {
+        "MET_class": 36.606453554219506,
+        "Hall_class": 19.96715648411973,
+        "RF_ion_class": 16.895286255793618
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 100.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 657.599367039067,
+      "v_e_m_s": 6448.846832773666,
+      "thrust_N": 2.043516247361544,
+      "m_prop_t": 50.0,
+      "p_jet_kw": 6.589161639759511,
+      "p_electrical_kw": {
+        "MET_class": 21.9638721325317,
+        "Hall_class": 11.980293890471838,
+        "RF_ion_class": 10.13717175347617
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 100.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 657.599367039067,
+      "v_e_m_s": 6448.846832773666,
+      "thrust_N": 1.459654462401103,
+      "m_prop_t": 50.0,
+      "p_jet_kw": 4.706544028399651,
+      "p_electrical_kw": {
+        "MET_class": 15.6884800946655,
+        "Hall_class": 8.557352778908454,
+        "RF_ion_class": 7.240836966768693
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 100.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 944.4715741366467,
+      "v_e_m_s": 9262.102162507146,
+      "thrust_N": 4.891638444467231,
+      "m_prop_t": 50.0,
+      "p_jet_kw": 22.65342750735152,
+      "p_electrical_kw": {
+        "MET_class": 75.51142502450506,
+        "Hall_class": 41.18805001336639,
+        "RF_ion_class": 34.85142693438695
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 100.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 944.4715741366467,
+      "v_e_m_s": 9262.102162507146,
+      "thrust_N": 2.934983066680339,
+      "m_prop_t": 50.0,
+      "p_jet_kw": 13.592056504410913,
+      "p_electrical_kw": {
+        "MET_class": 45.30685501470304,
+        "Hall_class": 24.71283000801984,
+        "RF_ion_class": 20.91085616063217
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 100.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 944.4715741366467,
+      "v_e_m_s": 9262.102162507146,
+      "thrust_N": 2.096416476200242,
+      "m_prop_t": 50.0,
+      "p_jet_kw": 9.708611788864937,
+      "p_electrical_kw": {
+        "MET_class": 32.36203929621646,
+        "Hall_class": 17.652021434299883,
+        "RF_ion_class": 14.936325829022978
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 100.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1304.9007574130928,
+      "v_e_m_s": 12796.705012685106,
+      "thrust_N": 6.758385202869834,
+      "m_prop_t": 50.0,
+      "p_jet_kw": 43.24253090161063,
+      "p_electrical_kw": {
+        "MET_class": 144.14176967203542,
+        "Hall_class": 78.62278345747386,
+        "RF_ion_class": 66.5269706178625
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 100.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1304.9007574130928,
+      "v_e_m_s": 12796.705012685106,
+      "thrust_N": 4.055031121721901,
+      "m_prop_t": 50.0,
+      "p_jet_kw": 25.94551854096638,
+      "p_electrical_kw": {
+        "MET_class": 86.48506180322127,
+        "Hall_class": 47.17367007448432,
+        "RF_ion_class": 39.91618237071751
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 100.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1304.9007574130928,
+      "v_e_m_s": 12796.705012685106,
+      "thrust_N": 2.8964508012299293,
+      "m_prop_t": 50.0,
+      "p_jet_kw": 18.532513243547417,
+      "p_electrical_kw": {
+        "MET_class": 61.775044145158056,
+        "Hall_class": 33.69547862463166,
+        "RF_ion_class": 28.51155883622679
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 100.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 657.599367039067,
+      "v_e_m_s": 6448.846832773666,
+      "thrust_N": 6.81172082453848,
+      "m_prop_t": 100.0,
+      "p_jet_kw": 21.9638721325317,
+      "p_electrical_kw": {
+        "MET_class": 73.21290710843901,
+        "Hall_class": 39.93431296823946,
+        "RF_ion_class": 33.790572511587236
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 200.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 657.599367039067,
+      "v_e_m_s": 6448.846832773666,
+      "thrust_N": 4.087032494723088,
+      "m_prop_t": 100.0,
+      "p_jet_kw": 13.178323279519022,
+      "p_electrical_kw": {
+        "MET_class": 43.9277442650634,
+        "Hall_class": 23.960587780943676,
+        "RF_ion_class": 20.27434350695234
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 200.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 657.599367039067,
+      "v_e_m_s": 6448.846832773666,
+      "thrust_N": 2.919308924802206,
+      "m_prop_t": 100.0,
+      "p_jet_kw": 9.413088056799301,
+      "p_electrical_kw": {
+        "MET_class": 31.376960189331,
+        "Hall_class": 17.114705557816908,
+        "RF_ion_class": 14.481673933537387
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 200.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 944.4715741366467,
+      "v_e_m_s": 9262.102162507146,
+      "thrust_N": 9.783276888934463,
+      "m_prop_t": 100.0,
+      "p_jet_kw": 45.30685501470304,
+      "p_electrical_kw": {
+        "MET_class": 151.02285004901012,
+        "Hall_class": 82.37610002673279,
+        "RF_ion_class": 69.7028538687739
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 200.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 944.4715741366467,
+      "v_e_m_s": 9262.102162507146,
+      "thrust_N": 5.869966133360678,
+      "m_prop_t": 100.0,
+      "p_jet_kw": 27.184113008821825,
+      "p_electrical_kw": {
+        "MET_class": 90.61371002940608,
+        "Hall_class": 49.42566001603968,
+        "RF_ion_class": 41.82171232126434
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 200.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 944.4715741366467,
+      "v_e_m_s": 9262.102162507146,
+      "thrust_N": 4.192832952400484,
+      "m_prop_t": 100.0,
+      "p_jet_kw": 19.417223577729875,
+      "p_electrical_kw": {
+        "MET_class": 64.72407859243292,
+        "Hall_class": 35.304042868599765,
+        "RF_ion_class": 29.872651658045957
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 200.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1304.9007574130928,
+      "v_e_m_s": 12796.705012685106,
+      "thrust_N": 13.516770405739669,
+      "m_prop_t": 100.0,
+      "p_jet_kw": 86.48506180322126,
+      "p_electrical_kw": {
+        "MET_class": 288.28353934407085,
+        "Hall_class": 157.24556691494772,
+        "RF_ion_class": 133.053941235725
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 200.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1304.9007574130928,
+      "v_e_m_s": 12796.705012685106,
+      "thrust_N": 8.110062243443801,
+      "m_prop_t": 100.0,
+      "p_jet_kw": 51.89103708193276,
+      "p_electrical_kw": {
+        "MET_class": 172.97012360644254,
+        "Hall_class": 94.34734014896864,
+        "RF_ion_class": 79.83236474143501
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 200.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1304.9007574130928,
+      "v_e_m_s": 12796.705012685106,
+      "thrust_N": 5.7929016024598585,
+      "m_prop_t": 100.0,
+      "p_jet_kw": 37.06502648709483,
+      "p_electrical_kw": {
+        "MET_class": 123.55008829031611,
+        "Hall_class": 67.39095724926332,
+        "RF_ion_class": 57.02311767245358
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 200.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 657.599367039067,
+      "v_e_m_s": 6448.846832773666,
+      "thrust_N": 11.92051144294234,
+      "m_prop_t": 175.0,
+      "p_jet_kw": 38.43677623193048,
+      "p_electrical_kw": {
+        "MET_class": 128.12258743976827,
+        "Hall_class": 69.88504769441906,
+        "RF_ion_class": 59.13350189527766
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 350.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 657.599367039067,
+      "v_e_m_s": 6448.846832773666,
+      "thrust_N": 7.1523068657654045,
+      "m_prop_t": 175.0,
+      "p_jet_kw": 23.06206573915829,
+      "p_electrical_kw": {
+        "MET_class": 76.87355246386096,
+        "Hall_class": 41.93102861665143,
+        "RF_ion_class": 35.48010113716659
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 350.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 657.599367039067,
+      "v_e_m_s": 6448.846832773666,
+      "thrust_N": 5.1087906184038605,
+      "m_prop_t": 175.0,
+      "p_jet_kw": 16.472904099398775,
+      "p_electrical_kw": {
+        "MET_class": 54.909680331329255,
+        "Hall_class": 29.95073472617959,
+        "RF_ion_class": 25.342929383690425
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 350.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 944.4715741366467,
+      "v_e_m_s": 9262.102162507146,
+      "thrust_N": 17.12073455563531,
+      "m_prop_t": 175.0,
+      "p_jet_kw": 79.28699627573032,
+      "p_electrical_kw": {
+        "MET_class": 264.28998758576773,
+        "Hall_class": 144.1581750467824,
+        "RF_ion_class": 121.97999427035433
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 350.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 944.4715741366467,
+      "v_e_m_s": 9262.102162507146,
+      "thrust_N": 10.272440733381185,
+      "m_prop_t": 175.0,
+      "p_jet_kw": 47.57219776543818,
+      "p_electrical_kw": {
+        "MET_class": 158.57399255146063,
+        "Hall_class": 86.49490502806943,
+        "RF_ion_class": 73.18799656221259
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 350.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 944.4715741366467,
+      "v_e_m_s": 9262.102162507146,
+      "thrust_N": 7.337457666700847,
+      "m_prop_t": 175.0,
+      "p_jet_kw": 33.98014126102728,
+      "p_electrical_kw": {
+        "MET_class": 113.26713753675759,
+        "Hall_class": 61.78207502004958,
+        "RF_ion_class": 52.277140401580425
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 350.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1304.9007574130928,
+      "v_e_m_s": 12796.705012685106,
+      "thrust_N": 23.65434821004442,
+      "m_prop_t": 175.0,
+      "p_jet_kw": 151.34885815563723,
+      "p_electrical_kw": {
+        "MET_class": 504.4961938521241,
+        "Hall_class": 275.1797421011585,
+        "RF_ion_class": 232.8443971625188
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 350.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1304.9007574130928,
+      "v_e_m_s": 12796.705012685106,
+      "thrust_N": 14.192608926026653,
+      "m_prop_t": 175.0,
+      "p_jet_kw": 90.80931489338232,
+      "p_electrical_kw": {
+        "MET_class": 302.69771631127446,
+        "Hall_class": 165.10784526069511,
+        "RF_ion_class": 139.70663829751126
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 350.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1304.9007574130928,
+      "v_e_m_s": 12796.705012685106,
+      "thrust_N": 10.137577804304751,
+      "m_prop_t": 175.0,
+      "p_jet_kw": 64.86379635241595,
+      "p_electrical_kw": {
+        "MET_class": 216.21265450805316,
+        "Hall_class": 117.9341751862108,
+        "RF_ion_class": 99.79045592679375
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 350.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 657.599367039067,
+      "v_e_m_s": 6448.846832773666,
+      "thrust_N": 17.0293020613462,
+      "m_prop_t": 250.0,
+      "p_jet_kw": 54.909680331329255,
+      "p_electrical_kw": {
+        "MET_class": 183.0322677710975,
+        "Hall_class": 99.83578242059863,
+        "RF_ion_class": 84.47643127896808
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 500.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 657.599367039067,
+      "v_e_m_s": 6448.846832773666,
+      "thrust_N": 10.217581236807721,
+      "m_prop_t": 250.0,
+      "p_jet_kw": 32.94580819879755,
+      "p_electrical_kw": {
+        "MET_class": 109.81936066265851,
+        "Hall_class": 59.90146945235918,
+        "RF_ion_class": 50.68585876738085
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 500.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 657.599367039067,
+      "v_e_m_s": 6448.846832773666,
+      "thrust_N": 7.298272312005515,
+      "m_prop_t": 250.0,
+      "p_jet_kw": 23.53272014199825,
+      "p_electrical_kw": {
+        "MET_class": 78.44240047332751,
+        "Hall_class": 42.786763894542275,
+        "RF_ion_class": 36.20418483384346
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 500.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 944.4715741366467,
+      "v_e_m_s": 9262.102162507146,
+      "thrust_N": 24.45819222233616,
+      "m_prop_t": 250.0,
+      "p_jet_kw": 113.2671375367576,
+      "p_electrical_kw": {
+        "MET_class": 377.55712512252535,
+        "Hall_class": 205.94025006683196,
+        "RF_ion_class": 174.25713467193475
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 500.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 944.4715741366467,
+      "v_e_m_s": 9262.102162507146,
+      "thrust_N": 14.674915333401696,
+      "m_prop_t": 250.0,
+      "p_jet_kw": 67.96028252205457,
+      "p_electrical_kw": {
+        "MET_class": 226.53427507351523,
+        "Hall_class": 123.5641500400992,
+        "RF_ion_class": 104.55428080316086
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 500.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 944.4715741366467,
+      "v_e_m_s": 9262.102162507146,
+      "thrust_N": 10.482082381001211,
+      "m_prop_t": 250.0,
+      "p_jet_kw": 48.543058944324684,
+      "p_electrical_kw": {
+        "MET_class": 161.8101964810823,
+        "Hall_class": 88.26010717149941,
+        "RF_ion_class": 74.6816291451149
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 500.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1304.9007574130928,
+      "v_e_m_s": 12796.705012685106,
+      "thrust_N": 33.79192601434917,
+      "m_prop_t": 250.0,
+      "p_jet_kw": 216.21265450805316,
+      "p_electrical_kw": {
+        "MET_class": 720.7088483601773,
+        "Hall_class": 393.1139172873693,
+        "RF_ion_class": 332.6348530893125
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 500.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1304.9007574130928,
+      "v_e_m_s": 12796.705012685106,
+      "thrust_N": 20.275155608609506,
+      "m_prop_t": 250.0,
+      "p_jet_kw": 129.7275927048319,
+      "p_electrical_kw": {
+        "MET_class": 432.4253090161064,
+        "Hall_class": 235.86835037242162,
+        "RF_ion_class": 199.5809118535875
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 500.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1304.9007574130928,
+      "v_e_m_s": 12796.705012685106,
+      "thrust_N": 14.482254006149647,
+      "m_prop_t": 250.0,
+      "p_jet_kw": 92.66256621773708,
+      "p_electrical_kw": {
+        "MET_class": 308.8752207257903,
+        "Hall_class": 168.47739312315832,
+        "RF_ion_class": 142.55779418113397
+      },
+      "eta_delivered": 0.5,
+      "chunk_t": 500.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 892.3067402937132,
+      "v_e_m_s": 8750.539894701342,
+      "thrust_N": 0.369717168804613,
+      "m_prop_t": 4.0,
+      "p_jet_kw": 1.617612417690398,
+      "p_electrical_kw": {
+        "MET_class": 5.392041392301327,
+        "Hall_class": 2.9411134867098143,
+        "RF_ion_class": 2.488634488754459
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 10.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 892.3067402937132,
+      "v_e_m_s": 8750.539894701342,
+      "thrust_N": 0.2218303012827678,
+      "m_prop_t": 4.0,
+      "p_jet_kw": 0.9705674506142389,
+      "p_electrical_kw": {
+        "MET_class": 3.235224835380796,
+        "Hall_class": 1.7646680920258886,
+        "RF_ion_class": 1.4931806932526752
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 10.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 892.3067402937132,
+      "v_e_m_s": 8750.539894701342,
+      "thrust_N": 0.158450215201977,
+      "m_prop_t": 4.0,
+      "p_jet_kw": 0.6932624647244563,
+      "p_electrical_kw": {
+        "MET_class": 2.3108748824148546,
+        "Hall_class": 1.2604772085899205,
+        "RF_ion_class": 1.0665576380376252
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 10.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1281.5680699520444,
+      "v_e_m_s": 12567.889513195216,
+      "thrust_N": 0.5310031820415247,
+      "m_prop_t": 4.0,
+      "p_jet_kw": 3.3367946615264845,
+      "p_electrical_kw": {
+        "MET_class": 11.122648871754949,
+        "Hall_class": 6.066899384593608,
+        "RF_ion_class": 5.133530248502284
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 10.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1281.5680699520444,
+      "v_e_m_s": 12567.889513195216,
+      "thrust_N": 0.3186019092249149,
+      "m_prop_t": 4.0,
+      "p_jet_kw": 2.002076796915891,
+      "p_electrical_kw": {
+        "MET_class": 6.67358932305297,
+        "Hall_class": 3.6401396307561655,
+        "RF_ion_class": 3.080118149101371
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 10.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1281.5680699520444,
+      "v_e_m_s": 12567.889513195216,
+      "thrust_N": 0.22757279230351063,
+      "m_prop_t": 4.0,
+      "p_jet_kw": 1.4300548549399221,
+      "p_electrical_kw": {
+        "MET_class": 4.766849516466407,
+        "Hall_class": 2.6000997362544034,
+        "RF_ion_class": 2.200084392215264
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 10.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1770.639996958666,
+      "v_e_m_s": 17364.0467261747,
+      "thrust_N": 0.733644583287901,
+      "m_prop_t": 4.0,
+      "p_jet_kw": 6.36951941230804,
+      "p_electrical_kw": {
+        "MET_class": 21.231731374360134,
+        "Hall_class": 11.580944386014616,
+        "RF_ion_class": 9.79926063432006
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 10.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1770.639996958666,
+      "v_e_m_s": 17364.0467261747,
+      "thrust_N": 0.44018674997274065,
+      "m_prop_t": 4.0,
+      "p_jet_kw": 3.821711647384824,
+      "p_electrical_kw": {
+        "MET_class": 12.73903882461608,
+        "Hall_class": 6.948566631608771,
+        "RF_ion_class": 5.879556380592036
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 10.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1770.639996958666,
+      "v_e_m_s": 17364.0467261747,
+      "thrust_N": 0.31441910712338617,
+      "m_prop_t": 4.0,
+      "p_jet_kw": 2.7297940338463027,
+      "p_electrical_kw": {
+        "MET_class": 9.099313446154342,
+        "Hall_class": 4.96326187972055,
+        "RF_ion_class": 4.199683128994312
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 10.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 892.3067402937132,
+      "v_e_m_s": 8750.539894701342,
+      "thrust_N": 0.9242929220115326,
+      "m_prop_t": 10.0,
+      "p_jet_kw": 4.044031044225996,
+      "p_electrical_kw": {
+        "MET_class": 13.480103480753321,
+        "Hall_class": 7.352783716774537,
+        "RF_ion_class": 6.221586221886148
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 25.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 892.3067402937132,
+      "v_e_m_s": 8750.539894701342,
+      "thrust_N": 0.5545757532069195,
+      "m_prop_t": 10.0,
+      "p_jet_kw": 2.4264186265355976,
+      "p_electrical_kw": {
+        "MET_class": 8.088062088451991,
+        "Hall_class": 4.411670230064722,
+        "RF_ion_class": 3.732951733131688
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 25.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 892.3067402937132,
+      "v_e_m_s": 8750.539894701342,
+      "thrust_N": 0.39612553800494255,
+      "m_prop_t": 10.0,
+      "p_jet_kw": 1.733156161811141,
+      "p_electrical_kw": {
+        "MET_class": 5.777187206037137,
+        "Hall_class": 3.1511930214748016,
+        "RF_ion_class": 2.666394095094063
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 25.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1281.5680699520444,
+      "v_e_m_s": 12567.889513195216,
+      "thrust_N": 1.3275079551038118,
+      "m_prop_t": 10.0,
+      "p_jet_kw": 8.341986653816212,
+      "p_electrical_kw": {
+        "MET_class": 27.806622179387375,
+        "Hall_class": 15.16724846148402,
+        "RF_ion_class": 12.83382562125571
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 25.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1281.5680699520444,
+      "v_e_m_s": 12567.889513195216,
+      "thrust_N": 0.7965047730622871,
+      "m_prop_t": 10.0,
+      "p_jet_kw": 5.005191992289727,
+      "p_electrical_kw": {
+        "MET_class": 16.683973307632424,
+        "Hall_class": 9.100349076890412,
+        "RF_ion_class": 7.700295372753426
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 25.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1281.5680699520444,
+      "v_e_m_s": 12567.889513195216,
+      "thrust_N": 0.5689319807587765,
+      "m_prop_t": 10.0,
+      "p_jet_kw": 3.5751371373498047,
+      "p_electrical_kw": {
+        "MET_class": 11.917123791166016,
+        "Hall_class": 6.5002493406360085,
+        "RF_ion_class": 5.500210980538161
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 25.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1770.639996958666,
+      "v_e_m_s": 17364.0467261747,
+      "thrust_N": 1.8341114582197526,
+      "m_prop_t": 10.0,
+      "p_jet_kw": 15.9237985307701,
+      "p_electrical_kw": {
+        "MET_class": 53.07932843590034,
+        "Hall_class": 28.952360965036544,
+        "RF_ion_class": 24.498151585800155
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 25.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1770.639996958666,
+      "v_e_m_s": 17364.0467261747,
+      "thrust_N": 1.1004668749318516,
+      "m_prop_t": 10.0,
+      "p_jet_kw": 9.55427911846206,
+      "p_electrical_kw": {
+        "MET_class": 31.8475970615402,
+        "Hall_class": 17.371416579021925,
+        "RF_ion_class": 14.698890951480093
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 25.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1770.639996958666,
+      "v_e_m_s": 17364.0467261747,
+      "thrust_N": 0.7860477678084654,
+      "m_prop_t": 10.0,
+      "p_jet_kw": 6.824485084615757,
+      "p_electrical_kw": {
+        "MET_class": 22.74828361538586,
+        "Hall_class": 12.408154699301374,
+        "RF_ion_class": 10.49920782248578
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 25.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 892.3067402937132,
+      "v_e_m_s": 8750.539894701342,
+      "thrust_N": 1.8485858440230651,
+      "m_prop_t": 20.0,
+      "p_jet_kw": 8.088062088451991,
+      "p_electrical_kw": {
+        "MET_class": 26.960206961506643,
+        "Hall_class": 14.705567433549074,
+        "RF_ion_class": 12.443172443772296
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 50.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 892.3067402937132,
+      "v_e_m_s": 8750.539894701342,
+      "thrust_N": 1.109151506413839,
+      "m_prop_t": 20.0,
+      "p_jet_kw": 4.852837253071195,
+      "p_electrical_kw": {
+        "MET_class": 16.176124176903983,
+        "Hall_class": 8.823340460129444,
+        "RF_ion_class": 7.465903466263376
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 50.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 892.3067402937132,
+      "v_e_m_s": 8750.539894701342,
+      "thrust_N": 0.7922510760098851,
+      "m_prop_t": 20.0,
+      "p_jet_kw": 3.466312323622282,
+      "p_electrical_kw": {
+        "MET_class": 11.554374412074274,
+        "Hall_class": 6.302386042949603,
+        "RF_ion_class": 5.332788190188126
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 50.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1281.5680699520444,
+      "v_e_m_s": 12567.889513195216,
+      "thrust_N": 2.6550159102076236,
+      "m_prop_t": 20.0,
+      "p_jet_kw": 16.683973307632424,
+      "p_electrical_kw": {
+        "MET_class": 55.61324435877475,
+        "Hall_class": 30.33449692296804,
+        "RF_ion_class": 25.66765124251142
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 50.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1281.5680699520444,
+      "v_e_m_s": 12567.889513195216,
+      "thrust_N": 1.5930095461245741,
+      "m_prop_t": 20.0,
+      "p_jet_kw": 10.010383984579454,
+      "p_electrical_kw": {
+        "MET_class": 33.36794661526485,
+        "Hall_class": 18.200698153780824,
+        "RF_ion_class": 15.400590745506852
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 50.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1281.5680699520444,
+      "v_e_m_s": 12567.889513195216,
+      "thrust_N": 1.137863961517553,
+      "m_prop_t": 20.0,
+      "p_jet_kw": 7.150274274699609,
+      "p_electrical_kw": {
+        "MET_class": 23.834247582332033,
+        "Hall_class": 13.000498681272017,
+        "RF_ion_class": 11.000421961076322
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 50.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1770.639996958666,
+      "v_e_m_s": 17364.0467261747,
+      "thrust_N": 3.6682229164395053,
+      "m_prop_t": 20.0,
+      "p_jet_kw": 31.8475970615402,
+      "p_electrical_kw": {
+        "MET_class": 106.15865687180067,
+        "Hall_class": 57.90472193007309,
+        "RF_ion_class": 48.99630317160031
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 50.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1770.639996958666,
+      "v_e_m_s": 17364.0467261747,
+      "thrust_N": 2.200933749863703,
+      "m_prop_t": 20.0,
+      "p_jet_kw": 19.10855823692412,
+      "p_electrical_kw": {
+        "MET_class": 63.6951941230804,
+        "Hall_class": 34.74283315804385,
+        "RF_ion_class": 29.397781902960187
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 50.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1770.639996958666,
+      "v_e_m_s": 17364.0467261747,
+      "thrust_N": 1.5720955356169308,
+      "m_prop_t": 20.0,
+      "p_jet_kw": 13.648970169231514,
+      "p_electrical_kw": {
+        "MET_class": 45.49656723077172,
+        "Hall_class": 24.816309398602748,
+        "RF_ion_class": 20.99841564497156
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 50.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 892.3067402937132,
+      "v_e_m_s": 8750.539894701342,
+      "thrust_N": 3.6971716880461303,
+      "m_prop_t": 40.0,
+      "p_jet_kw": 16.176124176903983,
+      "p_electrical_kw": {
+        "MET_class": 53.920413923013285,
+        "Hall_class": 29.41113486709815,
+        "RF_ion_class": 24.886344887544592
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 100.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 892.3067402937132,
+      "v_e_m_s": 8750.539894701342,
+      "thrust_N": 2.218303012827678,
+      "m_prop_t": 40.0,
+      "p_jet_kw": 9.70567450614239,
+      "p_electrical_kw": {
+        "MET_class": 32.352248353807965,
+        "Hall_class": 17.646680920258888,
+        "RF_ion_class": 14.931806932526753
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 100.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 892.3067402937132,
+      "v_e_m_s": 8750.539894701342,
+      "thrust_N": 1.5845021520197702,
+      "m_prop_t": 40.0,
+      "p_jet_kw": 6.932624647244564,
+      "p_electrical_kw": {
+        "MET_class": 23.10874882414855,
+        "Hall_class": 12.604772085899207,
+        "RF_ion_class": 10.665576380376253
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 100.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1281.5680699520444,
+      "v_e_m_s": 12567.889513195216,
+      "thrust_N": 5.310031820415247,
+      "m_prop_t": 40.0,
+      "p_jet_kw": 33.36794661526485,
+      "p_electrical_kw": {
+        "MET_class": 111.2264887175495,
+        "Hall_class": 60.66899384593608,
+        "RF_ion_class": 51.33530248502284
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 100.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1281.5680699520444,
+      "v_e_m_s": 12567.889513195216,
+      "thrust_N": 3.1860190922491483,
+      "m_prop_t": 40.0,
+      "p_jet_kw": 20.020767969158907,
+      "p_electrical_kw": {
+        "MET_class": 66.7358932305297,
+        "Hall_class": 36.40139630756165,
+        "RF_ion_class": 30.801181491013704
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 100.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1281.5680699520444,
+      "v_e_m_s": 12567.889513195216,
+      "thrust_N": 2.275727923035106,
+      "m_prop_t": 40.0,
+      "p_jet_kw": 14.300548549399219,
+      "p_electrical_kw": {
+        "MET_class": 47.668495164664066,
+        "Hall_class": 26.000997362544034,
+        "RF_ion_class": 22.000843922152644
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 100.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1770.639996958666,
+      "v_e_m_s": 17364.0467261747,
+      "thrust_N": 7.3364458328790105,
+      "m_prop_t": 40.0,
+      "p_jet_kw": 63.6951941230804,
+      "p_electrical_kw": {
+        "MET_class": 212.31731374360135,
+        "Hall_class": 115.80944386014617,
+        "RF_ion_class": 97.99260634320062
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 100.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1770.639996958666,
+      "v_e_m_s": 17364.0467261747,
+      "thrust_N": 4.401867499727406,
+      "m_prop_t": 40.0,
+      "p_jet_kw": 38.21711647384824,
+      "p_electrical_kw": {
+        "MET_class": 127.3903882461608,
+        "Hall_class": 69.4856663160877,
+        "RF_ion_class": 58.795563805920374
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 100.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1770.639996958666,
+      "v_e_m_s": 17364.0467261747,
+      "thrust_N": 3.1441910712338617,
+      "m_prop_t": 40.0,
+      "p_jet_kw": 27.29794033846303,
+      "p_electrical_kw": {
+        "MET_class": 90.99313446154343,
+        "Hall_class": 49.632618797205495,
+        "RF_ion_class": 41.99683128994312
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 100.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 892.3067402937132,
+      "v_e_m_s": 8750.539894701342,
+      "thrust_N": 7.3943433760922606,
+      "m_prop_t": 80.0,
+      "p_jet_kw": 32.352248353807965,
+      "p_electrical_kw": {
+        "MET_class": 107.84082784602657,
+        "Hall_class": 58.8222697341963,
+        "RF_ion_class": 49.772689775089184
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 200.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 892.3067402937132,
+      "v_e_m_s": 8750.539894701342,
+      "thrust_N": 4.436606025655356,
+      "m_prop_t": 80.0,
+      "p_jet_kw": 19.41134901228478,
+      "p_electrical_kw": {
+        "MET_class": 64.70449670761593,
+        "Hall_class": 35.293361840517775,
+        "RF_ion_class": 29.863613865053505
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 200.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 892.3067402937132,
+      "v_e_m_s": 8750.539894701342,
+      "thrust_N": 3.1690043040395404,
+      "m_prop_t": 80.0,
+      "p_jet_kw": 13.865249294489129,
+      "p_electrical_kw": {
+        "MET_class": 46.2174976482971,
+        "Hall_class": 25.209544171798413,
+        "RF_ion_class": 21.331152760752506
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 200.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1281.5680699520444,
+      "v_e_m_s": 12567.889513195216,
+      "thrust_N": 10.620063640830494,
+      "m_prop_t": 80.0,
+      "p_jet_kw": 66.7358932305297,
+      "p_electrical_kw": {
+        "MET_class": 222.452977435099,
+        "Hall_class": 121.33798769187216,
+        "RF_ion_class": 102.67060497004567
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 200.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1281.5680699520444,
+      "v_e_m_s": 12567.889513195216,
+      "thrust_N": 6.3720381844982965,
+      "m_prop_t": 80.0,
+      "p_jet_kw": 40.041535938317814,
+      "p_electrical_kw": {
+        "MET_class": 133.4717864610594,
+        "Hall_class": 72.8027926151233,
+        "RF_ion_class": 61.60236298202741
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 200.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1281.5680699520444,
+      "v_e_m_s": 12567.889513195216,
+      "thrust_N": 4.551455846070212,
+      "m_prop_t": 80.0,
+      "p_jet_kw": 28.601097098798437,
+      "p_electrical_kw": {
+        "MET_class": 95.33699032932813,
+        "Hall_class": 52.00199472508807,
+        "RF_ion_class": 44.00168784430529
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 200.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1770.639996958666,
+      "v_e_m_s": 17364.0467261747,
+      "thrust_N": 14.672891665758021,
+      "m_prop_t": 80.0,
+      "p_jet_kw": 127.3903882461608,
+      "p_electrical_kw": {
+        "MET_class": 424.6346274872027,
+        "Hall_class": 231.61888772029235,
+        "RF_ion_class": 195.98521268640124
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 200.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1770.639996958666,
+      "v_e_m_s": 17364.0467261747,
+      "thrust_N": 8.803734999454813,
+      "m_prop_t": 80.0,
+      "p_jet_kw": 76.43423294769649,
+      "p_electrical_kw": {
+        "MET_class": 254.7807764923216,
+        "Hall_class": 138.9713326321754,
+        "RF_ion_class": 117.59112761184075
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 200.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1770.639996958666,
+      "v_e_m_s": 17364.0467261747,
+      "thrust_N": 6.288382142467723,
+      "m_prop_t": 80.0,
+      "p_jet_kw": 54.59588067692606,
+      "p_electrical_kw": {
+        "MET_class": 181.98626892308687,
+        "Hall_class": 99.26523759441099,
+        "RF_ion_class": 83.99366257988623
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 200.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 892.3067402937132,
+      "v_e_m_s": 8750.539894701342,
+      "thrust_N": 12.940100908161455,
+      "m_prop_t": 140.0,
+      "p_jet_kw": 56.61643461916393,
+      "p_electrical_kw": {
+        "MET_class": 188.72144873054646,
+        "Hall_class": 102.9389720348435,
+        "RF_ion_class": 87.10220710640604
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 350.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 892.3067402937132,
+      "v_e_m_s": 8750.539894701342,
+      "thrust_N": 7.764060544896873,
+      "m_prop_t": 140.0,
+      "p_jet_kw": 33.96986077149837,
+      "p_electrical_kw": {
+        "MET_class": 113.2328692383279,
+        "Hall_class": 61.763383220906114,
+        "RF_ion_class": 52.26132426384364
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 350.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 892.3067402937132,
+      "v_e_m_s": 8750.539894701342,
+      "thrust_N": 5.545757532069195,
+      "m_prop_t": 140.0,
+      "p_jet_kw": 24.264186265355974,
+      "p_electrical_kw": {
+        "MET_class": 80.88062088451991,
+        "Hall_class": 44.11670230064722,
+        "RF_ion_class": 37.32951733131688
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 350.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1281.5680699520444,
+      "v_e_m_s": 12567.889513195216,
+      "thrust_N": 18.585111371453365,
+      "m_prop_t": 140.0,
+      "p_jet_kw": 116.78781315342695,
+      "p_electrical_kw": {
+        "MET_class": 389.2927105114232,
+        "Hall_class": 212.34147846077624,
+        "RF_ion_class": 179.67355869757992
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 350.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1281.5680699520444,
+      "v_e_m_s": 12567.889513195216,
+      "thrust_N": 11.15106682287202,
+      "m_prop_t": 140.0,
+      "p_jet_kw": 70.07268789205617,
+      "p_electrical_kw": {
+        "MET_class": 233.57562630685393,
+        "Hall_class": 127.40488707646577,
+        "RF_ion_class": 107.80413521854794
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 350.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1281.5680699520444,
+      "v_e_m_s": 12567.889513195216,
+      "thrust_N": 7.965047730622872,
+      "m_prop_t": 140.0,
+      "p_jet_kw": 50.05191992289727,
+      "p_electrical_kw": {
+        "MET_class": 166.83973307632425,
+        "Hall_class": 91.00349076890413,
+        "RF_ion_class": 77.00295372753426
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 350.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1770.639996958666,
+      "v_e_m_s": 17364.0467261747,
+      "thrust_N": 25.677560415076535,
+      "m_prop_t": 140.0,
+      "p_jet_kw": 222.9331794307814,
+      "p_electrical_kw": {
+        "MET_class": 743.1105981026047,
+        "Hall_class": 405.3330535105116,
+        "RF_ion_class": 342.97412220120214
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 350.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1770.639996958666,
+      "v_e_m_s": 17364.0467261747,
+      "thrust_N": 15.40653624904592,
+      "m_prop_t": 140.0,
+      "p_jet_kw": 133.75990765846885,
+      "p_electrical_kw": {
+        "MET_class": 445.86635886156284,
+        "Hall_class": 243.19983210630699,
+        "RF_ion_class": 205.7844733207213
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 350.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1770.639996958666,
+      "v_e_m_s": 17364.0467261747,
+      "thrust_N": 11.004668749318515,
+      "m_prop_t": 140.0,
+      "p_jet_kw": 95.5427911846206,
+      "p_electrical_kw": {
+        "MET_class": 318.475970615402,
+        "Hall_class": 173.71416579021925,
+        "RF_ion_class": 146.9889095148009
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 350.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 892.3067402937132,
+      "v_e_m_s": 8750.539894701342,
+      "thrust_N": 18.48585844023065,
+      "m_prop_t": 200.0,
+      "p_jet_kw": 80.88062088451991,
+      "p_electrical_kw": {
+        "MET_class": 269.6020696150664,
+        "Hall_class": 147.05567433549075,
+        "RF_ion_class": 124.43172443772293
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 500.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 892.3067402937132,
+      "v_e_m_s": 8750.539894701342,
+      "thrust_N": 11.09151506413839,
+      "m_prop_t": 200.0,
+      "p_jet_kw": 48.52837253071195,
+      "p_electrical_kw": {
+        "MET_class": 161.76124176903983,
+        "Hall_class": 88.23340460129444,
+        "RF_ion_class": 74.65903466263376
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 500.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 892.3067402937132,
+      "v_e_m_s": 8750.539894701342,
+      "thrust_N": 7.92251076009885,
+      "m_prop_t": 200.0,
+      "p_jet_kw": 34.663123236222816,
+      "p_electrical_kw": {
+        "MET_class": 115.54374412074273,
+        "Hall_class": 63.02386042949603,
+        "RF_ion_class": 53.327881901881256
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 500.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1281.5680699520444,
+      "v_e_m_s": 12567.889513195216,
+      "thrust_N": 26.55015910207624,
+      "m_prop_t": 200.0,
+      "p_jet_kw": 166.83973307632425,
+      "p_electrical_kw": {
+        "MET_class": 556.1324435877475,
+        "Hall_class": 303.34496922968043,
+        "RF_ion_class": 256.67651242511425
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 500.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1281.5680699520444,
+      "v_e_m_s": 12567.889513195216,
+      "thrust_N": 15.930095461245743,
+      "m_prop_t": 200.0,
+      "p_jet_kw": 100.10383984579454,
+      "p_electrical_kw": {
+        "MET_class": 333.6794661526485,
+        "Hall_class": 182.00698153780826,
+        "RF_ion_class": 154.00590745506852
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 500.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1281.5680699520444,
+      "v_e_m_s": 12567.889513195216,
+      "thrust_N": 11.378639615175532,
+      "m_prop_t": 200.0,
+      "p_jet_kw": 71.5027427469961,
+      "p_electrical_kw": {
+        "MET_class": 238.3424758233204,
+        "Hall_class": 130.0049868127202,
+        "RF_ion_class": 110.00421961076324
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 500.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1770.639996958666,
+      "v_e_m_s": 17364.0467261747,
+      "thrust_N": 36.68222916439505,
+      "m_prop_t": 200.0,
+      "p_jet_kw": 318.47597061540205,
+      "p_electrical_kw": {
+        "MET_class": 1061.586568718007,
+        "Hall_class": 579.047219300731,
+        "RF_ion_class": 489.9630317160031
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 500.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1770.639996958666,
+      "v_e_m_s": 17364.0467261747,
+      "thrust_N": 22.00933749863703,
+      "m_prop_t": 200.0,
+      "p_jet_kw": 191.0855823692412,
+      "p_electrical_kw": {
+        "MET_class": 636.951941230804,
+        "Hall_class": 347.4283315804385,
+        "RF_ion_class": 293.9778190296018
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 500.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1770.639996958666,
+      "v_e_m_s": 17364.0467261747,
+      "thrust_N": 15.72095535616931,
+      "m_prop_t": 200.0,
+      "p_jet_kw": 136.48970169231515,
+      "p_electrical_kw": {
+        "MET_class": 454.96567230771717,
+        "Hall_class": 248.1630939860275,
+        "RF_ion_class": 209.98415644971558
+      },
+      "eta_delivered": 0.6,
+      "chunk_t": 500.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1277.9511287437979,
+      "v_e_m_s": 12532.419436695365,
+      "thrust_N": 0.39712840763224605,
+      "m_prop_t": 3.0000000000000004,
+      "p_jet_kw": 2.48848988733712,
+      "p_electrical_kw": {
+        "MET_class": 8.294966291123735,
+        "Hall_class": 4.524527067885673,
+        "RF_ion_class": 3.8284459805186466
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 10.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1277.9511287437979,
+      "v_e_m_s": 12532.419436695365,
+      "thrust_N": 0.23827704457934762,
+      "m_prop_t": 3.0000000000000004,
+      "p_jet_kw": 1.493093932402272,
+      "p_electrical_kw": {
+        "MET_class": 4.97697977467424,
+        "Hall_class": 2.7147162407314034,
+        "RF_ion_class": 2.2970675883111875
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 10.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1277.9511287437979,
+      "v_e_m_s": 12532.419436695365,
+      "thrust_N": 0.1701978889852483,
+      "m_prop_t": 3.0000000000000004,
+      "p_jet_kw": 1.0664956660016227,
+      "p_electrical_kw": {
+        "MET_class": 3.5549855533387427,
+        "Hall_class": 1.9390830290938594,
+        "RF_ion_class": 1.6407625630794196
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 10.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1835.4465875917635,
+      "v_e_m_s": 17999.582278206766,
+      "thrust_N": 0.5703723438476553,
+      "m_prop_t": 3.0000000000000004,
+      "p_jet_kw": 5.133231966149757,
+      "p_electrical_kw": {
+        "MET_class": 17.11077322049919,
+        "Hall_class": 9.333149029363193,
+        "RF_ion_class": 7.897279947922702
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 10.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1835.4465875917635,
+      "v_e_m_s": 17999.582278206766,
+      "thrust_N": 0.3422234063085932,
+      "m_prop_t": 3.0000000000000004,
+      "p_jet_kw": 3.079939179689854,
+      "p_electrical_kw": {
+        "MET_class": 10.266463932299514,
+        "Hall_class": 5.5998894176179155,
+        "RF_ion_class": 4.7383679687536215
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 10.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1835.4465875917635,
+      "v_e_m_s": 17999.582278206766,
+      "thrust_N": 0.24444529022042372,
+      "m_prop_t": 3.0000000000000004,
+      "p_jet_kw": 2.199956556921324,
+      "p_electrical_kw": {
+        "MET_class": 7.3331885230710805,
+        "Hall_class": 3.9999210125842257,
+        "RF_ion_class": 3.3845485491097294
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 10.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2535.8895999904894,
+      "v_e_m_s": 24868.58174574673,
+      "thrust_N": 0.78803780216958,
+      "m_prop_t": 3.0000000000000004,
+      "p_jet_kw": 9.798691250996395,
+      "p_electrical_kw": {
+        "MET_class": 32.66230416998798,
+        "Hall_class": 17.8158022745389,
+        "RF_ion_class": 15.07490961691753
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 10.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2535.8895999904894,
+      "v_e_m_s": 24868.58174574673,
+      "thrust_N": 0.472822681301748,
+      "m_prop_t": 3.0000000000000004,
+      "p_jet_kw": 5.879214750597837,
+      "p_electrical_kw": {
+        "MET_class": 19.597382501992794,
+        "Hall_class": 10.68948136472334,
+        "RF_ion_class": 9.044945770150518
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 10.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2535.8895999904894,
+      "v_e_m_s": 24868.58174574673,
+      "thrust_N": 0.3377304866441057,
+      "m_prop_t": 3.0000000000000004,
+      "p_jet_kw": 4.1994391075698845,
+      "p_electrical_kw": {
+        "MET_class": 13.99813035856628,
+        "Hall_class": 7.635343831945243,
+        "RF_ion_class": 6.460675550107514
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 10.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1277.9511287437979,
+      "v_e_m_s": 12532.419436695365,
+      "thrust_N": 0.992821019080615,
+      "m_prop_t": 7.500000000000001,
+      "p_jet_kw": 6.2212247183428,
+      "p_electrical_kw": {
+        "MET_class": 20.737415727809335,
+        "Hall_class": 11.31131766971418,
+        "RF_ion_class": 9.571114951296614
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 25.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1277.9511287437979,
+      "v_e_m_s": 12532.419436695365,
+      "thrust_N": 0.595692611448369,
+      "m_prop_t": 7.500000000000001,
+      "p_jet_kw": 3.73273483100568,
+      "p_electrical_kw": {
+        "MET_class": 12.4424494366856,
+        "Hall_class": 6.786790601828509,
+        "RF_ion_class": 5.742668970777968
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 25.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1277.9511287437979,
+      "v_e_m_s": 12532.419436695365,
+      "thrust_N": 0.42549472246312076,
+      "m_prop_t": 7.500000000000001,
+      "p_jet_kw": 2.666239165004057,
+      "p_electrical_kw": {
+        "MET_class": 8.887463883346857,
+        "Hall_class": 4.847707572734649,
+        "RF_ion_class": 4.101906407698549
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 25.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1835.4465875917635,
+      "v_e_m_s": 17999.582278206766,
+      "thrust_N": 1.4259308596191385,
+      "m_prop_t": 7.500000000000001,
+      "p_jet_kw": 12.833079915374391,
+      "p_electrical_kw": {
+        "MET_class": 42.77693305124797,
+        "Hall_class": 23.332872573407982,
+        "RF_ion_class": 19.743199869806755
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 25.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1835.4465875917635,
+      "v_e_m_s": 17999.582278206766,
+      "thrust_N": 0.8555585157714831,
+      "m_prop_t": 7.500000000000001,
+      "p_jet_kw": 7.699847949224636,
+      "p_electrical_kw": {
+        "MET_class": 25.66615983074879,
+        "Hall_class": 13.999723544044791,
+        "RF_ion_class": 11.845919921884056
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 25.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1835.4465875917635,
+      "v_e_m_s": 17999.582278206766,
+      "thrust_N": 0.6111132255510593,
+      "m_prop_t": 7.500000000000001,
+      "p_jet_kw": 5.499891392303311,
+      "p_electrical_kw": {
+        "MET_class": 18.332971307677703,
+        "Hall_class": 9.999802531460563,
+        "RF_ion_class": 8.461371372774323
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 25.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2535.8895999904894,
+      "v_e_m_s": 24868.58174574673,
+      "thrust_N": 1.9700945054239498,
+      "m_prop_t": 7.500000000000001,
+      "p_jet_kw": 24.496728127490986,
+      "p_electrical_kw": {
+        "MET_class": 81.65576042496997,
+        "Hall_class": 44.53950568634725,
+        "RF_ion_class": 37.68727404229382
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 25.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2535.8895999904894,
+      "v_e_m_s": 24868.58174574673,
+      "thrust_N": 1.1820567032543698,
+      "m_prop_t": 7.500000000000001,
+      "p_jet_kw": 14.69803687649459,
+      "p_electrical_kw": {
+        "MET_class": 48.993456254981965,
+        "Hall_class": 26.723703411808344,
+        "RF_ion_class": 22.612364425376295
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 25.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2535.8895999904894,
+      "v_e_m_s": 24868.58174574673,
+      "thrust_N": 0.8443262166102642,
+      "m_prop_t": 7.500000000000001,
+      "p_jet_kw": 10.498597768924709,
+      "p_electrical_kw": {
+        "MET_class": 34.9953258964157,
+        "Hall_class": 19.088359579863102,
+        "RF_ion_class": 16.151688875268782
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 25.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1277.9511287437979,
+      "v_e_m_s": 12532.419436695365,
+      "thrust_N": 1.98564203816123,
+      "m_prop_t": 15.000000000000002,
+      "p_jet_kw": 12.4424494366856,
+      "p_electrical_kw": {
+        "MET_class": 41.47483145561867,
+        "Hall_class": 22.62263533942836,
+        "RF_ion_class": 19.14222990259323
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 50.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1277.9511287437979,
+      "v_e_m_s": 12532.419436695365,
+      "thrust_N": 1.191385222896738,
+      "m_prop_t": 15.000000000000002,
+      "p_jet_kw": 7.46546966201136,
+      "p_electrical_kw": {
+        "MET_class": 24.8848988733712,
+        "Hall_class": 13.573581203657017,
+        "RF_ion_class": 11.485337941555937
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 50.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1277.9511287437979,
+      "v_e_m_s": 12532.419436695365,
+      "thrust_N": 0.8509894449262415,
+      "m_prop_t": 15.000000000000002,
+      "p_jet_kw": 5.332478330008114,
+      "p_electrical_kw": {
+        "MET_class": 17.774927766693715,
+        "Hall_class": 9.695415145469298,
+        "RF_ion_class": 8.203812815397098
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 50.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1835.4465875917635,
+      "v_e_m_s": 17999.582278206766,
+      "thrust_N": 2.851861719238277,
+      "m_prop_t": 15.000000000000002,
+      "p_jet_kw": 25.666159830748782,
+      "p_electrical_kw": {
+        "MET_class": 85.55386610249595,
+        "Hall_class": 46.665745146815965,
+        "RF_ion_class": 39.48639973961351
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 50.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1835.4465875917635,
+      "v_e_m_s": 17999.582278206766,
+      "thrust_N": 1.7111170315429662,
+      "m_prop_t": 15.000000000000002,
+      "p_jet_kw": 15.399695898449272,
+      "p_electrical_kw": {
+        "MET_class": 51.33231966149758,
+        "Hall_class": 27.999447088089582,
+        "RF_ion_class": 23.69183984376811
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 50.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1835.4465875917635,
+      "v_e_m_s": 17999.582278206766,
+      "thrust_N": 1.2222264511021186,
+      "m_prop_t": 15.000000000000002,
+      "p_jet_kw": 10.999782784606621,
+      "p_electrical_kw": {
+        "MET_class": 36.665942615355405,
+        "Hall_class": 19.999605062921127,
+        "RF_ion_class": 16.922742745548646
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 50.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2535.8895999904894,
+      "v_e_m_s": 24868.58174574673,
+      "thrust_N": 3.9401890108478996,
+      "m_prop_t": 15.000000000000002,
+      "p_jet_kw": 48.99345625498197,
+      "p_electrical_kw": {
+        "MET_class": 163.31152084993994,
+        "Hall_class": 89.0790113726945,
+        "RF_ion_class": 75.37454808458764
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 50.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2535.8895999904894,
+      "v_e_m_s": 24868.58174574673,
+      "thrust_N": 2.3641134065087397,
+      "m_prop_t": 15.000000000000002,
+      "p_jet_kw": 29.39607375298918,
+      "p_electrical_kw": {
+        "MET_class": 97.98691250996393,
+        "Hall_class": 53.44740682361669,
+        "RF_ion_class": 45.22472885075259
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 50.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2535.8895999904894,
+      "v_e_m_s": 24868.58174574673,
+      "thrust_N": 1.6886524332205284,
+      "m_prop_t": 15.000000000000002,
+      "p_jet_kw": 20.997195537849418,
+      "p_electrical_kw": {
+        "MET_class": 69.9906517928314,
+        "Hall_class": 38.176719159726204,
+        "RF_ion_class": 32.303377750537564
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 50.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1277.9511287437979,
+      "v_e_m_s": 12532.419436695365,
+      "thrust_N": 3.97128407632246,
+      "m_prop_t": 30.000000000000004,
+      "p_jet_kw": 24.8848988733712,
+      "p_electrical_kw": {
+        "MET_class": 82.94966291123734,
+        "Hall_class": 45.24527067885672,
+        "RF_ion_class": 38.28445980518646
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 100.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1277.9511287437979,
+      "v_e_m_s": 12532.419436695365,
+      "thrust_N": 2.382770445793476,
+      "m_prop_t": 30.000000000000004,
+      "p_jet_kw": 14.93093932402272,
+      "p_electrical_kw": {
+        "MET_class": 49.7697977467424,
+        "Hall_class": 27.147162407314035,
+        "RF_ion_class": 22.970675883111873
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 100.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1277.9511287437979,
+      "v_e_m_s": 12532.419436695365,
+      "thrust_N": 1.701978889852483,
+      "m_prop_t": 30.000000000000004,
+      "p_jet_kw": 10.664956660016228,
+      "p_electrical_kw": {
+        "MET_class": 35.54985553338743,
+        "Hall_class": 19.390830290938595,
+        "RF_ion_class": 16.407625630794197
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 100.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1835.4465875917635,
+      "v_e_m_s": 17999.582278206766,
+      "thrust_N": 5.703723438476554,
+      "m_prop_t": 30.000000000000004,
+      "p_jet_kw": 51.332319661497564,
+      "p_electrical_kw": {
+        "MET_class": 171.1077322049919,
+        "Hall_class": 93.33149029363193,
+        "RF_ion_class": 78.97279947922702
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 100.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1835.4465875917635,
+      "v_e_m_s": 17999.582278206766,
+      "thrust_N": 3.4222340630859325,
+      "m_prop_t": 30.000000000000004,
+      "p_jet_kw": 30.799391796898544,
+      "p_electrical_kw": {
+        "MET_class": 102.66463932299516,
+        "Hall_class": 55.998894176179164,
+        "RF_ion_class": 47.38367968753622
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 100.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1835.4465875917635,
+      "v_e_m_s": 17999.582278206766,
+      "thrust_N": 2.444452902204237,
+      "m_prop_t": 30.000000000000004,
+      "p_jet_kw": 21.999565569213242,
+      "p_electrical_kw": {
+        "MET_class": 73.33188523071081,
+        "Hall_class": 39.999210125842254,
+        "RF_ion_class": 33.84548549109729
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 100.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2535.8895999904894,
+      "v_e_m_s": 24868.58174574673,
+      "thrust_N": 7.880378021695799,
+      "m_prop_t": 30.000000000000004,
+      "p_jet_kw": 97.98691250996394,
+      "p_electrical_kw": {
+        "MET_class": 326.6230416998799,
+        "Hall_class": 178.158022745389,
+        "RF_ion_class": 150.7490961691753
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 100.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2535.8895999904894,
+      "v_e_m_s": 24868.58174574673,
+      "thrust_N": 4.728226813017479,
+      "m_prop_t": 30.000000000000004,
+      "p_jet_kw": 58.79214750597836,
+      "p_electrical_kw": {
+        "MET_class": 195.97382501992786,
+        "Hall_class": 106.89481364723338,
+        "RF_ion_class": 90.44945770150518
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 100.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2535.8895999904894,
+      "v_e_m_s": 24868.58174574673,
+      "thrust_N": 3.3773048664410568,
+      "m_prop_t": 30.000000000000004,
+      "p_jet_kw": 41.994391075698836,
+      "p_electrical_kw": {
+        "MET_class": 139.9813035856628,
+        "Hall_class": 76.35343831945241,
+        "RF_ion_class": 64.60675550107513
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 100.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1277.9511287437979,
+      "v_e_m_s": 12532.419436695365,
+      "thrust_N": 7.94256815264492,
+      "m_prop_t": 60.00000000000001,
+      "p_jet_kw": 49.7697977467424,
+      "p_electrical_kw": {
+        "MET_class": 165.89932582247468,
+        "Hall_class": 90.49054135771344,
+        "RF_ion_class": 76.56891961037292
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 200.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1277.9511287437979,
+      "v_e_m_s": 12532.419436695365,
+      "thrust_N": 4.765540891586952,
+      "m_prop_t": 60.00000000000001,
+      "p_jet_kw": 29.86187864804544,
+      "p_electrical_kw": {
+        "MET_class": 99.5395954934848,
+        "Hall_class": 54.29432481462807,
+        "RF_ion_class": 45.94135176622375
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 200.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1277.9511287437979,
+      "v_e_m_s": 12532.419436695365,
+      "thrust_N": 3.403957779704966,
+      "m_prop_t": 60.00000000000001,
+      "p_jet_kw": 21.329913320032457,
+      "p_electrical_kw": {
+        "MET_class": 71.09971106677486,
+        "Hall_class": 38.78166058187719,
+        "RF_ion_class": 32.815251261588394
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 200.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1835.4465875917635,
+      "v_e_m_s": 17999.582278206766,
+      "thrust_N": 11.407446876953108,
+      "m_prop_t": 60.00000000000001,
+      "p_jet_kw": 102.66463932299513,
+      "p_electrical_kw": {
+        "MET_class": 342.2154644099838,
+        "Hall_class": 186.66298058726386,
+        "RF_ion_class": 157.94559895845404
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 200.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1835.4465875917635,
+      "v_e_m_s": 17999.582278206766,
+      "thrust_N": 6.844468126171865,
+      "m_prop_t": 60.00000000000001,
+      "p_jet_kw": 61.59878359379709,
+      "p_electrical_kw": {
+        "MET_class": 205.3292786459903,
+        "Hall_class": 111.99778835235833,
+        "RF_ion_class": 94.76735937507245
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 200.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1835.4465875917635,
+      "v_e_m_s": 17999.582278206766,
+      "thrust_N": 4.888905804408474,
+      "m_prop_t": 60.00000000000001,
+      "p_jet_kw": 43.999131138426485,
+      "p_electrical_kw": {
+        "MET_class": 146.66377046142162,
+        "Hall_class": 79.99842025168451,
+        "RF_ion_class": 67.69097098219459
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 200.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2535.8895999904894,
+      "v_e_m_s": 24868.58174574673,
+      "thrust_N": 15.760756043391599,
+      "m_prop_t": 60.00000000000001,
+      "p_jet_kw": 195.9738250199279,
+      "p_electrical_kw": {
+        "MET_class": 653.2460833997598,
+        "Hall_class": 356.316045490778,
+        "RF_ion_class": 301.4981923383506
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 200.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2535.8895999904894,
+      "v_e_m_s": 24868.58174574673,
+      "thrust_N": 9.456453626034959,
+      "m_prop_t": 60.00000000000001,
+      "p_jet_kw": 117.58429501195673,
+      "p_electrical_kw": {
+        "MET_class": 391.9476500398557,
+        "Hall_class": 213.78962729446675,
+        "RF_ion_class": 180.89891540301036
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 200.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2535.8895999904894,
+      "v_e_m_s": 24868.58174574673,
+      "thrust_N": 6.7546097328821135,
+      "m_prop_t": 60.00000000000001,
+      "p_jet_kw": 83.98878215139767,
+      "p_electrical_kw": {
+        "MET_class": 279.9626071713256,
+        "Hall_class": 152.70687663890482,
+        "RF_ion_class": 129.21351100215026
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 200.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1277.9511287437979,
+      "v_e_m_s": 12532.419436695365,
+      "thrust_N": 13.89949426712861,
+      "m_prop_t": 105.00000000000001,
+      "p_jet_kw": 87.09714605679919,
+      "p_electrical_kw": {
+        "MET_class": 290.32382018933066,
+        "Hall_class": 158.3584473759985,
+        "RF_ion_class": 133.9956093181526
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 350.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1277.9511287437979,
+      "v_e_m_s": 12532.419436695365,
+      "thrust_N": 8.339696560277167,
+      "m_prop_t": 105.00000000000001,
+      "p_jet_kw": 52.25828763407953,
+      "p_electrical_kw": {
+        "MET_class": 174.19429211359844,
+        "Hall_class": 95.01506842559914,
+        "RF_ion_class": 80.39736559089158
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 350.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1277.9511287437979,
+      "v_e_m_s": 12532.419436695365,
+      "thrust_N": 5.95692611448369,
+      "m_prop_t": 105.00000000000001,
+      "p_jet_kw": 37.3273483100568,
+      "p_electrical_kw": {
+        "MET_class": 124.424494366856,
+        "Hall_class": 67.86790601828508,
+        "RF_ion_class": 57.42668970777969
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 350.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1835.4465875917635,
+      "v_e_m_s": 17999.582278206766,
+      "thrust_N": 19.963032034667936,
+      "m_prop_t": 105.00000000000001,
+      "p_jet_kw": 179.66311881524146,
+      "p_electrical_kw": {
+        "MET_class": 598.8770627174716,
+        "Hall_class": 326.6602160277117,
+        "RF_ion_class": 276.40479817729454
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 350.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1835.4465875917635,
+      "v_e_m_s": 17999.582278206766,
+      "thrust_N": 11.977819220800763,
+      "m_prop_t": 105.00000000000001,
+      "p_jet_kw": 107.7978712891449,
+      "p_electrical_kw": {
+        "MET_class": 359.326237630483,
+        "Hall_class": 195.99612961662706,
+        "RF_ion_class": 165.84287890637674
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 350.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1835.4465875917635,
+      "v_e_m_s": 17999.582278206766,
+      "thrust_N": 8.55558515771483,
+      "m_prop_t": 105.00000000000001,
+      "p_jet_kw": 76.99847949224635,
+      "p_electrical_kw": {
+        "MET_class": 256.66159830748785,
+        "Hall_class": 139.9972354404479,
+        "RF_ion_class": 118.45919921884052
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 350.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2535.8895999904894,
+      "v_e_m_s": 24868.58174574673,
+      "thrust_N": 27.5813230759353,
+      "m_prop_t": 105.00000000000001,
+      "p_jet_kw": 342.95419378487384,
+      "p_electrical_kw": {
+        "MET_class": 1143.1806459495795,
+        "Hall_class": 623.5530796088615,
+        "RF_ion_class": 527.6218365921136
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 350.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2535.8895999904894,
+      "v_e_m_s": 24868.58174574673,
+      "thrust_N": 16.54879384556118,
+      "m_prop_t": 105.00000000000001,
+      "p_jet_kw": 205.77251627092429,
+      "p_electrical_kw": {
+        "MET_class": 685.9083875697477,
+        "Hall_class": 374.1318477653168,
+        "RF_ion_class": 316.5731019552681
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 350.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2535.8895999904894,
+      "v_e_m_s": 24868.58174574673,
+      "thrust_N": 11.820567032543698,
+      "m_prop_t": 105.00000000000001,
+      "p_jet_kw": 146.98036876494592,
+      "p_electrical_kw": {
+        "MET_class": 489.93456254981976,
+        "Hall_class": 267.2370341180835,
+        "RF_ion_class": 226.12364425376293
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 350.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1277.9511287437979,
+      "v_e_m_s": 12532.419436695365,
+      "thrust_N": 19.856420381612303,
+      "m_prop_t": 150.00000000000003,
+      "p_jet_kw": 124.42449436685601,
+      "p_electrical_kw": {
+        "MET_class": 414.74831455618676,
+        "Hall_class": 226.22635339428365,
+        "RF_ion_class": 191.42229902593232
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 500.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1277.9511287437979,
+      "v_e_m_s": 12532.419436695365,
+      "thrust_N": 11.91385222896738,
+      "m_prop_t": 150.00000000000003,
+      "p_jet_kw": 74.6546966201136,
+      "p_electrical_kw": {
+        "MET_class": 248.848988733712,
+        "Hall_class": 135.73581203657017,
+        "RF_ion_class": 114.85337941555937
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 500.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1277.9511287437979,
+      "v_e_m_s": 12532.419436695365,
+      "thrust_N": 8.509894449262415,
+      "m_prop_t": 150.00000000000003,
+      "p_jet_kw": 53.324783300081144,
+      "p_electrical_kw": {
+        "MET_class": 177.74927766693716,
+        "Hall_class": 96.95415145469298,
+        "RF_ion_class": 82.03812815397099
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 500.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1835.4465875917635,
+      "v_e_m_s": 17999.582278206766,
+      "thrust_N": 28.518617192382774,
+      "m_prop_t": 150.00000000000003,
+      "p_jet_kw": 256.66159830748785,
+      "p_electrical_kw": {
+        "MET_class": 855.5386610249597,
+        "Hall_class": 466.65745146815976,
+        "RF_ion_class": 394.8639973961352
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 500.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1835.4465875917635,
+      "v_e_m_s": 17999.582278206766,
+      "thrust_N": 17.111170315429664,
+      "m_prop_t": 150.00000000000003,
+      "p_jet_kw": 153.99695898449272,
+      "p_electrical_kw": {
+        "MET_class": 513.3231966149757,
+        "Hall_class": 279.99447088089585,
+        "RF_ion_class": 236.9183984376811
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 500.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 1835.4465875917635,
+      "v_e_m_s": 17999.582278206766,
+      "thrust_N": 12.222264511021187,
+      "m_prop_t": 150.00000000000003,
+      "p_jet_kw": 109.99782784606623,
+      "p_electrical_kw": {
+        "MET_class": 366.65942615355414,
+        "Hall_class": 199.9960506292113,
+        "RF_ion_class": 169.2274274554865
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 500.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2535.8895999904894,
+      "v_e_m_s": 24868.58174574673,
+      "thrust_N": 39.401890108478995,
+      "m_prop_t": 150.00000000000003,
+      "p_jet_kw": 489.9345625498197,
+      "p_electrical_kw": {
+        "MET_class": 1633.115208499399,
+        "Hall_class": 890.7901137269449,
+        "RF_ion_class": 753.7454808458764
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 500.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2535.8895999904894,
+      "v_e_m_s": 24868.58174574673,
+      "thrust_N": 23.6411340650874,
+      "m_prop_t": 150.00000000000003,
+      "p_jet_kw": 293.96073752989184,
+      "p_electrical_kw": {
+        "MET_class": 979.8691250996395,
+        "Hall_class": 534.474068236167,
+        "RF_ion_class": 452.24728850752587
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 500.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2535.8895999904894,
+      "v_e_m_s": 24868.58174574673,
+      "thrust_N": 16.886524332205283,
+      "m_prop_t": 150.00000000000003,
+      "p_jet_kw": 209.97195537849416,
+      "p_electrical_kw": {
+        "MET_class": 699.906517928314,
+        "Hall_class": 381.7671915972621,
+        "RF_ion_class": 323.0337775053756
+      },
+      "eta_delivered": 0.7,
+      "chunk_t": 500.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2042.6902077905038,
+      "v_e_m_s": 20031.947926228742,
+      "thrust_N": 0.4231827499815943,
+      "m_prop_t": 1.9999999999999996,
+      "p_jet_kw": 4.238587405454787,
+      "p_electrical_kw": {
+        "MET_class": 14.12862468484929,
+        "Hall_class": 7.706522555372339,
+        "RF_ion_class": 6.520903700699671
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 10.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2042.6902077905038,
+      "v_e_m_s": 20031.947926228742,
+      "thrust_N": 0.25390964998895654,
+      "m_prop_t": 1.9999999999999996,
+      "p_jet_kw": 2.543152443272872,
+      "p_electrical_kw": {
+        "MET_class": 8.477174810909574,
+        "Hall_class": 4.623913533223404,
+        "RF_ion_class": 3.912542220419803
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 10.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2042.6902077905038,
+      "v_e_m_s": 20031.947926228742,
+      "thrust_N": 0.18136403570639756,
+      "m_prop_t": 1.9999999999999996,
+      "p_jet_kw": 1.816537459480623,
+      "p_electrical_kw": {
+        "MET_class": 6.055124864935411,
+        "Hall_class": 3.3027953808738597,
+        "RF_ion_class": 2.794673014585574
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 10.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2933.7966742762937,
+      "v_e_m_s": 28770.717155791615,
+      "thrust_N": 0.6077926744702092,
+      "m_prop_t": 1.9999999999999996,
+      "p_jet_kw": 8.74331556327226,
+      "p_electrical_kw": {
+        "MET_class": 29.14438521090753,
+        "Hall_class": 15.896937387767743,
+        "RF_ion_class": 13.451254712726552
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 10.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2933.7966742762937,
+      "v_e_m_s": 28770.717155791615,
+      "thrust_N": 0.3646756046821255,
+      "m_prop_t": 1.9999999999999996,
+      "p_jet_kw": 5.245989337963355,
+      "p_electrical_kw": {
+        "MET_class": 17.48663112654452,
+        "Hall_class": 9.538162432660645,
+        "RF_ion_class": 8.07075282763593
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 10.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2933.7966742762937,
+      "v_e_m_s": 28770.717155791615,
+      "thrust_N": 0.2604825747729468,
+      "m_prop_t": 1.9999999999999996,
+      "p_jet_kw": 3.7471352414023964,
+      "p_electrical_kw": {
+        "MET_class": 12.490450804674655,
+        "Hall_class": 6.8129731661861745,
+        "RF_ion_class": 5.764823448311378
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 10.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4053.3919783225433,
+      "v_e_m_s": 39750.19644421677,
+      "thrust_N": 0.839738477032828,
+      "m_prop_t": 1.9999999999999996,
+      "p_jet_kw": 16.68988471191116,
+      "p_electrical_kw": {
+        "MET_class": 55.63294903970387,
+        "Hall_class": 30.345244930747562,
+        "RF_ion_class": 25.676745710632552
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 10.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4053.3919783225433,
+      "v_e_m_s": 39750.19644421677,
+      "thrust_N": 0.5038430862196968,
+      "m_prop_t": 1.9999999999999996,
+      "p_jet_kw": 10.013930827146696,
+      "p_electrical_kw": {
+        "MET_class": 33.37976942382232,
+        "Hall_class": 18.20714695844854,
+        "RF_ion_class": 15.406047426379532
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 10.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4053.3919783225433,
+      "v_e_m_s": 39750.19644421677,
+      "thrust_N": 0.35988791872835485,
+      "m_prop_t": 1.9999999999999996,
+      "p_jet_kw": 7.1528077336762115,
+      "p_electrical_kw": {
+        "MET_class": 23.842692445587375,
+        "Hall_class": 13.005104970320385,
+        "RF_ion_class": 11.004319590271095
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 10.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2042.6902077905038,
+      "v_e_m_s": 20031.947926228742,
+      "thrust_N": 1.0579568749539856,
+      "m_prop_t": 4.999999999999999,
+      "p_jet_kw": 10.596468513636966,
+      "p_electrical_kw": {
+        "MET_class": 35.32156171212322,
+        "Hall_class": 19.266306388430845,
+        "RF_ion_class": 16.302259251749177
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 25.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2042.6902077905038,
+      "v_e_m_s": 20031.947926228742,
+      "thrust_N": 0.6347741249723914,
+      "m_prop_t": 4.999999999999999,
+      "p_jet_kw": 6.35788110818218,
+      "p_electrical_kw": {
+        "MET_class": 21.192937027273935,
+        "Hall_class": 11.559783833058509,
+        "RF_ion_class": 9.781355551049508
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 25.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2042.6902077905038,
+      "v_e_m_s": 20031.947926228742,
+      "thrust_N": 0.45341008926599385,
+      "m_prop_t": 4.999999999999999,
+      "p_jet_kw": 4.541343648701557,
+      "p_electrical_kw": {
+        "MET_class": 15.137812162338523,
+        "Hall_class": 8.256988452184649,
+        "RF_ion_class": 6.986682536463934
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 25.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2933.7966742762937,
+      "v_e_m_s": 28770.717155791615,
+      "thrust_N": 1.519481686175523,
+      "m_prop_t": 4.999999999999999,
+      "p_jet_kw": 21.858288908180647,
+      "p_electrical_kw": {
+        "MET_class": 72.86096302726882,
+        "Hall_class": 39.74234346941935,
+        "RF_ion_class": 33.62813678181638
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 25.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2933.7966742762937,
+      "v_e_m_s": 28770.717155791615,
+      "thrust_N": 0.9116890117053138,
+      "m_prop_t": 4.999999999999999,
+      "p_jet_kw": 13.114973344908387,
+      "p_electrical_kw": {
+        "MET_class": 43.716577816361294,
+        "Hall_class": 23.84540608165161,
+        "RF_ion_class": 20.176882069089825
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 25.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2933.7966742762937,
+      "v_e_m_s": 28770.717155791615,
+      "thrust_N": 0.651206436932367,
+      "m_prop_t": 4.999999999999999,
+      "p_jet_kw": 9.367838103505992,
+      "p_electrical_kw": {
+        "MET_class": 31.22612701168664,
+        "Hall_class": 17.03243291546544,
+        "RF_ion_class": 14.41205862077845
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 25.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4053.3919783225433,
+      "v_e_m_s": 39750.19644421677,
+      "thrust_N": 2.09934619258207,
+      "m_prop_t": 4.999999999999999,
+      "p_jet_kw": 41.724711779777905,
+      "p_electrical_kw": {
+        "MET_class": 139.08237259925968,
+        "Hall_class": 75.86311232686892,
+        "RF_ion_class": 64.1918642765814
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 25.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4053.3919783225433,
+      "v_e_m_s": 39750.19644421677,
+      "thrust_N": 1.259607715549242,
+      "m_prop_t": 4.999999999999999,
+      "p_jet_kw": 25.034827067866743,
+      "p_electrical_kw": {
+        "MET_class": 83.44942355955581,
+        "Hall_class": 45.51786739612135,
+        "RF_ion_class": 38.51511856594883
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 25.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4053.3919783225433,
+      "v_e_m_s": 39750.19644421677,
+      "thrust_N": 0.8997197968208871,
+      "m_prop_t": 4.999999999999999,
+      "p_jet_kw": 17.882019334190527,
+      "p_electrical_kw": {
+        "MET_class": 59.60673111396843,
+        "Hall_class": 32.51276242580096,
+        "RF_ion_class": 27.510798975677734
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 25.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2042.6902077905038,
+      "v_e_m_s": 20031.947926228742,
+      "thrust_N": 2.115913749907971,
+      "m_prop_t": 9.999999999999998,
+      "p_jet_kw": 21.19293702727393,
+      "p_electrical_kw": {
+        "MET_class": 70.64312342424644,
+        "Hall_class": 38.53261277686169,
+        "RF_ion_class": 32.604518503498355
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 50.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2042.6902077905038,
+      "v_e_m_s": 20031.947926228742,
+      "thrust_N": 1.2695482499447828,
+      "m_prop_t": 9.999999999999998,
+      "p_jet_kw": 12.71576221636436,
+      "p_electrical_kw": {
+        "MET_class": 42.38587405454787,
+        "Hall_class": 23.119567666117018,
+        "RF_ion_class": 19.562711102099016
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 50.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2042.6902077905038,
+      "v_e_m_s": 20031.947926228742,
+      "thrust_N": 0.9068201785319877,
+      "m_prop_t": 9.999999999999998,
+      "p_jet_kw": 9.082687297403114,
+      "p_electrical_kw": {
+        "MET_class": 30.275624324677047,
+        "Hall_class": 16.513976904369297,
+        "RF_ion_class": 13.973365072927868
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 50.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2933.7966742762937,
+      "v_e_m_s": 28770.717155791615,
+      "thrust_N": 3.038963372351046,
+      "m_prop_t": 9.999999999999998,
+      "p_jet_kw": 43.716577816361294,
+      "p_electrical_kw": {
+        "MET_class": 145.72192605453765,
+        "Hall_class": 79.4846869388387,
+        "RF_ion_class": 67.25627356363276
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 50.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2933.7966742762937,
+      "v_e_m_s": 28770.717155791615,
+      "thrust_N": 1.8233780234106276,
+      "m_prop_t": 9.999999999999998,
+      "p_jet_kw": 26.229946689816774,
+      "p_electrical_kw": {
+        "MET_class": 87.43315563272259,
+        "Hall_class": 47.69081216330322,
+        "RF_ion_class": 40.35376413817965
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 50.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2933.7966742762937,
+      "v_e_m_s": 28770.717155791615,
+      "thrust_N": 1.302412873864734,
+      "m_prop_t": 9.999999999999998,
+      "p_jet_kw": 18.735676207011984,
+      "p_electrical_kw": {
+        "MET_class": 62.45225402337328,
+        "Hall_class": 34.06486583093088,
+        "RF_ion_class": 28.8241172415569
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 50.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4053.3919783225433,
+      "v_e_m_s": 39750.19644421677,
+      "thrust_N": 4.19869238516414,
+      "m_prop_t": 9.999999999999998,
+      "p_jet_kw": 83.44942355955581,
+      "p_electrical_kw": {
+        "MET_class": 278.16474519851937,
+        "Hall_class": 151.72622465373783,
+        "RF_ion_class": 128.3837285531628
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 50.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4053.3919783225433,
+      "v_e_m_s": 39750.19644421677,
+      "thrust_N": 2.519215431098484,
+      "m_prop_t": 9.999999999999998,
+      "p_jet_kw": 50.06965413573349,
+      "p_electrical_kw": {
+        "MET_class": 166.89884711911162,
+        "Hall_class": 91.0357347922427,
+        "RF_ion_class": 77.03023713189766
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 50.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4053.3919783225433,
+      "v_e_m_s": 39750.19644421677,
+      "thrust_N": 1.7994395936417742,
+      "m_prop_t": 9.999999999999998,
+      "p_jet_kw": 35.764038668381055,
+      "p_electrical_kw": {
+        "MET_class": 119.21346222793686,
+        "Hall_class": 65.02552485160192,
+        "RF_ion_class": 55.02159795135547
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 50.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2042.6902077905038,
+      "v_e_m_s": 20031.947926228742,
+      "thrust_N": 4.231827499815942,
+      "m_prop_t": 19.999999999999996,
+      "p_jet_kw": 42.38587405454786,
+      "p_electrical_kw": {
+        "MET_class": 141.28624684849288,
+        "Hall_class": 77.06522555372338,
+        "RF_ion_class": 65.20903700699671
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 100.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2042.6902077905038,
+      "v_e_m_s": 20031.947926228742,
+      "thrust_N": 2.5390964998895655,
+      "m_prop_t": 19.999999999999996,
+      "p_jet_kw": 25.43152443272872,
+      "p_electrical_kw": {
+        "MET_class": 84.77174810909574,
+        "Hall_class": 46.239135332234035,
+        "RF_ion_class": 39.12542220419803
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 100.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2042.6902077905038,
+      "v_e_m_s": 20031.947926228742,
+      "thrust_N": 1.8136403570639754,
+      "m_prop_t": 19.999999999999996,
+      "p_jet_kw": 18.165374594806227,
+      "p_electrical_kw": {
+        "MET_class": 60.55124864935409,
+        "Hall_class": 33.027953808738594,
+        "RF_ion_class": 27.946730145855735
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 100.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2933.7966742762937,
+      "v_e_m_s": 28770.717155791615,
+      "thrust_N": 6.077926744702092,
+      "m_prop_t": 19.999999999999996,
+      "p_jet_kw": 87.43315563272259,
+      "p_electrical_kw": {
+        "MET_class": 291.4438521090753,
+        "Hall_class": 158.9693738776774,
+        "RF_ion_class": 134.51254712726552
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 100.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2933.7966742762937,
+      "v_e_m_s": 28770.717155791615,
+      "thrust_N": 3.646756046821255,
+      "m_prop_t": 19.999999999999996,
+      "p_jet_kw": 52.45989337963355,
+      "p_electrical_kw": {
+        "MET_class": 174.86631126544518,
+        "Hall_class": 95.38162432660644,
+        "RF_ion_class": 80.7075282763593
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 100.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2933.7966742762937,
+      "v_e_m_s": 28770.717155791615,
+      "thrust_N": 2.604825747729468,
+      "m_prop_t": 19.999999999999996,
+      "p_jet_kw": 37.47135241402397,
+      "p_electrical_kw": {
+        "MET_class": 124.90450804674656,
+        "Hall_class": 68.12973166186175,
+        "RF_ion_class": 57.6482344831138
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 100.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4053.3919783225433,
+      "v_e_m_s": 39750.19644421677,
+      "thrust_N": 8.39738477032828,
+      "m_prop_t": 19.999999999999996,
+      "p_jet_kw": 166.89884711911162,
+      "p_electrical_kw": {
+        "MET_class": 556.3294903970387,
+        "Hall_class": 303.45244930747566,
+        "RF_ion_class": 256.7674571063256
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 100.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4053.3919783225433,
+      "v_e_m_s": 39750.19644421677,
+      "thrust_N": 5.038430862196968,
+      "m_prop_t": 19.999999999999996,
+      "p_jet_kw": 100.13930827146697,
+      "p_electrical_kw": {
+        "MET_class": 333.79769423822324,
+        "Hall_class": 182.0714695844854,
+        "RF_ion_class": 154.06047426379533
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 100.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4053.3919783225433,
+      "v_e_m_s": 39750.19644421677,
+      "thrust_N": 3.5988791872835484,
+      "m_prop_t": 19.999999999999996,
+      "p_jet_kw": 71.52807733676211,
+      "p_electrical_kw": {
+        "MET_class": 238.42692445587372,
+        "Hall_class": 130.05104970320383,
+        "RF_ion_class": 110.04319590271093
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 100.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2042.6902077905038,
+      "v_e_m_s": 20031.947926228742,
+      "thrust_N": 8.463654999631885,
+      "m_prop_t": 39.99999999999999,
+      "p_jet_kw": 84.77174810909572,
+      "p_electrical_kw": {
+        "MET_class": 282.57249369698576,
+        "Hall_class": 154.13045110744676,
+        "RF_ion_class": 130.41807401399342
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 200.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2042.6902077905038,
+      "v_e_m_s": 20031.947926228742,
+      "thrust_N": 5.078192999779131,
+      "m_prop_t": 39.99999999999999,
+      "p_jet_kw": 50.86304886545744,
+      "p_electrical_kw": {
+        "MET_class": 169.54349621819148,
+        "Hall_class": 92.47827066446807,
+        "RF_ion_class": 78.25084440839606
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 200.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2042.6902077905038,
+      "v_e_m_s": 20031.947926228742,
+      "thrust_N": 3.627280714127951,
+      "m_prop_t": 39.99999999999999,
+      "p_jet_kw": 36.330749189612455,
+      "p_electrical_kw": {
+        "MET_class": 121.10249729870819,
+        "Hall_class": 66.05590761747719,
+        "RF_ion_class": 55.89346029171147
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 200.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2933.7966742762937,
+      "v_e_m_s": 28770.717155791615,
+      "thrust_N": 12.155853489404183,
+      "m_prop_t": 39.99999999999999,
+      "p_jet_kw": 174.86631126544518,
+      "p_electrical_kw": {
+        "MET_class": 582.8877042181506,
+        "Hall_class": 317.9387477553548,
+        "RF_ion_class": 269.02509425453104
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 200.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2933.7966742762937,
+      "v_e_m_s": 28770.717155791615,
+      "thrust_N": 7.29351209364251,
+      "m_prop_t": 39.99999999999999,
+      "p_jet_kw": 104.9197867592671,
+      "p_electrical_kw": {
+        "MET_class": 349.73262253089035,
+        "Hall_class": 190.76324865321288,
+        "RF_ion_class": 161.4150565527186
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 200.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2933.7966742762937,
+      "v_e_m_s": 28770.717155791615,
+      "thrust_N": 5.209651495458936,
+      "m_prop_t": 39.99999999999999,
+      "p_jet_kw": 74.94270482804794,
+      "p_electrical_kw": {
+        "MET_class": 249.8090160934931,
+        "Hall_class": 136.2594633237235,
+        "RF_ion_class": 115.2964689662276
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 200.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4053.3919783225433,
+      "v_e_m_s": 39750.19644421677,
+      "thrust_N": 16.79476954065656,
+      "m_prop_t": 39.99999999999999,
+      "p_jet_kw": 333.79769423822324,
+      "p_electrical_kw": {
+        "MET_class": 1112.6589807940775,
+        "Hall_class": 606.9048986149513,
+        "RF_ion_class": 513.5349142126512
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 200.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4053.3919783225433,
+      "v_e_m_s": 39750.19644421677,
+      "thrust_N": 10.076861724393936,
+      "m_prop_t": 39.99999999999999,
+      "p_jet_kw": 200.27861654293395,
+      "p_electrical_kw": {
+        "MET_class": 667.5953884764465,
+        "Hall_class": 364.1429391689708,
+        "RF_ion_class": 308.12094852759066
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 200.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4053.3919783225433,
+      "v_e_m_s": 39750.19644421677,
+      "thrust_N": 7.197758374567097,
+      "m_prop_t": 39.99999999999999,
+      "p_jet_kw": 143.05615467352422,
+      "p_electrical_kw": {
+        "MET_class": 476.85384891174743,
+        "Hall_class": 260.10209940640766,
+        "RF_ion_class": 220.08639180542187
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 200.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2042.6902077905038,
+      "v_e_m_s": 20031.947926228742,
+      "thrust_N": 14.811396249355798,
+      "m_prop_t": 69.99999999999999,
+      "p_jet_kw": 148.35055919091752,
+      "p_electrical_kw": {
+        "MET_class": 494.5018639697251,
+        "Hall_class": 269.7282894380318,
+        "RF_ion_class": 228.23162952448848
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 350.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2042.6902077905038,
+      "v_e_m_s": 20031.947926228742,
+      "thrust_N": 8.886837749613479,
+      "m_prop_t": 69.99999999999999,
+      "p_jet_kw": 89.01033551455052,
+      "p_electrical_kw": {
+        "MET_class": 296.70111838183504,
+        "Hall_class": 161.8369736628191,
+        "RF_ion_class": 136.93897771469312
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 350.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2042.6902077905038,
+      "v_e_m_s": 20031.947926228742,
+      "thrust_N": 6.347741249723914,
+      "m_prop_t": 69.99999999999999,
+      "p_jet_kw": 63.5788110818218,
+      "p_electrical_kw": {
+        "MET_class": 211.92937027273933,
+        "Hall_class": 115.59783833058508,
+        "RF_ion_class": 97.81355551049508
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 350.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2933.7966742762937,
+      "v_e_m_s": 28770.717155791615,
+      "thrust_N": 21.272743606457322,
+      "m_prop_t": 69.99999999999999,
+      "p_jet_kw": 306.016044714529,
+      "p_electrical_kw": {
+        "MET_class": 1020.0534823817634,
+        "Hall_class": 556.3928085718709,
+        "RF_ion_class": 470.79391494542926
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 350.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2933.7966742762937,
+      "v_e_m_s": 28770.717155791615,
+      "thrust_N": 12.763646163874393,
+      "m_prop_t": 69.99999999999999,
+      "p_jet_kw": 183.6096268287174,
+      "p_electrical_kw": {
+        "MET_class": 612.0320894290581,
+        "Hall_class": 333.8356851431226,
+        "RF_ion_class": 282.47634896725754
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 350.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2933.7966742762937,
+      "v_e_m_s": 28770.717155791615,
+      "thrust_N": 9.116890117053138,
+      "m_prop_t": 69.99999999999999,
+      "p_jet_kw": 131.14973344908387,
+      "p_electrical_kw": {
+        "MET_class": 437.1657781636129,
+        "Hall_class": 238.45406081651612,
+        "RF_ion_class": 201.76882069089825
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 350.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4053.3919783225433,
+      "v_e_m_s": 39750.19644421677,
+      "thrust_N": 29.390846696148976,
+      "m_prop_t": 69.99999999999999,
+      "p_jet_kw": 584.1459649168906,
+      "p_electrical_kw": {
+        "MET_class": 1947.1532163896354,
+        "Hall_class": 1062.0835725761647,
+        "RF_ion_class": 898.6860998721394
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 350.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4053.3919783225433,
+      "v_e_m_s": 39750.19644421677,
+      "thrust_N": 17.634508017689388,
+      "m_prop_t": 69.99999999999999,
+      "p_jet_kw": 350.4875789501344,
+      "p_electrical_kw": {
+        "MET_class": 1168.2919298337815,
+        "Hall_class": 637.2501435456988,
+        "RF_ion_class": 539.2116599232836
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 350.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4053.3919783225433,
+      "v_e_m_s": 39750.19644421677,
+      "thrust_N": 12.596077155492418,
+      "m_prop_t": 69.99999999999999,
+      "p_jet_kw": 250.34827067866738,
+      "p_electrical_kw": {
+        "MET_class": 834.4942355955579,
+        "Hall_class": 455.1786739612134,
+        "RF_ion_class": 385.15118565948825
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 350.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2042.6902077905038,
+      "v_e_m_s": 20031.947926228742,
+      "thrust_N": 21.15913749907971,
+      "m_prop_t": 99.99999999999997,
+      "p_jet_kw": 211.9293702727393,
+      "p_electrical_kw": {
+        "MET_class": 706.4312342424643,
+        "Hall_class": 385.3261277686169,
+        "RF_ion_class": 326.0451850349835
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 500.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2042.6902077905038,
+      "v_e_m_s": 20031.947926228742,
+      "thrust_N": 12.695482499447825,
+      "m_prop_t": 99.99999999999997,
+      "p_jet_kw": 127.15762216364358,
+      "p_electrical_kw": {
+        "MET_class": 423.8587405454786,
+        "Hall_class": 231.19567666117013,
+        "RF_ion_class": 195.62711102099013
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 500.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2042.6902077905038,
+      "v_e_m_s": 20031.947926228742,
+      "thrust_N": 9.068201785319875,
+      "m_prop_t": 99.99999999999997,
+      "p_jet_kw": 90.82687297403112,
+      "p_electrical_kw": {
+        "MET_class": 302.7562432467704,
+        "Hall_class": 165.13976904369295,
+        "RF_ion_class": 139.73365072927865
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 500.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2933.7966742762937,
+      "v_e_m_s": 28770.717155791615,
+      "thrust_N": 30.389633723510457,
+      "m_prop_t": 99.99999999999997,
+      "p_jet_kw": 437.16577816361286,
+      "p_electrical_kw": {
+        "MET_class": 1457.2192605453763,
+        "Hall_class": 794.846869388387,
+        "RF_ion_class": 672.5627356363275
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 500.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2933.7966742762937,
+      "v_e_m_s": 28770.717155791615,
+      "thrust_N": 18.233780234106273,
+      "m_prop_t": 99.99999999999997,
+      "p_jet_kw": 262.2994668981677,
+      "p_electrical_kw": {
+        "MET_class": 874.3315563272256,
+        "Hall_class": 476.9081216330321,
+        "RF_ion_class": 403.5376413817964
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 500.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 2933.7966742762937,
+      "v_e_m_s": 28770.717155791615,
+      "thrust_N": 13.024128738647338,
+      "m_prop_t": 99.99999999999997,
+      "p_jet_kw": 187.3567620701198,
+      "p_electrical_kw": {
+        "MET_class": 624.5225402337327,
+        "Hall_class": 340.6486583093087,
+        "RF_ion_class": 288.2411724155689
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 500.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4053.3919783225433,
+      "v_e_m_s": 39750.19644421677,
+      "thrust_N": 41.9869238516414,
+      "m_prop_t": 99.99999999999997,
+      "p_jet_kw": 834.494235595558,
+      "p_electrical_kw": {
+        "MET_class": 2781.647451985194,
+        "Hall_class": 1517.2622465373784,
+        "RF_ion_class": 1283.8372855316277
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 500.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4053.3919783225433,
+      "v_e_m_s": 39750.19644421677,
+      "thrust_N": 25.19215431098484,
+      "m_prop_t": 99.99999999999997,
+      "p_jet_kw": 500.6965413573348,
+      "p_electrical_kw": {
+        "MET_class": 1668.988471191116,
+        "Hall_class": 910.3573479224269,
+        "RF_ion_class": 770.3023713189766
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 500.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4053.3919783225433,
+      "v_e_m_s": 39750.19644421677,
+      "thrust_N": 17.994395936417742,
+      "m_prop_t": 99.99999999999997,
+      "p_jet_kw": 357.64038668381056,
+      "p_electrical_kw": {
+        "MET_class": 1192.1346222793686,
+        "Hall_class": 650.2552485160192,
+        "RF_ion_class": 550.2159795135548
+      },
+      "eta_delivered": 0.8,
+      "chunk_t": 500.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4326.223579632563,
+      "v_e_m_s": 42425.760467203676,
+      "thrust_N": 0.4481304077539026,
+      "m_prop_t": 0.9999999999999998,
+      "p_jet_kw": 9.506136668718693,
+      "p_electrical_kw": {
+        "MET_class": 31.68712222906231,
+        "Hall_class": 17.283884852215802,
+        "RF_ion_class": 14.624825644182604
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 10.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4326.223579632563,
+      "v_e_m_s": 42425.760467203676,
+      "thrust_N": 0.26887824465234156,
+      "m_prop_t": 0.9999999999999998,
+      "p_jet_kw": 5.703682001231216,
+      "p_electrical_kw": {
+        "MET_class": 19.012273337437385,
+        "Hall_class": 10.370330911329482,
+        "RF_ion_class": 8.774895386509563
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 10.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4326.223579632563,
+      "v_e_m_s": 42425.760467203676,
+      "thrust_N": 0.19205588903738682,
+      "m_prop_t": 0.9999999999999998,
+      "p_jet_kw": 4.074058572308011,
+      "p_electrical_kw": {
+        "MET_class": 13.580195241026702,
+        "Hall_class": 7.407379222378201,
+        "RF_ion_class": 6.267782418935401
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 10.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 6213.502322425293,
+      "v_e_m_s": 60933.64255021199,
+      "thrust_N": 0.6436235386532559,
+      "m_prop_t": 0.9999999999999998,
+      "p_jet_kw": 19.60916332060002,
+      "p_electrical_kw": {
+        "MET_class": 65.3638777353334,
+        "Hall_class": 35.653024219272766,
+        "RF_ion_class": 30.167943570153877
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 10.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 6213.502322425293,
+      "v_e_m_s": 60933.64255021199,
+      "thrust_N": 0.3861741231919536,
+      "m_prop_t": 0.9999999999999998,
+      "p_jet_kw": 11.765497992360014,
+      "p_electrical_kw": {
+        "MET_class": 39.21832664120005,
+        "Hall_class": 21.39181453156366,
+        "RF_ion_class": 18.10076614209233
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 10.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 6213.502322425293,
+      "v_e_m_s": 60933.64255021199,
+      "thrust_N": 0.275838659422824,
+      "m_prop_t": 0.9999999999999998,
+      "p_jet_kw": 8.40392713740001,
+      "p_electrical_kw": {
+        "MET_class": 28.01309045800004,
+        "Hall_class": 15.279867522545473,
+        "RF_ion_class": 12.929118672923094
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 10.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 8584.698691575131,
+      "v_e_m_s": 84187.13542373525,
+      "thrust_N": 0.8892431133729565,
+      "m_prop_t": 0.9999999999999998,
+      "p_jet_kw": 37.43141520507652,
+      "p_electrical_kw": {
+        "MET_class": 124.77138401692173,
+        "Hall_class": 68.05711855468458,
+        "RF_ion_class": 57.58679262319464
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 10.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 8584.698691575131,
+      "v_e_m_s": 84187.13542373525,
+      "thrust_N": 0.5335458680237739,
+      "m_prop_t": 0.9999999999999998,
+      "p_jet_kw": 22.458849123045916,
+      "p_electrical_kw": {
+        "MET_class": 74.86283041015305,
+        "Hall_class": 40.834271132810755,
+        "RF_ion_class": 34.552075573916795
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 10.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 8584.698691575131,
+      "v_e_m_s": 84187.13542373525,
+      "thrust_N": 0.38110419144555274,
+      "m_prop_t": 0.9999999999999998,
+      "p_jet_kw": 16.042035087889936,
+      "p_electrical_kw": {
+        "MET_class": 53.47345029296646,
+        "Hall_class": 29.167336523436248,
+        "RF_ion_class": 24.68005398136913
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 10.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4326.223579632563,
+      "v_e_m_s": 42425.760467203676,
+      "thrust_N": 1.1203260193847566,
+      "m_prop_t": 2.4999999999999996,
+      "p_jet_kw": 23.765341671796733,
+      "p_electrical_kw": {
+        "MET_class": 79.21780557265578,
+        "Hall_class": 43.209712130539515,
+        "RF_ion_class": 36.56206411045652
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 25.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4326.223579632563,
+      "v_e_m_s": 42425.760467203676,
+      "thrust_N": 0.672195611630854,
+      "m_prop_t": 2.4999999999999996,
+      "p_jet_kw": 14.259205003078039,
+      "p_electrical_kw": {
+        "MET_class": 47.530683343593466,
+        "Hall_class": 25.925827278323705,
+        "RF_ion_class": 21.937238466273907
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 25.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4326.223579632563,
+      "v_e_m_s": 42425.760467203676,
+      "thrust_N": 0.4801397225934671,
+      "m_prop_t": 2.4999999999999996,
+      "p_jet_kw": 10.185146430770027,
+      "p_electrical_kw": {
+        "MET_class": 33.950488102566766,
+        "Hall_class": 18.518448055945505,
+        "RF_ion_class": 15.669456047338505
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 25.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 6213.502322425293,
+      "v_e_m_s": 60933.64255021199,
+      "thrust_N": 1.6090588466331401,
+      "m_prop_t": 2.4999999999999996,
+      "p_jet_kw": 49.02290830150007,
+      "p_electrical_kw": {
+        "MET_class": 163.40969433833357,
+        "Hall_class": 89.13256054818194,
+        "RF_ion_class": 75.41985892538472
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 25.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 6213.502322425293,
+      "v_e_m_s": 60933.64255021199,
+      "thrust_N": 0.9654353079798841,
+      "m_prop_t": 2.4999999999999996,
+      "p_jet_kw": 29.413744980900038,
+      "p_electrical_kw": {
+        "MET_class": 98.04581660300013,
+        "Hall_class": 53.479536328909155,
+        "RF_ion_class": 45.25191535523083
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 25.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 6213.502322425293,
+      "v_e_m_s": 60933.64255021199,
+      "thrust_N": 0.68959664855706,
+      "m_prop_t": 2.4999999999999996,
+      "p_jet_kw": 21.00981784350003,
+      "p_electrical_kw": {
+        "MET_class": 70.03272614500011,
+        "Hall_class": 38.19966880636369,
+        "RF_ion_class": 32.32279668230774
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 25.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 8584.698691575131,
+      "v_e_m_s": 84187.13542373525,
+      "thrust_N": 2.223107783432391,
+      "m_prop_t": 2.4999999999999996,
+      "p_jet_kw": 93.57853801269131,
+      "p_electrical_kw": {
+        "MET_class": 311.9284600423044,
+        "Hall_class": 170.14279638671144,
+        "RF_ion_class": 143.9669815579866
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 25.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 8584.698691575131,
+      "v_e_m_s": 84187.13542373525,
+      "thrust_N": 1.3338646700594348,
+      "m_prop_t": 2.4999999999999996,
+      "p_jet_kw": 56.14712280761479,
+      "p_electrical_kw": {
+        "MET_class": 187.15707602538265,
+        "Hall_class": 102.08567783202687,
+        "RF_ion_class": 86.38018893479197
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 25.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 8584.698691575131,
+      "v_e_m_s": 84187.13542373525,
+      "thrust_N": 0.952760478613882,
+      "m_prop_t": 2.4999999999999996,
+      "p_jet_kw": 40.10508771972485,
+      "p_electrical_kw": {
+        "MET_class": 133.68362573241617,
+        "Hall_class": 72.91834130859063,
+        "RF_ion_class": 61.70013495342284
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 25.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4326.223579632563,
+      "v_e_m_s": 42425.760467203676,
+      "thrust_N": 2.2406520387695132,
+      "m_prop_t": 4.999999999999999,
+      "p_jet_kw": 47.530683343593466,
+      "p_electrical_kw": {
+        "MET_class": 158.43561114531155,
+        "Hall_class": 86.41942426107903,
+        "RF_ion_class": 73.12412822091304
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 50.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4326.223579632563,
+      "v_e_m_s": 42425.760467203676,
+      "thrust_N": 1.344391223261708,
+      "m_prop_t": 4.999999999999999,
+      "p_jet_kw": 28.518410006156078,
+      "p_electrical_kw": {
+        "MET_class": 95.06136668718693,
+        "Hall_class": 51.85165455664741,
+        "RF_ion_class": 43.874476932547815
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 50.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4326.223579632563,
+      "v_e_m_s": 42425.760467203676,
+      "thrust_N": 0.9602794451869342,
+      "m_prop_t": 4.999999999999999,
+      "p_jet_kw": 20.370292861540054,
+      "p_electrical_kw": {
+        "MET_class": 67.90097620513353,
+        "Hall_class": 37.03689611189101,
+        "RF_ion_class": 31.33891209467701
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 50.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 6213.502322425293,
+      "v_e_m_s": 60933.64255021199,
+      "thrust_N": 3.2181176932662803,
+      "m_prop_t": 4.999999999999999,
+      "p_jet_kw": 98.04581660300013,
+      "p_electrical_kw": {
+        "MET_class": 326.81938867666713,
+        "Hall_class": 178.26512109636388,
+        "RF_ion_class": 150.83971785076943
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 50.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 6213.502322425293,
+      "v_e_m_s": 60933.64255021199,
+      "thrust_N": 1.9308706159597682,
+      "m_prop_t": 4.999999999999999,
+      "p_jet_kw": 58.827489961800076,
+      "p_electrical_kw": {
+        "MET_class": 196.09163320600027,
+        "Hall_class": 106.95907265781831,
+        "RF_ion_class": 90.50383071046166
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 50.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 6213.502322425293,
+      "v_e_m_s": 60933.64255021199,
+      "thrust_N": 1.37919329711412,
+      "m_prop_t": 4.999999999999999,
+      "p_jet_kw": 42.01963568700006,
+      "p_electrical_kw": {
+        "MET_class": 140.06545229000022,
+        "Hall_class": 76.39933761272738,
+        "RF_ion_class": 64.64559336461548
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 50.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 8584.698691575131,
+      "v_e_m_s": 84187.13542373525,
+      "thrust_N": 4.446215566864782,
+      "m_prop_t": 4.999999999999999,
+      "p_jet_kw": 187.15707602538262,
+      "p_electrical_kw": {
+        "MET_class": 623.8569200846088,
+        "Hall_class": 340.2855927734229,
+        "RF_ion_class": 287.9339631159732
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 50.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 8584.698691575131,
+      "v_e_m_s": 84187.13542373525,
+      "thrust_N": 2.6677293401188695,
+      "m_prop_t": 4.999999999999999,
+      "p_jet_kw": 112.29424561522958,
+      "p_electrical_kw": {
+        "MET_class": 374.3141520507653,
+        "Hall_class": 204.17135566405375,
+        "RF_ion_class": 172.76037786958395
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 50.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 8584.698691575131,
+      "v_e_m_s": 84187.13542373525,
+      "thrust_N": 1.905520957227764,
+      "m_prop_t": 4.999999999999999,
+      "p_jet_kw": 80.2101754394497,
+      "p_electrical_kw": {
+        "MET_class": 267.36725146483235,
+        "Hall_class": 145.83668261718125,
+        "RF_ion_class": 123.40026990684568
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 50.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4326.223579632563,
+      "v_e_m_s": 42425.760467203676,
+      "thrust_N": 4.4813040775390265,
+      "m_prop_t": 9.999999999999998,
+      "p_jet_kw": 95.06136668718693,
+      "p_electrical_kw": {
+        "MET_class": 316.8712222906231,
+        "Hall_class": 172.83884852215806,
+        "RF_ion_class": 146.24825644182607
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 100.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4326.223579632563,
+      "v_e_m_s": 42425.760467203676,
+      "thrust_N": 2.688782446523416,
+      "m_prop_t": 9.999999999999998,
+      "p_jet_kw": 57.036820012312155,
+      "p_electrical_kw": {
+        "MET_class": 190.12273337437387,
+        "Hall_class": 103.70330911329482,
+        "RF_ion_class": 87.74895386509563
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 100.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4326.223579632563,
+      "v_e_m_s": 42425.760467203676,
+      "thrust_N": 1.9205588903738684,
+      "m_prop_t": 9.999999999999998,
+      "p_jet_kw": 40.74058572308011,
+      "p_electrical_kw": {
+        "MET_class": 135.80195241026706,
+        "Hall_class": 74.07379222378202,
+        "RF_ion_class": 62.67782418935402
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 100.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 6213.502322425293,
+      "v_e_m_s": 60933.64255021199,
+      "thrust_N": 6.4362353865325606,
+      "m_prop_t": 9.999999999999998,
+      "p_jet_kw": 196.09163320600027,
+      "p_electrical_kw": {
+        "MET_class": 653.6387773533343,
+        "Hall_class": 356.53024219272777,
+        "RF_ion_class": 301.67943570153886
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 100.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 6213.502322425293,
+      "v_e_m_s": 60933.64255021199,
+      "thrust_N": 3.8617412319195363,
+      "m_prop_t": 9.999999999999998,
+      "p_jet_kw": 117.65497992360015,
+      "p_electrical_kw": {
+        "MET_class": 392.18326641200053,
+        "Hall_class": 213.91814531563662,
+        "RF_ion_class": 181.0076614209233
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 100.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 6213.502322425293,
+      "v_e_m_s": 60933.64255021199,
+      "thrust_N": 2.75838659422824,
+      "m_prop_t": 9.999999999999998,
+      "p_jet_kw": 84.03927137400012,
+      "p_electrical_kw": {
+        "MET_class": 280.13090458000045,
+        "Hall_class": 152.79867522545476,
+        "RF_ion_class": 129.29118672923096
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 100.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 8584.698691575131,
+      "v_e_m_s": 84187.13542373525,
+      "thrust_N": 8.892431133729565,
+      "m_prop_t": 9.999999999999998,
+      "p_jet_kw": 374.31415205076524,
+      "p_electrical_kw": {
+        "MET_class": 1247.7138401692175,
+        "Hall_class": 680.5711855468458,
+        "RF_ion_class": 575.8679262319464
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 100.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 8584.698691575131,
+      "v_e_m_s": 84187.13542373525,
+      "thrust_N": 5.335458680237739,
+      "m_prop_t": 9.999999999999998,
+      "p_jet_kw": 224.58849123045917,
+      "p_electrical_kw": {
+        "MET_class": 748.6283041015306,
+        "Hall_class": 408.3427113281075,
+        "RF_ion_class": 345.5207557391679
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 100.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 8584.698691575131,
+      "v_e_m_s": 84187.13542373525,
+      "thrust_N": 3.811041914455528,
+      "m_prop_t": 9.999999999999998,
+      "p_jet_kw": 160.4203508788994,
+      "p_electrical_kw": {
+        "MET_class": 534.7345029296647,
+        "Hall_class": 291.6733652343625,
+        "RF_ion_class": 246.80053981369136
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 100.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4326.223579632563,
+      "v_e_m_s": 42425.760467203676,
+      "thrust_N": 8.962608155078053,
+      "m_prop_t": 19.999999999999996,
+      "p_jet_kw": 190.12273337437387,
+      "p_electrical_kw": {
+        "MET_class": 633.7424445812462,
+        "Hall_class": 345.6776970443161,
+        "RF_ion_class": 292.49651288365214
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 200.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4326.223579632563,
+      "v_e_m_s": 42425.760467203676,
+      "thrust_N": 5.377564893046832,
+      "m_prop_t": 19.999999999999996,
+      "p_jet_kw": 114.07364002462431,
+      "p_electrical_kw": {
+        "MET_class": 380.24546674874773,
+        "Hall_class": 207.40661822658964,
+        "RF_ion_class": 175.49790773019126
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 200.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4326.223579632563,
+      "v_e_m_s": 42425.760467203676,
+      "thrust_N": 3.841117780747737,
+      "m_prop_t": 19.999999999999996,
+      "p_jet_kw": 81.48117144616022,
+      "p_electrical_kw": {
+        "MET_class": 271.6039048205341,
+        "Hall_class": 148.14758444756404,
+        "RF_ion_class": 125.35564837870804
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 200.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 6213.502322425293,
+      "v_e_m_s": 60933.64255021199,
+      "thrust_N": 12.872470773065121,
+      "m_prop_t": 19.999999999999996,
+      "p_jet_kw": 392.18326641200053,
+      "p_electrical_kw": {
+        "MET_class": 1307.2775547066685,
+        "Hall_class": 713.0604843854555,
+        "RF_ion_class": 603.3588714030777
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 200.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 6213.502322425293,
+      "v_e_m_s": 60933.64255021199,
+      "thrust_N": 7.723482463839073,
+      "m_prop_t": 19.999999999999996,
+      "p_jet_kw": 235.3099598472003,
+      "p_electrical_kw": {
+        "MET_class": 784.3665328240011,
+        "Hall_class": 427.83629063127324,
+        "RF_ion_class": 362.0153228418466
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 200.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 6213.502322425293,
+      "v_e_m_s": 60933.64255021199,
+      "thrust_N": 5.51677318845648,
+      "m_prop_t": 19.999999999999996,
+      "p_jet_kw": 168.07854274800025,
+      "p_electrical_kw": {
+        "MET_class": 560.2618091600009,
+        "Hall_class": 305.5973504509095,
+        "RF_ion_class": 258.5823734584619
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 200.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 8584.698691575131,
+      "v_e_m_s": 84187.13542373525,
+      "thrust_N": 17.78486226745913,
+      "m_prop_t": 19.999999999999996,
+      "p_jet_kw": 748.6283041015305,
+      "p_electrical_kw": {
+        "MET_class": 2495.427680338435,
+        "Hall_class": 1361.1423710936915,
+        "RF_ion_class": 1151.7358524638928
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 200.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 8584.698691575131,
+      "v_e_m_s": 84187.13542373525,
+      "thrust_N": 10.670917360475478,
+      "m_prop_t": 19.999999999999996,
+      "p_jet_kw": 449.17698246091834,
+      "p_electrical_kw": {
+        "MET_class": 1497.2566082030612,
+        "Hall_class": 816.685422656215,
+        "RF_ion_class": 691.0415114783358
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 200.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 8584.698691575131,
+      "v_e_m_s": 84187.13542373525,
+      "thrust_N": 7.622083828911056,
+      "m_prop_t": 19.999999999999996,
+      "p_jet_kw": 320.8407017577988,
+      "p_electrical_kw": {
+        "MET_class": 1069.4690058593294,
+        "Hall_class": 583.346730468725,
+        "RF_ion_class": 493.6010796273827
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 200.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4326.223579632563,
+      "v_e_m_s": 42425.760467203676,
+      "thrust_N": 15.68456427138659,
+      "m_prop_t": 34.99999999999999,
+      "p_jet_kw": 332.7147834051542,
+      "p_electrical_kw": {
+        "MET_class": 1109.0492780171808,
+        "Hall_class": 604.935969827553,
+        "RF_ion_class": 511.86889754639105
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 350.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4326.223579632563,
+      "v_e_m_s": 42425.760467203676,
+      "thrust_N": 9.410738562831954,
+      "m_prop_t": 34.99999999999999,
+      "p_jet_kw": 199.62887004309252,
+      "p_electrical_kw": {
+        "MET_class": 665.4295668103085,
+        "Hall_class": 362.9615818965318,
+        "RF_ion_class": 307.1213385278346
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 350.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4326.223579632563,
+      "v_e_m_s": 42425.760467203676,
+      "thrust_N": 6.721956116308538,
+      "m_prop_t": 34.99999999999999,
+      "p_jet_kw": 142.59205003078037,
+      "p_electrical_kw": {
+        "MET_class": 475.3068334359346,
+        "Hall_class": 259.25827278323703,
+        "RF_ion_class": 219.37238466273902
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 350.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 6213.502322425293,
+      "v_e_m_s": 60933.64255021199,
+      "thrust_N": 22.52682385286396,
+      "m_prop_t": 34.99999999999999,
+      "p_jet_kw": 686.3207162210009,
+      "p_electrical_kw": {
+        "MET_class": 2287.73572073667,
+        "Hall_class": 1247.855847674547,
+        "RF_ion_class": 1055.8780249553859
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 350.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 6213.502322425293,
+      "v_e_m_s": 60933.64255021199,
+      "thrust_N": 13.516094311718376,
+      "m_prop_t": 34.99999999999999,
+      "p_jet_kw": 411.7924297326005,
+      "p_electrical_kw": {
+        "MET_class": 1372.6414324420018,
+        "Hall_class": 748.7135086047282,
+        "RF_ion_class": 633.5268149732315
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 350.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 6213.502322425293,
+      "v_e_m_s": 60933.64255021199,
+      "thrust_N": 9.65435307979884,
+      "m_prop_t": 34.99999999999999,
+      "p_jet_kw": 294.1374498090004,
+      "p_electrical_kw": {
+        "MET_class": 980.4581660300013,
+        "Hall_class": 534.7953632890915,
+        "RF_ion_class": 452.51915355230824
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 350.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 8584.698691575131,
+      "v_e_m_s": 84187.13542373525,
+      "thrust_N": 31.12350896805348,
+      "m_prop_t": 34.99999999999999,
+      "p_jet_kw": 1310.0995321776784,
+      "p_electrical_kw": {
+        "MET_class": 4366.998440592261,
+        "Hall_class": 2381.9991494139604,
+        "RF_ion_class": 2015.5377418118126
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 350.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 8584.698691575131,
+      "v_e_m_s": 84187.13542373525,
+      "thrust_N": 18.67410538083209,
+      "m_prop_t": 34.99999999999999,
+      "p_jet_kw": 786.059719306607,
+      "p_electrical_kw": {
+        "MET_class": 2620.199064355357,
+        "Hall_class": 1429.1994896483764,
+        "RF_ion_class": 1209.3226450870877
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 350.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 8584.698691575131,
+      "v_e_m_s": 84187.13542373525,
+      "thrust_N": 13.338646700594348,
+      "m_prop_t": 34.99999999999999,
+      "p_jet_kw": 561.4712280761479,
+      "p_electrical_kw": {
+        "MET_class": 1871.5707602538262,
+        "Hall_class": 1020.8567783202687,
+        "RF_ion_class": 863.8018893479198
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 350.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4326.223579632563,
+      "v_e_m_s": 42425.760467203676,
+      "thrust_N": 22.406520387695128,
+      "m_prop_t": 49.999999999999986,
+      "p_jet_kw": 475.30683343593455,
+      "p_electrical_kw": {
+        "MET_class": 1584.3561114531153,
+        "Hall_class": 864.1942426107901,
+        "RF_ion_class": 731.2412822091301
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 500.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4326.223579632563,
+      "v_e_m_s": 42425.760467203676,
+      "thrust_N": 13.443912232617077,
+      "m_prop_t": 49.999999999999986,
+      "p_jet_kw": 285.18410006156074,
+      "p_electrical_kw": {
+        "MET_class": 950.6136668718692,
+        "Hall_class": 518.5165455664741,
+        "RF_ion_class": 438.74476932547805
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 500.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 4326.223579632563,
+      "v_e_m_s": 42425.760467203676,
+      "thrust_N": 9.60279445186934,
+      "m_prop_t": 49.999999999999986,
+      "p_jet_kw": 203.7029286154005,
+      "p_electrical_kw": {
+        "MET_class": 679.0097620513351,
+        "Hall_class": 370.36896111891,
+        "RF_ion_class": 313.38912094677
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 500.0,
+      "dv_km_s": 4.47,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 6213.502322425293,
+      "v_e_m_s": 60933.64255021199,
+      "thrust_N": 32.1811769326628,
+      "m_prop_t": 49.999999999999986,
+      "p_jet_kw": 980.4581660300013,
+      "p_electrical_kw": {
+        "MET_class": 3268.193886766671,
+        "Hall_class": 1782.6512109636385,
+        "RF_ion_class": 1508.3971785076942
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 500.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 6213.502322425293,
+      "v_e_m_s": 60933.64255021199,
+      "thrust_N": 19.30870615959768,
+      "m_prop_t": 49.999999999999986,
+      "p_jet_kw": 588.2748996180007,
+      "p_electrical_kw": {
+        "MET_class": 1960.9163320600026,
+        "Hall_class": 1069.590726578183,
+        "RF_ion_class": 905.0383071046165
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 500.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 6213.502322425293,
+      "v_e_m_s": 60933.64255021199,
+      "thrust_N": 13.7919329711412,
+      "m_prop_t": 49.999999999999986,
+      "p_jet_kw": 420.19635687000056,
+      "p_electrical_kw": {
+        "MET_class": 1400.654522900002,
+        "Hall_class": 763.9933761272737,
+        "RF_ion_class": 646.4559336461547
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 500.0,
+      "dv_km_s": 6.42,
+      "tau_burn_yr": 7.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 8584.698691575131,
+      "v_e_m_s": 84187.13542373525,
+      "thrust_N": 44.46215566864782,
+      "m_prop_t": 49.999999999999986,
+      "p_jet_kw": 1871.570760253826,
+      "p_electrical_kw": {
+        "MET_class": 6238.5692008460865,
+        "Hall_class": 3402.8559277342288,
+        "RF_ion_class": 2879.339631159732
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 500.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 3.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 8584.698691575131,
+      "v_e_m_s": 84187.13542373525,
+      "thrust_N": 26.67729340118869,
+      "m_prop_t": 49.999999999999986,
+      "p_jet_kw": 1122.9424561522956,
+      "p_electrical_kw": {
+        "MET_class": 3743.141520507652,
+        "Hall_class": 2041.713556640537,
+        "RF_ion_class": 1727.6037786958393
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 500.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 5.0
+    },
+    {
+      "feasible": true,
+      "isp_s": 8584.698691575131,
+      "v_e_m_s": 84187.13542373525,
+      "thrust_N": 19.055209572277636,
+      "m_prop_t": 49.999999999999986,
+      "p_jet_kw": 802.1017543944968,
+      "p_electrical_kw": {
+        "MET_class": 2673.672514648323,
+        "Hall_class": 1458.3668261718121,
+        "RF_ion_class": 1234.0026990684566
+      },
+      "eta_delivered": 0.9,
+      "chunk_t": 500.0,
+      "dv_km_s": 8.87,
+      "tau_burn_yr": 7.0
+    }
+  ]
+}

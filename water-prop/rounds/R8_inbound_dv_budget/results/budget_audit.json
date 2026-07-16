@@ -1,0 +1,135 @@
+{
+  "inputs": {
+    "saturn_bring_radius_km": 135000.0,
+    "saturn_capture_dv_km_s": 0.6,
+    "saturn_rendezvous_in_dv_km_s": 1.49,
+    "conops_total_watermet_dv_km_s": 3.7,
+    "conops_tsi_dv_km_s": 7.3,
+    "r6_revised_chunkfed_inbound_dv_km_s": 5.2,
+    "r2_lga_at_vinf_6_km_s": 2.15,
+    "water_met_isp_s": 500.0,
+    "grappled_chunk_t": 14.0,
+    "dry_spacecraft_t": 5.0
+  },
+  "heliocentric_hohmann": {
+    "a_transfer_km": 791567213.2349099,
+    "v_perihelion_km_s": 40.08238898319444,
+    "v_aphelion_km_s": 4.182830232211972,
+    "v_inner_orbital_km_s": 29.784691831696804,
+    "v_outer_orbital_km_s": 9.621691565667968,
+    "v_inf_at_inner_km_s": 10.297697151497637,
+    "v_inf_at_outer_km_s": 5.438861333455995
+  },
+  "saturn_bring_kinematics": {
+    "v_circ_km_s": 16.762212131922073,
+    "v_esc_km_s": 23.70534773233903
+  },
+  "saturn_departure_direct_bracket": {
+    "r_burn_km": 135000.0,
+    "v_circ_km_s": 16.762212131922073,
+    "v_burn_km_s": 24.321281292639043,
+    "delta_v_km_s": 7.5590691607169695,
+    "v_esc_km_s": 23.70534773233903
+  },
+  "saturn_egress_mirror_km_s": 2.09,
+  "inbound_cases": [
+    {
+      "label": "A_hohmann_lga1",
+      "v_inf_arrive_km_s": 10.297697151497637,
+      "lga_dv_km_s": 1.8594572536665768,
+      "residual_after_lga_km_s": 8.43823989783106,
+      "chunk_fed_inbound_total_km_s": 10.52823989783106,
+      "v_e_m_s": 4903.325,
+      "m0_t": 19.0,
+      "prop_frac": 0.8831849522707442,
+      "prop_req_t": 16.78051409314414,
+      "delivered_chunk_t": 0.0,
+      "delivered_chunk_frac": 0.0
+    },
+    {
+      "label": "B_slow_vinf6_lga1",
+      "v_inf_arrive_km_s": 6.0,
+      "lga_dv_km_s": 2.15,
+      "residual_after_lga_km_s": 3.85,
+      "chunk_fed_inbound_total_km_s": 5.9399999999999995,
+      "v_e_m_s": 4903.325,
+      "m0_t": 19.0,
+      "prop_frac": 0.7022267121425488,
+      "prop_req_t": 13.342307530708428,
+      "delivered_chunk_t": 0.6576924692915718,
+      "delivered_chunk_frac": 0.04697803352082656
+    },
+    {
+      "label": "C_slow_vinf4_lga1",
+      "v_inf_arrive_km_s": 4.0,
+      "lga_dv_km_s": 3.24,
+      "residual_after_lga_km_s": 0.7599999999999998,
+      "chunk_fed_inbound_total_km_s": 2.8499999999999996,
+      "v_e_m_s": 4903.325,
+      "m0_t": 19.0,
+      "prop_frac": 0.44079449371775703,
+      "prop_req_t": 8.375095380637383,
+      "delivered_chunk_t": 5.624904619362617,
+      "delivered_chunk_frac": 0.40177890138304406
+    },
+    {
+      "label": "D_hohmann_lga5",
+      "v_inf_arrive_km_s": 10.297697151497637,
+      "lga_dv_km_s": 3.0,
+      "residual_after_lga_km_s": 7.297697151497637,
+      "chunk_fed_inbound_total_km_s": 9.387697151497637,
+      "v_e_m_s": 4903.325,
+      "m0_t": 19.0,
+      "prop_frac": 0.8525929391283955,
+      "prop_req_t": 16.199265843439516,
+      "delivered_chunk_t": 0.0,
+      "delivered_chunk_frac": 0.0
+    }
+  ],
+  "conops_reconciliation": {
+    "conops_total_watermet_dv_km_s": 3.7,
+    "conops_explicit_watermet_km_s": 2.09,
+    "conops_implicit_chunkfed_km_s": 1.6100000000000003,
+    "first_principles_chunkfed_pessimistic_km_s": 10.52823989783106,
+    "first_principles_chunkfed_optimistic_km_s": 2.8499999999999996,
+    "conops_hole_pessimistic_km_s": 8.91823989783106,
+    "conops_hole_optimistic_km_s": 1.2399999999999993
+  },
+  "hypothesis_grading": {
+    "H8a": {
+      "predicted_range_km_s": [
+        9.0,
+        11.0
+      ],
+      "measured_km_s": 10.297697151497637,
+      "held": true
+    },
+    "H8b": {
+      "predicted_range_km_s": [
+        5.0,
+        5.8
+      ],
+      "measured_km_s": 5.438861333455995,
+      "held": true
+    },
+    "H8c": {
+      "predicted_threshold": "held if conops vs first-principles gap \u2264 0.5 km/s",
+      "pessimistic_gap_km_s": 8.91823989783106,
+      "optimistic_gap_km_s": 1.2399999999999993,
+      "verdict": "load-bearing"
+    },
+    "H8d": {
+      "predicted_range_km_s": [
+        5.5,
+        7.5
+      ],
+      "measured_km_s": 5.9399999999999995,
+      "held": true
+    },
+    "H8e": {
+      "predicted": "falsified (chunk arrives < 25% delivered)",
+      "measured_delivered_frac": 0.04697803352082656,
+      "held": true
+    }
+  }
+}

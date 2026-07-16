@@ -1,0 +1,53 @@
+{
+  "round": "R_suez_analogy_consistency",
+  "date": "2026-05-16",
+  "seed": 20260515,
+  "n_mc": 10000,
+  "empirical_anchors": {
+    "suez_margin_fraction_low": 0.33,
+    "suez_margin_fraction_mid": 0.365,
+    "suez_margin_fraction_high": 0.4,
+    "iceberg_marginal_cost_$_per_kg": 2500.0,
+    "iceberg_marginal_cost_M_per_tonne": 2.5,
+    "r15_sign_flip_threshold_$_per_kg": 18600.0
+  },
+  "distributions": {
+    "starship_$_per_kg": {
+      "p05": 178.3939798980864,
+      "p50": 1523.5168154973228,
+      "p95": 12758.760025268353
+    },
+    "original_clearing_$_per_kg": {
+      "p05": 429.0457607479184,
+      "p50": 5240.224497437567,
+      "p95": 62706.59556932652
+    },
+    "suez_cap_mid_36.5pct_$_per_kg": {
+      "p05": 2500.0,
+      "p50": 2500.0,
+      "p95": 6244.447409222948
+    }
+  },
+  "cap_binding_analysis": {
+    "fraction_draws_where_cap_binds_margin_36_5pct": 0.6835,
+    "fraction_caps_above_signflip_margin_33pct": 0.0039,
+    "fraction_caps_above_signflip_margin_36_5pct": 0.0045,
+    "fraction_caps_above_signflip_margin_40pct": 0.0052,
+    "median_suez_cap_$_per_kg": 2500.0,
+    "median_suez_cap_at_r15_clearing_percentile": 0.3127
+  },
+  "npv_under_suez_regulation": {
+    "mean_delta_npv_M": 6424.57094800884,
+    "mean_delta_npv_B": 6.4245709480088395,
+    "median_delta_npv_M": 6858.492397443996,
+    "mean_npv_D_M": -11586.622842937035,
+    "mean_npv_R_M": -5162.051894928195,
+    "frac_npv_D_positive": 0.0229,
+    "frac_npv_R_positive": 0.0142
+  },
+  "npv_uncapped_baseline": {
+    "mean_delta_npv_M": -10633.591976321974,
+    "mean_delta_npv_B": -10.633591976321974,
+    "matches_r14_r15": true
+  }
+}

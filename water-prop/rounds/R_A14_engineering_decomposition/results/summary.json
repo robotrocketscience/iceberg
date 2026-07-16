@@ -1,0 +1,32 @@
+{
+  "round": "R-A14-engineering-decomposition",
+  "worker": "hyperion",
+  "date": "2026-05-22",
+  "context": {
+    "desk_anchor": 0.85,
+    "downstream_eff": 0.277,
+    "canonical_chunk_t": 200.0,
+    "threshold_25t_floor": 0.4513,
+    "threshold_30t_floor": 0.5415,
+    "placeholder_joint": 0.4549
+  },
+  "headline_joints": {
+    "mm_s_redundant_mid": 0.528,
+    "low_m_s_redundant_mid": 0.408,
+    "high_m_s_redundant_mid": 0.275,
+    "mm_s_redundant_low": 0.3985,
+    "mm_s_redundant_high": 0.6836
+  },
+  "demonstrator_conditional": {
+    "rendezvous": 0.95,
+    "deployment": 0.95,
+    "catch": 0.95,
+    "containment": 0.92,
+    "survive": 0.88,
+    "joint": 0.6941,
+    "capture_efficiency": 0.6941,
+    "multiplier_of_desk_0.85": 0.817,
+    "closes_25t_floor": true,
+    "closes_30t_floor": true
+  }
+}

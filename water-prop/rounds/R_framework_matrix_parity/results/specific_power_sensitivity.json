@@ -1,0 +1,17 @@
+{
+ "2.4": {
+  "closing_30t_waiver": 0,
+  "closing_30t_strict": 0,
+  "closing_cells_30t_strict": []
+ },
+ "5.0": {
+  "closing_30t_waiver": 0,
+  "closing_30t_strict": 0,
+  "closing_cells_30t_strict": []
+ },
+ "10.0": {
+  "closing_30t_waiver": 0,
+  "closing_30t_strict": 0,
+  "closing_cells_30t_strict": []
+ }
+}

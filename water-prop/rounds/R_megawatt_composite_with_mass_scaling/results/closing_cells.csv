@@ -1,0 +1,3 @@
+mass_model,power_mwe,isp_exit_s,isp_inbound_s,m_power_t,m_dry_total_t,m_at_exit_t,m_post_exit_t,m_at_earth_t,delivered_t,delivered_pct,t_exit_month,t_inbound_year,exit_closes,inbound_closes,mass_closes,all_close
+paper_aspirational,5.0,3000,9000,125.00,259.13,459.13,357.024,274.498,15.368,7.6839,5.170,3.1340,yes,yes,yes,yes
+paper_aspirational,10.0,5000,9000,250.00,384.13,584.13,502.304,386.196,2.066,1.0331,5.754,2.2047,yes,yes,yes,yes

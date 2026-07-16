@@ -1,0 +1,9 @@
+anchor_label,mass_model,power_mwe,isp_exit_s,isp_inbound_s,m_power_t,m_dry_total_t,m_at_exit_t,m_post_exit_t,m_at_earth_t,delivered_t,delivered_pct,t_exit_month,t_inbound_year,exit_closes,inbound_closes,mass_closes,all_close
+anchor_A_5MWe_3000_9000,paper_aspirational,5.0,3000,9000,125.00,259.13,459.13,357.024,274.498,15.368,7.6839,5.170,3.1340,yes,yes,yes,yes
+anchor_A_5MWe_3000_9000,bottoms_up_moderate,5.0,3000,9000,500.00,634.13,834.13,648.628,498.697,-135.433,-67.7164,9.393,5.6938,no,yes,no,no
+anchor_A_5MWe_3000_9000,krusty_anchored,5.0,3000,9000,2085.00,2219.13,2419.13,1881.140,1446.313,-772.817,-386.4083,27.241,16.5130,no,no,no,no
+anchor_A_5MWe_3000_9000,bundled_finding_4,5.0,3000,9000,505.00,639.13,839.13,652.516,501.687,-137.443,-68.7217,9.449,5.7279,no,yes,no,no
+anchor_B_10MWe_7000_9000,paper_aspirational,10.0,7000,9000,250.00,384.13,584.13,524.437,403.213,19.083,9.5415,8.228,2.3018,no,yes,yes,no
+anchor_B_10MWe_7000_9000,bottoms_up_moderate,10.0,7000,9000,1000.00,1134.13,1334.13,1197.793,920.923,-213.207,-106.6037,18.793,5.2572,no,yes,no,no
+anchor_B_10MWe_7000_9000,krusty_anchored,10.0,7000,9000,4170.00,4304.13,4504.13,4043.846,3109.108,-1195.022,-597.5108,63.445,17.7488,no,no,no,no
+anchor_B_10MWe_7000_9000,bundled_finding_4,10.0,7000,9000,1005.00,1139.13,1339.13,1202.282,924.374,-214.756,-107.3780,18.863,5.2769,no,yes,no,no

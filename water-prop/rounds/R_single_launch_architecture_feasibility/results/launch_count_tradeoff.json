@@ -1,0 +1,202 @@
+{
+  "round": "R-single-launch-architecture-feasibility",
+  "author": "rhea",
+  "date": "2026-05-15",
+  "scaling_verification": {
+    "m_tug_x_sp_constant_t_w_per_kg": 590.454513937734,
+    "m_tug_x_sp_range": [
+      576.7230136136006,
+      604.1860142618673
+    ],
+    "cliff_anchor_cells": [
+      {
+        "specific_power_w_per_kg": 5.0,
+        "m_tug_t": 115.34460272272013,
+        "m_prop_outbound_t": 206.89215245675663,
+        "m_LEO_t": 322.23675517947675,
+        "m_tug_x_sp": 576.7230136136006,
+        "mass_ratio_outbound": 2.7936873297323674
+      },
+      {
+        "specific_power_w_per_kg": 6.0,
+        "m_tug_t": 97.03593562387566,
+        "m_prop_outbound_t": 174.05212825727145,
+        "m_LEO_t": 271.0880638811471,
+        "m_tug_x_sp": 582.2156137432539,
+        "mass_ratio_outbound": 2.7936873297323674
+      },
+      {
+        "specific_power_w_per_kg": 7.0,
+        "m_tug_t": 83.95831626755819,
+        "m_prop_outbound_t": 150.59496811478203,
+        "m_LEO_t": 234.55328438234022,
+        "m_tug_x_sp": 587.7082138729073,
+        "mass_ratio_outbound": 2.7936873297323674
+      },
+      {
+        "specific_power_w_per_kg": 8.0,
+        "m_tug_t": 74.15010175032009,
+        "m_prop_outbound_t": 133.00209800791498,
+        "m_LEO_t": 207.15219975823507,
+        "m_tug_x_sp": 593.2008140025607,
+        "mass_ratio_outbound": 2.7936873297323674
+      },
+      {
+        "specific_power_w_per_kg": 9.0,
+        "m_tug_t": 66.5214904591349,
+        "m_prop_outbound_t": 119.31875459146283,
+        "m_LEO_t": 185.84024505059773,
+        "m_tug_x_sp": 598.693414132214,
+        "mass_ratio_outbound": 2.7936873297323674
+      },
+      {
+        "specific_power_w_per_kg": 10.0,
+        "m_tug_t": 60.41860142618673,
+        "m_prop_outbound_t": 108.37207985830109,
+        "m_LEO_t": 168.79068128448782,
+        "m_tug_x_sp": 604.1860142618673,
+        "mass_ratio_outbound": 2.7936873297323674
+      }
+    ]
+  },
+  "min_specific_power_for_single_launch_by_isp": {
+    "isp_2934": {
+      "isp_s": 2934,
+      "mass_ratio": 2.7936778330426955,
+      "min_specific_power_w_per_kg": 10.996931246718978
+    },
+    "isp_3000": {
+      "isp_s": 3000,
+      "mass_ratio": 2.73124363828936,
+      "min_specific_power_w_per_kg": 10.751167565944483
+    },
+    "isp_3500": {
+      "isp_s": 3500,
+      "mass_ratio": 2.3660462878216397,
+      "min_specific_power_w_per_kg": 9.313618072199374
+    },
+    "isp_4000": {
+      "isp_s": 4000,
+      "mass_ratio": 2.1245665136097776,
+      "min_specific_power_w_per_kg": 8.363065920812314
+    },
+    "isp_4500": {
+      "isp_s": 4500,
+      "mass_ratio": 1.9539208257816434,
+      "min_specific_power_w_per_kg": 7.691342476398106
+    },
+    "isp_5000": {
+      "isp_s": 5000,
+      "mass_ratio": 1.8273269763526525,
+      "min_specific_power_w_per_kg": 7.193023077517431
+    }
+  },
+  "launch_count_minimum_points": {
+    "launches_1": {
+      "n_launches": 1,
+      "payload_budget_t": 150.0,
+      "min_specific_power_w_per_kg": 10.996931246718978,
+      "specific_power_used_w_per_kg": 10.996931246718978,
+      "specific_impulse_s": 2934,
+      "m_LEO_t_actual": 150.0,
+      "m_LEO_fits_budget": true,
+      "p_delivers_sp": 0.09302148127296717,
+      "reactor_conjunction_posterior": 0.0024836735499882234,
+      "delivered_t_per_mission": 52.44232811679745,
+      "per_mission_cost_b": 0.3433333333333333,
+      "breakeven_m_per_t": 6.546874360128999,
+      "frame_b_p_npv_positive_zero_disc": 0.44376221464019705,
+      "frame_a_full_chain_p_npv_positive": 0.0011021604749860542
+    },
+    "launches_2": {
+      "n_launches": 2,
+      "payload_budget_t": 300.0,
+      "min_specific_power_w_per_kg": 5.498465623359489,
+      "specific_power_used_w_per_kg": 8.0,
+      "specific_impulse_s": 2934,
+      "m_LEO_t_actual": 206.19246087598083,
+      "m_LEO_fits_budget": true,
+      "p_delivers_sp": 0.25,
+      "reactor_conjunction_posterior": 0.0066749999999999995,
+      "delivered_t_per_mission": 42.04,
+      "per_mission_cost_b": 0.6433333333333333,
+      "breakeven_m_per_t": 15.30288614018395,
+      "frame_b_p_npv_positive_zero_disc": 0.2414011148515297,
+      "frame_a_full_chain_p_npv_positive": 0.0016113524416339607
+    },
+    "launches_3": {
+      "n_launches": 3,
+      "payload_budget_t": 450.0,
+      "min_specific_power_w_per_kg": 3.665643748906326,
+      "specific_power_used_w_per_kg": 8.0,
+      "specific_impulse_s": 2934,
+      "m_LEO_t_actual": 206.19246087598083,
+      "m_LEO_fits_budget": true,
+      "p_delivers_sp": 0.25,
+      "reactor_conjunction_posterior": 0.0066749999999999995,
+      "delivered_t_per_mission": 42.04,
+      "per_mission_cost_b": 0.9433333333333332,
+      "breakeven_m_per_t": 22.438947034570248,
+      "frame_b_p_npv_positive_zero_disc": 0.1699361683223768,
+      "frame_a_full_chain_p_npv_positive": 0.001134323923551865
+    }
+  },
+  "grading": {
+    "H1": {
+      "predicted_min_sp_at_isp_2934": [
+        11.0,
+        11.5
+      ],
+      "measured_min_sp_at_isp_2934": 10.996931246718978,
+      "predicted_min_isp_at_sp_8": [
+        4500,
+        5000
+      ],
+      "measured_min_isp_at_sp_8": 4250.335825692671,
+      "status": "FALSIFIED"
+    },
+    "H2": {
+      "h2a_m_LEO_t": 206.19246087598083,
+      "two_launch_budget_t": 300.0,
+      "margin_pct": 31.26917970800639,
+      "status": "HELD"
+    },
+    "H3": {
+      "predicted_range_pct": [
+        0.1,
+        0.3
+      ],
+      "measured_conj_posterior_pct": 0.24836735499882234,
+      "h2a_baseline_conj_pct": 0.6675,
+      "ratio_h2a_to_single_launch": 2.687551268576198,
+      "status": "HELD"
+    },
+    "H4": {
+      "predicted_range_pct": [
+        40,
+        50
+      ],
+      "measured_frame_b_pct": 44.37622146401971,
+      "h2a_3_launch_frame_b_pct": 16.993616832237677,
+      "frame_b_lift_single_vs_3_launch": 2.611346478039681,
+      "status": "HELD"
+    },
+    "H5": {
+      "single_launch_frame_a_pct": 0.11021604749860542,
+      "three_launch_frame_a_pct": 0.1134323923551865,
+      "ratio_single_to_3_launch": 0.971645270016788,
+      "predicted_ratio_range": [
+        0.6,
+        0.85
+      ],
+      "status": "HELD",
+      "interpretation": "Frame A lower at single-launch \u2192 conjunction multiplier dominates"
+    },
+    "H6": {
+      "frame_a_winner": "3-launch",
+      "frame_b_winner": "1-launch",
+      "decision_frame_dependent": true,
+      "status": "HELD"
+    }
+  }
+}

@@ -1,0 +1,2813 @@
+{
+  "cells": [
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -18742000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -26842000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -39892000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -18742000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -26842000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -39892000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -18742000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -26842000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -39892000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -18242000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -26342000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -39392000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -18242000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -26342000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -39392000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -18242000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -26342000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -39392000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -17742000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -25842000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -38892000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -17742000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -25842000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -38892000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -17742000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -25842000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -38892000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -16742000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -24842000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -37892000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -16742000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -24842000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -37892000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -16742000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -24842000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -37892000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -13742000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -21842000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -34892000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -13742000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -21842000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -34892000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -13742000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -21842000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -34892000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -16923000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -25023000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -38073000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -16923000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -25023000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -38073000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -16923000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -25023000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -38073000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -16423000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -24523000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -37573000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -16423000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -24523000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -37573000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -16423000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -24523000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -37573000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -15923000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -24023000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -37073000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -15923000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -24023000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -37073000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -15923000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -24023000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -37073000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -14923000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -23023000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -36073000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -14923000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -23023000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -36073000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -14923000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -23023000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -36073000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -11923000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -20023000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -33073000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -11923000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -20023000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -33073000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -11923000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -20023000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -33073000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -15104000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -23204000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -36254000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -15104000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -23204000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -36254000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -15104000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -23204000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -36254000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -14604000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -22704000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -35754000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -14604000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -22704000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -35754000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -14604000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -22704000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -35754000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -14104000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -22204000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -35254000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -14104000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -22204000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -35254000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -14104000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -22204000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -35254000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -13104000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -21204000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -34254000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -13104000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -21204000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -34254000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -13104000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -21204000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -34254000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -10104000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -18204000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -31254000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -10104000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -18204000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -31254000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -10104000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -18204000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -31254000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -13285000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -21385000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -34435000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -13285000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -21385000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -34435000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -13285000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -21385000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -34435000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -12785000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -20885000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -33935000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -12785000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -20885000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -33935000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -12785000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -20885000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -33935000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -12285000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -20385000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -33435000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -12285000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -20385000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -33435000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -12285000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -20385000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -33435000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -11285000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -19385000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -32435000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -11285000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -19385000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -32435000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -11285000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -19385000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -32435000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -8285000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -16385000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -29435000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -8285000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -16385000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -29435000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -8285000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -16385000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -29435000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -4190000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -12290000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -25340000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -4190000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -12290000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -25340000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -4190000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -12290000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -25340000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -3690000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -11790000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -24840000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -3690000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -11790000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -24840000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -3690000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -11790000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -24840000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -3190000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -11290000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -24340000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -3190000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -11290000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -24340000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -3190000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -11290000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -24340000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -2190000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -10290000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -23340000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -2190000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -10290000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -23340000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": null,
+      "final_cum_cashflow": -2190000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -10290000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -23340000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 11,
+      "final_cum_cashflow": 810000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -7290000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -20340000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 39,
+      "final_cum_cashflow": 810000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -7290000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -20340000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 39,
+      "final_cum_cashflow": 810000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": null,
+      "final_cum_cashflow": -7290000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -20340000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 36,
+      "final_cum_cashflow": 14000000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 38,
+      "final_cum_cashflow": 5900000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -7150000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 36,
+      "final_cum_cashflow": 14000000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 38,
+      "final_cum_cashflow": 5900000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -7150000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 36,
+      "final_cum_cashflow": 14000000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 38,
+      "final_cum_cashflow": 5900000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 0.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -7150000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 36,
+      "final_cum_cashflow": 14500000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 38,
+      "final_cum_cashflow": 6400000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -6650000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 36,
+      "final_cum_cashflow": 14500000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 38,
+      "final_cum_cashflow": 6400000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -6650000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 36,
+      "final_cum_cashflow": 14500000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 38,
+      "final_cum_cashflow": 6400000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 500000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -6650000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 36,
+      "final_cum_cashflow": 15000000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 38,
+      "final_cum_cashflow": 6900000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -6150000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 36,
+      "final_cum_cashflow": 15000000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 38,
+      "final_cum_cashflow": 6900000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -6150000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 36,
+      "final_cum_cashflow": 15000000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 38,
+      "final_cum_cashflow": 6900000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 1000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -6150000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 35,
+      "final_cum_cashflow": 16000000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 37,
+      "final_cum_cashflow": 7900000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -5150000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 35,
+      "final_cum_cashflow": 16000000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 37,
+      "final_cum_cashflow": 7900000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -5150000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 35,
+      "final_cum_cashflow": 16000000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 37,
+      "final_cum_cashflow": 7900000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -5150000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 11,
+      "final_cum_cashflow": 19000000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 11,
+      "final_cum_cashflow": 10900000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -2150000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 35,
+      "final_cum_cashflow": 19000000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 36,
+      "final_cum_cashflow": 10900000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -2150000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 35,
+      "final_cum_cashflow": 19000000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 36,
+      "final_cum_cashflow": 10900000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "commercial_high",
+      "breakeven_year": null,
+      "final_cum_cashflow": -2150000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    }
+  ],
+  "investor_acceptable_25yr": [
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -13742000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -21842000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -11923000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -20023000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -10104000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -18204000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -8285000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -16385000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 11,
+      "final_cum_cashflow": 810000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -7290000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 11,
+      "final_cum_cashflow": 19000000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 11,
+      "final_cum_cashflow": 10900000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    }
+  ],
+  "sovereign_acceptable_35yr": [
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -13742000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 2000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -21842000000.0,
+      "annual_revenue_year_36_40_avg": 466000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -11923000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 3000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -20023000000.0,
+      "annual_revenue_year_36_40_avg": 699000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -10104000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 4000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -18204000000.0,
+      "annual_revenue_year_36_40_avg": 932000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -8285000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 5000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -16385000000.0,
+      "annual_revenue_year_36_40_avg": 1165000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 11,
+      "final_cum_cashflow": 810000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 10000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 11,
+      "final_cum_cashflow": -7290000000.0,
+      "annual_revenue_year_36_40_avg": 2330000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 35,
+      "final_cum_cashflow": 16000000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 35,
+      "final_cum_cashflow": 16000000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 2000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 35,
+      "final_cum_cashflow": 16000000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 11,
+      "final_cum_cashflow": 19000000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 11,
+      "ship_cost_scale": "commercial_mid",
+      "breakeven_year": 11,
+      "final_cum_cashflow": 10900000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 15,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 35,
+      "final_cum_cashflow": 19000000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    },
+    {
+      "price_per_kg": 20000.0,
+      "sovereign_amount": 5000000000.0,
+      "sovereign_year": 20,
+      "ship_cost_scale": "conops_optimistic",
+      "breakeven_year": 35,
+      "final_cum_cashflow": 19000000000.0,
+      "annual_revenue_year_36_40_avg": 4660000000.0
+    }
+  ],
+  "hypothesis_grading": {
+    "H15b_a_4kkg_no_sov_breakeven_32_38": {
+      "predicted": "year 32-38",
+      "conops_optimistic_cost": {
+        "price_per_kg": 4000.0,
+        "sovereign_amount": 0.0,
+        "sovereign_year": 11,
+        "ship_cost_scale": "conops_optimistic",
+        "breakeven_year": null,
+        "final_cum_cashflow": -15104000000.0,
+        "annual_revenue_year_36_40_avg": 932000000.0
+      },
+      "commercial_mid_cost": {
+        "price_per_kg": 4000.0,
+        "sovereign_amount": 0.0,
+        "sovereign_year": 11,
+        "ship_cost_scale": "commercial_mid",
+        "breakeven_year": null,
+        "final_cum_cashflow": -23204000000.0,
+        "annual_revenue_year_36_40_avg": 932000000.0
+      },
+      "verdict": "never within 40 yr"
+    },
+    "H15b_b_4kkg_plus_1B_sov_y11": {
+      "predicted": "year 25-32",
+      "conops_optimistic_cost": {
+        "price_per_kg": 4000.0,
+        "sovereign_amount": 1000000000.0,
+        "sovereign_year": 11,
+        "ship_cost_scale": "conops_optimistic",
+        "breakeven_year": null,
+        "final_cum_cashflow": -14104000000.0,
+        "annual_revenue_year_36_40_avg": 932000000.0
+      },
+      "commercial_mid_cost": {
+        "price_per_kg": 4000.0,
+        "sovereign_amount": 1000000000.0,
+        "sovereign_year": 11,
+        "ship_cost_scale": "commercial_mid",
+        "breakeven_year": null,
+        "final_cum_cashflow": -22204000000.0,
+        "annual_revenue_year_36_40_avg": 932000000.0
+      },
+      "verdict": "never within 40 yr"
+    },
+    "H15b_c_5kkg_plus_2B_sov_y11": {
+      "predicted": "year 20-26",
+      "conops_optimistic_cost": {
+        "price_per_kg": 5000.0,
+        "sovereign_amount": 2000000000.0,
+        "sovereign_year": 11,
+        "ship_cost_scale": "conops_optimistic",
+        "breakeven_year": null,
+        "final_cum_cashflow": -11285000000.0,
+        "annual_revenue_year_36_40_avg": 1165000000.0
+      },
+      "commercial_mid_cost": {
+        "price_per_kg": 5000.0,
+        "sovereign_amount": 2000000000.0,
+        "sovereign_year": 11,
+        "ship_cost_scale": "commercial_mid",
+        "breakeven_year": null,
+        "final_cum_cashflow": -19385000000.0,
+        "annual_revenue_year_36_40_avg": 1165000000.0
+      },
+      "verdict": "never within 40 yr"
+    },
+    "H15b_d_20kkg_alone": {
+      "predicted": "year 18-24",
+      "conops_optimistic_cost": {
+        "price_per_kg": 20000.0,
+        "sovereign_amount": 0.0,
+        "sovereign_year": 11,
+        "ship_cost_scale": "conops_optimistic",
+        "breakeven_year": 36,
+        "final_cum_cashflow": 14000000000.0,
+        "annual_revenue_year_36_40_avg": 4660000000.0
+      },
+      "commercial_mid_cost": {
+        "price_per_kg": 20000.0,
+        "sovereign_amount": 0.0,
+        "sovereign_year": 11,
+        "ship_cost_scale": "commercial_mid",
+        "breakeven_year": 38,
+        "final_cum_cashflow": 5900000000.0,
+        "annual_revenue_year_36_40_avg": 4660000000.0
+      },
+      "verdict": "falsified",
+      "mean_breakeven_year": 37.0
+    },
+    "H15b_e_2kkg_plus_5B_sov_y11": {
+      "predicted": "year 28-35",
+      "conops_optimistic_cost": {
+        "price_per_kg": 2000.0,
+        "sovereign_amount": 5000000000.0,
+        "sovereign_year": 11,
+        "ship_cost_scale": "conops_optimistic",
+        "breakeven_year": 11,
+        "final_cum_cashflow": -13742000000.0,
+        "annual_revenue_year_36_40_avg": 466000000.0
+      },
+      "commercial_mid_cost": {
+        "price_per_kg": 2000.0,
+        "sovereign_amount": 5000000000.0,
+        "sovereign_year": 11,
+        "ship_cost_scale": "commercial_mid",
+        "breakeven_year": 11,
+        "final_cum_cashflow": -21842000000.0,
+        "annual_revenue_year_36_40_avg": 466000000.0
+      },
+      "verdict": "falsified",
+      "mean_breakeven_year": 11.0
+    }
+  }
+}

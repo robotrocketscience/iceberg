@@ -1,0 +1,10 @@
+substep,mission,year,proximity_ops_outcome,acquisition_outcome,relevance,source
+1_rendezvous,OSIRIS-REx (Bennu),2018-2023,success,success_121.6g_returned,direct proximity-ops heritage at a small body,https://science.nasa.gov/blogs/osiris-rex/2024/02/15/nasa-announces-osiris-rex-bulk-sample-mass/
+1_rendezvous,Hayabusa2 (Ryugu),2018-2020,success,success_~5.4g_two_touchdowns,direct proximity-ops heritage; two touchdowns + impactor,https://global.jaxa.jp/press/2020/12/20201215-3_e.html
+1_rendezvous,Hayabusa (Itokawa),2005,success,partial_~1500_grains,proximity ops succeeded; acquisition mechanism underperformed,https://en.wikipedia.org/wiki/Hayabusa
+2_deployment,LOFTID,2022,n/a,success_inflatable_deployed_8kms_reentry,deployable inflatable aeroshell; analogous mechanism class,https://www.nasa.gov/centers-and-facilities/ames/loftid-inflatable-heat-shield-test-a-success-early-results-show/
+2_deployment,JWST sunshield,2022,n/a,success_344_single_point_failures_all_survived,large deployable soft-membrane structure; upper complexity bound,https://www.gpb.org/news/2022/07/17/the-james-webb-telescope-had-344-single-point-failures-launch-then-success
+3_catch,none,,,no_direct_heritage,novel; nobody has caught a free multi-tonne body in a bag,n/a
+4_containment,none,,,no_direct_heritage,novel; closest analogues are TAGSAM/SCI contact sampling not free-body capture,n/a
+5_survive_puncture,New Horizons SDC,2006-2024,n/a,dust_flux_measured_to_55AU,micrometeoroid environment anchor for outer solar system,https://arxiv.org/pdf/2401.01230
+5_survive_sublimation,lab ice sublimation,2014,n/a,negligible_below_100K,water-ice sublimation <1 molecule/cm2/hr below 70 K; no measurable mass change at 100 K over days,https://www.sciencedirect.com/science/article/abs/pii/S0019103514000566

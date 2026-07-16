@@ -1,0 +1,1935 @@
+{
+  "round": "R-reactor-specific-power-program-targets",
+  "author": "enceladus-r5",
+  "date": "2026-05-15",
+  "pre_registration": "STUDY.md (H1-H6)",
+  "input_rounds": [
+    "R-specific-power-cliff (2d63291)",
+    "R-aerocapture-cliff-shift (12058b5)",
+    "R-reactor-lifetime-vs-burn-time (c685c52)",
+    "R-power-bayesian-update (hyperion batch)"
+  ],
+  "closure_surface_summary": {
+    "ceiling_15yr_L0_05_strict_min_points": [],
+    "ceiling_25yr_L0_05_waiver_min_points": [
+      [
+        5.0,
+        10.0,
+        15.0,
+        3
+      ],
+      [
+        5.0,
+        10.0,
+        Infinity,
+        3
+      ],
+      [
+        5.0,
+        15.0,
+        10.0,
+        1
+      ],
+      [
+        5.0,
+        15.0,
+        15.0,
+        11
+      ],
+      [
+        5.0,
+        15.0,
+        Infinity,
+        11
+      ],
+      [
+        5.0,
+        20.0,
+        10.0,
+        12
+      ],
+      [
+        5.0,
+        20.0,
+        15.0,
+        25
+      ],
+      [
+        5.0,
+        20.0,
+        Infinity,
+        25
+      ],
+      [
+        5.0,
+        25.0,
+        10.0,
+        32
+      ],
+      [
+        5.0,
+        25.0,
+        15.0,
+        44
+      ],
+      [
+        5.0,
+        25.0,
+        Infinity,
+        44
+      ],
+      [
+        6.0,
+        5.0,
+        15.0,
+        3
+      ],
+      [
+        6.0,
+        5.0,
+        Infinity,
+        3
+      ],
+      [
+        6.0,
+        10.0,
+        10.0,
+        1
+      ],
+      [
+        6.0,
+        10.0,
+        15.0,
+        8
+      ],
+      [
+        6.0,
+        10.0,
+        Infinity,
+        8
+      ],
+      [
+        6.0,
+        15.0,
+        10.0,
+        10
+      ],
+      [
+        6.0,
+        15.0,
+        15.0,
+        19
+      ],
+      [
+        6.0,
+        15.0,
+        Infinity,
+        19
+      ],
+      [
+        6.0,
+        20.0,
+        8.0,
+        9
+      ],
+      [
+        6.0,
+        20.0,
+        10.0,
+        25
+      ],
+      [
+        6.0,
+        20.0,
+        15.0,
+        36
+      ],
+      [
+        6.0,
+        20.0,
+        Infinity,
+        36
+      ],
+      [
+        6.0,
+        25.0,
+        8.0,
+        24
+      ],
+      [
+        6.0,
+        25.0,
+        10.0,
+        44
+      ],
+      [
+        6.0,
+        25.0,
+        15.0,
+        56
+      ],
+      [
+        6.0,
+        25.0,
+        Infinity,
+        56
+      ],
+      [
+        7.0,
+        5.0,
+        10.0,
+        3
+      ],
+      [
+        7.0,
+        5.0,
+        15.0,
+        6
+      ],
+      [
+        7.0,
+        5.0,
+        Infinity,
+        6
+      ],
+      [
+        7.0,
+        10.0,
+        10.0,
+        6
+      ],
+      [
+        7.0,
+        10.0,
+        15.0,
+        13
+      ],
+      [
+        7.0,
+        10.0,
+        Infinity,
+        13
+      ],
+      [
+        7.0,
+        15.0,
+        8.0,
+        5
+      ],
+      [
+        7.0,
+        15.0,
+        10.0,
+        16
+      ],
+      [
+        7.0,
+        15.0,
+        15.0,
+        25
+      ],
+      [
+        7.0,
+        15.0,
+        Infinity,
+        25
+      ],
+      [
+        7.0,
+        20.0,
+        8.0,
+        20
+      ],
+      [
+        7.0,
+        20.0,
+        10.0,
+        34
+      ],
+      [
+        7.0,
+        20.0,
+        15.0,
+        41
+      ],
+      [
+        7.0,
+        20.0,
+        Infinity,
+        41
+      ],
+      [
+        7.0,
+        25.0,
+        8.0,
+        40
+      ],
+      [
+        7.0,
+        25.0,
+        10.0,
+        48
+      ],
+      [
+        7.0,
+        25.0,
+        15.0,
+        56
+      ],
+      [
+        7.0,
+        25.0,
+        Infinity,
+        56
+      ],
+      [
+        8.0,
+        0.0,
+        10.0,
+        1
+      ],
+      [
+        8.0,
+        0.0,
+        15.0,
+        4
+      ],
+      [
+        8.0,
+        0.0,
+        Infinity,
+        4
+      ],
+      [
+        8.0,
+        5.0,
+        10.0,
+        3
+      ],
+      [
+        8.0,
+        5.0,
+        15.0,
+        7
+      ],
+      [
+        8.0,
+        5.0,
+        Infinity,
+        7
+      ],
+      [
+        8.0,
+        10.0,
+        8.0,
+        5
+      ],
+      [
+        8.0,
+        10.0,
+        10.0,
+        15
+      ],
+      [
+        8.0,
+        10.0,
+        15.0,
+        20
+      ],
+      [
+        8.0,
+        10.0,
+        Infinity,
+        20
+      ],
+      [
+        8.0,
+        15.0,
+        8.0,
+        13
+      ],
+      [
+        8.0,
+        15.0,
+        10.0,
+        23
+      ],
+      [
+        8.0,
+        15.0,
+        15.0,
+        29
+      ],
+      [
+        8.0,
+        15.0,
+        Infinity,
+        29
+      ],
+      [
+        8.0,
+        20.0,
+        8.0,
+        26
+      ],
+      [
+        8.0,
+        20.0,
+        10.0,
+        39
+      ],
+      [
+        8.0,
+        20.0,
+        15.0,
+        42
+      ],
+      [
+        8.0,
+        20.0,
+        Infinity,
+        42
+      ],
+      [
+        8.0,
+        25.0,
+        8.0,
+        44
+      ],
+      [
+        8.0,
+        25.0,
+        10.0,
+        56
+      ],
+      [
+        8.0,
+        25.0,
+        15.0,
+        56
+      ],
+      [
+        8.0,
+        25.0,
+        Infinity,
+        56
+      ],
+      [
+        9.0,
+        0.0,
+        10.0,
+        4
+      ],
+      [
+        9.0,
+        0.0,
+        15.0,
+        7
+      ],
+      [
+        9.0,
+        0.0,
+        Infinity,
+        7
+      ],
+      [
+        9.0,
+        5.0,
+        8.0,
+        1
+      ],
+      [
+        9.0,
+        5.0,
+        10.0,
+        6
+      ],
+      [
+        9.0,
+        5.0,
+        15.0,
+        10
+      ],
+      [
+        9.0,
+        5.0,
+        Infinity,
+        10
+      ],
+      [
+        9.0,
+        10.0,
+        8.0,
+        9
+      ],
+      [
+        9.0,
+        10.0,
+        10.0,
+        16
+      ],
+      [
+        9.0,
+        10.0,
+        15.0,
+        21
+      ],
+      [
+        9.0,
+        10.0,
+        Infinity,
+        21
+      ],
+      [
+        9.0,
+        15.0,
+        8.0,
+        20
+      ],
+      [
+        9.0,
+        15.0,
+        10.0,
+        29
+      ],
+      [
+        9.0,
+        15.0,
+        15.0,
+        32
+      ],
+      [
+        9.0,
+        15.0,
+        Infinity,
+        32
+      ],
+      [
+        9.0,
+        20.0,
+        8.0,
+        33
+      ],
+      [
+        9.0,
+        20.0,
+        10.0,
+        41
+      ],
+      [
+        9.0,
+        20.0,
+        15.0,
+        44
+      ],
+      [
+        9.0,
+        20.0,
+        Infinity,
+        44
+      ],
+      [
+        9.0,
+        25.0,
+        5.0,
+        16
+      ],
+      [
+        9.0,
+        25.0,
+        8.0,
+        44
+      ],
+      [
+        9.0,
+        25.0,
+        10.0,
+        56
+      ],
+      [
+        9.0,
+        25.0,
+        15.0,
+        56
+      ],
+      [
+        9.0,
+        25.0,
+        Infinity,
+        56
+      ],
+      [
+        10.0,
+        0.0,
+        8.0,
+        2
+      ],
+      [
+        10.0,
+        0.0,
+        10.0,
+        5
+      ],
+      [
+        10.0,
+        0.0,
+        15.0,
+        9
+      ],
+      [
+        10.0,
+        0.0,
+        Infinity,
+        9
+      ],
+      [
+        10.0,
+        5.0,
+        8.0,
+        4
+      ],
+      [
+        10.0,
+        5.0,
+        10.0,
+        7
+      ],
+      [
+        10.0,
+        5.0,
+        15.0,
+        11
+      ],
+      [
+        10.0,
+        5.0,
+        Infinity,
+        11
+      ],
+      [
+        10.0,
+        10.0,
+        8.0,
+        10
+      ],
+      [
+        10.0,
+        10.0,
+        10.0,
+        18
+      ],
+      [
+        10.0,
+        10.0,
+        15.0,
+        23
+      ],
+      [
+        10.0,
+        10.0,
+        Infinity,
+        23
+      ],
+      [
+        10.0,
+        15.0,
+        8.0,
+        22
+      ],
+      [
+        10.0,
+        15.0,
+        10.0,
+        31
+      ],
+      [
+        10.0,
+        15.0,
+        15.0,
+        34
+      ],
+      [
+        10.0,
+        15.0,
+        Infinity,
+        34
+      ],
+      [
+        10.0,
+        20.0,
+        5.0,
+        9
+      ],
+      [
+        10.0,
+        20.0,
+        8.0,
+        35
+      ],
+      [
+        10.0,
+        20.0,
+        10.0,
+        41
+      ],
+      [
+        10.0,
+        20.0,
+        15.0,
+        44
+      ],
+      [
+        10.0,
+        20.0,
+        Infinity,
+        44
+      ],
+      [
+        10.0,
+        25.0,
+        5.0,
+        24
+      ],
+      [
+        10.0,
+        25.0,
+        8.0,
+        48
+      ],
+      [
+        10.0,
+        25.0,
+        10.0,
+        56
+      ],
+      [
+        10.0,
+        25.0,
+        15.0,
+        60
+      ],
+      [
+        10.0,
+        25.0,
+        Infinity,
+        60
+      ]
+    ],
+    "ceiling_30yr_L0_05_waiver_min_points": [
+      [
+        2.4,
+        25.0,
+        Infinity,
+        4
+      ],
+      [
+        5.0,
+        0.0,
+        Infinity,
+        1
+      ],
+      [
+        5.0,
+        5.0,
+        Infinity,
+        7
+      ],
+      [
+        5.0,
+        10.0,
+        Infinity,
+        13
+      ],
+      [
+        5.0,
+        15.0,
+        Infinity,
+        25
+      ],
+      [
+        5.0,
+        20.0,
+        Infinity,
+        41
+      ],
+      [
+        5.0,
+        25.0,
+        Infinity,
+        60
+      ],
+      [
+        6.0,
+        0.0,
+        Infinity,
+        3
+      ],
+      [
+        6.0,
+        5.0,
+        Infinity,
+        14
+      ],
+      [
+        6.0,
+        10.0,
+        Infinity,
+        17
+      ],
+      [
+        6.0,
+        15.0,
+        Infinity,
+        30
+      ],
+      [
+        6.0,
+        20.0,
+        Infinity,
+        47
+      ],
+      [
+        6.0,
+        25.0,
+        Infinity,
+        60
+      ],
+      [
+        7.0,
+        0.0,
+        Infinity,
+        6
+      ],
+      [
+        7.0,
+        5.0,
+        Infinity,
+        14
+      ],
+      [
+        7.0,
+        10.0,
+        Infinity,
+        22
+      ],
+      [
+        7.0,
+        15.0,
+        Infinity,
+        35
+      ],
+      [
+        7.0,
+        20.0,
+        Infinity,
+        51
+      ],
+      [
+        7.0,
+        25.0,
+        Infinity,
+        60
+      ],
+      [
+        8.0,
+        0.0,
+        Infinity,
+        10
+      ],
+      [
+        8.0,
+        5.0,
+        Infinity,
+        15
+      ],
+      [
+        8.0,
+        10.0,
+        Infinity,
+        29
+      ],
+      [
+        8.0,
+        15.0,
+        Infinity,
+        39
+      ],
+      [
+        8.0,
+        20.0,
+        Infinity,
+        52
+      ],
+      [
+        8.0,
+        25.0,
+        Infinity,
+        60
+      ],
+      [
+        9.0,
+        0.0,
+        Infinity,
+        14
+      ],
+      [
+        9.0,
+        5.0,
+        Infinity,
+        17
+      ],
+      [
+        9.0,
+        10.0,
+        Infinity,
+        29
+      ],
+      [
+        9.0,
+        15.0,
+        Infinity,
+        41
+      ],
+      [
+        9.0,
+        20.0,
+        Infinity,
+        52
+      ],
+      [
+        9.0,
+        25.0,
+        Infinity,
+        60
+      ],
+      [
+        10.0,
+        0.0,
+        Infinity,
+        15
+      ],
+      [
+        10.0,
+        5.0,
+        Infinity,
+        18
+      ],
+      [
+        10.0,
+        10.0,
+        Infinity,
+        32
+      ],
+      [
+        10.0,
+        15.0,
+        Infinity,
+        42
+      ],
+      [
+        10.0,
+        20.0,
+        Infinity,
+        52
+      ],
+      [
+        10.0,
+        25.0,
+        Infinity,
+        60
+      ]
+    ],
+    "ceiling_20yr_min_points": [
+      [
+        6.0,
+        25.0,
+        Infinity,
+        4
+      ],
+      [
+        7.0,
+        20.0,
+        Infinity,
+        9
+      ],
+      [
+        7.0,
+        25.0,
+        Infinity,
+        24
+      ],
+      [
+        8.0,
+        15.0,
+        Infinity,
+        5
+      ],
+      [
+        8.0,
+        20.0,
+        Infinity,
+        15
+      ],
+      [
+        8.0,
+        25.0,
+        Infinity,
+        32
+      ],
+      [
+        9.0,
+        10.0,
+        Infinity,
+        4
+      ],
+      [
+        9.0,
+        15.0,
+        Infinity,
+        11
+      ],
+      [
+        9.0,
+        20.0,
+        Infinity,
+        24
+      ],
+      [
+        9.0,
+        25.0,
+        Infinity,
+        40
+      ],
+      [
+        10.0,
+        10.0,
+        Infinity,
+        5
+      ],
+      [
+        10.0,
+        15.0,
+        Infinity,
+        16
+      ],
+      [
+        10.0,
+        20.0,
+        Infinity,
+        26
+      ],
+      [
+        10.0,
+        25.0,
+        Infinity,
+        44
+      ]
+    ]
+  },
+  "conditional_bracket": {
+    "p_sp_ge_8": {
+      "optimistic": 0.3,
+      "nominal": 0.15,
+      "skeptical": 0.05
+    },
+    "p_sp_ge_5": {
+      "optimistic": 0.5,
+      "nominal": 0.3,
+      "skeptical": 0.15
+    },
+    "p_l_ge_5": {
+      "optimistic": 0.5,
+      "nominal": 0.3,
+      "skeptical": 0.1
+    },
+    "p_l_ge_10": {
+      "optimistic": 0.3,
+      "nominal": 0.15,
+      "skeptical": 0.05
+    }
+  },
+  "engineering_closure_priors": {
+    "p_aerocapture_closes": 0.5,
+    "p_rendezvous_closes": 0.25
+  },
+  "capital_class_thresholds": {
+    "technology-demonstrator-only": 0.0,
+    "sovereign-grant": 0.001,
+    "sovereign-bond": 0.01,
+    "regulated-utility": 0.05,
+    "corporate-growth": 0.15,
+    "venture": 0.25
+  },
+  "synthesis_table": [
+    {
+      "label": "H1 anchor: 8 W/kg, 5 yr",
+      "sp_threshold": 8.0,
+      "l_threshold": 5.0,
+      "power_prior": "uniform_beta_1_1",
+      "conditional_bracket": "optimistic",
+      "p_500kwe_orbit_by_2035": 0.0013,
+      "p_sp_conditional": 0.3,
+      "p_l_conditional": 0.5,
+      "reactor_posterior": 0.000195,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 2.4375e-05,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "H1 anchor: 8 W/kg, 5 yr",
+      "sp_threshold": 8.0,
+      "l_threshold": 5.0,
+      "power_prior": "uniform_beta_1_1",
+      "conditional_bracket": "nominal",
+      "p_500kwe_orbit_by_2035": 0.0013,
+      "p_sp_conditional": 0.15,
+      "p_l_conditional": 0.3,
+      "reactor_posterior": 5.85e-05,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 7.3125e-06,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "H1 anchor: 8 W/kg, 5 yr",
+      "sp_threshold": 8.0,
+      "l_threshold": 5.0,
+      "power_prior": "uniform_beta_1_1",
+      "conditional_bracket": "skeptical",
+      "p_500kwe_orbit_by_2035": 0.0013,
+      "p_sp_conditional": 0.05,
+      "p_l_conditional": 0.1,
+      "reactor_posterior": 6.5e-06,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 8.125e-07,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "H1 anchor: 8 W/kg, 5 yr",
+      "sp_threshold": 8.0,
+      "l_threshold": 5.0,
+      "power_prior": "jeffreys_beta_0p5_0p5",
+      "conditional_bracket": "optimistic",
+      "p_500kwe_orbit_by_2035": 0.0003,
+      "p_sp_conditional": 0.3,
+      "p_l_conditional": 0.5,
+      "reactor_posterior": 4.4999999999999996e-05,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 5.6249999999999995e-06,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "H1 anchor: 8 W/kg, 5 yr",
+      "sp_threshold": 8.0,
+      "l_threshold": 5.0,
+      "power_prior": "jeffreys_beta_0p5_0p5",
+      "conditional_bracket": "nominal",
+      "p_500kwe_orbit_by_2035": 0.0003,
+      "p_sp_conditional": 0.15,
+      "p_l_conditional": 0.3,
+      "reactor_posterior": 1.3499999999999998e-05,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 1.6874999999999997e-06,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "H1 anchor: 8 W/kg, 5 yr",
+      "sp_threshold": 8.0,
+      "l_threshold": 5.0,
+      "power_prior": "jeffreys_beta_0p5_0p5",
+      "conditional_bracket": "skeptical",
+      "p_500kwe_orbit_by_2035": 0.0003,
+      "p_sp_conditional": 0.05,
+      "p_l_conditional": 0.1,
+      "reactor_posterior": 1.5e-06,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 1.875e-07,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "H1 anchor: 8 W/kg, 5 yr",
+      "sp_threshold": 8.0,
+      "l_threshold": 5.0,
+      "power_prior": "skeptical_beta_0p5_5",
+      "conditional_bracket": "optimistic",
+      "p_500kwe_orbit_by_2035": 0.0001,
+      "p_sp_conditional": 0.3,
+      "p_l_conditional": 0.5,
+      "reactor_posterior": 1.5e-05,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 1.875e-06,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "H1 anchor: 8 W/kg, 5 yr",
+      "sp_threshold": 8.0,
+      "l_threshold": 5.0,
+      "power_prior": "skeptical_beta_0p5_5",
+      "conditional_bracket": "nominal",
+      "p_500kwe_orbit_by_2035": 0.0001,
+      "p_sp_conditional": 0.15,
+      "p_l_conditional": 0.3,
+      "reactor_posterior": 4.5e-06,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 5.625e-07,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "H1 anchor: 8 W/kg, 5 yr",
+      "sp_threshold": 8.0,
+      "l_threshold": 5.0,
+      "power_prior": "skeptical_beta_0p5_5",
+      "conditional_bracket": "skeptical",
+      "p_500kwe_orbit_by_2035": 0.0001,
+      "p_sp_conditional": 0.05,
+      "p_l_conditional": 0.1,
+      "reactor_posterior": 5.000000000000001e-07,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 6.250000000000001e-08,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "H2 anchor: 5 W/kg, 10 yr",
+      "sp_threshold": 5.0,
+      "l_threshold": 10.0,
+      "power_prior": "uniform_beta_1_1",
+      "conditional_bracket": "optimistic",
+      "p_500kwe_orbit_by_2035": 0.0013,
+      "p_sp_conditional": 0.5,
+      "p_l_conditional": 0.3,
+      "reactor_posterior": 0.000195,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 2.4375e-05,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "H2 anchor: 5 W/kg, 10 yr",
+      "sp_threshold": 5.0,
+      "l_threshold": 10.0,
+      "power_prior": "uniform_beta_1_1",
+      "conditional_bracket": "nominal",
+      "p_500kwe_orbit_by_2035": 0.0013,
+      "p_sp_conditional": 0.3,
+      "p_l_conditional": 0.15,
+      "reactor_posterior": 5.85e-05,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 7.3125e-06,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "H2 anchor: 5 W/kg, 10 yr",
+      "sp_threshold": 5.0,
+      "l_threshold": 10.0,
+      "power_prior": "uniform_beta_1_1",
+      "conditional_bracket": "skeptical",
+      "p_500kwe_orbit_by_2035": 0.0013,
+      "p_sp_conditional": 0.15,
+      "p_l_conditional": 0.05,
+      "reactor_posterior": 9.75e-06,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 1.21875e-06,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "H2 anchor: 5 W/kg, 10 yr",
+      "sp_threshold": 5.0,
+      "l_threshold": 10.0,
+      "power_prior": "jeffreys_beta_0p5_0p5",
+      "conditional_bracket": "optimistic",
+      "p_500kwe_orbit_by_2035": 0.0003,
+      "p_sp_conditional": 0.5,
+      "p_l_conditional": 0.3,
+      "reactor_posterior": 4.4999999999999996e-05,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 5.6249999999999995e-06,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "H2 anchor: 5 W/kg, 10 yr",
+      "sp_threshold": 5.0,
+      "l_threshold": 10.0,
+      "power_prior": "jeffreys_beta_0p5_0p5",
+      "conditional_bracket": "nominal",
+      "p_500kwe_orbit_by_2035": 0.0003,
+      "p_sp_conditional": 0.3,
+      "p_l_conditional": 0.15,
+      "reactor_posterior": 1.3499999999999998e-05,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 1.6874999999999997e-06,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "H2 anchor: 5 W/kg, 10 yr",
+      "sp_threshold": 5.0,
+      "l_threshold": 10.0,
+      "power_prior": "jeffreys_beta_0p5_0p5",
+      "conditional_bracket": "skeptical",
+      "p_500kwe_orbit_by_2035": 0.0003,
+      "p_sp_conditional": 0.15,
+      "p_l_conditional": 0.05,
+      "reactor_posterior": 2.25e-06,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 2.8125e-07,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "H2 anchor: 5 W/kg, 10 yr",
+      "sp_threshold": 5.0,
+      "l_threshold": 10.0,
+      "power_prior": "skeptical_beta_0p5_5",
+      "conditional_bracket": "optimistic",
+      "p_500kwe_orbit_by_2035": 0.0001,
+      "p_sp_conditional": 0.5,
+      "p_l_conditional": 0.3,
+      "reactor_posterior": 1.5e-05,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 1.875e-06,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "H2 anchor: 5 W/kg, 10 yr",
+      "sp_threshold": 5.0,
+      "l_threshold": 10.0,
+      "power_prior": "skeptical_beta_0p5_5",
+      "conditional_bracket": "nominal",
+      "p_500kwe_orbit_by_2035": 0.0001,
+      "p_sp_conditional": 0.3,
+      "p_l_conditional": 0.15,
+      "reactor_posterior": 4.5e-06,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 5.625e-07,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "H2 anchor: 5 W/kg, 10 yr",
+      "sp_threshold": 5.0,
+      "l_threshold": 10.0,
+      "power_prior": "skeptical_beta_0p5_5",
+      "conditional_bracket": "skeptical",
+      "p_500kwe_orbit_by_2035": 0.0001,
+      "p_sp_conditional": 0.15,
+      "p_l_conditional": 0.05,
+      "reactor_posterior": 7.5e-07,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 9.375e-08,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "stretch: 5 W/kg, 5 yr",
+      "sp_threshold": 5.0,
+      "l_threshold": 5.0,
+      "power_prior": "uniform_beta_1_1",
+      "conditional_bracket": "optimistic",
+      "p_500kwe_orbit_by_2035": 0.0013,
+      "p_sp_conditional": 0.5,
+      "p_l_conditional": 0.5,
+      "reactor_posterior": 0.000325,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 4.0625e-05,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "stretch: 5 W/kg, 5 yr",
+      "sp_threshold": 5.0,
+      "l_threshold": 5.0,
+      "power_prior": "uniform_beta_1_1",
+      "conditional_bracket": "nominal",
+      "p_500kwe_orbit_by_2035": 0.0013,
+      "p_sp_conditional": 0.3,
+      "p_l_conditional": 0.3,
+      "reactor_posterior": 0.000117,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 1.4625e-05,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "stretch: 5 W/kg, 5 yr",
+      "sp_threshold": 5.0,
+      "l_threshold": 5.0,
+      "power_prior": "uniform_beta_1_1",
+      "conditional_bracket": "skeptical",
+      "p_500kwe_orbit_by_2035": 0.0013,
+      "p_sp_conditional": 0.15,
+      "p_l_conditional": 0.1,
+      "reactor_posterior": 1.95e-05,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 2.4375e-06,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "stretch: 5 W/kg, 5 yr",
+      "sp_threshold": 5.0,
+      "l_threshold": 5.0,
+      "power_prior": "jeffreys_beta_0p5_0p5",
+      "conditional_bracket": "optimistic",
+      "p_500kwe_orbit_by_2035": 0.0003,
+      "p_sp_conditional": 0.5,
+      "p_l_conditional": 0.5,
+      "reactor_posterior": 7.5e-05,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 9.375e-06,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "stretch: 5 W/kg, 5 yr",
+      "sp_threshold": 5.0,
+      "l_threshold": 5.0,
+      "power_prior": "jeffreys_beta_0p5_0p5",
+      "conditional_bracket": "nominal",
+      "p_500kwe_orbit_by_2035": 0.0003,
+      "p_sp_conditional": 0.3,
+      "p_l_conditional": 0.3,
+      "reactor_posterior": 2.6999999999999996e-05,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 3.3749999999999995e-06,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "stretch: 5 W/kg, 5 yr",
+      "sp_threshold": 5.0,
+      "l_threshold": 5.0,
+      "power_prior": "jeffreys_beta_0p5_0p5",
+      "conditional_bracket": "skeptical",
+      "p_500kwe_orbit_by_2035": 0.0003,
+      "p_sp_conditional": 0.15,
+      "p_l_conditional": 0.1,
+      "reactor_posterior": 4.5e-06,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 5.625e-07,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "stretch: 5 W/kg, 5 yr",
+      "sp_threshold": 5.0,
+      "l_threshold": 5.0,
+      "power_prior": "skeptical_beta_0p5_5",
+      "conditional_bracket": "optimistic",
+      "p_500kwe_orbit_by_2035": 0.0001,
+      "p_sp_conditional": 0.5,
+      "p_l_conditional": 0.5,
+      "reactor_posterior": 2.5e-05,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 3.125e-06,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "stretch: 5 W/kg, 5 yr",
+      "sp_threshold": 5.0,
+      "l_threshold": 5.0,
+      "power_prior": "skeptical_beta_0p5_5",
+      "conditional_bracket": "nominal",
+      "p_500kwe_orbit_by_2035": 0.0001,
+      "p_sp_conditional": 0.3,
+      "p_l_conditional": 0.3,
+      "reactor_posterior": 9e-06,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 1.125e-06,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "stretch: 5 W/kg, 5 yr",
+      "sp_threshold": 5.0,
+      "l_threshold": 5.0,
+      "power_prior": "skeptical_beta_0p5_5",
+      "conditional_bracket": "skeptical",
+      "p_500kwe_orbit_by_2035": 0.0001,
+      "p_sp_conditional": 0.15,
+      "p_l_conditional": 0.1,
+      "reactor_posterior": 1.5e-06,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 1.875e-07,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "stretch: 8 W/kg, 10 yr",
+      "sp_threshold": 8.0,
+      "l_threshold": 10.0,
+      "power_prior": "uniform_beta_1_1",
+      "conditional_bracket": "optimistic",
+      "p_500kwe_orbit_by_2035": 0.0013,
+      "p_sp_conditional": 0.3,
+      "p_l_conditional": 0.3,
+      "reactor_posterior": 0.000117,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 1.4625e-05,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "stretch: 8 W/kg, 10 yr",
+      "sp_threshold": 8.0,
+      "l_threshold": 10.0,
+      "power_prior": "uniform_beta_1_1",
+      "conditional_bracket": "nominal",
+      "p_500kwe_orbit_by_2035": 0.0013,
+      "p_sp_conditional": 0.15,
+      "p_l_conditional": 0.15,
+      "reactor_posterior": 2.925e-05,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 3.65625e-06,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "stretch: 8 W/kg, 10 yr",
+      "sp_threshold": 8.0,
+      "l_threshold": 10.0,
+      "power_prior": "uniform_beta_1_1",
+      "conditional_bracket": "skeptical",
+      "p_500kwe_orbit_by_2035": 0.0013,
+      "p_sp_conditional": 0.05,
+      "p_l_conditional": 0.05,
+      "reactor_posterior": 3.25e-06,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 4.0625e-07,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "stretch: 8 W/kg, 10 yr",
+      "sp_threshold": 8.0,
+      "l_threshold": 10.0,
+      "power_prior": "jeffreys_beta_0p5_0p5",
+      "conditional_bracket": "optimistic",
+      "p_500kwe_orbit_by_2035": 0.0003,
+      "p_sp_conditional": 0.3,
+      "p_l_conditional": 0.3,
+      "reactor_posterior": 2.6999999999999996e-05,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 3.3749999999999995e-06,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "stretch: 8 W/kg, 10 yr",
+      "sp_threshold": 8.0,
+      "l_threshold": 10.0,
+      "power_prior": "jeffreys_beta_0p5_0p5",
+      "conditional_bracket": "nominal",
+      "p_500kwe_orbit_by_2035": 0.0003,
+      "p_sp_conditional": 0.15,
+      "p_l_conditional": 0.15,
+      "reactor_posterior": 6.749999999999999e-06,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 8.437499999999999e-07,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "stretch: 8 W/kg, 10 yr",
+      "sp_threshold": 8.0,
+      "l_threshold": 10.0,
+      "power_prior": "jeffreys_beta_0p5_0p5",
+      "conditional_bracket": "skeptical",
+      "p_500kwe_orbit_by_2035": 0.0003,
+      "p_sp_conditional": 0.05,
+      "p_l_conditional": 0.05,
+      "reactor_posterior": 7.5e-07,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 9.375e-08,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "stretch: 8 W/kg, 10 yr",
+      "sp_threshold": 8.0,
+      "l_threshold": 10.0,
+      "power_prior": "skeptical_beta_0p5_5",
+      "conditional_bracket": "optimistic",
+      "p_500kwe_orbit_by_2035": 0.0001,
+      "p_sp_conditional": 0.3,
+      "p_l_conditional": 0.3,
+      "reactor_posterior": 9e-06,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 1.125e-06,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "stretch: 8 W/kg, 10 yr",
+      "sp_threshold": 8.0,
+      "l_threshold": 10.0,
+      "power_prior": "skeptical_beta_0p5_5",
+      "conditional_bracket": "nominal",
+      "p_500kwe_orbit_by_2035": 0.0001,
+      "p_sp_conditional": 0.15,
+      "p_l_conditional": 0.15,
+      "reactor_posterior": 2.25e-06,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 2.8125e-07,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "stretch: 8 W/kg, 10 yr",
+      "sp_threshold": 8.0,
+      "l_threshold": 10.0,
+      "power_prior": "skeptical_beta_0p5_5",
+      "conditional_bracket": "skeptical",
+      "p_500kwe_orbit_by_2035": 0.0001,
+      "p_sp_conditional": 0.05,
+      "p_l_conditional": 0.05,
+      "reactor_posterior": 2.5000000000000004e-07,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 3.1250000000000005e-08,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "optimistic: 10 W/kg, 5 yr",
+      "sp_threshold": 10.0,
+      "l_threshold": 5.0,
+      "power_prior": "uniform_beta_1_1",
+      "conditional_bracket": "optimistic",
+      "p_500kwe_orbit_by_2035": 0.0013,
+      "p_sp_conditional": 0.15,
+      "p_l_conditional": 0.5,
+      "reactor_posterior": 9.75e-05,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 1.21875e-05,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "optimistic: 10 W/kg, 5 yr",
+      "sp_threshold": 10.0,
+      "l_threshold": 5.0,
+      "power_prior": "uniform_beta_1_1",
+      "conditional_bracket": "nominal",
+      "p_500kwe_orbit_by_2035": 0.0013,
+      "p_sp_conditional": 0.075,
+      "p_l_conditional": 0.3,
+      "reactor_posterior": 2.925e-05,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 3.65625e-06,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "optimistic: 10 W/kg, 5 yr",
+      "sp_threshold": 10.0,
+      "l_threshold": 5.0,
+      "power_prior": "uniform_beta_1_1",
+      "conditional_bracket": "skeptical",
+      "p_500kwe_orbit_by_2035": 0.0013,
+      "p_sp_conditional": 0.025,
+      "p_l_conditional": 0.1,
+      "reactor_posterior": 3.25e-06,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 4.0625e-07,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "optimistic: 10 W/kg, 5 yr",
+      "sp_threshold": 10.0,
+      "l_threshold": 5.0,
+      "power_prior": "jeffreys_beta_0p5_0p5",
+      "conditional_bracket": "optimistic",
+      "p_500kwe_orbit_by_2035": 0.0003,
+      "p_sp_conditional": 0.15,
+      "p_l_conditional": 0.5,
+      "reactor_posterior": 2.2499999999999998e-05,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 2.8124999999999998e-06,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "optimistic: 10 W/kg, 5 yr",
+      "sp_threshold": 10.0,
+      "l_threshold": 5.0,
+      "power_prior": "jeffreys_beta_0p5_0p5",
+      "conditional_bracket": "nominal",
+      "p_500kwe_orbit_by_2035": 0.0003,
+      "p_sp_conditional": 0.075,
+      "p_l_conditional": 0.3,
+      "reactor_posterior": 6.749999999999999e-06,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 8.437499999999999e-07,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "optimistic: 10 W/kg, 5 yr",
+      "sp_threshold": 10.0,
+      "l_threshold": 5.0,
+      "power_prior": "jeffreys_beta_0p5_0p5",
+      "conditional_bracket": "skeptical",
+      "p_500kwe_orbit_by_2035": 0.0003,
+      "p_sp_conditional": 0.025,
+      "p_l_conditional": 0.1,
+      "reactor_posterior": 7.5e-07,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 9.375e-08,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "optimistic: 10 W/kg, 5 yr",
+      "sp_threshold": 10.0,
+      "l_threshold": 5.0,
+      "power_prior": "skeptical_beta_0p5_5",
+      "conditional_bracket": "optimistic",
+      "p_500kwe_orbit_by_2035": 0.0001,
+      "p_sp_conditional": 0.15,
+      "p_l_conditional": 0.5,
+      "reactor_posterior": 7.5e-06,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 9.375e-07,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "optimistic: 10 W/kg, 5 yr",
+      "sp_threshold": 10.0,
+      "l_threshold": 5.0,
+      "power_prior": "skeptical_beta_0p5_5",
+      "conditional_bracket": "nominal",
+      "p_500kwe_orbit_by_2035": 0.0001,
+      "p_sp_conditional": 0.075,
+      "p_l_conditional": 0.3,
+      "reactor_posterior": 2.25e-06,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 2.8125e-07,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "optimistic: 10 W/kg, 5 yr",
+      "sp_threshold": 10.0,
+      "l_threshold": 5.0,
+      "power_prior": "skeptical_beta_0p5_5",
+      "conditional_bracket": "skeptical",
+      "p_500kwe_orbit_by_2035": 0.0001,
+      "p_sp_conditional": 0.025,
+      "p_l_conditional": 0.1,
+      "reactor_posterior": 2.5000000000000004e-07,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 3.1250000000000005e-08,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "optimistic: 10 W/kg, 10 yr",
+      "sp_threshold": 10.0,
+      "l_threshold": 10.0,
+      "power_prior": "uniform_beta_1_1",
+      "conditional_bracket": "optimistic",
+      "p_500kwe_orbit_by_2035": 0.0013,
+      "p_sp_conditional": 0.15,
+      "p_l_conditional": 0.3,
+      "reactor_posterior": 5.85e-05,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 7.3125e-06,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "optimistic: 10 W/kg, 10 yr",
+      "sp_threshold": 10.0,
+      "l_threshold": 10.0,
+      "power_prior": "uniform_beta_1_1",
+      "conditional_bracket": "nominal",
+      "p_500kwe_orbit_by_2035": 0.0013,
+      "p_sp_conditional": 0.075,
+      "p_l_conditional": 0.15,
+      "reactor_posterior": 1.4625e-05,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 1.828125e-06,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "optimistic: 10 W/kg, 10 yr",
+      "sp_threshold": 10.0,
+      "l_threshold": 10.0,
+      "power_prior": "uniform_beta_1_1",
+      "conditional_bracket": "skeptical",
+      "p_500kwe_orbit_by_2035": 0.0013,
+      "p_sp_conditional": 0.025,
+      "p_l_conditional": 0.05,
+      "reactor_posterior": 1.625e-06,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 2.03125e-07,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "optimistic: 10 W/kg, 10 yr",
+      "sp_threshold": 10.0,
+      "l_threshold": 10.0,
+      "power_prior": "jeffreys_beta_0p5_0p5",
+      "conditional_bracket": "optimistic",
+      "p_500kwe_orbit_by_2035": 0.0003,
+      "p_sp_conditional": 0.15,
+      "p_l_conditional": 0.3,
+      "reactor_posterior": 1.3499999999999998e-05,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 1.6874999999999997e-06,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "optimistic: 10 W/kg, 10 yr",
+      "sp_threshold": 10.0,
+      "l_threshold": 10.0,
+      "power_prior": "jeffreys_beta_0p5_0p5",
+      "conditional_bracket": "nominal",
+      "p_500kwe_orbit_by_2035": 0.0003,
+      "p_sp_conditional": 0.075,
+      "p_l_conditional": 0.15,
+      "reactor_posterior": 3.3749999999999995e-06,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 4.2187499999999993e-07,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "optimistic: 10 W/kg, 10 yr",
+      "sp_threshold": 10.0,
+      "l_threshold": 10.0,
+      "power_prior": "jeffreys_beta_0p5_0p5",
+      "conditional_bracket": "skeptical",
+      "p_500kwe_orbit_by_2035": 0.0003,
+      "p_sp_conditional": 0.025,
+      "p_l_conditional": 0.05,
+      "reactor_posterior": 3.75e-07,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 4.6875e-08,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "optimistic: 10 W/kg, 10 yr",
+      "sp_threshold": 10.0,
+      "l_threshold": 10.0,
+      "power_prior": "skeptical_beta_0p5_5",
+      "conditional_bracket": "optimistic",
+      "p_500kwe_orbit_by_2035": 0.0001,
+      "p_sp_conditional": 0.15,
+      "p_l_conditional": 0.3,
+      "reactor_posterior": 4.5e-06,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 5.625e-07,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "optimistic: 10 W/kg, 10 yr",
+      "sp_threshold": 10.0,
+      "l_threshold": 10.0,
+      "power_prior": "skeptical_beta_0p5_5",
+      "conditional_bracket": "nominal",
+      "p_500kwe_orbit_by_2035": 0.0001,
+      "p_sp_conditional": 0.075,
+      "p_l_conditional": 0.15,
+      "reactor_posterior": 1.125e-06,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 1.40625e-07,
+      "capital_class": "technology-demonstrator-only"
+    },
+    {
+      "label": "optimistic: 10 W/kg, 10 yr",
+      "sp_threshold": 10.0,
+      "l_threshold": 10.0,
+      "power_prior": "skeptical_beta_0p5_5",
+      "conditional_bracket": "skeptical",
+      "p_500kwe_orbit_by_2035": 0.0001,
+      "p_sp_conditional": 0.025,
+      "p_l_conditional": 0.05,
+      "reactor_posterior": 1.2500000000000002e-07,
+      "p_aerocapture_closes": 0.5,
+      "p_rendezvous_closes": 0.25,
+      "conjunction_posterior": 1.5625000000000003e-08,
+      "capital_class": "technology-demonstrator-only"
+    }
+  ],
+  "hypothesis_verdicts": {
+    "H1": {
+      "verdict": "HELD-WITH-EXTENSION",
+      "reason": "0 closing cells at L0-05 strict (15-yr round-trip ceiling) across the entire tested (SP up to 10 W/kg, X up to 25 km/s, L up to infinite) envelope. H1's directional prediction (reactor must be >=8 W/kg AND >=5 yr lifetime) is consistent with the data, but the true min-point is more pessimistic than predicted: it does not exist within the tested envelope. SCOPE falsifiers (SP <= 6 OR L <= 3) do not trigger.",
+      "predicted_min": "(8 W/kg, 5 yr)",
+      "measured_min": "unbounded above tested envelope (L0-05 strict closure set is empty)",
+      "scope_falsifier_triggered": false
+    },
+    "H2": {
+      "verdict": "FALSIFIED \u2014 min-point achievable at L <= 7",
+      "predicted_min": "(5 W/kg, 10 yr, X=10 km/s)",
+      "measured_min": {
+        "smallest_SP": [
+          5.0,
+          10.0,
+          15.0,
+          3
+        ],
+        "smallest_X": [
+          8.0,
+          0.0,
+          10.0,
+          1
+        ],
+        "smallest_L": [
+          9.0,
+          25.0,
+          5.0,
+          16
+        ]
+      },
+      "x10_helps_at_sp5": true,
+      "scope_falsifier_triggered": true
+    },
+    "H3": {
+      "verdict": "HELD",
+      "predicted_max": 0.03,
+      "measured_max_across_brackets": 0.000195,
+      "n_rows": 9
+    },
+    "H4": {
+      "verdict": "HELD",
+      "predicted_max": 0.01,
+      "measured_max_across_brackets": 0.000195,
+      "n_rows": 9
+    },
+    "H5": {
+      "verdict": "HELD",
+      "predicted_max_h3_anchor": 0.01,
+      "predicted_max_h4_anchor": 0.001,
+      "measured_max_conjunction_at_8_5": 2.4375e-05,
+      "measured_max_conjunction_at_5_10": 2.4375e-05
+    },
+    "H6": {
+      "verdict": "HELD",
+      "predicted": "technology-demonstrator-only at conservative anchors",
+      "measured_max_conjunction_any_point": 4.0625e-05,
+      "implied_capital_class": "technology-demonstrator-only"
+    }
+  }
+}

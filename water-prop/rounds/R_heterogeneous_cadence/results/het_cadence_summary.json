@@ -1,0 +1,214 @@
+{
+  "cross_checks": {
+    "xc1_chunk200_baseline_match": {
+      "delta_npv_M": 0.0,
+      "passes": true
+    },
+    "xc2_wacc0_undiscounted": {
+      "delta_observed_M": -175.0,
+      "delta_expected_M": -175.0,
+      "passes": true
+    },
+    "xc3_p1_chunk200_regimeR_vs_D": {
+      "regime_R_npv_M": -2388.1075649112727,
+      "regime_D_npv_M": -4919.521885152527,
+      "delta_M": 2531.4143202412542,
+      "passes": true
+    },
+    "xc4_cell_alpha_BOE_match": {
+      "delta_observed_M": -112.68434189445725,
+      "BOE_expected_M": -113.5,
+      "rel_err": 0.00718641502680839,
+      "passes": true
+    },
+    "xc5_cell_beta_BOE_match": {
+      "delta_observed_M": 2248.899712036656,
+      "BOE_expected_M": 1770.0,
+      "rel_err": 0.2705648090602577,
+      "passes": false
+    }
+  },
+  "monte_carlo_h5": {
+    "n_samples": 10000,
+    "het_pct_npv_positive": 46.26,
+    "hom_pct_npv_positive": 50.83,
+    "het_median_npv_M": -632.28296437871,
+    "hom_median_npv_M": 300.7960913514107,
+    "clearing_median_per_kg": 5240.224497437567,
+    "clearing_p05_per_kg": 429.0457607479184,
+    "clearing_p95_per_kg": 62706.59556932652
+  },
+  "grades": {
+    "H-1": {
+      "predicted": "Regime D, chunk<200: \u0394-NPV negative, [-50,-400]M @ 3%, [-30,-250]M @ 8.7%",
+      "h1_cells_at_3pct": [
+        [
+          25,
+          -112.68434189445725
+        ],
+        [
+          50,
+          -95.47294626893836
+        ],
+        [
+          100,
+          -62.18861207844657
+        ],
+        [
+          150,
+          -30.38054147207731
+        ]
+      ],
+      "h1_cells_at_87pct": [
+        [
+          25,
+          -50.37896988522334
+        ],
+        [
+          50,
+          -41.66726336286138
+        ],
+        [
+          100,
+          -25.85479842013592
+        ],
+        [
+          150,
+          -12.026550226171821
+        ]
+      ],
+      "all_negative_3pct": true,
+      "all_negative_87pct": true,
+      "in_band_3pct": false,
+      "in_band_87pct": false,
+      "status": "FALSIFIED"
+    },
+    "H-2": {
+      "predicted": "monotonic in chunk_1 (smaller chunk \u2192 larger penalty)",
+      "deltas_sorted_by_chunk": [
+        [
+          25,
+          -112.68434189445725
+        ],
+        [
+          50,
+          -95.47294626893836
+        ],
+        [
+          100,
+          -62.18861207844657
+        ],
+        [
+          150,
+          -30.38054147207731
+        ]
+      ],
+      "monotonic": true,
+      "status": "HELD"
+    },
+    "H-3": {
+      "predicted": "Regime R P=0.9: \u0394NPV [+800,+2500]M @ 3% LR15%, [+300,+1200]M @ 8.7%",
+      "h3_cells_at_3pct": [
+        [
+          25,
+          2248.899712036656
+        ],
+        [
+          50,
+          2331.696460639473
+        ],
+        [
+          100,
+          2453.4965759672386
+        ],
+        [
+          150,
+          2616.475996955688
+        ]
+      ],
+      "h3_cells_at_87pct": [
+        [
+          25,
+          3192.1375809083097
+        ],
+        [
+          50,
+          3257.315715404662
+        ],
+        [
+          100,
+          3363.5028916641595
+        ],
+        [
+          150,
+          3480.492017184149
+        ]
+      ],
+      "in_band_3pct": false,
+      "in_band_87pct": false,
+      "all_positive_3pct": true,
+      "all_positive_87pct": true,
+      "status": "FALSIFIED"
+    },
+    "H-4": {
+      "predicted": "Regime R chunk=50, clearing $5,284/kg: NPV positive vs hom near-breakeven",
+      "het_npv_M": -601.042876548458,
+      "hom_npv_M": 384.19146394619565,
+      "delta_M": -985.2343404946537,
+      "het_flips_positive": false,
+      "magnitude_above_100M": false,
+      "status": "FALSIFIED"
+    },
+    "H-5": {
+      "predicted": "het pct NPV\u22650 across MC \u2208 [65, 80]; hom baseline ~51%",
+      "het_pct": 46.26,
+      "hom_pct": 50.83,
+      "in_band": false,
+      "status": "FALSIFIED"
+    },
+    "H-6": {
+      "predicted": "round_trip_1 at chunk_1=25 \u2208 [11.5, 12.5]",
+      "round_trip_1_yr": 11.875,
+      "status": "HELD"
+    },
+    "H-7": {
+      "predicted": "P=0.7 shrinks improvement 20-40% vs P=0.9",
+      "delta_p9_M": 2248.899712036656,
+      "delta_p7_M": 2735.1711736586954,
+      "shrink_pct": -21.622638796180937,
+      "status": "FALSIFIED"
+    },
+    "H-8": {
+      "predicted": "chunk_1=200 in Regime R: \u0394-NPV [+500,+2000]M (real-options structure ALONE)",
+      "delta_M": 2733.253451340158,
+      "in_band": false,
+      "is_positive": true,
+      "status": "FALSIFIED"
+    }
+  },
+  "n_sweep_rows": 2250,
+  "n_delta_rows": 2250,
+  "schedule_parametric": {
+    "chunk_1_values": [
+      25.0,
+      50.0,
+      100.0,
+      150.0,
+      200.0
+    ],
+    "rt_floor_yr": 11.5,
+    "rt_slope_yr": 3.0,
+    "delivered_fraction": 0.4,
+    "baseline_chunk_t": 200.0,
+    "baseline_rt_yr": 14.5,
+    "baseline_delivered_t": 80.0,
+    "first_unit_cost_M": 500.0,
+    "horizon_yr": 40.0,
+    "cadence_per_yr": 2.0
+  },
+  "headline": {
+    "h1_regime_D_falsifies_user_hypothesis": false,
+    "h3_regime_R_supports_user_hypothesis": false,
+    "h8_real_options_is_load_bearing": false
+  }
+}

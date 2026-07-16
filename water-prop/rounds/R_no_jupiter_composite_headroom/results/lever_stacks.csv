@@ -1,0 +1,5 @@
+stack,delivered_pct,uplift_vs_baseline_pp,predicted_low,predicted_high,status,m_delivered_t,m_collected_t
+honest_floor_L1_only,15.733,+0.364,15.4,16.0,held,31.47,200.0
+H7_engineering_credible_only_L1_L3,18.327,+2.958,16.0,16.8,falsified_high,36.65,200.0
+H8_plus_water_ablator_L1_L2_L3,18.857,+3.488,16.8,17.4,falsified_high,37.71,200.0
+H9_all_credible_with_conditionals,36.794,+21.425,17.5,19.5,falsified_high,91.98,250.0

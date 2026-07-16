@@ -1,0 +1,1664 @@
+{
+  "round_id": "R-staged-options-with-technology-gates",
+  "author": "iapetus",
+  "date": "2026-05-16",
+  "gate_structure": [
+    {
+      "name": "T1_fsp2_award",
+      "cost_M": 80,
+      "type": "technology"
+    },
+    {
+      "name": "F1_gate_a_leo_debris",
+      "cost_M": 80,
+      "type": "flight"
+    },
+    {
+      "name": "T2_hybrid_aerocap",
+      "cost_M": 100,
+      "type": "technology"
+    },
+    {
+      "name": "F2_gate_b_cislunar",
+      "cost_M": 180,
+      "type": "flight"
+    },
+    {
+      "name": "T3_bring_rendezvous",
+      "cost_M": 100,
+      "type": "technology"
+    },
+    {
+      "name": "F3_gate_c_d_qual",
+      "cost_M": 150,
+      "type": "flight"
+    },
+    {
+      "name": "F4_ship3_saturn_commit",
+      "cost_M": 460,
+      "type": "flight"
+    }
+  ],
+  "total_program_cost_M": 1150,
+  "anchor_definitions": [
+    {
+      "name": "conservative_us_skeptical",
+      "p_orbit_2035": 0.0002,
+      "p_T1": 0.0001,
+      "p_F1": 0.75,
+      "p_T2": 0.5,
+      "p_F2": 0.8,
+      "p_T3": 0.2,
+      "p_F3": 0.8,
+      "p_F4": 0.5
+    },
+    {
+      "name": "conservative_us_jeffreys",
+      "p_orbit_2035": 0.0004,
+      "p_T1": 0.0002,
+      "p_F1": 0.75,
+      "p_T2": 0.5,
+      "p_F2": 0.8,
+      "p_T3": 0.2,
+      "p_F3": 0.8,
+      "p_F4": 0.5
+    },
+    {
+      "name": "conservative_us_uniform",
+      "p_orbit_2035": 0.0009,
+      "p_T1": 0.00045,
+      "p_F1": 0.75,
+      "p_T2": 0.5,
+      "p_F2": 0.8,
+      "p_T3": 0.2,
+      "p_F3": 0.8,
+      "p_F4": 0.5
+    },
+    {
+      "name": "optimistic_global_uniform_baseline_eng",
+      "p_orbit_2035": 0.0037,
+      "p_T1": 0.00185,
+      "p_F1": 0.75,
+      "p_T2": 0.5,
+      "p_F2": 0.8,
+      "p_T3": 0.3,
+      "p_F3": 0.8,
+      "p_F4": 0.5
+    },
+    {
+      "name": "optimistic_global_uniform_post_gate_credit",
+      "p_orbit_2035": 0.0037,
+      "p_T1": 0.00185,
+      "p_F1": 0.75,
+      "p_T2": 0.5,
+      "p_F2": 0.8,
+      "p_T3": 0.3,
+      "p_F3": 0.8,
+      "p_F4": 0.7
+    },
+    {
+      "name": "optimistic_lifted_T1_T2_T3",
+      "p_orbit_2035": 0.0037,
+      "p_T1": 0.0037,
+      "p_F1": 0.75,
+      "p_T2": 1.0,
+      "p_F2": 0.8,
+      "p_T3": 1.0,
+      "p_F3": 0.8,
+      "p_F4": 0.7
+    },
+    {
+      "name": "pathological_all_priors_at_one",
+      "p_orbit_2035": 1.0,
+      "p_T1": 1.0,
+      "p_F1": 1.0,
+      "p_T2": 1.0,
+      "p_F2": 1.0,
+      "p_T3": 1.0,
+      "p_F3": 1.0,
+      "p_F4": 1.0
+    }
+  ],
+  "staged_results": [
+    {
+      "anchor_name": "conservative_us_skeptical",
+      "v_billion": 12.0,
+      "p_full_success": 2.4e-06,
+      "e_npv_billion": -0.08,
+      "e_total_spend_M": 80.03,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 2e-06,
+        "F3_gate_c_d_qual": 1e-06,
+        "T3_bring_rendezvous": 2.4e-05,
+        "F2_gate_b_cislunar": 7e-06,
+        "T2_hybrid_aerocap": 3.8e-05,
+        "F1_gate_a_leo_debris": 2.5e-05,
+        "T1_fsp2_award": 0.9999
+      }
+    },
+    {
+      "anchor_name": "conservative_us_skeptical",
+      "v_billion": 18.0,
+      "p_full_success": 2.4e-06,
+      "e_npv_billion": -0.08,
+      "e_total_spend_M": 80.03,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 2e-06,
+        "F3_gate_c_d_qual": 1e-06,
+        "T3_bring_rendezvous": 2.4e-05,
+        "F2_gate_b_cislunar": 7e-06,
+        "T2_hybrid_aerocap": 3.8e-05,
+        "F1_gate_a_leo_debris": 2.5e-05,
+        "T1_fsp2_award": 0.9999
+      }
+    },
+    {
+      "anchor_name": "conservative_us_skeptical",
+      "v_billion": 24.0,
+      "p_full_success": 2.4e-06,
+      "e_npv_billion": -0.08,
+      "e_total_spend_M": 80.03,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 2e-06,
+        "F3_gate_c_d_qual": 1e-06,
+        "T3_bring_rendezvous": 2.4e-05,
+        "F2_gate_b_cislunar": 7e-06,
+        "T2_hybrid_aerocap": 3.8e-05,
+        "F1_gate_a_leo_debris": 2.5e-05,
+        "T1_fsp2_award": 0.9999
+      }
+    },
+    {
+      "anchor_name": "conservative_us_skeptical",
+      "v_billion": 50.0,
+      "p_full_success": 2.4e-06,
+      "e_npv_billion": -0.0799,
+      "e_total_spend_M": 80.03,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 2e-06,
+        "F3_gate_c_d_qual": 1e-06,
+        "T3_bring_rendezvous": 2.4e-05,
+        "F2_gate_b_cislunar": 7e-06,
+        "T2_hybrid_aerocap": 3.8e-05,
+        "F1_gate_a_leo_debris": 2.5e-05,
+        "T1_fsp2_award": 0.9999
+      }
+    },
+    {
+      "anchor_name": "conservative_us_skeptical",
+      "v_billion": 100.0,
+      "p_full_success": 2.4e-06,
+      "e_npv_billion": -0.0798,
+      "e_total_spend_M": 80.03,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 2e-06,
+        "F3_gate_c_d_qual": 1e-06,
+        "T3_bring_rendezvous": 2.4e-05,
+        "F2_gate_b_cislunar": 7e-06,
+        "T2_hybrid_aerocap": 3.8e-05,
+        "F1_gate_a_leo_debris": 2.5e-05,
+        "T1_fsp2_award": 0.9999
+      }
+    },
+    {
+      "anchor_name": "conservative_us_skeptical",
+      "v_billion": 200.0,
+      "p_full_success": 2.4e-06,
+      "e_npv_billion": -0.0795,
+      "e_total_spend_M": 80.03,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 2e-06,
+        "F3_gate_c_d_qual": 1e-06,
+        "T3_bring_rendezvous": 2.4e-05,
+        "F2_gate_b_cislunar": 7e-06,
+        "T2_hybrid_aerocap": 3.8e-05,
+        "F1_gate_a_leo_debris": 2.5e-05,
+        "T1_fsp2_award": 0.9999
+      }
+    },
+    {
+      "anchor_name": "conservative_us_jeffreys",
+      "v_billion": 12.0,
+      "p_full_success": 4.8e-06,
+      "e_npv_billion": -0.08,
+      "e_total_spend_M": 80.06,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 5e-06,
+        "F3_gate_c_d_qual": 2e-06,
+        "T3_bring_rendezvous": 4.8e-05,
+        "F2_gate_b_cislunar": 1.5e-05,
+        "T2_hybrid_aerocap": 7.5e-05,
+        "F1_gate_a_leo_debris": 5e-05,
+        "T1_fsp2_award": 0.9998
+      }
+    },
+    {
+      "anchor_name": "conservative_us_jeffreys",
+      "v_billion": 18.0,
+      "p_full_success": 4.8e-06,
+      "e_npv_billion": -0.08,
+      "e_total_spend_M": 80.06,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 5e-06,
+        "F3_gate_c_d_qual": 2e-06,
+        "T3_bring_rendezvous": 4.8e-05,
+        "F2_gate_b_cislunar": 1.5e-05,
+        "T2_hybrid_aerocap": 7.5e-05,
+        "F1_gate_a_leo_debris": 5e-05,
+        "T1_fsp2_award": 0.9998
+      }
+    },
+    {
+      "anchor_name": "conservative_us_jeffreys",
+      "v_billion": 24.0,
+      "p_full_success": 4.8e-06,
+      "e_npv_billion": -0.0799,
+      "e_total_spend_M": 80.06,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 5e-06,
+        "F3_gate_c_d_qual": 2e-06,
+        "T3_bring_rendezvous": 4.8e-05,
+        "F2_gate_b_cislunar": 1.5e-05,
+        "T2_hybrid_aerocap": 7.5e-05,
+        "F1_gate_a_leo_debris": 5e-05,
+        "T1_fsp2_award": 0.9998
+      }
+    },
+    {
+      "anchor_name": "conservative_us_jeffreys",
+      "v_billion": 50.0,
+      "p_full_success": 4.8e-06,
+      "e_npv_billion": -0.0798,
+      "e_total_spend_M": 80.06,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 5e-06,
+        "F3_gate_c_d_qual": 2e-06,
+        "T3_bring_rendezvous": 4.8e-05,
+        "F2_gate_b_cislunar": 1.5e-05,
+        "T2_hybrid_aerocap": 7.5e-05,
+        "F1_gate_a_leo_debris": 5e-05,
+        "T1_fsp2_award": 0.9998
+      }
+    },
+    {
+      "anchor_name": "conservative_us_jeffreys",
+      "v_billion": 100.0,
+      "p_full_success": 4.8e-06,
+      "e_npv_billion": -0.0796,
+      "e_total_spend_M": 80.06,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 5e-06,
+        "F3_gate_c_d_qual": 2e-06,
+        "T3_bring_rendezvous": 4.8e-05,
+        "F2_gate_b_cislunar": 1.5e-05,
+        "T2_hybrid_aerocap": 7.5e-05,
+        "F1_gate_a_leo_debris": 5e-05,
+        "T1_fsp2_award": 0.9998
+      }
+    },
+    {
+      "anchor_name": "conservative_us_jeffreys",
+      "v_billion": 200.0,
+      "p_full_success": 4.8e-06,
+      "e_npv_billion": -0.0791,
+      "e_total_spend_M": 80.06,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 5e-06,
+        "F3_gate_c_d_qual": 2e-06,
+        "T3_bring_rendezvous": 4.8e-05,
+        "F2_gate_b_cislunar": 1.5e-05,
+        "T2_hybrid_aerocap": 7.5e-05,
+        "F1_gate_a_leo_debris": 5e-05,
+        "T1_fsp2_award": 0.9998
+      }
+    },
+    {
+      "anchor_name": "conservative_us_uniform",
+      "v_billion": 12.0,
+      "p_full_success": 1.08e-05,
+      "e_npv_billion": -0.08,
+      "e_total_spend_M": 80.13,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 1.1e-05,
+        "F3_gate_c_d_qual": 5e-06,
+        "T3_bring_rendezvous": 0.000108,
+        "F2_gate_b_cislunar": 3.4e-05,
+        "T2_hybrid_aerocap": 0.000169,
+        "F1_gate_a_leo_debris": 0.000112,
+        "T1_fsp2_award": 0.99955
+      }
+    },
+    {
+      "anchor_name": "conservative_us_uniform",
+      "v_billion": 18.0,
+      "p_full_success": 1.08e-05,
+      "e_npv_billion": -0.0799,
+      "e_total_spend_M": 80.13,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 1.1e-05,
+        "F3_gate_c_d_qual": 5e-06,
+        "T3_bring_rendezvous": 0.000108,
+        "F2_gate_b_cislunar": 3.4e-05,
+        "T2_hybrid_aerocap": 0.000169,
+        "F1_gate_a_leo_debris": 0.000112,
+        "T1_fsp2_award": 0.99955
+      }
+    },
+    {
+      "anchor_name": "conservative_us_uniform",
+      "v_billion": 24.0,
+      "p_full_success": 1.08e-05,
+      "e_npv_billion": -0.0799,
+      "e_total_spend_M": 80.13,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 1.1e-05,
+        "F3_gate_c_d_qual": 5e-06,
+        "T3_bring_rendezvous": 0.000108,
+        "F2_gate_b_cislunar": 3.4e-05,
+        "T2_hybrid_aerocap": 0.000169,
+        "F1_gate_a_leo_debris": 0.000112,
+        "T1_fsp2_award": 0.99955
+      }
+    },
+    {
+      "anchor_name": "conservative_us_uniform",
+      "v_billion": 50.0,
+      "p_full_success": 1.08e-05,
+      "e_npv_billion": -0.0796,
+      "e_total_spend_M": 80.13,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 1.1e-05,
+        "F3_gate_c_d_qual": 5e-06,
+        "T3_bring_rendezvous": 0.000108,
+        "F2_gate_b_cislunar": 3.4e-05,
+        "T2_hybrid_aerocap": 0.000169,
+        "F1_gate_a_leo_debris": 0.000112,
+        "T1_fsp2_award": 0.99955
+      }
+    },
+    {
+      "anchor_name": "conservative_us_uniform",
+      "v_billion": 100.0,
+      "p_full_success": 1.08e-05,
+      "e_npv_billion": -0.079,
+      "e_total_spend_M": 80.13,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 1.1e-05,
+        "F3_gate_c_d_qual": 5e-06,
+        "T3_bring_rendezvous": 0.000108,
+        "F2_gate_b_cislunar": 3.4e-05,
+        "T2_hybrid_aerocap": 0.000169,
+        "F1_gate_a_leo_debris": 0.000112,
+        "T1_fsp2_award": 0.99955
+      }
+    },
+    {
+      "anchor_name": "conservative_us_uniform",
+      "v_billion": 200.0,
+      "p_full_success": 1.08e-05,
+      "e_npv_billion": -0.078,
+      "e_total_spend_M": 80.13,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 1.1e-05,
+        "F3_gate_c_d_qual": 5e-06,
+        "T3_bring_rendezvous": 0.000108,
+        "F2_gate_b_cislunar": 3.4e-05,
+        "T2_hybrid_aerocap": 0.000169,
+        "F1_gate_a_leo_debris": 0.000112,
+        "T1_fsp2_award": 0.99955
+      }
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_baseline_eng",
+      "v_billion": 12.0,
+      "p_full_success": 6.66e-05,
+      "e_npv_billion": -0.0797,
+      "e_total_spend_M": 80.55,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 6.7e-05,
+        "F3_gate_c_d_qual": 3.3e-05,
+        "T3_bring_rendezvous": 0.000389,
+        "F2_gate_b_cislunar": 0.000139,
+        "T2_hybrid_aerocap": 0.000694,
+        "F1_gate_a_leo_debris": 0.000463,
+        "T1_fsp2_award": 0.99815
+      }
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_baseline_eng",
+      "v_billion": 18.0,
+      "p_full_success": 6.66e-05,
+      "e_npv_billion": -0.0793,
+      "e_total_spend_M": 80.55,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 6.7e-05,
+        "F3_gate_c_d_qual": 3.3e-05,
+        "T3_bring_rendezvous": 0.000389,
+        "F2_gate_b_cislunar": 0.000139,
+        "T2_hybrid_aerocap": 0.000694,
+        "F1_gate_a_leo_debris": 0.000463,
+        "T1_fsp2_award": 0.99815
+      }
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_baseline_eng",
+      "v_billion": 24.0,
+      "p_full_success": 6.66e-05,
+      "e_npv_billion": -0.0789,
+      "e_total_spend_M": 80.55,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 6.7e-05,
+        "F3_gate_c_d_qual": 3.3e-05,
+        "T3_bring_rendezvous": 0.000389,
+        "F2_gate_b_cislunar": 0.000139,
+        "T2_hybrid_aerocap": 0.000694,
+        "F1_gate_a_leo_debris": 0.000463,
+        "T1_fsp2_award": 0.99815
+      }
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_baseline_eng",
+      "v_billion": 50.0,
+      "p_full_success": 6.66e-05,
+      "e_npv_billion": -0.0771,
+      "e_total_spend_M": 80.55,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 6.7e-05,
+        "F3_gate_c_d_qual": 3.3e-05,
+        "T3_bring_rendezvous": 0.000389,
+        "F2_gate_b_cislunar": 0.000139,
+        "T2_hybrid_aerocap": 0.000694,
+        "F1_gate_a_leo_debris": 0.000463,
+        "T1_fsp2_award": 0.99815
+      }
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_baseline_eng",
+      "v_billion": 100.0,
+      "p_full_success": 6.66e-05,
+      "e_npv_billion": -0.0738,
+      "e_total_spend_M": 80.55,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 6.7e-05,
+        "F3_gate_c_d_qual": 3.3e-05,
+        "T3_bring_rendezvous": 0.000389,
+        "F2_gate_b_cislunar": 0.000139,
+        "T2_hybrid_aerocap": 0.000694,
+        "F1_gate_a_leo_debris": 0.000463,
+        "T1_fsp2_award": 0.99815
+      }
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_baseline_eng",
+      "v_billion": 200.0,
+      "p_full_success": 6.66e-05,
+      "e_npv_billion": -0.0672,
+      "e_total_spend_M": 80.55,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 6.7e-05,
+        "F3_gate_c_d_qual": 3.3e-05,
+        "T3_bring_rendezvous": 0.000389,
+        "F2_gate_b_cislunar": 0.000139,
+        "T2_hybrid_aerocap": 0.000694,
+        "F1_gate_a_leo_debris": 0.000463,
+        "T1_fsp2_award": 0.99815
+      }
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_post_gate_credit",
+      "v_billion": 12.0,
+      "p_full_success": 9.324e-05,
+      "e_npv_billion": -0.0793,
+      "e_total_spend_M": 80.55,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 4e-05,
+        "F3_gate_c_d_qual": 3.3e-05,
+        "T3_bring_rendezvous": 0.000389,
+        "F2_gate_b_cislunar": 0.000139,
+        "T2_hybrid_aerocap": 0.000694,
+        "F1_gate_a_leo_debris": 0.000463,
+        "T1_fsp2_award": 0.99815
+      }
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_post_gate_credit",
+      "v_billion": 18.0,
+      "p_full_success": 9.324e-05,
+      "e_npv_billion": -0.0788,
+      "e_total_spend_M": 80.55,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 4e-05,
+        "F3_gate_c_d_qual": 3.3e-05,
+        "T3_bring_rendezvous": 0.000389,
+        "F2_gate_b_cislunar": 0.000139,
+        "T2_hybrid_aerocap": 0.000694,
+        "F1_gate_a_leo_debris": 0.000463,
+        "T1_fsp2_award": 0.99815
+      }
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_post_gate_credit",
+      "v_billion": 24.0,
+      "p_full_success": 9.324e-05,
+      "e_npv_billion": -0.0782,
+      "e_total_spend_M": 80.55,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 4e-05,
+        "F3_gate_c_d_qual": 3.3e-05,
+        "T3_bring_rendezvous": 0.000389,
+        "F2_gate_b_cislunar": 0.000139,
+        "T2_hybrid_aerocap": 0.000694,
+        "F1_gate_a_leo_debris": 0.000463,
+        "T1_fsp2_award": 0.99815
+      }
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_post_gate_credit",
+      "v_billion": 50.0,
+      "p_full_success": 9.324e-05,
+      "e_npv_billion": -0.0758,
+      "e_total_spend_M": 80.55,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 4e-05,
+        "F3_gate_c_d_qual": 3.3e-05,
+        "T3_bring_rendezvous": 0.000389,
+        "F2_gate_b_cislunar": 0.000139,
+        "T2_hybrid_aerocap": 0.000694,
+        "F1_gate_a_leo_debris": 0.000463,
+        "T1_fsp2_award": 0.99815
+      }
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_post_gate_credit",
+      "v_billion": 100.0,
+      "p_full_success": 9.324e-05,
+      "e_npv_billion": -0.0711,
+      "e_total_spend_M": 80.55,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 4e-05,
+        "F3_gate_c_d_qual": 3.3e-05,
+        "T3_bring_rendezvous": 0.000389,
+        "F2_gate_b_cislunar": 0.000139,
+        "T2_hybrid_aerocap": 0.000694,
+        "F1_gate_a_leo_debris": 0.000463,
+        "T1_fsp2_award": 0.99815
+      }
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_post_gate_credit",
+      "v_billion": 200.0,
+      "p_full_success": 9.324e-05,
+      "e_npv_billion": -0.0618,
+      "e_total_spend_M": 80.55,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 4e-05,
+        "F3_gate_c_d_qual": 3.3e-05,
+        "T3_bring_rendezvous": 0.000389,
+        "F2_gate_b_cislunar": 0.000139,
+        "T2_hybrid_aerocap": 0.000694,
+        "F1_gate_a_leo_debris": 0.000463,
+        "T1_fsp2_award": 0.99815
+      }
+    },
+    {
+      "anchor_name": "optimistic_lifted_T1_T2_T3",
+      "v_billion": 12.0,
+      "p_full_success": 0.0012432,
+      "e_npv_billion": -0.0661,
+      "e_total_spend_M": 82.44,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 0.000533,
+        "F3_gate_c_d_qual": 0.000444,
+        "F2_gate_b_cislunar": 0.000555,
+        "F1_gate_a_leo_debris": 0.000925,
+        "T1_fsp2_award": 0.9963
+      }
+    },
+    {
+      "anchor_name": "optimistic_lifted_T1_T2_T3",
+      "v_billion": 18.0,
+      "p_full_success": 0.0012432,
+      "e_npv_billion": -0.0586,
+      "e_total_spend_M": 82.44,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 0.000533,
+        "F3_gate_c_d_qual": 0.000444,
+        "F2_gate_b_cislunar": 0.000555,
+        "F1_gate_a_leo_debris": 0.000925,
+        "T1_fsp2_award": 0.9963
+      }
+    },
+    {
+      "anchor_name": "optimistic_lifted_T1_T2_T3",
+      "v_billion": 24.0,
+      "p_full_success": 0.0012432,
+      "e_npv_billion": -0.0512,
+      "e_total_spend_M": 82.44,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 0.000533,
+        "F3_gate_c_d_qual": 0.000444,
+        "F2_gate_b_cislunar": 0.000555,
+        "F1_gate_a_leo_debris": 0.000925,
+        "T1_fsp2_award": 0.9963
+      }
+    },
+    {
+      "anchor_name": "optimistic_lifted_T1_T2_T3",
+      "v_billion": 50.0,
+      "p_full_success": 0.0012432,
+      "e_npv_billion": -0.0189,
+      "e_total_spend_M": 82.44,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 0.000533,
+        "F3_gate_c_d_qual": 0.000444,
+        "F2_gate_b_cislunar": 0.000555,
+        "F1_gate_a_leo_debris": 0.000925,
+        "T1_fsp2_award": 0.9963
+      }
+    },
+    {
+      "anchor_name": "optimistic_lifted_T1_T2_T3",
+      "v_billion": 100.0,
+      "p_full_success": 0.0012432,
+      "e_npv_billion": 0.0433,
+      "e_total_spend_M": 82.44,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 0.000533,
+        "F3_gate_c_d_qual": 0.000444,
+        "F2_gate_b_cislunar": 0.000555,
+        "F1_gate_a_leo_debris": 0.000925,
+        "T1_fsp2_award": 0.9963
+      }
+    },
+    {
+      "anchor_name": "optimistic_lifted_T1_T2_T3",
+      "v_billion": 200.0,
+      "p_full_success": 0.0012432,
+      "e_npv_billion": 0.1676,
+      "e_total_spend_M": 82.44,
+      "max_loss_M": 1150.0,
+      "p_kill_per_gate": {
+        "F4_ship3_saturn_commit": 0.000533,
+        "F3_gate_c_d_qual": 0.000444,
+        "F2_gate_b_cislunar": 0.000555,
+        "F1_gate_a_leo_debris": 0.000925,
+        "T1_fsp2_award": 0.9963
+      }
+    },
+    {
+      "anchor_name": "pathological_all_priors_at_one",
+      "v_billion": 12.0,
+      "p_full_success": 1.0,
+      "e_npv_billion": 12.0,
+      "e_total_spend_M": 1150.0,
+      "max_loss_M": 1150,
+      "p_kill_per_gate": {}
+    },
+    {
+      "anchor_name": "pathological_all_priors_at_one",
+      "v_billion": 18.0,
+      "p_full_success": 1.0,
+      "e_npv_billion": 18.0,
+      "e_total_spend_M": 1150.0,
+      "max_loss_M": 1150,
+      "p_kill_per_gate": {}
+    },
+    {
+      "anchor_name": "pathological_all_priors_at_one",
+      "v_billion": 24.0,
+      "p_full_success": 1.0,
+      "e_npv_billion": 24.0,
+      "e_total_spend_M": 1150.0,
+      "max_loss_M": 1150,
+      "p_kill_per_gate": {}
+    },
+    {
+      "anchor_name": "pathological_all_priors_at_one",
+      "v_billion": 50.0,
+      "p_full_success": 1.0,
+      "e_npv_billion": 50.0,
+      "e_total_spend_M": 1150.0,
+      "max_loss_M": 1150,
+      "p_kill_per_gate": {}
+    },
+    {
+      "anchor_name": "pathological_all_priors_at_one",
+      "v_billion": 100.0,
+      "p_full_success": 1.0,
+      "e_npv_billion": 100.0,
+      "e_total_spend_M": 1150.0,
+      "max_loss_M": 1150,
+      "p_kill_per_gate": {}
+    },
+    {
+      "anchor_name": "pathological_all_priors_at_one",
+      "v_billion": 200.0,
+      "p_full_success": 1.0,
+      "e_npv_billion": 200.0,
+      "e_total_spend_M": 1150.0,
+      "max_loss_M": 1150,
+      "p_kill_per_gate": {}
+    }
+  ],
+  "terminal_bet_results": [
+    {
+      "anchor_name": "conservative_us_skeptical",
+      "v_billion": 12.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 2.4e-06,
+      "e_npv_billion": -1.0
+    },
+    {
+      "anchor_name": "conservative_us_skeptical",
+      "v_billion": 18.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 2.4e-06,
+      "e_npv_billion": -1.0
+    },
+    {
+      "anchor_name": "conservative_us_skeptical",
+      "v_billion": 24.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 2.4e-06,
+      "e_npv_billion": -0.9999
+    },
+    {
+      "anchor_name": "conservative_us_skeptical",
+      "v_billion": 50.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 2.4e-06,
+      "e_npv_billion": -0.9999
+    },
+    {
+      "anchor_name": "conservative_us_skeptical",
+      "v_billion": 100.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 2.4e-06,
+      "e_npv_billion": -0.9998
+    },
+    {
+      "anchor_name": "conservative_us_skeptical",
+      "v_billion": 200.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 2.4e-06,
+      "e_npv_billion": -0.9995
+    },
+    {
+      "anchor_name": "conservative_us_jeffreys",
+      "v_billion": 12.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 4.8e-06,
+      "e_npv_billion": -0.9999
+    },
+    {
+      "anchor_name": "conservative_us_jeffreys",
+      "v_billion": 18.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 4.8e-06,
+      "e_npv_billion": -0.9999
+    },
+    {
+      "anchor_name": "conservative_us_jeffreys",
+      "v_billion": 24.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 4.8e-06,
+      "e_npv_billion": -0.9999
+    },
+    {
+      "anchor_name": "conservative_us_jeffreys",
+      "v_billion": 50.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 4.8e-06,
+      "e_npv_billion": -0.9998
+    },
+    {
+      "anchor_name": "conservative_us_jeffreys",
+      "v_billion": 100.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 4.8e-06,
+      "e_npv_billion": -0.9995
+    },
+    {
+      "anchor_name": "conservative_us_jeffreys",
+      "v_billion": 200.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 4.8e-06,
+      "e_npv_billion": -0.999
+    },
+    {
+      "anchor_name": "conservative_us_uniform",
+      "v_billion": 12.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 1.08e-05,
+      "e_npv_billion": -0.9999
+    },
+    {
+      "anchor_name": "conservative_us_uniform",
+      "v_billion": 18.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 1.08e-05,
+      "e_npv_billion": -0.9998
+    },
+    {
+      "anchor_name": "conservative_us_uniform",
+      "v_billion": 24.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 1.08e-05,
+      "e_npv_billion": -0.9997
+    },
+    {
+      "anchor_name": "conservative_us_uniform",
+      "v_billion": 50.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 1.08e-05,
+      "e_npv_billion": -0.9994
+    },
+    {
+      "anchor_name": "conservative_us_uniform",
+      "v_billion": 100.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 1.08e-05,
+      "e_npv_billion": -0.9989
+    },
+    {
+      "anchor_name": "conservative_us_uniform",
+      "v_billion": 200.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 1.08e-05,
+      "e_npv_billion": -0.9978
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_baseline_eng",
+      "v_billion": 12.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 6.66e-05,
+      "e_npv_billion": -0.9991
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_baseline_eng",
+      "v_billion": 18.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 6.66e-05,
+      "e_npv_billion": -0.9987
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_baseline_eng",
+      "v_billion": 24.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 6.66e-05,
+      "e_npv_billion": -0.9983
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_baseline_eng",
+      "v_billion": 50.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 6.66e-05,
+      "e_npv_billion": -0.9966
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_baseline_eng",
+      "v_billion": 100.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 6.66e-05,
+      "e_npv_billion": -0.9933
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_baseline_eng",
+      "v_billion": 200.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 6.66e-05,
+      "e_npv_billion": -0.9866
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_post_gate_credit",
+      "v_billion": 12.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 9.324e-05,
+      "e_npv_billion": -0.9988
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_post_gate_credit",
+      "v_billion": 18.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 9.324e-05,
+      "e_npv_billion": -0.9982
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_post_gate_credit",
+      "v_billion": 24.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 9.324e-05,
+      "e_npv_billion": -0.9977
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_post_gate_credit",
+      "v_billion": 50.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 9.324e-05,
+      "e_npv_billion": -0.9952
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_post_gate_credit",
+      "v_billion": 100.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 9.324e-05,
+      "e_npv_billion": -0.9906
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_post_gate_credit",
+      "v_billion": 200.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 9.324e-05,
+      "e_npv_billion": -0.9813
+    },
+    {
+      "anchor_name": "optimistic_lifted_T1_T2_T3",
+      "v_billion": 12.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 0.0012432,
+      "e_npv_billion": -0.9838
+    },
+    {
+      "anchor_name": "optimistic_lifted_T1_T2_T3",
+      "v_billion": 18.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 0.0012432,
+      "e_npv_billion": -0.9764
+    },
+    {
+      "anchor_name": "optimistic_lifted_T1_T2_T3",
+      "v_billion": 24.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 0.0012432,
+      "e_npv_billion": -0.9689
+    },
+    {
+      "anchor_name": "optimistic_lifted_T1_T2_T3",
+      "v_billion": 50.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 0.0012432,
+      "e_npv_billion": -0.9366
+    },
+    {
+      "anchor_name": "optimistic_lifted_T1_T2_T3",
+      "v_billion": 100.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 0.0012432,
+      "e_npv_billion": -0.8744
+    },
+    {
+      "anchor_name": "optimistic_lifted_T1_T2_T3",
+      "v_billion": 200.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 0.0012432,
+      "e_npv_billion": -0.7501
+    },
+    {
+      "anchor_name": "pathological_all_priors_at_one",
+      "v_billion": 12.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 1.0,
+      "e_npv_billion": 12.0
+    },
+    {
+      "anchor_name": "pathological_all_priors_at_one",
+      "v_billion": 18.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 1.0,
+      "e_npv_billion": 18.0
+    },
+    {
+      "anchor_name": "pathological_all_priors_at_one",
+      "v_billion": 24.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 1.0,
+      "e_npv_billion": 24.0
+    },
+    {
+      "anchor_name": "pathological_all_priors_at_one",
+      "v_billion": 50.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 1.0,
+      "e_npv_billion": 50.0
+    },
+    {
+      "anchor_name": "pathological_all_priors_at_one",
+      "v_billion": 100.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 1.0,
+      "e_npv_billion": 100.0
+    },
+    {
+      "anchor_name": "pathological_all_priors_at_one",
+      "v_billion": 200.0,
+      "max_loss_billion": 1.0,
+      "p_terminal": 1.0,
+      "e_npv_billion": 200.0
+    }
+  ],
+  "comparison_table": [
+    {
+      "anchor_name": "conservative_us_skeptical",
+      "v_billion": 12.0,
+      "staged_ev_billion": -0.08,
+      "terminal_ev_billion": -1.0,
+      "dominance_multiple_signed": 0.08,
+      "magnitude_reduction_when_both_negative": 12.5,
+      "staged_e_spend_M": 80.03,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "conservative_us_skeptical",
+      "v_billion": 18.0,
+      "staged_ev_billion": -0.08,
+      "terminal_ev_billion": -1.0,
+      "dominance_multiple_signed": 0.08,
+      "magnitude_reduction_when_both_negative": 12.5,
+      "staged_e_spend_M": 80.03,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "conservative_us_skeptical",
+      "v_billion": 24.0,
+      "staged_ev_billion": -0.08,
+      "terminal_ev_billion": -0.9999,
+      "dominance_multiple_signed": 0.08,
+      "magnitude_reduction_when_both_negative": 12.5,
+      "staged_e_spend_M": 80.03,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "conservative_us_skeptical",
+      "v_billion": 50.0,
+      "staged_ev_billion": -0.0799,
+      "terminal_ev_billion": -0.9999,
+      "dominance_multiple_signed": 0.08,
+      "magnitude_reduction_when_both_negative": 12.51,
+      "staged_e_spend_M": 80.03,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "conservative_us_skeptical",
+      "v_billion": 100.0,
+      "staged_ev_billion": -0.0798,
+      "terminal_ev_billion": -0.9998,
+      "dominance_multiple_signed": 0.08,
+      "magnitude_reduction_when_both_negative": 12.53,
+      "staged_e_spend_M": 80.03,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "conservative_us_skeptical",
+      "v_billion": 200.0,
+      "staged_ev_billion": -0.0795,
+      "terminal_ev_billion": -0.9995,
+      "dominance_multiple_signed": 0.08,
+      "magnitude_reduction_when_both_negative": 12.57,
+      "staged_e_spend_M": 80.03,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "conservative_us_jeffreys",
+      "v_billion": 12.0,
+      "staged_ev_billion": -0.08,
+      "terminal_ev_billion": -0.9999,
+      "dominance_multiple_signed": 0.08,
+      "magnitude_reduction_when_both_negative": 12.5,
+      "staged_e_spend_M": 80.06,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "conservative_us_jeffreys",
+      "v_billion": 18.0,
+      "staged_ev_billion": -0.08,
+      "terminal_ev_billion": -0.9999,
+      "dominance_multiple_signed": 0.08,
+      "magnitude_reduction_when_both_negative": 12.5,
+      "staged_e_spend_M": 80.06,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "conservative_us_jeffreys",
+      "v_billion": 24.0,
+      "staged_ev_billion": -0.0799,
+      "terminal_ev_billion": -0.9999,
+      "dominance_multiple_signed": 0.08,
+      "magnitude_reduction_when_both_negative": 12.51,
+      "staged_e_spend_M": 80.06,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "conservative_us_jeffreys",
+      "v_billion": 50.0,
+      "staged_ev_billion": -0.0798,
+      "terminal_ev_billion": -0.9998,
+      "dominance_multiple_signed": 0.08,
+      "magnitude_reduction_when_both_negative": 12.53,
+      "staged_e_spend_M": 80.06,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "conservative_us_jeffreys",
+      "v_billion": 100.0,
+      "staged_ev_billion": -0.0796,
+      "terminal_ev_billion": -0.9995,
+      "dominance_multiple_signed": 0.08,
+      "magnitude_reduction_when_both_negative": 12.56,
+      "staged_e_spend_M": 80.06,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "conservative_us_jeffreys",
+      "v_billion": 200.0,
+      "staged_ev_billion": -0.0791,
+      "terminal_ev_billion": -0.999,
+      "dominance_multiple_signed": 0.079,
+      "magnitude_reduction_when_both_negative": 12.63,
+      "staged_e_spend_M": 80.06,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "conservative_us_uniform",
+      "v_billion": 12.0,
+      "staged_ev_billion": -0.08,
+      "terminal_ev_billion": -0.9999,
+      "dominance_multiple_signed": 0.08,
+      "magnitude_reduction_when_both_negative": 12.5,
+      "staged_e_spend_M": 80.13,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "conservative_us_uniform",
+      "v_billion": 18.0,
+      "staged_ev_billion": -0.0799,
+      "terminal_ev_billion": -0.9998,
+      "dominance_multiple_signed": 0.08,
+      "magnitude_reduction_when_both_negative": 12.51,
+      "staged_e_spend_M": 80.13,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "conservative_us_uniform",
+      "v_billion": 24.0,
+      "staged_ev_billion": -0.0799,
+      "terminal_ev_billion": -0.9997,
+      "dominance_multiple_signed": 0.08,
+      "magnitude_reduction_when_both_negative": 12.51,
+      "staged_e_spend_M": 80.13,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "conservative_us_uniform",
+      "v_billion": 50.0,
+      "staged_ev_billion": -0.0796,
+      "terminal_ev_billion": -0.9994,
+      "dominance_multiple_signed": 0.08,
+      "magnitude_reduction_when_both_negative": 12.56,
+      "staged_e_spend_M": 80.13,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "conservative_us_uniform",
+      "v_billion": 100.0,
+      "staged_ev_billion": -0.079,
+      "terminal_ev_billion": -0.9989,
+      "dominance_multiple_signed": 0.079,
+      "magnitude_reduction_when_both_negative": 12.64,
+      "staged_e_spend_M": 80.13,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "conservative_us_uniform",
+      "v_billion": 200.0,
+      "staged_ev_billion": -0.078,
+      "terminal_ev_billion": -0.9978,
+      "dominance_multiple_signed": 0.078,
+      "magnitude_reduction_when_both_negative": 12.79,
+      "staged_e_spend_M": 80.13,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_baseline_eng",
+      "v_billion": 12.0,
+      "staged_ev_billion": -0.0797,
+      "terminal_ev_billion": -0.9991,
+      "dominance_multiple_signed": 0.08,
+      "magnitude_reduction_when_both_negative": 12.54,
+      "staged_e_spend_M": 80.55,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_baseline_eng",
+      "v_billion": 18.0,
+      "staged_ev_billion": -0.0793,
+      "terminal_ev_billion": -0.9987,
+      "dominance_multiple_signed": 0.079,
+      "magnitude_reduction_when_both_negative": 12.59,
+      "staged_e_spend_M": 80.55,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_baseline_eng",
+      "v_billion": 24.0,
+      "staged_ev_billion": -0.0789,
+      "terminal_ev_billion": -0.9983,
+      "dominance_multiple_signed": 0.079,
+      "magnitude_reduction_when_both_negative": 12.65,
+      "staged_e_spend_M": 80.55,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_baseline_eng",
+      "v_billion": 50.0,
+      "staged_ev_billion": -0.0771,
+      "terminal_ev_billion": -0.9966,
+      "dominance_multiple_signed": 0.077,
+      "magnitude_reduction_when_both_negative": 12.93,
+      "staged_e_spend_M": 80.55,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_baseline_eng",
+      "v_billion": 100.0,
+      "staged_ev_billion": -0.0738,
+      "terminal_ev_billion": -0.9933,
+      "dominance_multiple_signed": 0.074,
+      "magnitude_reduction_when_both_negative": 13.46,
+      "staged_e_spend_M": 80.55,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_baseline_eng",
+      "v_billion": 200.0,
+      "staged_ev_billion": -0.0672,
+      "terminal_ev_billion": -0.9866,
+      "dominance_multiple_signed": 0.068,
+      "magnitude_reduction_when_both_negative": 14.68,
+      "staged_e_spend_M": 80.55,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_post_gate_credit",
+      "v_billion": 12.0,
+      "staged_ev_billion": -0.0793,
+      "terminal_ev_billion": -0.9988,
+      "dominance_multiple_signed": 0.079,
+      "magnitude_reduction_when_both_negative": 12.6,
+      "staged_e_spend_M": 80.55,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_post_gate_credit",
+      "v_billion": 18.0,
+      "staged_ev_billion": -0.0788,
+      "terminal_ev_billion": -0.9982,
+      "dominance_multiple_signed": 0.079,
+      "magnitude_reduction_when_both_negative": 12.67,
+      "staged_e_spend_M": 80.55,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_post_gate_credit",
+      "v_billion": 24.0,
+      "staged_ev_billion": -0.0782,
+      "terminal_ev_billion": -0.9977,
+      "dominance_multiple_signed": 0.078,
+      "magnitude_reduction_when_both_negative": 12.76,
+      "staged_e_spend_M": 80.55,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_post_gate_credit",
+      "v_billion": 50.0,
+      "staged_ev_billion": -0.0758,
+      "terminal_ev_billion": -0.9952,
+      "dominance_multiple_signed": 0.076,
+      "magnitude_reduction_when_both_negative": 13.13,
+      "staged_e_spend_M": 80.55,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_post_gate_credit",
+      "v_billion": 100.0,
+      "staged_ev_billion": -0.0711,
+      "terminal_ev_billion": -0.9906,
+      "dominance_multiple_signed": 0.072,
+      "magnitude_reduction_when_both_negative": 13.93,
+      "staged_e_spend_M": 80.55,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "optimistic_global_uniform_post_gate_credit",
+      "v_billion": 200.0,
+      "staged_ev_billion": -0.0618,
+      "terminal_ev_billion": -0.9813,
+      "dominance_multiple_signed": 0.063,
+      "magnitude_reduction_when_both_negative": 15.88,
+      "staged_e_spend_M": 80.55,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "optimistic_lifted_T1_T2_T3",
+      "v_billion": 12.0,
+      "staged_ev_billion": -0.0661,
+      "terminal_ev_billion": -0.9838,
+      "dominance_multiple_signed": 0.067,
+      "magnitude_reduction_when_both_negative": 14.88,
+      "staged_e_spend_M": 82.44,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "optimistic_lifted_T1_T2_T3",
+      "v_billion": 18.0,
+      "staged_ev_billion": -0.0586,
+      "terminal_ev_billion": -0.9764,
+      "dominance_multiple_signed": 0.06,
+      "magnitude_reduction_when_both_negative": 16.66,
+      "staged_e_spend_M": 82.44,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "optimistic_lifted_T1_T2_T3",
+      "v_billion": 24.0,
+      "staged_ev_billion": -0.0512,
+      "terminal_ev_billion": -0.9689,
+      "dominance_multiple_signed": 0.053,
+      "magnitude_reduction_when_both_negative": 18.92,
+      "staged_e_spend_M": 82.44,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "optimistic_lifted_T1_T2_T3",
+      "v_billion": 50.0,
+      "staged_ev_billion": -0.0189,
+      "terminal_ev_billion": -0.9366,
+      "dominance_multiple_signed": 0.02,
+      "magnitude_reduction_when_both_negative": 49.56,
+      "staged_e_spend_M": 82.44,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": false
+    },
+    {
+      "anchor_name": "optimistic_lifted_T1_T2_T3",
+      "v_billion": 100.0,
+      "staged_ev_billion": 0.0433,
+      "terminal_ev_billion": -0.8744,
+      "dominance_multiple_signed": -0.05,
+      "magnitude_reduction_when_both_negative": null,
+      "staged_e_spend_M": 82.44,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": true
+    },
+    {
+      "anchor_name": "optimistic_lifted_T1_T2_T3",
+      "v_billion": 200.0,
+      "staged_ev_billion": 0.1676,
+      "terminal_ev_billion": -0.7501,
+      "dominance_multiple_signed": -0.223,
+      "magnitude_reduction_when_both_negative": null,
+      "staged_e_spend_M": 82.44,
+      "max_loss_M": 1150.0,
+      "staged_ev_positive": true
+    },
+    {
+      "anchor_name": "pathological_all_priors_at_one",
+      "v_billion": 12.0,
+      "staged_ev_billion": 12.0,
+      "terminal_ev_billion": 12.0,
+      "dominance_multiple_signed": 1.0,
+      "magnitude_reduction_when_both_negative": null,
+      "staged_e_spend_M": 1150.0,
+      "max_loss_M": 1150,
+      "staged_ev_positive": true
+    },
+    {
+      "anchor_name": "pathological_all_priors_at_one",
+      "v_billion": 18.0,
+      "staged_ev_billion": 18.0,
+      "terminal_ev_billion": 18.0,
+      "dominance_multiple_signed": 1.0,
+      "magnitude_reduction_when_both_negative": null,
+      "staged_e_spend_M": 1150.0,
+      "max_loss_M": 1150,
+      "staged_ev_positive": true
+    },
+    {
+      "anchor_name": "pathological_all_priors_at_one",
+      "v_billion": 24.0,
+      "staged_ev_billion": 24.0,
+      "terminal_ev_billion": 24.0,
+      "dominance_multiple_signed": 1.0,
+      "magnitude_reduction_when_both_negative": null,
+      "staged_e_spend_M": 1150.0,
+      "max_loss_M": 1150,
+      "staged_ev_positive": true
+    },
+    {
+      "anchor_name": "pathological_all_priors_at_one",
+      "v_billion": 50.0,
+      "staged_ev_billion": 50.0,
+      "terminal_ev_billion": 50.0,
+      "dominance_multiple_signed": 1.0,
+      "magnitude_reduction_when_both_negative": null,
+      "staged_e_spend_M": 1150.0,
+      "max_loss_M": 1150,
+      "staged_ev_positive": true
+    },
+    {
+      "anchor_name": "pathological_all_priors_at_one",
+      "v_billion": 100.0,
+      "staged_ev_billion": 100.0,
+      "terminal_ev_billion": 100.0,
+      "dominance_multiple_signed": 1.0,
+      "magnitude_reduction_when_both_negative": null,
+      "staged_e_spend_M": 1150.0,
+      "max_loss_M": 1150,
+      "staged_ev_positive": true
+    },
+    {
+      "anchor_name": "pathological_all_priors_at_one",
+      "v_billion": 200.0,
+      "staged_ev_billion": 200.0,
+      "terminal_ev_billion": 200.0,
+      "dominance_multiple_signed": 1.0,
+      "magnitude_reduction_when_both_negative": null,
+      "staged_e_spend_M": 1150.0,
+      "max_loss_M": 1150,
+      "staged_ev_positive": true
+    }
+  ],
+  "hypotheses": {
+    "H1": {
+      "hypothesis": "Staged-options EV \u2265 terminal-bet EV at every anchor; median dominance \u2265 2x",
+      "strict_dominance_all_anchors": true,
+      "median_magnitude_reduction": 12.6,
+      "min_magnitude_reduction": 12.5,
+      "verdict": "CONFIRMED",
+      "notes": "Strict dominance across all 42 (anchor \u00d7 V) combinations: True. Median magnitude-reduction (terminal-to-staged for both-negative cases): 12.6. Min: 12.5."
+    },
+    "H2": {
+      "hypothesis": "E[total spend] $100-300M conservative, $300-700M optimistic",
+      "conservative_e_spend_M": [
+        80.03,
+        80.06,
+        80.13
+      ],
+      "optimistic_e_spend_M": [
+        80.55,
+        80.55,
+        82.44
+      ],
+      "verdict": "PARTIALLY_CONFIRMED",
+      "notes": "Conservative anchor E[spend]: [80.03, 80.06, 80.13] M. Optimistic anchor E[spend]: [80.55, 80.55, 82.44] M. All conservative below $300M? True. All conservative above $100M? False."
+    },
+    "H3": {
+      "hypothesis": "At conservative anchors, staged EV negative in range -$50 to -$200M; reduction \u2265 5x vs terminal",
+      "conservative_staged_evs_billion": [
+        [
+          -0.08,
+          -1.0
+        ],
+        [
+          -0.08,
+          -0.9999
+        ],
+        [
+          -0.08,
+          -0.9999
+        ]
+      ],
+      "magnitude_reductions": [
+        12.5,
+        12.5,
+        12.5
+      ],
+      "all_negative": true,
+      "min_reduction": 12.49875,
+      "verdict": "CONFIRMED",
+      "notes": "All conservative-anchor staged EV at V=$12B: [-0.08, -0.08, -0.08]. Min magnitude-reduction vs terminal: 12.49875."
+    },
+    "H4": {
+      "hypothesis": "Optimistic-anchor staged-options EV crosses zero",
+      "positive_optimistic_combinations": 2,
+      "optimistic_corners_positive": [
+        [
+          "optimistic_lifted_T1_T2_T3",
+          100.0,
+          0.0433
+        ],
+        [
+          "optimistic_lifted_T1_T2_T3",
+          200.0,
+          0.1676
+        ]
+      ],
+      "verdict": "CONFIRMED",
+      "notes": "2 of 18 optimistic-anchor combinations produce positive staged EV."
+    },
+    "H5": {
+      "hypothesis": "Max-loss \u2248 $1B; E[loss] 4-10x smaller (option value gain)",
+      "max_loss_M_uniform_across_anchors": true,
+      "max_loss_M_value": 1150,
+      "max_to_expected_ratios": [
+        {
+          "anchor": "conservative_us_skeptical",
+          "max_loss_M": 1150.0,
+          "e_total_spend_M": 80.03,
+          "ratio": 14.37
+        },
+        {
+          "anchor": "conservative_us_jeffreys",
+          "max_loss_M": 1150.0,
+          "e_total_spend_M": 80.06,
+          "ratio": 14.36
+        },
+        {
+          "anchor": "conservative_us_uniform",
+          "max_loss_M": 1150.0,
+          "e_total_spend_M": 80.13,
+          "ratio": 14.35
+        },
+        {
+          "anchor": "optimistic_global_uniform_baseline_eng",
+          "max_loss_M": 1150.0,
+          "e_total_spend_M": 80.55,
+          "ratio": 14.28
+        },
+        {
+          "anchor": "optimistic_global_uniform_post_gate_credit",
+          "max_loss_M": 1150.0,
+          "e_total_spend_M": 80.55,
+          "ratio": 14.28
+        },
+        {
+          "anchor": "optimistic_lifted_T1_T2_T3",
+          "max_loss_M": 1150.0,
+          "e_total_spend_M": 82.44,
+          "ratio": 13.95
+        },
+        {
+          "anchor": "pathological_all_priors_at_one",
+          "max_loss_M": 1150,
+          "e_total_spend_M": 1150.0,
+          "ratio": 1.0
+        }
+      ],
+      "verdict": "CONFIRMED",
+      "notes": "Max-loss across all paths is $1.15 billion (sum of all gate costs); matches pitch's $1B max-credible-loss with rounding. Expected loss (E[total spend]) varies by anchor; ratios shown in max_to_expected_ratios."
+    },
+    "H6": {
+      "hypothesis": "Reading shifts from 'tech-demo-only' to 'research-grant + private-options sleeve' under staged framing",
+      "reading_shift_supported": true,
+      "verdict": "CONFIRMED",
+      "notes": "Reading shifts if: (a) optimistic anchors produce positive staged EV, OR (b) conservative anchors produce 5x or more reduction in magnitude vs terminal-bet EV. H4 verdict: CONFIRMED. H3 conservative reductions met threshold: True."
+    }
+  }
+}

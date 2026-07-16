@@ -1,0 +1,503 @@
+{
+  "hohmann_baseline": {
+    "a_hohmann_km": 791567213.2349099,
+    "v_hohmann_perihelion_km_s": 40.08238898319444,
+    "v_hohmann_aphelion_km_s": 4.182830232211972,
+    "v_earth_helio_km_s": 29.784691831696804,
+    "v_saturn_helio_km_s": 9.621691565667968,
+    "v_inf_at_earth_km_s": 10.297697151497637,
+    "v_inf_at_saturn_km_s": 5.438861333455995,
+    "hohmann_cruise_yr": 6.085857577229889
+  },
+  "leo_spiral_dv_km_s": 7.668558175407055,
+  "dv_decomposition_no_lga": {
+    "B_ring": {
+      "r_saturn_dep_km": 135000.0,
+      "lga_credit_km_s": 0.0,
+      "dv1_saturn_spiral_km_s": 16.762212131922073,
+      "dv2_saturn_helio_km_s": 5.438861333455995,
+      "dv4_earth_helio_km_s": 10.297697151497637,
+      "dv5_leo_spiral_km_s": 7.668558175407055,
+      "dv_earth_combined_pre_lga_km_s": 17.966255326904694,
+      "dv_earth_after_lga_km_s": 17.966255326904694,
+      "dv_total_km_s": 40.16732879228276
+    },
+    "high_elliptical_1Mkm": {
+      "r_saturn_dep_km": 1000000.0,
+      "lga_credit_km_s": 0.0,
+      "dv1_saturn_spiral_km_s": 6.15883000252483,
+      "dv2_saturn_helio_km_s": 5.438861333455995,
+      "dv4_earth_helio_km_s": 10.297697151497637,
+      "dv5_leo_spiral_km_s": 7.668558175407055,
+      "dv_earth_combined_pre_lga_km_s": 17.966255326904694,
+      "dv_earth_after_lga_km_s": 17.966255326904694,
+      "dv_total_km_s": 29.56394666288552
+    },
+    "Iapetus_distance": {
+      "r_saturn_dep_km": 3561000.0,
+      "lga_credit_km_s": 0.0,
+      "dv1_saturn_spiral_km_s": 3.2637150182427517,
+      "dv2_saturn_helio_km_s": 5.438861333455995,
+      "dv4_earth_helio_km_s": 10.297697151497637,
+      "dv5_leo_spiral_km_s": 7.668558175407055,
+      "dv_earth_combined_pre_lga_km_s": 17.966255326904694,
+      "dv_earth_after_lga_km_s": 17.966255326904694,
+      "dv_total_km_s": 26.66883167860344
+    }
+  },
+  "dv_decomposition_with_lga": {
+    "B_ring": {
+      "r_saturn_dep_km": 135000.0,
+      "lga_credit_km_s": 2.0,
+      "dv1_saturn_spiral_km_s": 16.762212131922073,
+      "dv2_saturn_helio_km_s": 5.438861333455995,
+      "dv4_earth_helio_km_s": 10.297697151497637,
+      "dv5_leo_spiral_km_s": 7.668558175407055,
+      "dv_earth_combined_pre_lga_km_s": 17.966255326904694,
+      "dv_earth_after_lga_km_s": 15.966255326904694,
+      "dv_total_km_s": 38.16732879228276
+    },
+    "high_elliptical_1Mkm": {
+      "r_saturn_dep_km": 1000000.0,
+      "lga_credit_km_s": 2.0,
+      "dv1_saturn_spiral_km_s": 6.15883000252483,
+      "dv2_saturn_helio_km_s": 5.438861333455995,
+      "dv4_earth_helio_km_s": 10.297697151497637,
+      "dv5_leo_spiral_km_s": 7.668558175407055,
+      "dv_earth_combined_pre_lga_km_s": 17.966255326904694,
+      "dv_earth_after_lga_km_s": 15.966255326904694,
+      "dv_total_km_s": 27.56394666288552
+    },
+    "Iapetus_distance": {
+      "r_saturn_dep_km": 3561000.0,
+      "lga_credit_km_s": 2.0,
+      "dv1_saturn_spiral_km_s": 3.2637150182427517,
+      "dv2_saturn_helio_km_s": 5.438861333455995,
+      "dv4_earth_helio_km_s": 10.297697151497637,
+      "dv5_leo_spiral_km_s": 7.668558175407055,
+      "dv_earth_combined_pre_lga_km_s": 17.966255326904694,
+      "dv_earth_after_lga_km_s": 15.966255326904694,
+      "dv_total_km_s": 24.66883167860344
+    }
+  },
+  "dv_headline": {
+    "B_ring_no_lga_km_s": 40.16732879228276,
+    "B_ring_with_lga_km_s": 38.16732879228276,
+    "high_elliptical_no_lga_km_s": 29.56394666288552,
+    "high_elliptical_with_lga_km_s": 27.56394666288552,
+    "Iapetus_no_lga_km_s": 26.66883167860344,
+    "Iapetus_with_lga_km_s": 24.66883167860344,
+    "matrix_assumed_km_s": 6.42
+  },
+  "megawatt_round_trip_cases": {
+    "matrix_6_42": {
+      "power_kwe": 1000.0,
+      "isp_s": 2000.0,
+      "chunk_t": 200.0,
+      "dv_inbound_km_s": 6.42,
+      "m_tug_t": 12.1,
+      "mass_ratio": 1.3872576772597904,
+      "m_prop_inbound_t": 59.20843307859364,
+      "delivered_t": 140.79156692140634,
+      "delivered_frac": 0.7039578346070318,
+      "thrust_N": 66.28155384356533,
+      "t_outbound_burn_yr": 0.17,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 0.5551848301207003,
+      "round_trip_yr": 13.896899984580479,
+      "closes_15yr": true
+    },
+    "B_ring_no_lga": {
+      "power_kwe": 1000.0,
+      "isp_s": 2000.0,
+      "chunk_t": 200.0,
+      "dv_inbound_km_s": 40.16732879228276,
+      "m_tug_t": 12.1,
+      "mass_ratio": 7.75210035406346,
+      "m_prop_inbound_t": 184.73967308049328,
+      "delivered_t": 15.260326919506724,
+      "delivered_frac": 0.07630163459753363,
+      "thrust_N": 66.28155384356533,
+      "t_outbound_burn_yr": 0.17,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 1.7322644542814096,
+      "round_trip_yr": 15.073979608741187,
+      "closes_15yr": false
+    },
+    "B_ring_with_lga": {
+      "power_kwe": 1000.0,
+      "isp_s": 2000.0,
+      "chunk_t": 200.0,
+      "dv_inbound_km_s": 38.16732879228276,
+      "m_tug_t": 12.1,
+      "mass_ratio": 7.000574371618508,
+      "m_prop_inbound_t": 181.8024860045929,
+      "delivered_t": 18.197513995407093,
+      "delivered_frac": 0.09098756997703546,
+      "thrust_N": 66.28155384356533,
+      "t_outbound_burn_yr": 0.17,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 1.7047230784506746,
+      "round_trip_yr": 15.04643823291045,
+      "closes_15yr": false
+    },
+    "high_elliptical_no_lga": {
+      "power_kwe": 1000.0,
+      "isp_s": 2000.0,
+      "chunk_t": 200.0,
+      "dv_inbound_km_s": 29.56394666288552,
+      "m_tug_t": 12.1,
+      "mass_ratio": 4.514713756805355,
+      "m_prop_inbound_t": 165.12027738075614,
+      "delivered_t": 34.879722619243864,
+      "delivered_frac": 0.17439861309621932,
+      "thrust_N": 66.28155384356533,
+      "t_outbound_burn_yr": 0.17,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 1.5482975714866776,
+      "round_trip_yr": 14.890012725946455,
+      "closes_15yr": true
+    },
+    "high_elliptical_with_lga": {
+      "power_kwe": 1000.0,
+      "isp_s": 2000.0,
+      "chunk_t": 200.0,
+      "dv_inbound_km_s": 27.56394666288552,
+      "m_tug_t": 12.1,
+      "mass_ratio": 4.077035639059833,
+      "m_prop_inbound_t": 160.0769080338698,
+      "delivered_t": 39.92309196613019,
+      "delivered_frac": 0.19961545983065093,
+      "thrust_N": 66.28155384356533,
+      "t_outbound_burn_yr": 0.17,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 1.5010069743791628,
+      "round_trip_yr": 14.84272212883894,
+      "closes_15yr": true
+    },
+    "Iapetus_no_lga": {
+      "power_kwe": 1000.0,
+      "isp_s": 2000.0,
+      "chunk_t": 200.0,
+      "dv_inbound_km_s": 26.66883167860344,
+      "m_tug_t": 12.1,
+      "mass_ratio": 3.895149270438297,
+      "m_prop_inbound_t": 157.64765805518573,
+      "delivered_t": 42.35234194481427,
+      "delivered_frac": 0.21176170972407135,
+      "thrust_N": 66.28155384356533,
+      "t_outbound_burn_yr": 0.17,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 1.47822841621421,
+      "round_trip_yr": 14.819943570673988,
+      "closes_15yr": true
+    },
+    "Iapetus_with_lga": {
+      "power_kwe": 1000.0,
+      "isp_s": 2000.0,
+      "chunk_t": 200.0,
+      "dv_inbound_km_s": 24.66883167860344,
+      "m_tug_t": 12.1,
+      "mass_ratio": 3.5175347210211885,
+      "m_prop_inbound_t": 151.8020877342116,
+      "delivered_t": 48.1979122657884,
+      "delivered_frac": 0.240989561328942,
+      "thrust_N": 66.28155384356533,
+      "t_outbound_burn_yr": 0.17,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 1.4234157519219344,
+      "round_trip_yr": 14.76513090638171,
+      "closes_15yr": true
+    }
+  },
+  "power_sweep_best_dv_continuous": [
+    {
+      "power_kwe": 100.0,
+      "isp_s": 2000.0,
+      "chunk_t": 200.0,
+      "dv_inbound_km_s": 27.56394666288552,
+      "m_tug_t": 5.5,
+      "mass_ratio": 4.077035639059833,
+      "m_prop_inbound_t": 155.09573126336753,
+      "delivered_t": 44.904268736632474,
+      "delivered_frac": 0.22452134368316237,
+      "thrust_N": 6.628155384356534,
+      "t_outbound_burn_yr": 0.36,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 14.542995437761338,
+      "round_trip_yr": 28.074710592221116,
+      "closes_15yr": false
+    },
+    {
+      "power_kwe": 200.0,
+      "isp_s": 2000.0,
+      "chunk_t": 200.0,
+      "dv_inbound_km_s": 27.56394666288552,
+      "m_tug_t": 7.5,
+      "mass_ratio": 4.077035639059833,
+      "m_prop_inbound_t": 156.60517876958033,
+      "delivered_t": 43.394821230419666,
+      "delivered_frac": 0.21697410615209833,
+      "thrust_N": 13.256310768713067,
+      "t_outbound_burn_yr": 0.24,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 7.342266553127683,
+      "round_trip_yr": 20.75398170758746,
+      "closes_15yr": false
+    },
+    {
+      "power_kwe": 500.0,
+      "isp_s": 2000.0,
+      "chunk_t": 200.0,
+      "dv_inbound_km_s": 27.56394666288552,
+      "m_tug_t": 10.0,
+      "mass_ratio": 4.077035639059833,
+      "m_prop_inbound_t": 158.49198815234638,
+      "delivered_t": 41.50801184765362,
+      "delivered_frac": 0.2075400592382681,
+      "thrust_N": 33.14077692178267,
+      "t_outbound_burn_yr": 0.18,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 2.97229103837458,
+      "round_trip_yr": 16.324006192834357,
+      "closes_15yr": false
+    },
+    {
+      "power_kwe": 1000.0,
+      "isp_s": 2000.0,
+      "chunk_t": 200.0,
+      "dv_inbound_km_s": 27.56394666288552,
+      "m_tug_t": 12.1,
+      "mass_ratio": 4.077035639059833,
+      "m_prop_inbound_t": 160.0769080338698,
+      "delivered_t": 39.92309196613019,
+      "delivered_frac": 0.19961545983065093,
+      "thrust_N": 66.28155384356533,
+      "t_outbound_burn_yr": 0.17,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 1.5010069743791628,
+      "round_trip_yr": 14.84272212883894,
+      "closes_15yr": true
+    },
+    {
+      "power_kwe": 2000.0,
+      "isp_s": 2000.0,
+      "chunk_t": 200.0,
+      "dv_inbound_km_s": 27.56394666288552,
+      "m_tug_t": 16.4,
+      "mass_ratio": 4.077035639059833,
+      "m_prop_inbound_t": 163.3222201722274,
+      "delivered_t": 36.67777982777261,
+      "delivered_frac": 0.18338889913886305,
+      "thrust_N": 132.56310768713067,
+      "t_outbound_burn_yr": 0.16,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 0.7657187865526894,
+      "round_trip_yr": 14.097433941012468,
+      "closes_15yr": true
+    }
+  ],
+  "isp_sweep_1mwe_best_dv": [
+    {
+      "power_kwe": 1000.0,
+      "isp_s": 2000.0,
+      "chunk_t": 200.0,
+      "dv_inbound_km_s": 27.56394666288552,
+      "m_tug_t": 12.1,
+      "mass_ratio": 4.077035639059833,
+      "m_prop_inbound_t": 160.0769080338698,
+      "delivered_t": 39.92309196613019,
+      "delivered_frac": 0.19961545983065093,
+      "thrust_N": 66.28155384356533,
+      "t_outbound_burn_yr": 0.17,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 1.5010069743791628,
+      "round_trip_yr": 14.84272212883894,
+      "closes_15yr": true
+    },
+    {
+      "power_kwe": 1000.0,
+      "isp_s": 3000.0,
+      "chunk_t": 200.0,
+      "dv_inbound_km_s": 27.56394666288552,
+      "m_tug_t": 12.1,
+      "mass_ratio": 2.5520920728297707,
+      "m_prop_inbound_t": 128.99171317207902,
+      "delivered_t": 71.00828682792098,
+      "delivered_frac": 0.35504143413960493,
+      "thrust_N": 44.18770256237689,
+      "t_outbound_burn_yr": 0.17,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 2.7214374193293476,
+      "round_trip_yr": 16.063152573789125,
+      "closes_15yr": false
+    },
+    {
+      "power_kwe": 1000.0,
+      "isp_s": 4000.0,
+      "chunk_t": 200.0,
+      "dv_inbound_km_s": 27.56394666288552,
+      "m_tug_t": 12.1,
+      "mass_ratio": 2.0191670656634217,
+      "m_prop_inbound_t": 107.0566860480106,
+      "delivered_t": 92.9433139519894,
+      "delivered_frac": 0.46471656975994696,
+      "thrust_N": 33.14077692178267,
+      "t_outbound_burn_yr": 0.17,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 4.015390711519346,
+      "round_trip_yr": 17.357105865979122,
+      "closes_15yr": false
+    }
+  ],
+  "chunk_sweep_1mwe_best_dv": [
+    {
+      "power_kwe": 1000.0,
+      "isp_s": 2000.0,
+      "chunk_t": 100.0,
+      "dv_inbound_km_s": 27.56394666288552,
+      "m_tug_t": 12.1,
+      "mass_ratio": 4.077035639059833,
+      "m_prop_inbound_t": 84.6045327232287,
+      "delivered_t": 15.3954672767713,
+      "delivered_frac": 0.153954672767713,
+      "thrust_N": 66.28155384356533,
+      "t_outbound_burn_yr": 0.17,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 0.7933186319090247,
+      "round_trip_yr": 14.135033786368801,
+      "closes_15yr": true
+    },
+    {
+      "power_kwe": 1000.0,
+      "isp_s": 2000.0,
+      "chunk_t": 200.0,
+      "dv_inbound_km_s": 27.56394666288552,
+      "m_tug_t": 12.1,
+      "mass_ratio": 4.077035639059833,
+      "m_prop_inbound_t": 160.0769080338698,
+      "delivered_t": 39.92309196613019,
+      "delivered_frac": 0.19961545983065093,
+      "thrust_N": 66.28155384356533,
+      "t_outbound_burn_yr": 0.17,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 1.5010069743791628,
+      "round_trip_yr": 14.84272212883894,
+      "closes_15yr": true
+    },
+    {
+      "power_kwe": 1000.0,
+      "isp_s": 2000.0,
+      "chunk_t": 500.0,
+      "dv_inbound_km_s": 27.56394666288552,
+      "m_tug_t": 12.1,
+      "mass_ratio": 4.077035639059833,
+      "m_prop_inbound_t": 386.4940339657932,
+      "delivered_t": 113.50596603420678,
+      "delivered_frac": 0.22701193206841355,
+      "thrust_N": 66.28155384356533,
+      "t_outbound_burn_yr": 0.17,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 3.624072001789577,
+      "round_trip_yr": 16.965787156249355,
+      "closes_15yr": false
+    }
+  ],
+  "hypothesis_grading": {
+    "H_it_a": {
+      "predicted_band_km_s": [
+        14.0,
+        18.0
+      ],
+      "actual_km_s": 16.762212131922073,
+      "held": true
+    },
+    "H_it_b": {
+      "predicted_band_km_s": [
+        5.0,
+        5.8
+      ],
+      "actual_km_s": 5.438861333455995,
+      "held": true
+    },
+    "H_it_c": {
+      "predicted_band_km_s": [
+        10.0,
+        10.6
+      ],
+      "actual_km_s": 10.297697151497637,
+      "held": true
+    },
+    "H_it_d": {
+      "predicted_band_km_s": [
+        7.5,
+        7.9
+      ],
+      "actual_km_s": 7.668558175407055,
+      "held": true
+    },
+    "H_it_e": {
+      "predicted_band_km_s": [
+        36.0,
+        42.0
+      ],
+      "actual_km_s": 40.16732879228276,
+      "held": true
+    },
+    "H_it_f": {
+      "predicted_band_km_s": [
+        34.0,
+        40.0
+      ],
+      "actual_km_s": 38.16732879228276,
+      "held": true
+    },
+    "H_it_g_doubled_from_impulsive": {
+      "predicted_band_km_s": [
+        10.0,
+        14.0
+      ],
+      "actual_km_s_b_ring": 40.16732879228276,
+      "actual_km_s_high_elliptical": 29.56394666288552,
+      "held": false,
+      "load_bearing_falsified_high": true
+    },
+    "H_it_h_megawatt_round_trip": {
+      "predicted_max_yr": 15.5,
+      "actual_yr_B_ring_with_lga": 15.04643823291045,
+      "actual_yr_high_elliptical_with_lga": 14.84272212883894,
+      "held_B_ring": true,
+      "held_high_elliptical": true,
+      "load_bearing_falsified": false
+    },
+    "H_it_i_delivered_fraction": {
+      "predicted_band": [
+        0.25,
+        0.55
+      ],
+      "actual_B_ring_with_lga": 0.09098756997703546,
+      "actual_high_elliptical_with_lga": 0.19961545983065093,
+      "held_B_ring": false,
+      "held_high_elliptical": false,
+      "load_bearing_falsified": false
+    }
+  }
+}

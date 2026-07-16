@@ -1,0 +1,47 @@
+{
+  "body1_exit_dv_floor": {
+    "exit_dv_min_kms": 7.458124013896931,
+    "exit_dv_max_direct_kms": 8.276766986018242,
+    "headline": "Exit \u0394v from residence orbit (any strategy): [7.46, 8.28] km/s"
+  },
+  "body2_a1_baseline": {
+    "a1_delivered_fraction_as_reported": 0.039239683081307535,
+    "a1_delivered_fraction_direct": 0.025344975896937003,
+    "headline": "A1 baseline delivered fraction: 0.039 (as-reported), 0.025 (direct 8.06 km/s)"
+  },
+  "body3_inbound_dv_reduction": {
+    "a2_delivered_fraction": 0.07152284707297951,
+    "a3_delivered_fraction": 0.12757202302205287,
+    "headline": "A2: 0.072; A3 (aerocapture + Jupiter GA): 0.128"
+  },
+  "body4_a4_chemical": {
+    "a4a_delivered_fraction": -0.8011315660162768,
+    "a4b_p_chem_at_residence_t": 1739.0374331550797,
+    "a4b_earth_lift_t": 2723.742611164467,
+    "headline": "A4a: -0.801; A4b: infeasible (1739 t cryogen at residence)"
+  },
+  "body5_isp_uplift": {
+    "a5_delivered_fraction_at_isp7000": 0.08503126284854404,
+    "headline": "A5 (Isp 7000 exit, Isp 5000 inbound): 0.085"
+  },
+  "body6_jettison": {
+    "a6_delivered_fraction_20t_jettison": 0.08727769892724212,
+    "a6_delivered_fraction_40t_jettison": 0.1353157147731767,
+    "headline": "A6 (20 t jettison): 0.087; (40 t): 0.135"
+  },
+  "body7_moon_ga": {
+    "total_inner_moon_ga_max_kms": 2.165828948419956,
+    "titan_ga_net_kms": -5.077551686052468,
+    "headline": "Inner-moon cascade max \u0394v: 2.166 km/s; Titan GA net: -5.078 km/s (positive = lever, negative = penalty)"
+  },
+  "body8_aerobrake_entry": {
+    "a8_delivered_fraction": 0.039239683081307535,
+    "headline": "A8: 0.039 (= A1; aerobraking entry does not lift chunk-fed delivered fraction)"
+  },
+  "body9_composite": {
+    "composite_delivered_fraction_central": 0.21839296575124764,
+    "composite_delivered_fraction_best": 0.2727893073063828,
+    "composite_delivered_fraction_worst": 0.16324236057913352,
+    "headline": "Composite delivered fraction: central 0.218, range [0.163, 0.273]"
+  }
+}

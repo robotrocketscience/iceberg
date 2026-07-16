@@ -1,0 +1,1680 @@
+{
+  "cells": [
+    {
+      "cell": "Kilopower Variant B (10 kWe, 100 t chunk, chemical kick + electric inbound)",
+      "key": "variant_b_10_100",
+      "m_tug_t": 3.970835409163503,
+      "sweep": [
+        {
+          "eta_c": 0.55,
+          "mode": "mid",
+          "eta_pre": 0.7416198487095663,
+          "eta_thr": 0.7416198487095663,
+          "delivered_t": 59.60048574947447,
+          "burn_yr": 7.509703681792063,
+          "round_trip_yr": 20.68141883625184,
+          "closes": false,
+          "v_e_eff_m_s": 14545.612578695336,
+          "mass_ratio": 1.2290576765762804
+        },
+        {
+          "eta_c": 0.55,
+          "mode": "pure_pre",
+          "eta_pre": 0.55,
+          "eta_thr": 1.0,
+          "delivered_t": 46.63594536177913,
+          "burn_yr": 7.8427953789572085,
+          "round_trip_yr": 21.014510533416985,
+          "closes": false,
+          "v_e_eff_m_s": 19613.3,
+          "mass_ratio": 1.1652753743827022
+        },
+        {
+          "eta_c": 0.55,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.55,
+          "delivered_t": 74.75772637521389,
+          "burn_yr": 7.159915093732488,
+          "round_trip_yr": 20.331630248192265,
+          "closes": false,
+          "v_e_eff_m_s": 10787.315,
+          "mass_ratio": 1.3206240918501715
+        },
+        {
+          "eta_c": 0.6,
+          "mode": "mid",
+          "eta_pre": 0.7745966692414834,
+          "eta_thr": 0.7745966692414834,
+          "delivered_t": 62.867896320159936,
+          "burn_yr": 8.209434970030742,
+          "round_trip_yr": 21.381150124490517,
+          "closes": false,
+          "v_e_eff_m_s": 15192.396852833986,
+          "mass_ratio": 1.2183130982060018
+        },
+        {
+          "eta_c": 0.6,
+          "mode": "pure_pre",
+          "eta_pre": 0.6,
+          "eta_thr": 1.0,
+          "delivered_t": 50.926776619282286,
+          "burn_yr": 8.507767761028848,
+          "round_trip_yr": 21.679482915488627,
+          "closes": false,
+          "v_e_eff_m_s": 19613.3,
+          "mass_ratio": 1.1652753743827022
+        },
+        {
+          "eta_c": 0.6,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.6,
+          "delivered_t": 76.60359654793992,
+          "burn_yr": 7.897790798045748,
+          "round_trip_yr": 21.069505952505526,
+          "closes": false,
+          "v_e_eff_m_s": 11767.98,
+          "mass_ratio": 1.2903700700554237
+        },
+        {
+          "eta_c": 0.65,
+          "mode": "mid",
+          "eta_pre": 0.806225774829855,
+          "eta_thr": 0.806225774829855,
+          "delivered_t": 66.00402615486853,
+          "burn_yr": 8.90987716430494,
+          "round_trip_yr": 22.081592318764717,
+          "closes": false,
+          "v_e_eff_m_s": 15812.747989470396,
+          "mass_ratio": 1.2089114719396759
+        },
+        {
+          "eta_c": 0.65,
+          "mode": "pure_pre",
+          "eta_pre": 0.65,
+          "eta_thr": 1.0,
+          "delivered_t": 55.21760787678544,
+          "burn_yr": 9.172740143100487,
+          "round_trip_yr": 22.344455297560266,
+          "closes": false,
+          "v_e_eff_m_s": 19613.3,
+          "mass_ratio": 1.1652753743827022
+        },
+        {
+          "eta_c": 0.65,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.65,
+          "delivered_t": 78.19924947585163,
+          "burn_yr": 8.636786449286644,
+          "round_trip_yr": 21.80850160374642,
+          "closes": false,
+          "v_e_eff_m_s": 12748.645,
+          "mass_ratio": 1.265312498516404
+        },
+        {
+          "eta_c": 0.7,
+          "mode": "mid",
+          "eta_pre": 0.8366600265340756,
+          "eta_thr": 0.8366600265340756,
+          "delivered_t": 69.0235361832094,
+          "burn_yr": 9.610949633323203,
+          "round_trip_yr": 22.78266478778298,
+          "closes": false,
+          "v_e_eff_m_s": 16409.664098420784,
+          "mass_ratio": 1.2005971988082453
+        },
+        {
+          "eta_c": 0.7,
+          "mode": "pure_pre",
+          "eta_pre": 0.7,
+          "eta_thr": 1.0,
+          "delivered_t": 59.50843913428861,
+          "burn_yr": 9.837712525172124,
+          "round_trip_yr": 23.0094276796319,
+          "closes": false,
+          "v_e_eff_m_s": 19613.3,
+          "mass_ratio": 1.1652753743827022
+        },
+        {
+          "eta_c": 0.7,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.7,
+          "delivered_t": 79.59207898891161,
+          "burn_yr": 9.37667509434482,
+          "round_trip_yr": 22.548390248804598,
+          "closes": false,
+          "v_e_eff_m_s": 13729.31,
+          "mass_ratio": 1.2442222265474083
+        },
+        {
+          "eta_c": 0.75,
+          "mode": "mid",
+          "eta_pre": 0.8660254037844386,
+          "eta_thr": 0.8660254037844386,
+          "delivered_t": 71.93854572466827,
+          "burn_yr": 10.312585924129097,
+          "round_trip_yr": 23.484301078588874,
+          "closes": false,
+          "v_e_eff_m_s": 16985.61605204533,
+          "mass_ratio": 1.1931776341045686
+        },
+        {
+          "eta_c": 0.75,
+          "mode": "pure_pre",
+          "eta_pre": 0.75,
+          "eta_thr": 1.0,
+          "delivered_t": 63.79927039179177,
+          "burn_yr": 10.502684907243765,
+          "round_trip_yr": 23.674400061703544,
+          "closes": false,
+          "v_e_eff_m_s": 19613.3,
+          "mass_ratio": 1.1652753743827022
+        },
+        {
+          "eta_c": 0.75,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.75,
+          "delivered_t": 80.8182808415103,
+          "burn_yr": 10.117287188701336,
+          "round_trip_yr": 23.289002343161116,
+          "closes": false,
+          "v_e_eff_m_s": 14709.974999999999,
+          "mass_ratio": 1.2262285539311453
+        },
+        {
+          "eta_c": 0.8,
+          "mode": "mid",
+          "eta_pre": 0.8944271909999159,
+          "eta_thr": 0.8944271909999159,
+          "delivered_t": 74.75920970196837,
+          "burn_yr": 11.014730499482908,
+          "round_trip_yr": 24.186445653942684,
+          "closes": false,
+          "v_e_eff_m_s": 17542.66882523865,
+          "mass_ratio": 1.1865045215876178
+        },
+        {
+          "eta_c": 0.8,
+          "mode": "pure_pre",
+          "eta_pre": 0.8,
+          "eta_thr": 1.0,
+          "delivered_t": 68.09010164929494,
+          "burn_yr": 11.16765728931541,
+          "round_trip_yr": 24.339372443775186,
+          "closes": false,
+          "v_e_eff_m_s": 19613.3,
+          "mass_ratio": 1.1652753743827022
+        },
+        {
+          "eta_c": 0.8,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.8,
+          "delivered_t": 81.90595858812912,
+          "burn_yr": 10.858493532891913,
+          "round_trip_yr": 24.03020868735169,
+          "closes": false,
+          "v_e_eff_m_s": 15690.64,
+          "mass_ratio": 1.2106976817560435
+        },
+        {
+          "eta_c": 0.85,
+          "mode": "mid",
+          "eta_pre": 0.9219544457292888,
+          "eta_thr": 0.9219544457292888,
+          "delivered_t": 77.4941374987424,
+          "burn_yr": 11.717336381365161,
+          "round_trip_yr": 24.88905153582494,
+          "closes": false,
+          "v_e_eff_m_s": 18082.56913042226,
+          "mass_ratio": 1.1804616947556827
+        },
+        {
+          "eta_c": 0.85,
+          "mode": "pure_pre",
+          "eta_pre": 0.85,
+          "eta_thr": 1.0,
+          "delivered_t": 72.38093290679811,
+          "burn_yr": 11.832629671387041,
+          "round_trip_yr": 25.004344825846818,
+          "closes": false,
+          "v_e_eff_m_s": 19613.3,
+          "mass_ratio": 1.1652753743827022
+        },
+        {
+          "eta_c": 0.85,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.85,
+          "delivered_t": 82.87725551258916,
+          "burn_yr": 11.60019395084447,
+          "round_trip_yr": 24.771909105304246,
+          "closes": false,
+          "v_e_eff_m_s": 16671.305,
+          "mass_ratio": 1.1971574079024705
+        },
+        {
+          "eta_c": 0.9,
+          "mode": "mid",
+          "eta_pre": 0.9486832980505138,
+          "eta_thr": 0.9486832980505138,
+          "delivered_t": 80.15070353153992,
+          "burn_yr": 12.42036341078957,
+          "round_trip_yr": 25.592078565249345,
+          "closes": false,
+          "v_e_eff_m_s": 18606.810129654143,
+          "mass_ratio": 1.1749566931233366
+        },
+        {
+          "eta_c": 0.9,
+          "mode": "pure_pre",
+          "eta_pre": 0.9,
+          "eta_thr": 1.0,
+          "delivered_t": 76.67176416430127,
+          "burn_yr": 12.497602053458689,
+          "round_trip_yr": 25.669317207918468,
+          "closes": false,
+          "v_e_eff_m_s": 19613.3,
+          "mass_ratio": 1.1652753743827022
+        },
+        {
+          "eta_c": 0.9,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.9,
+          "delivered_t": 83.74984927821036,
+          "burn_yr": 12.342309576591736,
+          "round_trip_yr": 25.514024731051514,
+          "closes": false,
+          "v_e_eff_m_s": 17651.97,
+          "mass_ratio": 1.1852487902904913
+        },
+        {
+          "eta_c": 0.95,
+          "mode": "mid",
+          "eta_pre": 0.9746794344808963,
+          "eta_thr": 0.9746794344808963,
+          "delivered_t": 82.73528190632219,
+          "burn_yr": 13.123776937675213,
+          "round_trip_yr": 26.295492092134992,
+          "closes": false,
+          "v_e_eff_m_s": 19116.680152304165,
+          "mass_ratio": 1.1699149033298506
+        },
+        {
+          "eta_c": 0.95,
+          "mode": "pure_pre",
+          "eta_pre": 0.95,
+          "eta_thr": 1.0,
+          "delivered_t": 80.96259542180444,
+          "burn_yr": 13.16257443553032,
+          "round_trip_yr": 26.3342895899901,
+          "closes": false,
+          "v_e_eff_m_s": 19613.3,
+          "mass_ratio": 1.1652753743827022
+        },
+        {
+          "eta_c": 0.95,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.95,
+          "delivered_t": 84.5380199845516,
+          "burn_yr": 13.084777475824193,
+          "round_trip_yr": 26.256492630283972,
+          "closes": false,
+          "v_e_eff_m_s": 18632.635,
+          "mass_ratio": 1.1746941585298858
+        },
+        {
+          "eta_c": 1.0,
+          "mode": "mid",
+          "eta_pre": 1.0,
+          "eta_thr": 1.0,
+          "delivered_t": 85.2534266793076,
+          "burn_yr": 13.827546817601965,
+          "round_trip_yr": 26.999261972061742,
+          "closes": false,
+          "v_e_eff_m_s": 19613.3,
+          "mass_ratio": 1.1652753743827022
+        },
+        {
+          "eta_c": 1.0,
+          "mode": "pure_pre",
+          "eta_pre": 1.0,
+          "eta_thr": 1.0,
+          "delivered_t": 85.2534266793076,
+          "burn_yr": 13.827546817601965,
+          "round_trip_yr": 26.999261972061742,
+          "closes": false,
+          "v_e_eff_m_s": 19613.3,
+          "mass_ratio": 1.1652753743827022
+        },
+        {
+          "eta_c": 1.0,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 1.0,
+          "delivered_t": 85.2534266793076,
+          "burn_yr": 13.827546817601965,
+          "round_trip_yr": 26.999261972061742,
+          "closes": false,
+          "v_e_eff_m_s": 19613.3,
+          "mass_ratio": 1.1652753743827022
+        }
+      ],
+      "critical_floor_eta_c_mid": 0.55,
+      "divergence_at_eta_c_065": {
+        "pure_pre_delivered_t": 55.21760787678544,
+        "pure_thr_delivered_t": 78.19924947585163,
+        "absolute_diff_t": -22.981641599066187,
+        "relative_diff": 0.2938857054652813
+      }
+    },
+    {
+      "cell": "Stretch 100 kWe sweet spot (100 kWe, 200 t chunk, all-electric)",
+      "key": "stretch_100_200",
+      "m_tug_t": 8.40820052232879,
+      "sweep": [
+        {
+          "eta_c": 0.55,
+          "mode": "mid",
+          "eta_pre": 0.7416198487095663,
+          "eta_thr": 0.7416198487095663,
+          "delivered_t": 92.39481006361586,
+          "burn_yr": 2.8843968114245593,
+          "round_trip_yr": 21.256111965884337,
+          "closes": false,
+          "v_e_eff_m_s": 14545.612578695336,
+          "mass_ratio": 1.5548362033355363
+        },
+        {
+          "eta_c": 0.55,
+          "mode": "pure_pre",
+          "eta_pre": 0.55,
+          "eta_thr": 1.0,
+          "delivered_t": 76.94594994538897,
+          "burn_yr": 3.099407670527437,
+          "round_trip_yr": 21.471122824987216,
+          "closes": false,
+          "v_e_eff_m_s": 19613.3,
+          "mass_ratio": 1.3872576772597904
+        },
+        {
+          "eta_c": 0.55,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.55,
+          "delivered_t": 106.52547145283748,
+          "burn_yr": 2.651384331588825,
+          "round_trip_yr": 21.0230994860486,
+          "closes": false,
+          "v_e_eff_m_s": 10787.315,
+          "mass_ratio": 1.813291065540476
+        },
+        {
+          "eta_c": 0.6,
+          "mode": "mid",
+          "eta_pre": 0.7745966692414834,
+          "eta_thr": 0.7745966692414834,
+          "delivered_t": 98.62914525317424,
+          "burn_yr": 3.1669264495983387,
+          "round_trip_yr": 21.538641604058117,
+          "closes": false,
+          "v_e_eff_m_s": 15192.396852833986,
+          "mass_ratio": 1.5258929786355484
+        },
+        {
+          "eta_c": 0.6,
+          "mode": "pure_pre",
+          "eta_pre": 0.6,
+          "eta_thr": 1.0,
+          "delivered_t": 84.15441608972685,
+          "burn_yr": 3.3611638374867487,
+          "round_trip_yr": 21.732878991946524,
+          "closes": false,
+          "v_e_eff_m_s": 19613.3,
+          "mass_ratio": 1.3872576772597904
+        },
+        {
+          "eta_c": 0.6,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.6,
+          "delivered_t": 112.36935687147852,
+          "burn_yr": 2.9580977620999636,
+          "round_trip_yr": 21.329812916559742,
+          "closes": false,
+          "v_e_eff_m_s": 11767.98,
+          "mass_ratio": 1.7255540269190328
+        },
+        {
+          "eta_c": 0.65,
+          "mode": "mid",
+          "eta_pre": 0.806225774829855,
+          "eta_thr": 0.806225774829855,
+          "delivered_t": 104.63338134586226,
+          "burn_yr": 3.4504373086439086,
+          "round_trip_yr": 21.822152463103684,
+          "closes": false,
+          "v_e_eff_m_s": 15812.747989470396,
+          "mass_ratio": 1.5008048603399706
+        },
+        {
+          "eta_c": 0.65,
+          "mode": "pure_pre",
+          "eta_pre": 0.65,
+          "eta_thr": 1.0,
+          "delivered_t": 91.36288223406473,
+          "burn_yr": 3.62292000444606,
+          "round_trip_yr": 21.994635158905837,
+          "closes": false,
+          "v_e_eff_m_s": 19613.3,
+          "mass_ratio": 1.3872576772597904
+        },
+        {
+          "eta_c": 0.65,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.65,
+          "delivered_t": 117.54566953072074,
+          "burn_yr": 3.266586823665757,
+          "round_trip_yr": 21.638301978125533,
+          "closes": false,
+          "v_e_eff_m_s": 12748.645,
+          "mass_ratio": 1.6546391185483302
+        },
+        {
+          "eta_c": 0.7,
+          "mode": "mid",
+          "eta_pre": 0.8366600265340756,
+          "eta_thr": 0.8366600265340756,
+          "delivered_t": 110.43130980159219,
+          "burn_yr": 3.7348196747781714,
+          "round_trip_yr": 22.106534829237948,
+          "closes": false,
+          "v_e_eff_m_s": 16409.664098420784,
+          "mass_ratio": 1.478802843853266
+        },
+        {
+          "eta_c": 0.7,
+          "mode": "pure_pre",
+          "eta_pre": 0.7,
+          "eta_thr": 1.0,
+          "delivered_t": 98.5713483784026,
+          "burn_yr": 3.8846761714053724,
+          "round_trip_yr": 22.25639132586515,
+          "closes": false,
+          "v_e_eff_m_s": 19613.3,
+          "mass_ratio": 1.3872576772597904
+        },
+        {
+          "eta_c": 0.7,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.7,
+          "delivered_t": 122.15872551447166,
+          "burn_yr": 3.5765149197898927,
+          "round_trip_yr": 21.94823007424967,
+          "closes": false,
+          "v_e_eff_m_s": 13729.31,
+          "mass_ratio": 1.5961791155563292
+        },
+        {
+          "eta_c": 0.75,
+          "mode": "mid",
+          "eta_pre": 0.8660254037844386,
+          "eta_thr": 0.8660254037844386,
+          "delivered_t": 116.04288311563192,
+          "burn_yr": 4.019982881238448,
+          "round_trip_yr": 22.391698035698226,
+          "closes": false,
+          "v_e_eff_m_s": 16985.61605204533,
+          "mass_ratio": 1.4593145834514847
+        },
+        {
+          "eta_c": 0.75,
+          "mode": "pure_pre",
+          "eta_pre": 0.75,
+          "eta_thr": 1.0,
+          "delivered_t": 105.77981452274048,
+          "burn_yr": 4.146432338364684,
+          "round_trip_yr": 22.51814749282446,
+          "closes": false,
+          "v_e_eff_m_s": 19613.3,
+          "mass_ratio": 1.3872576772597904
+        },
+        {
+          "eta_c": 0.75,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.75,
+          "delivered_t": 126.29315139418392,
+          "burn_yr": 3.8876252381639342,
+          "round_trip_yr": 22.25934039262371,
+          "closes": false,
+          "v_e_eff_m_s": 14709.974999999999,
+          "mass_ratio": 1.5471871481401258
+        },
+        {
+          "eta_c": 0.8,
+          "mode": "mid",
+          "eta_pre": 0.8944271909999159,
+          "eta_thr": 0.8944271909999159,
+          "delivered_t": 121.4850294705297,
+          "burn_yr": 4.3058509759268695,
+          "round_trip_yr": 22.677566130386644,
+          "closes": false,
+          "v_e_eff_m_s": 17542.66882523865,
+          "mass_ratio": 1.441904545237726
+        },
+        {
+          "eta_c": 0.8,
+          "mode": "pure_pre",
+          "eta_pre": 0.8,
+          "eta_thr": 1.0,
+          "delivered_t": 112.98828066707836,
+          "burn_yr": 4.408188505323996,
+          "round_trip_yr": 22.779903659783773,
+          "closes": false,
+          "v_e_eff_m_s": 19613.3,
+          "mass_ratio": 1.3872576772597904
+        },
+        {
+          "eta_c": 0.8,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.8,
+          "delivered_t": 130.0180267389245,
+          "burn_yr": 4.199718497249927,
+          "round_trip_yr": 22.571433651709704,
+          "closes": false,
+          "v_e_eff_m_s": 15690.64,
+          "mass_ratio": 1.5055542915938738
+        },
+        {
+          "eta_c": 0.85,
+          "mode": "mid",
+          "eta_pre": 0.9219544457292888,
+          "eta_thr": 0.9219544457292888,
+          "delivered_t": 126.77225793441201,
+          "burn_yr": 4.59235957953552,
+          "round_trip_yr": 22.964074733995297,
+          "closes": false,
+          "v_e_eff_m_s": 18082.56913042226,
+          "mass_ratio": 1.426234914936942
+        },
+        {
+          "eta_c": 0.85,
+          "mode": "pure_pre",
+          "eta_pre": 0.85,
+          "eta_thr": 1.0,
+          "delivered_t": 120.19674681141623,
+          "burn_yr": 4.6699446722833065,
+          "round_trip_yr": 23.041659826743082,
+          "closes": false,
+          "v_e_eff_m_s": 19613.3,
+          "mass_ratio": 1.3872576772597904
+        },
+        {
+          "eta_c": 0.85,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.85,
+          "delivered_t": 133.39012855267646,
+          "burn_yr": 4.512637728127483,
+          "round_trip_yr": 22.884352882587258,
+          "closes": false,
+          "v_e_eff_m_s": 16671.305,
+          "mass_ratio": 1.469750750109966
+        },
+        {
+          "eta_c": 0.9,
+          "mode": "mid",
+          "eta_pre": 0.9486832980505138,
+          "eta_thr": 0.9486832980505138,
+          "delivered_t": 131.91711641528323,
+          "burn_yr": 4.879453557113347,
+          "round_trip_yr": 23.251168711573122,
+          "closes": false,
+          "v_e_eff_m_s": 18606.810129654143,
+          "mass_ratio": 1.4120392845471057
+        },
+        {
+          "eta_c": 0.9,
+          "mode": "pure_pre",
+          "eta_pre": 0.9,
+          "eta_thr": 1.0,
+          "delivered_t": 127.40521295575411,
+          "burn_yr": 4.931700839242618,
+          "round_trip_yr": 23.303415993702394,
+          "closes": false,
+          "v_e_eff_m_s": 19613.3,
+          "mass_ratio": 1.3872576772597904
+        },
+        {
+          "eta_c": 0.9,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.9,
+          "delivered_t": 136.4564521114362,
+          "burn_yr": 4.82625763331544,
+          "round_trip_yr": 23.197972787775218,
+          "closes": false,
+          "v_e_eff_m_s": 17651.97,
+          "mass_ratio": 1.4386408052847055
+        },
+        {
+          "eta_c": 0.95,
+          "mode": "mid",
+          "eta_pre": 0.9746794344808963,
+          "eta_thr": 0.9746794344808963,
+          "delivered_t": 136.9305438856735,
+          "burn_yr": 5.1670852595442875,
+          "round_trip_yr": 23.538800414004065,
+          "closes": false,
+          "v_e_eff_m_s": 19116.680152304165,
+          "mass_ratio": 1.399104473117438
+        },
+        {
+          "eta_c": 0.95,
+          "mode": "pure_pre",
+          "eta_pre": 0.95,
+          "eta_thr": 1.0,
+          "delivered_t": 134.61367910009199,
+          "burn_yr": 5.19345700620193,
+          "round_trip_yr": 23.565172160661707,
+          "closes": false,
+          "v_e_eff_m_s": 19613.3,
+          "mass_ratio": 1.3872576772597904
+        },
+        {
+          "eta_c": 0.95,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.95,
+          "delivered_t": 139.25616790855307,
+          "burn_yr": 5.140476996809529,
+          "round_trip_yr": 23.512192151269304,
+          "closes": false,
+          "v_e_eff_m_s": 18632.635,
+          "mass_ratio": 1.4113641817381264
+        },
+        {
+          "eta_c": 1.0,
+          "mode": "mid",
+          "eta_pre": 1.0,
+          "eta_thr": 1.0,
+          "delivered_t": 141.82214524442986,
+          "burn_yr": 5.455213173161241,
+          "round_trip_yr": 23.82692832762102,
+          "closes": false,
+          "v_e_eff_m_s": 19613.3,
+          "mass_ratio": 1.3872576772597904
+        },
+        {
+          "eta_c": 1.0,
+          "mode": "pure_pre",
+          "eta_pre": 1.0,
+          "eta_thr": 1.0,
+          "delivered_t": 141.82214524442986,
+          "burn_yr": 5.455213173161241,
+          "round_trip_yr": 23.82692832762102,
+          "closes": false,
+          "v_e_eff_m_s": 19613.3,
+          "mass_ratio": 1.3872576772597904
+        },
+        {
+          "eta_c": 1.0,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 1.0,
+          "delivered_t": 141.82214524442986,
+          "burn_yr": 5.455213173161241,
+          "round_trip_yr": 23.82692832762102,
+          "closes": false,
+          "v_e_eff_m_s": 19613.3,
+          "mass_ratio": 1.3872576772597904
+        }
+      ],
+      "critical_floor_eta_c_mid": 0.55,
+      "divergence_at_eta_c_065": {
+        "pure_pre_delivered_t": 91.36288223406473,
+        "pure_thr_delivered_t": 117.54566953072074,
+        "absolute_diff_t": -26.182787296656016,
+        "relative_diff": 0.22274565623034803
+      }
+    },
+    {
+      "cell": "Sub-megawatt (200 kWe, 500 t chunk, all-electric, Isp 2934)",
+      "key": "submeg_200_500",
+      "m_tug_t": 13.233024054704389,
+      "sweep": [
+        {
+          "eta_c": 0.55,
+          "mode": "mid",
+          "eta_pre": 0.7416198487095663,
+          "eta_thr": 0.7416198487095663,
+          "delivered_t": 271.0267562202343,
+          "burn_yr": 5.537378796120354,
+          "round_trip_yr": 21.30909395058013,
+          "closes": false,
+          "v_e_eff_m_s": 21338.413652946056,
+          "mass_ratio": 1.3510280914100394
+        },
+        {
+          "eta_c": 0.55,
+          "mode": "pure_pre",
+          "eta_pre": 0.55,
+          "eta_thr": 1.0,
+          "delivered_t": 217.35696096163898,
+          "burn_yr": 5.8160900841705185,
+          "round_trip_yr": 21.587805238630295,
+          "closes": false,
+          "v_e_eff_m_s": 28772.711099999997,
+          "mass_ratio": 1.2499806703846028
+        },
+        {
+          "eta_c": 0.55,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.55,
+          "delivered_t": 328.84626452234846,
+          "burn_yr": 5.223913971523085,
+          "round_trip_yr": 20.995629125982862,
+          "closes": false,
+          "v_e_eff_m_s": 15824.991105,
+          "mass_ratio": 1.5003335226449976
+        },
+        {
+          "eta_c": 0.6,
+          "mode": "mid",
+          "eta_pre": 0.7745966692414834,
+          "eta_thr": 0.7745966692414834,
+          "delivered_t": 287.05285165089794,
+          "burn_yr": 6.068764963232969,
+          "round_trip_yr": 21.840480117692746,
+          "closes": false,
+          "v_e_eff_m_s": 22287.246183107454,
+          "mass_ratio": 1.3338334936143434
+        },
+        {
+          "eta_c": 0.6,
+          "mode": "pure_pre",
+          "eta_pre": 0.6,
+          "eta_thr": 1.0,
+          "delivered_t": 237.35727024026792,
+          "burn_yr": 6.320550850181379,
+          "round_trip_yr": 22.092266004641157,
+          "closes": false,
+          "v_e_eff_m_s": 28772.711099999997,
+          "mass_ratio": 1.2499806703846028
+        },
+        {
+          "eta_c": 0.6,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.6,
+          "delivered_t": 340.60874534860267,
+          "burn_yr": 5.7896358001395445,
+          "round_trip_yr": 21.561350954599323,
+          "closes": false,
+          "v_e_eff_m_s": 17263.626659999998,
+          "mass_ratio": 1.4504591273104448
+        },
+        {
+          "eta_c": 0.65,
+          "mode": "mid",
+          "eta_pre": 0.806225774829855,
+          "eta_thr": 0.806225774829855,
+          "delivered_t": 302.45678089605514,
+          "burn_yr": 6.601425693741076,
+          "round_trip_yr": 22.373140848200855,
+          "closes": false,
+          "v_e_eff_m_s": 23197.301300553067,
+          "mass_ratio": 1.3188449704119285
+        },
+        {
+          "eta_c": 0.65,
+          "mode": "pure_pre",
+          "eta_pre": 0.65,
+          "eta_thr": 1.0,
+          "delivered_t": 257.35757951889684,
+          "burn_yr": 6.825011616192242,
+          "round_trip_yr": 22.59672677065202,
+          "closes": false,
+          "v_e_eff_m_s": 28772.711099999997,
+          "mass_ratio": 1.2499806703846028
+        },
+        {
+          "eta_c": 0.65,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.65,
+          "delivered_t": 350.87696844468906,
+          "burn_yr": 6.357050952538,
+          "round_trip_yr": 22.128766106997777,
+          "closes": false,
+          "v_e_eff_m_s": 18702.262215,
+          "mass_ratio": 1.4095548999676502
+        },
+        {
+          "eta_c": 0.7,
+          "mode": "mid",
+          "eta_pre": 0.8366600265340756,
+          "eta_thr": 0.8366600265340756,
+          "delivered_t": 317.30592953087285,
+          "burn_yr": 7.1352174874491,
+          "round_trip_yr": 22.906932641908877,
+          "closes": false,
+          "v_e_eff_m_s": 24072.977232383288,
+          "mass_ratio": 1.305634427168989
+        },
+        {
+          "eta_c": 0.7,
+          "mode": "pure_pre",
+          "eta_pre": 0.7,
+          "eta_thr": 1.0,
+          "delivered_t": 277.3578887975258,
+          "burn_yr": 7.329472382203103,
+          "round_trip_yr": 23.10118753666288,
+          "closes": false,
+          "v_e_eff_m_s": 28772.711099999997,
+          "mass_ratio": 1.2499806703846028
+        },
+        {
+          "eta_c": 0.7,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.7,
+          "delivered_t": 359.9151421654527,
+          "burn_yr": 6.9258252415413475,
+          "round_trip_yr": 22.697540396001123,
+          "closes": false,
+          "v_e_eff_m_s": 20140.897769999996,
+          "mass_ratio": 1.3754134966106126
+        },
+        {
+          "eta_c": 0.75,
+          "mode": "mid",
+          "eta_pre": 0.8660254037844386,
+          "eta_thr": 0.8660254037844386,
+          "delivered_t": 331.6563230554692,
+          "burn_yr": 7.670021910983209,
+          "round_trip_yr": 23.441737065442986,
+          "closes": false,
+          "v_e_eff_m_s": 24917.898748350497,
+          "mass_ratio": 1.2938808626187348
+        },
+        {
+          "eta_c": 0.75,
+          "mode": "pure_pre",
+          "eta_pre": 0.75,
+          "eta_thr": 1.0,
+          "delivered_t": 297.35819807615474,
+          "burn_yr": 7.833933148213964,
+          "round_trip_yr": 23.605648302673742,
+          "closes": false,
+          "v_e_eff_m_s": 28772.711099999997,
+          "mass_ratio": 1.2499806703846028
+        },
+        {
+          "eta_c": 0.75,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.75,
+          "delivered_t": 367.9295025907359,
+          "burn_yr": 7.495706885072359,
+          "round_trip_yr": 23.267422039532136,
+          "closes": false,
+          "v_e_eff_m_s": 21579.533324999997,
+          "mass_ratio": 1.346493918412176
+        },
+        {
+          "eta_c": 0.8,
+          "mode": "mid",
+          "eta_pre": 0.8944271909999159,
+          "eta_thr": 0.8944271909999159,
+          "delivered_t": 345.5551410045207,
+          "burn_yr": 8.205739864194692,
+          "round_trip_yr": 23.977455018654467,
+          "closes": false,
+          "v_e_eff_m_s": 25735.095166625095,
+          "mass_ratio": 1.2833383717622249
+        },
+        {
+          "eta_c": 0.8,
+          "mode": "pure_pre",
+          "eta_pre": 0.8,
+          "eta_thr": 1.0,
+          "delivered_t": 317.3585073547837,
+          "burn_yr": 8.338393914224824,
+          "round_trip_yr": 24.1101090686846,
+          "closes": false,
+          "v_e_eff_m_s": 28772.711099999997,
+          "mass_ratio": 1.2499806703846028
+        },
+        {
+          "eta_c": 0.8,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.8,
+          "delivered_t": 375.0831427033921,
+          "burn_yr": 8.06650260987158,
+          "round_trip_yr": 23.838217764331358,
+          "closes": false,
+          "v_e_eff_m_s": 23018.168879999997,
+          "mass_ratio": 1.321688531125271
+        },
+        {
+          "eta_c": 0.85,
+          "mode": "mid",
+          "eta_pre": 0.9219544457292888,
+          "eta_thr": 0.9219544457292888,
+          "delivered_t": 359.04255777688354,
+          "burn_yr": 8.74228743018355,
+          "round_trip_yr": 24.51400258464333,
+          "closes": false,
+          "v_e_eff_m_s": 26527.128914329453,
+          "mass_ratio": 1.2738150715828431
+        },
+        {
+          "eta_c": 0.85,
+          "mode": "pure_pre",
+          "eta_pre": 0.85,
+          "eta_thr": 1.0,
+          "delivered_t": 337.35881663341263,
+          "burn_yr": 8.842854680235684,
+          "round_trip_yr": 24.61456983469546,
+          "closes": false,
+          "v_e_eff_m_s": 28772.711099999997,
+          "mass_ratio": 1.2499806703846028
+        },
+        {
+          "eta_c": 0.85,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.85,
+          "delivered_t": 381.5065919730871,
+          "burn_yr": 8.638061606051425,
+          "round_trip_yr": 24.4097767605112,
+          "closes": false,
+          "v_e_eff_m_s": 24456.804435,
+          "mass_ratio": 1.3001811908804473
+        },
+        {
+          "eta_c": 0.9,
+          "mode": "mid",
+          "eta_pre": 0.9486832980505138,
+          "eta_thr": 0.9486832980505138,
+          "delivered_t": 372.1531182848806,
+          "burn_yr": 9.279592805014605,
+          "round_trip_yr": 25.051307959474382,
+          "closes": false,
+          "v_e_eff_m_s": 27296.190460202622,
+          "mass_ratio": 1.2651588096033104
+        },
+        {
+          "eta_c": 0.9,
+          "mode": "pure_pre",
+          "eta_pre": 0.9,
+          "eta_thr": 1.0,
+          "delivered_t": 357.3591259120416,
+          "burn_yr": 9.347315446246544,
+          "round_trip_yr": 25.11903060070632,
+          "closes": false,
+          "v_e_eff_m_s": 28772.711099999997,
+          "mass_ratio": 1.2499806703846028
+        },
+        {
+          "eta_c": 0.9,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.9,
+          "delivered_t": 387.30547234389627,
+          "burn_yr": 9.21026448254837,
+          "round_trip_yr": 24.981979637008145,
+          "closes": false,
+          "v_e_eff_m_s": 25895.43999,
+          "mass_ratio": 1.2813575440797442
+        },
+        {
+          "eta_c": 0.95,
+          "mode": "mid",
+          "eta_pre": 0.9746794344808963,
+          "eta_thr": 0.9746794344808963,
+          "delivered_t": 384.91678452473064,
+          "burn_yr": 9.817593982422729,
+          "round_trip_yr": 25.589309136882505,
+          "closes": false,
+          "v_e_eff_m_s": 28044.169783430207,
+          "mass_ratio": 1.2572472233030927
+        },
+        {
+          "eta_c": 0.95,
+          "mode": "pure_pre",
+          "eta_pre": 0.95,
+          "eta_thr": 1.0,
+          "delivered_t": 377.3594351906705,
+          "burn_yr": 9.851776212257404,
+          "round_trip_yr": 25.623491366717182,
+          "closes": false,
+          "v_e_eff_m_s": 28772.711099999997,
+          "mass_ratio": 1.2499806703846028
+        },
+        {
+          "eta_c": 0.95,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.95,
+          "delivered_t": 392.5661162640025,
+          "burn_yr": 9.783015496463374,
+          "round_trip_yr": 25.55473065092315,
+          "closes": false,
+          "v_e_eff_m_s": 27334.075544999996,
+          "mass_ratio": 1.2647464547401972
+        },
+        {
+          "eta_c": 1.0,
+          "mode": "mid",
+          "eta_pre": 1.0,
+          "eta_thr": 1.0,
+          "delivered_t": 397.35974446929947,
+          "burn_yr": 10.356236978268264,
+          "round_trip_yr": 26.12795213272804,
+          "closes": false,
+          "v_e_eff_m_s": 28772.711099999997,
+          "mass_ratio": 1.2499806703846028
+        },
+        {
+          "eta_c": 1.0,
+          "mode": "pure_pre",
+          "eta_pre": 1.0,
+          "eta_thr": 1.0,
+          "delivered_t": 397.35974446929947,
+          "burn_yr": 10.356236978268264,
+          "round_trip_yr": 26.12795213272804,
+          "closes": false,
+          "v_e_eff_m_s": 28772.711099999997,
+          "mass_ratio": 1.2499806703846028
+        },
+        {
+          "eta_c": 1.0,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 1.0,
+          "delivered_t": 397.35974446929947,
+          "burn_yr": 10.356236978268264,
+          "round_trip_yr": 26.12795213272804,
+          "closes": false,
+          "v_e_eff_m_s": 28772.711099999997,
+          "mass_ratio": 1.2499806703846028
+        }
+      ],
+      "critical_floor_eta_c_mid": 0.55,
+      "divergence_at_eta_c_065": {
+        "pure_pre_delivered_t": 257.35757951889684,
+        "pure_thr_delivered_t": 350.87696844468906,
+        "absolute_diff_t": -93.51938892579221,
+        "relative_diff": 0.2665304290000279
+      }
+    },
+    {
+      "cell": "Megawatt all-electric (1000 kWe, 500 t chunk, Isp 5000)",
+      "key": "megawatt_1000_500",
+      "m_tug_t": 32.23472137421716,
+      "sweep": [
+        {
+          "eta_c": 0.55,
+          "mode": "mid",
+          "eta_pre": 0.7416198487095663,
+          "eta_thr": 0.7416198487095663,
+          "delivered_t": 305.58056544878474,
+          "burn_yr": 2.10251856904729,
+          "round_trip_yr": 15.794233723507066,
+          "closes": false,
+          "v_e_eff_m_s": 36364.03144673834,
+          "mass_ratio": 1.193091791432681
+        },
+        {
+          "eta_c": 0.55,
+          "mode": "pure_pre",
+          "eta_pre": 0.55,
+          "eta_thr": 1.0,
+          "delivered_t": 237.29548267059482,
+          "burn_yr": 2.2096700334606743,
+          "round_trip_yr": 15.90138518792045,
+          "closes": false,
+          "v_e_eff_m_s": 49033.25,
+          "mass_ratio": 1.1398897665774648
+        },
+        {
+          "eta_c": 0.55,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.55,
+          "delivered_t": 387.2500454852066,
+          "burn_yr": 1.9988297041600234,
+          "round_trip_yr": 15.690544858619802,
+          "closes": false,
+          "v_e_eff_m_s": 26968.287500000002,
+          "mass_ratio": 1.2687819997825518
+        },
+        {
+          "eta_c": 0.6,
+          "mode": "mid",
+          "eta_pre": 0.7745966692414834,
+          "eta_thr": 0.7745966692414834,
+          "delivered_t": 322.05337084194895,
+          "burn_yr": 2.2942053341251434,
+          "round_trip_yr": 15.98592048858492,
+          "closes": false,
+          "v_e_eff_m_s": 37980.99213208497,
+          "mass_ratio": 1.1841579359065335
+        },
+        {
+          "eta_c": 0.6,
+          "mode": "pure_pre",
+          "eta_pre": 0.6,
+          "eta_thr": 1.0,
+          "delivered_t": 259.2274279630443,
+          "burn_yr": 2.38947311883276,
+          "round_trip_yr": 16.081188273292536,
+          "closes": false,
+          "v_e_eff_m_s": 49033.25,
+          "mass_ratio": 1.1398897665774648
+        },
+        {
+          "eta_c": 0.6,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.6,
+          "delivered_t": 395.6549255520644,
+          "burn_yr": 2.2014483189822873,
+          "round_trip_yr": 15.893163473442065,
+          "closes": false,
+          "v_e_eff_m_s": 29419.95,
+          "mass_ratio": 1.2438597783271736
+        },
+        {
+          "eta_c": 0.65,
+          "mode": "mid",
+          "eta_pre": 0.806225774829855,
+          "eta_thr": 0.806225774829855,
+          "delivered_t": 337.85453039121785,
+          "burn_yr": 2.485899303455919,
+          "round_trip_yr": 16.177614457915695,
+          "closes": false,
+          "v_e_eff_m_s": 39531.86997367599,
+          "mass_ratio": 1.1763314030667145
+        },
+        {
+          "eta_c": 0.65,
+          "mode": "pure_pre",
+          "eta_pre": 0.65,
+          "eta_thr": 1.0,
+          "delivered_t": 281.15937325549385,
+          "burn_yr": 2.5692762042048423,
+          "round_trip_yr": 16.26099135866462,
+          "closes": false,
+          "v_e_eff_m_s": 49033.25,
+          "mass_ratio": 1.1398897665774648
+        },
+        {
+          "eta_c": 0.65,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.65,
+          "delivered_t": 402.8981455744162,
+          "burn_yr": 2.4042979035702485,
+          "round_trip_yr": 16.096013058030024,
+          "closes": false,
+          "v_e_eff_m_s": 31871.6125,
+          "mass_ratio": 1.2231544932620466
+        },
+        {
+          "eta_c": 0.7,
+          "mode": "mid",
+          "eta_pre": 0.8366600265340756,
+          "eta_thr": 0.8366600265340756,
+          "delivered_t": 353.0600238347075,
+          "burn_yr": 2.6775995282216543,
+          "round_trip_yr": 16.36931468268143,
+          "closes": false,
+          "v_e_eff_m_s": 41024.16024605196,
+          "mass_ratio": 1.1694027500866586
+        },
+        {
+          "eta_c": 0.7,
+          "mode": "pure_pre",
+          "eta_pre": 0.7,
+          "eta_thr": 1.0,
+          "delivered_t": 303.09131854794333,
+          "burn_yr": 2.7490792895769283,
+          "round_trip_yr": 16.440794444036705,
+          "closes": false,
+          "v_e_eff_m_s": 49033.25,
+          "mass_ratio": 1.1398897665774648
+        },
+        {
+          "eta_c": 0.7,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.7,
+          "delivered_t": 409.20413042048835,
+          "burn_yr": 2.607331267639323,
+          "round_trip_yr": 16.2990464220991,
+          "closes": false,
+          "v_e_eff_m_s": 34323.275,
+          "mass_ratio": 1.2056816458505493
+        },
+        {
+          "eta_c": 0.75,
+          "mode": "mid",
+          "eta_pre": 0.8660254037844386,
+          "eta_thr": 0.8660254037844386,
+          "delivered_t": 367.73250603832935,
+          "burn_yr": 2.8693052472313663,
+          "round_trip_yr": 16.561020401691145,
+          "closes": false,
+          "v_e_eff_m_s": 42464.040130113324,
+          "mass_ratio": 1.1632138619861387
+        },
+        {
+          "eta_c": 0.75,
+          "mode": "pure_pre",
+          "eta_pre": 0.75,
+          "eta_thr": 1.0,
+          "delivered_t": 325.0232638403929,
+          "burn_yr": 2.9288823749490107,
+          "round_trip_yr": 16.620597529408787,
+          "closes": false,
+          "v_e_eff_m_s": 49033.25,
+          "mass_ratio": 1.1398897665774648
+        },
+        {
+          "eta_c": 0.75,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.75,
+          "delivered_t": 414.743191718855,
+          "burn_yr": 2.810513251723546,
+          "round_trip_yr": 16.502228406183324,
+          "closes": false,
+          "v_e_eff_m_s": 36774.9375,
+          "mass_ratio": 1.1907405394847608
+        },
+        {
+          "eta_c": 0.8,
+          "mode": "mid",
+          "eta_pre": 0.8944271909999159,
+          "eta_thr": 0.8944271909999159,
+          "delivered_t": 381.9243650862124,
+          "burn_yr": 3.0610158394034257,
+          "round_trip_yr": 16.752730993863203,
+          "closes": false,
+          "v_e_eff_m_s": 43856.67206309662,
+          "mass_ratio": 1.1576428781793335
+        },
+        {
+          "eta_c": 0.8,
+          "mode": "pure_pre",
+          "eta_pre": 0.8,
+          "eta_thr": 1.0,
+          "delivered_t": 346.95520913284236,
+          "burn_yr": 3.1086854603210963,
+          "round_trip_yr": 16.800400614780873,
+          "closes": false,
+          "v_e_eff_m_s": 49033.25,
+          "mass_ratio": 1.1398897665774648
+        },
+        {
+          "eta_c": 0.8,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.8,
+          "delivered_t": 419.6468545998079,
+          "burn_yr": 3.013817124290582,
+          "round_trip_yr": 16.705532278750358,
+          "closes": false,
+          "v_e_eff_m_s": 39226.6,
+          "mass_ratio": 1.1778190341728183
+        },
+        {
+          "eta_c": 0.85,
+          "mode": "mid",
+          "eta_pre": 0.9219544457292888,
+          "eta_thr": 0.9219544457292888,
+          "delivered_t": 395.67993327575397,
+          "burn_yr": 3.2527307905493714,
+          "round_trip_yr": 16.94444594500915,
+          "closes": false,
+          "v_e_eff_m_s": 45206.42282605565,
+          "mass_ratio": 1.1525941887694937
+        },
+        {
+          "eta_c": 0.85,
+          "mode": "pure_pre",
+          "eta_pre": 0.85,
+          "eta_thr": 1.0,
+          "delivered_t": 368.8871544252919,
+          "burn_yr": 3.2884885456931787,
+          "round_trip_yr": 16.980203700152956,
+          "closes": false,
+          "v_e_eff_m_s": 49033.25,
+          "mass_ratio": 1.1398897665774648
+        },
+        {
+          "eta_c": 0.85,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.85,
+          "delivered_t": 424.0182722135341,
+          "burn_yr": 3.2172222000221247,
+          "round_trip_yr": 16.908937354481903,
+          "closes": false,
+          "v_e_eff_m_s": 41678.2625,
+          "mass_ratio": 1.1665342010996633
+        },
+        {
+          "eta_c": 0.9,
+          "mode": "mid",
+          "eta_pre": 0.9486832980505138,
+          "eta_thr": 0.9486832980505138,
+          "delivered_t": 409.0371212553803,
+          "burn_yr": 3.4444496695591504,
+          "round_trip_yr": 17.136164824018927,
+          "closes": false,
+          "v_e_eff_m_s": 46517.02532413536,
+          "mass_ratio": 1.147991603952607
+        },
+        {
+          "eta_c": 0.9,
+          "mode": "pure_pre",
+          "eta_pre": 0.9,
+          "eta_thr": 1.0,
+          "delivered_t": 390.8190997177414,
+          "burn_yr": 3.4682916310652643,
+          "round_trip_yr": 17.16000678552504,
+          "closes": false,
+          "v_e_eff_m_s": 49033.25,
+          "mass_ratio": 1.1398897665774648
+        },
+        {
+          "eta_c": 0.9,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.9,
+          "delivered_t": 427.93946534054436,
+          "burn_yr": 3.4207122223378197,
+          "round_trip_yr": 17.112427376797598,
+          "closes": false,
+          "v_e_eff_m_s": 44129.925,
+          "mass_ratio": 1.1565940392569702
+        },
+        {
+          "eta_c": 0.95,
+          "mode": "mid",
+          "eta_pre": 0.9746794344808963,
+          "eta_thr": 0.9746794344808963,
+          "delivered_t": 422.0286492177572,
+          "burn_yr": 3.6361721109469594,
+          "round_trip_yr": 17.327887265406737,
+          "closes": false,
+          "v_e_eff_m_s": 47791.70038076041,
+          "mass_ratio": 1.1437735733294558
+        },
+        {
+          "eta_c": 0.95,
+          "mode": "pure_pre",
+          "eta_pre": 0.95,
+          "eta_thr": 1.0,
+          "delivered_t": 412.75104501019086,
+          "burn_yr": 3.6480947164373503,
+          "round_trip_yr": 17.339809870897128,
+          "closes": false,
+          "v_e_eff_m_s": 49033.25,
+          "mass_ratio": 1.1398897665774648
+        },
+        {
+          "eta_c": 0.95,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 0.95,
+          "delivered_t": 431.47645840858405,
+          "burn_yr": 3.624274238661683,
+          "round_trip_yr": 17.31598939312146,
+          "closes": false,
+          "v_e_eff_m_s": 46581.5875,
+          "mass_ratio": 1.147772028320542
+        },
+        {
+          "eta_c": 1.0,
+          "mode": "mid",
+          "eta_pre": 1.0,
+          "eta_thr": 1.0,
+          "delivered_t": 434.68299030264046,
+          "burn_yr": 3.8278978018094327,
+          "round_trip_yr": 17.51961295626921,
+          "closes": false,
+          "v_e_eff_m_s": 49033.25,
+          "mass_ratio": 1.1398897665774648
+        },
+        {
+          "eta_c": 1.0,
+          "mode": "pure_pre",
+          "eta_pre": 1.0,
+          "eta_thr": 1.0,
+          "delivered_t": 434.68299030264046,
+          "burn_yr": 3.8278978018094327,
+          "round_trip_yr": 17.51961295626921,
+          "closes": false,
+          "v_e_eff_m_s": 49033.25,
+          "mass_ratio": 1.1398897665774648
+        },
+        {
+          "eta_c": 1.0,
+          "mode": "pure_thr",
+          "eta_pre": 1.0,
+          "eta_thr": 1.0,
+          "delivered_t": 434.68299030264046,
+          "burn_yr": 3.8278978018094327,
+          "round_trip_yr": 17.51961295626921,
+          "closes": false,
+          "v_e_eff_m_s": 49033.25,
+          "mass_ratio": 1.1398897665774648
+        }
+      ],
+      "critical_floor_eta_c_mid": 0.55,
+      "divergence_at_eta_c_065": {
+        "pure_pre_delivered_t": 281.15937325549385,
+        "pure_thr_delivered_t": 402.8981455744162,
+        "absolute_diff_t": -121.73877231892237,
+        "relative_diff": 0.30215768837892787
+      }
+    }
+  ],
+  "composite_eta_per_era": [
+    {
+      "era": "Kilopower MET (bag-eng doc baseline)",
+      "eta_bag": 0.97,
+      "eta_feed": 0.95,
+      "eta_pre": 0.9215,
+      "eta_thr_lo": 0.75,
+      "eta_thr_hi": 0.92,
+      "composite_eta_c_lo": 0.691125,
+      "composite_eta_c_mid": 0.7694525,
+      "composite_eta_c_hi": 0.84778
+    },
+    {
+      "era": "Kilopower Variant B inbound (RF ion)",
+      "eta_bag": 0.97,
+      "eta_feed": 0.95,
+      "eta_pre": 0.9215,
+      "eta_thr_lo": 0.65,
+      "eta_thr_hi": 0.75,
+      "composite_eta_c_lo": 0.598975,
+      "composite_eta_c_mid": 0.6450499999999999,
+      "composite_eta_c_hi": 0.691125
+    },
+    {
+      "era": "Stretch / Sub-megawatt (RF ion)",
+      "eta_bag": 0.97,
+      "eta_feed": 0.95,
+      "eta_pre": 0.9215,
+      "eta_thr_lo": 0.65,
+      "eta_thr_hi": 0.75,
+      "composite_eta_c_lo": 0.598975,
+      "composite_eta_c_mid": 0.6450499999999999,
+      "composite_eta_c_hi": 0.691125
+    },
+    {
+      "era": "Megawatt (dual-ion, RF ion + MET hybrid)",
+      "eta_bag": 0.97,
+      "eta_feed": 0.95,
+      "eta_pre": 0.9215,
+      "eta_thr_lo": 0.65,
+      "eta_thr_hi": 0.75,
+      "composite_eta_c_lo": 0.598975,
+      "composite_eta_c_mid": 0.6450499999999999,
+      "composite_eta_c_hi": 0.691125
+    }
+  ],
+  "depot_ramp_stretch_100_200": [
+    {
+      "eta_c": 0.55,
+      "delivered_t": 92.39481006361586,
+      "missions_to_fill_depot": 3
+    },
+    {
+      "eta_c": 0.6,
+      "delivered_t": 98.62914525317424,
+      "missions_to_fill_depot": 3
+    },
+    {
+      "eta_c": 0.65,
+      "delivered_t": 104.63338134586226,
+      "missions_to_fill_depot": 3
+    },
+    {
+      "eta_c": 0.7,
+      "delivered_t": 110.43130980159219,
+      "missions_to_fill_depot": 3
+    },
+    {
+      "eta_c": 0.75,
+      "delivered_t": 116.04288311563192,
+      "missions_to_fill_depot": 3
+    },
+    {
+      "eta_c": 0.8,
+      "delivered_t": 121.4850294705297,
+      "missions_to_fill_depot": 3
+    },
+    {
+      "eta_c": 0.85,
+      "delivered_t": 126.77225793441201,
+      "missions_to_fill_depot": 3
+    },
+    {
+      "eta_c": 0.9,
+      "delivered_t": 131.91711641528323,
+      "missions_to_fill_depot": 3
+    },
+    {
+      "eta_c": 0.95,
+      "delivered_t": 136.9305438856735,
+      "missions_to_fill_depot": 2
+    },
+    {
+      "eta_c": 1.0,
+      "delivered_t": 141.82214524442986,
+      "missions_to_fill_depot": 2
+    }
+  ],
+  "hohmann_cruise_yr_each_way": 6.085857577229889,
+  "hypothesis_grading": {
+    "H_bcer_a": {
+      "predicted_band": [
+        0.6,
+        0.7
+      ],
+      "actual_mid": 0.6450499999999999,
+      "held": true
+    },
+    "H_bcer_b": {
+      "predicted_band_pct": [
+        35.0,
+        55.0
+      ],
+      "actual_pct_reduction": 22.27564962779139,
+      "held": false
+    },
+    "H_bcer_c": {
+      "predicted_band_yr": [
+        -1.0,
+        1.0
+      ],
+      "actual_delta_yr": -1.3419984983535151,
+      "held": false
+    },
+    "H_bcer_d": {
+      "predicted_band": [
+        0.2,
+        0.4
+      ],
+      "actual_floor": 0.55,
+      "held": false
+    },
+    "H_bcer_e": {
+      "predicted_band_missions": [
+        2,
+        4
+      ],
+      "actual_at_eta_c_080": 3,
+      "held": true
+    },
+    "H_bcer_f": {
+      "predicted": "true (at least one cell flips)",
+      "stretch_closes_at_realistic_eta_c": false,
+      "megawatt_closes_at_realistic_eta_c": false,
+      "stretch_realistic_eta_c": 0.6450499999999999,
+      "megawatt_realistic_eta_c": 0.6450499999999999,
+      "actual": "flipped",
+      "held": true
+    },
+    "H_bcer_g": {
+      "predicted": "divergence > 5% where m_tug > 10% of chunk",
+      "divergences": [
+        {
+          "cell": "variant_b_10_100",
+          "m_tug_t": 3.970835409163503,
+          "rel_div": 0.2938857054652813,
+          "m_tug_pct_of_chunk": 3.970835409163503
+        },
+        {
+          "cell": "stretch_100_200",
+          "m_tug_t": 8.40820052232879,
+          "rel_div": 0.22274565623034803,
+          "m_tug_pct_of_chunk": 4.204100261164395
+        },
+        {
+          "cell": "submeg_200_500",
+          "m_tug_t": 13.233024054704389,
+          "rel_div": 0.2665304290000279,
+          "m_tug_pct_of_chunk": 2.6466048109408775
+        },
+        {
+          "cell": "megawatt_1000_500",
+          "m_tug_t": 32.23472137421716,
+          "rel_div": 0.30215768837892787,
+          "m_tug_pct_of_chunk": 6.446944274843432
+        }
+      ],
+      "held": false
+    }
+  }
+}

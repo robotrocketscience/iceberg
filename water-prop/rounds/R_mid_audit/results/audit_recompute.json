@@ -1,0 +1,5404 @@
+{
+  "grid": [
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 0.5765903511223414
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 0.3186848471559145
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 1.7629556693643522
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 3.207226491568349
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 0.7958100294924719
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 1.6726887429729942
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 3.4264461699384796
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 5.180203596908406
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 0.5981487373718508
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 1.4495227679978129
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 3.152270829258619
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 4.855018890514984
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 2.0454845894413154
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 3.2374082323194386
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 4.429331875202003
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 6.81317916096269
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 9.197026446723378
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 3.7695170014639956
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 5.21685285353346
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 6.664188705602925
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 9.558860409737413
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 12.453532113876342
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 0.6216777215195535
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 1.476087750105215
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 3.184907807272097
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 4.893727864438979
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 2.0741747701125135
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 3.2703488101315514
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 4.4665228501461485
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 6.858870930179783
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 9.251219010213418
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 3.804355077994259
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 5.256852126587219
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 6.709349175180179
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 9.614343272361658
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 12.519337369547578
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 0.3214824698494212
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 0.47199395722508086
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 1.676085856243681
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 4.9268972141414125
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 6.990141245863946
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 9.05338527759092
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 13.179873341040427
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 17.306361404489934
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 10.497656099794916
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 13.386197744211792
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 16.274739388624226
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 22.051822677453536
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 27.828905966282846
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 14.675725264039485
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 18.183240117970456
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 21.690754971905868
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 28.70578467976781
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 35.72081438763419
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 13.987098826975242
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 17.39259494948797
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 20.798091072005143
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 27.609083317035044
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 34.420075562064945
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 23.18193835776583
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 27.949632929287205
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 32.71732750080858
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 42.25271664385133
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 51.78810578689408
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 30.07806800585655
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 35.86741141413441
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 41.65675482240783
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 53.2354416389591
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 64.81412845551037
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 14.0690707717539
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 17.486710886087664
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 20.90435100042143
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 27.739631229093398
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 34.574911457760926
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 23.296699080455063
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 28.081395240526774
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 32.866091400594044
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 42.435483720728584
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 52.004876040863124
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 30.217420311982046
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 36.027408506353886
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 41.837396700721285
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 53.457373089456084
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 65.07734947819532
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 0.5619062569151012
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 1.9784849616444333
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 3.3950636663737654
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 6.228221075827989
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 9.061378485286653
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 4.386668759681633
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 6.36987894630181
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 8.353089132921987
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 12.31950950616234
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 16.285929879402694
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 7.2552406367565325
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 9.663424434798173
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 12.071608232835374
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 16.887975828914215
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 21.704343424988615
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 0.601698781048654
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 0.22516157395013892
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 2.333769933708929
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 4.442378293467719
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 0.9217554070861667
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 2.2019819112228944
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 4.762434919505232
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 7.322887927783128
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 19.817243035351595
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 24.97535311466681
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 30.133463193977583
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 40.44968335259913
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 50.76590351122512
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 33.74414024949424
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 40.965494360531984
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 48.18684847156973
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 62.62955669364079
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 77.07226491571629
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 44.18931316010344
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 52.958100294930865
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 61.72688742976273
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 79.26446169942203
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 96.80203596908576
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 42.46774706743839
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 50.981487373729095
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 59.49522768001536
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 76.52270829259234
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 93.55018890516487
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 65.45484589441486
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 77.37408232321829
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 89.29331875202173
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 113.1317916096286
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 136.9702644672355
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 82.69517001465054
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 97.16852853534076
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 111.64188705602652
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 140.58860409740691
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 169.53532113878288
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 42.672676929389475
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 51.216777215223885
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 59.76087750106274
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 76.84907807273156
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 93.93727864440481
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 65.7417477011446
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 77.70348810131722
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 89.66522850148539
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 113.58870930182619
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 137.51219010216698
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 83.04355077996206
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 97.56852126588278
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 112.0934917518035
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 141.14343272364493
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 170.19337369548637
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 8.904765642290258
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 12.446212404113588
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 15.987659165936918
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 23.070552689579138
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 30.153446213221358
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 18.46667189921103
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 23.42469736575925
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 28.382722832311913
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 38.298773765408356
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 48.21482469850924
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 25.638101591898277
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 31.658561086995718
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 37.67902058209316
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 49.7199395722836
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 61.76085856247848
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 1.4735028106249715
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 5.238874881627886
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 9.00424695262636
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 2.7913830354764357
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 5.427143485174923
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 8.062903934877852
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 13.334424834279268
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 18.605945733676243
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 6.603822257362779
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 9.8043885177157
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 13.004954778064182
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 19.406087298765584
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 25.807219819466987
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 119.08621517677354
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 144.8767655733363
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 170.66731596989462
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 222.24841676301565
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 273.82951755613226
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 188.72070124748674
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 224.82747180267103
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 260.93424235785534
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 333.1477834682195
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 405.3613245785881
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 240.9465658005194
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 284.7905014746699
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 328.63443714882476
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 416.32230849712573
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 504.0101798454266
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 232.33873533720748
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 274.90743686864766
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 317.47613840008796
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 402.6135414629639
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 487.75094452583994
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 347.27422947209425
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 406.87041161610705
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 466.46659376011974
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 585.6589580481498
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 704.8513223361796
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 433.47585007325495
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 505.84264267670153
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 578.2094352801481
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 722.9430204870413
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 867.67660569393
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 233.36338464695405
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 276.08388607613495
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 318.8043875053115
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 404.2453903636689
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 489.68639322202637
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 348.70873850573855
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 408.5174405065883
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 468.32614250743813
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 587.9435465091376
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 707.5609505108371
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 435.21775389982145
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 507.84260632942505
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 580.467458759033
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 725.7171636182402
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 870.9668684774474
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 64.52382821147128
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 82.23106202057906
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 99.93829582968684
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 135.35276344789793
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 170.76723106611348
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 112.33335949606183
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 137.1234868288118
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 161.91361416156178
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 211.49386882706176
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 261.0741234925573
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 148.1905079595025
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 178.29280543498527
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 208.39510291046804
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 268.59969786142915
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 328.8042928123947
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 8.540653698130285
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 17.95408387563313
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 27.367514053135977
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 46.19437440813723
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 65.02123476314293
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 33.95691517738442
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 47.13571742589018
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 60.3145196743915
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 86.67212417139413
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 113.02972866839679
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 53.019111286825016
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 69.02194258858074
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 85.02477389033203
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 117.0304364938346
+    },
+    {
+      "tour": "3-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 149.0360990973416
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 5.709143006287221
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 7.603826340640829
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 9.498509674989997
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 13.287876343692773
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 17.07724301239555
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 10.392800208802733
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 13.04535687689512
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 15.697913544987507
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 21.003026881172282
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 26.308140217352616
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 13.905543110692697
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 17.12650477908806
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 20.34746644748342
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 26.789389784278583
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 33.23131312107375
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 7.251577521869557
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 9.395845729289753
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 11.540113936714391
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 15.828650351559226
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 20.11718676640406
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 12.552208530616227
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 15.554184021007167
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 18.556159511398107
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 24.560110492184428
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 30.56406147296631
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 16.52768178717956
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 20.172937739797447
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 23.818193692415335
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 31.10870559765111
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 38.399217502886884
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 6.413521058190597
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 8.422181423592967
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 10.430841788995338
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 14.448162519800078
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 18.46548325060926
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 11.378929481464795
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 14.191053993029001
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 17.00317850459321
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 22.627427527721622
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 28.251676550854476
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 15.102985798924884
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 18.517708420109358
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 21.93243104129383
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 28.76187628366278
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 35.59132152603617
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 0.10903429433550826
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 1.60268571104627
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 3.0963371277570317
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 0.4615360286797099
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 1.507092020376355
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 2.552648012073
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 4.64375999546629
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 6.73487197885958
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 1.846150891968712
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 3.1157545961724153
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 4.385358300376119
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 6.924565708779085
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 9.463773117186491
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 0.5594171566780659
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 0.0
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 0.6571236988861529
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 10.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 1.9650065473930667
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 37.83657202515833
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 45.415305362563885
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 52.99403869996944
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 68.1515053747761
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 83.3089720495872
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 56.57120083522038
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 67.18142750758993
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 77.79165417995503
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 99.0121075246897
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 120.23256086941991
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 70.62217244277136
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 83.50601911635724
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 96.38986578994758
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 122.15755913712378
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 147.92525248429556
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 44.006310087478795
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 52.583382917168464
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 61.16045574685813
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 78.3146014062419
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 95.46874706562124
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 65.20883412247436
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 77.21673608403812
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 89.22463804560633
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 113.24044196873828
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 137.25624589187026
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 81.11072714871881
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 95.69175095919036
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 110.27277476966191
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 139.43482239060944
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 168.59687001155254
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 40.654084232762955
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 48.68872569437688
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 56.7233671559908
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 72.79265007921421
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 88.86193300243761
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 60.51571792586863
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 71.7642159721299
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 83.01271401838673
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 105.50971011090039
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 128.006706203414
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 75.4119431957001
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 89.07083368044243
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 102.72972416518478
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 130.04750513466502
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 157.36528610414967
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 9.461531510521759
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 12.448834343938842
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 15.436137177355924
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 21.41074284419009
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 27.385348511024254
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 16.84614411472829
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 21.02836808151487
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 25.21059204829701
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 33.57503998187017
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 41.93948791543889
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 22.384603567884298
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 27.46301838469467
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 32.54143320150504
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 42.69826283512579
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 52.855092468746534
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 0.50907765148267
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 2.047763355603749
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 3.5864490597292686
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 6.663820467975867
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 9.741191876222466
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 4.312708712075342
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 6.4668686978475165
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 8.621028683619691
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 12.929348655164041
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 17.237668626712832
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 7.165432007520955
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 9.781197704530342
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 12.396963401539729
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 17.628494795558503
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 40.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 22.860026189577276
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 102.09143006290056
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 121.03826340641
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 139.98509674992385
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 177.8787634369472
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 215.77243012396607
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 148.9280020880601
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 175.45356876897512
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 201.97913544989012
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 255.0302688117245
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 308.08140217355447
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 184.05543110692867
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 216.26504779090004
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 248.47466447487142
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 312.8938978428098
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 377.31313121074805
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 117.51577521870615
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 138.95845729293035
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 160.40113936715449
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 203.28650351560285
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 246.1718676640512
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 170.52208530618617
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 200.54184021010445
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 230.5615951140183
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 290.60110492184594
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 350.64061472967364
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 210.27681787180177
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 246.7293773979806
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 283.1819369241639
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 356.08705597652613
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 428.9921750288883
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 109.1352105819121
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 129.2218142359447
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 149.3084178899773
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 189.48162519803802
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 229.6548325061032
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 158.78929481468072
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 186.91053993032278
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 215.03178504596485
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 271.2742752772534
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 327.516765508542
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 196.029857989255
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 230.17708420110858
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 264.3243104129622
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 332.6187628366695
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 400.91321526037666
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 31.15382877630246
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 38.62208585984739
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 46.090342943392315
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 61.02685711048217
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 75.96337127756757
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 49.61536028682545
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 60.07092020378746
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 70.52648012074947
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 91.43759995467349
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 112.3487197885975
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 63.46150891971547
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 76.15754596174362
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 88.85358300376734
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 114.2456570878192
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 139.63773117187105
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 8.77269412870696
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 12.619408389014097
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 16.466122649321235
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 24.159551169939952
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 31.85297969055867
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 18.28177178019086
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 23.667171744619075
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 29.052571709051733
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 39.82337163791705
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 50.594171566782364
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 25.413580018800452
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 31.95299426132614
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 38.49240850385183
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 51.57123698889876
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 100.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 64.65006547395014
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 530.4571503145049
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 625.1913170320612
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 719.9254837496217
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 909.3938171847337
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 1098.8621506198501
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 764.6400104403073
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 897.2678438448867
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 1029.8956772494705
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 1295.1513440586293
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 1560.4070108677925
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 940.277155534659
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 1101.325238954507
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 1262.3733223743548
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 1584.469489214051
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_MET",
+      "isp_s": 700.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 1906.5656560537468
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 607.578876093533
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 714.7922864646583
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 822.0056968357792
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 1036.4325175780255
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 1250.859338320267
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 872.6104265309509
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 1022.7092010505202
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 1172.8079755700937
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 1473.0055246092325
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 1773.203073648375
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 1071.3840893590109
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 1253.6468869899186
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 1435.9096846208265
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 1800.4352798826417
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_Hall",
+      "isp_s": 1500.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 2164.9608751444566
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 565.6760529095716
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 666.1090711797302
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 766.5420894498886
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 967.4081259902013
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 1168.274162530518
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 813.9464740734014
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 954.5526996516206
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 1095.1589252298443
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 1376.3713763862827
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 1657.5838275427254
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 1000.1492899462727
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 1170.885421005541
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 1341.6215520648088
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 1683.0938141833453
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_radio_frequency_ion",
+      "isp_s": 2000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 2024.5660763018814
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 175.7691438815234
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 213.1104292992436
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 250.45171471696824
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 325.13428555240864
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 399.8168563878535
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 268.0768014341295
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 320.354601018944
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 372.63240060375404
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 477.18799977337414
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 581.7435989429986
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 337.3075445985885
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 400.7877298087159
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 464.2679150188434
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 591.2282854390982
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_5000s",
+      "isp_s": 5000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 718.1886558593576
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 63.863470643537035
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 83.0970419450816
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 102.33061324662617
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 140.79775584971088
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.5,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 179.26489845280003
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 111.40885890095208
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 138.3358587231154
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 165.26285854527424
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 219.11685818959637
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.7,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 272.9708578339185
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 14.0,
+      "max_delivered_t": 147.06790009401783
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 15.0,
+      "max_delivered_t": 179.76497130664183
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 16.0,
+      "max_delivered_t": 212.46204251926582
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 18.0,
+      "max_delivered_t": 277.85618494451376
+    },
+    {
+      "tour": "10-flyby",
+      "power_kwe": 500.0,
+      "thruster": "water_dual_ion_10000s",
+      "isp_s": 10000.0,
+      "duty": 0.85,
+      "rt_ceiling_yr": 20.0,
+      "max_delivered_t": 343.25032736976175
+    }
+  ]
+}

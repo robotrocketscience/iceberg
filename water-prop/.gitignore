@@ -1,0 +1,16 @@
+# Existing exclusions
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+
+# Local Basilisk venv — never committed
+.venv-bsk/
+.venv/
+# Round-local ephemeris venv (R_saturn_moon_ga_ephemeris) — never committed
+.venv-ephem/
+
+# Large result files
+*.npz
+*.h5
+*.parquet

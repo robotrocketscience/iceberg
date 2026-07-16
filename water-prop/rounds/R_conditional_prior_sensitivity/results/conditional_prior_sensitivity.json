@@ -1,0 +1,484 @@
+{
+  "round": "R-conditional-prior-sensitivity",
+  "author": "iapetus",
+  "date": "2026-05-15",
+  "pre_registration": "SCOPE.md (H1-H5)",
+  "honest_meta": "This round qualifies round 4's 'structurally over-determined' claim. The over-determination only held under conservative conditional-prior anchors; this round flexes them.",
+  "p_sp_at_5_sweep": [
+    0.4,
+    0.6,
+    0.8,
+    0.95,
+    1.0
+  ],
+  "p_L_at_10_sweep": [
+    0.4,
+    0.6,
+    0.8,
+    0.95,
+    1.0
+  ],
+  "p_X_at_10_sweep": [
+    0.7,
+    0.85,
+    0.95,
+    1.0
+  ],
+  "engineering_priors_held": {
+    "P_HYBRID": 0.5,
+    "P_RENDEZVOUS_HI": 0.3
+  },
+  "base_rate_window_anchors": [
+    {
+      "base_rate": "us_only_uniform",
+      "window": "2035",
+      "p_500_orbit": 0.0009
+    },
+    {
+      "base_rate": "us_only_uniform",
+      "window": "ever",
+      "p_500_orbit": 0.0571
+    },
+    {
+      "base_rate": "global_uniform",
+      "window": "2035",
+      "p_500_orbit": 0.0037
+    },
+    {
+      "base_rate": "global_uniform",
+      "window": "ever",
+      "p_500_orbit": 0.1451
+    }
+  ],
+  "single_axis_lift_table": {
+    "us_only_uniform_2035": {
+      "p_500_orbit": 0.0009,
+      "sp_lift_only": [
+        {
+          "p_sp_at_5": 0.4,
+          "max_conjunction": 3.78e-05,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_sp_at_5": 0.6,
+          "max_conjunction": 5.6699999999999996e-05,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_sp_at_5": 0.8,
+          "max_conjunction": 7.56e-05,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_sp_at_5": 0.95,
+          "max_conjunction": 8.977499999999999e-05,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_sp_at_5": 1.0,
+          "max_conjunction": 9.449999999999998e-05,
+          "capital_class": "technology_demonstrator"
+        }
+      ],
+      "L_lift_only": [
+        {
+          "p_L_at_10": 0.4,
+          "max_conjunction": 3.78e-05,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_L_at_10": 0.6,
+          "max_conjunction": 3.78e-05,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_L_at_10": 0.8,
+          "max_conjunction": 3.78e-05,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_L_at_10": 0.95,
+          "max_conjunction": 3.78e-05,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_L_at_10": 1.0,
+          "max_conjunction": 3.78e-05,
+          "capital_class": "technology_demonstrator"
+        }
+      ],
+      "X_lift_only": [
+        {
+          "p_X_at_10": 0.7,
+          "max_conjunction": 3.78e-05,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_X_at_10": 0.85,
+          "max_conjunction": 4.59e-05,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_X_at_10": 0.95,
+          "max_conjunction": 5.13e-05,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_X_at_10": 1.0,
+          "max_conjunction": 5.4000000000000005e-05,
+          "capital_class": "technology_demonstrator"
+        }
+      ]
+    },
+    "us_only_uniform_ever": {
+      "p_500_orbit": 0.0571,
+      "sp_lift_only": [
+        {
+          "p_sp_at_5": 0.4,
+          "max_conjunction": 0.0023981999999999996,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_sp_at_5": 0.6,
+          "max_conjunction": 0.0035972999999999995,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_sp_at_5": 0.8,
+          "max_conjunction": 0.004796399999999999,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_sp_at_5": 0.95,
+          "max_conjunction": 0.005695724999999999,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_sp_at_5": 1.0,
+          "max_conjunction": 0.0059955,
+          "capital_class": "technology_demonstrator"
+        }
+      ],
+      "L_lift_only": [
+        {
+          "p_L_at_10": 0.4,
+          "max_conjunction": 0.0023981999999999996,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_L_at_10": 0.6,
+          "max_conjunction": 0.0023981999999999996,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_L_at_10": 0.8,
+          "max_conjunction": 0.0023981999999999996,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_L_at_10": 0.95,
+          "max_conjunction": 0.0023981999999999996,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_L_at_10": 1.0,
+          "max_conjunction": 0.0023981999999999996,
+          "capital_class": "technology_demonstrator"
+        }
+      ],
+      "X_lift_only": [
+        {
+          "p_X_at_10": 0.7,
+          "max_conjunction": 0.0023981999999999996,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_X_at_10": 0.85,
+          "max_conjunction": 0.0029120999999999995,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_X_at_10": 0.95,
+          "max_conjunction": 0.0032546999999999997,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_X_at_10": 1.0,
+          "max_conjunction": 0.003426,
+          "capital_class": "technology_demonstrator"
+        }
+      ]
+    },
+    "global_uniform_2035": {
+      "p_500_orbit": 0.0037,
+      "sp_lift_only": [
+        {
+          "p_sp_at_5": 0.4,
+          "max_conjunction": 0.0001554,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_sp_at_5": 0.6,
+          "max_conjunction": 0.0002331,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_sp_at_5": 0.8,
+          "max_conjunction": 0.0003108,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_sp_at_5": 0.95,
+          "max_conjunction": 0.0003690749999999999,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_sp_at_5": 1.0,
+          "max_conjunction": 0.00038849999999999996,
+          "capital_class": "technology_demonstrator"
+        }
+      ],
+      "L_lift_only": [
+        {
+          "p_L_at_10": 0.4,
+          "max_conjunction": 0.0001554,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_L_at_10": 0.6,
+          "max_conjunction": 0.0001554,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_L_at_10": 0.8,
+          "max_conjunction": 0.0001554,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_L_at_10": 0.95,
+          "max_conjunction": 0.0001554,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_L_at_10": 1.0,
+          "max_conjunction": 0.0001554,
+          "capital_class": "technology_demonstrator"
+        }
+      ],
+      "X_lift_only": [
+        {
+          "p_X_at_10": 0.7,
+          "max_conjunction": 0.0001554,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_X_at_10": 0.85,
+          "max_conjunction": 0.00018870000000000003,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_X_at_10": 0.95,
+          "max_conjunction": 0.0002109,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_X_at_10": 1.0,
+          "max_conjunction": 0.00022200000000000003,
+          "capital_class": "technology_demonstrator"
+        }
+      ]
+    },
+    "global_uniform_ever": {
+      "p_500_orbit": 0.1451,
+      "sp_lift_only": [
+        {
+          "p_sp_at_5": 0.4,
+          "max_conjunction": 0.0060942,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_sp_at_5": 0.6,
+          "max_conjunction": 0.0091413,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_sp_at_5": 0.8,
+          "max_conjunction": 0.0121884,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_sp_at_5": 0.95,
+          "max_conjunction": 0.014473724999999998,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_sp_at_5": 1.0,
+          "max_conjunction": 0.015235499999999999,
+          "capital_class": "technology_demonstrator"
+        }
+      ],
+      "L_lift_only": [
+        {
+          "p_L_at_10": 0.4,
+          "max_conjunction": 0.0060942,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_L_at_10": 0.6,
+          "max_conjunction": 0.0060942,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_L_at_10": 0.8,
+          "max_conjunction": 0.0060942,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_L_at_10": 0.95,
+          "max_conjunction": 0.0060942,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_L_at_10": 1.0,
+          "max_conjunction": 0.0060942,
+          "capital_class": "technology_demonstrator"
+        }
+      ],
+      "X_lift_only": [
+        {
+          "p_X_at_10": 0.7,
+          "max_conjunction": 0.0060942,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_X_at_10": 0.85,
+          "max_conjunction": 0.0074001,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_X_at_10": 0.95,
+          "max_conjunction": 0.0082707,
+          "capital_class": "technology_demonstrator"
+        },
+        {
+          "p_X_at_10": 1.0,
+          "max_conjunction": 0.008706,
+          "capital_class": "technology_demonstrator"
+        }
+      ]
+    }
+  },
+  "combined_all_conditionals_1_at_baseline_engineering": {
+    "us_only_uniform_2035": {
+      "p_500_orbit": 0.0009,
+      "max_conjunction_all_conditionals_1": 0.000135,
+      "capital_class": "technology_demonstrator"
+    },
+    "us_only_uniform_ever": {
+      "p_500_orbit": 0.0571,
+      "max_conjunction_all_conditionals_1": 0.008565,
+      "capital_class": "technology_demonstrator"
+    },
+    "global_uniform_2035": {
+      "p_500_orbit": 0.0037,
+      "max_conjunction_all_conditionals_1": 0.000555,
+      "capital_class": "technology_demonstrator"
+    },
+    "global_uniform_ever": {
+      "p_500_orbit": 0.1451,
+      "max_conjunction_all_conditionals_1": 0.021765,
+      "capital_class": "technology_demonstrator"
+    }
+  },
+  "breakevens_compound": {
+    "us_only_uniform_2035": {
+      "venture": {
+        "crossable": false,
+        "min_compound": null
+      },
+      "corp_growth": {
+        "crossable": false,
+        "min_compound": null
+      },
+      "regulated_utility": {
+        "crossable": false,
+        "min_compound": null
+      }
+    },
+    "us_only_uniform_ever": {
+      "venture": {
+        "crossable": false,
+        "min_compound": null
+      },
+      "corp_growth": {
+        "crossable": false,
+        "min_compound": null
+      },
+      "regulated_utility": {
+        "crossable": false,
+        "min_compound": null
+      }
+    },
+    "global_uniform_2035": {
+      "venture": {
+        "crossable": false,
+        "min_compound": null
+      },
+      "corp_growth": {
+        "crossable": false,
+        "min_compound": null
+      },
+      "regulated_utility": {
+        "crossable": false,
+        "min_compound": null
+      }
+    },
+    "global_uniform_ever": {
+      "venture": {
+        "crossable": false,
+        "min_compound": null
+      },
+      "corp_growth": {
+        "crossable": false,
+        "min_compound": null
+      },
+      "regulated_utility": {
+        "crossable": false,
+        "min_compound": null
+      }
+    }
+  },
+  "hypotheses": {
+    "H1": {
+      "hypothesis": "Under US-only at 2035 + baseline engineering, venture compound breakeven >= 5.0 (unreachable)",
+      "breakeven": {
+        "crossable": false,
+        "min_compound": null
+      },
+      "verdict": "CONFIRMED"
+    },
+    "H2": {
+      "hypothesis": "Under global+ever + baseline engineering, venture compound breakeven >= 0.69",
+      "breakeven": {
+        "crossable": false,
+        "min_compound": null
+      },
+      "verdict": "CONFIRMED"
+    },
+    "H3": {
+      "hypothesis": "All conditionals at 1.0 + baseline engineering: max conjunction at global+ever <= 3%",
+      "max_conjunction": 0.021765,
+      "verdict": "CONFIRMED"
+    },
+    "H4": {
+      "hypothesis": "No single-axis lift crosses venture at US-only + 2035 baseline",
+      "verdict": "CONFIRMED",
+      "any_single_lift_crosses_venture": false
+    },
+    "H5": {
+      "hypothesis": "Combined-lift requirement at global+ever >= 16x",
+      "lift_factor_needed": 16.40904466541958,
+      "verdict": "CONFIRMED"
+    }
+  }
+}

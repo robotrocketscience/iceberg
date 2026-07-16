@@ -1,0 +1,7 @@
+lever,baseline_pct,with_lever_pct,uplift_pp,predicted_low,predicted_high,status,m_delivered_t
+L1_tps_coverage_30pct,15.369,15.733,+0.364,0.4,0.8,marginal,31.47
+L2_water_as_ablator,15.369,16.280,+0.911,0.8,1.2,held,32.56
+L3_exit_isp_9000,15.369,17.974,+2.605,0.4,0.8,falsified_high,35.95
+L4_jettison_40t,15.369,19.775,+4.406,0.3,0.6,falsified_high,39.55
+L5_dry_mass_160t,15.369,24.182,+8.813,0.5,1.0,falsified_high,48.36
+L6_fill_250t,15.369,23.366,+7.997,0.5,1.2,falsified_high,58.41

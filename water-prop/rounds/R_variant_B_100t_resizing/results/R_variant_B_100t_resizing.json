@@ -1,0 +1,339 @@
+{
+  "config": {
+    "departure_orbit": "high_elliptical_1Mkm",
+    "isp_electric_s": 2000.0,
+    "variant": "A_as_stated (no aerocapture, no Saturn-egress kick)",
+    "dv_inbound_electric_km_s": 27.565,
+    "dv_inbound_breakdown": {
+      "variant": "A_as_stated",
+      "departure_orbit": "high_elliptical_1Mkm",
+      "saturn_spiral_km_s": 6.159,
+      "helio_retrograde_km_s": 5.439,
+      "earth_helio_km_s": 10.298,
+      "leo_spiral_km_s": 7.669,
+      "lga_credit_km_s": 2.0,
+      "electric_dv_km_s": 27.565,
+      "impulsive_egress_dv_km_s": 0.0,
+      "matrix_baseline_dv_km_s": 6.42,
+      "ratio_to_matrix": 4.293613707165109
+    },
+    "chunk_sweep_t": [
+      50.0,
+      75.0,
+      100.0,
+      125.0,
+      150.0,
+      175.0,
+      200.0
+    ],
+    "reactor_sweep_kwe": [
+      100.0,
+      200.0,
+      300.0,
+      400.0,
+      500.0,
+      600.0,
+      700.0
+    ],
+    "chunk_target_t": 100.0,
+    "reactor_default_kwe": 500.0,
+    "ceiling_yr": 15.0,
+    "soft_margin_yr": 1.0,
+    "p_uniform_overlay": 0.0013
+  },
+  "sanity_check_chunk200_500kWe": {
+    "config": {
+      "chunk_t": 200.0,
+      "reactor_kwe": 500.0
+    },
+    "hyperion_round_trip_yr": 16.92,
+    "hyperion_delivered_t": 0.0,
+    "ours_feasible": true,
+    "ours_round_trip_yr": 16.92215308710872,
+    "ours_delivered_t": 0.014750671062614629,
+    "ours_m_prop_inbound_t": 199.98524932893739,
+    "ours_m_tug_t": 64.97347265342302,
+    "ours_full_result": {
+      "feasible": true,
+      "reactor_kwe": 500.0,
+      "chunk_t": 200.0,
+      "isp_electric_s": 2000.0,
+      "dv_inbound_electric_km_s": 27.565,
+      "dv_inbound_impulsive_km_s": 0.0,
+      "aerocapture": false,
+      "m_tug_t": 64.97347265342302,
+      "m_outbound_kick_prop_t": 157.82016072116048,
+      "m_LEO_mission1_t": 232.7936333745835,
+      "m_egress_prop_t": 0.0,
+      "chunk_after_egress_t": 200.0,
+      "m_prop_inbound_t": 199.98524932893739,
+      "delivered_t": 0.014750671062614629,
+      "delivered_fraction": 7.375335531307315e-05,
+      "thrust_inbound_N": 33.14077692178267,
+      "mass_ratio_inbound": 4.077254603144211,
+      "t_outbound_burn_yr": 0.0,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 3.7504379326489428,
+      "round_trip_yr": 16.92215308710872,
+      "closes_strict_15yr": false,
+      "closes_soft_16yr": false
+    }
+  },
+  "chunk_sweep_at_500kWe_variantA": [
+    {
+      "feasible": false,
+      "reason": "electric inbound burn requires more propellant than chunk has",
+      "m_prop_required_t": 79.22791264008654,
+      "chunk_at_inbound_start_t": 50.0,
+      "m_tug_t": 54.97421018697615,
+      "delivered_t": -29.227912640086544,
+      "round_trip_yr": Infinity,
+      "chunk_t": 50.0,
+      "reactor_kwe": 500.0
+    },
+    {
+      "feasible": false,
+      "reason": "electric inbound burn requires more propellant than chunk has",
+      "m_prop_required_t": 98.09633577443753,
+      "chunk_at_inbound_start_t": 75.0,
+      "m_tug_t": 54.97421018697615,
+      "delivered_t": -23.096335774437534,
+      "round_trip_yr": Infinity,
+      "chunk_t": 75.0,
+      "reactor_kwe": 500.0
+    },
+    {
+      "feasible": false,
+      "reason": "electric inbound burn requires more propellant than chunk has",
+      "m_prop_required_t": 116.96475890878853,
+      "chunk_at_inbound_start_t": 100.0,
+      "m_tug_t": 54.97421018697615,
+      "delivered_t": -16.964758908788525,
+      "round_trip_yr": Infinity,
+      "chunk_t": 100.0,
+      "reactor_kwe": 500.0
+    },
+    {
+      "feasible": false,
+      "reason": "electric inbound burn requires more propellant than chunk has",
+      "m_prop_required_t": 135.83318204313952,
+      "chunk_at_inbound_start_t": 125.0,
+      "m_tug_t": 54.97421018697615,
+      "delivered_t": -10.833182043139516,
+      "round_trip_yr": Infinity,
+      "chunk_t": 125.0,
+      "reactor_kwe": 500.0
+    },
+    {
+      "feasible": false,
+      "reason": "electric inbound burn requires more propellant than chunk has",
+      "m_prop_required_t": 154.70160517749048,
+      "chunk_at_inbound_start_t": 150.0,
+      "m_tug_t": 54.97421018697615,
+      "delivered_t": -4.701605177490478,
+      "round_trip_yr": Infinity,
+      "chunk_t": 150.0,
+      "reactor_kwe": 500.0
+    },
+    {
+      "feasible": false,
+      "reason": "electric inbound burn requires more propellant than chunk has",
+      "m_prop_required_t": 180.12001378709968,
+      "chunk_at_inbound_start_t": 175.0,
+      "m_tug_t": 63.652711602568225,
+      "delivered_t": -5.12001378709968,
+      "round_trip_yr": Infinity,
+      "chunk_t": 175.0,
+      "reactor_kwe": 500.0
+    },
+    {
+      "feasible": true,
+      "reactor_kwe": 500.0,
+      "chunk_t": 200.0,
+      "isp_electric_s": 2000.0,
+      "dv_inbound_electric_km_s": 27.565,
+      "dv_inbound_impulsive_km_s": 0.0,
+      "aerocapture": false,
+      "m_tug_t": 64.97347265342302,
+      "m_outbound_kick_prop_t": 157.82016072116048,
+      "m_LEO_mission1_t": 232.7936333745835,
+      "m_egress_prop_t": 0.0,
+      "chunk_after_egress_t": 200.0,
+      "m_prop_inbound_t": 199.98524932893739,
+      "delivered_t": 0.014750671062614629,
+      "delivered_fraction": 7.375335531307315e-05,
+      "thrust_inbound_N": 33.14077692178267,
+      "mass_ratio_inbound": 4.077254603144211,
+      "t_outbound_burn_yr": 0.0,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 3.7504379326489428,
+      "round_trip_yr": 16.92215308710872,
+      "closes_strict_15yr": false,
+      "closes_soft_16yr": false,
+      "expected_delivered_t_uniform": 1.9175872381399018e-05
+    }
+  ],
+  "reactor_sweep_at_chunk100_variantA": [
+    {
+      "feasible": true,
+      "reactor_kwe": 100.0,
+      "chunk_t": 100.0,
+      "isp_electric_s": 2000.0,
+      "dv_inbound_electric_km_s": 27.565,
+      "dv_inbound_impulsive_km_s": 0.0,
+      "aerocapture": false,
+      "m_tug_t": 19.50456718558297,
+      "m_outbound_kick_prop_t": 62.107507768274445,
+      "m_LEO_mission1_t": 91.61207495385742,
+      "m_egress_prop_t": 0.0,
+      "chunk_after_egress_t": 100.0,
+      "m_prop_inbound_t": 90.19450296375477,
+      "delivered_t": 9.805497036245228,
+      "delivered_fraction": 0.09805497036245228,
+      "thrust_inbound_N": 6.628155384356534,
+      "mass_ratio_inbound": 4.077254603144211,
+      "t_outbound_burn_yr": 0.0,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 8.457345888428398,
+      "round_trip_yr": 21.629061042888175,
+      "closes_strict_15yr": false,
+      "closes_soft_16yr": false,
+      "expected_delivered_t_uniform": 0.012747146147118795
+    },
+    {
+      "feasible": true,
+      "reactor_kwe": 200.0,
+      "chunk_t": 100.0,
+      "isp_electric_s": 2000.0,
+      "dv_inbound_electric_km_s": 27.565,
+      "dv_inbound_impulsive_km_s": 0.0,
+      "aerocapture": false,
+      "m_tug_t": 29.891374546723306,
+      "m_outbound_kick_prop_t": 83.97187591209229,
+      "m_LEO_mission1_t": 123.86325045881559,
+      "m_egress_prop_t": 0.0,
+      "chunk_after_egress_t": 100.0,
+      "m_prop_inbound_t": 98.03380943865695,
+      "delivered_t": 1.9661905613430548,
+      "delivered_fraction": 0.01966190561343055,
+      "thrust_inbound_N": 13.256310768713067,
+      "mass_ratio_inbound": 4.077254603144211,
+      "t_outbound_burn_yr": 0.0,
+      "t_cruise_each_yr": 6.085857577229889,
+      "t_saturn_ops_yr": 1.0,
+      "t_inbound_burn_yr": 4.596210455953063,
+      "round_trip_yr": 17.76792561041284,
+      "closes_strict_15yr": false,
+      "closes_soft_16yr": false,
+      "expected_delivered_t_uniform": 0.002556047729745971
+    },
+    {
+      "feasible": false,
+      "reason": "electric inbound burn requires more propellant than chunk has",
+      "m_prop_required_t": 101.87780621098275,
+      "chunk_at_inbound_start_t": 100.0,
+      "m_tug_t": 34.98452611218569,
+      "delivered_t": -1.8778062109827545,
+      "round_trip_yr": Infinity,
+      "chunk_t": 100.0,
+      "reactor_kwe": 300.0
+    },
+    {
+      "feasible": false,
+      "reason": "electric inbound burn requires more propellant than chunk has",
+      "m_prop_required_t": 109.42128255988564,
+      "chunk_at_inbound_start_t": 100.0,
+      "m_tug_t": 44.979368149580914,
+      "delivered_t": -9.42128255988564,
+      "round_trip_yr": Infinity,
+      "chunk_t": 100.0,
+      "reactor_kwe": 400.0
+    },
+    {
+      "feasible": false,
+      "reason": "electric inbound burn requires more propellant than chunk has",
+      "m_prop_required_t": 116.96475890878853,
+      "chunk_at_inbound_start_t": 100.0,
+      "m_tug_t": 54.97421018697615,
+      "delivered_t": -16.964758908788525,
+      "round_trip_yr": Infinity,
+      "chunk_t": 100.0,
+      "reactor_kwe": 500.0
+    },
+    {
+      "feasible": false,
+      "reason": "electric inbound burn requires more propellant than chunk has",
+      "m_prop_required_t": 124.50823525769138,
+      "chunk_at_inbound_start_t": 100.0,
+      "m_tug_t": 64.96905222437138,
+      "delivered_t": -24.508235257691382,
+      "round_trip_yr": Infinity,
+      "chunk_t": 100.0,
+      "reactor_kwe": 600.0
+    },
+    {
+      "feasible": false,
+      "reason": "electric inbound burn requires more propellant than chunk has",
+      "m_prop_required_t": 132.05171160659424,
+      "chunk_at_inbound_start_t": 100.0,
+      "m_tug_t": 74.9638942617666,
+      "delivered_t": -32.05171160659424,
+      "round_trip_yr": Infinity,
+      "chunk_t": 100.0,
+      "reactor_kwe": 700.0
+    }
+  ],
+  "closure_boundary": {
+    "closing_strict_chunks_500kWe": [],
+    "closing_soft_chunks_500kWe": [],
+    "closing_strict_reactors_chunk100": [],
+    "closing_soft_reactors_chunk100": []
+  },
+  "operating_optimum_chunk100": null,
+  "best_path3_delivered_t": 0.0,
+  "hypothesis_grading": {
+    "H-100-a_chunk100_500kWe_infeasible": {
+      "predicted": "propellant-infeasible (m_prop > chunk)",
+      "actual_feasible": false,
+      "actual_m_prop_t": 116.96475890878853,
+      "actual_delivered_t": -16.964758908788525,
+      "held": true
+    },
+    "H-100-b_strict_no_closing_chunk_at_500kWe": {
+      "predicted": "no chunk in [50, 200] t at 500 kWe Variant A closes strict 15-yr AND is feasible",
+      "closing_strict_chunks": [],
+      "held": true
+    },
+    "H-100-b_soft_no_closing_chunk_at_500kWe": {
+      "predicted": "no chunk in [50, 200] t at 500 kWe Variant A closes soft 16-yr AND is feasible",
+      "closing_soft_chunks": [],
+      "held": true
+    },
+    "H-100-c_no_closing_reactor_at_chunk100": {
+      "predicted": "no reactor power in [100, 700] kWe at chunk=100 t Variant A is feasible AND closes soft 16-yr",
+      "closing_soft_reactors": [],
+      "closing_strict_reactors": [],
+      "held": true
+    },
+    "H-100-d_optimum_reactor_in_200_400_band": {
+      "predicted_range_kwe": [
+        200.0,
+        400.0
+      ],
+      "optimum_kwe": null,
+      "held": null,
+      "gradable": false,
+      "note": "no closing cell exists; H-100-d not gradable"
+    },
+    "H-100-e_path3_delivered_under_321t": {
+      "predicted": "best path-3 closing delivered mass < 32.1 t (hyperion Variant C, path 1)",
+      "best_path3_delivered_t": 0.0,
+      "hyperion_path1_delivered_t": 32.1,
+      "held": true,
+      "gradable": false
+    }
+  }
+}

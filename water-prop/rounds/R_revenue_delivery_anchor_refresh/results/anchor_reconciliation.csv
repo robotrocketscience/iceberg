@@ -1,0 +1,6 @@
+round,anchor_label,delivered_t_used,in_corrected_band_34_56,captured_t_at_25pct,violates_200t_cap_at_25pct,captured_t_at_17pct,violates_200t_cap_at_17pct
+R-LEO-water-demand-curve,E_500kWe_200t,50.0,True,200.0,False,294.1,True
+R-LEO-water-demand-curve,E_200kWe_100t,30.0,False,120.0,False,176.5,False
+R-LEO-water-demand-curve,VariantB_500kWe,80.0,False,320.0,True,470.6,True
+R-clearing-price-tail-integration,1-launch architecture (run.py:117),42.04,True,168.2,False,247.3,True
+R-pricing-anchor-revisit,n/a — purely $/kg; takes no delivered_t,,,,,,

@@ -1,0 +1,80 @@
+{
+  "round": "R-water-electrothermal-flight-scale-audit",
+  "worker": "hyperion",
+  "date": "2026-05-22",
+  "bet": "#2 of three engineering bets",
+  "closure_sensitivity_30t_floor": [
+    [
+      600,
+      0.0
+    ],
+    [
+      700,
+      0.5
+    ],
+    [
+      800,
+      4.0
+    ],
+    [
+      900,
+      12.0
+    ]
+  ],
+  "met_branch": {
+    "ground_pulse_anchor_s": 800,
+    "ground_pulse_closure_pct": 4.0,
+    "continuous_flight": {
+      "low": {
+        "isp_s": 500,
+        "closure_pct": 0.0
+      },
+      "mid": {
+        "isp_s": 575,
+        "closure_pct": 0.0
+      },
+      "high": {
+        "isp_s": 700,
+        "closure_pct": 0.5
+      }
+    }
+  },
+  "rfion_branch": {
+    "isp_s": 2000,
+    "isp_closes_matrix": true,
+    "note": "closes on Isp per matrix cells; bet is continuous-flight readiness, not Isp",
+    "joint_flight_readiness": {
+      "low": 0.254,
+      "mid": 0.48,
+      "high": 0.729
+    },
+    "factors": {
+      "p_bag": {
+        "low": 0.65,
+        "mid": 0.8,
+        "high": 0.9
+      },
+      "p_cathode": {
+        "low": 0.65,
+        "mid": 0.8,
+        "high": 0.92
+      },
+      "p_no_anom": {
+        "low": 0.6,
+        "mid": 0.75,
+        "high": 0.88
+      }
+    }
+  },
+  "flight_gap": {
+    "flown_precedent_hr": 30.0,
+    "iceberg_burn_hr": {
+      "continuous_6mo": 4320,
+      "mission_5yr": 43830.0
+    },
+    "gap_ratio": {
+      "continuous_6mo": 144,
+      "mission_5yr": 1461
+    }
+  }
+}

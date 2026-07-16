@@ -1,0 +1,14 @@
+round,n_call_sites,callees,verdicts,has_incorrect,has_ambiguous,supported_axes,tier,tier_rationale
+R6_power_constrained_isp_optimum,4,power_optimal_isp,ambiguous,False,True,none,—,
+R_all_electric_thruster_sweep,1,constant_thrust_burn,correct,False,False,none,—,
+R_arch_E_specific_power_flown_anchored,3,burn_from_dry_end|burn_from_wet,correct,False,False,02(open)|matrix(see-history),—,
+R_architecture_E_no_saturn_side_electrolysis,3,burn_from_dry_end|burn_from_wet,correct,False,False,matrix(see-history),—,
+R_electric_outbound,3,constant_thrust_burn,correct|incorrect,True,False,matrix(see-history),B,"anchors axis 02 (surviving cell, open) and axis 13 (outbound launch architecture, open) BUT has already been SUPERSEDED by R_electric_outbound_rerun (rhea, integrated 2026-05-15 evening). The corrected outbound burn time + the titan-inbound delta-velocity correction together retracted the bugged headline. No live re-run needed — the load-bearing fix is already in main."
+R_electric_outbound_rerun,8,burn_from_dry_end|burn_from_wet,correct|intentional,False,False,matrix(see-history),—,
+R_inbound_dv_continuous_thrust,1,constant_thrust_burn,correct,False,False,04(closed)|09(open)|matrix(see-history),—,
+R_megawatt_architecture_viability,2,constant_thrust_burn,correct|incorrect,True,False,matrix(see-history),B,"anchors axis 02 (surviving cell, open) and axis 05 (reactor power floor, open-but-amended). The round's headline cell is megawatt-class architecture closure. Per project-owner directive 2026-05-19 latest+13 retiring 500 kilowatt-electric (locked memory feedback_no_large_fission.md), the megawatt cell this round supports is now dead by directive. Re-running the round would correct burn time but not rescue a live verdict — closure cell at latest+13 is the titan-3 40-80 tonne / 30 kilowatt-electric cell, which this round does not touch."
+R_megawatt_marvl_radiator,4,burn_from_dry_end|burn_from_wet,correct,False,False,06(closed)|07(closed)|matrix(see-history),—,
+R_megawatt_relaxed_specific_power,3,burn_from_dry_end|burn_from_wet,correct,False,False,matrix(see-history),—,
+R_non_fission_baseline,4,constant_thrust_burn|edelbaum_spiral_dv_km_s,ambiguous,False,True,matrix(see-history),—,
+R_outbound_dv_continuous_thrust,2,burn_from_dry_end|burn_from_wet,correct,False,False,matrix(see-history),—,
+R_redundancy_budget_cost,3,constant_thrust_burn,correct|incorrect|intentional,True,False,matrix(see-history),B,"anchors axis 15 (per-mission reliability, CLOSED) — the round's per-vehicle redundancy-overlay cost ($565M-$710M) is its load-bearing finding, not the outbound burn time. The bugged call site at line 226 is inside the inbound_chunkfed=False branch (all-electric outbound, no chunk), which contributes to round-trip time but not to the cost finding. Cost is invariant under burn-time correction. Re-running would clean up the round-trip number for an axis that is closed; the headline reliability/cost finding stands."

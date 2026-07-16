@@ -1,0 +1,2068 @@
+{
+  "round": "R-mission-architecture-pivot-survey",
+  "criteria": {
+    "F1": {
+      "name": "Inbound delta-velocity closure under continuous-thrust electric",
+      "threshold": "<= 6.42 km/s impulsive-equivalent (matrix); 24.7-40.2 km/s continuous-thrust per R_inbound_dv_continuous_thrust",
+      "source": "R_inbound_dv_continuous_thrust"
+    },
+    "F2": {
+      "name": "B-ring crossing survivability for chunk-bearing vehicle",
+      "threshold": "<= 1% per-pass extended-aperture intercept; phoebe 5-round chain confirms 0/4808 cells close",
+      "source": "phoebe abdcd35/45869d4/8a31ba9/75ba925"
+    },
+    "F3": {
+      "name": "L0-05 round-trip <= 14 yr strict (or <= 15 yr waiver)",
+      "threshold": "<= 14 yr strict per L0-05",
+      "source": "R12_lunar_GA_both_legs / R9_slow_trajectory_tof / R_cruise_time_optimization"
+    },
+    "F4": {
+      "name": "Saturn-side delta-velocity compatible with chunk-as-propellant-tank lever",
+      "threshold": "<= ~3.7 km/s Saturn-side maneuvering per pre-ram-scoop conops; +14.7 km/s residence-class kills lever",
+      "source": "axis-19 2026-05-15 latest+6 project-owner direction; R_conops_chunk_vs_ram_scoop"
+    },
+    "F5": {
+      "name": "Saturn-side process power feasible (~150 kWe for 1-yr electrolysis)",
+      "threshold": "<= 200 kg/kW conservative; FSP-stretch 100 kg/kW",
+      "source": "R_non_fission_baseline / R_saturn_side_solar_thermal"
+    },
+    "F6": {
+      "name": "Reactor program / specific-power availability for demonstrator window 2032-2035",
+      "threshold": "posterior on MWe-class fission delivery by 2035: 0.07-0.20 across 3 priors; FSP Phase 2 not awarded; 0-of-6 US base rate",
+      "source": "R_megawatt_architecture_viability + locked beliefs (R-power-wonder findings 1-4)"
+    },
+    "F7": {
+      "name": "Foundational-lever consistency: cargo serves as inbound propellant tank",
+      "threshold": "project-owner-stated structural premise (axis-19 closure)",
+      "source": "axis-19 history; R_conops_chunk_vs_ram_scoop"
+    },
+    "F8": {
+      "name": "Capital-class threshold (tech-demonstrator OR better; NOT venture-required)",
+      "threshold": "tech-demonstrator anchor per iapetus settlement; venture requires 5-fold >= 0.93 joint priors (1378x baseline lift)",
+      "source": "iapetus 0516f70 + af8eb91"
+    }
+  },
+  "candidates": [
+    {
+      "id": "A",
+      "name": "Held chunk-rendezvous",
+      "description": "Bag-rendezvous with single B-ring chunk; matrix baseline before phoebe 5-round chain.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F1, F2, F6 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "A",
+          "criterion_id": "F1",
+          "verdict": "FAIL",
+          "rationale": "Continuous-thrust inbound 24.7-40.2 km/s exceeds matrix 6.42 baseline by 3.8-6.3x; surviving 200-t cell at 24.1% delivered fraction only.",
+          "cited_source": "R_inbound_dv_continuous_thrust"
+        },
+        {
+          "candidate_id": "A",
+          "criterion_id": "F2",
+          "verdict": "FAIL",
+          "rationale": "Phoebe 5-round chain: 0 of 4,808 unique closure-checks pass extended-aperture survivability threshold at any (threshold, mesh, aperture, chunk-mass, q-exponent) combination.",
+          "cited_source": "phoebe 5-round chain"
+        },
+        {
+          "candidate_id": "A",
+          "criterion_id": "F3",
+          "verdict": "PASS",
+          "rationale": "14-yr ceiling achievable per R12 lunar-GA 13.91 yr at 70% delivery (different sub-architecture but same chunk capture).",
+          "cited_source": "R12_lunar_GA_both_legs"
+        },
+        {
+          "candidate_id": "A",
+          "criterion_id": "F4",
+          "verdict": "PASS",
+          "rationale": "Inbound chunk-rendezvous preserves chunk-as-propellant-tank lever (the foundational case).",
+          "cited_source": "axis-19 closure"
+        },
+        {
+          "candidate_id": "A",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "Saturn-side process power independent of capture-architecture; surface mining vs ring rendezvous changes the calculus.",
+          "cited_source": "R_non_fission_baseline"
+        },
+        {
+          "candidate_id": "A",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Variant-C closure requires reactor program at megawatt class; posterior 0.07-0.20; FSP Phase 2 not awarded; 0-of-6 US fission base rate.",
+          "cited_source": "R_megawatt_architecture_viability + locked beliefs"
+        },
+        {
+          "candidate_id": "A",
+          "criterion_id": "F7",
+          "verdict": "PASS",
+          "rationale": "Chunk-as-propellant-tank lever preserved.",
+          "cited_source": "axis-19 closure"
+        },
+        {
+          "candidate_id": "A",
+          "criterion_id": "F8",
+          "verdict": "PASS",
+          "rationale": "Tech-demonstrator anchor reachable conditional on engineering; iapetus settled program-class.",
+          "cited_source": "iapetus chain"
+        }
+      ]
+    },
+    {
+      "id": "A_prime",
+      "name": "Chunk-rendezvous + deployable drag-skirt aerocapture",
+      "description": "Inflatable ballute / HIAD-class deployable drag-skirt for Earth aerocapture closure on chunk-bearing vehicle.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F1, F2, F6, F8 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "A_prime",
+          "criterion_id": "F1",
+          "verdict": "FAIL",
+          "rationale": "Same as A; aerocapture closure does not change continuous-thrust inbound penalty during cruise.",
+          "cited_source": "R_inbound_dv_continuous_thrust"
+        },
+        {
+          "candidate_id": "A_prime",
+          "criterion_id": "F2",
+          "verdict": "FAIL",
+          "rationale": "Same as A; drag-skirt addresses Earth aerocapture only, not B-ring rendezvous survivability.",
+          "cited_source": "phoebe 5-round chain"
+        },
+        {
+          "candidate_id": "A_prime",
+          "criterion_id": "F3",
+          "verdict": "UNKNOWN",
+          "rationale": "Drag-skirt enables aerocapture saves 1.5-3.5 km/s on Earth approach; could relax round-trip but doesn't change inbound cruise.",
+          "cited_source": "R_megawatt_aerocapture_engineering_closure"
+        },
+        {
+          "candidate_id": "A_prime",
+          "criterion_id": "F4",
+          "verdict": "PASS",
+          "rationale": "Same as A.",
+          "cited_source": "axis-19 closure"
+        },
+        {
+          "candidate_id": "A_prime",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "Same as A.",
+          "cited_source": "R_non_fission_baseline"
+        },
+        {
+          "candidate_id": "A_prime",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Same as A.",
+          "cited_source": "R_megawatt_architecture_viability + locked beliefs"
+        },
+        {
+          "candidate_id": "A_prime",
+          "criterion_id": "F7",
+          "verdict": "PASS",
+          "rationale": "Same as A.",
+          "cited_source": "axis-19 closure"
+        },
+        {
+          "candidate_id": "A_prime",
+          "criterion_id": "F8",
+          "verdict": "FAIL",
+          "rationale": "R_deployable_drag_skirt: peak heat flux 1,431 kW/m^2 at best-case (beta=100, areal=15) is 3-4x HIAD-2 design and LOFTID demonstrated; thermal does not close.",
+          "cited_source": "R_deployable_drag_skirt"
+        }
+      ]
+    },
+    {
+      "id": "A_doubleprime",
+      "name": "Outer-ring chunk-rendezvous (A-ring or F-ring)",
+      "description": "Same architecture as A but rendezvous with chunks in A-ring (tau~0.5) or F-ring (tau~0.1) rather than B-ring (tau~2.0).",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F1, F6 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "A_doubleprime",
+          "criterion_id": "F1",
+          "verdict": "FAIL",
+          "rationale": "Same as A; inbound cruise penalty independent of ring location.",
+          "cited_source": "R_inbound_dv_continuous_thrust"
+        },
+        {
+          "candidate_id": "A_doubleprime",
+          "criterion_id": "F2",
+          "verdict": "UNKNOWN",
+          "rationale": "B-ring zone-averaged tau ~2.0 kills A; F-ring tau ~0.1 reduces per-pass intercept by ~20x, but F-ring chunk-population is much lower and constituent particles are micron-class.",
+          "cited_source": "Cassini ring optical-depth data; needs new round"
+        },
+        {
+          "candidate_id": "A_doubleprime",
+          "criterion_id": "F3",
+          "verdict": "UNKNOWN",
+          "rationale": "Outer-ring approach \u0394v differs marginally from B-ring; not directly tested.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "A_doubleprime",
+          "criterion_id": "F4",
+          "verdict": "PASS",
+          "rationale": "Preserves chunk-as-propellant-tank lever.",
+          "cited_source": "axis-19 closure"
+        },
+        {
+          "candidate_id": "A_doubleprime",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "Same as A.",
+          "cited_source": "R_non_fission_baseline"
+        },
+        {
+          "candidate_id": "A_doubleprime",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Same as A.",
+          "cited_source": "R_megawatt_architecture_viability + locked beliefs"
+        },
+        {
+          "candidate_id": "A_doubleprime",
+          "criterion_id": "F7",
+          "verdict": "PASS",
+          "rationale": "Same as A.",
+          "cited_source": "axis-19 closure"
+        },
+        {
+          "candidate_id": "A_doubleprime",
+          "criterion_id": "F8",
+          "verdict": "UNKNOWN",
+          "rationale": "Conditional on F2 closure; if F-ring chunk-population is too low, capital-class question is moot.",
+          "cited_source": "\u2014"
+        }
+      ]
+    },
+    {
+      "id": "H",
+      "name": "Aerocapture-conditional chunk-rendezvous (single-pass)",
+      "description": "Chunk-as-heat-shield single-pass aerocapture per R_megawatt_aerocapture_engineering_closure.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F2, F6 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "H",
+          "criterion_id": "F1",
+          "verdict": "PASS",
+          "rationale": "Aerocapture-conditional: round-trip 4.81 yr (continuous-thrust); delivered fraction 42.7% at 200-t chunk.",
+          "cited_source": "R_megawatt_aerocapture_engineering_closure"
+        },
+        {
+          "candidate_id": "H",
+          "criterion_id": "F2",
+          "verdict": "FAIL",
+          "rationale": "Same as A; aerocapture closure does not change B-ring rendezvous.",
+          "cited_source": "phoebe 5-round chain"
+        },
+        {
+          "candidate_id": "H",
+          "criterion_id": "F3",
+          "verdict": "PASS",
+          "rationale": "4.81 yr round-trip clears L0-05 by ~9 yr.",
+          "cited_source": "R_megawatt_aerocapture_engineering_closure"
+        },
+        {
+          "candidate_id": "H",
+          "criterion_id": "F4",
+          "verdict": "PASS",
+          "rationale": "Chunk-as-heat-shield is consistent with chunk-as-propellant-tank.",
+          "cited_source": "axis-19 closure"
+        },
+        {
+          "candidate_id": "H",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "Same as A.",
+          "cited_source": "R_non_fission_baseline"
+        },
+        {
+          "candidate_id": "H",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Required reactor still 1000 kWe (10x FSP Phase 2); posterior 0.10-0.30 by 2032-35.",
+          "cited_source": "R_megawatt_aerocapture_engineering_closure"
+        },
+        {
+          "candidate_id": "H",
+          "criterion_id": "F7",
+          "verdict": "PASS",
+          "rationale": "Same as A.",
+          "cited_source": "axis-19 closure"
+        },
+        {
+          "candidate_id": "H",
+          "criterion_id": "F8",
+          "verdict": "PASS",
+          "rationale": "Conditional on F6 closure; tech-demonstrator capital class reachable.",
+          "cited_source": "iapetus chain"
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Ram-scoop residence-class (B-ring)",
+      "description": "Open-bag accretion at v_rel ~10 m/s during residence in B-ring; +14.7 km/s Saturn-side circularisation \u0394v.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F6 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "B",
+          "criterion_id": "F1",
+          "verdict": "PASS",
+          "rationale": "Inbound continuous-thrust same penalty as A; not the binding constraint here.",
+          "cited_source": "R_inbound_dv_continuous_thrust"
+        },
+        {
+          "candidate_id": "B",
+          "criterion_id": "F2",
+          "verdict": "PASS",
+          "rationale": "Residence-class avoids the rendezvous-crossing problem (operates at orbital-matched velocity).",
+          "cited_source": "R_bring_fine_structure_rendezvous"
+        },
+        {
+          "candidate_id": "B",
+          "criterion_id": "F3",
+          "verdict": "UNKNOWN",
+          "rationale": "titan-2 Block 5/9 found composite steady-state delivered fraction 15.97% (Option-A-equivalent) at ~16 yr; Block 10 caught exit-burn-power audit showing 500-kWe nominal exit burn takes 8.92 yr (17.8x assumed 6-month dwell).",
+          "cited_source": "titan-2 Blocks 4-11"
+        },
+        {
+          "candidate_id": "B",
+          "criterion_id": "F4",
+          "verdict": "FAIL",
+          "rationale": "Residence-class +14.7 km/s Saturn-side \u0394v directly defeats chunk-as-propellant-tank lever; project-owner explicit retirement.",
+          "cited_source": "axis-19 2026-05-15 latest+6"
+        },
+        {
+          "candidate_id": "B",
+          "criterion_id": "F5",
+          "verdict": "PASS",
+          "rationale": "Bulk ring material provides electrolysis feedstock; same Saturn-side power class as chunk processing.",
+          "cited_source": "R_non_fission_baseline"
+        },
+        {
+          "candidate_id": "B",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Residence-class exit burn requires MWe-class power per titan-2 Block 10 (8.9 MWe at Isp 7000 for 6-month exit).",
+          "cited_source": "titan-2 Block 10"
+        },
+        {
+          "candidate_id": "B",
+          "criterion_id": "F7",
+          "verdict": "FAIL",
+          "rationale": "Bulk ring material is not coherent chunk; cannot serve as cohesive propellant tank.",
+          "cited_source": "axis-19 closure"
+        },
+        {
+          "candidate_id": "B",
+          "criterion_id": "F8",
+          "verdict": "PASS",
+          "rationale": "Tech-demonstrator capital-class reachable conditional on lever-reframe.",
+          "cited_source": "iapetus chain"
+        }
+      ]
+    },
+    {
+      "id": "B_prime",
+      "name": "Outer-ring residence-class (A-ring or F-ring)",
+      "description": "Ram-scoop architecture in outer ring; same \u0394v penalty as B; lower particle density.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F6 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "B_prime",
+          "criterion_id": "F1",
+          "verdict": "PASS",
+          "rationale": "Same as B.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "B_prime",
+          "criterion_id": "F2",
+          "verdict": "PASS",
+          "rationale": "Same as B; residence not rendezvous.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "B_prime",
+          "criterion_id": "F3",
+          "verdict": "UNKNOWN",
+          "rationale": "Same as B; outer-ring fill time orders-of-magnitude longer at lower density.",
+          "cited_source": "R_bring_fine_structure_rendezvous"
+        },
+        {
+          "candidate_id": "B_prime",
+          "criterion_id": "F4",
+          "verdict": "FAIL",
+          "rationale": "Same as B; circularisation penalty unchanged at outer-ring radius.",
+          "cited_source": "axis-19 closure"
+        },
+        {
+          "candidate_id": "B_prime",
+          "criterion_id": "F5",
+          "verdict": "PASS",
+          "rationale": "Same as B.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "B_prime",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Same as B.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "B_prime",
+          "criterion_id": "F7",
+          "verdict": "FAIL",
+          "rationale": "Same as B; bulk material.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "B_prime",
+          "criterion_id": "F8",
+          "verdict": "PASS",
+          "rationale": "Same as B.",
+          "cited_source": "\u2014"
+        }
+      ]
+    },
+    {
+      "id": "P1",
+      "name": "Lunar-orbit catcher",
+      "description": "Saturn-side chunk handoff to inbound-delivery stage; chunks intercepted at lunar orbit rather than LEO.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F1, F2, F6 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "P1",
+          "criterion_id": "F1",
+          "verdict": "FAIL",
+          "rationale": "Chunks still need to be moved from Saturn to lunar orbit; same inbound penalty as A unless capture-physics is different.",
+          "cited_source": "R_inbound_dv_continuous_thrust"
+        },
+        {
+          "candidate_id": "P1",
+          "criterion_id": "F2",
+          "verdict": "FAIL",
+          "rationale": "Chunk acquisition at Saturn still requires B-ring rendezvous unless paired with a non-chunk-rendezvous source.",
+          "cited_source": "phoebe 5-round chain"
+        },
+        {
+          "candidate_id": "P1",
+          "criterion_id": "F3",
+          "verdict": "UNKNOWN",
+          "rationale": "Delivery to lunar orbit may relax Earth-arrival \u0394v by ~0.7-1.2 km/s but only ~5.2 pp delivered fraction per R_delivery_destination_altitude.",
+          "cited_source": "R_delivery_destination_altitude"
+        },
+        {
+          "candidate_id": "P1",
+          "criterion_id": "F4",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "P1",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "P1",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Same as A.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "P1",
+          "criterion_id": "F7",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "P1",
+          "criterion_id": "F8",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Tether-rendezvous (rotating tether passive grapple)",
+      "description": "Spin-tether momentum-exchange grapple of chunk during B-ring crossing.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F1, F2, F6 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "P3",
+          "criterion_id": "F1",
+          "verdict": "FAIL",
+          "rationale": "Same as A.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "P3",
+          "criterion_id": "F2",
+          "verdict": "FAIL",
+          "rationale": "Tether must transit B-ring twice (deploy + retract) at high relative velocity; same intercept problem.",
+          "cited_source": "phoebe 5-round chain"
+        },
+        {
+          "candidate_id": "P3",
+          "criterion_id": "F3",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "P3",
+          "criterion_id": "F4",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "P3",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "P3",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Same as A.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "P3",
+          "criterion_id": "F7",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "P3",
+          "criterion_id": "F8",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        }
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Active push-the-rock (lander + boost stage on chunk)",
+      "description": "Land on chunk in B-ring; mount boost stage; thrust chunk into Earth-return trajectory.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F1, F2, F6 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "P4",
+          "criterion_id": "F1",
+          "verdict": "FAIL",
+          "rationale": "Same inbound penalty applies; chunk acceleration is mass-ratio-bound by chosen propellant class.",
+          "cited_source": "R_inbound_dv_continuous_thrust"
+        },
+        {
+          "candidate_id": "P4",
+          "criterion_id": "F2",
+          "verdict": "FAIL",
+          "rationale": "Landing requires sustained relative-velocity matching in B-ring; transit problem unchanged.",
+          "cited_source": "phoebe 5-round chain"
+        },
+        {
+          "candidate_id": "P4",
+          "criterion_id": "F3",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "P4",
+          "criterion_id": "F4",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "P4",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "P4",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Same as A.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "P4",
+          "criterion_id": "F7",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "P4",
+          "criterion_id": "F8",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        }
+      ]
+    },
+    {
+      "id": "S1",
+      "name": "Enceladus plume sampling",
+      "description": "Water from south-pole geysers (~200 kg/s aggregate plume mass flow); no ring crossing required.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F6 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "S1",
+          "criterion_id": "F1",
+          "verdict": "UNKNOWN",
+          "rationale": "Enceladus orbit (~4 R_S) is outside B-ring but inside E-ring; Saturn-side delta-velocity to Enceladus orbital insertion plus departure not in matrix; needs new round.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S1",
+          "criterion_id": "F2",
+          "verdict": "PASS",
+          "rationale": "Enceladus is at 4 Saturn radii; outside dense rings entirely. E-ring is diffuse ice-grain torus generated by plumes; tau is ~10^-5.",
+          "cited_source": "Cassini E-ring data"
+        },
+        {
+          "candidate_id": "S1",
+          "criterion_id": "F3",
+          "verdict": "UNKNOWN",
+          "rationale": "Saturn-side dwell to collect 200-t-equivalent at ~0.1-1 kg/s effective capture from plume mass flow ~10^2-10^5 yr; needs new round.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S1",
+          "criterion_id": "F4",
+          "verdict": "UNKNOWN",
+          "rationale": "Enceladus orbital insertion adds \u0394v but bulk water acquisition replaces chunk-rendezvous; lever-consistency depends on collection rate.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S1",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "Saturn-side process power same class as A; not architecture-changing.",
+          "cited_source": "R_non_fission_baseline"
+        },
+        {
+          "candidate_id": "S1",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Same reactor-program constraint as A unless inbound is solved differently.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S1",
+          "criterion_id": "F7",
+          "verdict": "UNKNOWN",
+          "rationale": "Conditional on collected mass packaging: if collected as ice slurry / aggregate, chunk-as-propellant-tank lever lost (similar to F2d/B); if as solid block, lever preserved.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S1",
+          "criterion_id": "F8",
+          "verdict": "UNKNOWN",
+          "rationale": "Conditional on F1, F3 closure.",
+          "cited_source": "\u2014"
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "Mimas surface ice mining",
+      "description": "Land on Mimas (3.1 R_S, water-ice surface), surface-mine, ascend.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F6 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "S2",
+          "criterion_id": "F1",
+          "verdict": "UNKNOWN",
+          "rationale": "Saturn-side \u0394v to Mimas orbit + descent/ascent (~0.4-0.8 km/s surface escape) + return; not in matrix.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S2",
+          "criterion_id": "F2",
+          "verdict": "PASS",
+          "rationale": "Mimas is outside main ring system (just inside E-ring); ring crossing minimal.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S2",
+          "criterion_id": "F3",
+          "verdict": "UNKNOWN",
+          "rationale": "Mining cadence at ICEBERG-scale (200-t/yr to 200-t/decade) unknown; surface mining heritage zero at this mass scale.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S2",
+          "criterion_id": "F4",
+          "verdict": "UNKNOWN",
+          "rationale": "Surface-mined ice block could serve as chunk-as-propellant-tank if packaged cohesively; processing changes the calculus.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S2",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "Same as S1.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S2",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Same reactor-program constraint.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S2",
+          "criterion_id": "F7",
+          "verdict": "UNKNOWN",
+          "rationale": "Same as S1.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S2",
+          "criterion_id": "F8",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "Iapetus surface ice mining",
+      "description": "Land on Iapetus (59 R_S, dark/light hemisphere); surface ice abundant on light hemisphere.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F1, F3, F6 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "S3",
+          "criterion_id": "F1",
+          "verdict": "FAIL",
+          "rationale": "Iapetus orbit at 59 R_S is far outside Saturn's main system; Saturn-side cruise adds ~6 months one-way; mass-ratio cost not in matrix but adds \u0394v comparable to titan Block 9 finding (~10.49 yr powered cruise close-time).",
+          "cited_source": "R9_slow_trajectory_tof analogy"
+        },
+        {
+          "candidate_id": "S3",
+          "criterion_id": "F2",
+          "verdict": "PASS",
+          "rationale": "Iapetus is well outside all rings.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S3",
+          "criterion_id": "F3",
+          "verdict": "FAIL",
+          "rationale": "Iapetus's 79-day orbital period + slow return synodic windows + mining cadence push round-trip to >>14 yr.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S3",
+          "criterion_id": "F4",
+          "verdict": "UNKNOWN",
+          "rationale": "Same as S2 packaging question.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S3",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "Same as S1.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S3",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Same reactor-program constraint.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S3",
+          "criterion_id": "F7",
+          "verdict": "UNKNOWN",
+          "rationale": "Same as S1.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S3",
+          "criterion_id": "F8",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "name": "Hyperion surface ice mining (porous body)",
+      "description": "Hyperion is a porous tumbling body at 24.6 R_S; sponge-like surface may permit easy ice extraction.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F6 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "S4",
+          "criterion_id": "F1",
+          "verdict": "UNKNOWN",
+          "rationale": "Hyperion orbit at 24.6 R_S; Saturn-side cruise penalty intermediate.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S4",
+          "criterion_id": "F2",
+          "verdict": "PASS",
+          "rationale": "Outside main ring system.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S4",
+          "criterion_id": "F3",
+          "verdict": "UNKNOWN",
+          "rationale": "Mining cadence on porous chaotically-tumbling body unprecedented.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S4",
+          "criterion_id": "F4",
+          "verdict": "UNKNOWN",
+          "rationale": "Same as S2.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S4",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "Same as S1.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S4",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Same reactor-program constraint.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S4",
+          "criterion_id": "F7",
+          "verdict": "UNKNOWN",
+          "rationale": "Same as S1.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S4",
+          "criterion_id": "F8",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        }
+      ]
+    },
+    {
+      "id": "S5",
+      "name": "Tethys surface ice mining",
+      "description": "Tethys (4.9 R_S, ~99% water-ice composition); shallow gravity well.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F6 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "S5",
+          "criterion_id": "F1",
+          "verdict": "UNKNOWN",
+          "rationale": "Tethys orbit close to Saturn (4.9 R_S); Saturn-side \u0394v modest.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S5",
+          "criterion_id": "F2",
+          "verdict": "PASS",
+          "rationale": "Just outside E-ring; minimal ring crossing.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S5",
+          "criterion_id": "F3",
+          "verdict": "UNKNOWN",
+          "rationale": "Same as S2 cadence question.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S5",
+          "criterion_id": "F4",
+          "verdict": "UNKNOWN",
+          "rationale": "Same as S2.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S5",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "Same as S1.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S5",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Same reactor-program constraint.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S5",
+          "criterion_id": "F7",
+          "verdict": "UNKNOWN",
+          "rationale": "Same as S1.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S5",
+          "criterion_id": "F8",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        }
+      ]
+    },
+    {
+      "id": "S6",
+      "name": "Phoebe surface ice (irregular satellite)",
+      "description": "Phoebe at 215 R_S, retrograde orbit, comet-class composition (high water-ice fraction).",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F1, F3, F6 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "S6",
+          "criterion_id": "F1",
+          "verdict": "FAIL",
+          "rationale": "Phoebe at 215 R_S in retrograde orbit; Saturn-side cruise and orbital insertion costs are enormous (functionally similar to S7 Trojans).",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S6",
+          "criterion_id": "F2",
+          "verdict": "PASS",
+          "rationale": "Well outside ring system.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S6",
+          "criterion_id": "F3",
+          "verdict": "FAIL",
+          "rationale": "Saturn-side dwell + ~4-month one-way cruise + return synodic windows pushes round-trip > 20 yr.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S6",
+          "criterion_id": "F4",
+          "verdict": "UNKNOWN",
+          "rationale": "Same as S2.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S6",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "Same as S1.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S6",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Same reactor-program constraint.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S6",
+          "criterion_id": "F7",
+          "verdict": "UNKNOWN",
+          "rationale": "Same as S1.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S6",
+          "criterion_id": "F8",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        }
+      ]
+    },
+    {
+      "id": "S7",
+      "name": "Saturn-system Trojan / Hilda water-ice",
+      "description": "Bodies at Saturn-Sun L4/L5 (or Hilda 2:3 with Jupiter); high water content but distant.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F1, F3, F6 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "S7",
+          "criterion_id": "F1",
+          "verdict": "FAIL",
+          "rationale": "Trojans at 5-9 AU; transit time + Saturn departure penalty vs current direct-to-Saturn architecture is strictly worse.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S7",
+          "criterion_id": "F2",
+          "verdict": "PASS",
+          "rationale": "No Saturn ring crossing.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S7",
+          "criterion_id": "F3",
+          "verdict": "FAIL",
+          "rationale": "Round-trip to Saturn-Trojan and back > 24 yr per R9 analogy.",
+          "cited_source": "R9_slow_trajectory_tof"
+        },
+        {
+          "candidate_id": "S7",
+          "criterion_id": "F4",
+          "verdict": "UNKNOWN",
+          "rationale": "Same as S2.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S7",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "Same as S1.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S7",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Same reactor-program constraint.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S7",
+          "criterion_id": "F7",
+          "verdict": "UNKNOWN",
+          "rationale": "Same as S1.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "S7",
+          "criterion_id": "F8",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        }
+      ]
+    },
+    {
+      "id": "T1",
+      "name": "Very slow low-energy cruise",
+      "description": "Trade transit time for delta-velocity (long Hohmann-class transfers).",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F2, F3 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "T1",
+          "criterion_id": "F1",
+          "verdict": "PASS",
+          "rationale": "Slow cruise relaxes inbound \u0394v requirement.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "T1",
+          "criterion_id": "F2",
+          "verdict": "FAIL",
+          "rationale": "B-ring rendezvous problem unchanged (slow cruise doesn't affect ring transit).",
+          "cited_source": "phoebe 5-round chain"
+        },
+        {
+          "candidate_id": "T1",
+          "criterion_id": "F3",
+          "verdict": "FAIL",
+          "rationale": "R9 slow trajectory: realistic round-trip ~24 yr; conops 13-yr triple internally inconsistent.",
+          "cited_source": "R9_slow_trajectory_tof"
+        },
+        {
+          "candidate_id": "T1",
+          "criterion_id": "F4",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "T1",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "T1",
+          "criterion_id": "F6",
+          "verdict": "UNKNOWN",
+          "rationale": "Lower power Kilopower-class might close if \u0394v is small enough; R9 shows it doesn't.",
+          "cited_source": "R9_slow_trajectory_tof"
+        },
+        {
+          "candidate_id": "T1",
+          "criterion_id": "F7",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "T1",
+          "criterion_id": "F8",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        }
+      ]
+    },
+    {
+      "id": "T2",
+      "name": "Chunk pre-staging at intermediate moon",
+      "description": "Pre-stage chunks in Iapetus or Mimas parking orbit; phase-2 push to Earth-return.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F2, F6 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "T2",
+          "criterion_id": "F1",
+          "verdict": "UNKNOWN",
+          "rationale": "Two-stage architecture: Saturn-side stage moves chunk to parking; phase-2 stage handles inbound. Each stage has lower \u0394v but stages don't compose linearly.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "T2",
+          "criterion_id": "F2",
+          "verdict": "FAIL",
+          "rationale": "Chunk acquisition step still requires B-ring rendezvous.",
+          "cited_source": "phoebe 5-round chain"
+        },
+        {
+          "candidate_id": "T2",
+          "criterion_id": "F3",
+          "verdict": "UNKNOWN",
+          "rationale": "Pre-staging breaks the 14-yr cap into two-mission cycle; commit-timing problem changes (similar to R_heterogeneous_cadence's adjacent staged-commitment hypothesis).",
+          "cited_source": "R_heterogeneous_cadence"
+        },
+        {
+          "candidate_id": "T2",
+          "criterion_id": "F4",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "T2",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "T2",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Same reactor constraint.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "T2",
+          "criterion_id": "F7",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "T2",
+          "criterion_id": "F8",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        }
+      ]
+    },
+    {
+      "id": "F1d",
+      "name": "Return propellant (H2/O2) not water (Architecture D)",
+      "description": "Saturn-side electrolyse water into hydrogen + oxygen; return cryogenic propellant.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F5, F6, F8 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "F1d",
+          "criterion_id": "F1",
+          "verdict": "UNKNOWN",
+          "rationale": "Electrolysed propellant changes inbound mass-ratio math.",
+          "cited_source": "R_chemical_plus_small_reactor"
+        },
+        {
+          "candidate_id": "F1d",
+          "criterion_id": "F2",
+          "verdict": "UNKNOWN",
+          "rationale": "Depends on coupled source architecture.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "F1d",
+          "criterion_id": "F3",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "F1d",
+          "criterion_id": "F4",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "F1d",
+          "criterion_id": "F5",
+          "verdict": "FAIL",
+          "rationale": "R_architecture_D_cost: requires 10 W/kg FSP Phase 1 STRETCH (not contracted 5 W/kg); 20-t reactor 200 kWe.",
+          "cited_source": "R_architecture_D_cost"
+        },
+        {
+          "candidate_id": "F1d",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Same reactor-program constraint, plus needs 200-kWe Saturn-side process power class.",
+          "cited_source": "R_architecture_D_cost"
+        },
+        {
+          "candidate_id": "F1d",
+          "criterion_id": "F7",
+          "verdict": "FAIL",
+          "rationale": "Returning propellant not water means cargo is not the propellant tank; lever lost.",
+          "cited_source": "axis-19 closure"
+        },
+        {
+          "candidate_id": "F1d",
+          "criterion_id": "F8",
+          "verdict": "FAIL",
+          "rationale": "R_architecture_D_cost: 0 of 48 cells return defined IRR. R_architecture_D_L1007_relaxation: program-NPV negative across 168 cells (D-fission $-15.6B, D-solar $-14.1B at best cell vs Variant B $+42.3B).",
+          "cited_source": "R_architecture_D_cost + R_architecture_D_L1007_relaxation"
+        }
+      ]
+    },
+    {
+      "id": "F2d",
+      "name": "Return as bulk ring material aggregate",
+      "description": "Collect bulk ring material at Saturn (ram-scoop output) and return as aggregate.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F6 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "F2d",
+          "criterion_id": "F1",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "F2d",
+          "criterion_id": "F2",
+          "verdict": "PASS",
+          "rationale": "Same as B (residence-class avoids rendezvous).",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "F2d",
+          "criterion_id": "F3",
+          "verdict": "UNKNOWN",
+          "rationale": "Same as B.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "F2d",
+          "criterion_id": "F4",
+          "verdict": "FAIL",
+          "rationale": "Same as B (+14.7 km/s Saturn-side).",
+          "cited_source": "axis-19 closure"
+        },
+        {
+          "candidate_id": "F2d",
+          "criterion_id": "F5",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "F2d",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Same as B.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "F2d",
+          "criterion_id": "F7",
+          "verdict": "FAIL",
+          "rationale": "Bulk material lever-inconsistent (same as B).",
+          "cited_source": "axis-19 closure"
+        },
+        {
+          "candidate_id": "F2d",
+          "criterion_id": "F8",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        }
+      ]
+    },
+    {
+      "id": "F3d",
+      "name": "Many small chunks instead of one big",
+      "description": "Heterogeneous cadence with chunk_1 << 200 t to lower mission-1 commit cost.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F1, F2, F3, F6, F8 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "F3d",
+          "criterion_id": "F1",
+          "verdict": "FAIL",
+          "rationale": "Same as A; inbound penalty unchanged.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "F3d",
+          "criterion_id": "F2",
+          "verdict": "FAIL",
+          "rationale": "Same as A; rendezvous problem multiplies per chunk.",
+          "cited_source": "phoebe 5-round chain"
+        },
+        {
+          "candidate_id": "F3d",
+          "criterion_id": "F3",
+          "verdict": "FAIL",
+          "rationale": "Same as A.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "F3d",
+          "criterion_id": "F4",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "F3d",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "F3d",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Same reactor constraint.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "F3d",
+          "criterion_id": "F7",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "F3d",
+          "criterion_id": "F8",
+          "verdict": "FAIL",
+          "rationale": "R_heterogeneous_cadence: all chunk_1 < 200 t lose $30M-$113M NPV in regime D, sacrificed $484M in regime R. R_cadence_multiship: compressed N>=3 collapses IRR to -1.45%.",
+          "cited_source": "R_heterogeneous_cadence + R_cadence_multiship"
+        }
+      ]
+    },
+    {
+      "id": "F4d",
+      "name": "Deliver to L4/L5/GEO/lunar-orbit instead of LEO",
+      "description": "Different terminal delivery altitude.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F1, F2, F6, F8 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "F4d",
+          "criterion_id": "F1",
+          "verdict": "FAIL",
+          "rationale": "Same inbound problem.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "F4d",
+          "criterion_id": "F2",
+          "verdict": "FAIL",
+          "rationale": "Same as A.",
+          "cited_source": "phoebe 5-round chain"
+        },
+        {
+          "candidate_id": "F4d",
+          "criterion_id": "F3",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "F4d",
+          "criterion_id": "F4",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "F4d",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "F4d",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Same reactor constraint.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "F4d",
+          "criterion_id": "F7",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "F4d",
+          "criterion_id": "F8",
+          "verdict": "FAIL",
+          "rationale": "R_delivery_destination_altitude: only 5.2 pp gain LEO -> GEO; not architecture-changing per IRR/NPV.",
+          "cited_source": "R_delivery_destination_altitude"
+        }
+      ]
+    },
+    {
+      "id": "C2c",
+      "name": "Precursor mission (smaller water + sell heritage)",
+      "description": "Smaller target water mass; revenue model leans on heritage value to follow-on architectures.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F2 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "C2c",
+          "criterion_id": "F1",
+          "verdict": "UNKNOWN",
+          "rationale": "Smaller chunk relaxes mass-ratio; could close inbound.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "C2c",
+          "criterion_id": "F2",
+          "verdict": "FAIL",
+          "rationale": "Even small chunk requires B-ring rendezvous.",
+          "cited_source": "phoebe 5-round chain"
+        },
+        {
+          "candidate_id": "C2c",
+          "criterion_id": "F3",
+          "verdict": "UNKNOWN",
+          "rationale": "Smaller chunk could fly faster (lower mass-ratio).",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "C2c",
+          "criterion_id": "F4",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "C2c",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "C2c",
+          "criterion_id": "F6",
+          "verdict": "UNKNOWN",
+          "rationale": "Smaller chunk reduces reactor-power requirement; Kilopower-class may close.",
+          "cited_source": "R_chunk_fed_chemical"
+        },
+        {
+          "candidate_id": "C2c",
+          "criterion_id": "F7",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "C2c",
+          "criterion_id": "F8",
+          "verdict": "UNKNOWN",
+          "rationale": "Capital structure depends on heritage revenue model not water-revenue.",
+          "cited_source": "\u2014"
+        }
+      ]
+    },
+    {
+      "id": "C3c",
+      "name": "Shared launch / cost-split with other Saturn customers",
+      "description": "Outbound launch costs split with science / NASA missions; reduces 6.9x launch-mass multiplier impact.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F1, F2, F6 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "C3c",
+          "criterion_id": "F1",
+          "verdict": "FAIL",
+          "rationale": "Same A inbound.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "C3c",
+          "criterion_id": "F2",
+          "verdict": "FAIL",
+          "rationale": "Same A.",
+          "cited_source": "phoebe 5-round chain"
+        },
+        {
+          "candidate_id": "C3c",
+          "criterion_id": "F3",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "C3c",
+          "criterion_id": "F4",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "C3c",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "C3c",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Same reactor constraint.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "C3c",
+          "criterion_id": "F7",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "C3c",
+          "criterion_id": "F8",
+          "verdict": "UNKNOWN",
+          "rationale": "Shared-launch could rescue per-mission economics conditional on actual co-customer existing.",
+          "cited_source": "R_outbound_architecture"
+        }
+      ]
+    },
+    {
+      "id": "C4c",
+      "name": "Data-resource mode (smaller water + sensor-data primary revenue)",
+      "description": "Smaller water mass; revenue from in-situ science + heritage data sales; water as proof-of-concept.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F2 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "C4c",
+          "criterion_id": "F1",
+          "verdict": "UNKNOWN",
+          "rationale": "Same as C2c.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "C4c",
+          "criterion_id": "F2",
+          "verdict": "FAIL",
+          "rationale": "B-ring rendezvous unchanged.",
+          "cited_source": "phoebe 5-round chain"
+        },
+        {
+          "candidate_id": "C4c",
+          "criterion_id": "F3",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "C4c",
+          "criterion_id": "F4",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "C4c",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "C4c",
+          "criterion_id": "F6",
+          "verdict": "UNKNOWN",
+          "rationale": "Smaller water target relaxes reactor power.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "C4c",
+          "criterion_id": "F7",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "C4c",
+          "criterion_id": "F8",
+          "verdict": "UNKNOWN",
+          "rationale": "Capital structure: science revenue is not subject to launch-cost displacement competition (per existing belief 'parallel science revenue stream').",
+          "cited_source": "\u2014"
+        }
+      ]
+    },
+    {
+      "id": "M2m",
+      "name": "One-way ships (no return)",
+      "description": "Deliver chunk and abandon vehicle in cislunar / Earth-vicinity; no Saturn-return mission cycle.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F2 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "M2m",
+          "criterion_id": "F1",
+          "verdict": "UNKNOWN",
+          "rationale": "One-way Tsiolkovsky drops mass-ratio significantly; could close at lower Isp.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "M2m",
+          "criterion_id": "F2",
+          "verdict": "FAIL",
+          "rationale": "Acquisition unchanged.",
+          "cited_source": "phoebe 5-round chain"
+        },
+        {
+          "candidate_id": "M2m",
+          "criterion_id": "F3",
+          "verdict": "UNKNOWN",
+          "rationale": "Round-trip not applicable; only one-way transit time.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "M2m",
+          "criterion_id": "F4",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "M2m",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "M2m",
+          "criterion_id": "F6",
+          "verdict": "UNKNOWN",
+          "rationale": "Lower mass-ratio = lower reactor requirement.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "M2m",
+          "criterion_id": "F7",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "M2m",
+          "criterion_id": "F8",
+          "verdict": "UNKNOWN",
+          "rationale": "Vehicle disposal cost vs reuse cost not yet modeled; outbound launch cost unchanged.",
+          "cited_source": "R_outbound_architecture"
+        }
+      ]
+    },
+    {
+      "id": "M3m",
+      "name": "Tug-and-go fleet (one tug per chunk; tug stays at Saturn)",
+      "description": "Dedicated Saturn-side tug per chunk-acquisition; tugs never return.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F2, F6, F8 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "M3m",
+          "criterion_id": "F1",
+          "verdict": "UNKNOWN",
+          "rationale": "Tug doesn't perform inbound; separate inbound stage required.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "M3m",
+          "criterion_id": "F2",
+          "verdict": "FAIL",
+          "rationale": "B-ring rendezvous unchanged per tug.",
+          "cited_source": "phoebe 5-round chain"
+        },
+        {
+          "candidate_id": "M3m",
+          "criterion_id": "F3",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "M3m",
+          "criterion_id": "F4",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "M3m",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "M3m",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Per-mission reactor cost multiplied by tug count; cadence-economics collapse per R_cadence_multiship.",
+          "cited_source": "R_cadence_multiship"
+        },
+        {
+          "candidate_id": "M3m",
+          "criterion_id": "F7",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "M3m",
+          "criterion_id": "F8",
+          "verdict": "FAIL",
+          "rationale": "R_cadence_multiship: N=5 fleet drops IRR to -1.45%; compressed cadence is anti-optimal at N>=3.",
+          "cited_source": "R_cadence_multiship"
+        }
+      ]
+    },
+    {
+      "id": "L1r",
+      "name": "Drop 14-yr round-trip cap (relax L0-05)",
+      "description": "L0-05 waiver opens architectures with > 14 yr round-trip.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F2, F6 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "L1r",
+          "criterion_id": "F1",
+          "verdict": "PASS",
+          "rationale": "Slow cruise becomes admissible.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "L1r",
+          "criterion_id": "F2",
+          "verdict": "FAIL",
+          "rationale": "B-ring rendezvous problem orthogonal to L0-05.",
+          "cited_source": "phoebe 5-round chain"
+        },
+        {
+          "candidate_id": "L1r",
+          "criterion_id": "F3",
+          "verdict": "PASS",
+          "rationale": "By construction (L0-05 relaxed).",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "L1r",
+          "criterion_id": "F4",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "L1r",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "L1r",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Same reactor constraint applies.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "L1r",
+          "criterion_id": "F7",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "L1r",
+          "criterion_id": "F8",
+          "verdict": "UNKNOWN",
+          "rationale": "Capital-class implications of longer round-trip not in iapetus framework.",
+          "cited_source": "\u2014"
+        }
+      ]
+    },
+    {
+      "id": "L2r",
+      "name": "Drop chunk-as-propellant-tank premise (relax F7)",
+      "description": "Foundational lever relaxation; enables ram-scoop B / F2d / S1-aggregate variants.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F6 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "L2r",
+          "criterion_id": "F1",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "L2r",
+          "criterion_id": "F2",
+          "verdict": "PASS",
+          "rationale": "Residence-class avoids rendezvous.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "L2r",
+          "criterion_id": "F3",
+          "verdict": "UNKNOWN",
+          "rationale": "Same as B.",
+          "cited_source": "titan-2 Blocks 4-11"
+        },
+        {
+          "candidate_id": "L2r",
+          "criterion_id": "F4",
+          "verdict": "PASS",
+          "rationale": "By construction.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "L2r",
+          "criterion_id": "F5",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "L2r",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Residence-class exit-burn requires MWe-class.",
+          "cited_source": "titan-2 Block 10"
+        },
+        {
+          "candidate_id": "L2r",
+          "criterion_id": "F7",
+          "verdict": "PASS",
+          "rationale": "By construction.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "L2r",
+          "criterion_id": "F8",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        }
+      ]
+    },
+    {
+      "id": "L3r",
+      "name": "Drop 100% Earth-delivery target",
+      "description": "Allow inbound mass-ratio to leave residual in-flight propellant; deliver less to Earth.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F2 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "L3r",
+          "criterion_id": "F1",
+          "verdict": "PASS",
+          "rationale": "Mass-ratio closes more easily.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "L3r",
+          "criterion_id": "F2",
+          "verdict": "FAIL",
+          "rationale": "Rendezvous problem unchanged.",
+          "cited_source": "phoebe 5-round chain"
+        },
+        {
+          "candidate_id": "L3r",
+          "criterion_id": "F3",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "L3r",
+          "criterion_id": "F4",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "L3r",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "L3r",
+          "criterion_id": "F6",
+          "verdict": "UNKNOWN",
+          "rationale": "Lower delivered mass relaxes reactor power per R_chunk_fed_chemical mapping.",
+          "cited_source": "R_chunk_fed_chemical"
+        },
+        {
+          "candidate_id": "L3r",
+          "criterion_id": "F7",
+          "verdict": "PASS",
+          "rationale": "Chunk-as-propellant-tank preserved (the chunk is the propellant supply).",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "L3r",
+          "criterion_id": "F8",
+          "verdict": "UNKNOWN",
+          "rationale": "Revenue model implications; partial-delivery economics not yet modeled.",
+          "cited_source": "\u2014"
+        }
+      ]
+    },
+    {
+      "id": "L4r",
+      "name": "Drop 'Earth orbit' delivery target (lunar / L4-L5 only)",
+      "description": "Deliver to cislunar depot, not LEO; serves propellant-economy customers not water-end-users.",
+      "aggregate": "DEAD-ON-ARRIVAL",
+      "aggregate_rationale": "Fails F2, F6, F8 (physical-kill criteria)",
+      "cells": [
+        {
+          "candidate_id": "L4r",
+          "criterion_id": "F1",
+          "verdict": "PASS",
+          "rationale": "Slight \u0394v relief.",
+          "cited_source": "R_delivery_destination_altitude"
+        },
+        {
+          "candidate_id": "L4r",
+          "criterion_id": "F2",
+          "verdict": "FAIL",
+          "rationale": "Acquisition unchanged.",
+          "cited_source": "phoebe 5-round chain"
+        },
+        {
+          "candidate_id": "L4r",
+          "criterion_id": "F3",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "L4r",
+          "criterion_id": "F4",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "L4r",
+          "criterion_id": "F5",
+          "verdict": "UNKNOWN",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "L4r",
+          "criterion_id": "F6",
+          "verdict": "FAIL",
+          "rationale": "Same reactor constraint.",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "L4r",
+          "criterion_id": "F7",
+          "verdict": "PASS",
+          "rationale": "\u2014",
+          "cited_source": "\u2014"
+        },
+        {
+          "candidate_id": "L4r",
+          "criterion_id": "F8",
+          "verdict": "FAIL",
+          "rationale": "R_delivery_destination_altitude: only 5.2 pp delta LEO->GEO; cislunar marginally better; not architecture-saving on capital-class.",
+          "cited_source": "R_delivery_destination_altitude"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "n_candidates": 31,
+    "n_dead": 31,
+    "n_reframe": 0,
+    "n_deep_dive": 0
+  }
+}

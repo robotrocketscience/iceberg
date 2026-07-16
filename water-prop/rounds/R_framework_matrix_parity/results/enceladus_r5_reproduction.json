@@ -1,0 +1,593 @@
+{
+ "note": "500 kWe RETIRED per project-owner directive 2026-05-19; methodological parity check only. Cassini 600 kg bus, sp 10 W/kg, Isp 2934 s. Constraints-OFF the framework delivers ~106 t at 200 t chunk / 500 kWe (enceladus-r5 claimed 91.5 t; ~16%, within tolerance, framework slightly generous because it omits enceladus-r5's shielding/PCU penalties). Constraints-ON the 500 kWe cell collapses: its ~110 t powerplant (50 t reactor + 55 t MARVL radiator + 5 t thrusters) cannot fit a 200 t vehicle's dry envelope.",
+ "OFF": {
+  "closing_30t_strict": [
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 200.0,
+     "chunk_mass_kg": 100000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 48.43,
+    "best_rt_yr": 10.56,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_4_launch.3ffd9e -> P0b_assembly.autonomous_assembly.3ffd9e -> P1_LEO_to_Saturn.low_thrust_spiral.3ffd9e -> P1b_cruise_ops.mcc_only.3ffd9e -> P2_Saturn_capture.direct_chemical_capture.3ffd9e -> P3_chunk_acquisition.single_pass_trawl.3ffd9e -> P4_Saturn_departure.chunk_fed_spiral_departure.3ffd9e -> P5_inbound_cruise_ops.inbound_ballistic.3ffd9e -> P6_Earth_arrival.direct_propulsive_capture.3ffd9e -> P7_lunar_processing.passthrough_already_at_leo.3ffd9e",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 200.0,
+     "chunk_mass_kg": 200000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 107.39,
+    "best_rt_yr": 11.06,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_4_launch.73031a -> P0b_assembly.autonomous_assembly.73031a -> P1_LEO_to_Saturn.low_thrust_spiral.73031a -> P1b_cruise_ops.mcc_only.73031a -> P2_Saturn_capture.fg_gap_periapsis_capture.73031a -> P3_chunk_acquisition.single_pass_trawl.73031a -> P4_Saturn_departure.chunk_fed_spiral_departure.73031a -> P5_inbound_cruise_ops.inbound_ballistic.73031a -> P6_Earth_arrival.direct_propulsive_capture.73031a -> P7_lunar_processing.passthrough_already_at_leo.73031a",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 500.0,
+     "chunk_mass_kg": 100000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 48.43,
+    "best_rt_yr": 10.56,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_4_launch.3ffd9e -> P0b_assembly.autonomous_assembly.3ffd9e -> P1_LEO_to_Saturn.low_thrust_spiral.3ffd9e -> P1b_cruise_ops.mcc_only.3ffd9e -> P2_Saturn_capture.direct_chemical_capture.3ffd9e -> P3_chunk_acquisition.single_pass_trawl.3ffd9e -> P4_Saturn_departure.chunk_fed_spiral_departure.3ffd9e -> P5_inbound_cruise_ops.inbound_ballistic.3ffd9e -> P6_Earth_arrival.direct_propulsive_capture.3ffd9e -> P7_lunar_processing.passthrough_already_at_leo.3ffd9e",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 500.0,
+     "chunk_mass_kg": 200000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 107.39,
+    "best_rt_yr": 11.06,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_4_launch.73031a -> P0b_assembly.autonomous_assembly.73031a -> P1_LEO_to_Saturn.low_thrust_spiral.73031a -> P1b_cruise_ops.mcc_only.73031a -> P2_Saturn_capture.fg_gap_periapsis_capture.73031a -> P3_chunk_acquisition.single_pass_trawl.73031a -> P4_Saturn_departure.chunk_fed_spiral_departure.73031a -> P5_inbound_cruise_ops.inbound_ballistic.73031a -> P6_Earth_arrival.direct_propulsive_capture.73031a -> P7_lunar_processing.passthrough_already_at_leo.73031a",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 200000.0,
+     "power_kwe": 200.0,
+     "chunk_mass_kg": 100000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 43.84,
+    "best_rt_yr": 11.15,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_4_launch.3ffd9e -> P0b_assembly.autonomous_assembly.3ffd9e -> P1_LEO_to_Saturn.low_thrust_spiral.3ffd9e -> P1b_cruise_ops.mcc_only.3ffd9e -> P2_Saturn_capture.direct_chemical_capture.3ffd9e -> P3_chunk_acquisition.single_pass_trawl.3ffd9e -> P4_Saturn_departure.chunk_fed_spiral_departure.3ffd9e -> P5_inbound_cruise_ops.inbound_ballistic.3ffd9e -> P6_Earth_arrival.direct_propulsive_capture.3ffd9e -> P7_lunar_processing.passthrough_already_at_leo.3ffd9e",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 200000.0,
+     "power_kwe": 200.0,
+     "chunk_mass_kg": 200000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 106.02,
+    "best_rt_yr": 11.15,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_4_launch.73031a -> P0b_assembly.autonomous_assembly.73031a -> P1_LEO_to_Saturn.low_thrust_spiral.73031a -> P1b_cruise_ops.mcc_only.73031a -> P2_Saturn_capture.direct_chemical_capture.73031a -> P3_chunk_acquisition.single_pass_trawl.73031a -> P4_Saturn_departure.chunk_fed_spiral_departure.73031a -> P5_inbound_cruise_ops.inbound_ballistic.73031a -> P6_Earth_arrival.direct_propulsive_capture.73031a -> P7_lunar_processing.passthrough_already_at_leo.73031a",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 200000.0,
+     "power_kwe": 500.0,
+     "chunk_mass_kg": 100000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 43.84,
+    "best_rt_yr": 11.15,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_4_launch.3ffd9e -> P0b_assembly.autonomous_assembly.3ffd9e -> P1_LEO_to_Saturn.low_thrust_spiral.3ffd9e -> P1b_cruise_ops.mcc_only.3ffd9e -> P2_Saturn_capture.direct_chemical_capture.3ffd9e -> P3_chunk_acquisition.single_pass_trawl.3ffd9e -> P4_Saturn_departure.chunk_fed_spiral_departure.3ffd9e -> P5_inbound_cruise_ops.inbound_ballistic.3ffd9e -> P6_Earth_arrival.direct_propulsive_capture.3ffd9e -> P7_lunar_processing.passthrough_already_at_leo.3ffd9e",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 200000.0,
+     "power_kwe": 500.0,
+     "chunk_mass_kg": 200000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 106.02,
+    "best_rt_yr": 11.15,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_4_launch.73031a -> P0b_assembly.autonomous_assembly.73031a -> P1_LEO_to_Saturn.low_thrust_spiral.73031a -> P1b_cruise_ops.mcc_only.73031a -> P2_Saturn_capture.direct_chemical_capture.73031a -> P3_chunk_acquisition.single_pass_trawl.73031a -> P4_Saturn_departure.chunk_fed_spiral_departure.73031a -> P5_inbound_cruise_ops.inbound_ballistic.73031a -> P6_Earth_arrival.direct_propulsive_capture.73031a -> P7_lunar_processing.passthrough_already_at_leo.73031a",
+    "skipped_reason": null
+   }
+  ],
+  "closing_30t_waiver": [
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 200.0,
+     "chunk_mass_kg": 100000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 48.43,
+    "best_rt_yr": 10.56,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_4_launch.3ffd9e -> P0b_assembly.autonomous_assembly.3ffd9e -> P1_LEO_to_Saturn.low_thrust_spiral.3ffd9e -> P1b_cruise_ops.mcc_only.3ffd9e -> P2_Saturn_capture.direct_chemical_capture.3ffd9e -> P3_chunk_acquisition.single_pass_trawl.3ffd9e -> P4_Saturn_departure.chunk_fed_spiral_departure.3ffd9e -> P5_inbound_cruise_ops.inbound_ballistic.3ffd9e -> P6_Earth_arrival.direct_propulsive_capture.3ffd9e -> P7_lunar_processing.passthrough_already_at_leo.3ffd9e",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 200.0,
+     "chunk_mass_kg": 200000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 107.39,
+    "best_rt_yr": 11.06,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_4_launch.73031a -> P0b_assembly.autonomous_assembly.73031a -> P1_LEO_to_Saturn.low_thrust_spiral.73031a -> P1b_cruise_ops.mcc_only.73031a -> P2_Saturn_capture.fg_gap_periapsis_capture.73031a -> P3_chunk_acquisition.single_pass_trawl.73031a -> P4_Saturn_departure.chunk_fed_spiral_departure.73031a -> P5_inbound_cruise_ops.inbound_ballistic.73031a -> P6_Earth_arrival.direct_propulsive_capture.73031a -> P7_lunar_processing.passthrough_already_at_leo.73031a",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 500.0,
+     "chunk_mass_kg": 100000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 48.43,
+    "best_rt_yr": 10.56,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_4_launch.3ffd9e -> P0b_assembly.autonomous_assembly.3ffd9e -> P1_LEO_to_Saturn.low_thrust_spiral.3ffd9e -> P1b_cruise_ops.mcc_only.3ffd9e -> P2_Saturn_capture.direct_chemical_capture.3ffd9e -> P3_chunk_acquisition.single_pass_trawl.3ffd9e -> P4_Saturn_departure.chunk_fed_spiral_departure.3ffd9e -> P5_inbound_cruise_ops.inbound_ballistic.3ffd9e -> P6_Earth_arrival.direct_propulsive_capture.3ffd9e -> P7_lunar_processing.passthrough_already_at_leo.3ffd9e",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 500.0,
+     "chunk_mass_kg": 200000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 107.39,
+    "best_rt_yr": 11.06,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_4_launch.73031a -> P0b_assembly.autonomous_assembly.73031a -> P1_LEO_to_Saturn.low_thrust_spiral.73031a -> P1b_cruise_ops.mcc_only.73031a -> P2_Saturn_capture.fg_gap_periapsis_capture.73031a -> P3_chunk_acquisition.single_pass_trawl.73031a -> P4_Saturn_departure.chunk_fed_spiral_departure.73031a -> P5_inbound_cruise_ops.inbound_ballistic.73031a -> P6_Earth_arrival.direct_propulsive_capture.73031a -> P7_lunar_processing.passthrough_already_at_leo.73031a",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 200000.0,
+     "power_kwe": 200.0,
+     "chunk_mass_kg": 100000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 43.84,
+    "best_rt_yr": 11.15,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_4_launch.3ffd9e -> P0b_assembly.autonomous_assembly.3ffd9e -> P1_LEO_to_Saturn.low_thrust_spiral.3ffd9e -> P1b_cruise_ops.mcc_only.3ffd9e -> P2_Saturn_capture.direct_chemical_capture.3ffd9e -> P3_chunk_acquisition.single_pass_trawl.3ffd9e -> P4_Saturn_departure.chunk_fed_spiral_departure.3ffd9e -> P5_inbound_cruise_ops.inbound_ballistic.3ffd9e -> P6_Earth_arrival.direct_propulsive_capture.3ffd9e -> P7_lunar_processing.passthrough_already_at_leo.3ffd9e",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 200000.0,
+     "power_kwe": 200.0,
+     "chunk_mass_kg": 200000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 106.02,
+    "best_rt_yr": 11.15,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_4_launch.73031a -> P0b_assembly.autonomous_assembly.73031a -> P1_LEO_to_Saturn.low_thrust_spiral.73031a -> P1b_cruise_ops.mcc_only.73031a -> P2_Saturn_capture.direct_chemical_capture.73031a -> P3_chunk_acquisition.single_pass_trawl.73031a -> P4_Saturn_departure.chunk_fed_spiral_departure.73031a -> P5_inbound_cruise_ops.inbound_ballistic.73031a -> P6_Earth_arrival.direct_propulsive_capture.73031a -> P7_lunar_processing.passthrough_already_at_leo.73031a",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 200000.0,
+     "power_kwe": 500.0,
+     "chunk_mass_kg": 100000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 43.84,
+    "best_rt_yr": 11.15,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_4_launch.3ffd9e -> P0b_assembly.autonomous_assembly.3ffd9e -> P1_LEO_to_Saturn.low_thrust_spiral.3ffd9e -> P1b_cruise_ops.mcc_only.3ffd9e -> P2_Saturn_capture.direct_chemical_capture.3ffd9e -> P3_chunk_acquisition.single_pass_trawl.3ffd9e -> P4_Saturn_departure.chunk_fed_spiral_departure.3ffd9e -> P5_inbound_cruise_ops.inbound_ballistic.3ffd9e -> P6_Earth_arrival.direct_propulsive_capture.3ffd9e -> P7_lunar_processing.passthrough_already_at_leo.3ffd9e",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 200000.0,
+     "power_kwe": 500.0,
+     "chunk_mass_kg": 200000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 106.02,
+    "best_rt_yr": 11.15,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_4_launch.73031a -> P0b_assembly.autonomous_assembly.73031a -> P1_LEO_to_Saturn.low_thrust_spiral.73031a -> P1b_cruise_ops.mcc_only.73031a -> P2_Saturn_capture.direct_chemical_capture.73031a -> P3_chunk_acquisition.single_pass_trawl.73031a -> P4_Saturn_departure.chunk_fed_spiral_departure.73031a -> P5_inbound_cruise_ops.inbound_ballistic.73031a -> P6_Earth_arrival.direct_propulsive_capture.73031a -> P7_lunar_processing.passthrough_already_at_leo.73031a",
+    "skipped_reason": null
+   }
+  ],
+  "all": [
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 200.0,
+     "chunk_mass_kg": 100000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 200.0,
+     "chunk_mass_kg": 100000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 48.43,
+    "best_rt_yr": 10.56,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_4_launch.3ffd9e -> P0b_assembly.autonomous_assembly.3ffd9e -> P1_LEO_to_Saturn.low_thrust_spiral.3ffd9e -> P1b_cruise_ops.mcc_only.3ffd9e -> P2_Saturn_capture.direct_chemical_capture.3ffd9e -> P3_chunk_acquisition.single_pass_trawl.3ffd9e -> P4_Saturn_departure.chunk_fed_spiral_departure.3ffd9e -> P5_inbound_cruise_ops.inbound_ballistic.3ffd9e -> P6_Earth_arrival.direct_propulsive_capture.3ffd9e -> P7_lunar_processing.passthrough_already_at_leo.3ffd9e",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 200.0,
+     "chunk_mass_kg": 200000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 200.0,
+     "chunk_mass_kg": 200000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 107.39,
+    "best_rt_yr": 11.06,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_4_launch.73031a -> P0b_assembly.autonomous_assembly.73031a -> P1_LEO_to_Saturn.low_thrust_spiral.73031a -> P1b_cruise_ops.mcc_only.73031a -> P2_Saturn_capture.fg_gap_periapsis_capture.73031a -> P3_chunk_acquisition.single_pass_trawl.73031a -> P4_Saturn_departure.chunk_fed_spiral_departure.73031a -> P5_inbound_cruise_ops.inbound_ballistic.73031a -> P6_Earth_arrival.direct_propulsive_capture.73031a -> P7_lunar_processing.passthrough_already_at_leo.73031a",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 500.0,
+     "chunk_mass_kg": 100000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 500.0,
+     "chunk_mass_kg": 100000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 48.43,
+    "best_rt_yr": 10.56,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_4_launch.3ffd9e -> P0b_assembly.autonomous_assembly.3ffd9e -> P1_LEO_to_Saturn.low_thrust_spiral.3ffd9e -> P1b_cruise_ops.mcc_only.3ffd9e -> P2_Saturn_capture.direct_chemical_capture.3ffd9e -> P3_chunk_acquisition.single_pass_trawl.3ffd9e -> P4_Saturn_departure.chunk_fed_spiral_departure.3ffd9e -> P5_inbound_cruise_ops.inbound_ballistic.3ffd9e -> P6_Earth_arrival.direct_propulsive_capture.3ffd9e -> P7_lunar_processing.passthrough_already_at_leo.3ffd9e",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 500.0,
+     "chunk_mass_kg": 200000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 500.0,
+     "chunk_mass_kg": 200000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 107.39,
+    "best_rt_yr": 11.06,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_4_launch.73031a -> P0b_assembly.autonomous_assembly.73031a -> P1_LEO_to_Saturn.low_thrust_spiral.73031a -> P1b_cruise_ops.mcc_only.73031a -> P2_Saturn_capture.fg_gap_periapsis_capture.73031a -> P3_chunk_acquisition.single_pass_trawl.73031a -> P4_Saturn_departure.chunk_fed_spiral_departure.73031a -> P5_inbound_cruise_ops.inbound_ballistic.73031a -> P6_Earth_arrival.direct_propulsive_capture.73031a -> P7_lunar_processing.passthrough_already_at_leo.73031a",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 200000.0,
+     "power_kwe": 200.0,
+     "chunk_mass_kg": 100000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 200000.0,
+     "power_kwe": 200.0,
+     "chunk_mass_kg": 100000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 43.84,
+    "best_rt_yr": 11.15,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_4_launch.3ffd9e -> P0b_assembly.autonomous_assembly.3ffd9e -> P1_LEO_to_Saturn.low_thrust_spiral.3ffd9e -> P1b_cruise_ops.mcc_only.3ffd9e -> P2_Saturn_capture.direct_chemical_capture.3ffd9e -> P3_chunk_acquisition.single_pass_trawl.3ffd9e -> P4_Saturn_departure.chunk_fed_spiral_departure.3ffd9e -> P5_inbound_cruise_ops.inbound_ballistic.3ffd9e -> P6_Earth_arrival.direct_propulsive_capture.3ffd9e -> P7_lunar_processing.passthrough_already_at_leo.3ffd9e",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 200000.0,
+     "power_kwe": 200.0,
+     "chunk_mass_kg": 200000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 200000.0,
+     "power_kwe": 200.0,
+     "chunk_mass_kg": 200000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 106.02,
+    "best_rt_yr": 11.15,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_4_launch.73031a -> P0b_assembly.autonomous_assembly.73031a -> P1_LEO_to_Saturn.low_thrust_spiral.73031a -> P1b_cruise_ops.mcc_only.73031a -> P2_Saturn_capture.direct_chemical_capture.73031a -> P3_chunk_acquisition.single_pass_trawl.73031a -> P4_Saturn_departure.chunk_fed_spiral_departure.73031a -> P5_inbound_cruise_ops.inbound_ballistic.73031a -> P6_Earth_arrival.direct_propulsive_capture.73031a -> P7_lunar_processing.passthrough_already_at_leo.73031a",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 200000.0,
+     "power_kwe": 500.0,
+     "chunk_mass_kg": 100000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 200000.0,
+     "power_kwe": 500.0,
+     "chunk_mass_kg": 100000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 43.84,
+    "best_rt_yr": 11.15,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_4_launch.3ffd9e -> P0b_assembly.autonomous_assembly.3ffd9e -> P1_LEO_to_Saturn.low_thrust_spiral.3ffd9e -> P1b_cruise_ops.mcc_only.3ffd9e -> P2_Saturn_capture.direct_chemical_capture.3ffd9e -> P3_chunk_acquisition.single_pass_trawl.3ffd9e -> P4_Saturn_departure.chunk_fed_spiral_departure.3ffd9e -> P5_inbound_cruise_ops.inbound_ballistic.3ffd9e -> P6_Earth_arrival.direct_propulsive_capture.3ffd9e -> P7_lunar_processing.passthrough_already_at_leo.3ffd9e",
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 200000.0,
+     "power_kwe": 500.0,
+     "chunk_mass_kg": 200000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 200000.0,
+     "power_kwe": 500.0,
+     "chunk_mass_kg": 200000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 106.02,
+    "best_rt_yr": 11.15,
+    "best_path": "P0_Earth_to_LEO.multi_falcon_4_launch.73031a -> P0b_assembly.autonomous_assembly.73031a -> P1_LEO_to_Saturn.low_thrust_spiral.73031a -> P1b_cruise_ops.mcc_only.73031a -> P2_Saturn_capture.direct_chemical_capture.73031a -> P3_chunk_acquisition.single_pass_trawl.73031a -> P4_Saturn_departure.chunk_fed_spiral_departure.73031a -> P5_inbound_cruise_ops.inbound_ballistic.73031a -> P6_Earth_arrival.direct_propulsive_capture.73031a -> P7_lunar_processing.passthrough_already_at_leo.73031a",
+    "skipped_reason": null
+   }
+  ]
+ },
+ "ON": {
+  "closing_30t_strict": [],
+  "closing_30t_waiver": [],
+  "all": [
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 200.0,
+     "chunk_mass_kg": 100000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 200.0,
+     "chunk_mass_kg": 100000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 200.0,
+     "chunk_mass_kg": 200000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 200.0,
+     "chunk_mass_kg": 200000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 500.0,
+     "chunk_mass_kg": 100000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 500.0,
+     "chunk_mass_kg": 100000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 500.0,
+     "chunk_mass_kg": 200000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 150000.0,
+     "power_kwe": 500.0,
+     "chunk_mass_kg": 200000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 200000.0,
+     "power_kwe": 200.0,
+     "chunk_mass_kg": 100000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 200000.0,
+     "power_kwe": 200.0,
+     "chunk_mass_kg": 100000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 200000.0,
+     "power_kwe": 200.0,
+     "chunk_mass_kg": 200000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 200000.0,
+     "power_kwe": 200.0,
+     "chunk_mass_kg": 200000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 200000.0,
+     "power_kwe": 500.0,
+     "chunk_mass_kg": 100000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 200000.0,
+     "power_kwe": 500.0,
+     "chunk_mass_kg": 100000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 200000.0,
+     "power_kwe": 500.0,
+     "chunk_mass_kg": 200000.0,
+     "electric_thrust_n": 5.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   },
+   {
+    "coords": {
+     "vehicle_mass_kg": 200000.0,
+     "power_kwe": 500.0,
+     "chunk_mass_kg": 200000.0,
+     "electric_thrust_n": 25.0
+    },
+    "best_delivered_t": 0.0,
+    "best_rt_yr": null,
+    "best_path": null,
+    "skipped_reason": null
+   }
+  ]
+ }
+}

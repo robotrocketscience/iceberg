@@ -1,0 +1,91 @@
+{
+  "target_kw_useful": 200.0,
+  "thermal_storage_Wh_per_kg": 100.0,
+  "fission_benchmarks_kg_per_kw": {
+    "FSP_stretch_10W_per_kg": 100.0,
+    "FSP_phase1_contracted_5W_per_kg": 200.0,
+    "KRUSTY_demonstrated_2p4W_per_kg": 416.0
+  },
+  "results": [
+    {
+      "station": "saturn_sun_L1_halo",
+      "conops_plausible": true,
+      "note": "continuous sunlight; chunk-delivery cost from rings not modeled here",
+      "f_dark": 0.0,
+      "t_dark_h": 0.0,
+      "duty_cycle_factor": 1.0,
+      "base_total_kg": 20280.471711976486,
+      "storage_kwh": 0.0,
+      "m_storage_kg": 0.0,
+      "total_kg": 20280.471711976486,
+      "total_tonnes": 20.280471711976485,
+      "kg_per_kw_useful": 101.40235855988243,
+      "mirror_area_m2": 33716.531961792796,
+      "fission_comparison": "beats_FSP_phase1_baseline"
+    },
+    {
+      "station": "high_eccentric_saturn_orbit",
+      "conops_plausible": true,
+      "note": "periapsis at rings, apoapsis far out; Saturn shadow brief per orbit",
+      "f_dark": 0.03,
+      "t_dark_h": 4.0,
+      "duty_cycle_factor": 1.0309278350515465,
+      "base_total_kg": 20499.455373171637,
+      "storage_kwh": 800.0,
+      "m_storage_kg": 8000.0,
+      "total_kg": 28499.455373171637,
+      "total_tonnes": 28.499455373171635,
+      "kg_per_kw_useful": 142.4972768658582,
+      "mirror_area_m2": 34759.31130081732,
+      "fission_comparison": "beats_FSP_phase1_baseline"
+    },
+    {
+      "station": "low_equatorial_saturn_orbit",
+      "conops_plausible": true,
+      "note": "near rings; Saturn shadow ~40% of each ~10-h orbit",
+      "f_dark": 0.4,
+      "t_dark_h": 2.5,
+      "duty_cycle_factor": 1.6666666666666667,
+      "base_total_kg": 25000.78618662748,
+      "storage_kwh": 500.0,
+      "m_storage_kg": 5000.0,
+      "total_kg": 30000.78618662748,
+      "total_tonnes": 30.00078618662748,
+      "kg_per_kw_useful": 150.0039309331374,
+      "mirror_area_m2": 56194.21993632133,
+      "fission_comparison": "beats_FSP_phase1_baseline"
+    },
+    {
+      "station": "titan_surface",
+      "conops_plausible": true,
+      "note": "tidally locked; 8 days dark each 15.95-day cycle",
+      "f_dark": 0.5,
+      "t_dark_h": 192.0,
+      "duty_cycle_factor": 2.0,
+      "base_total_kg": 27360.943423952973,
+      "storage_kwh": 38400.0,
+      "m_storage_kg": 384000.0,
+      "total_kg": 411360.94342395297,
+      "total_tonnes": 411.36094342395296,
+      "kg_per_kw_useful": 2056.804717119765,
+      "mirror_area_m2": 67433.06392358559,
+      "fission_comparison": "worse_than_KRUSTY"
+    },
+    {
+      "station": "enceladus_surface",
+      "conops_plausible": true,
+      "note": "tidally locked; 16.4 h dark each 1.37-day cycle",
+      "f_dark": 0.5,
+      "t_dark_h": 16.4,
+      "duty_cycle_factor": 2.0,
+      "base_total_kg": 27360.943423952973,
+      "storage_kwh": 3279.9999999999995,
+      "m_storage_kg": 32799.99999999999,
+      "total_kg": 60160.943423952966,
+      "total_tonnes": 60.160943423952965,
+      "kg_per_kw_useful": 300.8047171197648,
+      "mirror_area_m2": 67433.06392358559,
+      "fission_comparison": "beats_KRUSTY_demonstrated"
+    }
+  ]
+}

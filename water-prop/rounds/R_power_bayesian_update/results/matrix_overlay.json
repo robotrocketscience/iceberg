@@ -1,0 +1,56 @@
+{
+  "variant_B_500kWe_chemical_kick_plus_electric_inbound": {
+    "delivered_mass_conditional_t": 90.0,
+    "reactor_class": "fsp_derivative_500kWe",
+    "expected_delivered_mass_by_prior": {
+      "uniform_beta_1_1": {
+        "p_reactor_available_by_window": 0.0013,
+        "expected_delivered_mass_t": 0.11699999999999999
+      },
+      "jeffreys_beta_0p5_0p5": {
+        "p_reactor_available_by_window": 0.0003,
+        "expected_delivered_mass_t": 0.026999999999999996
+      },
+      "skeptical_beta_0p5_5": {
+        "p_reactor_available_by_window": 0.0001,
+        "expected_delivered_mass_t": 0.009000000000000001
+      }
+    }
+  },
+  "all_electric_megawatt": {
+    "delivered_mass_conditional_t": 0.0,
+    "reactor_class": "megawatt",
+    "expected_delivered_mass_by_prior": {
+      "uniform_beta_1_1": {
+        "p_reactor_available_by_window": 0.0013,
+        "expected_delivered_mass_t": 0.0
+      },
+      "jeffreys_beta_0p5_0p5": {
+        "p_reactor_available_by_window": 0.0004,
+        "expected_delivered_mass_t": 0.0
+      },
+      "skeptical_beta_0p5_5": {
+        "p_reactor_available_by_window": 0.0001,
+        "expected_delivered_mass_t": 0.0
+      }
+    }
+  },
+  "year_20plus_megawatt_end_to_end": {
+    "delivered_mass_conditional_t": 0.0,
+    "reactor_class": "megawatt",
+    "expected_delivered_mass_by_prior": {
+      "uniform_beta_1_1": {
+        "p_reactor_available_by_window": 0.0013,
+        "expected_delivered_mass_t": 0.0
+      },
+      "jeffreys_beta_0p5_0p5": {
+        "p_reactor_available_by_window": 0.0004,
+        "expected_delivered_mass_t": 0.0
+      },
+      "skeptical_beta_0p5_5": {
+        "p_reactor_available_by_window": 0.0001,
+        "expected_delivered_mass_t": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "structural_failure_counts": {
+    "A": 3,
+    "B": 2,
+    "C": 4
+  },
+  "priors": [
+    {
+      "prior": "Beta(2,2) symmetric",
+      "alpha_prior": 2.0,
+      "beta_prior": 2.0,
+      "alpha_post": 5.0,
+      "beta_post": 11.0,
+      "posterior_mean": 0.3125,
+      "successes": 3,
+      "trials": 12
+    },
+    {
+      "prior": "Beta(1,4) mild skeptic",
+      "alpha_prior": 1.0,
+      "beta_prior": 4.0,
+      "alpha_post": 4.0,
+      "beta_post": 13.0,
+      "posterior_mean": 0.23529411764705882,
+      "successes": 3,
+      "trials": 12
+    },
+    {
+      "prior": "Beta(1,9) strong skeptic",
+      "alpha_prior": 1.0,
+      "beta_prior": 9.0,
+      "alpha_post": 4.0,
+      "beta_post": 18.0,
+      "posterior_mean": 0.18181818181818182,
+      "successes": 3,
+      "trials": 12
+    }
+  ]
+}

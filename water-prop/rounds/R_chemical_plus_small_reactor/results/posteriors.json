@@ -1,0 +1,27 @@
+{
+  "base_prior": "Beta(2.0, 4.0)",
+  "us_fission_base_rate": "0 of 6 orbital since 1965",
+  "krusty_credit_weight": 0.5,
+  "fsp_phase1_credit_weight": 1.0,
+  "p_phase2_award_assumed": 0.6,
+  "priors": [
+    {
+      "name": "Prior A (no KRUSTY, no FSP credit)",
+      "alpha_post": 2.0,
+      "beta_post": 10.0,
+      "posterior_mean": 0.16666666666666666
+    },
+    {
+      "name": "Prior B (+ KRUSTY half-credit ground demo)",
+      "alpha_post": 2.5,
+      "beta_post": 9.5,
+      "posterior_mean": 0.20833333333333334
+    },
+    {
+      "name": "Prior C (+ KRUSTY + FSP-Phase-1 conditional)",
+      "alpha_post": 3.1,
+      "beta_post": 8.9,
+      "posterior_mean": 0.25833333333333336
+    }
+  ]
+}

@@ -1,0 +1,2362 @@
+{
+  "round": "R-engineering-closure-sensitivity",
+  "author": "iapetus",
+  "date": "2026-05-15",
+  "pre_registration": "SCOPE.md (H1-H5)",
+  "p_hybrid_sweep": [
+    0.1,
+    0.3,
+    0.5,
+    0.7,
+    0.9,
+    1.0
+  ],
+  "p_rendezvous_sweep": [
+    0.1,
+    0.2,
+    0.3,
+    0.5,
+    0.7,
+    0.9,
+    1.0
+  ],
+  "window_years_swept": [
+    "2035",
+    "2045",
+    "2055",
+    "ever"
+  ],
+  "p_500_orbit_anchors": {
+    "us_only_uniform_by_window": {
+      "2032": 0.0001,
+      "2035": 0.0009,
+      "2040": 0.0039,
+      "2045": 0.0073,
+      "2050": 0.0127,
+      "2055": 0.0186,
+      "2060": 0.025,
+      "2070": 0.0371,
+      "ever": 0.0571
+    },
+    "global_uniform_by_window": {
+      "2032": 0.0011,
+      "2035": 0.0037,
+      "2040": 0.0126,
+      "2045": 0.0246,
+      "2050": 0.0387,
+      "2055": 0.0538,
+      "2060": 0.0712,
+      "ever": 0.1451
+    }
+  },
+  "heatmaps": {
+    "us_only_uniform": {
+      "2035": {
+        "p_500_orbit": 0.0009,
+        "grid": [
+          {
+            "p_hybrid": 0.1,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 7.2000000000000005e-06,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 1.4400000000000001e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 2.16e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 3.6e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 5.04e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 6.48e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 7.2e-05,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.3,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 7.560000000000001e-06,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 1.5120000000000003e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 2.2680000000000003e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 3.7800000000000004e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 5.292e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 6.804e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 7.560000000000001e-05,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.5,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 1.2600000000000001e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 2.5200000000000003e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 3.78e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 6.3e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 8.819999999999999e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.0001134,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.000126,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.7,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 1.7639999999999997e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 3.5279999999999994e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 5.2919999999999995e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 8.819999999999999e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.00012347999999999998,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.00015875999999999998,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.00017639999999999998,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.9,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 2.2680000000000003e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 4.5360000000000006e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 6.804e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.0001134,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.00015876,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.00020412000000000002,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.0002268,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 1.0,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 2.5200000000000003e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 5.0400000000000005e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 7.56e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.000126,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.00017639999999999998,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.0002268,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.000252,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          }
+        ]
+      },
+      "2045": {
+        "p_500_orbit": 0.0073,
+        "grid": [
+          {
+            "p_hybrid": 0.1,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 5.84e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.0001168,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.0001752,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.000292,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.00040879999999999996,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.0005256,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.000584,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.3,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 6.132e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.00012264,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.00018396000000000002,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.0003066,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.00042924,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.00055188,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.0006132,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.5,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.00010220000000000002,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.00020440000000000004,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.0003066,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.0005110000000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.0007154,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.0009198000000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.0010220000000000001,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.7,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.00014308,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.00028616,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.00042923999999999995,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.0007153999999999999,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.0010015599999999999,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.00128772,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.0014307999999999999,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.9,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.00018396000000000005,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.0003679200000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.00055188,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.0009198000000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.00128772,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.0016556400000000003,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.0018396000000000003,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 1.0,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.00020440000000000004,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.00040880000000000007,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.0006132,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.0010220000000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.0014308,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.0018396000000000003,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.0020440000000000002,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          }
+        ]
+      },
+      "2055": {
+        "p_500_orbit": 0.0186,
+        "grid": [
+          {
+            "p_hybrid": 0.1,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.0001488,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.0002976,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.00044639999999999995,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.000744,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.0010416,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.0013392,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.001488,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.3,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.00015623999999999998,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.00031247999999999996,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.00046871999999999994,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.0007811999999999999,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.0010936799999999999,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.0014061599999999998,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.0015623999999999998,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.5,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.0002604,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.0005208,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.0007811999999999998,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.0013019999999999998,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.0018227999999999996,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.0023435999999999995,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.0026039999999999995,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.7,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.00036455999999999994,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.0007291199999999999,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.0010936799999999997,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.0018227999999999996,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.002551919999999999,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.0032810399999999994,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.0036455999999999993,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.9,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.00046872,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.00093744,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.0014061599999999998,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.0023436,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.00328104,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.00421848,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.0046872,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 1.0,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.0005208,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.0010416,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.0015623999999999996,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.0026039999999999995,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.0036455999999999993,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.004687199999999999,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.005207999999999999,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          }
+        ]
+      },
+      "ever": {
+        "p_500_orbit": 0.0571,
+        "grid": [
+          {
+            "p_hybrid": 0.1,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.00045680000000000004,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.0009136000000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.0013704,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.002284,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.0031975999999999997,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.0041112,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.004568,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.3,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.00047963999999999993,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.0009592799999999999,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.0014389199999999998,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.0023981999999999996,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.0033574799999999995,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.004316759999999999,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.004796399999999999,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.5,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.0007994,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.0015988,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.0023981999999999996,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.003997,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.005595799999999999,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.0071946,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.007994,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.7,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.00111916,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.00223832,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.003357479999999999,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.005595799999999999,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.007834119999999998,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.010072439999999998,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.011191599999999998,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.9,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.00143892,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.00287784,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.004316759999999999,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.0071946,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.010072439999999998,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.01295028,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.0143892,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 1.0,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.0015988,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.0031976,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.004796399999999999,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.007994,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.011191599999999998,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.0143892,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.015988,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "global_uniform": {
+      "2035": {
+        "p_500_orbit": 0.0037,
+        "grid": [
+          {
+            "p_hybrid": 0.1,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 2.9600000000000005e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 5.920000000000001e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 8.88e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.00014800000000000002,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.00020720000000000002,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.0002664,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.00029600000000000004,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.3,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 3.108e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 6.216e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 9.324000000000001e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.0001554,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.00021756,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.00027972,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.0003108,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.5,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 5.1800000000000005e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.00010360000000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.0001554,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.000259,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.0003626,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.0004662,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.000518,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.7,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 7.252e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.00014504,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.00021755999999999997,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.0003626,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.00050764,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.00065268,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.0007252,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.9,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 9.324000000000002e-05,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.00018648000000000004,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.00027972,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.00046620000000000006,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.00065268,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.0008391600000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.0009324000000000001,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 1.0,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.00010360000000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.00020720000000000002,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.0003108,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.000518,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.0007252,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.0009324,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.001036,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          }
+        ]
+      },
+      "2045": {
+        "p_500_orbit": 0.0246,
+        "grid": [
+          {
+            "p_hybrid": 0.1,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.0001968,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.0003936,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.0005904,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.000984,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.0013776,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.0017712000000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.001968,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.3,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.00020664000000000004,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.0004132800000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.00061992,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.0010332000000000002,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.0014464800000000002,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.0018597600000000004,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.0020664000000000004,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.5,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.0003444000000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.0006888000000000002,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.0010332000000000002,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.0017220000000000002,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.0024108000000000003,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.0030996000000000005,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.0034440000000000004,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.7,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.0004821600000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.0009643200000000002,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.0014464800000000002,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.0024108000000000003,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.00337512,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.004339440000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.0048216000000000005,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.9,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.0006199200000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.0012398400000000003,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.0018597600000000002,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.0030996000000000005,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.004339440000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.005579280000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.006199200000000001,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 1.0,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.0006888000000000002,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.0013776000000000003,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.0020664000000000004,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.0034440000000000004,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.0048216000000000005,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.006199200000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.006888000000000001,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          }
+        ]
+      },
+      "2055": {
+        "p_500_orbit": 0.0538,
+        "grid": [
+          {
+            "p_hybrid": 0.1,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.00043040000000000005,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.0008608000000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.0012912000000000002,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.0021520000000000003,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.0030128000000000004,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.0038736000000000005,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.0043040000000000005,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.3,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.00045192,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.00090384,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.00135576,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.0022596,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.00316344,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.00406728,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.0045192,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.5,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.0007532,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.0015064,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.0022595999999999996,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.003766,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.005272399999999999,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.0067788,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.007532,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.7,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.0010544799999999998,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.0021089599999999996,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.0031634399999999996,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.005272399999999999,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.007381359999999998,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.009490319999999998,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.010544799999999998,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.9,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.0013557600000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.0027115200000000002,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.00406728,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.006778800000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.00949032,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.012201840000000002,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.013557600000000001,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 1.0,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.0015064,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.0030128,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.004519199999999999,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.007532,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.010544799999999998,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.0135576,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.015064,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          }
+        ]
+      },
+      "ever": {
+        "p_500_orbit": 0.1451,
+        "grid": [
+          {
+            "p_hybrid": 0.1,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.0011608,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.0023216,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.0034824,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.005804,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.0081256,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.0104472,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.011608,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.3,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.0012188400000000003,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.0024376800000000007,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.0036565200000000003,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.006094200000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.00853188,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.010969560000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.012188400000000002,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.5,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.0020314000000000005,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.004062800000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.0060942,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.010157000000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.014219800000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.018282600000000003,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.020314000000000002,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.7,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.00284396,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.00568792,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.008531879999999999,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.0142198,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.019907719999999997,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.02559564,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.0284396,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 0.9,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.0036565200000000008,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.0073130400000000016,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.010969560000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.018282600000000003,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.025595640000000003,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.03290868000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.036565200000000006,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          },
+          {
+            "p_hybrid": 1.0,
+            "cells": [
+              {
+                "p_rendezvous": 0.1,
+                "max_conjunction": 0.004062800000000001,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.2,
+                "max_conjunction": 0.008125600000000002,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.3,
+                "max_conjunction": 0.0121884,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.5,
+                "max_conjunction": 0.020314000000000002,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.7,
+                "max_conjunction": 0.028439600000000002,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 0.9,
+                "max_conjunction": 0.036565200000000006,
+                "capital_class": "technology_demonstrator"
+              },
+              {
+                "p_rendezvous": 1.0,
+                "max_conjunction": 0.040628000000000004,
+                "capital_class": "technology_demonstrator"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "breakevens_by_base_rate_window_threshold": {
+    "us_only_uniform": {
+      "2035": {
+        "venture": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        },
+        "corp_growth": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        },
+        "regulated_utility": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        },
+        "sovereign_bond": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        }
+      },
+      "2045": {
+        "venture": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        },
+        "corp_growth": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        },
+        "regulated_utility": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        },
+        "sovereign_bond": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        }
+      },
+      "2055": {
+        "venture": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        },
+        "corp_growth": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        },
+        "regulated_utility": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        },
+        "sovereign_bond": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        }
+      },
+      "ever": {
+        "venture": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        },
+        "corp_growth": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        },
+        "regulated_utility": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        },
+        "sovereign_bond": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        }
+      }
+    },
+    "global_uniform": {
+      "2035": {
+        "venture": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        },
+        "corp_growth": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        },
+        "regulated_utility": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        },
+        "sovereign_bond": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        }
+      },
+      "2045": {
+        "venture": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        },
+        "corp_growth": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        },
+        "regulated_utility": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        },
+        "sovereign_bond": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        }
+      },
+      "2055": {
+        "venture": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        },
+        "corp_growth": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        },
+        "regulated_utility": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        },
+        "sovereign_bond": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        }
+      },
+      "ever": {
+        "venture": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        },
+        "corp_growth": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        },
+        "regulated_utility": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        },
+        "sovereign_bond": {
+          "crossable_in_sweep": false,
+          "min_compound": null
+        }
+      }
+    }
+  },
+  "x0_corner_only_breakevens": {
+    "us_only_uniform": {
+      "2035": {
+        "venture": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        },
+        "corp_growth": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        },
+        "regulated_utility": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        },
+        "sovereign_bond": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        }
+      },
+      "2045": {
+        "venture": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        },
+        "corp_growth": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        },
+        "regulated_utility": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        },
+        "sovereign_bond": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        }
+      },
+      "2055": {
+        "venture": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        },
+        "corp_growth": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        },
+        "regulated_utility": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        },
+        "sovereign_bond": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        }
+      },
+      "ever": {
+        "venture": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        },
+        "corp_growth": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        },
+        "regulated_utility": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        },
+        "sovereign_bond": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        }
+      }
+    },
+    "global_uniform": {
+      "2035": {
+        "venture": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        },
+        "corp_growth": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        },
+        "regulated_utility": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        },
+        "sovereign_bond": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        }
+      },
+      "2045": {
+        "venture": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        },
+        "corp_growth": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        },
+        "regulated_utility": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        },
+        "sovereign_bond": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        }
+      },
+      "2055": {
+        "venture": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        },
+        "corp_growth": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        },
+        "regulated_utility": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        },
+        "sovereign_bond": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        }
+      },
+      "ever": {
+        "venture": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        },
+        "corp_growth": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        },
+        "regulated_utility": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        },
+        "sovereign_bond": {
+          "crossable_in_sweep": false,
+          "min_p_r": null
+        }
+      }
+    }
+  },
+  "engineering_prior_lift_baseline_to_max": {
+    "baseline_value_us_2035": 3.78e-05,
+    "max_value_us_2035": 0.000252,
+    "lift_factor": 6.666666666666667
+  },
+  "hypotheses": {
+    "H1": {
+      "hypothesis": "Under US-only + 2035, venture compound breakeven \u2265 0.95",
+      "min_compound": {
+        "crossable_in_sweep": false,
+        "min_compound": null
+      },
+      "verdict": "CONFIRMED"
+    },
+    "H2": {
+      "hypothesis": "Under global + ever-50yr, venture compound breakeven \u2265 0.30",
+      "min_compound": {
+        "crossable_in_sweep": false,
+        "min_compound": null
+      },
+      "verdict": "CONFIRMED"
+    },
+    "H3": {
+      "hypothesis": "Under global + ever-50yr, corp-growth (30%) unreachable at compound \u2264 1.0",
+      "compound_data": {
+        "crossable_in_sweep": false,
+        "min_compound": null
+      },
+      "verdict": "CONFIRMED"
+    },
+    "H4": {
+      "hypothesis": "X=0 corner: venture unreachable at any P_RENDEZVOUS \u2264 1.0 under global+ever",
+      "x0_data": {
+        "crossable_in_sweep": false,
+        "min_p_r": null
+      },
+      "verdict": "CONFIRMED"
+    },
+    "H5": {
+      "hypothesis": "Engineering-prior lift from baseline to max < 10\u00d7",
+      "lift_factor": 6.666666666666667,
+      "verdict": "CONFIRMED"
+    }
+  }
+}

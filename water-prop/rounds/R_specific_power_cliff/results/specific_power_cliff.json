@@ -1,0 +1,400 @@
+{
+  "round": "R-specific-power-cliff",
+  "author": "enceladus-r5",
+  "date": "2026-05-15",
+  "pre_registration": "STUDY.md (H-10-a..h)",
+  "specific_power_levels_w_per_kg": [
+    2.4,
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0
+  ],
+  "sweep_axes": {
+    "reactor_kwe": [
+      40.0,
+      100.0,
+      200.0,
+      500.0,
+      1000.0
+    ],
+    "chunk_t": [
+      30.0,
+      50.0,
+      100.0,
+      200.0
+    ],
+    "isp_s": [
+      1500.0,
+      2000.0,
+      2934.0
+    ]
+  },
+  "closure_counts": {
+    "2.4": {
+      "n_cells_total": 60,
+      "n_pos_payload": 10,
+      "n_close_15yr": 0,
+      "n_close_20yr": 0,
+      "n_close_25yr": 0,
+      "n_close_30yr": 0
+    },
+    "5.0": {
+      "n_cells_total": 60,
+      "n_pos_payload": 19,
+      "n_close_15yr": 0,
+      "n_close_20yr": 0,
+      "n_close_25yr": 0,
+      "n_close_30yr": 1
+    },
+    "6.0": {
+      "n_cells_total": 60,
+      "n_pos_payload": 19,
+      "n_close_15yr": 0,
+      "n_close_20yr": 0,
+      "n_close_25yr": 0,
+      "n_close_30yr": 3
+    },
+    "7.0": {
+      "n_cells_total": 60,
+      "n_pos_payload": 20,
+      "n_close_15yr": 0,
+      "n_close_20yr": 0,
+      "n_close_25yr": 0,
+      "n_close_30yr": 6
+    },
+    "8.0": {
+      "n_cells_total": 60,
+      "n_pos_payload": 24,
+      "n_close_15yr": 0,
+      "n_close_20yr": 0,
+      "n_close_25yr": 4,
+      "n_close_30yr": 10
+    },
+    "9.0": {
+      "n_cells_total": 60,
+      "n_pos_payload": 28,
+      "n_close_15yr": 0,
+      "n_close_20yr": 0,
+      "n_close_25yr": 7,
+      "n_close_30yr": 14
+    },
+    "10.0": {
+      "n_cells_total": 60,
+      "n_pos_payload": 29,
+      "n_close_15yr": 0,
+      "n_close_20yr": 0,
+      "n_close_25yr": 9,
+      "n_close_30yr": 15
+    }
+  },
+  "best_cells": {
+    "2.4": {
+      "best_at_20yr": null,
+      "best_at_25yr": null,
+      "best_at_30yr": null
+    },
+    "5.0": {
+      "best_at_20yr": null,
+      "best_at_25yr": null,
+      "best_at_30yr": {
+        "feasible": true,
+        "m_tug_t": 115.34460272272013,
+        "m_prop_outbound_t": 206.89215245675663,
+        "m_LEO_t": 322.23675517947675,
+        "thrust_N": 22.590849980765284,
+        "mass_ratio_outbound": 2.7936873297323674,
+        "m_prop_inbound_t": 181.69603598933153,
+        "mass_ratio_inbound": 2.3595060570443027,
+        "t_outbound_burn_yr": 8.350034394235513,
+        "t_cruise_each_yr": 6.085857577229889,
+        "t_saturn_ops_yr": 1.0,
+        "t_inbound_burn_yr": 7.333135316112492,
+        "round_trip_yr": 28.854884864807783,
+        "closes_15yr": false,
+        "closes_20yr": false,
+        "closes_25yr": false,
+        "closes_30yr": true,
+        "delivered_t": 18.303964010668466,
+        "delivered_fraction": 0.09151982005334233,
+        "specific_power_w_per_kg": 5.0,
+        "reactor_kwe": 500.0,
+        "chunk_t": 200.0,
+        "isp_s": 2934.0
+      }
+    },
+    "6.0": {
+      "best_at_20yr": null,
+      "best_at_25yr": null,
+      "best_at_30yr": {
+        "feasible": true,
+        "m_tug_t": 97.03593562387566,
+        "m_prop_outbound_t": 174.05212825727145,
+        "m_LEO_t": 271.0880638811471,
+        "thrust_N": 22.590849980765284,
+        "mass_ratio_outbound": 2.7936873297323674,
+        "m_prop_inbound_t": 171.1469027319807,
+        "mass_ratio_inbound": 2.3595060570443027,
+        "t_outbound_burn_yr": 7.024632109436226,
+        "t_cruise_each_yr": 6.085857577229889,
+        "t_saturn_ops_yr": 1.0,
+        "t_inbound_burn_yr": 6.907379073150768,
+        "round_trip_yr": 27.10372633704677,
+        "closes_15yr": false,
+        "closes_20yr": false,
+        "closes_25yr": false,
+        "closes_30yr": true,
+        "delivered_t": 28.853097268019297,
+        "delivered_fraction": 0.14426548634009648,
+        "specific_power_w_per_kg": 6.0,
+        "reactor_kwe": 500.0,
+        "chunk_t": 200.0,
+        "isp_s": 2934.0
+      }
+    },
+    "7.0": {
+      "best_at_20yr": null,
+      "best_at_25yr": null,
+      "best_at_30yr": {
+        "feasible": true,
+        "m_tug_t": 83.95831626755819,
+        "m_prop_outbound_t": 150.59496811478203,
+        "m_LEO_t": 234.55328438234022,
+        "thrust_N": 22.590849980765284,
+        "mass_ratio_outbound": 2.7936873297323674,
+        "m_prop_inbound_t": 163.61180754815865,
+        "mass_ratio_inbound": 2.3595060570443027,
+        "t_outbound_burn_yr": 6.07791619172245,
+        "t_cruise_each_yr": 6.085857577229889,
+        "t_saturn_ops_yr": 1.0,
+        "t_inbound_burn_yr": 6.603267471035247,
+        "round_trip_yr": 25.852898817217472,
+        "closes_15yr": false,
+        "closes_20yr": false,
+        "closes_25yr": false,
+        "closes_30yr": true,
+        "delivered_t": 36.38819245184135,
+        "delivered_fraction": 0.18194096225920675,
+        "specific_power_w_per_kg": 7.0,
+        "reactor_kwe": 500.0,
+        "chunk_t": 200.0,
+        "isp_s": 2934.0
+      }
+    },
+    "8.0": {
+      "best_at_20yr": null,
+      "best_at_25yr": {
+        "feasible": true,
+        "m_tug_t": 74.15010175032009,
+        "m_prop_outbound_t": 133.00209800791498,
+        "m_LEO_t": 207.15219975823507,
+        "thrust_N": 22.590849980765284,
+        "mass_ratio_outbound": 2.7936873297323674,
+        "m_prop_inbound_t": 157.96048616029216,
+        "mass_ratio_inbound": 2.3595060570443027,
+        "t_outbound_burn_yr": 5.367879253437116,
+        "t_cruise_each_yr": 6.085857577229889,
+        "t_saturn_ops_yr": 1.0,
+        "t_inbound_burn_yr": 6.37518376944861,
+        "round_trip_yr": 24.914778177345504,
+        "closes_15yr": false,
+        "closes_20yr": false,
+        "closes_25yr": true,
+        "closes_30yr": true,
+        "delivered_t": 42.03951383970784,
+        "delivered_fraction": 0.21019756919853919,
+        "specific_power_w_per_kg": 8.0,
+        "reactor_kwe": 500.0,
+        "chunk_t": 200.0,
+        "isp_s": 2934.0
+      },
+      "best_at_30yr": {
+        "feasible": true,
+        "m_tug_t": 74.15010175032009,
+        "m_prop_outbound_t": 133.00209800791498,
+        "m_LEO_t": 207.15219975823507,
+        "thrust_N": 22.590849980765284,
+        "mass_ratio_outbound": 2.7936873297323674,
+        "m_prop_inbound_t": 157.96048616029216,
+        "mass_ratio_inbound": 2.3595060570443027,
+        "t_outbound_burn_yr": 5.367879253437116,
+        "t_cruise_each_yr": 6.085857577229889,
+        "t_saturn_ops_yr": 1.0,
+        "t_inbound_burn_yr": 6.37518376944861,
+        "round_trip_yr": 24.914778177345504,
+        "closes_15yr": false,
+        "closes_20yr": false,
+        "closes_25yr": true,
+        "closes_30yr": true,
+        "delivered_t": 42.03951383970784,
+        "delivered_fraction": 0.21019756919853919,
+        "specific_power_w_per_kg": 8.0,
+        "reactor_kwe": 500.0,
+        "chunk_t": 200.0,
+        "isp_s": 2934.0
+      }
+    },
+    "9.0": {
+      "best_at_20yr": null,
+      "best_at_25yr": {
+        "feasible": true,
+        "m_tug_t": 66.5214904591349,
+        "m_prop_outbound_t": 119.31875459146283,
+        "m_LEO_t": 185.84024505059773,
+        "thrust_N": 22.590849980765284,
+        "mass_ratio_outbound": 2.7936873297323674,
+        "m_prop_inbound_t": 153.5650139697293,
+        "mass_ratio_inbound": 2.3595060570443027,
+        "t_outbound_burn_yr": 4.815628301437412,
+        "t_cruise_each_yr": 6.085857577229889,
+        "t_saturn_ops_yr": 1.0,
+        "t_inbound_burn_yr": 6.197785334881225,
+        "round_trip_yr": 24.185128790778414,
+        "closes_15yr": false,
+        "closes_20yr": false,
+        "closes_25yr": true,
+        "closes_30yr": true,
+        "delivered_t": 46.43498603027069,
+        "delivered_fraction": 0.23217493015135346,
+        "specific_power_w_per_kg": 9.0,
+        "reactor_kwe": 500.0,
+        "chunk_t": 200.0,
+        "isp_s": 2934.0
+      },
+      "best_at_30yr": {
+        "feasible": true,
+        "m_tug_t": 66.5214904591349,
+        "m_prop_outbound_t": 119.31875459146283,
+        "m_LEO_t": 185.84024505059773,
+        "thrust_N": 22.590849980765284,
+        "mass_ratio_outbound": 2.7936873297323674,
+        "m_prop_inbound_t": 153.5650139697293,
+        "mass_ratio_inbound": 2.3595060570443027,
+        "t_outbound_burn_yr": 4.815628301437412,
+        "t_cruise_each_yr": 6.085857577229889,
+        "t_saturn_ops_yr": 1.0,
+        "t_inbound_burn_yr": 6.197785334881225,
+        "round_trip_yr": 24.185128790778414,
+        "closes_15yr": false,
+        "closes_20yr": false,
+        "closes_25yr": true,
+        "closes_30yr": true,
+        "delivered_t": 46.43498603027069,
+        "delivered_fraction": 0.23217493015135346,
+        "specific_power_w_per_kg": 9.0,
+        "reactor_kwe": 500.0,
+        "chunk_t": 200.0,
+        "isp_s": 2934.0
+      }
+    },
+    "10.0": {
+      "best_at_20yr": null,
+      "best_at_25yr": {
+        "feasible": true,
+        "m_tug_t": 60.41860142618673,
+        "m_prop_outbound_t": 108.37207985830109,
+        "m_LEO_t": 168.79068128448782,
+        "thrust_N": 22.590849980765284,
+        "mass_ratio_outbound": 2.7936873297323674,
+        "m_prop_inbound_t": 150.048636217279,
+        "mass_ratio_inbound": 2.3595060570443027,
+        "t_outbound_burn_yr": 4.37382753983765,
+        "t_cruise_each_yr": 6.085857577229889,
+        "t_saturn_ops_yr": 1.0,
+        "t_inbound_burn_yr": 6.055866587227315,
+        "round_trip_yr": 23.60140928152474,
+        "closes_15yr": false,
+        "closes_20yr": false,
+        "closes_25yr": true,
+        "closes_30yr": true,
+        "delivered_t": 49.95136378272099,
+        "delivered_fraction": 0.24975681891360493,
+        "specific_power_w_per_kg": 10.0,
+        "reactor_kwe": 500.0,
+        "chunk_t": 200.0,
+        "isp_s": 2934.0
+      },
+      "best_at_30yr": {
+        "feasible": true,
+        "m_tug_t": 60.41860142618673,
+        "m_prop_outbound_t": 108.37207985830109,
+        "m_LEO_t": 168.79068128448782,
+        "thrust_N": 22.590849980765284,
+        "mass_ratio_outbound": 2.7936873297323674,
+        "m_prop_inbound_t": 150.048636217279,
+        "mass_ratio_inbound": 2.3595060570443027,
+        "t_outbound_burn_yr": 4.37382753983765,
+        "t_cruise_each_yr": 6.085857577229889,
+        "t_saturn_ops_yr": 1.0,
+        "t_inbound_burn_yr": 6.055866587227315,
+        "round_trip_yr": 23.60140928152474,
+        "closes_15yr": false,
+        "closes_20yr": false,
+        "closes_25yr": true,
+        "closes_30yr": true,
+        "delivered_t": 49.95136378272099,
+        "delivered_fraction": 0.24975681891360493,
+        "specific_power_w_per_kg": 10.0,
+        "reactor_kwe": 500.0,
+        "chunk_t": 200.0,
+        "isp_s": 2934.0
+      }
+    }
+  },
+  "cliff_detection": {
+    "monotonic_increasing_with_specific_power": true,
+    "largest_single_step_increase": {
+      "delta_close_cells": 4,
+      "between_w_per_kg": [
+        7.0,
+        8.0
+      ]
+    },
+    "first_specific_power_with_zero_close": 2.4,
+    "last_specific_power_with_nonzero_close": 10.0
+  },
+  "hypothesis_grading": {
+    "H_10_a_monotonic": {
+      "predicted": "monotonic increase in close-cell count with specific power",
+      "measured": "monotonic = True",
+      "status": "HELD"
+    },
+    "H_10_b_cliff_location": {
+      "predicted": "cliff (drop to 0 close at 25-yr) lies between 7 and 9 W/kg inclusive",
+      "measured": "first zero-close sp = 2.4 W/kg; last nonzero-close sp = 10.0 W/kg",
+      "status": "FALSIFIED"
+    },
+    "H_10_c_9wpkg": {
+      "predicted": "5-9 close at 25-yr",
+      "measured": "7/60",
+      "status": "HELD"
+    },
+    "H_10_d_8wpkg": {
+      "predicted": "2-6 close at 25-yr",
+      "measured": "4/60",
+      "status": "HELD"
+    },
+    "H_10_e_7wpkg": {
+      "predicted": "0-3 close at 25-yr",
+      "measured": "0/60",
+      "status": "HELD"
+    },
+    "H_10_f_6wpkg": {
+      "predicted": "0-1 close at 25-yr",
+      "measured": "0/60",
+      "status": "HELD"
+    },
+    "H_10_g_gradient": {
+      "predicted": "no sharp single-step cliff (max-step <5 between adjacent levels)",
+      "measured": "largest step = 4 cells between 7.0 and 8.0 W/kg",
+      "status": "HELD"
+    },
+    "H_10_h_aggregate": {
+      "predicted": "5-10 W/kg yields 5-10 percentage-point spread in L0-05-25yr closure rate; midpoint near 6-8 W/kg",
+      "measured": "2.4 W/kg: 0.0%; 5.0 W/kg: 0.0%; 6.0 W/kg: 0.0%; 7.0 W/kg: 0.0%; 8.0 W/kg: 6.7%; 9.0 W/kg: 11.7%; 10.0 W/kg: 15.0%",
+      "status_short": "see component hypotheses"
+    }
+  }
+}

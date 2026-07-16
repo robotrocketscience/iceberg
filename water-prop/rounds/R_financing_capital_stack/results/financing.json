@@ -1,0 +1,164 @@
+{
+  "tranche_costs": {
+    "dev_equity": 0.2,
+    "gov_grant": 0.0,
+    "sov_wealth": 0.05,
+    "project_debt": 0.06,
+    "royalty": 0.08,
+    "offtake_prepay": 0.05
+  },
+  "phase_capex_M": {
+    "1_development": 600,
+    "2_mission_1_launch": 500,
+    "3_mission_1_cruise": 325,
+    "4_ships_2_3": 700,
+    "5_steady_state_per_ship": 300
+  },
+  "phase_mix": {
+    "1_development": {
+      "dev_equity": 0.5,
+      "gov_grant": 0.3,
+      "sov_wealth": 0.2,
+      "project_debt": 0.0,
+      "royalty": 0.0
+    },
+    "2_mission_1_launch": {
+      "dev_equity": 0.3,
+      "gov_grant": 0.2,
+      "sov_wealth": 0.4,
+      "project_debt": 0.1,
+      "royalty": 0.0
+    },
+    "3_mission_1_cruise": {
+      "dev_equity": 0.2,
+      "gov_grant": 0.0,
+      "sov_wealth": 0.5,
+      "project_debt": 0.3,
+      "royalty": 0.0
+    },
+    "4_ships_2_3": {
+      "dev_equity": 0.1,
+      "gov_grant": 0.0,
+      "sov_wealth": 0.3,
+      "project_debt": 0.4,
+      "royalty": 0.2
+    },
+    "5_steady_state_per_ship": {
+      "dev_equity": 0.1,
+      "gov_grant": 0.0,
+      "sov_wealth": 0.1,
+      "project_debt": 0.6,
+      "royalty": 0.2
+    }
+  },
+  "phase_wacc": {
+    "1_development": 0.11000000000000001,
+    "2_mission_1_launch": 0.08600000000000001,
+    "3_mission_1_cruise": 0.083,
+    "4_ships_2_3": 0.07500000000000001,
+    "5_steady_state_per_ship": 0.077
+  },
+  "tranche_totals_M": {
+    "dev_equity": 615.0,
+    "gov_grant": 280.0,
+    "sov_wealth": 722.5,
+    "project_debt": 607.5,
+    "royalty": 200.0,
+    "offtake_prepay": 0.0
+  },
+  "cum_pre_revenue_M": 1425,
+  "total_capex_M": 2425,
+  "blended_wacc": 0.08724742268041238,
+  "npv_M": {
+    "at_blended_wacc": 1335.3413709982933,
+    "at_venture_25pct": -537.150737768748,
+    "at_sovereign_3pct": 9268.498384754852,
+    "at_inframid_7pct": 2536.11703814454
+  },
+  "project_irr": 0.129418015499691,
+  "cash_flow_by_year_M": [
+    -120.0,
+    -120.0,
+    -120.0,
+    -120.0,
+    -120.0,
+    -525.0,
+    -25.0,
+    -25.0,
+    -25.0,
+    -25.0,
+    -25.0,
+    -25.0,
+    -25.0,
+    -25.0,
+    -25.0,
+    -25.0,
+    -25.0,
+    -25.0,
+    -50.0,
+    600.0,
+    550.0,
+    1200.0,
+    1200.0,
+    1200.0,
+    1200.0,
+    1200.0,
+    1200.0,
+    1200.0,
+    1200.0,
+    1200.0,
+    1200.0,
+    1200.0,
+    1200.0,
+    1200.0,
+    1200.0,
+    1200.0,
+    1200.0,
+    1200.0,
+    1200.0,
+    1200.0,
+    1200.0
+  ],
+  "comparable_projects": [
+    {
+      "name": "Trans-Alaska Pipeline (1974-77)",
+      "capex_billion_usd_then": 8.0,
+      "capex_billion_usd_2024": 50.0,
+      "horizon_yr": 40,
+      "wacc_approx_pct": 7.0,
+      "structure": "consortium of oil majors; pipeline operating contract"
+    },
+    {
+      "name": "Mineral Resources Iron Bridge (Pilbara WA, 2022)",
+      "capex_billion_usd_then": 3.0,
+      "capex_billion_usd_2024": 3.2,
+      "horizon_yr": 25,
+      "wacc_approx_pct": 8.0,
+      "structure": "60% project debt / 40% equity"
+    },
+    {
+      "name": "Cheniere Sabine Pass LNG Train 1 (2014-16)",
+      "capex_billion_usd_then": 5.6,
+      "capex_billion_usd_2024": 7.0,
+      "horizon_yr": 30,
+      "wacc_approx_pct": 6.5,
+      "structure": "70% project debt secured against 20-year offtake; 30% equity"
+    },
+    {
+      "name": "Tellurian Driftwood LNG (proposed)",
+      "capex_billion_usd_then": 16.8,
+      "capex_billion_usd_2024": 17.0,
+      "horizon_yr": 30,
+      "wacc_approx_pct": 7.0,
+      "structure": "project finance + sovereign Saudi Aramco-class equity partner"
+    },
+    {
+      "name": "Hinkley Point C Nuclear (UK, 2017-)",
+      "capex_billion_usd_then": 35.0,
+      "capex_billion_usd_2024": 45.0,
+      "horizon_yr": 60,
+      "wacc_approx_pct": 9.0,
+      "structure": "EDF + China General Nuclear equity; UK govt 35-yr Contract for Difference"
+    }
+  ]
+}

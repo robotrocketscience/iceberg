@@ -1,0 +1,582 @@
+{
+  "round": "R_mean_EV_decomposition",
+  "date": "2026-05-16",
+  "seed": 20260515,
+  "n_mc": 10000,
+  "load_bearing_cell": {
+    "launch_count": 2,
+    "wacc": 0.03,
+    "lr": 0.15,
+    "chunk_t": 200.0
+  },
+  "per_decile_decomposition": {
+    "bins": [
+      {
+        "decile_index": 0,
+        "percentile_lo": 0.0,
+        "percentile_hi": 0.1,
+        "n_draws": 1000,
+        "clearing_per_tonne_M_mean": 0.4273597348273818,
+        "clearing_per_kg_$_mean": 427.3597348273818,
+        "clearing_per_tonne_M_min": 0.026388202077580348,
+        "clearing_per_tonne_M_max": 0.749699371457543,
+        "delta_npv_M_mean": 9518.43012279651,
+        "delta_npv_M_median": 9516.493687155755,
+        "delta_npv_B_mean": 9.51843012279651,
+        "fraction_delta_negative": 0.0,
+        "contribution_to_grand_mean_M": 951.843012279651,
+        "contribution_to_grand_mean_B": 0.9518430122796511,
+        "smart_gate_abandonment_fraction": 1.0,
+        "npv_D_M_mean": -16179.277778326676,
+        "npv_R_M_mean": -6660.847655530164
+      },
+      {
+        "decile_index": 1,
+        "percentile_lo": 0.1,
+        "percentile_hi": 0.2,
+        "n_draws": 1000,
+        "clearing_per_tonne_M_mean": 1.0935251456656245,
+        "clearing_per_kg_$_mean": 1093.5251456656244,
+        "clearing_per_tonne_M_min": 0.7500343473739838,
+        "clearing_per_tonne_M_max": 1.4468674230312477,
+        "delta_npv_M_mean": 8663.501972751128,
+        "delta_npv_M_median": 8655.975748493762,
+        "delta_npv_B_mean": 8.663501972751128,
+        "fraction_delta_negative": 0.0,
+        "contribution_to_grand_mean_M": 866.3501972751128,
+        "contribution_to_grand_mean_B": 0.8663501972751128,
+        "smart_gate_abandonment_fraction": 1.0,
+        "npv_D_M_mean": -14910.18640542056,
+        "npv_R_M_mean": -6246.684432669433
+      },
+      {
+        "decile_index": 2,
+        "percentile_lo": 0.2,
+        "percentile_hi": 0.3,
+        "n_draws": 1000,
+        "clearing_per_tonne_M_mean": 1.8761105184909965,
+        "clearing_per_kg_$_mean": 1876.1105184909966,
+        "clearing_per_tonne_M_min": 1.4499405028518917,
+        "clearing_per_tonne_M_max": 2.3442595775832538,
+        "delta_npv_M_mean": 7659.165430869894,
+        "delta_npv_M_median": 7671.473233586351,
+        "delta_npv_B_mean": 7.659165430869894,
+        "fraction_delta_negative": 0.0,
+        "contribution_to_grand_mean_M": 765.9165430869895,
+        "contribution_to_grand_mean_B": 0.7659165430869894,
+        "smart_gate_abandonment_fraction": 1.0,
+        "npv_D_M_mean": -13419.306919550112,
+        "npv_R_M_mean": -5760.141488680219
+      },
+      {
+        "decile_index": 3,
+        "percentile_lo": 0.3,
+        "percentile_hi": 0.4,
+        "n_draws": 1000,
+        "clearing_per_tonne_M_mean": 2.920948028471022,
+        "clearing_per_kg_$_mean": 2920.948028471022,
+        "clearing_per_tonne_M_min": 2.3444045664670625,
+        "clearing_per_tonne_M_max": 3.5161780021369555,
+        "delta_npv_M_mean": 6318.265730927129,
+        "delta_npv_M_median": 6317.13777493099,
+        "delta_npv_B_mean": 6.318265730927129,
+        "fraction_delta_negative": 0.0,
+        "contribution_to_grand_mean_M": 631.8265730927129,
+        "contribution_to_grand_mean_B": 0.631826573092713,
+        "smart_gate_abandonment_fraction": 1.0,
+        "npv_D_M_mean": -11428.818898960983,
+        "npv_R_M_mean": -5110.5531680338545
+      },
+      {
+        "decile_index": 4,
+        "percentile_lo": 0.4,
+        "percentile_hi": 0.5,
+        "n_draws": 1000,
+        "clearing_per_tonne_M_mean": 4.334895116335671,
+        "clearing_per_kg_$_mean": 4334.895116335671,
+        "clearing_per_tonne_M_min": 3.5162732343025174,
+        "clearing_per_tonne_M_max": 5.23817211253827,
+        "delta_npv_M_mean": 4503.666611214344,
+        "delta_npv_M_median": 4546.083032535182,
+        "delta_npv_B_mean": 4.503666611214344,
+        "fraction_delta_negative": 0.0,
+        "contribution_to_grand_mean_M": 450.3666611214344,
+        "contribution_to_grand_mean_B": 0.45036666112143436,
+        "smart_gate_abandonment_fraction": 1.0,
+        "npv_D_M_mean": -8735.151497801857,
+        "npv_R_M_mean": -4231.484886587515
+      },
+      {
+        "decile_index": 5,
+        "percentile_lo": 0.5,
+        "percentile_hi": 0.6,
+        "n_draws": 1000,
+        "clearing_per_tonne_M_mean": 6.444967172925876,
+        "clearing_per_kg_$_mean": 6444.967172925876,
+        "clearing_per_tonne_M_min": 5.240224497437567,
+        "clearing_per_tonne_M_max": 7.7456231945078535,
+        "delta_npv_M_mean": 1795.6905283174844,
+        "delta_npv_M_median": 1795.2070969157742,
+        "delta_npv_B_mean": 1.7956905283174844,
+        "fraction_delta_negative": 0.0,
+        "contribution_to_grand_mean_M": 179.56905283174845,
+        "contribution_to_grand_mean_B": 0.17956905283174845,
+        "smart_gate_abandonment_fraction": 1.0,
+        "npv_D_M_mean": -4715.317685266777,
+        "npv_R_M_mean": -2919.627156949292
+      },
+      {
+        "decile_index": 6,
+        "percentile_lo": 0.6,
+        "percentile_hi": 0.7,
+        "n_draws": 1000,
+        "clearing_per_tonne_M_mean": 9.498266715214745,
+        "clearing_per_kg_$_mean": 9498.266715214746,
+        "clearing_per_tonne_M_min": 7.755594003810765,
+        "clearing_per_tonne_M_max": 11.643554012276573,
+        "delta_npv_M_mean": -2122.783302286848,
+        "delta_npv_M_median": -2022.4957661006465,
+        "delta_npv_B_mean": -2.122783302286848,
+        "fraction_delta_negative": 0.968,
+        "contribution_to_grand_mean_M": -212.2783302286848,
+        "contribution_to_grand_mean_B": -0.2122783302286848,
+        "smart_gate_abandonment_fraction": 0.528,
+        "npv_D_M_mean": 1101.4299947743498,
+        "npv_R_M_mean": -1021.3533075124983
+      },
+      {
+        "decile_index": 7,
+        "percentile_lo": 0.7,
+        "percentile_hi": 0.8,
+        "n_draws": 1000,
+        "clearing_per_tonne_M_mean": 14.889779505965103,
+        "clearing_per_kg_$_mean": 14889.779505965103,
+        "clearing_per_tonne_M_min": 11.649945974295406,
+        "clearing_per_tonne_M_max": 19.128090310886062,
+        "delta_npv_M_mean": -9042.019847970338,
+        "delta_npv_M_median": -8712.296198506814,
+        "delta_npv_B_mean": -9.042019847970337,
+        "fraction_delta_negative": 1.0,
+        "contribution_to_grand_mean_M": -904.2019847970338,
+        "contribution_to_grand_mean_B": -0.9042019847970338,
+        "smart_gate_abandonment_fraction": 0.0,
+        "npv_D_M_mean": 11372.63630229561,
+        "npv_R_M_mean": 2330.6164543252717
+      },
+      {
+        "decile_index": 8,
+        "percentile_lo": 0.8,
+        "percentile_hi": 0.9,
+        "n_draws": 1000,
+        "clearing_per_tonne_M_mean": 25.791842190239848,
+        "clearing_per_kg_$_mean": 25791.842190239848,
+        "clearing_per_tonne_M_min": 19.14283801603211,
+        "clearing_per_tonne_M_max": 35.6137954920629,
+        "delta_npv_M_mean": -23033.26005754195,
+        "delta_npv_M_median": -22133.88781715145,
+        "delta_npv_B_mean": -23.03326005754195,
+        "fraction_delta_negative": 1.0,
+        "contribution_to_grand_mean_M": -2303.326005754195,
+        "contribution_to_grand_mean_B": -2.303326005754195,
+        "smart_gate_abandonment_fraction": 0.0,
+        "npv_D_M_mean": 32141.822865262217,
+        "npv_R_M_mean": 9108.562807720265
+      },
+      {
+        "decile_index": 9,
+        "percentile_lo": 0.9,
+        "percentile_hi": 1.0,
+        "n_draws": 1000,
+        "clearing_per_tonne_M_mean": 94.0217314159687,
+        "clearing_per_kg_$_mean": 94021.73141596871,
+        "clearing_per_tonne_M_min": 35.62960741659866,
+        "clearing_per_tonne_M_max": 2166.59849449649,
+        "delta_npv_M_mean": -110596.5769522971,
+        "delta_npv_M_median": -70377.56575429418,
+        "delta_npv_B_mean": -110.5965769522971,
+        "fraction_delta_negative": 1.0,
+        "contribution_to_grand_mean_M": -11059.657695229711,
+        "contribution_to_grand_mean_B": -11.059657695229712,
+        "smart_gate_abandonment_fraction": 0.0,
+        "npv_D_M_mean": 162124.5004134035,
+        "npv_R_M_mean": 51527.923461106395
+      }
+    ],
+    "grand_mean_M": -10633.591976321975,
+    "grand_mean_B": -10.633591976321975,
+    "decile_8_to_10_contribution_M": -14267.18568578094,
+    "decile_8_to_10_contribution_pct_of_grand": 134.17089650938232
+  },
+  "per_vigintile_decomposition": {
+    "bins": [
+      {
+        "vigintile_index": 0,
+        "percentile_lo": 0.0,
+        "percentile_hi": 0.05,
+        "clearing_per_kg_$_mean": 262.0050896251735,
+        "delta_npv_M_mean": 9730.639190730932,
+        "delta_npv_B_mean": 9.730639190730932,
+        "contribution_to_grand_mean_M": 486.5319595365466
+      },
+      {
+        "vigintile_index": 1,
+        "percentile_lo": 0.05,
+        "percentile_hi": 0.1,
+        "clearing_per_kg_$_mean": 592.7143800295901,
+        "delta_npv_M_mean": 9306.221054862088,
+        "delta_npv_B_mean": 9.306221054862087,
+        "contribution_to_grand_mean_M": 465.3110527431044
+      },
+      {
+        "vigintile_index": 2,
+        "percentile_lo": 0.1,
+        "percentile_hi": 0.15,
+        "clearing_per_kg_$_mean": 923.6045104359328,
+        "delta_npv_M_mean": 8881.570836681876,
+        "delta_npv_B_mean": 8.881570836681876,
+        "contribution_to_grand_mean_M": 444.0785418340938
+      },
+      {
+        "vigintile_index": 3,
+        "percentile_lo": 0.15,
+        "percentile_hi": 0.2,
+        "clearing_per_kg_$_mean": 1263.445780895316,
+        "delta_npv_M_mean": 8445.433108820376,
+        "delta_npv_B_mean": 8.445433108820376,
+        "contribution_to_grand_mean_M": 422.2716554410188
+      },
+      {
+        "vigintile_index": 4,
+        "percentile_lo": 0.2,
+        "percentile_hi": 0.25,
+        "clearing_per_kg_$_mean": 1654.610177774097,
+        "delta_npv_M_mean": 7943.429479171709,
+        "delta_npv_B_mean": 7.9434294791717095,
+        "contribution_to_grand_mean_M": 397.17147395858547
+      },
+      {
+        "vigintile_index": 5,
+        "percentile_lo": 0.25,
+        "percentile_hi": 0.3,
+        "clearing_per_kg_$_mean": 2097.610859207896,
+        "delta_npv_M_mean": 7374.901382568078,
+        "delta_npv_B_mean": 7.374901382568078,
+        "contribution_to_grand_mean_M": 368.7450691284039
+      },
+      {
+        "vigintile_index": 6,
+        "percentile_lo": 0.3,
+        "percentile_hi": 0.35,
+        "clearing_per_kg_$_mean": 2629.032981916844,
+        "delta_npv_M_mean": 6692.896996166409,
+        "delta_npv_B_mean": 6.692896996166409,
+        "contribution_to_grand_mean_M": 334.6448498083205
+      },
+      {
+        "vigintile_index": 7,
+        "percentile_lo": 0.35,
+        "percentile_hi": 0.4,
+        "clearing_per_kg_$_mean": 3212.8630750251996,
+        "delta_npv_M_mean": 5943.634465687851,
+        "delta_npv_B_mean": 5.943634465687851,
+        "contribution_to_grand_mean_M": 297.18172328439255
+      },
+      {
+        "vigintile_index": 8,
+        "percentile_lo": 0.4,
+        "percentile_hi": 0.45,
+        "clearing_per_kg_$_mean": 3899.337131048744,
+        "delta_npv_M_mean": 5062.6430704248105,
+        "delta_npv_B_mean": 5.06264307042481,
+        "contribution_to_grand_mean_M": 253.13215352124053
+      },
+      {
+        "vigintile_index": 9,
+        "percentile_lo": 0.45,
+        "percentile_hi": 0.5,
+        "clearing_per_kg_$_mean": 4770.453101622599,
+        "delta_npv_M_mean": 3944.690152003876,
+        "delta_npv_B_mean": 3.9446901520038757,
+        "contribution_to_grand_mean_M": 197.2345076001938
+      },
+      {
+        "vigintile_index": 10,
+        "percentile_lo": 0.5,
+        "percentile_hi": 0.55,
+        "clearing_per_kg_$_mean": 5833.046989884418,
+        "delta_npv_M_mean": 2581.00267684946,
+        "delta_npv_B_mean": 2.58100267684946,
+        "contribution_to_grand_mean_M": 129.050133842473
+      },
+      {
+        "vigintile_index": 11,
+        "percentile_lo": 0.55,
+        "percentile_hi": 0.6,
+        "clearing_per_kg_$_mean": 7056.887355967335,
+        "delta_npv_M_mean": 1010.3783797855093,
+        "delta_npv_B_mean": 1.0103783797855093,
+        "contribution_to_grand_mean_M": 50.51891898927547
+      },
+      {
+        "vigintile_index": 12,
+        "percentile_lo": 0.6,
+        "percentile_hi": 0.65,
+        "clearing_per_kg_$_mean": 8542.366025250021,
+        "delta_npv_M_mean": -896.021307138642,
+        "delta_npv_B_mean": -0.896021307138642,
+        "contribution_to_grand_mean_M": -44.8010653569321
+      },
+      {
+        "vigintile_index": 13,
+        "percentile_lo": 0.65,
+        "percentile_hi": 0.7,
+        "clearing_per_kg_$_mean": 10454.167405179469,
+        "delta_npv_M_mean": -3349.5452974350546,
+        "delta_npv_B_mean": -3.349545297435055,
+        "contribution_to_grand_mean_M": -167.47726487175274
+      },
+      {
+        "vigintile_index": 14,
+        "percentile_lo": 0.7,
+        "percentile_hi": 0.75,
+        "clearing_per_kg_$_mean": 13069.099380644055,
+        "delta_npv_M_mean": -6705.436972245077,
+        "delta_npv_B_mean": -6.705436972245077,
+        "contribution_to_grand_mean_M": -335.2718486122539
+      },
+      {
+        "vigintile_index": 15,
+        "percentile_lo": 0.75,
+        "percentile_hi": 0.8,
+        "clearing_per_kg_$_mean": 16710.459631286154,
+        "delta_npv_M_mean": -11378.602723695598,
+        "delta_npv_B_mean": -11.378602723695598,
+        "contribution_to_grand_mean_M": -568.9301361847799
+      },
+      {
+        "vigintile_index": 16,
+        "percentile_lo": 0.8,
+        "percentile_hi": 0.85,
+        "clearing_per_kg_$_mean": 21925.457826293634,
+        "delta_npv_M_mean": -18071.307999007997,
+        "delta_npv_B_mean": -18.071307999007995,
+        "contribution_to_grand_mean_M": -903.5653999503999
+      },
+      {
+        "vigintile_index": 17,
+        "percentile_lo": 0.85,
+        "percentile_hi": 0.9,
+        "clearing_per_kg_$_mean": 29658.226554186065,
+        "delta_npv_M_mean": -27995.2121160759,
+        "delta_npv_B_mean": -27.9952121160759,
+        "contribution_to_grand_mean_M": -1399.7606058037952
+      },
+      {
+        "vigintile_index": 18,
+        "percentile_lo": 0.9,
+        "percentile_hi": 0.95,
+        "clearing_per_kg_$_mean": 46799.636702898955,
+        "delta_npv_M_mean": -49993.76357068857,
+        "delta_npv_B_mean": -49.99376357068857,
+        "contribution_to_grand_mean_M": -2499.6881785344285
+      },
+      {
+        "vigintile_index": 19,
+        "percentile_lo": 0.95,
+        "percentile_hi": 1.0,
+        "clearing_per_kg_$_mean": 141243.82612903847,
+        "delta_npv_M_mean": -171199.39033390564,
+        "delta_npv_B_mean": -171.19939033390565,
+        "contribution_to_grand_mean_M": -8559.969516695282
+      }
+    ],
+    "grand_mean_M": -10633.591976321975,
+    "sign_inflection_bin_index": 12,
+    "sign_inflection_percentile_lo": 0.6,
+    "sign_inflection_percentile_hi": 0.65,
+    "top_quartile_contribution_M": -13931.913837168686,
+    "top_quartile_contribution_B": -13.931913837168686,
+    "top_quartile_contribution_pct_of_grand": 131.01794641162786
+  },
+  "cap_truncation_sweep": {
+    "cap_sweep_results": [
+      {
+        "cap_percentile": null,
+        "cap_clearing_per_tonne_M": null,
+        "cap_clearing_per_kg_$": null,
+        "mean_delta_M": -10633.591976321974,
+        "mean_delta_B": -10.633591976321974,
+        "median_delta_M": 3343.1226388369887,
+        "fraction_delta_positive": 0.6032,
+        "label": "no_cap_baseline"
+      },
+      {
+        "cap_percentile": 0.7,
+        "cap_clearing_per_tonne_M": 11.649945974295406,
+        "cap_clearing_per_kg_$": 11649.945974295406,
+        "mean_delta_M": 2168.346823531089,
+        "mean_delta_B": 2.1683468235310888,
+        "median_delta_M": 3343.1226388369887,
+        "fraction_delta_positive": 0.6032,
+        "label": "cap_p70"
+      },
+      {
+        "cap_percentile": 0.8,
+        "cap_clearing_per_tonne_M": 19.14283801603211,
+        "cap_clearing_per_kg_$": 19142.838016032107,
+        "mean_delta_M": -170.6508634761619,
+        "mean_delta_B": -0.1706508634761619,
+        "median_delta_M": 3343.1226388369887,
+        "fraction_delta_positive": 0.6032,
+        "label": "cap_p80"
+      },
+      {
+        "cap_percentile": 0.9,
+        "cap_clearing_per_tonne_M": 35.62960741659866,
+        "cap_clearing_per_kg_$": 35629.60741659866,
+        "mean_delta_M": -3139.796931456785,
+        "mean_delta_B": -3.139796931456785,
+        "median_delta_M": 3343.1226388369887,
+        "fraction_delta_positive": 0.6032,
+        "label": "cap_p90"
+      },
+      {
+        "cap_percentile": 0.95,
+        "cap_clearing_per_tonne_M": 62.70659556932652,
+        "cap_clearing_per_kg_$": 62706.59556932651,
+        "mean_delta_M": -5594.026116274192,
+        "mean_delta_B": -5.5940261162741916,
+        "median_delta_M": 3343.1226388369887,
+        "fraction_delta_positive": 0.6032,
+        "label": "cap_p95"
+      },
+      {
+        "cap_percentile": 0.99,
+        "cap_clearing_per_tonne_M": 170.77637954089772,
+        "cap_clearing_per_kg_$": 170776.37954089773,
+        "mean_delta_M": -8779.318285781746,
+        "mean_delta_B": -8.779318285781747,
+        "median_delta_M": 3343.1226388369887,
+        "fraction_delta_positive": 0.6032,
+        "label": "cap_p99"
+      }
+    ],
+    "sign_flip_bracket": {
+      "cap_percentile_above": 0.8,
+      "cap_percentile_below": 0.7,
+      "mean_delta_above_M": -170.6508634761619,
+      "mean_delta_below_M": 2168.346823531089
+    }
+  },
+  "cross_checks": {
+    "XC1_grand_mean_replication": {
+      "measured_B": -10.633591976321975,
+      "r14_published_B": -10.6,
+      "rel_err_pct": 0.31690543699977014,
+      "passes": true
+    },
+    "XC2_R14_h7_reproduction": {
+      "delta_at_p25_measured_B": 7.374901382568078,
+      "delta_at_p25_R14_B": 7.67,
+      "delta_at_p50_measured_B": 2.58100267684946,
+      "delta_at_p50_R14_B": 3.34,
+      "delta_at_p75_measured_B": -11.378602723695598,
+      "delta_at_p75_R14_B": -8.72,
+      "note": "vigintile mean is over a 5%-wide band; not exactly equal to R14's single-point estimate",
+      "passes_p75_sign": true,
+      "passes_p50_sign": true,
+      "passes_p25_sign": true
+    },
+    "XC3_top_quartile_vigintile_sum": {
+      "computed_M": -13931.913837168686,
+      "reported_M": -13931.913837168686,
+      "passes": true
+    },
+    "XC4_cap_truncation_monotonicity": {
+      "passes": true,
+      "sweep_means_B_low_to_high": [
+        2.1683468235310888,
+        -0.1706508634761619,
+        -3.139796931456785,
+        -5.5940261162741916,
+        -8.779318285781747
+      ]
+    },
+    "XC5_smart_gate_global_rate": {
+      "measured": 0.6528,
+      "R14_published": 0.653,
+      "abs_diff_pp": 0.019999999999997797,
+      "passes": true
+    }
+  },
+  "grades": [
+    {
+      "id": "H1",
+      "claim": "top-quartile (p75-p100) clearing draws contribute [35%, 65%] of grand mean \u0394-NPV",
+      "predicted_band_pct": [
+        35.0,
+        65.0
+      ],
+      "measured_pct": 131.01794641162786,
+      "status": "FALSIFIED"
+    },
+    {
+      "id": "H2",
+      "claim": "sign-inflection bin in [p55, p70]",
+      "predicted_band": [
+        0.55,
+        0.7
+      ],
+      "measured_percentile_lo": 0.6,
+      "measured_percentile_hi": 0.65,
+      "status": "HELD"
+    },
+    {
+      "id": "H3",
+      "claim": "|mean \u0394(top decile)| / |mean \u0394(bottom decile)| >= 3",
+      "predicted_floor": 3.0,
+      "measured_ratio": 11.619203537295483,
+      "bot_decile_mean_M": 9518.43012279651,
+      "top_decile_mean_M": -110596.5769522971,
+      "status": "HELD"
+    },
+    {
+      "id": "H4",
+      "claim": "cap at clearing p80 produces grand mean \u0394-NPV in [-$1B, +$3B]",
+      "predicted_band_B": [
+        -1.0,
+        3.0
+      ],
+      "measured_B": -0.1706508634761619,
+      "status": "HELD"
+    },
+    {
+      "id": "H5",
+      "claim": "smart-gate abandonment monotone-decreasing in clearing decile; bot >= 95%, top <= 5%",
+      "monotone": true,
+      "bot_decile_abandonment": 1.0,
+      "top_decile_abandonment": 0.0,
+      "all_deciles_abandonment": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.528,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "HELD"
+    },
+    {
+      "id": "H6",
+      "claim": "per-decile sum reproduces R14 grand mean -$10.6 B within \u00b15%",
+      "predicted_tol": 0.05,
+      "measured_B": -10.633591976321975,
+      "rel_err": 0.0031690543699977015,
+      "status": "HELD"
+    }
+  ]
+}

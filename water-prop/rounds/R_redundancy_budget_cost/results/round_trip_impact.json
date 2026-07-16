@@ -1,0 +1,42 @@
+{
+  "Kilopower_variant_B": {
+    "cell": "Kilopower variant B (10 kWe, chunk-fed chemical inbound)",
+    "reactor_kwe": 10.0,
+    "isp_s": 1500.0,
+    "chunk_t": 100.0,
+    "m_dry_baseline_t": 16.0,
+    "m_dry_with_overlay_t": 21.335,
+    "outbound_burn_yr_baseline": 0.3,
+    "outbound_burn_yr_overlay": 0.3,
+    "inbound_burn_yr_baseline": 6.435293236573226,
+    "inbound_burn_yr_overlay": 6.731261248789763,
+    "cruise_yr": 6.085857577229889,
+    "saturn_ops_yr": 1.0,
+    "round_trip_baseline_yr": 19.907008391033003,
+    "round_trip_overlay_yr": 20.20297640324954,
+    "L0_05_margin_baseline_yr": -4.907008391033003,
+    "L0_05_margin_overlay_yr": -5.20297640324954,
+    "L0_05_clears_baseline": false,
+    "L0_05_clears_overlay": false
+  },
+  "megawatt_all_electric": {
+    "cell": "Megawatt all-electric (1 MWe, decomposed-mid)",
+    "reactor_kwe": 1000.0,
+    "isp_s": 2000.0,
+    "chunk_t": 200.0,
+    "m_dry_baseline_t": 29.0,
+    "m_dry_with_overlay_t": 41.76,
+    "outbound_burn_yr_baseline": 0.1632044835934801,
+    "outbound_burn_yr_overlay": 0.23501445637461138,
+    "inbound_burn_yr_baseline": 0.5996580766519626,
+    "inbound_burn_yr_overlay": 0.6330713389143164,
+    "cruise_yr": 6.085857577229889,
+    "saturn_ops_yr": 1.0,
+    "round_trip_baseline_yr": 13.93457771470522,
+    "round_trip_overlay_yr": 14.039800949748706,
+    "L0_05_margin_baseline_yr": 1.0654222852947797,
+    "L0_05_margin_overlay_yr": 0.960199050251294,
+    "L0_05_clears_baseline": true,
+    "L0_05_clears_overlay": true
+  }
+}

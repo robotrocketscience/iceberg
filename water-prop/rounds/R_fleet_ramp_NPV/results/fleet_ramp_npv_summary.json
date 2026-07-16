@@ -1,0 +1,607 @@
+{
+  "round": "R-fleet-ramp-NPV",
+  "author": "enceladus-r5",
+  "date": "2026-05-15",
+  "n_sweep_cells": 9720,
+  "crosschecks": {
+    "crosscheck_1_wacc0": {
+      "arch": "E_500kWe_200t",
+      "computed_npv_M": -3300.0,
+      "expected_npv_M": -3300.0,
+      "delta_M": 0.0,
+      "n_ships": 33,
+      "n_deliveries": 33,
+      "passes": true
+    },
+    "crosscheck_2_legacy_vs_ramp": {
+      "arch": "E_500kWe_200t",
+      "legacy_npv_M": -13888.50636088195,
+      "ramp_npv_M": -4978.42158632966,
+      "ramp_less_negative_by_M": 8910.084774552288,
+      "reduction_pct": 64.15437731769508,
+      "pre_registered_band_pct": [
+        35,
+        65
+      ]
+    },
+    "crosscheck_3_prereg_arithmetic": {
+      "arch": "E_500kWe_200t",
+      "expected_pv_capital_M": -6249.0,
+      "computed_pv_capital_M": -5489.417935678876,
+      "expected_pv_revenue_M": 447.0,
+      "computed_pv_revenue_M": 510.9963493492162,
+      "expected_npv_M": -5802.0,
+      "computed_npv_M": -4978.42158632966,
+      "delta_npv_pct": 14.194733086355388,
+      "within_10pct": false,
+      "within_25pct": true
+    },
+    "crosscheck_4_breakeven_wacc0": {
+      "computed_M": 300.0,
+      "expected_M": 300.0,
+      "passes": true
+    }
+  },
+  "grades": {
+    "H7a": {
+      "predicted_band_pct": [
+        35,
+        65
+      ],
+      "measured_reduction_pct": 64.15437731769508,
+      "legacy_npv_M": -13888.50636088195,
+      "ramp_npv_M": -4978.42158632966,
+      "held": true,
+      "sign_flipped_positive": false
+    },
+    "H7b": {
+      "predicted_band_M": [
+        1500,
+        3500
+      ],
+      "measured_breakeven_M": 2148.515519795776,
+      "held": true
+    },
+    "H7c": {
+      "predicted_band_M": [
+        700,
+        1500
+      ],
+      "measured_breakeven_M": 1297.6818988152982,
+      "held": true
+    },
+    "H7d": {
+      "predicted_band_M": [
+        1500,
+        5000
+      ],
+      "measured_B_minus_E_npv_M": -4568.239230208231,
+      "ramp_E_npv_M": -4978.42158632966,
+      "ramp_B_npv_M": -9546.660816537891,
+      "B_less_negative_than_E": false,
+      "held": false
+    },
+    "H7e": {
+      "predicted_band_M": [
+        600,
+        950
+      ],
+      "measured_breakeven_M": 602.670255721663,
+      "held": true
+    },
+    "H7f": {
+      "predicted_band_pct": [
+        15,
+        35
+      ],
+      "measured_shift_pct": 62.2088357872043,
+      "be_base_M": 2148.515519795776,
+      "be_loaded_M": 3485.0820113681293,
+      "held": false
+    },
+    "H7g": {
+      "predicted": "no flips",
+      "measured_flips": [],
+      "held": true
+    },
+    "H7h": {
+      "predicted_band_M": [
+        300,
+        500
+      ],
+      "measured_breakeven_M": 347.13532790791265,
+      "held": true
+    }
+  },
+  "headline_table": [
+    {
+      "arch": "E_500kWe_200t",
+      "wacc": 0.0,
+      "learning_rate": 0.0,
+      "breakeven_single_flight_M": 300.0,
+      "breakeven_reusable_M": 436.3636363636364
+    },
+    {
+      "arch": "E_500kWe_200t",
+      "wacc": 0.0,
+      "learning_rate": 0.1,
+      "breakeven_single_flight_M": 204.53149496286974,
+      "breakeven_reusable_M": 282.1521480062548
+    },
+    {
+      "arch": "E_500kWe_200t",
+      "wacc": 0.0,
+      "learning_rate": 0.15,
+      "breakeven_single_flight_M": 167.47181724009994,
+      "breakeven_reusable_M": 224.65425318415066
+    },
+    {
+      "arch": "E_500kWe_200t",
+      "wacc": 0.0,
+      "learning_rate": 0.2,
+      "breakeven_single_flight_M": 136.39154310086977,
+      "breakeven_reusable_M": 177.74734212206525
+    },
+    {
+      "arch": "E_500kWe_200t",
+      "wacc": 0.03,
+      "learning_rate": 0.0,
+      "breakeven_single_flight_M": 602.670255721663,
+      "breakeven_reusable_M": 793.3056074516925
+    },
+    {
+      "arch": "E_500kWe_200t",
+      "wacc": 0.03,
+      "learning_rate": 0.1,
+      "breakeven_single_flight_M": 418.20808459747246,
+      "breakeven_reusable_M": 526.8330651174731
+    },
+    {
+      "arch": "E_500kWe_200t",
+      "wacc": 0.03,
+      "learning_rate": 0.15,
+      "breakeven_single_flight_M": 345.9335256783876,
+      "breakeven_reusable_M": 426.0013370921534
+    },
+    {
+      "arch": "E_500kWe_200t",
+      "wacc": 0.03,
+      "learning_rate": 0.2,
+      "breakeven_single_flight_M": 284.9047266150096,
+      "breakeven_reusable_M": 342.84617826182955
+    },
+    {
+      "arch": "E_500kWe_200t",
+      "wacc": 0.06,
+      "learning_rate": 0.0,
+      "breakeven_single_flight_M": 1186.6965368714225,
+      "breakeven_reusable_M": 1446.7707001747483
+    },
+    {
+      "arch": "E_500kWe_200t",
+      "wacc": 0.06,
+      "learning_rate": 0.1,
+      "breakeven_single_flight_M": 837.9386545789148,
+      "breakeven_reusable_M": 986.2782113996241
+    },
+    {
+      "arch": "E_500kWe_200t",
+      "wacc": 0.06,
+      "learning_rate": 0.15,
+      "breakeven_single_flight_M": 700.0032166887153,
+      "breakeven_reusable_M": 809.4039562927766
+    },
+    {
+      "arch": "E_500kWe_200t",
+      "wacc": 0.06,
+      "learning_rate": 0.2,
+      "breakeven_single_flight_M": 582.7305426548986,
+      "breakeven_reusable_M": 661.9443381902148
+    },
+    {
+      "arch": "E_500kWe_200t",
+      "wacc": 0.087,
+      "learning_rate": 0.0,
+      "breakeven_single_flight_M": 2148.515519795776,
+      "breakeven_reusable_M": 2486.007115013062
+    },
+    {
+      "arch": "E_500kWe_200t",
+      "wacc": 0.087,
+      "learning_rate": 0.1,
+      "breakeven_single_flight_M": 1540.2705667317684,
+      "breakeven_reusable_M": 1732.934293121207
+    },
+    {
+      "arch": "E_500kWe_200t",
+      "wacc": 0.087,
+      "learning_rate": 0.15,
+      "breakeven_single_flight_M": 1297.6818988152982,
+      "breakeven_reusable_M": 1439.8386816877683
+    },
+    {
+      "arch": "E_500kWe_200t",
+      "wacc": 0.087,
+      "learning_rate": 0.2,
+      "breakeven_single_flight_M": 1090.1771352217136,
+      "breakeven_reusable_M": 1193.159921666089
+    },
+    {
+      "arch": "E_500kWe_200t",
+      "wacc": 0.12,
+      "learning_rate": 0.0,
+      "breakeven_single_flight_M": 4351.776571295061,
+      "breakeven_reusable_M": 4805.819718022256
+    },
+    {
+      "arch": "E_500kWe_200t",
+      "wacc": 0.12,
+      "learning_rate": 0.1,
+      "breakeven_single_flight_M": 3175.2440090287614,
+      "breakeven_reusable_M": 3434.70835706336
+    },
+    {
+      "arch": "E_500kWe_200t",
+      "wacc": 0.12,
+      "learning_rate": 0.15,
+      "breakeven_single_flight_M": 2701.2807095453963,
+      "breakeven_reusable_M": 2892.832141646283
+    },
+    {
+      "arch": "E_500kWe_200t",
+      "wacc": 0.12,
+      "learning_rate": 0.2,
+      "breakeven_single_flight_M": 2292.9339802940344,
+      "breakeven_reusable_M": 2431.781023656244
+    },
+    {
+      "arch": "E_200kWe_100t",
+      "wacc": 0.0,
+      "learning_rate": 0.0,
+      "breakeven_single_flight_M": 250.0,
+      "breakeven_reusable_M": 328.57142857142856
+    },
+    {
+      "arch": "E_200kWe_100t",
+      "wacc": 0.0,
+      "learning_rate": 0.1,
+      "breakeven_single_flight_M": 169.04313767401993,
+      "breakeven_reusable_M": 213.74689436651414
+    },
+    {
+      "arch": "E_200kWe_100t",
+      "wacc": 0.0,
+      "learning_rate": 0.15,
+      "breakeven_single_flight_M": 137.8130195460051,
+      "breakeven_reusable_M": 170.73598962402758
+    },
+    {
+      "arch": "E_200kWe_100t",
+      "wacc": 0.0,
+      "learning_rate": 0.2,
+      "breakeven_single_flight_M": 111.73413150154168,
+      "breakeven_reusable_M": 135.53634658670916
+    },
+    {
+      "arch": "E_200kWe_100t",
+      "wacc": 0.03,
+      "learning_rate": 0.0,
+      "breakeven_single_flight_M": 486.7332931451179,
+      "breakeven_reusable_M": 594.5372115506298
+    },
+    {
+      "arch": "E_200kWe_100t",
+      "wacc": 0.03,
+      "learning_rate": 0.1,
+      "breakeven_single_flight_M": 335.38278386102166,
+      "breakeven_reusable_M": 396.75231821751356
+    },
+    {
+      "arch": "E_200kWe_100t",
+      "wacc": 0.03,
+      "learning_rate": 0.15,
+      "breakeven_single_flight_M": 276.41046146693037,
+      "breakeven_reusable_M": 321.62076756601897
+    },
+    {
+      "arch": "E_200kWe_100t",
+      "wacc": 0.03,
+      "learning_rate": 0.2,
+      "breakeven_single_flight_M": 226.80197454369468,
+      "breakeven_reusable_M": 259.49787618683234
+    },
+    {
+      "arch": "E_200kWe_100t",
+      "wacc": 0.06,
+      "learning_rate": 0.0,
+      "breakeven_single_flight_M": 929.6815489058504,
+      "breakeven_reusable_M": 1073.5093842650665
+    },
+    {
+      "arch": "E_200kWe_100t",
+      "wacc": 0.06,
+      "learning_rate": 0.1,
+      "breakeven_single_flight_M": 652.6085268611473,
+      "breakeven_reusable_M": 734.5290882722418
+    },
+    {
+      "arch": "E_200kWe_100t",
+      "wacc": 0.06,
+      "learning_rate": 0.15,
+      "breakeven_single_flight_M": 543.5530167833748,
+      "breakeven_reusable_M": 603.9205170548527
+    },
+    {
+      "arch": "E_200kWe_100t",
+      "wacc": 0.06,
+      "learning_rate": 0.2,
+      "breakeven_single_flight_M": 451.1353117626205,
+      "breakeven_reusable_M": 494.8062272358779
+    },
+    {
+      "arch": "E_200kWe_100t",
+      "wacc": 0.087,
+      "learning_rate": 0.0,
+      "breakeven_single_flight_M": 1638.9055743134438,
+      "breakeven_reusable_M": 1821.3531355692114
+    },
+    {
+      "arch": "E_200kWe_100t",
+      "wacc": 0.087,
+      "learning_rate": 0.1,
+      "breakeven_single_flight_M": 1169.1904007531161,
+      "breakeven_reusable_M": 1273.156147225413
+    },
+    {
+      "arch": "E_200kWe_100t",
+      "wacc": 0.087,
+      "learning_rate": 0.15,
+      "breakeven_single_flight_M": 982.6357583993305,
+      "breakeven_reusable_M": 1059.2677612005048
+    },
+    {
+      "arch": "E_200kWe_100t",
+      "wacc": 0.087,
+      "learning_rate": 0.2,
+      "breakeven_single_flight_M": 823.5070955648274,
+      "breakeven_reusable_M": 878.958874058463
+    },
+    {
+      "arch": "E_200kWe_100t",
+      "wacc": 0.12,
+      "learning_rate": 0.0,
+      "breakeven_single_flight_M": 3215.9866677241444,
+      "breakeven_reusable_M": 3454.0329366000647
+    },
+    {
+      "arch": "E_200kWe_100t",
+      "wacc": 0.12,
+      "learning_rate": 0.1,
+      "breakeven_single_flight_M": 2337.542248313192,
+      "breakeven_reusable_M": 2473.264982450873
+    },
+    {
+      "arch": "E_200kWe_100t",
+      "wacc": 0.12,
+      "learning_rate": 0.15,
+      "breakeven_single_flight_M": 1984.8846009243575,
+      "breakeven_reusable_M": 2084.9541625749735
+    },
+    {
+      "arch": "E_200kWe_100t",
+      "wacc": 0.12,
+      "learning_rate": 0.2,
+      "breakeven_single_flight_M": 1681.7424756524522,
+      "breakeven_reusable_M": 1754.1768170691605
+    },
+    {
+      "arch": "VariantB_500kWe",
+      "wacc": 0.0,
+      "learning_rate": 0.0,
+      "breakeven_single_flight_M": 500.0,
+      "breakeven_reusable_M": 278.84615384615387
+    },
+    {
+      "arch": "VariantB_500kWe",
+      "wacc": 0.0,
+      "learning_rate": 0.1,
+      "breakeven_single_flight_M": 319.6205850573005,
+      "breakeven_reusable_M": 193.5632900773133
+    },
+    {
+      "arch": "VariantB_500kWe",
+      "wacc": 0.0,
+      "learning_rate": 0.15,
+      "breakeven_single_flight_M": 252.95046555262263,
+      "breakeven_reusable_M": 160.00180705064938
+    },
+    {
+      "arch": "VariantB_500kWe",
+      "wacc": 0.0,
+      "learning_rate": 0.2,
+      "breakeven_single_flight_M": 198.88464541161713,
+      "breakeven_reusable_M": 131.58975122043145
+    },
+    {
+      "arch": "VariantB_500kWe",
+      "wacc": 0.03,
+      "learning_rate": 0.0,
+      "breakeven_single_flight_M": 767.5554550013604,
+      "breakeven_reusable_M": 498.8864900086934
+    },
+    {
+      "arch": "VariantB_500kWe",
+      "wacc": 0.03,
+      "learning_rate": 0.1,
+      "breakeven_single_flight_M": 505.1607674129358,
+      "breakeven_reusable_M": 351.64350641648343
+    },
+    {
+      "arch": "VariantB_500kWe",
+      "wacc": 0.03,
+      "learning_rate": 0.15,
+      "breakeven_single_flight_M": 406.58656344000246,
+      "breakeven_reusable_M": 293.23922793851415
+    },
+    {
+      "arch": "VariantB_500kWe",
+      "wacc": 0.03,
+      "learning_rate": 0.2,
+      "breakeven_single_flight_M": 325.6879721039832,
+      "breakeven_reusable_M": 243.5082635538352
+    },
+    {
+      "arch": "VariantB_500kWe",
+      "wacc": 0.06,
+      "learning_rate": 0.0,
+      "breakeven_single_flight_M": 1163.8715456371003,
+      "breakeven_reusable_M": 850.9101246157502
+    },
+    {
+      "arch": "VariantB_500kWe",
+      "wacc": 0.06,
+      "learning_rate": 0.1,
+      "breakeven_single_flight_M": 788.125857716176,
+      "breakeven_reusable_M": 608.875684602158
+    },
+    {
+      "arch": "VariantB_500kWe",
+      "wacc": 0.06,
+      "learning_rate": 0.15,
+      "breakeven_single_flight_M": 644.6226571053744,
+      "breakeven_reusable_M": 512.1057702363591
+    },
+    {
+      "arch": "VariantB_500kWe",
+      "wacc": 0.06,
+      "learning_rate": 0.2,
+      "breakeven_single_flight_M": 525.4357280462752,
+      "breakeven_reusable_M": 429.2268576157953
+    },
+    {
+      "arch": "VariantB_500kWe",
+      "wacc": 0.087,
+      "learning_rate": 0.0,
+      "breakeven_single_flight_M": 1676.094085565631,
+      "breakeven_reusable_M": 1327.8639058147992
+    },
+    {
+      "arch": "VariantB_500kWe",
+      "wacc": 0.087,
+      "learning_rate": 0.1,
+      "breakeven_single_flight_M": 1162.6286800470216,
+      "breakeven_reusable_M": 962.7700631468374
+    },
+    {
+      "arch": "VariantB_500kWe",
+      "wacc": 0.087,
+      "learning_rate": 0.15,
+      "breakeven_single_flight_M": 963.6723807658508,
+      "breakeven_reusable_M": 815.7566066379089
+    },
+    {
+      "arch": "VariantB_500kWe",
+      "wacc": 0.087,
+      "learning_rate": 0.2,
+      "breakeven_single_flight_M": 796.708945086328,
+      "breakeven_reusable_M": 689.1946818323846
+    },
+    {
+      "arch": "VariantB_500kWe",
+      "wacc": 0.12,
+      "learning_rate": 0.0,
+      "breakeven_single_flight_M": 2586.0167470986758,
+      "breakeven_reusable_M": 2201.6491421044957
+    },
+    {
+      "arch": "VariantB_500kWe",
+      "wacc": 0.12,
+      "learning_rate": 0.1,
+      "breakeven_single_flight_M": 1842.2530489935073,
+      "breakeven_reusable_M": 1621.130855913647
+    },
+    {
+      "arch": "VariantB_500kWe",
+      "wacc": 0.12,
+      "learning_rate": 0.15,
+      "breakeven_single_flight_M": 1549.2297390394795,
+      "breakeven_reusable_M": 1385.3673560172667
+    },
+    {
+      "arch": "VariantB_500kWe",
+      "wacc": 0.12,
+      "learning_rate": 0.2,
+      "breakeven_single_flight_M": 1300.4141656309714,
+      "breakeven_reusable_M": 1181.1479540933697
+    }
+  ],
+  "architectures": [
+    {
+      "name": "E_500kWe_200t",
+      "reactor_kwe": 500.0,
+      "chunk_t": 200.0,
+      "isp_s": 2934.0,
+      "round_trip_yr": 23.6,
+      "delivered_t": 50.0,
+      "first_unit_cost_M": 300.0
+    },
+    {
+      "name": "E_200kWe_100t",
+      "reactor_kwe": 200.0,
+      "chunk_t": 100.0,
+      "isp_s": 2000.0,
+      "round_trip_yr": 22.54,
+      "delivered_t": 30.0,
+      "first_unit_cost_M": 250.0
+    },
+    {
+      "name": "VariantB_500kWe",
+      "reactor_kwe": 500.0,
+      "chunk_t": 200.0,
+      "isp_s": 2000.0,
+      "round_trip_yr": 14.5,
+      "delivered_t": 80.0,
+      "first_unit_cost_M": 500.0
+    }
+  ],
+  "sweep_axes": {
+    "wacc": [
+      0.0,
+      0.03,
+      0.06,
+      0.087,
+      0.12
+    ],
+    "learning_rate": [
+      0.0,
+      0.1,
+      0.15,
+      0.2
+    ],
+    "nre_M": [
+      0.0,
+      1000.0,
+      2500.0
+    ],
+    "op_cost_per_mission_M": [
+      0.0,
+      50.0,
+      100.0
+    ],
+    "revenue_per_mission_M": [
+      100.0,
+      200.0,
+      300.0,
+      500.0,
+      750.0,
+      1000.0,
+      1500.0,
+      2000.0,
+      3000.0
+    ],
+    "reusable": [
+      false,
+      true
+    ]
+  }
+}

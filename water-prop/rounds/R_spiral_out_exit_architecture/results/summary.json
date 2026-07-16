@@ -1,0 +1,65 @@
+{
+  "model_parameters": {
+    "m_at_start_t": 384.13,
+    "m_dry_total_t": 184.13,
+    "dv_inbound_net_kms": 23.2,
+    "eta": 0.65,
+    "outbound_overhead_yr": 6.5,
+    "burn_budget_strict_yr": 8.5,
+    "burn_budget_waiver_yr": 18.5,
+    "l0_04_floor_t": 5.0
+  },
+  "grids": {
+    "power_mwe": [
+      0.5,
+      1.0,
+      2.0,
+      5.0
+    ],
+    "isp_grid_s": [
+      3000,
+      5000,
+      7000,
+      9000
+    ],
+    "dv_spiral_grid_kms": [
+      14.0,
+      18.0,
+      19.5
+    ],
+    "impulsive_exit_ref_kms": 7.4
+  },
+  "totals": {
+    "cell_count": 192,
+    "closing_cell_count_any_tier": 48,
+    "strict_cell_count": 24,
+    "waiver_cell_count": 24,
+    "marginal_cell_count": 36,
+    "fail_cell_count": 108
+  },
+  "baseline_500kWe_18kms_optimal": null,
+  "hypothesis_adjudication": {
+    "H1_zero_STRICT_at_500kWe_18kms": {
+      "status": "held",
+      "strict_cell_count": 0
+    },
+    "H2_at_least_one_WAIVER_above_10pct_at_500kWe_18kms": {
+      "status": "falsified",
+      "waiver_above_10pct_count": 0
+    },
+    "H3_optimal_at_isp_spiral_5k_7k_inbound_7k_9k_df_8_15pct": {
+      "status": "falsified_no_closure"
+    },
+    "H4_net_spiral_vs_block11_delta_500kWe_2_to_8pp": {
+      "status": "falsified",
+      "delta_pp": 0.0
+    },
+    "H5_architecture_verdict_waiver_save_only": {
+      "status": "falsified"
+    },
+    "H6_dv_spiral_14kms_doubles_delivered": {
+      "status": "no_closure_at_14_km_s_either",
+      "ratio_14_to_18": 0.0
+    }
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "per_subsystem": [
+    {
+      "name": "reactor_power",
+      "form_KP_B": "parallel: second 10-kWe Kilopower unit",
+      "form_MWe": "internal: dual coolant loops + dual power conditioning + derated operation",
+      "mass_overlay_KP_B_t": 1.5,
+      "mass_overlay_MWe_t": 6.0,
+      "R_lift": [
+        0.95,
+        0.978
+      ],
+      "cost_USD_M": [
+        300.0,
+        400.0
+      ]
+    },
+    {
+      "name": "primary_propulsion",
+      "form_KP_B": "spare thruster + power-processing unit",
+      "form_MWe": "spare power-processing units; thruster redundancy structural",
+      "mass_overlay_KP_B_t": 0.05,
+      "mass_overlay_MWe_t": 0.3,
+      "R_lift": [
+        0.9,
+        0.99
+      ],
+      "cost_USD_M": [
+        50.0,
+        30.0
+      ]
+    },
+    {
+      "name": "rcs",
+      "form_KP_B": "second RCS branch (block redundancy)",
+      "form_MWe": "second RCS branch",
+      "mass_overlay_KP_B_t": 0.2,
+      "mass_overlay_MWe_t": 0.2,
+      "R_lift": [
+        0.97,
+        0.999
+      ],
+      "cost_USD_M": [
+        15.0,
+        15.0
+      ]
+    },
+    {
+      "name": "gnc_compute",
+      "form_KP_B": "dual flight-computer + dual IMU + dual star-tracker",
+      "form_MWe": "same",
+      "mass_overlay_KP_B_t": 0.5,
+      "mass_overlay_MWe_t": 0.5,
+      "R_lift": [
+        0.95,
+        0.998
+      ],
+      "cost_USD_M": [
+        40.0,
+        40.0
+      ]
+    },
+    {
+      "name": "comms",
+      "form_KP_B": "dual HGA + redundant transponders",
+      "form_MWe": "same",
+      "mass_overlay_KP_B_t": 0.8,
+      "mass_overlay_MWe_t": 0.8,
+      "R_lift": [
+        0.93,
+        0.995
+      ],
+      "cost_USD_M": [
+        60.0,
+        60.0
+      ]
+    },
+    {
+      "name": "bag_harvest",
+      "form_KP_B": "dual-aperture trawl bag",
+      "form_MWe": "dual-aperture at commercial-class scale",
+      "mass_overlay_KP_B_t": 1.0,
+      "mass_overlay_MWe_t": 2.0,
+      "R_lift": [
+        0.85,
+        0.978
+      ],
+      "cost_USD_M": [
+        50.0,
+        80.0
+      ]
+    },
+    {
+      "name": "thermal_control",
+      "form_KP_B": "redundant coolant loops + redundant heat-pipes",
+      "form_MWe": "same plus ammonia-loop redundancy",
+      "mass_overlay_KP_B_t": 0.5,
+      "mass_overlay_MWe_t": 1.5,
+      "R_lift": [
+        0.95,
+        0.9975
+      ],
+      "cost_USD_M": [
+        30.0,
+        60.0
+      ]
+    },
+    {
+      "name": "return_handoff",
+      "form_KP_B": "redundant valve trains + secondary docking adapter",
+      "form_MWe": "same",
+      "mass_overlay_KP_B_t": 0.3,
+      "mass_overlay_MWe_t": 0.3,
+      "R_lift": [
+        0.95,
+        0.9975
+      ],
+      "cost_USD_M": [
+        20.0,
+        25.0
+      ]
+    }
+  ],
+  "sum_KP_B_t": 4.85,
+  "sum_MWe_t": 11.6,
+  "integration_tax": 0.1,
+  "total_overlay_KP_B_t": 5.335,
+  "total_overlay_MWe_t": 12.76
+}

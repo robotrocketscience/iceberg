@@ -1,0 +1,758 @@
+{
+  "rows": [
+    {
+      "n": 1,
+      "m_each_t": 200.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 40.2,
+      "mass_ratio": 7.7595912870119275,
+      "captured_t": 200.0,
+      "delivered_t": 0.0,
+      "delivered_fraction": 0.0,
+      "case": "BR_direct",
+      "dv_base_km_s": 40.2,
+      "irr_pct": {
+        "current_290M": null,
+        "starship_50M": null
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 2,
+      "m_each_t": 200.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 40.300000000000004,
+      "mass_ratio": 7.799241641871715,
+      "captured_t": 400.0,
+      "delivered_t": 7.6979173954669164,
+      "delivered_fraction": 0.01924479348866729,
+      "case": "BR_direct",
+      "dv_base_km_s": 40.2,
+      "irr_pct": {
+        "current_290M": null,
+        "starship_50M": null
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 3,
+      "m_each_t": 200.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 40.400000000000006,
+      "mass_ratio": 7.839094604134694,
+      "captured_t": 600.0,
+      "delivered_t": 32.917738951276405,
+      "delivered_fraction": 0.05486289825212734,
+      "case": "BR_direct",
+      "dv_base_km_s": 40.2,
+      "irr_pct": {
+        "current_290M": null,
+        "starship_50M": null
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 5,
+      "m_each_t": 200.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 40.6,
+      "mass_ratio": 7.919412497334946,
+      "captured_t": 1000.0,
+      "delivered_t": 82.5855927258932,
+      "delivered_fraction": 0.0825855927258932,
+      "case": "BR_direct",
+      "dv_base_km_s": 40.2,
+      "irr_pct": {
+        "current_290M": null,
+        "starship_50M": 0.81
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 8,
+      "m_each_t": 200.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 40.900000000000006,
+      "mass_ratio": 8.041434947500061,
+      "captured_t": 1600.0,
+      "delivered_t": 155.1872595839323,
+      "delivered_fraction": 0.0969920372399577,
+      "case": "BR_direct",
+      "dv_base_km_s": 40.2,
+      "irr_pct": {
+        "current_290M": 3.5,
+        "starship_50M": 5.61
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 10,
+      "m_each_t": 200.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 41.1,
+      "mass_ratio": 8.123825981912304,
+      "captured_t": 2000.0,
+      "delivered_t": 202.34415465869458,
+      "delivered_fraction": 0.10117207732934728,
+      "case": "BR_direct",
+      "dv_base_km_s": 40.2,
+      "irr_pct": {
+        "current_290M": 5.46,
+        "starship_50M": 7.53
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 15,
+      "m_each_t": 200.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 41.6,
+      "mass_ratio": 8.333515725642865,
+      "captured_t": 3000.0,
+      "delivered_t": 315.9919895050917,
+      "delivered_fraction": 0.1053306631683639,
+      "case": "BR_direct",
+      "dv_base_km_s": 40.2,
+      "irr_pct": {
+        "current_290M": 8.71,
+        "starship_50M": 10.7
+      },
+      "hurdle_class": "sovereign_bond_4pct"
+    },
+    {
+      "n": 20,
+      "m_each_t": 200.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 42.1,
+      "mass_ratio": 8.548617917735037,
+      "captured_t": 4000.0,
+      "delivered_t": 423.7607925601441,
+      "delivered_fraction": 0.10594019814003604,
+      "case": "BR_direct",
+      "dv_base_km_s": 40.2,
+      "irr_pct": {
+        "current_290M": 10.84,
+        "starship_50M": 12.77
+      },
+      "hurdle_class": "sovereign_bond_4pct"
+    },
+    {
+      "n": 25,
+      "m_each_t": 200.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 42.6,
+      "mass_ratio": 8.769272262671954,
+      "captured_t": 5000.0,
+      "delivered_t": 525.8744681125102,
+      "delivered_fraction": 0.10517489362250203,
+      "case": "BR_direct",
+      "dv_base_km_s": 40.2,
+      "irr_pct": {
+        "current_290M": 12.41,
+        "starship_50M": 14.3
+      },
+      "hurdle_class": "regulated_utility_8pct"
+    },
+    {
+      "n": 1,
+      "m_each_t": 482.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 40.2,
+      "mass_ratio": 7.7595912870119275,
+      "captured_t": 482.0,
+      "delivered_t": 18.56031204768044,
+      "delivered_fraction": 0.03850687146821668,
+      "case": "BR_direct",
+      "dv_base_km_s": 40.2,
+      "irr_pct": {
+        "current_290M": null,
+        "starship_50M": null
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 2,
+      "m_each_t": 482.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 40.300000000000004,
+      "mass_ratio": 7.799241641871715,
+      "captured_t": 964.0,
+      "delivered_t": 80.01264053111879,
+      "delivered_fraction": 0.08300066445136804,
+      "case": "BR_direct",
+      "dv_base_km_s": 40.2,
+      "irr_pct": {
+        "current_290M": null,
+        "starship_50M": 0.55
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 3,
+      "m_each_t": 482.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 40.400000000000006,
+      "mass_ratio": 7.839094604134694,
+      "captured_t": 1446.0,
+      "delivered_t": 140.83836534016848,
+      "delivered_fraction": 0.09739859290468084,
+      "case": "BR_direct",
+      "dv_base_km_s": 40.2,
+      "irr_pct": {
+        "current_290M": 2.77,
+        "starship_50M": 4.9
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 5,
+      "m_each_t": 482.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 40.6,
+      "mass_ratio": 7.919412497334946,
+      "captured_t": 2410.0,
+      "delivered_t": 260.62910295780694,
+      "delivered_fraction": 0.10814485599909002,
+      "case": "BR_direct",
+      "dv_base_km_s": 40.2,
+      "irr_pct": {
+        "current_290M": 7.31,
+        "starship_50M": 9.33
+      },
+      "hurdle_class": "sovereign_bond_4pct"
+    },
+    {
+      "n": 8,
+      "m_each_t": 482.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 40.900000000000006,
+      "mass_ratio": 8.041434947500061,
+      "captured_t": 3856.0,
+      "delivered_t": 435.7342035968724,
+      "delivered_fraction": 0.11300160881661629,
+      "case": "BR_direct",
+      "dv_base_km_s": 40.2,
+      "irr_pct": {
+        "current_290M": 11.04,
+        "starship_50M": 12.97
+      },
+      "hurdle_class": "sovereign_bond_4pct"
+    },
+    {
+      "n": 10,
+      "m_each_t": 482.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 41.1,
+      "mass_ratio": 8.123825981912304,
+      "captured_t": 4820.0,
+      "delivered_t": 549.4712357013867,
+      "delivered_fraction": 0.11399818168078563,
+      "case": "BR_direct",
+      "dv_base_km_s": 40.2,
+      "irr_pct": {
+        "current_290M": 12.73,
+        "starship_50M": 14.62
+      },
+      "hurdle_class": "regulated_utility_8pct"
+    },
+    {
+      "n": 15,
+      "m_each_t": 482.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 41.6,
+      "mass_ratio": 8.333515725642865,
+      "captured_t": 7230.0,
+      "delivered_t": 823.580879867891,
+      "delivered_fraction": 0.1139116016414787,
+      "case": "BR_direct",
+      "dv_base_km_s": 40.2,
+      "irr_pct": {
+        "current_290M": 15.69,
+        "starship_50M": 17.52
+      },
+      "hurdle_class": "corporate_growth_10pct"
+    },
+    {
+      "n": 20,
+      "m_each_t": 482.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 42.1,
+      "mass_ratio": 8.548617917735037,
+      "captured_t": 9640.0,
+      "delivered_t": 1083.5165629401968,
+      "delivered_fraction": 0.1123979837074893,
+      "case": "BR_direct",
+      "dv_base_km_s": 40.2,
+      "irr_pct": {
+        "current_290M": 17.73,
+        "starship_50M": 19.52
+      },
+      "hurdle_class": "corporate_growth_10pct"
+    },
+    {
+      "n": 25,
+      "m_each_t": 482.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 42.6,
+      "mass_ratio": 8.769272262671954,
+      "captured_t": 12050.0,
+      "delivered_t": 1329.8180325072026,
+      "delivered_fraction": 0.11035834294665582,
+      "case": "BR_direct",
+      "dv_base_km_s": 40.2,
+      "irr_pct": {
+        "current_290M": 19.27,
+        "starship_50M": 21.03
+      },
+      "hurdle_class": "venture_class_15pct"
+    },
+    {
+      "n": 1,
+      "m_each_t": 200.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 24.4,
+      "mass_ratio": 3.468176494939085,
+      "captured_t": 200.0,
+      "delivered_t": 22.083990063599984,
+      "delivered_fraction": 0.11041995031799992,
+      "case": "HE_graze",
+      "dv_base_km_s": 24.4,
+      "irr_pct": {
+        "current_290M": null,
+        "starship_50M": null
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 2,
+      "m_each_t": 200.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 24.5,
+      "mass_ratio": 3.4858983598742745,
+      "captured_t": 400.0,
+      "delivered_t": 79.09154356876604,
+      "delivered_fraction": 0.1977288589219151,
+      "case": "HE_graze",
+      "dv_base_km_s": 24.4,
+      "irr_pct": {
+        "current_290M": null,
+        "starship_50M": 0.45
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 3,
+      "m_each_t": 200.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 24.599999999999998,
+      "mass_ratio": 3.503710780897725,
+      "captured_t": 600.0,
+      "delivered_t": 135.5175956713688,
+      "delivered_fraction": 0.22586265945228134,
+      "case": "HE_graze",
+      "dv_base_km_s": 24.4,
+      "irr_pct": {
+        "current_290M": 2.48,
+        "starship_50M": 4.62
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 5,
+      "m_each_t": 200.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 24.799999999999997,
+      "mass_ratio": 3.5396091444863336,
+      "captured_t": 1000.0,
+      "delivered_t": 246.64292218127815,
+      "delivered_fraction": 0.24664292218127815,
+      "case": "HE_graze",
+      "dv_base_km_s": 24.4,
+      "irr_pct": {
+        "current_290M": 6.91,
+        "starship_50M": 8.94
+      },
+      "hurdle_class": "sovereign_bond_4pct"
+    },
+    {
+      "n": 8,
+      "m_each_t": 200.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 25.099999999999998,
+      "mass_ratio": 3.594147505833518,
+      "captured_t": 1600.0,
+      "delivered_t": 409.0796558354799,
+      "delivered_fraction": 0.25567478489717493,
+      "case": "HE_graze",
+      "dv_base_km_s": 24.4,
+      "irr_pct": {
+        "current_290M": 10.58,
+        "starship_50M": 12.52
+      },
+      "hurdle_class": "sovereign_bond_4pct"
+    },
+    {
+      "n": 10,
+      "m_each_t": 200.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 25.299999999999997,
+      "mass_ratio": 3.6309724671456625,
+      "captured_t": 2000.0,
+      "delivered_t": 514.5870406755031,
+      "delivered_fraction": 0.25729352033775155,
+      "case": "HE_graze",
+      "dv_base_km_s": 24.4,
+      "irr_pct": {
+        "current_290M": 12.25,
+        "starship_50M": 14.15
+      },
+      "hurdle_class": "regulated_utility_8pct"
+    },
+    {
+      "n": 15,
+      "m_each_t": 200.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 25.799999999999997,
+      "mass_ratio": 3.7246940323076574,
+      "captured_t": 3000.0,
+      "delivered_t": 768.8592065669226,
+      "delivered_fraction": 0.2562864021889742,
+      "case": "HE_graze",
+      "dv_base_km_s": 24.4,
+      "irr_pct": {
+        "current_290M": 15.18,
+        "starship_50M": 17.02
+      },
+      "hurdle_class": "corporate_growth_10pct"
+    },
+    {
+      "n": 20,
+      "m_each_t": 200.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 26.299999999999997,
+      "mass_ratio": 3.820834710215863,
+      "captured_t": 4000.0,
+      "delivered_t": 1009.9778077736291,
+      "delivered_fraction": 0.2524944519434073,
+      "case": "HE_graze",
+      "dv_base_km_s": 24.4,
+      "irr_pct": {
+        "current_290M": 17.2,
+        "starship_50M": 19.0
+      },
+      "hurdle_class": "corporate_growth_10pct"
+    },
+    {
+      "n": 25,
+      "m_each_t": 200.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 26.799999999999997,
+      "mass_ratio": 3.9194569422781758,
+      "captured_t": 5000.0,
+      "delivered_t": 1238.4438008559162,
+      "delivered_fraction": 0.24768876017118324,
+      "case": "HE_graze",
+      "dv_base_km_s": 24.4,
+      "irr_pct": {
+        "current_290M": 18.73,
+        "starship_50M": 20.5
+      },
+      "hurdle_class": "venture_class_15pct"
+    },
+    {
+      "n": 1,
+      "m_each_t": 482.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 24.4,
+      "mass_ratio": 3.468176494939085,
+      "captured_t": 482.0,
+      "delivered_t": 103.39473085534075,
+      "delivered_fraction": 0.21451188974137086,
+      "case": "HE_graze",
+      "dv_base_km_s": 24.4,
+      "irr_pct": {
+        "current_290M": 0.36,
+        "starship_50M": 2.59
+      },
+      "hurdle_class": "below_sovereign_bond"
+    },
+    {
+      "n": 2,
+      "m_each_t": 482.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 24.5,
+      "mass_ratio": 3.4858983598742745,
+      "captured_t": 964.0,
+      "delivered_t": 240.8862781749528,
+      "delivered_fraction": 0.24988203130181824,
+      "case": "HE_graze",
+      "dv_base_km_s": 24.4,
+      "irr_pct": {
+        "current_290M": 6.74,
+        "starship_50M": 8.77
+      },
+      "hurdle_class": "sovereign_bond_4pct"
+    },
+    {
+      "n": 3,
+      "m_each_t": 482.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 24.599999999999998,
+      "mass_ratio": 3.503710780897725,
+      "captured_t": 1446.0,
+      "delivered_t": 376.9758817297965,
+      "delivered_fraction": 0.26070254614785376,
+      "case": "HE_graze",
+      "dv_base_km_s": 24.4,
+      "irr_pct": {
+        "current_290M": 9.99,
+        "starship_50M": 11.95
+      },
+      "hurdle_class": "sovereign_bond_4pct"
+    },
+    {
+      "n": 5,
+      "m_each_t": 482.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 24.799999999999997,
+      "mass_ratio": 3.5396091444863336,
+      "captured_t": 2410.0,
+      "delivered_t": 644.9919891104231,
+      "delivered_fraction": 0.26763153075121293,
+      "case": "HE_graze",
+      "dv_base_km_s": 24.4,
+      "irr_pct": {
+        "current_290M": 13.9,
+        "starship_50M": 15.76
+      },
+      "hurdle_class": "regulated_utility_8pct"
+    },
+    {
+      "n": 8,
+      "m_each_t": 482.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 25.099999999999998,
+      "mass_ratio": 3.594147505833518,
+      "captured_t": 3856.0,
+      "delivered_t": 1036.7667489050816,
+      "delivered_fraction": 0.2688710448405295,
+      "case": "HE_graze",
+      "dv_base_km_s": 24.4,
+      "irr_pct": {
+        "current_290M": 17.4,
+        "starship_50M": 19.19
+      },
+      "hurdle_class": "corporate_growth_10pct"
+    },
+    {
+      "n": 10,
+      "m_each_t": 482.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 25.299999999999997,
+      "mass_ratio": 3.6309724671456625,
+      "captured_t": 4820.0,
+      "delivered_t": 1291.2384819949757,
+      "delivered_fraction": 0.2678918012437709,
+      "case": "HE_graze",
+      "dv_base_km_s": 24.4,
+      "irr_pct": {
+        "current_290M": 19.04,
+        "starship_50M": 20.82
+      },
+      "hurdle_class": "venture_class_15pct"
+    },
+    {
+      "n": 15,
+      "m_each_t": 482.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 25.799999999999997,
+      "mass_ratio": 3.7246940323076574,
+      "captured_t": 7230.0,
+      "delivered_t": 1904.5229586253104,
+      "delivered_fraction": 0.2634194963520485,
+      "case": "HE_graze",
+      "dv_base_km_s": 24.4,
+      "irr_pct": {
+        "current_290M": 22.01,
+        "starship_50M": 23.75
+      },
+      "hurdle_class": "venture_class_15pct"
+    },
+    {
+      "n": 20,
+      "m_each_t": 482.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 26.299999999999997,
+      "mass_ratio": 3.820834710215863,
+      "captured_t": 9640.0,
+      "delivered_t": 2486.09505119172,
+      "delivered_fraction": 0.25789367750951453,
+      "case": "HE_graze",
+      "dv_base_km_s": 24.4,
+      "irr_pct": {
+        "current_290M": 24.1,
+        "starship_50M": 25.82
+      },
+      "hurdle_class": "venture_class_15pct"
+    },
+    {
+      "n": 25,
+      "m_each_t": 482.0,
+      "m_dry_t": 50.0,
+      "dv_total_km_s": 26.799999999999997,
+      "mass_ratio": 3.9194569422781758,
+      "captured_t": 12050.0,
+      "delivered_t": 3037.1623743280365,
+      "delivered_fraction": 0.2520466700687167,
+      "case": "HE_graze",
+      "dv_base_km_s": 24.4,
+      "irr_pct": {
+        "current_290M": 25.7,
+        "starship_50M": 27.42
+      },
+      "hurdle_class": "venture_class_15pct"
+    }
+  ],
+  "min_n_for_hurdle": {
+    "BR_direct": {
+      "M_each_200": {
+        "sovereign_bond_4pct": 11,
+        "regulated_utility_8pct": 22,
+        "corporate_growth_10pct": 35,
+        "venture_class_15pct_extrap": 68
+      },
+      "M_each_482": {
+        "sovereign_bond_4pct": 5,
+        "regulated_utility_8pct": 9,
+        "corporate_growth_10pct": 13,
+        "venture_class_15pct_extrap": 23
+      }
+    },
+    "HE_graze": {
+      "M_each_200": {
+        "sovereign_bond_4pct": 5,
+        "regulated_utility_8pct": 9,
+        "corporate_growth_10pct": 14,
+        "venture_class_15pct_extrap": 25
+      },
+      "M_each_482": {
+        "sovereign_bond_4pct": 2,
+        "regulated_utility_8pct": 4,
+        "corporate_growth_10pct": 6,
+        "venture_class_15pct_extrap": 10
+      }
+    }
+  },
+  "he_to_br_delivered_ratio": {
+    "M_each_200": {
+      "N_1": null,
+      "N_2": 10.274,
+      "N_3": 4.117,
+      "N_5": 2.987,
+      "N_8": 2.636,
+      "N_10": 2.543,
+      "N_15": 2.433,
+      "N_20": 2.383,
+      "N_25": 2.355
+    },
+    "M_each_482": {
+      "N_1": 5.571,
+      "N_2": 3.011,
+      "N_3": 2.677,
+      "N_5": 2.475,
+      "N_8": 2.379,
+      "N_10": 2.35,
+      "N_15": 2.312,
+      "N_20": 2.294,
+      "N_25": 2.284
+    }
+  },
+  "grading": {
+    "H-dvc-a": {
+      "observed_pct": 3.85,
+      "predicted_pct": [
+        11,
+        14
+      ],
+      "verdict": "wrong-and-load-bearing",
+      "note": "delivered fraction N=1, 482 t, BR-direct: 3.9%"
+    },
+    "H-dvc-b": {
+      "observed_t": 260.6,
+      "predicted_t": [
+        240,
+        290
+      ],
+      "verdict": "held",
+      "note": "delivered N=5\u00d7482, BR-direct: 260.6 t"
+    },
+    "H-dvc-c": {
+      "observed_t": 435.7,
+      "predicted_t": [
+        420,
+        490
+      ],
+      "verdict": "held",
+      "note": "delivered N=8\u00d7482, BR-direct: 435.7 t"
+    },
+    "H-dvc-d": {
+      "observed_N": 13,
+      "predicted_N": [
+        15,
+        17
+      ],
+      "verdict": "wrong-but-informative",
+      "note": "min N for corp-growth under BR-direct: 13"
+    },
+    "H-dvc-e": {
+      "observed_N": 23,
+      "predicted_N": [
+        20,
+        25
+      ],
+      "verdict": "held",
+      "note": "min N for venture-class under BR-direct: 23"
+    },
+    "H-dvc-f": {
+      "observed_pct": 12.89,
+      "predicted_pct": [
+        12.5,
+        13.5
+      ],
+      "verdict": "held",
+      "note": "asymptotic delivered fraction under BR-direct (1/R): 12.89%"
+    },
+    "H-dvc-g": {
+      "observed_ratio": 2.475,
+      "predicted_ratio": [
+        2.0,
+        2.5
+      ],
+      "verdict": "held",
+      "note": "HE-graze/BR-direct delivered ratio at N=5, 482 t: 2.48\u00d7"
+    },
+    "H-dvc-h": {
+      "observed_pct": 9.33,
+      "predicted_pct": [
+        5,
+        9
+      ],
+      "verdict": "wrong-but-informative",
+      "note": "IRR N=5\u00d7482, BR-direct, $50M: 9.33%"
+    }
+  },
+  "constants": {
+    "v_e_km_s": 19.62,
+    "cases": {
+      "BR_direct": 40.2,
+      "HE_graze": 24.4
+    },
+    "m_dry_structural_t": 50.0,
+    "hurdles_t": {
+      "sovereign_bond_4pct": 220.0,
+      "regulated_utility_8pct": 460.0,
+      "corporate_growth_10pct": 700.0,
+      "venture_class_15pct_extrap": 1200.0
+    }
+  }
+}

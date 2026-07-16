@@ -1,0 +1,7 @@
+phase,n_crossings,r_crossing_km,tau,p_impact_per_crossing,p_no_impact_after_n
+"SOI inbound at B-ring (zero-inc, periapsis in B-ring)",1,100000.0,2.0,1.0,0.0
+Titan tour crossings (also through B-ring),5,100000.0,2.0,1.0,0.0
+B-ring inbound rendezvous,1,100000.0,2.0,1.0,0.0
+B-ring outbound,1,100000.0,2.0,1.0,0.0
+Departure (zero-inc),1,100000.0,2.0,1.0,0.0
+TOTAL (worst-case zero-inclination),9,nan,nan,nan,0.0

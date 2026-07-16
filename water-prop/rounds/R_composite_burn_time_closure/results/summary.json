@@ -1,0 +1,86 @@
+{
+  "model_parameters": {
+    "m_at_exit_t": 384.13,
+    "m_dry_total_t": 184.13,
+    "dv_exit_kms": 7.4,
+    "dv_inbound_net_kms": 23.2,
+    "eta": 0.65,
+    "exit_dwell_budget_months": 6.0,
+    "cruise_budget_years": 6.0
+  },
+  "power_grid_mwe": [
+    0.5,
+    1.0,
+    2.0,
+    5.0,
+    10.0
+  ],
+  "isp_grid_s": [
+    1000,
+    2000,
+    3000,
+    5000,
+    7000,
+    9000
+  ],
+  "max_delivered_per_power": {
+    "0.5": {
+      "max_df_pct": -1.0,
+      "isp_exit": null,
+      "isp_inbound": null,
+      "t_exit_mo": null,
+      "t_inbound_yr": null
+    },
+    "1.0": {
+      "max_df_pct": 0.0,
+      "isp_exit": 1000,
+      "isp_inbound": 1000,
+      "t_exit_mo": 5.724831439650239,
+      "t_inbound_yr": 0.3836576559523825
+    },
+    "2.0": {
+      "max_df_pct": 0.0,
+      "isp_exit": 1000,
+      "isp_inbound": 1000,
+      "t_exit_mo": 2.8624157198251194,
+      "t_inbound_yr": 0.19182882797619125
+    },
+    "5.0": {
+      "max_df_pct": 22.763955518810562,
+      "isp_exit": 3000,
+      "isp_inbound": 9000,
+      "t_exit_mo": 4.325546757878984,
+      "t_inbound_yr": 2.622069653263553
+    },
+    "10.0": {
+      "max_df_pct": 40.51352428108032,
+      "isp_exit": 7000,
+      "isp_inbound": 9000,
+      "t_exit_mo": 5.410839927890532,
+      "t_inbound_yr": 1.5136866987131097
+    }
+  },
+  "max_delivered_overall_pct": 40.514,
+  "count_closing_cells": 59,
+  "count_total_cells": 180,
+  "hypothesis_adjudication": {
+    "H1_no_closure_above_baseline_at_500kWe": {
+      "status": "held",
+      "max_df_500kwe_pct": -1.0
+    },
+    "H2_low_isp_closure_at_500kWe_below_8pct": {
+      "status": "falsified_no_low_isp_closure"
+    },
+    "H3_min_power_optimal_isp_5_to_15_MWe": {
+      "status": "held",
+      "min_power_mwe": 10.0
+    },
+    "H4_1MWe_closure_at_8_to_14pct": {
+      "status": "falsified",
+      "max_df_1mwe_pct": 0.0
+    },
+    "H5_architecture_conditional_on_megawatt_or_reframe": {
+      "status": "held"
+    }
+  }
+}

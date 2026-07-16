@@ -1,0 +1,2091 @@
+{
+  "constants": {
+    "v_inf_km_s": 6.0,
+    "periapsis_altitude_km": 90.0,
+    "rho_atm_kg_m3": 0.0001,
+    "R_nose_effective_m": 1.3,
+    "t_pulse_s": 200.0,
+    "heat_shield_area_m2": 10.0,
+    "Q_specific_J_per_kg": 30000000.0,
+    "dv_inbound_no_aero_km_s": 6.42,
+    "dv_outbound_km_s": 9.0
+  },
+  "shield_at_v_inf_6": {
+    "v_entry_m_s": 12619.447830906536,
+    "q_dot_peak_W_per_m2": 3066893.039823637,
+    "Q_total_J_per_m2": 368027164.7788364,
+    "shield_mass_per_area_kg_per_m2": 12.267572159294547,
+    "shield_mass_kg": 122.67572159294546
+  },
+  "shield_sweep_v_inf": {
+    "4.0km_s": {
+      "v_entry_m_s": 11800.443362728864,
+      "q_dot_peak_W_per_m2": 2507682.484415184,
+      "Q_total_J_per_m2": 300921898.129822,
+      "shield_mass_per_area_kg_per_m2": 10.030729937660734,
+      "shield_mass_kg": 100.30729937660735
+    },
+    "5.0km_s": {
+      "v_entry_m_s": 12175.814697874293,
+      "q_dot_peak_W_per_m2": 2754683.2111355695,
+      "Q_total_J_per_m2": 330561985.3362683,
+      "shield_mass_per_area_kg_per_m2": 11.018732844542276,
+      "shield_mass_kg": 110.18732844542276
+    },
+    "6.0km_s": {
+      "v_entry_m_s": 12619.447830906536,
+      "q_dot_peak_W_per_m2": 3066893.039823637,
+      "Q_total_J_per_m2": 368027164.7788364,
+      "shield_mass_per_area_kg_per_m2": 12.267572159294547,
+      "shield_mass_kg": 122.67572159294546
+    },
+    "8.0km_s": {
+      "v_entry_m_s": 13683.949121396632,
+      "q_dot_peak_W_per_m2": 3910316.6251147785,
+      "Q_total_J_per_m2": 469237995.0137734,
+      "shield_mass_per_area_kg_per_m2": 15.641266500459112,
+      "shield_mass_kg": 156.41266500459113
+    },
+    "10.0km_s": {
+      "v_entry_m_s": 14941.568309818473,
+      "q_dot_peak_W_per_m2": 5090566.628369893,
+      "Q_total_J_per_m2": 610867995.4043871,
+      "shield_mass_per_area_kg_per_m2": 20.36226651347957,
+      "shield_mass_kg": 203.6226651347957
+    }
+  },
+  "grid": [
+    {
+      "reactor_kwe": 10.0,
+      "chunk_t": 100.0,
+      "baseline_no_aero": {
+        "feasible": false,
+        "schedule_feasible": false,
+        "isp_s": 5000.0,
+        "delivered_water_t": 86.99144803998591,
+        "burn_time_yr": 90.09769150644811,
+        "M_v_t": 6.0,
+        "M_LEO_t": 9.493731750240556,
+        "delivered_per_LEO": 9.163040449060686
+      },
+      "aero_cells": {
+        "hs_0.05_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 99.32111244866559,
+          "burn_time_yr": 4.701999219875477,
+          "M_v_t": 11.3,
+          "M_LEO_t": 17.87986146295305,
+          "delivered_per_LEO": 5.5549151012415985
+        },
+        "hs_0.05_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 2934.0,
+          "delivered_water_t": 98.08258396398418,
+          "burn_time_yr": 3.8692839865294686,
+          "M_v_t": 11.3,
+          "M_LEO_t": 17.87986146295305,
+          "delivered_per_LEO": 5.485645633620296
+        },
+        "hs_0.05_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 2000.0,
+          "delivered_water_t": 94.46751679204279,
+          "burn_time_yr": 5.18769133085849,
+          "M_v_t": 11.3,
+          "M_LEO_t": 17.87986146295305,
+          "delivered_per_LEO": 5.283459102173629
+        },
+        "hs_0.10_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 99.2887844700306,
+          "burn_time_yr": 4.925903944631518,
+          "M_v_t": 16.6,
+          "M_LEO_t": 26.26599117566554,
+          "delivered_per_LEO": 3.780127077862493
+        },
+        "hs_0.10_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 2934.0,
+          "delivered_water_t": 97.9912784384596,
+          "burn_time_yr": 4.05353560493563,
+          "M_v_t": 16.6,
+          "M_LEO_t": 26.26599117566554,
+          "delivered_per_LEO": 3.7307283697424243
+        },
+        "hs_0.10_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 2000.0,
+          "delivered_water_t": 94.20406521071149,
+          "burn_time_yr": 5.434724251375547,
+          "M_v_t": 16.6,
+          "M_LEO_t": 26.26599117566554,
+          "delivered_per_LEO": 3.5865414170240046
+        },
+        "hs_0.15_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 99.25645649139565,
+          "burn_time_yr": 5.149808669387459,
+          "M_v_t": 21.9,
+          "M_LEO_t": 34.65212088837803,
+          "delivered_per_LEO": 2.864368874018481
+        },
+        "hs_0.15_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 2934.0,
+          "delivered_water_t": 97.89997291293506,
+          "burn_time_yr": 4.237787223341791,
+          "M_v_t": 21.9,
+          "M_LEO_t": 34.65212088837803,
+          "delivered_per_LEO": 2.8252231148648024
+        },
+        "hs_0.15_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 2000.0,
+          "delivered_water_t": 93.94061362938021,
+          "burn_time_yr": 5.681757171892618,
+          "M_v_t": 21.9,
+          "M_LEO_t": 34.65212088837803,
+          "delivered_per_LEO": 2.7109628854171217
+        }
+      }
+    },
+    {
+      "reactor_kwe": 10.0,
+      "chunk_t": 200.0,
+      "baseline_no_aero": {
+        "feasible": false,
+        "schedule_feasible": false,
+        "isp_s": 5000.0,
+        "delivered_water_t": 174.71922920978395,
+        "burn_time_yr": 175.09551368234253,
+        "M_v_t": 6.0,
+        "M_LEO_t": 9.493731750240556,
+        "delivered_per_LEO": 18.4036408238896
+      },
+      "aero_cells": {
+        "hs_0.05_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 2934.0,
+          "delivered_water_t": 197.75645460876865,
+          "burn_time_yr": 4.5274025523336245,
+          "M_v_t": 16.3,
+          "M_LEO_t": 25.791304588153512,
+          "delivered_per_LEO": 7.667563070834437
+        },
+        "hs_0.05_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 2000.0,
+          "delivered_water_t": 194.55557651688684,
+          "burn_time_yr": 5.105119607818415,
+          "M_v_t": 16.3,
+          "M_LEO_t": 25.791304588153512,
+          "delivered_per_LEO": 7.543456200592905
+        },
+        "hs_0.05_dv_1.0": null,
+        "hs_0.10_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 2934.0,
+          "delivered_water_t": 197.6496191139481,
+          "burn_time_yr": 4.742993150063833,
+          "M_v_t": 26.6,
+          "M_LEO_t": 42.08887742606647,
+          "delivered_per_LEO": 4.696005956945285
+        },
+        "hs_0.10_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 2000.0,
+          "delivered_water_t": 194.29631825578622,
+          "burn_time_yr": 5.348220541524054,
+          "M_v_t": 26.6,
+          "M_LEO_t": 42.08887742606647,
+          "delivered_per_LEO": 4.6163340563570054
+        },
+        "hs_0.10_dv_1.0": null,
+        "hs_0.15_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 2934.0,
+          "delivered_water_t": 197.54278361912756,
+          "burn_time_yr": 4.958583747793983,
+          "M_v_t": 36.9,
+          "M_LEO_t": 58.38645026397942,
+          "delivered_per_LEO": 3.383366906636528
+        },
+        "hs_0.15_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 2000.0,
+          "delivered_water_t": 194.0370599946856,
+          "burn_time_yr": 5.591321475229694,
+          "M_v_t": 36.9,
+          "M_LEO_t": 58.38645026397942,
+          "delivered_per_LEO": 3.323323461477733
+        },
+        "hs_0.15_dv_1.0": null
+      }
+    },
+    {
+      "reactor_kwe": 10.0,
+      "chunk_t": 500.0,
+      "baseline_no_aero": {
+        "feasible": false,
+        "schedule_feasible": false,
+        "isp_s": 5000.0,
+        "delivered_water_t": 437.90257271917807,
+        "burn_time_yr": 430.0889802100257,
+        "M_v_t": 6.0,
+        "M_LEO_t": 9.493731750240556,
+        "delivered_per_LEO": 46.12544194837634
+      },
+      "aero_cells": {
+        "hs_0.05_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 1500.0,
+          "delivered_water_t": 489.27423959851745,
+          "burn_time_yr": 6.685829670479478,
+          "M_v_t": 31.3,
+          "M_LEO_t": 49.525633963754906,
+          "delivered_per_LEO": 9.87921204515202
+        },
+        "hs_0.05_dv_0.5": null,
+        "hs_0.05_dv_1.0": null,
+        "hs_0.10_dv_0.3": null,
+        "hs_0.10_dv_0.5": null,
+        "hs_0.10_dv_1.0": null,
+        "hs_0.15_dv_0.3": null,
+        "hs_0.15_dv_0.5": null,
+        "hs_0.15_dv_1.0": null
+      }
+    },
+    {
+      "reactor_kwe": 40.0,
+      "chunk_t": 100.0,
+      "baseline_no_aero": {
+        "feasible": false,
+        "schedule_feasible": false,
+        "isp_s": 5000.0,
+        "delivered_water_t": 86.62328147507986,
+        "burn_time_yr": 23.16190654293122,
+        "M_v_t": 9.0,
+        "M_LEO_t": 14.240597625360834,
+        "delivered_per_LEO": 6.082840324117715
+      },
+      "aero_cells": {
+        "hs_0.05_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 99.30189865004292,
+          "burn_time_yr": 1.2087686673736493,
+          "M_v_t": 14.45,
+          "M_LEO_t": 22.86407063182934,
+          "delivered_per_LEO": 4.343141702501723
+        },
+        "hs_0.05_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 98.83886499661088,
+          "burn_time_yr": 2.010515537283871,
+          "M_v_t": 14.45,
+          "M_LEO_t": 22.86407063182934,
+          "delivered_per_LEO": 4.322890118219638
+        },
+        "hs_0.05_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 97.6895101111431,
+          "burn_time_yr": 4.000633696103785,
+          "M_v_t": 14.45,
+          "M_LEO_t": 22.86407063182934,
+          "delivered_per_LEO": 4.272621078030978
+        },
+        "hs_0.10_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 99.26865572861638,
+          "burn_time_yr": 1.2663290801057396,
+          "M_v_t": 19.9,
+          "M_LEO_t": 31.487543638297844,
+          "delivered_per_LEO": 3.152632573341712
+        },
+        "hs_0.10_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 98.78357285359235,
+          "burn_time_yr": 2.106254372392634,
+          "M_v_t": 19.9,
+          "M_LEO_t": 31.487543638297844,
+          "delivered_per_LEO": 3.137227025020882
+        },
+        "hs_0.10_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 97.57948678310231,
+          "burn_time_yr": 4.191140062584902,
+          "M_v_t": 19.9,
+          "M_LEO_t": 31.487543638297844,
+          "delivered_per_LEO": 3.098986948744322
+        },
+        "hs_0.15_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 99.23541280718986,
+          "burn_time_yr": 1.3238894928378053,
+          "M_v_t": 25.349999999999998,
+          "M_LEO_t": 40.111016644766345,
+          "delivered_per_LEO": 2.4740188882781164
+        },
+        "hs_0.15_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 98.72828071057383,
+          "burn_time_yr": 2.201993207501372,
+          "M_v_t": 25.349999999999998,
+          "M_LEO_t": 40.111016644766345,
+          "delivered_per_LEO": 2.4613756760377656
+        },
+        "hs_0.15_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 97.46946345506149,
+          "burn_time_yr": 4.381646429066044,
+          "M_v_t": 25.349999999999998,
+          "M_LEO_t": 40.111016644766345,
+          "delivered_per_LEO": 2.4299923464487714
+        }
+      }
+    },
+    {
+      "reactor_kwe": 40.0,
+      "chunk_t": 200.0,
+      "baseline_no_aero": {
+        "feasible": false,
+        "schedule_feasible": false,
+        "isp_s": 5000.0,
+        "delivered_water_t": 174.35106264487789,
+        "burn_time_yr": 44.41136208690484,
+        "M_v_t": 9.0,
+        "M_LEO_t": 14.240597625360834,
+        "delivered_per_LEO": 12.243240574003655
+      },
+      "aero_cells": {
+        "hs_0.05_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 198.66143869595385,
+          "burn_time_yr": 2.3177307475329583,
+          "M_v_t": 19.450000000000003,
+          "M_LEO_t": 30.775513757029806,
+          "delivered_per_LEO": 6.455178628840118
+        },
+        "hs_0.05_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 197.7736035256117,
+          "burn_time_yr": 3.8550252045167746,
+          "M_v_t": 19.450000000000003,
+          "M_LEO_t": 30.775513757029806,
+          "delivered_per_LEO": 6.426329876635637
+        },
+        "hs_0.05_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 2934.0,
+          "delivered_water_t": 192.50399837252297,
+          "burn_time_yr": 3.781672641121617,
+          "M_v_t": 19.450000000000003,
+          "M_LEO_t": 30.775513757029806,
+          "delivered_per_LEO": 6.255102673259218
+        },
+        "hs_0.10_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 198.59769768147544,
+          "burn_time_yr": 2.428098878367898,
+          "M_v_t": 29.900000000000002,
+          "M_LEO_t": 47.31042988869878,
+          "delivered_per_LEO": 4.197757199600404
+        },
+        "hs_0.10_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 197.66758464587892,
+          "burn_time_yr": 4.038597833303281,
+          "M_v_t": 29.900000000000002,
+          "M_LEO_t": 47.31042988869878,
+          "delivered_per_LEO": 4.178097411308801
+        },
+        "hs_0.10_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 2934.0,
+          "delivered_water_t": 192.14704591407173,
+          "burn_time_yr": 3.961752290698832,
+          "M_v_t": 29.900000000000002,
+          "M_LEO_t": 47.31042988869878,
+          "delivered_per_LEO": 4.061409849077922
+        },
+        "hs_0.15_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 198.53395666699706,
+          "burn_time_yr": 2.5384670092027894,
+          "M_v_t": 40.349999999999994,
+          "M_LEO_t": 63.845346020367735,
+          "delivered_per_LEO": 3.1096073408962557
+        },
+        "hs_0.15_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 197.56156576614615,
+          "burn_time_yr": 4.222170462089787,
+          "M_v_t": 40.349999999999994,
+          "M_LEO_t": 63.845346020367735,
+          "delivered_per_LEO": 3.0943769292615424
+        },
+        "hs_0.15_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 2934.0,
+          "delivered_water_t": 191.79009345562045,
+          "burn_time_yr": 4.141831940276046,
+          "M_v_t": 40.349999999999994,
+          "M_LEO_t": 63.845346020367735,
+          "delivered_per_LEO": 3.0039792312259723
+        }
+      }
+    },
+    {
+      "reactor_kwe": 40.0,
+      "chunk_t": 500.0,
+      "baseline_no_aero": {
+        "feasible": false,
+        "schedule_feasible": false,
+        "isp_s": 5000.0,
+        "delivered_water_t": 437.534406154272,
+        "burn_time_yr": 108.1597287188256,
+        "M_v_t": 9.0,
+        "M_LEO_t": 14.240597625360834,
+        "delivered_per_LEO": 30.724441323661484
+      },
+      "aero_cells": {
+        "hs_0.05_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 496.74005883368665,
+          "burn_time_yr": 5.644616988010982,
+          "M_v_t": 34.45,
+          "M_LEO_t": 54.5098431326312,
+          "delivered_per_LEO": 9.112850639196271
+        },
+        "hs_0.05_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 2934.0,
+          "delivered_water_t": 490.7927852610184,
+          "burn_time_yr": 4.6449659177912705,
+          "M_v_t": 34.45,
+          "M_LEO_t": 54.5098431326312,
+          "delivered_per_LEO": 9.003746058612585
+        },
+        "hs_0.05_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 2000.0,
+          "delivered_water_t": 473.4336419542433,
+          "burn_time_yr": 6.227676621242848,
+          "M_v_t": 34.45,
+          "M_LEO_t": 54.5098431326312,
+          "delivered_per_LEO": 8.685287183863348
+        },
+        "hs_0.10_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 496.58482354005264,
+          "burn_time_yr": 5.9134082731543245,
+          "M_v_t": 59.900000000000006,
+          "M_LEO_t": 94.77908863990156,
+          "delivered_per_LEO": 5.239392261163743
+        },
+        "hs_0.10_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 2934.0,
+          "delivered_water_t": 490.354346463924,
+          "burn_time_yr": 4.866154771019426,
+          "M_v_t": 59.900000000000006,
+          "M_LEO_t": 94.77908863990156,
+          "delivered_per_LEO": 5.173655428645756
+        },
+        "hs_0.10_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 2000.0,
+          "delivered_water_t": 472.16857728539765,
+          "burn_time_yr": 6.524232650825846,
+          "M_v_t": 59.900000000000006,
+          "M_LEO_t": 94.77908863990156,
+          "delivered_per_LEO": 4.981780095811312
+        },
+        "hs_0.15_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 496.4295882464187,
+          "burn_time_yr": 6.182199558297667,
+          "M_v_t": 85.35,
+          "M_LEO_t": 135.04833414717191,
+          "delivered_per_LEO": 3.6759401097493254
+        },
+        "hs_0.15_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 2934.0,
+          "delivered_water_t": 489.91590766682964,
+          "burn_time_yr": 5.087343624247581,
+          "M_v_t": 85.35,
+          "M_LEO_t": 135.04833414717191,
+          "delivered_per_LEO": 3.6277078925900184
+        },
+        "hs_0.15_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 2000.0,
+          "delivered_water_t": 470.9035126165521,
+          "burn_time_yr": 6.820788680408831,
+          "M_v_t": 85.35,
+          "M_LEO_t": 135.04833414717191,
+          "delivered_per_LEO": 3.4869257409971053
+        }
+      }
+    },
+    {
+      "reactor_kwe": 100.0,
+      "chunk_t": 100.0,
+      "baseline_no_aero": {
+        "feasible": false,
+        "schedule_feasible": false,
+        "isp_s": 5000.0,
+        "delivered_water_t": 85.88694834526774,
+        "burn_time_yr": 9.774749550227856,
+        "M_v_t": 15.0,
+        "M_LEO_t": 23.73432937560139,
+        "delivered_per_LEO": 3.618680224163338
+      },
+      "aero_cells": {
+        "hs_0.05_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 99.26347105279757,
+          "burn_time_yr": 0.5101225568732839,
+          "M_v_t": 20.75,
+          "M_LEO_t": 32.832488969581924,
+          "delivered_per_LEO": 3.02333067544046
+        },
+        "hs_0.05_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 98.77494930835093,
+          "burn_time_yr": 0.8484744469271395,
+          "M_v_t": 20.75,
+          "M_LEO_t": 32.832488969581924,
+          "delivered_per_LEO": 3.0084514579404025
+        },
+        "hs_0.05_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 97.56232718148125,
+          "burn_time_yr": 1.6883408258786572,
+          "M_v_t": 20.75,
+          "M_LEO_t": 32.832488969581924,
+          "delivered_per_LEO": 2.9715178545211454
+        },
+        "hs_0.10_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 99.22839824578793,
+          "burn_time_yr": 0.534414107200584,
+          "M_v_t": 26.5,
+          "M_LEO_t": 41.93064856356246,
+          "delivered_per_LEO": 2.3664885148477515
+        },
+        "hs_0.10_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 98.71661356112955,
+          "burn_time_yr": 0.8888779920189034,
+          "M_v_t": 26.5,
+          "M_LEO_t": 41.93064856356246,
+          "delivered_per_LEO": 2.3542830111841826
+        },
+        "hs_0.10_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 97.44624752345655,
+          "burn_time_yr": 1.7687380080633548,
+          "M_v_t": 26.5,
+          "M_LEO_t": 41.93064856356246,
+          "delivered_per_LEO": 2.3239861738779997
+        },
+        "hs_0.15_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 99.19332543877829,
+          "burn_time_yr": 0.5587056575278843,
+          "M_v_t": 32.25,
+          "M_LEO_t": 51.02880815754299,
+          "delivered_per_LEO": 1.9438691402028307
+        },
+        "hs_0.15_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 98.65827781390817,
+          "burn_time_yr": 0.9292815371106673,
+          "M_v_t": 32.25,
+          "M_LEO_t": 51.02880815754299,
+          "delivered_per_LEO": 1.933383933038708
+        },
+        "hs_0.15_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 97.33016786543186,
+          "burn_time_yr": 1.849135190248043,
+          "M_v_t": 32.25,
+          "M_LEO_t": 51.02880815754299,
+          "delivered_per_LEO": 1.9073572630765958
+        }
+      }
+    },
+    {
+      "reactor_kwe": 100.0,
+      "chunk_t": 200.0,
+      "baseline_no_aero": {
+        "feasible": false,
+        "schedule_feasible": false,
+        "isp_s": 5000.0,
+        "delivered_water_t": 173.6147295150658,
+        "burn_time_yr": 18.274531767817287,
+        "M_v_t": 15.0,
+        "M_LEO_t": 23.73432937560139,
+        "delivered_per_LEO": 7.314920374094904
+      },
+      "aero_cells": {
+        "hs_0.05_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 198.6230110987085,
+          "burn_time_yr": 0.9537073889370072,
+          "M_v_t": 25.75,
+          "M_LEO_t": 40.74393209478239,
+          "delivered_per_LEO": 4.874910223113785
+        },
+        "hs_0.05_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 197.70968783735174,
+          "burn_time_yr": 1.586278313820301,
+          "M_v_t": 25.75,
+          "M_LEO_t": 40.74393209478239,
+          "delivered_per_LEO": 4.85249404444865
+        },
+        "hs_0.05_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 195.4426116871171,
+          "burn_time_yr": 3.156463283164456,
+          "M_v_t": 25.75,
+          "M_LEO_t": 40.74393209478239,
+          "delivered_per_LEO": 4.79685198847426
+        },
+        "hs_0.10_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 198.557440198647,
+          "burn_time_yr": 0.9991220265054473,
+          "M_v_t": 36.5,
+          "M_LEO_t": 57.753534813963384,
+          "delivered_per_LEO": 3.438013635671711
+        },
+        "hs_0.10_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 197.60062535341612,
+          "burn_time_yr": 1.661815376383162,
+          "M_v_t": 36.5,
+          "M_LEO_t": 57.753534813963384,
+          "delivered_per_LEO": 3.4214464273040677
+        },
+        "hs_0.10_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 195.22559319602746,
+          "burn_time_yr": 3.3067710585532284,
+          "M_v_t": 36.5,
+          "M_LEO_t": 57.753534813963384,
+          "delivered_per_LEO": 3.3803228464697663
+        },
+        "hs_0.15_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 198.4918692985855,
+          "burn_time_yr": 1.044536664073868,
+          "M_v_t": 47.25,
+          "M_LEO_t": 74.76313753314437,
+          "delivered_per_LEO": 2.6549430086530155
+        },
+        "hs_0.15_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 197.49156286948048,
+          "burn_time_yr": 1.7373524389460429,
+          "M_v_t": 47.25,
+          "M_LEO_t": 74.76313753314437,
+          "delivered_per_LEO": 2.6415633343628406
+        },
+        "hs_0.15_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 195.0085747049378,
+          "burn_time_yr": 3.457078833942002,
+          "M_v_t": 47.25,
+          "M_LEO_t": 74.76313753314437,
+          "delivered_per_LEO": 2.608351938393244
+        }
+      }
+    },
+    {
+      "reactor_kwe": 100.0,
+      "chunk_t": 500.0,
+      "baseline_no_aero": {
+        "feasible": false,
+        "schedule_feasible": false,
+        "isp_s": 5000.0,
+        "delivered_water_t": 436.7980730244599,
+        "burn_time_yr": 43.77387842058561,
+        "M_v_t": 15.0,
+        "M_LEO_t": 23.73432937560139,
+        "delivered_per_LEO": 18.4036408238896
+      },
+      "aero_cells": {
+        "hs_0.05_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 496.70163123644124,
+          "burn_time_yr": 2.284461885128217,
+          "M_v_t": 40.75,
+          "M_LEO_t": 64.47826147038379,
+          "delivered_per_LEO": 7.703396771400028
+        },
+        "hs_0.05_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 494.5139034243541,
+          "burn_time_yr": 3.7996899144998246,
+          "M_v_t": 40.75,
+          "M_LEO_t": 64.47826147038379,
+          "delivered_per_LEO": 7.66946707537229
+        },
+        "hs_0.05_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 2934.0,
+          "delivered_water_t": 481.5289912050208,
+          "burn_time_yr": 3.7273902587131684,
+          "M_v_t": 40.75,
+          "M_LEO_t": 64.47826147038379,
+          "delivered_per_LEO": 7.468082733995506
+        },
+        "hs_0.10_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 496.5445660572242,
+          "burn_time_yr": 2.393245784420018,
+          "M_v_t": 66.5,
+          "M_LEO_t": 105.22219356516617,
+          "delivered_per_LEO": 4.719009832746971
+        },
+        "hs_0.10_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 494.2526607302758,
+          "burn_time_yr": 3.9806275294759583,
+          "M_v_t": 66.5,
+          "M_LEO_t": 105.22219356516617,
+          "delivered_per_LEO": 4.697228255597764
+        },
+        "hs_0.10_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 2934.0,
+          "delivered_water_t": 480.6494193576409,
+          "burn_time_yr": 3.9048850329375933,
+          "M_v_t": 66.5,
+          "M_LEO_t": 105.22219356516617,
+          "delivered_per_LEO": 4.567947151377008
+        },
+        "hs_0.15_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 496.38750087800713,
+          "burn_time_yr": 2.5020296837118186,
+          "M_v_t": 92.25,
+          "M_LEO_t": 145.96612565994855,
+          "delivered_per_LEO": 3.4007034072715014
+        },
+        "hs_0.15_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 493.9914180361974,
+          "burn_time_yr": 4.161565144452171,
+          "M_v_t": 92.25,
+          "M_LEO_t": 145.96612565994855,
+          "delivered_per_LEO": 3.3842880723369304
+        },
+        "hs_0.15_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 2934.0,
+          "delivered_water_t": 479.7698475102609,
+          "burn_time_yr": 4.0823798071620425,
+          "M_v_t": 92.25,
+          "M_LEO_t": 145.96612565994855,
+          "delivered_per_LEO": 3.28685744956992
+        }
+      }
+    },
+    {
+      "reactor_kwe": 200.0,
+      "chunk_t": 100.0,
+      "baseline_no_aero": {
+        "feasible": true,
+        "schedule_feasible": true,
+        "isp_s": 5000.0,
+        "delivered_water_t": 84.65972646224755,
+        "burn_time_yr": 5.312363885993398,
+        "M_v_t": 25.0,
+        "M_LEO_t": 39.55721562600232,
+        "delivered_per_LEO": 2.1401841641907122
+      },
+      "aero_cells": {
+        "hs_0.05_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 99.19942505738865,
+          "burn_time_yr": 0.277240520039832,
+          "M_v_t": 31.25,
+          "M_LEO_t": 49.4465195325029,
+          "delivered_per_LEO": 2.006196310585247
+        },
+        "hs_0.05_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 98.66842316125101,
+          "burn_time_yr": 0.46112741680822583,
+          "M_v_t": 31.25,
+          "M_LEO_t": 49.4465195325029,
+          "delivered_per_LEO": 1.9954573970852056
+        },
+        "hs_0.05_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 97.35035563204485,
+          "burn_time_yr": 0.917576535803613,
+          "M_v_t": 31.25,
+          "M_LEO_t": 49.4465195325029,
+          "delivered_per_LEO": 1.9688009702695681
+        },
+        "hs_0.10_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 99.16130244107384,
+          "burn_time_yr": 0.2904424495655322,
+          "M_v_t": 37.5,
+          "M_LEO_t": 59.33582343900348,
+          "delivered_per_LEO": 1.6711877697797601
+        },
+        "hs_0.10_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 98.6050147403582,
+          "burn_time_yr": 0.48308586522766656,
+          "M_v_t": 37.5,
+          "M_LEO_t": 59.33582343900348,
+          "delivered_per_LEO": 1.6618125278352796
+        },
+        "hs_0.10_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 97.22418209071364,
+          "burn_time_yr": 0.9612706565561714,
+          "M_v_t": 37.5,
+          "M_LEO_t": 59.33582343900348,
+          "delivered_per_LEO": 1.6385410441073418
+        },
+        "hs_0.15_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 99.123179824759,
+          "burn_time_yr": 0.3036443790912423,
+          "M_v_t": 43.75,
+          "M_LEO_t": 69.22512734550406,
+          "delivered_per_LEO": 1.4318959549186978
+        },
+        "hs_0.15_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 98.54160631946539,
+          "burn_time_yr": 0.5050443136471073,
+          "M_v_t": 43.75,
+          "M_LEO_t": 69.22512734550406,
+          "delivered_per_LEO": 1.4234947640853322
+        },
+        "hs_0.15_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 97.09800854938243,
+          "burn_time_yr": 1.0049647773087294,
+          "M_v_t": 43.75,
+          "M_LEO_t": 69.22512734550406,
+          "delivered_per_LEO": 1.4026410968486085
+        }
+      }
+    },
+    {
+      "reactor_kwe": 200.0,
+      "chunk_t": 200.0,
+      "baseline_no_aero": {
+        "feasible": false,
+        "schedule_feasible": false,
+        "isp_s": 5000.0,
+        "delivered_water_t": 172.38750763204558,
+        "burn_time_yr": 9.562254994788116,
+        "M_v_t": 25.0,
+        "M_LEO_t": 39.55721562600232,
+        "delivered_per_LEO": 4.357928254149651
+      },
+      "aero_cells": {
+        "hs_0.05_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 198.55896510329958,
+          "burn_time_yr": 0.49903293607169374,
+          "M_v_t": 36.25,
+          "M_LEO_t": 57.35796265770336,
+          "delivered_per_LEO": 3.4617506602918446
+        },
+        "hs_0.05_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 197.60316169025182,
+          "burn_time_yr": 0.8300293502548066,
+          "M_v_t": 36.25,
+          "M_LEO_t": 57.35796265770336,
+          "delivered_per_LEO": 3.4450868289986776
+        },
+        "hs_0.05_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 195.23064013768072,
+          "burn_time_yr": 1.6516377644465075,
+          "M_v_t": 36.25,
+          "M_LEO_t": 57.35796265770336,
+          "delivered_per_LEO": 3.4037234080778602
+        },
+        "hs_0.10_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 198.4903443939329,
+          "burn_time_yr": 0.522796409217964,
+          "M_v_t": 47.5,
+          "M_LEO_t": 75.1587096894044,
+          "delivered_per_LEO": 2.6409493352693274
+        },
+        "hs_0.10_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 197.48902653264477,
+          "burn_time_yr": 0.8695545574097959,
+          "M_v_t": 47.5,
+          "M_LEO_t": 75.1587096894044,
+          "delivered_per_LEO": 2.627626623032434
+        },
+        "hs_0.10_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 195.00352776328455,
+          "burn_time_yr": 1.7302871818011083,
+          "M_v_t": 47.5,
+          "M_LEO_t": 75.1587096894044,
+          "delivered_per_LEO": 2.5945566198401013
+        },
+        "hs_0.15_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 198.4217236845662,
+          "burn_time_yr": 0.5465598823642439,
+          "M_v_t": 58.75,
+          "M_LEO_t": 92.95945672110545,
+          "delivered_per_LEO": 2.1344974538724544
+        },
+        "hs_0.15_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 197.3748913750377,
+          "burn_time_yr": 0.9090797645647952,
+          "M_v_t": 58.75,
+          "M_LEO_t": 92.95945672110545,
+          "delivered_per_LEO": 2.1232362831809217
+        },
+        "hs_0.15_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 194.77641538888838,
+          "burn_time_yr": 1.808936599155709,
+          "M_v_t": 58.75,
+          "M_LEO_t": 92.95945672110545,
+          "delivered_per_LEO": 2.0952834951827604
+        }
+      }
+    },
+    {
+      "reactor_kwe": 200.0,
+      "chunk_t": 500.0,
+      "baseline_no_aero": {
+        "feasible": false,
+        "schedule_feasible": false,
+        "isp_s": 5000.0,
+        "delivered_water_t": 435.5708511414397,
+        "burn_time_yr": 22.311928321172285,
+        "M_v_t": 25.0,
+        "M_LEO_t": 39.55721562600232,
+        "delivered_per_LEO": 11.011160524026469
+      },
+      "aero_cells": {
+        "hs_0.05_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 496.6375852410324,
+          "burn_time_yr": 1.164410184167269,
+          "M_v_t": 51.25,
+          "M_LEO_t": 81.09229203330474,
+          "delivered_per_LEO": 6.124350080486842
+        },
+        "hs_0.05_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 494.4073772772542,
+          "burn_time_yr": 1.9367351505945583,
+          "M_v_t": 51.25,
+          "M_LEO_t": 81.09229203330474,
+          "delivered_per_LEO": 6.0968479849379555
+        },
+        "hs_0.05_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 488.87149365458833,
+          "burn_time_yr": 3.8538214503751895,
+          "M_v_t": 51.25,
+          "M_LEO_t": 81.09229203330474,
+          "delivered_per_LEO": 6.028581526019859
+        },
+        "hs_0.10_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 496.4774702525101,
+          "burn_time_yr": 1.219858288175249,
+          "M_v_t": 77.5,
+          "M_LEO_t": 122.62736844060719,
+          "delivered_per_LEO": 4.048667736786441
+        },
+        "hs_0.10_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 494.1410619095044,
+          "burn_time_yr": 2.0289606339562134,
+          "M_v_t": 77.5,
+          "M_LEO_t": 122.62736844060719,
+          "delivered_per_LEO": 4.02961482573798
+        },
+        "hs_0.10_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 488.34156478099726,
+          "burn_time_yr": 4.037336757535928,
+          "M_v_t": 77.5,
+          "M_LEO_t": 122.62736844060719,
+          "delivered_per_LEO": 3.9823211652586226
+        },
+        "hs_0.15_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 496.3173552639878,
+          "burn_time_yr": 1.2753063921832293,
+          "M_v_t": 103.75,
+          "M_LEO_t": 164.16244484790963,
+          "delivered_per_LEO": 3.0233306754404596
+        },
+        "hs_0.15_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 493.8747465417547,
+          "burn_time_yr": 2.121186117317829,
+          "M_v_t": 103.75,
+          "M_LEO_t": 164.16244484790963,
+          "delivered_per_LEO": 3.008451457940403
+        },
+        "hs_0.15_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 487.8116359074063,
+          "burn_time_yr": 4.220852064696627,
+          "M_v_t": 103.75,
+          "M_LEO_t": 164.16244484790963,
+          "delivered_per_LEO": 2.9715178545211454
+        }
+      }
+    },
+    {
+      "reactor_kwe": 500.0,
+      "chunk_t": 100.0,
+      "baseline_no_aero": {
+        "feasible": true,
+        "schedule_feasible": true,
+        "isp_s": 5000.0,
+        "delivered_water_t": 80.97806081318694,
+        "burn_time_yr": 2.6349324874527285,
+        "M_v_t": 55.0,
+        "M_LEO_t": 87.0258743772051,
+        "delivered_per_LEO": 0.9305055696676542
+      },
+      "aero_cells": {
+        "hs_0.05_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 99.00728707116193,
+          "burn_time_yr": 0.13751129793975703,
+          "M_v_t": 62.75,
+          "M_LEO_t": 99.28861122126582,
+          "delivered_per_LEO": 0.9971666020237008
+        },
+        "hs_0.05_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 98.34884471995124,
+          "burn_time_yr": 0.22871919873688165,
+          "M_v_t": 62.75,
+          "M_LEO_t": 99.28861122126582,
+          "delivered_per_LEO": 0.9905350020535558
+        },
+        "hs_0.05_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 96.71444098373559,
+          "burn_time_yr": 0.4551179617585966,
+          "M_v_t": 62.75,
+          "M_LEO_t": 99.28861122126582,
+          "delivered_per_LEO": 0.974073861988122
+        },
+        "hs_0.10_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 98.96001502693156,
+          "burn_time_yr": 0.14405945498450512,
+          "M_v_t": 70.5,
+          "M_LEO_t": 111.55134806532654,
+          "delivered_per_LEO": 0.8871252274690463
+        },
+        "hs_0.10_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 98.27021827804418,
+          "burn_time_yr": 0.23961058915292063,
+          "M_v_t": 70.5,
+          "M_LEO_t": 111.55134806532654,
+          "delivered_per_LEO": 0.8809415572503465
+        },
+        "hs_0.10_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 96.55798579248491,
+          "burn_time_yr": 0.47679024565186096,
+          "M_v_t": 70.5,
+          "M_LEO_t": 111.55134806532654,
+          "delivered_per_LEO": 0.8655922807489406
+        },
+        "hs_0.15_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 98.91274298270116,
+          "burn_time_yr": 0.15060761202925715,
+          "M_v_t": 78.25,
+          "M_LEO_t": 123.81408490938725,
+          "delivered_per_LEO": 0.7988811858932688
+        },
+        "hs_0.15_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 98.19159183613709,
+          "burn_time_yr": 0.25050197956896353,
+          "M_v_t": 78.25,
+          "M_LEO_t": 123.81408490938725,
+          "delivered_per_LEO": 0.7930567181270058
+        },
+        "hs_0.15_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 96.40153060123424,
+          "burn_time_yr": 0.4984625295451255,
+          "M_v_t": 78.25,
+          "M_LEO_t": 123.81408490938725,
+          "delivered_per_LEO": 0.7785990638446768
+        }
+      }
+    },
+    {
+      "reactor_kwe": 500.0,
+      "chunk_t": 200.0,
+      "baseline_no_aero": {
+        "feasible": true,
+        "schedule_feasible": true,
+        "isp_s": 5000.0,
+        "delivered_water_t": 168.705841982985,
+        "burn_time_yr": 4.334888930970615,
+        "M_v_t": 55.0,
+        "M_LEO_t": 87.0258743772051,
+        "delivered_per_LEO": 1.9385710651035357
+      },
+      "aero_cells": {
+        "hs_0.05_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 198.3668271170729,
+          "burn_time_yr": 0.22622826435249777,
+          "M_v_t": 67.75,
+          "M_LEO_t": 107.20005434646629,
+          "delivered_per_LEO": 1.8504358820188582
+        },
+        "hs_0.05_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 197.28358324895208,
+          "burn_time_yr": 0.37627997211551,
+          "M_v_t": 67.75,
+          "M_LEO_t": 107.20005434646629,
+          "delivered_per_LEO": 1.8403310003121773
+        },
+        "hs_0.05_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 194.59472548937146,
+          "burn_time_yr": 0.7487424532157543,
+          "M_v_t": 67.75,
+          "M_LEO_t": 107.20005434646629,
+          "delivered_per_LEO": 1.8152483846738463
+        },
+        "hs_0.10_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 198.28905697979064,
+          "burn_time_yr": 0.23700103884547385,
+          "M_v_t": 80.5,
+          "M_LEO_t": 127.37423431572746,
+          "delivered_per_LEO": 1.5567438583244697
+        },
+        "hs_0.10_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 197.15423007033075,
+          "burn_time_yr": 0.3941980660257724,
+          "M_v_t": 80.5,
+          "M_LEO_t": 127.37423431572746,
+          "delivered_per_LEO": 1.547834466911392
+        },
+        "hs_0.10_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 194.33733146505585,
+          "burn_time_yr": 0.784396855749832,
+          "M_v_t": 80.5,
+          "M_LEO_t": 127.37423431572746,
+          "delivered_per_LEO": 1.5257193302009915
+        },
+        "hs_0.15_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 198.2112868425084,
+          "burn_time_yr": 0.24777381333844994,
+          "M_v_t": 93.25,
+          "M_LEO_t": 147.54841428498864,
+          "delivered_per_LEO": 1.3433643987502624
+        },
+        "hs_0.15_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 197.02487689170943,
+          "burn_time_yr": 0.4121161599360348,
+          "M_v_t": 93.25,
+          "M_LEO_t": 147.54841428498864,
+          "delivered_per_LEO": 1.3353235807140384
+        },
+        "hs_0.15_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 194.0799374407402,
+          "burn_time_yr": 0.8200512582839172,
+          "M_v_t": 93.25,
+          "M_LEO_t": 147.54841428498864,
+          "delivered_per_LEO": 1.3153644407582468
+        }
+      }
+    },
+    {
+      "reactor_kwe": 500.0,
+      "chunk_t": 500.0,
+      "baseline_no_aero": {
+        "feasible": false,
+        "schedule_feasible": false,
+        "isp_s": 5000.0,
+        "delivered_water_t": 431.8891854923791,
+        "burn_time_yr": 9.434758261524278,
+        "M_v_t": 55.0,
+        "M_LEO_t": 87.0258743772051,
+        "delivered_per_LEO": 4.96276755141118
+      },
+      "aero_cells": {
+        "hs_0.05_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 496.4454472548057,
+          "burn_time_yr": 0.49237916359073186,
+          "M_v_t": 82.75,
+          "M_LEO_t": 130.93438372206768,
+          "delivered_per_LEO": 3.7915590476875995
+        },
+        "hs_0.05_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 494.08779883595446,
+          "burn_time_yr": 0.8189622922514148,
+          "M_v_t": 82.75,
+          "M_LEO_t": 130.93438372206768,
+          "delivered_per_LEO": 3.773552712362757
+        },
+        "hs_0.05_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 488.23557900627907,
+          "burn_time_yr": 1.6296159275872277,
+          "M_v_t": 82.75,
+          "M_LEO_t": 130.93438372206768,
+          "delivered_per_LEO": 3.728856890964935
+        },
+        "hs_0.10_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 496.27618283836784,
+          "burn_time_yr": 0.515825790428388,
+          "M_v_t": 110.5,
+          "M_LEO_t": 174.84289306693023,
+          "delivered_per_LEO": 2.8384120974730855
+        },
+        "hs_0.10_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 493.8062654471904,
+          "burn_time_yr": 0.8579604966443357,
+          "M_v_t": 110.5,
+          "M_LEO_t": 174.84289306693023,
+          "delivered_per_LEO": 2.824285601692488
+        },
+        "hs_0.10_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 487.6753684827686,
+          "burn_time_yr": 1.7072166860437565,
+          "M_v_t": 110.5,
+          "M_LEO_t": 174.84289306693023,
+          "delivered_per_LEO": 2.7892204248535593
+        },
+        "hs_0.15_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 496.10691842193,
+          "burn_time_yr": 0.5392724172660442,
+          "M_v_t": 138.25,
+          "M_LEO_t": 218.7514024117928,
+          "delivered_per_LEO": 2.2679028017750666
+        },
+        "hs_0.15_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 493.52473205842637,
+          "burn_time_yr": 0.8969587010372564,
+          "M_v_t": 138.25,
+          "M_LEO_t": 218.7514024117928,
+          "delivered_per_LEO": 2.256098596933249
+        },
+        "hs_0.15_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 487.115157959258,
+          "burn_time_yr": 1.784817444500301,
+          "M_v_t": 138.25,
+          "M_LEO_t": 218.7514024117928,
+          "delivered_per_LEO": 2.226797874613296
+        }
+      }
+    },
+    {
+      "reactor_kwe": 1000.0,
+      "chunk_t": 100.0,
+      "baseline_no_aero": {
+        "feasible": true,
+        "schedule_feasible": true,
+        "isp_s": 5000.0,
+        "delivered_water_t": 74.84195139808597,
+        "burn_time_yr": 1.742455354605836,
+        "M_v_t": 105.0,
+        "M_LEO_t": 166.14030562920973,
+        "delivered_per_LEO": 0.4504743813648536
+      },
+      "aero_cells": {
+        "hs_0.05_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 98.68705709411739,
+          "burn_time_yr": 0.09093489057306468,
+          "M_v_t": 115.25,
+          "M_LEO_t": 182.35876403587068,
+          "delivered_per_LEO": 0.5411698067590832
+        },
+        "hs_0.05_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 97.81621398445165,
+          "burn_time_yr": 0.1512497927130989,
+          "M_v_t": 115.25,
+          "M_LEO_t": 182.35876403587068,
+          "delivered_per_LEO": 0.5363943680009304
+        },
+        "hs_0.05_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 95.65458323655355,
+          "burn_time_yr": 0.30096510374358576,
+          "M_v_t": 115.25,
+          "M_LEO_t": 182.35876403587068,
+          "delivered_per_LEO": 0.5245406424104625
+        },
+        "hs_0.10_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 98.6245360033611,
+          "burn_time_yr": 0.09526512345749476,
+          "M_v_t": 125.5,
+          "M_LEO_t": 198.57722244253165,
+          "delivered_per_LEO": 0.4966558338880135
+        },
+        "hs_0.10_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 97.71222417418744,
+          "burn_time_yr": 0.15845216379467522,
+          "M_v_t": 125.5,
+          "M_LEO_t": 198.57722244253165,
+          "delivered_per_LEO": 0.49206159181960263
+        },
+        "hs_0.10_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 95.44765862877037,
+          "burn_time_yr": 0.3152967753504242,
+          "M_v_t": 125.5,
+          "M_LEO_t": 198.57722244253165,
+          "delivered_per_LEO": 0.480657637642167
+        },
+        "hs_0.15_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 98.56201491260478,
+          "burn_time_yr": 0.09959535634192679,
+          "M_v_t": 135.75,
+          "M_LEO_t": 214.7956808491926,
+          "delivered_per_LEO": 0.4588640447654293
+        },
+        "hs_0.15_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 97.60823436392323,
+          "burn_time_yr": 0.16565453487625156,
+          "M_v_t": 135.75,
+          "M_LEO_t": 214.7956808491926,
+          "delivered_per_LEO": 0.4544236363507406
+        },
+        "hs_0.15_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 95.24073402098719,
+          "burn_time_yr": 0.3296284469572626,
+          "M_v_t": 135.75,
+          "M_LEO_t": 214.7956808491926,
+          "delivered_per_LEO": 0.4434015323048112
+        }
+      }
+    },
+    {
+      "reactor_kwe": 1000.0,
+      "chunk_t": 200.0,
+      "baseline_no_aero": {
+        "feasible": true,
+        "schedule_feasible": true,
+        "isp_s": 5000.0,
+        "delivered_water_t": 162.569732567884,
+        "burn_time_yr": 2.5924335763647806,
+        "M_v_t": 105.0,
+        "M_LEO_t": 166.14030562920973,
+        "delivered_per_LEO": 0.9785086884979343
+      },
+      "aero_cells": {
+        "hs_0.05_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 198.04659714002833,
+          "burn_time_yr": 0.13529337377943704,
+          "M_v_t": 120.25,
+          "M_LEO_t": 190.27020716107114,
+          "delivered_per_LEO": 1.0408702449794158
+        },
+        "hs_0.05_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 196.7509525134525,
+          "burn_time_yr": 0.2250301794024131,
+          "M_v_t": 120.25,
+          "M_LEO_t": 190.27020716107114,
+          "delivered_per_LEO": 1.0340607468141092
+        },
+        "hs_0.05_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 193.53486774218942,
+          "burn_time_yr": 0.4477773494721647,
+          "M_v_t": 120.25,
+          "M_LEO_t": 190.27020716107114,
+          "delivered_per_LEO": 1.0171580229497235
+        },
+        "hs_0.10_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 197.95357795622016,
+          "burn_time_yr": 0.14173591538798108,
+          "M_v_t": 135.5,
+          "M_LEO_t": 214.40010869293258,
+          "delivered_per_LEO": 0.923290473885592
+        },
+        "hs_0.10_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 196.596235966474,
+          "burn_time_yr": 0.2357459022311011,
+          "M_v_t": 135.5,
+          "M_LEO_t": 214.40010869293258,
+          "delivered_per_LEO": 0.9169595909489133
+        },
+        "hs_0.10_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 193.22700430134125,
+          "burn_time_yr": 0.4691000803994136,
+          "M_v_t": 135.5,
+          "M_LEO_t": 214.40010869293258,
+          "delivered_per_LEO": 0.901244898985029
+        },
+        "hs_0.15_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 197.860558772412,
+          "burn_time_yr": 0.14817845699652515,
+          "M_v_t": 150.75,
+          "M_LEO_t": 238.53001022479398,
+          "delivered_per_LEO": 0.8294996448704524
+        },
+        "hs_0.15_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 196.44151941949553,
+          "burn_time_yr": 0.2464616250597891,
+          "M_v_t": 150.75,
+          "M_LEO_t": 238.53001022479398,
+          "delivered_per_LEO": 0.8235505429038733
+        },
+        "hs_0.15_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 192.91914086049314,
+          "burn_time_yr": 0.4904228113266586,
+          "M_v_t": 150.75,
+          "M_LEO_t": 238.53001022479398,
+          "delivered_per_LEO": 0.8087835181773709
+        }
+      }
+    },
+    {
+      "reactor_kwe": 1000.0,
+      "chunk_t": 500.0,
+      "baseline_no_aero": {
+        "feasible": true,
+        "schedule_feasible": true,
+        "isp_s": 5000.0,
+        "delivered_water_t": 425.75307607727814,
+        "burn_time_yr": 5.14236824164161,
+        "M_v_t": 105.0,
+        "M_LEO_t": 166.14030562920973,
+        "delivered_per_LEO": 2.5626116098971767
+      },
+      "aero_cells": {
+        "hs_0.05_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 496.12521727776107,
+          "burn_time_yr": 0.26836882339855805,
+          "M_v_t": 135.25,
+          "M_LEO_t": 214.00453653667253,
+          "delivered_per_LEO": 2.318292991853205
+        },
+        "hs_0.05_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 493.5551681004549,
+          "burn_time_yr": 0.44637133947036156,
+          "M_v_t": 135.25,
+          "M_LEO_t": 214.00453653667253,
+          "delivered_per_LEO": 2.3062836708411445
+        },
+        "hs_0.05_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 487.17572125909703,
+          "burn_time_yr": 0.8882140866579014,
+          "M_v_t": 135.25,
+          "M_LEO_t": 214.00453653667253,
+          "delivered_per_LEO": 2.276473803514969
+        },
+        "hs_0.10_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 495.9407038147973,
+          "burn_time_yr": 0.28114829117944207,
+          "M_v_t": 165.5,
+          "M_LEO_t": 261.86876744413536,
+          "delivered_per_LEO": 1.8938520567199626
+        },
+        "hs_0.10_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 493.2482713433337,
+          "burn_time_yr": 0.4676271175403787,
+          "M_v_t": 165.5,
+          "M_LEO_t": 261.86876744413536,
+          "delivered_per_LEO": 1.8835704469742032
+        },
+        "hs_0.10_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 486.565041319054,
+          "burn_time_yr": 0.9305099955463759,
+          "M_v_t": 165.5,
+          "M_LEO_t": 261.86876744413536,
+          "delivered_per_LEO": 1.8580491521305733
+        },
+        "hs_0.15_dv_0.3": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 495.75619035183365,
+          "burn_time_yr": 0.29392775896031836,
+          "M_v_t": 195.75,
+          "M_LEO_t": 309.73299835159816,
+          "delivered_per_LEO": 1.6005921002613626
+        },
+        "hs_0.15_dv_0.5": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 492.94137458621253,
+          "burn_time_yr": 0.488882895610396,
+          "M_v_t": 195.75,
+          "M_LEO_t": 309.73299835159816,
+          "delivered_per_LEO": 1.591504222054644
+        },
+        "hs_0.15_dv_1.0": {
+          "feasible": true,
+          "schedule_feasible": true,
+          "isp_s": 5000.0,
+          "delivered_water_t": 485.95436137901106,
+          "burn_time_yr": 0.9728059044348425,
+          "M_v_t": 195.75,
+          "M_LEO_t": 309.73299835159816,
+          "delivered_per_LEO": 1.568946040509938
+        }
+      }
+    }
+  ],
+  "headline": [
+    {
+      "reactor_kwe": 10.0,
+      "chunk_t": 100.0,
+      "baseline_delivered_t": 86.99144803998591,
+      "aero_delivered_t": 97.9912784384596,
+      "improvement_pct": 12.644726172873433,
+      "baseline_burn_yr": 90.09769150644811,
+      "aero_burn_yr": 4.05353560493563,
+      "baseline_feasible_7yr": false,
+      "aero_feasible_7yr": true,
+      "baseline_isp": 5000.0,
+      "aero_isp": 2934.0
+    },
+    {
+      "reactor_kwe": 10.0,
+      "chunk_t": 200.0,
+      "baseline_delivered_t": 174.71922920978395,
+      "aero_delivered_t": 194.29631825578622,
+      "improvement_pct": 11.204885194689258,
+      "baseline_burn_yr": 175.09551368234253,
+      "aero_burn_yr": 5.348220541524054,
+      "baseline_feasible_7yr": false,
+      "aero_feasible_7yr": true,
+      "baseline_isp": 5000.0,
+      "aero_isp": 2000.0
+    },
+    {
+      "reactor_kwe": 40.0,
+      "chunk_t": 100.0,
+      "baseline_delivered_t": 86.62328147507986,
+      "aero_delivered_t": 98.78357285359235,
+      "improvement_pct": 14.038132903116587,
+      "baseline_burn_yr": 23.16190654293122,
+      "aero_burn_yr": 2.106254372392634,
+      "baseline_feasible_7yr": false,
+      "aero_feasible_7yr": true,
+      "baseline_isp": 5000.0,
+      "aero_isp": 5000.0
+    },
+    {
+      "reactor_kwe": 40.0,
+      "chunk_t": 200.0,
+      "baseline_delivered_t": 174.35106264487789,
+      "aero_delivered_t": 197.66758464587892,
+      "improvement_pct": 13.373317975407264,
+      "baseline_burn_yr": 44.41136208690484,
+      "aero_burn_yr": 4.038597833303281,
+      "baseline_feasible_7yr": false,
+      "aero_feasible_7yr": true,
+      "baseline_isp": 5000.0,
+      "aero_isp": 5000.0
+    },
+    {
+      "reactor_kwe": 40.0,
+      "chunk_t": 500.0,
+      "baseline_delivered_t": 437.534406154272,
+      "aero_delivered_t": 490.354346463924,
+      "improvement_pct": 12.072179825562793,
+      "baseline_burn_yr": 108.1597287188256,
+      "aero_burn_yr": 4.866154771019426,
+      "baseline_feasible_7yr": false,
+      "aero_feasible_7yr": true,
+      "baseline_isp": 5000.0,
+      "aero_isp": 2934.0
+    },
+    {
+      "reactor_kwe": 100.0,
+      "chunk_t": 100.0,
+      "baseline_delivered_t": 85.88694834526774,
+      "aero_delivered_t": 98.71661356112955,
+      "improvement_pct": 14.937851982219957,
+      "baseline_burn_yr": 9.774749550227856,
+      "aero_burn_yr": 0.8888779920189034,
+      "baseline_feasible_7yr": false,
+      "aero_feasible_7yr": true,
+      "baseline_isp": 5000.0,
+      "aero_isp": 5000.0
+    },
+    {
+      "reactor_kwe": 100.0,
+      "chunk_t": 200.0,
+      "baseline_delivered_t": 173.6147295150658,
+      "aero_delivered_t": 197.60062535341612,
+      "improvement_pct": 13.815588058309825,
+      "baseline_burn_yr": 18.274531767817287,
+      "aero_burn_yr": 1.661815376383162,
+      "baseline_feasible_7yr": false,
+      "aero_feasible_7yr": true,
+      "baseline_isp": 5000.0,
+      "aero_isp": 5000.0
+    },
+    {
+      "reactor_kwe": 100.0,
+      "chunk_t": 500.0,
+      "baseline_delivered_t": 436.7980730244599,
+      "aero_delivered_t": 494.2526607302758,
+      "improvement_pct": 13.153580854418873,
+      "baseline_burn_yr": 43.77387842058561,
+      "aero_burn_yr": 3.9806275294759583,
+      "baseline_feasible_7yr": false,
+      "aero_feasible_7yr": true,
+      "baseline_isp": 5000.0,
+      "aero_isp": 5000.0
+    },
+    {
+      "reactor_kwe": 200.0,
+      "chunk_t": 100.0,
+      "baseline_delivered_t": 84.65972646224755,
+      "aero_delivered_t": 98.6050147403582,
+      "improvement_pct": 16.47216316524398,
+      "baseline_burn_yr": 5.312363885993398,
+      "aero_burn_yr": 0.48308586522766656,
+      "baseline_feasible_7yr": true,
+      "aero_feasible_7yr": true,
+      "baseline_isp": 5000.0,
+      "aero_isp": 5000.0
+    },
+    {
+      "reactor_kwe": 200.0,
+      "chunk_t": 200.0,
+      "baseline_delivered_t": 172.38750763204558,
+      "aero_delivered_t": 197.48902653264477,
+      "improvement_pct": 14.561100885672879,
+      "baseline_burn_yr": 9.562254994788116,
+      "aero_burn_yr": 0.8695545574097959,
+      "baseline_feasible_7yr": false,
+      "aero_feasible_7yr": true,
+      "baseline_isp": 5000.0,
+      "aero_isp": 5000.0
+    },
+    {
+      "reactor_kwe": 200.0,
+      "chunk_t": 500.0,
+      "baseline_delivered_t": 435.5708511414397,
+      "aero_delivered_t": 494.1410619095044,
+      "improvement_pct": 13.446770052352667,
+      "baseline_burn_yr": 22.311928321172285,
+      "aero_burn_yr": 2.0289606339562134,
+      "baseline_feasible_7yr": false,
+      "aero_feasible_7yr": true,
+      "baseline_isp": 5000.0,
+      "aero_isp": 5000.0
+    },
+    {
+      "reactor_kwe": 500.0,
+      "chunk_t": 100.0,
+      "baseline_delivered_t": 80.97806081318694,
+      "aero_delivered_t": 98.27021827804418,
+      "improvement_pct": 21.354126403137187,
+      "baseline_burn_yr": 2.6349324874527285,
+      "aero_burn_yr": 0.23961058915292063,
+      "baseline_feasible_7yr": true,
+      "aero_feasible_7yr": true,
+      "baseline_isp": 5000.0,
+      "aero_isp": 5000.0
+    },
+    {
+      "reactor_kwe": 500.0,
+      "chunk_t": 200.0,
+      "baseline_delivered_t": 168.705841982985,
+      "aero_delivered_t": 197.15423007033075,
+      "improvement_pct": 16.86271663918725,
+      "baseline_burn_yr": 4.334888930970615,
+      "aero_burn_yr": 0.3941980660257724,
+      "baseline_feasible_7yr": true,
+      "aero_feasible_7yr": true,
+      "baseline_isp": 5000.0,
+      "aero_isp": 5000.0
+    },
+    {
+      "reactor_kwe": 500.0,
+      "chunk_t": 500.0,
+      "baseline_delivered_t": 431.8891854923791,
+      "aero_delivered_t": 493.8062654471904,
+      "improvement_pct": 14.336334882806149,
+      "baseline_burn_yr": 9.434758261524278,
+      "aero_burn_yr": 0.8579604966443357,
+      "baseline_feasible_7yr": false,
+      "aero_feasible_7yr": true,
+      "baseline_isp": 5000.0,
+      "aero_isp": 5000.0
+    },
+    {
+      "reactor_kwe": 1000.0,
+      "chunk_t": 100.0,
+      "baseline_delivered_t": 74.84195139808597,
+      "aero_delivered_t": 97.71222417418744,
+      "improvement_pct": 30.55809255220243,
+      "baseline_burn_yr": 1.742455354605836,
+      "aero_burn_yr": 0.15845216379467522,
+      "baseline_feasible_7yr": true,
+      "aero_feasible_7yr": true,
+      "baseline_isp": 5000.0,
+      "aero_isp": 5000.0
+    },
+    {
+      "reactor_kwe": 1000.0,
+      "chunk_t": 200.0,
+      "baseline_delivered_t": 162.569732567884,
+      "aero_delivered_t": 196.596235966474,
+      "improvement_pct": 20.93040497829547,
+      "baseline_burn_yr": 2.5924335763647806,
+      "aero_burn_yr": 0.2357459022311011,
+      "baseline_feasible_7yr": true,
+      "aero_feasible_7yr": true,
+      "baseline_isp": 5000.0,
+      "aero_isp": 5000.0
+    },
+    {
+      "reactor_kwe": 1000.0,
+      "chunk_t": 500.0,
+      "baseline_delivered_t": 425.75307607727814,
+      "aero_delivered_t": 493.2482713433337,
+      "improvement_pct": 15.85313155877342,
+      "baseline_burn_yr": 5.14236824164161,
+      "aero_burn_yr": 0.4676271175403787,
+      "baseline_feasible_7yr": true,
+      "aero_feasible_7yr": true,
+      "baseline_isp": 5000.0,
+      "aero_isp": 5000.0
+    }
+  ]
+}

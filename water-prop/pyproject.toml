@@ -1,0 +1,25 @@
+[project]
+name = "waterprop"
+version = "0.1.0"
+description = "Water propulsion R&D for Project ICEBERG (RRS): physics models and paper studies"
+requires-python = ">=3.13"
+dependencies = [
+    "cantera>=3.2.0",
+    "matplotlib>=3.10.9",
+    "numpy>=2.4.4",
+    "scipy>=1.17.1",
+]
+
+[dependency-groups]
+dev = [
+    "plotly>=6.7.0",
+    "pytest>=8.0",
+    "streamlit>=1.57.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/waterprop"]

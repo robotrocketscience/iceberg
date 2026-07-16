@@ -1,0 +1,6 @@
+power_mwe,any_closure,max_df_pct,isp_exit,isp_inbound,t_exit_month,t_inbound_year
+0.5,no,n/a,n/a,n/a,n/a,n/a
+1.0,yes,0.000,1000,1000,5.72,0.384
+2.0,yes,0.000,1000,1000,2.86,0.192
+5.0,yes,22.764,3000,9000,4.33,2.622
+10.0,yes,40.514,7000,9000,5.41,1.514

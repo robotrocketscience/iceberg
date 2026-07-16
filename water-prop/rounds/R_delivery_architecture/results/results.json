@@ -1,0 +1,1144 @@
+{
+  "architectures": {
+    "A": [
+      {
+        "cases": {
+          "ct_b_ring": {
+            "delivered_fraction": 0.06509508589212974,
+            "delivered_tonnes": 3.254754294606487,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 40200.0
+          },
+          "ct_high_elliptical": {
+            "delivered_fraction": 0.18664267980210125,
+            "delivered_tonnes": 9.332133990105064,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 24700.0
+          },
+          "impulsive_equivalent": {
+            "delivered_fraction": 0.646430556868288,
+            "delivered_tonnes": 32.3215278434144,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 6420.0
+          }
+        },
+        "chunk_t": 50.0,
+        "isp_deep_space_s": 1500.0,
+        "name": "A_whole_chunk_to_leo_via_lga"
+      },
+      {
+        "cases": {
+          "ct_b_ring": {
+            "delivered_fraction": 0.1288727670069181,
+            "delivered_tonnes": 6.443638350345905,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 40200.0
+          },
+          "ct_high_elliptical": {
+            "delivered_fraction": 0.2839606888543756,
+            "delivered_tonnes": 14.198034442718779,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 24700.0
+          },
+          "impulsive_equivalent": {
+            "delivered_fraction": 0.7209271944392097,
+            "delivered_tonnes": 36.046359721960485,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 6420.0
+          }
+        },
+        "chunk_t": 50.0,
+        "isp_deep_space_s": 2000.0,
+        "name": "A_whole_chunk_to_leo_via_lga"
+      },
+      {
+        "cases": {
+          "ct_b_ring": {
+            "delivered_fraction": 0.44062025888824863,
+            "delivered_tonnes": 22.03101294441243,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 40200.0
+          },
+          "ct_high_elliptical": {
+            "delivered_fraction": 0.604370542631823,
+            "delivered_tonnes": 30.21852713159115,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 24700.0
+          },
+          "impulsive_equivalent": {
+            "delivered_fraction": 0.877317037063757,
+            "delivered_tonnes": 43.86585185318785,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 6420.0
+          }
+        },
+        "chunk_t": 50.0,
+        "isp_deep_space_s": 5000.0,
+        "name": "A_whole_chunk_to_leo_via_lga"
+      },
+      {
+        "cases": {
+          "ct_b_ring": {
+            "delivered_fraction": 0.06509508589212974,
+            "delivered_tonnes": 6.509508589212974,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 40200.0
+          },
+          "ct_high_elliptical": {
+            "delivered_fraction": 0.18664267980210125,
+            "delivered_tonnes": 18.664267980210127,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 24700.0
+          },
+          "impulsive_equivalent": {
+            "delivered_fraction": 0.646430556868288,
+            "delivered_tonnes": 64.6430556868288,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 6420.0
+          }
+        },
+        "chunk_t": 100.0,
+        "isp_deep_space_s": 1500.0,
+        "name": "A_whole_chunk_to_leo_via_lga"
+      },
+      {
+        "cases": {
+          "ct_b_ring": {
+            "delivered_fraction": 0.1288727670069181,
+            "delivered_tonnes": 12.88727670069181,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 40200.0
+          },
+          "ct_high_elliptical": {
+            "delivered_fraction": 0.2839606888543756,
+            "delivered_tonnes": 28.396068885437558,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 24700.0
+          },
+          "impulsive_equivalent": {
+            "delivered_fraction": 0.7209271944392097,
+            "delivered_tonnes": 72.09271944392097,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 6420.0
+          }
+        },
+        "chunk_t": 100.0,
+        "isp_deep_space_s": 2000.0,
+        "name": "A_whole_chunk_to_leo_via_lga"
+      },
+      {
+        "cases": {
+          "ct_b_ring": {
+            "delivered_fraction": 0.44062025888824863,
+            "delivered_tonnes": 44.06202588882486,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 40200.0
+          },
+          "ct_high_elliptical": {
+            "delivered_fraction": 0.604370542631823,
+            "delivered_tonnes": 60.4370542631823,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 24700.0
+          },
+          "impulsive_equivalent": {
+            "delivered_fraction": 0.877317037063757,
+            "delivered_tonnes": 87.7317037063757,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 6420.0
+          }
+        },
+        "chunk_t": 100.0,
+        "isp_deep_space_s": 5000.0,
+        "name": "A_whole_chunk_to_leo_via_lga"
+      },
+      {
+        "cases": {
+          "ct_b_ring": {
+            "delivered_fraction": 0.06509508589212974,
+            "delivered_tonnes": 13.019017178425948,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 40200.0
+          },
+          "ct_high_elliptical": {
+            "delivered_fraction": 0.18664267980210125,
+            "delivered_tonnes": 37.328535960420254,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 24700.0
+          },
+          "impulsive_equivalent": {
+            "delivered_fraction": 0.646430556868288,
+            "delivered_tonnes": 129.2861113736576,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 6420.0
+          }
+        },
+        "chunk_t": 200.0,
+        "isp_deep_space_s": 1500.0,
+        "name": "A_whole_chunk_to_leo_via_lga"
+      },
+      {
+        "cases": {
+          "ct_b_ring": {
+            "delivered_fraction": 0.1288727670069181,
+            "delivered_tonnes": 25.77455340138362,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 40200.0
+          },
+          "ct_high_elliptical": {
+            "delivered_fraction": 0.2839606888543756,
+            "delivered_tonnes": 56.792137770875115,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 24700.0
+          },
+          "impulsive_equivalent": {
+            "delivered_fraction": 0.7209271944392097,
+            "delivered_tonnes": 144.18543888784194,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 6420.0
+          }
+        },
+        "chunk_t": 200.0,
+        "isp_deep_space_s": 2000.0,
+        "name": "A_whole_chunk_to_leo_via_lga"
+      },
+      {
+        "cases": {
+          "ct_b_ring": {
+            "delivered_fraction": 0.44062025888824863,
+            "delivered_tonnes": 88.12405177764973,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 40200.0
+          },
+          "ct_high_elliptical": {
+            "delivered_fraction": 0.604370542631823,
+            "delivered_tonnes": 120.8741085263646,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 24700.0
+          },
+          "impulsive_equivalent": {
+            "delivered_fraction": 0.877317037063757,
+            "delivered_tonnes": 175.4634074127514,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 6420.0
+          }
+        },
+        "chunk_t": 200.0,
+        "isp_deep_space_s": 5000.0,
+        "name": "A_whole_chunk_to_leo_via_lga"
+      },
+      {
+        "cases": {
+          "ct_b_ring": {
+            "delivered_fraction": 0.06509508589212974,
+            "delivered_tonnes": 32.54754294606487,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 40200.0
+          },
+          "ct_high_elliptical": {
+            "delivered_fraction": 0.18664267980210125,
+            "delivered_tonnes": 93.32133990105062,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 24700.0
+          },
+          "impulsive_equivalent": {
+            "delivered_fraction": 0.646430556868288,
+            "delivered_tonnes": 323.215278434144,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 6420.0
+          }
+        },
+        "chunk_t": 500.0,
+        "isp_deep_space_s": 1500.0,
+        "name": "A_whole_chunk_to_leo_via_lga"
+      },
+      {
+        "cases": {
+          "ct_b_ring": {
+            "delivered_fraction": 0.1288727670069181,
+            "delivered_tonnes": 64.43638350345906,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 40200.0
+          },
+          "ct_high_elliptical": {
+            "delivered_fraction": 0.2839606888543756,
+            "delivered_tonnes": 141.9803444271878,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 24700.0
+          },
+          "impulsive_equivalent": {
+            "delivered_fraction": 0.7209271944392097,
+            "delivered_tonnes": 360.4635972196049,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 6420.0
+          }
+        },
+        "chunk_t": 500.0,
+        "isp_deep_space_s": 2000.0,
+        "name": "A_whole_chunk_to_leo_via_lga"
+      },
+      {
+        "cases": {
+          "ct_b_ring": {
+            "delivered_fraction": 0.44062025888824863,
+            "delivered_tonnes": 220.3101294441243,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 40200.0
+          },
+          "ct_high_elliptical": {
+            "delivered_fraction": 0.604370542631823,
+            "delivered_tonnes": 302.1852713159115,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 24700.0
+          },
+          "impulsive_equivalent": {
+            "delivered_fraction": 0.877317037063757,
+            "delivered_tonnes": 438.6585185318785,
+            "delivery_orbit": "low Earth orbit",
+            "delta_v_m_per_s": 6420.0
+          }
+        },
+        "chunk_t": 500.0,
+        "isp_deep_space_s": 5000.0,
+        "name": "A_whole_chunk_to_leo_via_lga"
+      }
+    ],
+    "B": [
+      {
+        "chunk_t": 50.0,
+        "delivered_fraction_cislunar": 0.32793700693147615,
+        "delivered_fraction_deep_space": 0.7619826714052859,
+        "delivered_to_ldro_t": 38.09913357026429,
+        "delivered_to_leo_t": 12.494115829714998,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 1500.0,
+        "isp_tug_s": 320.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.24988231659429996
+      },
+      {
+        "chunk_t": 50.0,
+        "delivered_fraction_cislunar": 0.39106105846311034,
+        "delivered_fraction_deep_space": 0.7619826714052859,
+        "delivered_to_ldro_t": 38.09913357026429,
+        "delivered_to_leo_t": 14.899087500514975,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 1500.0,
+        "isp_tug_s": 380.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.2979817500102995
+      },
+      {
+        "chunk_t": 50.0,
+        "delivered_fraction_cislunar": 0.8366165827485517,
+        "delivered_fraction_deep_space": 0.7619826714052859,
+        "delivered_to_ldro_t": 38.09913357026429,
+        "delivered_to_leo_t": 31.87436693323514,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 1500.0,
+        "isp_tug_s": 2000.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.6374873386647029
+      },
+      {
+        "chunk_t": 50.0,
+        "delivered_fraction_cislunar": 0.32793700693147615,
+        "delivered_fraction_deep_space": 0.8155654534757681,
+        "delivered_to_ldro_t": 40.77827267378841,
+        "delivered_to_leo_t": 13.372704688477773,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 2000.0,
+        "isp_tug_s": 320.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.2674540937695555
+      },
+      {
+        "chunk_t": 50.0,
+        "delivered_fraction_cislunar": 0.39106105846311034,
+        "delivered_fraction_deep_space": 0.8155654534757681,
+        "delivered_to_ldro_t": 40.77827267378841,
+        "delivered_to_leo_t": 15.946794474109023,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 2000.0,
+        "isp_tug_s": 380.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.31893588948218043
+      },
+      {
+        "chunk_t": 50.0,
+        "delivered_fraction_cislunar": 0.8366165827485517,
+        "delivered_fraction_deep_space": 0.8155654534757681,
+        "delivered_to_ldro_t": 40.77827267378841,
+        "delivered_to_leo_t": 34.1157791347335,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 2000.0,
+        "isp_tug_s": 2000.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.68231558269467
+      },
+      {
+        "chunk_t": 50.0,
+        "delivered_fraction_cislunar": 0.32793700693147615,
+        "delivered_fraction_deep_space": 0.9216871411165,
+        "delivered_to_ldro_t": 46.084357055824995,
+        "delivered_to_leo_t": 15.112766119248704,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 5000.0,
+        "isp_tug_s": 320.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.3022553223849741
+      },
+      {
+        "chunk_t": 50.0,
+        "delivered_fraction_cislunar": 0.39106105846311034,
+        "delivered_fraction_deep_space": 0.9216871411165,
+        "delivered_to_ldro_t": 46.084357055824995,
+        "delivered_to_leo_t": 18.02179744884283,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 5000.0,
+        "isp_tug_s": 380.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.3604359489768566
+      },
+      {
+        "chunk_t": 50.0,
+        "delivered_fraction_cislunar": 0.8366165827485517,
+        "delivered_fraction_deep_space": 0.9216871411165,
+        "delivered_to_ldro_t": 46.084357055824995,
+        "delivered_to_leo_t": 38.55493731820841,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 5000.0,
+        "isp_tug_s": 2000.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.7710987463641682
+      },
+      {
+        "chunk_t": 100.0,
+        "delivered_fraction_cislunar": 0.32793700693147615,
+        "delivered_fraction_deep_space": 0.7619826714052859,
+        "delivered_to_ldro_t": 76.19826714052859,
+        "delivered_to_leo_t": 24.988231659429996,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 1500.0,
+        "isp_tug_s": 320.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.24988231659429996
+      },
+      {
+        "chunk_t": 100.0,
+        "delivered_fraction_cislunar": 0.39106105846311034,
+        "delivered_fraction_deep_space": 0.7619826714052859,
+        "delivered_to_ldro_t": 76.19826714052859,
+        "delivered_to_leo_t": 29.79817500102995,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 1500.0,
+        "isp_tug_s": 380.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.2979817500102995
+      },
+      {
+        "chunk_t": 100.0,
+        "delivered_fraction_cislunar": 0.8366165827485517,
+        "delivered_fraction_deep_space": 0.7619826714052859,
+        "delivered_to_ldro_t": 76.19826714052859,
+        "delivered_to_leo_t": 63.74873386647028,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 1500.0,
+        "isp_tug_s": 2000.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.6374873386647029
+      },
+      {
+        "chunk_t": 100.0,
+        "delivered_fraction_cislunar": 0.32793700693147615,
+        "delivered_fraction_deep_space": 0.8155654534757681,
+        "delivered_to_ldro_t": 81.55654534757682,
+        "delivered_to_leo_t": 26.745409376955546,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 2000.0,
+        "isp_tug_s": 320.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.2674540937695555
+      },
+      {
+        "chunk_t": 100.0,
+        "delivered_fraction_cislunar": 0.39106105846311034,
+        "delivered_fraction_deep_space": 0.8155654534757681,
+        "delivered_to_ldro_t": 81.55654534757682,
+        "delivered_to_leo_t": 31.893588948218046,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 2000.0,
+        "isp_tug_s": 380.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.31893588948218043
+      },
+      {
+        "chunk_t": 100.0,
+        "delivered_fraction_cislunar": 0.8366165827485517,
+        "delivered_fraction_deep_space": 0.8155654534757681,
+        "delivered_to_ldro_t": 81.55654534757682,
+        "delivered_to_leo_t": 68.231558269467,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 2000.0,
+        "isp_tug_s": 2000.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.68231558269467
+      },
+      {
+        "chunk_t": 100.0,
+        "delivered_fraction_cislunar": 0.32793700693147615,
+        "delivered_fraction_deep_space": 0.9216871411165,
+        "delivered_to_ldro_t": 92.16871411164999,
+        "delivered_to_leo_t": 30.225532238497408,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 5000.0,
+        "isp_tug_s": 320.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.3022553223849741
+      },
+      {
+        "chunk_t": 100.0,
+        "delivered_fraction_cislunar": 0.39106105846311034,
+        "delivered_fraction_deep_space": 0.9216871411165,
+        "delivered_to_ldro_t": 92.16871411164999,
+        "delivered_to_leo_t": 36.04359489768566,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 5000.0,
+        "isp_tug_s": 380.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.3604359489768566
+      },
+      {
+        "chunk_t": 100.0,
+        "delivered_fraction_cislunar": 0.8366165827485517,
+        "delivered_fraction_deep_space": 0.9216871411165,
+        "delivered_to_ldro_t": 92.16871411164999,
+        "delivered_to_leo_t": 77.10987463641682,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 5000.0,
+        "isp_tug_s": 2000.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.7710987463641682
+      },
+      {
+        "chunk_t": 200.0,
+        "delivered_fraction_cislunar": 0.32793700693147615,
+        "delivered_fraction_deep_space": 0.7619826714052859,
+        "delivered_to_ldro_t": 152.39653428105717,
+        "delivered_to_leo_t": 49.97646331885999,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 1500.0,
+        "isp_tug_s": 320.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.24988231659429996
+      },
+      {
+        "chunk_t": 200.0,
+        "delivered_fraction_cislunar": 0.39106105846311034,
+        "delivered_fraction_deep_space": 0.7619826714052859,
+        "delivered_to_ldro_t": 152.39653428105717,
+        "delivered_to_leo_t": 59.5963500020599,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 1500.0,
+        "isp_tug_s": 380.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.2979817500102995
+      },
+      {
+        "chunk_t": 200.0,
+        "delivered_fraction_cislunar": 0.8366165827485517,
+        "delivered_fraction_deep_space": 0.7619826714052859,
+        "delivered_to_ldro_t": 152.39653428105717,
+        "delivered_to_leo_t": 127.49746773294056,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 1500.0,
+        "isp_tug_s": 2000.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.6374873386647029
+      },
+      {
+        "chunk_t": 200.0,
+        "delivered_fraction_cislunar": 0.32793700693147615,
+        "delivered_fraction_deep_space": 0.8155654534757681,
+        "delivered_to_ldro_t": 163.11309069515363,
+        "delivered_to_leo_t": 53.49081875391109,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 2000.0,
+        "isp_tug_s": 320.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.2674540937695555
+      },
+      {
+        "chunk_t": 200.0,
+        "delivered_fraction_cislunar": 0.39106105846311034,
+        "delivered_fraction_deep_space": 0.8155654534757681,
+        "delivered_to_ldro_t": 163.11309069515363,
+        "delivered_to_leo_t": 63.78717789643609,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 2000.0,
+        "isp_tug_s": 380.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.31893588948218043
+      },
+      {
+        "chunk_t": 200.0,
+        "delivered_fraction_cislunar": 0.8366165827485517,
+        "delivered_fraction_deep_space": 0.8155654534757681,
+        "delivered_to_ldro_t": 163.11309069515363,
+        "delivered_to_leo_t": 136.463116538934,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 2000.0,
+        "isp_tug_s": 2000.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.68231558269467
+      },
+      {
+        "chunk_t": 200.0,
+        "delivered_fraction_cislunar": 0.32793700693147615,
+        "delivered_fraction_deep_space": 0.9216871411165,
+        "delivered_to_ldro_t": 184.33742822329998,
+        "delivered_to_leo_t": 60.451064476994816,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 5000.0,
+        "isp_tug_s": 320.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.3022553223849741
+      },
+      {
+        "chunk_t": 200.0,
+        "delivered_fraction_cislunar": 0.39106105846311034,
+        "delivered_fraction_deep_space": 0.9216871411165,
+        "delivered_to_ldro_t": 184.33742822329998,
+        "delivered_to_leo_t": 72.08718979537132,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 5000.0,
+        "isp_tug_s": 380.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.3604359489768566
+      },
+      {
+        "chunk_t": 200.0,
+        "delivered_fraction_cislunar": 0.8366165827485517,
+        "delivered_fraction_deep_space": 0.9216871411165,
+        "delivered_to_ldro_t": 184.33742822329998,
+        "delivered_to_leo_t": 154.21974927283364,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 5000.0,
+        "isp_tug_s": 2000.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.7710987463641682
+      },
+      {
+        "chunk_t": 500.0,
+        "delivered_fraction_cislunar": 0.32793700693147615,
+        "delivered_fraction_deep_space": 0.7619826714052859,
+        "delivered_to_ldro_t": 380.9913357026429,
+        "delivered_to_leo_t": 124.94115829714997,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 1500.0,
+        "isp_tug_s": 320.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.24988231659429994
+      },
+      {
+        "chunk_t": 500.0,
+        "delivered_fraction_cislunar": 0.39106105846311034,
+        "delivered_fraction_deep_space": 0.7619826714052859,
+        "delivered_to_ldro_t": 380.9913357026429,
+        "delivered_to_leo_t": 148.99087500514975,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 1500.0,
+        "isp_tug_s": 380.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.2979817500102995
+      },
+      {
+        "chunk_t": 500.0,
+        "delivered_fraction_cislunar": 0.8366165827485517,
+        "delivered_fraction_deep_space": 0.7619826714052859,
+        "delivered_to_ldro_t": 380.9913357026429,
+        "delivered_to_leo_t": 318.7436693323514,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 1500.0,
+        "isp_tug_s": 2000.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.6374873386647028
+      },
+      {
+        "chunk_t": 500.0,
+        "delivered_fraction_cislunar": 0.32793700693147615,
+        "delivered_fraction_deep_space": 0.8155654534757681,
+        "delivered_to_ldro_t": 407.78272673788405,
+        "delivered_to_leo_t": 133.72704688477774,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 2000.0,
+        "isp_tug_s": 320.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.2674540937695555
+      },
+      {
+        "chunk_t": 500.0,
+        "delivered_fraction_cislunar": 0.39106105846311034,
+        "delivered_fraction_deep_space": 0.8155654534757681,
+        "delivered_to_ldro_t": 407.78272673788405,
+        "delivered_to_leo_t": 159.46794474109024,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 2000.0,
+        "isp_tug_s": 380.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.3189358894821805
+      },
+      {
+        "chunk_t": 500.0,
+        "delivered_fraction_cislunar": 0.8366165827485517,
+        "delivered_fraction_deep_space": 0.8155654534757681,
+        "delivered_to_ldro_t": 407.78272673788405,
+        "delivered_to_leo_t": 341.157791347335,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 2000.0,
+        "isp_tug_s": 2000.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.68231558269467
+      },
+      {
+        "chunk_t": 500.0,
+        "delivered_fraction_cislunar": 0.32793700693147615,
+        "delivered_fraction_deep_space": 0.9216871411165,
+        "delivered_to_ldro_t": 460.84357055825,
+        "delivered_to_leo_t": 151.12766119248704,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 5000.0,
+        "isp_tug_s": 320.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.3022553223849741
+      },
+      {
+        "chunk_t": 500.0,
+        "delivered_fraction_cislunar": 0.39106105846311034,
+        "delivered_fraction_deep_space": 0.9216871411165,
+        "delivered_to_ldro_t": 460.84357055825,
+        "delivered_to_leo_t": 180.21797448842833,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 5000.0,
+        "isp_tug_s": 380.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.36043594897685666
+      },
+      {
+        "chunk_t": 500.0,
+        "delivered_fraction_cislunar": 0.8366165827485517,
+        "delivered_fraction_deep_space": 0.9216871411165,
+        "delivered_to_ldro_t": 460.84357055825,
+        "delivered_to_leo_t": 385.5493731820842,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 5000.0,
+        "isp_tug_s": 2000.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.7710987463641684
+      }
+    ],
+    "C": [
+      {
+        "chunk_t": 50.0,
+        "isp_parcel_s": 1500.0,
+        "n_parcels": 5,
+        "name": "C_streaming",
+        "parcel_size_t": 10.0,
+        "per_parcel_arrival_dv_m_per_s": 2000.0,
+        "per_parcel_bus_overhead_frac": 0.1,
+        "per_parcel_bus_overhead_t": 1.0,
+        "per_parcel_delivered_t": 7.856245692684779,
+        "processing_hardware_t": 7.5,
+        "total_delivered_fraction": 0.6677808838782062,
+        "total_delivered_t": 33.38904419391031,
+        "total_delivered_t_unscaled": 39.28122846342389
+      },
+      {
+        "chunk_t": 50.0,
+        "isp_parcel_s": 1500.0,
+        "n_parcels": 10,
+        "name": "C_streaming",
+        "parcel_size_t": 5.0,
+        "per_parcel_arrival_dv_m_per_s": 2000.0,
+        "per_parcel_bus_overhead_frac": 0.1,
+        "per_parcel_bus_overhead_t": 0.5,
+        "per_parcel_delivered_t": 3.9281228463423896,
+        "processing_hardware_t": 7.5,
+        "total_delivered_fraction": 0.6677808838782062,
+        "total_delivered_t": 33.38904419391031,
+        "total_delivered_t_unscaled": 39.28122846342389
+      },
+      {
+        "chunk_t": 50.0,
+        "isp_parcel_s": 1500.0,
+        "n_parcels": 20,
+        "name": "C_streaming",
+        "parcel_size_t": 2.5,
+        "per_parcel_arrival_dv_m_per_s": 2000.0,
+        "per_parcel_bus_overhead_frac": 0.1,
+        "per_parcel_bus_overhead_t": 0.25,
+        "per_parcel_delivered_t": 1.9640614231711948,
+        "processing_hardware_t": 7.5,
+        "total_delivered_fraction": 0.6677808838782062,
+        "total_delivered_t": 33.38904419391031,
+        "total_delivered_t_unscaled": 39.28122846342389
+      },
+      {
+        "chunk_t": 100.0,
+        "isp_parcel_s": 1500.0,
+        "n_parcels": 5,
+        "name": "C_streaming",
+        "parcel_size_t": 20.0,
+        "per_parcel_arrival_dv_m_per_s": 2000.0,
+        "per_parcel_bus_overhead_frac": 0.1,
+        "per_parcel_bus_overhead_t": 2.0,
+        "per_parcel_delivered_t": 15.712491385369558,
+        "processing_hardware_t": 7.5,
+        "total_delivered_fraction": 0.7267027265733421,
+        "total_delivered_t": 72.67027265733421,
+        "total_delivered_t_unscaled": 78.56245692684779
+      },
+      {
+        "chunk_t": 100.0,
+        "isp_parcel_s": 1500.0,
+        "n_parcels": 10,
+        "name": "C_streaming",
+        "parcel_size_t": 10.0,
+        "per_parcel_arrival_dv_m_per_s": 2000.0,
+        "per_parcel_bus_overhead_frac": 0.1,
+        "per_parcel_bus_overhead_t": 1.0,
+        "per_parcel_delivered_t": 7.856245692684779,
+        "processing_hardware_t": 7.5,
+        "total_delivered_fraction": 0.7267027265733421,
+        "total_delivered_t": 72.67027265733421,
+        "total_delivered_t_unscaled": 78.56245692684779
+      },
+      {
+        "chunk_t": 100.0,
+        "isp_parcel_s": 1500.0,
+        "n_parcels": 20,
+        "name": "C_streaming",
+        "parcel_size_t": 5.0,
+        "per_parcel_arrival_dv_m_per_s": 2000.0,
+        "per_parcel_bus_overhead_frac": 0.1,
+        "per_parcel_bus_overhead_t": 0.5,
+        "per_parcel_delivered_t": 3.9281228463423896,
+        "processing_hardware_t": 7.5,
+        "total_delivered_fraction": 0.7267027265733421,
+        "total_delivered_t": 72.67027265733421,
+        "total_delivered_t_unscaled": 78.56245692684779
+      },
+      {
+        "chunk_t": 200.0,
+        "isp_parcel_s": 1500.0,
+        "n_parcels": 5,
+        "name": "C_streaming",
+        "parcel_size_t": 40.0,
+        "per_parcel_arrival_dv_m_per_s": 2000.0,
+        "per_parcel_bus_overhead_frac": 0.1,
+        "per_parcel_bus_overhead_t": 4.0,
+        "per_parcel_delivered_t": 31.424982770739117,
+        "processing_hardware_t": 7.5,
+        "total_delivered_fraction": 0.75616364792091,
+        "total_delivered_t": 151.23272958418198,
+        "total_delivered_t_unscaled": 157.12491385369557
+      },
+      {
+        "chunk_t": 200.0,
+        "isp_parcel_s": 1500.0,
+        "n_parcels": 10,
+        "name": "C_streaming",
+        "parcel_size_t": 20.0,
+        "per_parcel_arrival_dv_m_per_s": 2000.0,
+        "per_parcel_bus_overhead_frac": 0.1,
+        "per_parcel_bus_overhead_t": 2.0,
+        "per_parcel_delivered_t": 15.712491385369558,
+        "processing_hardware_t": 7.5,
+        "total_delivered_fraction": 0.75616364792091,
+        "total_delivered_t": 151.23272958418198,
+        "total_delivered_t_unscaled": 157.12491385369557
+      },
+      {
+        "chunk_t": 200.0,
+        "isp_parcel_s": 1500.0,
+        "n_parcels": 20,
+        "name": "C_streaming",
+        "parcel_size_t": 10.0,
+        "per_parcel_arrival_dv_m_per_s": 2000.0,
+        "per_parcel_bus_overhead_frac": 0.1,
+        "per_parcel_bus_overhead_t": 1.0,
+        "per_parcel_delivered_t": 7.856245692684779,
+        "processing_hardware_t": 7.5,
+        "total_delivered_fraction": 0.75616364792091,
+        "total_delivered_t": 151.23272958418198,
+        "total_delivered_t_unscaled": 157.12491385369557
+      },
+      {
+        "chunk_t": 500.0,
+        "isp_parcel_s": 1500.0,
+        "n_parcels": 5,
+        "name": "C_streaming",
+        "parcel_size_t": 100.0,
+        "per_parcel_arrival_dv_m_per_s": 2000.0,
+        "per_parcel_bus_overhead_frac": 0.1,
+        "per_parcel_bus_overhead_t": 10.0,
+        "per_parcel_delivered_t": 78.5624569268478,
+        "processing_hardware_t": 7.5,
+        "total_delivered_fraction": 0.7738402007294509,
+        "total_delivered_t": 386.92010036472544,
+        "total_delivered_t_unscaled": 392.812284634239
+      },
+      {
+        "chunk_t": 500.0,
+        "isp_parcel_s": 1500.0,
+        "n_parcels": 10,
+        "name": "C_streaming",
+        "parcel_size_t": 50.0,
+        "per_parcel_arrival_dv_m_per_s": 2000.0,
+        "per_parcel_bus_overhead_frac": 0.1,
+        "per_parcel_bus_overhead_t": 5.0,
+        "per_parcel_delivered_t": 39.2812284634239,
+        "processing_hardware_t": 7.5,
+        "total_delivered_fraction": 0.7738402007294509,
+        "total_delivered_t": 386.92010036472544,
+        "total_delivered_t_unscaled": 392.812284634239
+      },
+      {
+        "chunk_t": 500.0,
+        "isp_parcel_s": 1500.0,
+        "n_parcels": 20,
+        "name": "C_streaming",
+        "parcel_size_t": 25.0,
+        "per_parcel_arrival_dv_m_per_s": 2000.0,
+        "per_parcel_bus_overhead_frac": 0.1,
+        "per_parcel_bus_overhead_t": 2.5,
+        "per_parcel_delivered_t": 19.64061423171195,
+        "processing_hardware_t": 7.5,
+        "total_delivered_fraction": 0.7738402007294509,
+        "total_delivered_t": 386.92010036472544,
+        "total_delivered_t_unscaled": 392.812284634239
+      }
+    ],
+    "D": [
+      {
+        "chunk_t": 50.0,
+        "delivered_fraction_trim": 0.9665918675544403,
+        "delivered_t": 46.87970557639035,
+        "feasibility_note": "Aerocapture at ICEBERG ballistic coefficient 4000 kg/m^2 has been established as off-near-term per R-chunk-as-heat-shield + R-deployable-drag-skirt. Architecture D numbers assume the thermal-protection-system breakthrough closes; otherwise the architecture does not exist.",
+        "heat_shield_mass_fraction": 0.03,
+        "isp_deep_space_s": 1500.0,
+        "name": "D_aerocapture_rescue",
+        "post_capture_dv_m_per_s": 500.0,
+        "total_delivered_fraction": 0.937594111527807
+      },
+      {
+        "chunk_t": 50.0,
+        "delivered_fraction_trim": 0.9748377814797504,
+        "delivered_t": 47.2796324017679,
+        "feasibility_note": "Aerocapture at ICEBERG ballistic coefficient 4000 kg/m^2 has been established as off-near-term per R-chunk-as-heat-shield + R-deployable-drag-skirt. Architecture D numbers assume the thermal-protection-system breakthrough closes; otherwise the architecture does not exist.",
+        "heat_shield_mass_fraction": 0.03,
+        "isp_deep_space_s": 2000.0,
+        "name": "D_aerocapture_rescue",
+        "post_capture_dv_m_per_s": 500.0,
+        "total_delivered_fraction": 0.9455926480353579
+      },
+      {
+        "chunk_t": 50.0,
+        "delivered_fraction_trim": 0.9898580995462373,
+        "delivered_t": 48.00811782799251,
+        "feasibility_note": "Aerocapture at ICEBERG ballistic coefficient 4000 kg/m^2 has been established as off-near-term per R-chunk-as-heat-shield + R-deployable-drag-skirt. Architecture D numbers assume the thermal-protection-system breakthrough closes; otherwise the architecture does not exist.",
+        "heat_shield_mass_fraction": 0.03,
+        "isp_deep_space_s": 5000.0,
+        "name": "D_aerocapture_rescue",
+        "post_capture_dv_m_per_s": 500.0,
+        "total_delivered_fraction": 0.9601623565598502
+      },
+      {
+        "chunk_t": 100.0,
+        "delivered_fraction_trim": 0.9665918675544403,
+        "delivered_t": 93.7594111527807,
+        "feasibility_note": "Aerocapture at ICEBERG ballistic coefficient 4000 kg/m^2 has been established as off-near-term per R-chunk-as-heat-shield + R-deployable-drag-skirt. Architecture D numbers assume the thermal-protection-system breakthrough closes; otherwise the architecture does not exist.",
+        "heat_shield_mass_fraction": 0.03,
+        "isp_deep_space_s": 1500.0,
+        "name": "D_aerocapture_rescue",
+        "post_capture_dv_m_per_s": 500.0,
+        "total_delivered_fraction": 0.937594111527807
+      },
+      {
+        "chunk_t": 100.0,
+        "delivered_fraction_trim": 0.9748377814797504,
+        "delivered_t": 94.5592648035358,
+        "feasibility_note": "Aerocapture at ICEBERG ballistic coefficient 4000 kg/m^2 has been established as off-near-term per R-chunk-as-heat-shield + R-deployable-drag-skirt. Architecture D numbers assume the thermal-protection-system breakthrough closes; otherwise the architecture does not exist.",
+        "heat_shield_mass_fraction": 0.03,
+        "isp_deep_space_s": 2000.0,
+        "name": "D_aerocapture_rescue",
+        "post_capture_dv_m_per_s": 500.0,
+        "total_delivered_fraction": 0.9455926480353579
+      },
+      {
+        "chunk_t": 100.0,
+        "delivered_fraction_trim": 0.9898580995462373,
+        "delivered_t": 96.01623565598501,
+        "feasibility_note": "Aerocapture at ICEBERG ballistic coefficient 4000 kg/m^2 has been established as off-near-term per R-chunk-as-heat-shield + R-deployable-drag-skirt. Architecture D numbers assume the thermal-protection-system breakthrough closes; otherwise the architecture does not exist.",
+        "heat_shield_mass_fraction": 0.03,
+        "isp_deep_space_s": 5000.0,
+        "name": "D_aerocapture_rescue",
+        "post_capture_dv_m_per_s": 500.0,
+        "total_delivered_fraction": 0.9601623565598502
+      },
+      {
+        "chunk_t": 200.0,
+        "delivered_fraction_trim": 0.9665918675544403,
+        "delivered_t": 187.5188223055614,
+        "feasibility_note": "Aerocapture at ICEBERG ballistic coefficient 4000 kg/m^2 has been established as off-near-term per R-chunk-as-heat-shield + R-deployable-drag-skirt. Architecture D numbers assume the thermal-protection-system breakthrough closes; otherwise the architecture does not exist.",
+        "heat_shield_mass_fraction": 0.03,
+        "isp_deep_space_s": 1500.0,
+        "name": "D_aerocapture_rescue",
+        "post_capture_dv_m_per_s": 500.0,
+        "total_delivered_fraction": 0.937594111527807
+      },
+      {
+        "chunk_t": 200.0,
+        "delivered_fraction_trim": 0.9748377814797504,
+        "delivered_t": 189.1185296070716,
+        "feasibility_note": "Aerocapture at ICEBERG ballistic coefficient 4000 kg/m^2 has been established as off-near-term per R-chunk-as-heat-shield + R-deployable-drag-skirt. Architecture D numbers assume the thermal-protection-system breakthrough closes; otherwise the architecture does not exist.",
+        "heat_shield_mass_fraction": 0.03,
+        "isp_deep_space_s": 2000.0,
+        "name": "D_aerocapture_rescue",
+        "post_capture_dv_m_per_s": 500.0,
+        "total_delivered_fraction": 0.9455926480353579
+      },
+      {
+        "chunk_t": 200.0,
+        "delivered_fraction_trim": 0.9898580995462373,
+        "delivered_t": 192.03247131197003,
+        "feasibility_note": "Aerocapture at ICEBERG ballistic coefficient 4000 kg/m^2 has been established as off-near-term per R-chunk-as-heat-shield + R-deployable-drag-skirt. Architecture D numbers assume the thermal-protection-system breakthrough closes; otherwise the architecture does not exist.",
+        "heat_shield_mass_fraction": 0.03,
+        "isp_deep_space_s": 5000.0,
+        "name": "D_aerocapture_rescue",
+        "post_capture_dv_m_per_s": 500.0,
+        "total_delivered_fraction": 0.9601623565598502
+      },
+      {
+        "chunk_t": 500.0,
+        "delivered_fraction_trim": 0.9665918675544403,
+        "delivered_t": 468.79705576390353,
+        "feasibility_note": "Aerocapture at ICEBERG ballistic coefficient 4000 kg/m^2 has been established as off-near-term per R-chunk-as-heat-shield + R-deployable-drag-skirt. Architecture D numbers assume the thermal-protection-system breakthrough closes; otherwise the architecture does not exist.",
+        "heat_shield_mass_fraction": 0.03,
+        "isp_deep_space_s": 1500.0,
+        "name": "D_aerocapture_rescue",
+        "post_capture_dv_m_per_s": 500.0,
+        "total_delivered_fraction": 0.937594111527807
+      },
+      {
+        "chunk_t": 500.0,
+        "delivered_fraction_trim": 0.9748377814797504,
+        "delivered_t": 472.79632401767896,
+        "feasibility_note": "Aerocapture at ICEBERG ballistic coefficient 4000 kg/m^2 has been established as off-near-term per R-chunk-as-heat-shield + R-deployable-drag-skirt. Architecture D numbers assume the thermal-protection-system breakthrough closes; otherwise the architecture does not exist.",
+        "heat_shield_mass_fraction": 0.03,
+        "isp_deep_space_s": 2000.0,
+        "name": "D_aerocapture_rescue",
+        "post_capture_dv_m_per_s": 500.0,
+        "total_delivered_fraction": 0.9455926480353579
+      },
+      {
+        "chunk_t": 500.0,
+        "delivered_fraction_trim": 0.9898580995462373,
+        "delivered_t": 480.0811782799251,
+        "feasibility_note": "Aerocapture at ICEBERG ballistic coefficient 4000 kg/m^2 has been established as off-near-term per R-chunk-as-heat-shield + R-deployable-drag-skirt. Architecture D numbers assume the thermal-protection-system breakthrough closes; otherwise the architecture does not exist.",
+        "heat_shield_mass_fraction": 0.03,
+        "isp_deep_space_s": 5000.0,
+        "name": "D_aerocapture_rescue",
+        "post_capture_dv_m_per_s": 500.0,
+        "total_delivered_fraction": 0.9601623565598502
+      }
+    ]
+  },
+  "closure": {
+    "demonstrator_class_check": {
+      "A_continuous_thrust": {
+        "delivered_fraction": 0.2839606888543756,
+        "delivered_tonnes": 14.198034442718779,
+        "delivery_orbit": "low Earth orbit",
+        "delta_v_m_per_s": 24700.0
+      },
+      "B": {
+        "chunk_t": 50.0,
+        "delivered_fraction_cislunar": 0.8366165827485517,
+        "delivered_fraction_deep_space": 0.8155654534757681,
+        "delivered_to_ldro_t": 40.77827267378841,
+        "delivered_to_leo_t": 34.1157791347335,
+        "delta_v_deep_space_m_per_s": 4000.0,
+        "delta_v_tug_m_per_s": 3500.0,
+        "isp_deep_space_s": 2000.0,
+        "isp_tug_s": 2000.0,
+        "name": "B_chunk_to_ldro_tug_to_leo",
+        "total_delivered_fraction": 0.68231558269467
+      },
+      "C": {
+        "chunk_t": 50.0,
+        "isp_parcel_s": 1500.0,
+        "n_parcels": 10,
+        "name": "C_streaming",
+        "parcel_size_t": 5.0,
+        "per_parcel_arrival_dv_m_per_s": 2000.0,
+        "per_parcel_bus_overhead_frac": 0.1,
+        "per_parcel_bus_overhead_t": 0.5,
+        "per_parcel_delivered_t": 3.9281228463423896,
+        "processing_hardware_t": 7.5,
+        "total_delivered_fraction": 0.6677808838782062,
+        "total_delivered_t": 33.38904419391031,
+        "total_delivered_t_unscaled": 39.28122846342389
+      },
+      "D": {
+        "chunk_t": 50.0,
+        "delivered_fraction_trim": 0.9748377814797504,
+        "delivered_t": 47.2796324017679,
+        "feasibility_note": "Aerocapture at ICEBERG ballistic coefficient 4000 kg/m^2 has been established as off-near-term per R-chunk-as-heat-shield + R-deployable-drag-skirt. Architecture D numbers assume the thermal-protection-system breakthrough closes; otherwise the architecture does not exist.",
+        "heat_shield_mass_fraction": 0.03,
+        "isp_deep_space_s": 2000.0,
+        "name": "D_aerocapture_rescue",
+        "post_capture_dv_m_per_s": 500.0,
+        "total_delivered_fraction": 0.9455926480353579
+      },
+      "chunk_t": 50.0,
+      "isp_deep_space_s": 2000.0,
+      "isp_tug_s": 2000.0
+    }
+  }
+}

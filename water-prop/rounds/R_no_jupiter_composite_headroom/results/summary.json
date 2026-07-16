@@ -1,0 +1,118 @@
+{
+  "baseline": {
+    "config": "Block 8 central (1.5 km/s aero, 50 kg/m^2 TPS, 50% coverage, Isp_exit 7000 s, Isp_inbound 5000 s, jettison 20 t, 200 t collected, 200 t dry)",
+    "delivered_pct": 15.369066203221124,
+    "expected_from_block8_pct": 15.37,
+    "shield_mass_t": 4.134701201406796,
+    "m_delivered_t": 30.738132406442247
+  },
+  "individual_levers": {
+    "L1_tps_coverage_30pct": {
+      "delivered_pct": 15.733442160458338,
+      "uplift_pp": 0.3643759572372147,
+      "predicted_uplift_pp": [
+        0.4,
+        0.8
+      ],
+      "status": "marginal",
+      "m_delivered_t": 31.466884320916677
+    },
+    "L2_water_as_ablator": {
+      "delivered_pct": 16.280006096314125,
+      "uplift_pp": 0.9109398930930013,
+      "predicted_uplift_pp": [
+        0.8,
+        1.2
+      ],
+      "status": "held",
+      "m_delivered_t": 32.56001219262825
+    },
+    "L3_exit_isp_9000": {
+      "delivered_pct": 17.973805150070078,
+      "uplift_pp": 2.604738946848954,
+      "predicted_uplift_pp": [
+        0.4,
+        0.8
+      ],
+      "status": "falsified_high",
+      "m_delivered_t": 35.947610300140155
+    },
+    "L4_jettison_40t": {
+      "delivered_pct": 19.775381671836172,
+      "uplift_pp": 4.406315468615048,
+      "predicted_uplift_pp": [
+        0.3,
+        0.6
+      ],
+      "status": "falsified_high",
+      "m_delivered_t": 39.550763343672344
+    },
+    "L5_dry_mass_160t": {
+      "delivered_pct": 24.18169714045122,
+      "uplift_pp": 8.812630937230097,
+      "predicted_uplift_pp": [
+        0.5,
+        1.0
+      ],
+      "status": "falsified_high",
+      "m_delivered_t": 48.36339428090244
+    },
+    "L6_fill_250t": {
+      "delivered_pct": 23.365732252646637,
+      "uplift_pp": 7.996666049425514,
+      "predicted_uplift_pp": [
+        0.5,
+        1.2
+      ],
+      "status": "falsified_high",
+      "m_delivered_t": 58.41433063161659
+    }
+  },
+  "stacks": {
+    "honest_floor_L1_only": {
+      "delivered_pct": 15.733442160458338,
+      "predicted_pct": [
+        15.4,
+        16.0
+      ],
+      "status": "held",
+      "m_delivered_t": 31.466884320916677
+    },
+    "H7_engineering_credible_only_L1_L3": {
+      "delivered_pct": 18.32696648158438,
+      "predicted_pct": [
+        16.0,
+        16.8
+      ],
+      "status": "falsified_high",
+      "m_delivered_t": 36.65393296316876
+    },
+    "H8_plus_water_ablator_L1_L2_L3": {
+      "delivered_pct": 18.856708478855808,
+      "predicted_pct": [
+        16.8,
+        17.4
+      ],
+      "status": "falsified_high",
+      "m_delivered_t": 37.713416957711615
+    },
+    "H9_all_credible_with_conditionals": {
+      "delivered_pct": 36.79364660458242,
+      "predicted_pct": [
+        17.5,
+        19.5
+      ],
+      "status": "falsified_high",
+      "m_delivered_t": 91.98411651145605
+    }
+  },
+  "architecture_claim_H10": {
+    "status": "held",
+    "note": "L1-only honest floor at 15.73% < 17.0. Architecture is Option-A-equivalent under honest-only accounting; crossing 17% requires Isp-exit uplift (L3 \u2014 cathode-life-conditional), water-as-ablator (L2 \u2014 engineering-validation-pending), or one of the L4/L5/L6 conditional rounds to close favourably.",
+    "honest_floor_L1_only_pct": 15.733442160458338,
+    "H7_pct": 18.32696648158438,
+    "H8_pct": 18.856708478855808,
+    "H9_pct": 36.79364660458242,
+    "option_a_target_pct": 17.0
+  }
+}

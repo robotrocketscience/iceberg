@@ -1,0 +1,140 @@
+{
+  "round": "R-kilopower-scale-up-credibility",
+  "worker": "hyperion",
+  "date": "2026-05-22",
+  "heritage_inputs": {
+    "P_orbit_by_2035": {
+      "uniform": 0.089,
+      "jeffreys": 0.049,
+      "skeptical": 0.029
+    },
+    "source": "hyperion R-power-bayesian-update results/R_power_bayesian_update_summary.json",
+    "titan3_closure_formula": "water-prop/rounds/R_chunk_size_pareto/run.py (verbatim)"
+  },
+  "step4_mass_budget_feedback": {
+    "chunk_50t": {
+      "anchor_2p4": {
+        "chunk_t": 50.0,
+        "P_kw": 30.0,
+        "sp_w_per_kg": 2.4,
+        "m_dry_t": 20.8,
+        "m_reactor_t": 12.5,
+        "m_initial_t": 70.8,
+        "propellant_t": 14.429136122813556,
+        "delivered_t": 35.57086387718644,
+        "t_burn_yr": 5.862953519615914,
+        "round_trip_yr": 13.815,
+        "meets_floor": true,
+        "closes_strict": true,
+        "closes_waiver": true
+      },
+      "anchor_1p0": {
+        "chunk_t": 50.0,
+        "P_kw": 30.0,
+        "sp_w_per_kg": 1.0,
+        "m_dry_t": 38.3,
+        "m_reactor_t": 30.0,
+        "m_initial_t": 88.3,
+        "propellant_t": 17.995659881983574,
+        "delivered_t": 32.00434011801643,
+        "t_burn_yr": 7.312129883927756,
+        "round_trip_yr": 15.037129883927756,
+        "meets_floor": true,
+        "closes_strict": false,
+        "closes_waiver": true
+      },
+      "lowest_sp_meets_floor": 0.8,
+      "lowest_sp_closes_strict": 1.1,
+      "lowest_sp_closes_waiver": 0.8,
+      "sweep_sp_grid": [
+        0.2,
+        12.0,
+        119
+      ]
+    },
+    "chunk_60t": {
+      "anchor_2p4": {
+        "chunk_t": 60.0,
+        "P_kw": 30.0,
+        "sp_w_per_kg": 2.4,
+        "m_dry_t": 21.3,
+        "m_reactor_t": 12.5,
+        "m_initial_t": 81.3,
+        "propellant_t": 16.569050378315566,
+        "delivered_t": 43.430949621684434,
+        "t_burn_yr": 6.732459338203018,
+        "round_trip_yr": 14.457459338203018,
+        "meets_floor": true,
+        "closes_strict": true,
+        "closes_waiver": true
+      },
+      "anchor_1p0": {
+        "chunk_t": 60.0,
+        "P_kw": 30.0,
+        "sp_w_per_kg": 1.0,
+        "m_dry_t": 38.8,
+        "m_reactor_t": 30.0,
+        "m_initial_t": 98.8,
+        "propellant_t": 20.135574137485584,
+        "delivered_t": 39.86442586251441,
+        "t_burn_yr": 8.18163570251486,
+        "round_trip_yr": 15.90663570251486,
+        "meets_floor": true,
+        "closes_strict": false,
+        "closes_waiver": true
+      },
+      "lowest_sp_meets_floor": 0.4,
+      "lowest_sp_closes_strict": 1.6,
+      "lowest_sp_closes_waiver": 0.4,
+      "sweep_sp_grid": [
+        0.2,
+        12.0,
+        119
+      ]
+    }
+  },
+  "step3_programmatic_posterior": {
+    "A_single_30kwe": {
+      "label": "Single 30 kWe core (Fission-Surface-Power-class scale-up)",
+      "kilopower_extrapolation": false,
+      "conditionals": {
+        "p_power": 0.6,
+        "p_life": 0.4,
+        "p_arch": 0.7
+      },
+      "joint_posterior": {
+        "uniform": 0.014952,
+        "jeffreys": 0.008232,
+        "skeptical": 0.004872
+      }
+    },
+    "B_parallel_30x1kwe": {
+      "label": "30x parallel 1 kWe Kilopower modules",
+      "kilopower_extrapolation": true,
+      "conditionals": {
+        "p_power": 0.6,
+        "p_life": 0.4,
+        "p_arch": 0.07
+      },
+      "joint_posterior": {
+        "uniform": 0.0014952000000000001,
+        "jeffreys": 0.0008232000000000001,
+        "skeptical": 0.0004872
+      }
+    },
+    "C_intermediate": {
+      "label": "Intermediate N x k = 30 (e.g. 3 x 10 kWe)",
+      "kilopower_extrapolation": null,
+      "conditionals": {
+        "p_power": 0.6,
+        "p_life": 0.4,
+        "p_arch": 0.2
+      },
+      "joint_posterior": {
+        "uniform": 0.004272000000000001,
+        "jeffreys": 0.002352,
+        "skeptical": 0.001392
+      }
+    }
+  }
+}

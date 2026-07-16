@@ -1,0 +1,61 @@
+{
+  "round": "R-demonstrator-mission-concept",
+  "worker": "hyperion",
+  "date": "2026-05-22",
+  "bets": {
+    "bet1_chunk_capture": {
+      "label": "Active chunk capture (A14)",
+      "baseline_readiness": 0.53,
+      "demonstrator_confirmed": 0.69,
+      "retired_by": "Earth-orbit catch-and-contain proxy (deployment+catch+containment) + Saturn small-chunk (rendezvous)",
+      "retirement_cost_class": "low (Earth-orbit proxy is pre-cruise, cheap-to-iterate)",
+      "on_demonstrator_critical_path": true
+    },
+    "bet2_water_electrothermal": {
+      "label": "Continuous water-electrothermal on Saturn-water purity (A1)",
+      "baseline_readiness": 0.48,
+      "demonstrator_confirmed": 0.85,
+      "retired_by": "the demonstrator's own continuous-months water-thruster run on bag-filtered chunk water (IS the test article)",
+      "retirement_cost_class": "high (requires the full Saturn cruise + months of operation; no shortcut)",
+      "on_demonstrator_critical_path": true
+    },
+    "bet3_reactor": {
+      "label": "Kilopower-class reactor program (L0-24)",
+      "baseline_readiness": 0.015,
+      "demonstrator_confirmed": null,
+      "retired_by": "DEFERRED \u2014 demonstrator flies non-nuclear (RTG/solar-hybrid); reactor retired in a separate mission / by NASA FSP",
+      "retirement_cost_class": "off the demonstrator critical path",
+      "on_demonstrator_critical_path": false
+    }
+  },
+  "gate_classification": {
+    "dominant_kill_gate": "bet2_water_electrothermal",
+    "dominant_kill_readiness": 0.48,
+    "highest_leverage_gate": "bet1_chunk_capture",
+    "highest_leverage_rationale": "bet1 Earth-orbit proxy is cheap, pre-cruise, and lifts A14 0.53->0.69 by retiring 3 of 5 sub-steps; bet2 only lifts via the full multi-month Saturn run. Per unit cost/mission-risk, bet1 buys the most readiness.",
+    "recommended_sequence": [
+      "1. bet1 Earth-orbit catch-and-contain proxy (cheap, pre-cruise) -> lift A14 to ~0.69 BEFORE committing the cruise",
+      "2. bet2 continuous-months water-thruster run during the Saturn demonstrator cruise (the long pole; dominant-kill)",
+      "3. bet3 reactor DEFERRED off critical path (fly non-nuclear)"
+    ]
+  },
+  "program_readiness": {
+    "scenarioA_cruise_at_baseline_bet1": 0.254,
+    "scenarioB_earth_orbit_proxy_first": 0.331,
+    "interpretation": "Scenario A (commit the Saturn cruise without the Earth-orbit proxy) is a 25% joint shot at retiring both on-path bets in one mission. Scenario B (Earth-orbit proxy first, lifting bet1 to 0.69) raises that to 33%. The proxy is the cheap option-value purchase."
+  },
+  "tranche_mapping": {
+    "old_tranche1": {
+      "old_T1_gate": "Fission-Surface-Power-Phase-2 award (external)",
+      "old_T1_pass_prob": 0.023,
+      "old_E_loss_usd_M": 80,
+      "total_program_cost_usd_B": 1.15,
+      "breakeven_T1_at_24B": 0.25
+    },
+    "new_tranche1_gate": "internal demonstrator: Earth-orbit catch-and-contain (bet1) + continuous-months water-thruster on chunk water (bet2)",
+    "new_tranche1_pass_prob_scenarioB": 0.331,
+    "reactor_status": "bet3 deferred off critical path (demonstrator non-nuclear)",
+    "reading": "The re-gated tranche-1 pass probability (~33% under Earth-orbit-proxy-first) is ~14x the external FSP-2 award probability (0.023). The program now spends its tranche-1 budget on an experiment it CONTROLS, with a materially higher pass probability, and the dominant external kill-gate (FSP-2) is removed from the critical path.",
+    "cost_class_usd_M": "150-1500 (Hayabusa2 ~150-300M to OSIRIS-REx ~1B class; non-nuclear demonstrator below the reactor-bundled path)"
+  }
+}

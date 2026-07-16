@@ -1,0 +1,48 @@
+# Pricing-anchor audit — what each financial round uses for $/kg
+
+**Status:** orchestrator-authored audit completing task 8 of the 2026-05-15 latest+9 integration pass. Pre-input to R-pricing-anchor-revisit. Surfaces what each load-bearing financial round actually uses as the $/kg revenue anchor so the worker picking up R-pricing-anchor-revisit can re-run the rounds with revised pricing instead of re-deriving each round's anchor logic.
+
+**Method:** walked every round directory under `water-prop/rounds/R_*` containing `run.py` with revenue or net-present-value computation. Grep-anchored on `price_per_kg`, `revenue`, `PRICES`, `BEST_CELL`, `CONOPS_BASE`, `REVENUE_PER_TONNE_M`, `clearing_price`, `markup`, and similar.
+
+**Headline finding.** Of nine load-bearing financial rounds inspected, **only one uses a flat single-anchor model at a price near the pitch headline**: R_financing_capital_stack at $1,000/kg (which is *below* the pitch's $1,400/kg). Five rounds use **flat single anchors at $2,000/kg or $10,000/kg** (above the pitch headline). Three rounds use **explicit price sweeps or Monte Carlo over the demand curve** (tier-aware). **No load-bearing round uses the pitch headline $1,400/kg directly.** The pricing-anchor disagreement is therefore between the pitch and *every* financial round, not between the pitch and only some of them.
+
+---
+
+## Audit table
+
+| Round | Anchor type | $/kg used | Notes |
+|---|---|---|---|
+| `R_reactor_roadmap` (worktree-110450, `e9ab1ba`) | Flat (two cells) | **BEST_CELL = $10,000/kg**; CONOPS_BASE = $2,000/kg | The "marginal internal-rate-of-return = 1.45 percent" headline cited in active-sessions.md, the matrix, and the pitch reader-note is computed at BEST_CELL = $10,000/kg, NOT at $1,400/kg. The sub-sovereign-bond verdict therefore stands at substantially higher revenue than the pitch headline implies; pricing-anchor correction would have to push BEST_CELL above $10,000/kg to flip the verdict. |
+| `R_delivery_irr_curve` (worktree-110450, `6068140`) | Flat (inherits BEST_CELL) | **$10,000/kg** via `from R_reactor_roadmap import BEST_CELL` | The hurdle-crossover table (sovereign-bond ~209 t/ship at 4%; regulated-utility ~461 t/ship at 8%; corporate-growth ~691 t/ship at 10%) is the curve at BEST_CELL = $10,000/kg revenue. At $1,400/kg the curve would shift further right (i.e. larger chunk required to clear any hurdle). Inverting: if true realisable price is, say, $20,000/kg blended in early eras, the hurdle crossovers move left and 200-t chunks may already clear regulated-utility. **This is the round most sensitive to pricing-anchor correction.** |
+| `R_architecture_D_cost` (rhea, `94d3f8c` and predecessors) | Flat (two cells) | **$10,000/kg** primary; $2,000/kg secondary | Architecture D dropped out per rhea R7; price-anchor sensitivity now moot for D unless the architecture revives. |
+| `R_architecture_D_L1007_relaxation` (rhea R7, `cca831c`) | Flat (two cells) | **$10,000/kg** primary; $2,000/kg secondary | The "D-solar-thermal still NPV(0) = -$14.1B at chunk 482 t" headline is computed at $10,000/kg revenue. Pricing-anchor correction upward could rescue D-solar; correction downward (toward pitch headline) deepens the loss. |
+| `R_NPV_discount_rate` (enceladus) | Sweep | **PRICES = [2000, 3000, 4000, 5000, 10000]** $/kg | Five-point sweep, all above the pitch headline. Worker picking up R-pricing-anchor-revisit should extend this sweep to include 15,000 and 25,000 $/kg per the demand-doc DoD strategic-reserve and ISS-CRS analogues. |
+| `R_fleet_ramp_NPV` (enceladus-r5, `bf9e254`) | Derived input | `revenue_per_mission_M` is a function parameter, not anchored inside the round | Round does not commit to a price anchor itself; caller (or downstream comparator) supplies revenue. Cross-check: per round STUDY.md, the comparison cell uses break-even revenue per mission, which is mathematically equivalent to anchoring at the price that makes NPV(0) = 0 for the contracted cadence. This is a price-neutral analytic and is unaffected by anchor change, but its **interpretation** in shared-doc summaries depends on whether $/kg is anchored at pitch headline or at $10k/kg. |
+| `R_LEO_water_demand_curve` (enceladus-r5, `ed3dd58`) | Tier-aware Monte Carlo | clearing_price = Starship × markup, log-normal | **The campaign's most price-aware round.** Generates a 10,000-sample Monte Carlo over (Starship $/kg-to-LEO, in-space markup); maps clearing price to revenue per mission via per-architecture delivered mass; checks NPV. The "Variant B 51 percent / 29 percent P(NPV+) sovereign / corporate" headline lives here. Anchored on Starship-cost-distribution × demand-side markup distribution rather than on either pitch headline OR a flat sovereign price. This is the right shape; R-pricing-anchor-revisit worker should consider this round's distribution as a candidate prior, not as the answer. |
+| `R_heterogeneous_cadence` (rhea-2, `2e85d4f`) | Sweep + lognormal | **REVENUE_PER_TONNE_M = [1.0, 2.5, 5.0, 10.0, 15.0, 25.0]** ≡ $1,000–25,000/kg | Six-point sweep PLUS lognormal Starship $/kg × markup sampling (median $1,500, 5th $200, 95th $15,000). Tier-aware. |
+| `R_variant_B_recovery_paths_economic` (rhea-2, `5fe5dd5`) | Flat (single anchor) | **$10,000/kg in BEST_CELL is held fixed (sensitivity not run)** | Explicitly flagged in the round's docstring: water price assumption $10,000/kg held fixed. Worker should re-run with R-pricing-anchor-revisit's revised band as the first follow-on. |
+| `R_financing_capital_stack` (enceladus-r5) | Flat (single anchor) | **~$1,000/kg** in a back-of-envelope NPV check (`steady-state revenue ~$500M/yr per ship at $1k/kg × ~500 t/yr`) | The single round in the financial set that anchors near the pitch headline (slightly below). Not load-bearing on architecture verdicts; used as a capital-stack-feasibility check. **If R-pricing-anchor-revisit moves the anchor up, this round's "pre-revenue capital coverage" headline becomes more conservative (more revenue available to cover capital).** |
+
+---
+
+## Implications for R-pricing-anchor-revisit
+
+1. **The audit refutes a strong reading of the pitch-headline mismatch.** The financial rounds are NOT systematically anchored at $1,400/kg. Most anchor at $2,000–10,000/kg flat, and the load-bearing ones (R-reactor-roadmap, R-delivery-irr-curve, R-LEO-water-demand-curve, R-heterogeneous-cadence) are at or above $2,000/kg. **The "matrix-empty / sub-sovereign-bond" verdicts are not load-bearing on the pitch headline.** The campaign's actual revenue assumption is closer to $10,000/kg than to $1,400/kg.
+
+2. **The disagreement is between the pitch and the campaign, not within the campaign.** The pitch headline ($1,400/kg) is *below* what the financial rounds assume; correcting the pitch upward toward the demand-doc tier band ($3,000-10,000/kg blended) would bring the pitch into line with the financial rounds, not flip any verdict.
+
+3. **The pitch headline is wrong in the conservative direction.** Counterintuitive given the framing of the project-owner challenge — if anything, the pitch UNDERSTATES what ICEBERG can charge relative to what the financial rounds already assume. The pitch rewrite should therefore restate the headline upward (toward $5,000-10,000/kg as the operative band, with $1,400/kg as the Earth-launch displacement *floor* only) rather than treating $1,400/kg as the planning anchor.
+
+4. **R-pricing-anchor-revisit H7 verdict matters less than initially thought.** If the financial rounds already assume $10,000/kg and the verdict is still "matrix empty / technology-demonstrator-only / sub-sovereign-bond" (per iapetus chain L0-24), then pricing-anchor correction upward from the pitch headline does not change the architectural verdict — the binding constraint is reactor-program availability, not revenue per kilogram. **H7 likely holds (pricing correction does not flip program-class).** Worker should still run the round, but with this prior expectation.
+
+5. **What the audit cannot resolve.** Whether $10,000/kg is itself a defensible planning anchor or an upside case. The R_LEO_water_demand_curve Monte Carlo's "Variant B 51% P(NPV+) at sovereign financing" headline already integrates over the distribution; that is what R-pricing-anchor-revisit should benchmark against. **The worker's primary deliverable is therefore: is the R_LEO_water_demand_curve clearing-price distribution defensible, or is it itself too optimistic / pessimistic?** Not "is $1,400/kg right."
+
+---
+
+## Recommended changes once R-pricing-anchor-revisit closes
+
+These are conditional on H6 / H7 verdicts; do not apply until then.
+
+- **If H6 held (some financial cell flips at corrected pricing):** Re-run R_reactor_roadmap, R_delivery_irr_curve, R_architecture_D_L1007_relaxation, and R_variant_B_recovery_paths_economic with the revised BEST_CELL price. Re-emit the marginal-IRR, hurdle-crossover, and per-mission cashflow numbers. Update matrix axis 02 / axis 24 / axis 35 + the SESSION-LOG entry.
+- **If H7 falsified (pricing correction flips program-class):** Project-owner decision: does corrected pricing override the iapetus L0-24 reactor-program-availability constraint? L0-24 is a *physical-program* constraint (reactor must be on contract); revenue can buy down the program risk but cannot make the reactor exist. Likely L0-24 remains binding regardless.
+- **In all cases:** Pitch headline should be restated to bracket Earth-launch displacement as the *floor*, lunar-ISRU displacement as the *ceiling at scale*, and mission-essential willingness-to-pay as the *blend-weighted operative band* in each era. The current single-number $1,400/kg headline is too narrow regardless of which side the audit lands on.

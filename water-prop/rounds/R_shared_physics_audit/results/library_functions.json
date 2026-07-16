@@ -1,0 +1,181 @@
+[
+  {
+    "module": "propulsion.dual_ion",
+    "name": "ion_exhaust_velocity_m_s",
+    "line": 55,
+    "signature": [
+      "ion_mass_amu: float",
+      "grid_voltage_V: float",
+      "charge_state: int"
+    ],
+    "docstring_first_line": "Exhaust velocity for an ion of given mass and charge state accelerated",
+    "convention_class": "none"
+  },
+  {
+    "module": "propulsion.dual_ion",
+    "name": "dual_ion_isp_s",
+    "line": 70,
+    "signature": [
+      "grid_voltage_V: float",
+      "use_h2_plus: bool"
+    ],
+    "docstring_first_line": "Mass-weighted specific impulse for a dual-ion architecture fed by",
+    "convention_class": "none"
+  },
+  {
+    "module": "propulsion.dual_ion",
+    "name": "dual_ion_thrust_per_kw",
+    "line": 115,
+    "signature": [
+      "grid_voltage_V: float",
+      "efficiency_total: float",
+      "use_h2_plus: bool"
+    ],
+    "docstring_first_line": "Thrust delivered per kilowatt of electrical power for a dual-ion",
+    "convention_class": "none"
+  },
+  {
+    "module": "propulsion.dual_ion",
+    "name": "delivery_fraction_chunk_fed",
+    "line": 145,
+    "signature": [
+      "isp_s: float",
+      "delta_v_km_s: float"
+    ],
+    "docstring_first_line": "For a chunk-fed propulsion architecture where the chunk is also the",
+    "convention_class": "unit_convention"
+  },
+  {
+    "module": "propulsion.nep_optimum",
+    "name": "energy_balance_residual",
+    "line": 43,
+    "signature": [
+      "v_e: float",
+      "m_initial_kg: float",
+      "delta_v_m_s: float",
+      "eta_t_P_W_duty: float"
+    ],
+    "docstring_first_line": "Residual of the NEP energy-balance constraint.",
+    "convention_class": "mass_convention"
+  },
+  {
+    "module": "propulsion.nep_optimum",
+    "name": "power_optimal_isp",
+    "line": 56,
+    "signature": [
+      "power_W: float",
+      "cruise_time_s: float",
+      "duty_cycle: float",
+      "efficiency_total: float",
+      "m_initial_kg: float",
+      "delta_v_m_s: float"
+    ],
+    "docstring_first_line": "Solve for the power-optimal specific impulse.",
+    "convention_class": "mass_convention"
+  },
+  {
+    "module": "thermo.nozzle",
+    "name": "isp_from_v_e",
+    "line": 39,
+    "signature": [
+      "v_e: float"
+    ],
+    "docstring_first_line": "Convert exhaust velocity (m/s) to specific impulse (s).",
+    "convention_class": "none"
+  },
+  {
+    "module": "thermo.nozzle",
+    "name": "v_e_from_isp",
+    "line": 44,
+    "signature": [
+      "isp: float"
+    ],
+    "docstring_first_line": "Convert specific impulse (s) to exhaust velocity (m/s).",
+    "convention_class": "unit_convention"
+  },
+  {
+    "module": "thermo.nozzle",
+    "name": "chamber_state",
+    "line": 49,
+    "signature": [
+      "T_c: float",
+      "P_c_pa: float",
+      "inlet_species: str",
+      "mechanism: str"
+    ],
+    "docstring_first_line": "Set up the chamber as an HP-equilibrated gas.",
+    "convention_class": "mass_convention"
+  },
+  {
+    "module": "thermo.nozzle",
+    "name": "expand_equilibrium",
+    "line": 76,
+    "signature": [
+      "T_c: float",
+      "P_c_pa: float",
+      "P_exit_pa: float",
+      "n_steps: int",
+      "mechanism: str"
+    ],
+    "docstring_first_line": "Shifting-equilibrium isentropic expansion from chamber to exit pressure.",
+    "convention_class": "none"
+  },
+  {
+    "module": "thermo.nozzle",
+    "name": "expand_frozen",
+    "line": 111,
+    "signature": [
+      "T_c: float",
+      "P_c_pa: float",
+      "P_exit_pa: float",
+      "mechanism: str"
+    ],
+    "docstring_first_line": "Frozen-flow isentropic expansion: composition held at chamber equilibrium.",
+    "convention_class": "none"
+  },
+  {
+    "module": "trajectory.lunar_flyby",
+    "name": "v_sc_earth_at_lunar_distance",
+    "line": 53,
+    "signature": [
+      "v_inf_earth_km_s: float"
+    ],
+    "docstring_first_line": "Spacecraft speed in Earth's frame at lunar orbital distance, assuming",
+    "convention_class": "none"
+  },
+  {
+    "module": "trajectory.lunar_flyby",
+    "name": "turning_angle",
+    "line": 64,
+    "signature": [
+      "v_inf_moon_km_s: float",
+      "periapsis_altitude_km: float"
+    ],
+    "docstring_first_line": "Gravity-turn angle (radians) for a hyperbolic flyby at the Moon.",
+    "convention_class": "none"
+  },
+  {
+    "module": "trajectory.lunar_flyby",
+    "name": "single_flyby_braking",
+    "line": 77,
+    "signature": [
+      "v_inf_earth_in_km_s: float",
+      "periapsis_altitude_km: float",
+      "inclination_deg: float"
+    ],
+    "docstring_first_line": "One maximum-braking lunar flyby.",
+    "convention_class": "none"
+  },
+  {
+    "module": "trajectory.lunar_flyby",
+    "name": "three_flyby_tour",
+    "line": 138,
+    "signature": [
+      "v_inf_initial_km_s: float",
+      "periapsis_altitude_km: float",
+      "inclination_deg: float"
+    ],
+    "docstring_first_line": "Three sequential maximum-braking lunar flybys.",
+    "convention_class": "none"
+  }
+]

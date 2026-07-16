@@ -1,0 +1,399 @@
+{
+  "round": "R-reactor-lifetime-vs-burn-time",
+  "author": "enceladus-r5",
+  "date": "2026-05-15",
+  "pre_registration": "STUDY.md (H-12-a..h)",
+  "specific_power_levels_w_per_kg": [
+    2.4,
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0
+  ],
+  "aerocapture_X_levels_km_s": [
+    0.0,
+    5.0,
+    10.0,
+    15.0,
+    20.0,
+    25.0
+  ],
+  "lifetime_ceilings_yr": [
+    "5.0",
+    "8.0",
+    "10.0",
+    "15.0",
+    "inf"
+  ],
+  "regraded_close_25yr_count": {
+    "sp_2.4": {
+      "X_0.0": {
+        "L_5.0": 0,
+        "L_8.0": 0,
+        "L_10.0": 0,
+        "L_15.0": 0,
+        "L_inf": 0
+      },
+      "X_5.0": {
+        "L_5.0": 0,
+        "L_8.0": 0,
+        "L_10.0": 0,
+        "L_15.0": 0,
+        "L_inf": 0
+      },
+      "X_10.0": {
+        "L_5.0": 0,
+        "L_8.0": 0,
+        "L_10.0": 0,
+        "L_15.0": 0,
+        "L_inf": 0
+      },
+      "X_15.0": {
+        "L_5.0": 0,
+        "L_8.0": 0,
+        "L_10.0": 0,
+        "L_15.0": 0,
+        "L_inf": 0
+      },
+      "X_20.0": {
+        "L_5.0": 0,
+        "L_8.0": 0,
+        "L_10.0": 0,
+        "L_15.0": 0,
+        "L_inf": 0
+      },
+      "X_25.0": {
+        "L_5.0": 0,
+        "L_8.0": 0,
+        "L_10.0": 0,
+        "L_15.0": 0,
+        "L_inf": 0
+      }
+    },
+    "sp_5.0": {
+      "X_0.0": {
+        "L_5.0": 0,
+        "L_8.0": 0,
+        "L_10.0": 0,
+        "L_15.0": 0,
+        "L_inf": 0
+      },
+      "X_5.0": {
+        "L_5.0": 0,
+        "L_8.0": 0,
+        "L_10.0": 0,
+        "L_15.0": 0,
+        "L_inf": 0
+      },
+      "X_10.0": {
+        "L_5.0": 0,
+        "L_8.0": 0,
+        "L_10.0": 0,
+        "L_15.0": 3,
+        "L_inf": 3
+      },
+      "X_15.0": {
+        "L_5.0": 0,
+        "L_8.0": 0,
+        "L_10.0": 1,
+        "L_15.0": 11,
+        "L_inf": 11
+      },
+      "X_20.0": {
+        "L_5.0": 0,
+        "L_8.0": 0,
+        "L_10.0": 12,
+        "L_15.0": 25,
+        "L_inf": 25
+      },
+      "X_25.0": {
+        "L_5.0": 0,
+        "L_8.0": 0,
+        "L_10.0": 32,
+        "L_15.0": 44,
+        "L_inf": 44
+      }
+    },
+    "sp_6.0": {
+      "X_0.0": {
+        "L_5.0": 0,
+        "L_8.0": 0,
+        "L_10.0": 0,
+        "L_15.0": 0,
+        "L_inf": 0
+      },
+      "X_5.0": {
+        "L_5.0": 0,
+        "L_8.0": 0,
+        "L_10.0": 0,
+        "L_15.0": 3,
+        "L_inf": 3
+      },
+      "X_10.0": {
+        "L_5.0": 0,
+        "L_8.0": 0,
+        "L_10.0": 1,
+        "L_15.0": 8,
+        "L_inf": 8
+      },
+      "X_15.0": {
+        "L_5.0": 0,
+        "L_8.0": 0,
+        "L_10.0": 10,
+        "L_15.0": 19,
+        "L_inf": 19
+      },
+      "X_20.0": {
+        "L_5.0": 0,
+        "L_8.0": 9,
+        "L_10.0": 25,
+        "L_15.0": 36,
+        "L_inf": 36
+      },
+      "X_25.0": {
+        "L_5.0": 0,
+        "L_8.0": 24,
+        "L_10.0": 44,
+        "L_15.0": 56,
+        "L_inf": 56
+      }
+    },
+    "sp_7.0": {
+      "X_0.0": {
+        "L_5.0": 0,
+        "L_8.0": 0,
+        "L_10.0": 0,
+        "L_15.0": 0,
+        "L_inf": 0
+      },
+      "X_5.0": {
+        "L_5.0": 0,
+        "L_8.0": 0,
+        "L_10.0": 3,
+        "L_15.0": 6,
+        "L_inf": 6
+      },
+      "X_10.0": {
+        "L_5.0": 0,
+        "L_8.0": 0,
+        "L_10.0": 6,
+        "L_15.0": 13,
+        "L_inf": 13
+      },
+      "X_15.0": {
+        "L_5.0": 0,
+        "L_8.0": 5,
+        "L_10.0": 16,
+        "L_15.0": 25,
+        "L_inf": 25
+      },
+      "X_20.0": {
+        "L_5.0": 0,
+        "L_8.0": 20,
+        "L_10.0": 34,
+        "L_15.0": 41,
+        "L_inf": 41
+      },
+      "X_25.0": {
+        "L_5.0": 0,
+        "L_8.0": 40,
+        "L_10.0": 48,
+        "L_15.0": 56,
+        "L_inf": 56
+      }
+    },
+    "sp_8.0": {
+      "X_0.0": {
+        "L_5.0": 0,
+        "L_8.0": 0,
+        "L_10.0": 1,
+        "L_15.0": 4,
+        "L_inf": 4
+      },
+      "X_5.0": {
+        "L_5.0": 0,
+        "L_8.0": 0,
+        "L_10.0": 3,
+        "L_15.0": 7,
+        "L_inf": 7
+      },
+      "X_10.0": {
+        "L_5.0": 0,
+        "L_8.0": 5,
+        "L_10.0": 15,
+        "L_15.0": 20,
+        "L_inf": 20
+      },
+      "X_15.0": {
+        "L_5.0": 0,
+        "L_8.0": 13,
+        "L_10.0": 23,
+        "L_15.0": 29,
+        "L_inf": 29
+      },
+      "X_20.0": {
+        "L_5.0": 0,
+        "L_8.0": 26,
+        "L_10.0": 39,
+        "L_15.0": 42,
+        "L_inf": 42
+      },
+      "X_25.0": {
+        "L_5.0": 0,
+        "L_8.0": 44,
+        "L_10.0": 56,
+        "L_15.0": 56,
+        "L_inf": 56
+      }
+    },
+    "sp_9.0": {
+      "X_0.0": {
+        "L_5.0": 0,
+        "L_8.0": 0,
+        "L_10.0": 4,
+        "L_15.0": 7,
+        "L_inf": 7
+      },
+      "X_5.0": {
+        "L_5.0": 0,
+        "L_8.0": 1,
+        "L_10.0": 6,
+        "L_15.0": 10,
+        "L_inf": 10
+      },
+      "X_10.0": {
+        "L_5.0": 0,
+        "L_8.0": 9,
+        "L_10.0": 16,
+        "L_15.0": 21,
+        "L_inf": 21
+      },
+      "X_15.0": {
+        "L_5.0": 0,
+        "L_8.0": 20,
+        "L_10.0": 29,
+        "L_15.0": 32,
+        "L_inf": 32
+      },
+      "X_20.0": {
+        "L_5.0": 0,
+        "L_8.0": 33,
+        "L_10.0": 41,
+        "L_15.0": 44,
+        "L_inf": 44
+      },
+      "X_25.0": {
+        "L_5.0": 16,
+        "L_8.0": 44,
+        "L_10.0": 56,
+        "L_15.0": 56,
+        "L_inf": 56
+      }
+    },
+    "sp_10.0": {
+      "X_0.0": {
+        "L_5.0": 0,
+        "L_8.0": 2,
+        "L_10.0": 5,
+        "L_15.0": 9,
+        "L_inf": 9
+      },
+      "X_5.0": {
+        "L_5.0": 0,
+        "L_8.0": 4,
+        "L_10.0": 7,
+        "L_15.0": 11,
+        "L_inf": 11
+      },
+      "X_10.0": {
+        "L_5.0": 0,
+        "L_8.0": 10,
+        "L_10.0": 18,
+        "L_15.0": 23,
+        "L_inf": 23
+      },
+      "X_15.0": {
+        "L_5.0": 0,
+        "L_8.0": 22,
+        "L_10.0": 31,
+        "L_15.0": 34,
+        "L_inf": 34
+      },
+      "X_20.0": {
+        "L_5.0": 9,
+        "L_8.0": 35,
+        "L_10.0": 41,
+        "L_15.0": 44,
+        "L_inf": 44
+      },
+      "X_25.0": {
+        "L_5.0": 24,
+        "L_8.0": 48,
+        "L_10.0": 56,
+        "L_15.0": 60,
+        "L_inf": 60
+      }
+    }
+  },
+  "H_12_a_b_cumulative_burns_10wpkg_X0": {
+    "n_close_cells": 9,
+    "cumulative_burn_yr_sorted": [
+      7.841584855174002,
+      7.979010669868151,
+      8.104258634338153,
+      9.372298147815593,
+      9.473638845012314,
+      10.429694127064964,
+      10.575223125982564,
+      11.368362881251345,
+      11.3735326189402
+    ],
+    "max": 11.3735326189402,
+    "n_under_5yr": 0,
+    "n_under_2yr": 0
+  },
+  "hypothesis_grading": {
+    "H_12_a_all_10wpkg_X0_under_5yr": {
+      "predicted": "all 9 close-cells at 10 W/kg X=0 have cumulative burn <= 5 yr",
+      "measured": "max cumulative = 11.37 yr of 9 close cells",
+      "status": "FALSIFIED"
+    },
+    "H_12_b_at_least_4_under_2yr": {
+      "predicted": ">= 4 close cells at 10 W/kg X=0 have cumulative <= 2 yr",
+      "measured": "0 cells under 2 yr (of 9)",
+      "status": "FALSIFIED"
+    },
+    "H_12_c_8wpkg_X0_fall": {
+      "predicted": "2-3 of 4 close cells at 8 W/kg X=0 fall under L=10 yr",
+      "measured": "3 fall under L=10 of 4; cumulative burns: ['9.15', '10.58', '10.79', '11.74']",
+      "status": "HELD"
+    },
+    "H_12_d_5wpkg_X10": {
+      "predicted": "of 3 close cells at 5 W/kg X=10: 2-3 fall under L=10, 0 survive L=5",
+      "measured": "under L=10: 0; under L=5: 0; cumulative burns: ['11.58', '11.63', '11.83']",
+      "status": "HELD"
+    },
+    "H_12_e_5wpkg_X25_majority_fall": {
+      "predicted": "of 44 close cells at 5 W/kg X=25, < 50% survive L=10",
+      "measured": "32 survive L=10 of 44; survival fraction = 72.7%",
+      "status": "FALSIFIED"
+    },
+    "H_12_f_overall_removal": {
+      "predicted": "L=10 reactor lifetime removes 30-50% of close-25 cells (full grid)",
+      "measured": "679/855 survive L=10; fraction removed = 20.6%",
+      "status": "FALSIFIED"
+    },
+    "H_12_g_every_sp_has_L5_cell": {
+      "predicted": "at every specific power tested, some cell closes under L=5",
+      "measured": "2 of 7 specific powers have at least one L=5 close cell; breakdown: [(2.4, False), (5.0, False), (6.0, False), (7.0, False), (8.0, False), (9.0, True), (10.0, True)]",
+      "status": "FALSIFIED"
+    },
+    "H_12_h_aggregate": {
+      "predicted": "L=10 is secondary to specific power (most cells survive); L=5 is primary (most cells fall)",
+      "measured": "L=10 survival = 79.4%; breakdown across grid in regraded_close_25yr_count",
+      "status_short": "see component hypotheses"
+    }
+  }
+}

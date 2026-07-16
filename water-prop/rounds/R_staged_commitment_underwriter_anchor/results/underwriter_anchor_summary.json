@@ -1,0 +1,249 @@
+{
+  "round": "R_staged_commitment_underwriter_anchor",
+  "date": "2026-05-15",
+  "seed": 20260515,
+  "n_mc": 10000,
+  "load_bearing_cell": {
+    "launch_count": 2,
+    "wacc": 0.03,
+    "lr": 0.15,
+    "chunk_t": 200.0,
+    "p_demonstrator": 0.9
+  },
+  "mc_metrics": {
+    "load_bearing_cell": "2-launch W3% LR15%",
+    "n_samples": 10000,
+    "npv_D_M_stats": {
+      "n_valid": 10000,
+      "mean": 13735.23303904087,
+      "median": -7010.436151580088,
+      "p05": -16176.065781853371,
+      "p25": -13437.441691636923,
+      "p75": 10887.958641139907,
+      "p95": 102466.99178600547,
+      "frac_positive": 0.3632
+    },
+    "npv_R_M_stats": {
+      "n_valid": 10000,
+      "mean": 3101.641062718896,
+      "median": -3668.630484171358,
+      "p05": -6659.799432494691,
+      "p25": -5766.0597037226225,
+      "p75": 2172.4437124105743,
+      "p95": 32058.9186530555,
+      "frac_positive": 0.31
+    },
+    "delta_npv_M_stats": {
+      "n_valid": 10000,
+      "mean": -10633.591976321974,
+      "median": 3344.4396102652477,
+      "p05": -70347.05837563839,
+      "p25": -8709.077468284297,
+      "p75": 7671.564479258402,
+      "p95": 9516.721024952829,
+      "frac_positive": 0.6032
+    },
+    "irr_D_stats": {
+      "n_valid": 5236,
+      "mean": 0.07447912008295844,
+      "median": 0.05987300851023881,
+      "p05": -0.00440287916073186,
+      "p25": 0.02242779397105893,
+      "p75": 0.1101854727878047,
+      "p95": 0.20535168086646136,
+      "frac_positive": 0.9222689075630253
+    },
+    "irr_R_stats": {
+      "n_valid": 4230,
+      "mean": 0.06792370653824792,
+      "median": 0.057907667823167225,
+      "p05": 0.00784949854399803,
+      "p25": 0.028052949977004915,
+      "p75": 0.0947191387408879,
+      "p95": 0.1663514702931017,
+      "frac_positive": 1.0
+    },
+    "npv_D_M_first_10": [
+      -16146.081786793377,
+      1906.7605678757973,
+      28239.120790680623,
+      -14338.458892389066,
+      89902.38923240374,
+      -16639.230375124702,
+      173735.19325334777,
+      22968.540994635994,
+      -16158.515567709512,
+      222446.43419379002
+    ],
+    "npv_R_M_first_10": [
+      -6650.014267853747,
+      -758.5366870983198,
+      7834.93058266412,
+      -6060.103297181096,
+      27958.507604127168,
+      -6810.951465169036,
+      55317.029642819514,
+      6114.896579378853,
+      -6654.071985750591,
+      71213.76093273557
+    ]
+  },
+  "debt_metrics": {
+    "model": "pre_gate_catastrophic_loss_only",
+    "LTV": 0.6,
+    "LGD_recovery": 0.4,
+    "P_demonstrator_fail": 0.09999999999999998,
+    "duration_yr": 14.5,
+    "upfront": {
+      "exposure_M": 14627.958018466597,
+      "principal_M": 8776.774811079958,
+      "expected_loss_M": 526.6064886647973,
+      "implied_spread_bps_per_yr": 41.37931034482757
+    },
+    "staged": {
+      "exposure_M": 1600.0,
+      "principal_M": 960.0,
+      "expected_loss_M": 57.59999999999998,
+      "implied_spread_bps_per_yr": 41.37931034482757
+    },
+    "el_ratio_staged_over_upfront": 0.10937958654106959,
+    "spread_reduction_bps": 0.0,
+    "program_total_M": 14627.958018466597,
+    "mission1_total_M": 1600.0
+  },
+  "option_adjusted_npv": {
+    "n_samples": 10000,
+    "n_abandoned_under_smart_gate": 6528,
+    "fraction_abandoned": 0.6528,
+    "mean_option_value_M": 2318.9566906143073,
+    "median_option_value_M": 2446.9503853696783,
+    "p05_option_value_M": 8.613649921071442,
+    "p95_option_value_M": 5182.692941880455
+  },
+  "convex_hull_check": {
+    "deltas_at_clearing_percentile": {
+      "p25": {
+        "rev_per_tonne_M": 1.8665913001308523,
+        "rev_per_kg_$": 1866.5913001308522,
+        "delta_npv_B": 7.6713819879143
+      },
+      "p50": {
+        "rev_per_tonne_M": 5.240224497437567,
+        "rev_per_kg_$": 5240.224497437567,
+        "delta_npv_B": 3.34180566740873
+      },
+      "p75": {
+        "rev_per_tonne_M": 14.635364811987198,
+        "rev_per_kg_$": 14635.364811987198,
+        "delta_npv_B": -8.715514928729332
+      }
+    },
+    "convex_hull_B": [
+      -8.715514928729332,
+      7.6713819879143
+    ],
+    "round_13_pre_reg_band_B": [
+      4.0,
+      8.0
+    ],
+    "round_13_pre_reg_band_inside_hull": false,
+    "round_13_measured_median_B": 3.34,
+    "round_13_measured_inside_hull": true
+  },
+  "cross_checks": {
+    "XC1_frame_b_replicate": {
+      "upfront_pct_pos_measured": 36.32,
+      "upfront_pct_pos_round13": 36.32,
+      "staged_pct_pos_measured": 31.0,
+      "staged_pct_pos_round13": 31.0,
+      "upfront_passes": true,
+      "staged_passes": true
+    },
+    "XC2_median_delta_npv": {
+      "measured_median_delta_M": 3344.4396102652477,
+      "round_13_published_M": 3340.0,
+      "rel_err_pct": 0.13292246303136723,
+      "passes": true
+    },
+    "XC3_program_capex_breakdown": {
+      "measured_total_M": 14627.958018466597,
+      "round_13_published_M": 14628.0,
+      "rel_err_pct": 0.00028699434921094504,
+      "passes": true
+    }
+  },
+  "grades": [
+    {
+      "id": "H1",
+      "claim": "EL ratio staged / upfront in [8%, 15%]",
+      "predicted_band": [
+        0.08,
+        0.15
+      ],
+      "measured": 0.10937958654106959,
+      "status": "HELD"
+    },
+    {
+      "id": "H2",
+      "claim": "implied bond spread reduction (upfront - staged) in [25, 50] bps/yr",
+      "predicted_band": [
+        25,
+        50
+      ],
+      "measured_bps": 0.0,
+      "status": "FALSIFIED"
+    },
+    {
+      "id": "H3",
+      "claim": "MEAN \u0394-NPV across MC in [-$5B, +$3B] (heavy-left-tail compresses EV toward zero)",
+      "predicted_band_B": [
+        -5.0,
+        3.0
+      ],
+      "measured_B": -10.633591976321974,
+      "status": "FALSIFIED"
+    },
+    {
+      "id": "H4",
+      "claim": "median IRR_staged - median IRR_upfront in [0, +3] pp",
+      "predicted_band_pp": [
+        0,
+        3
+      ],
+      "measured_pp": -0.1965340687071583,
+      "irr_R_median": 0.057907667823167225,
+      "irr_D_median": 0.05987300851023881,
+      "status": "FALSIFIED"
+    },
+    {
+      "id": "H5",
+      "claim": "mean option-adjusted \u0394-NPV (smart-gate over mechanical-gate) in [+$0.3B, +$2B]",
+      "predicted_band_B": [
+        0.3,
+        2.0
+      ],
+      "measured_B": 2.318956690614307,
+      "n_abandoned": 6528,
+      "fraction_abandoned": 0.6528,
+      "status": "FALSIFIED"
+    },
+    {
+      "id": "H6",
+      "claim": "sovereign-grant P(milestone success past gate) is regime-independent (\u0394 \u2264 0.5 pp)",
+      "rationale": "by construction: the grant gate decision is on technical milestone, not on accounting regime; both regimes face P_demonstrator = 0.90",
+      "measured_pp_diff": 0.0,
+      "status": "HELD"
+    },
+    {
+      "id": "H7",
+      "claim": "convex hull of \u0394 at clearing p25/p50/p75 excludes round 13's [+$4B, +$8B] band; includes measured +$3.34B",
+      "convex_hull_B": [
+        -8.715514928729332,
+        7.6713819879143
+      ],
+      "round_13_pre_reg_band_inside_hull": false,
+      "round_13_measured_inside_hull": true,
+      "status": "HELD"
+    }
+  ]
+}

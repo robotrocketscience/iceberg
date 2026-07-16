@@ -1,0 +1,663 @@
+{
+  "round": "R-bus-mass-anchor-adjudication",
+  "worker": "titan-3",
+  "date": "2026-05-19",
+  "sub1_bus_aero": {
+    "table": {
+      "bus=2.0_aero=0.0": 0,
+      "bus=2.0_aero=10.0": 9,
+      "bus=5.0_aero=0.0": 0,
+      "bus=5.0_aero=10.0": 6,
+      "bus=10.0_aero=0.0": 0,
+      "bus=10.0_aero=10.0": 6,
+      "bus=15.0_aero=0.0": 0,
+      "bus=15.0_aero=10.0": 4
+    },
+    "europa_clipper_proxy_at_m_bus_5t": {
+      "aero_10": 6,
+      "aero_0": 0
+    },
+    "shielding_sensitivity_anchor": {
+      "cassini_only": 9,
+      "cassini_light_shield": 7,
+      "cassini_medium_shield": 7,
+      "cassini_heavy_shield": 6,
+      "europa_clipper_light": 6,
+      "europa_clipper_medium": 6
+    },
+    "H1_verdict": "ADOPT_5.5T_BASIS_OF_RECORD (project-owner override permitted)",
+    "H2_anchor_at_5p5t_aero10": "6 commercial-strict cells per enceladus-r5 caveat",
+    "H4_verdict": "HELD-strong: 0 commercial-strict cells at aero=0 for ALL bus masses"
+  },
+  "sub2_pivot_reclassification": {
+    "candidates": [
+      {
+        "candidate": "A",
+        "name": "Held chunk-rendezvous",
+        "kills_at_conservative_bus": [
+          "F1",
+          "F2",
+          "F6"
+        ],
+        "bus_anchored_kills": [
+          "F1"
+        ],
+        "bus_independent_kills": [
+          "F2",
+          "F6"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F2', 'F6']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "A'",
+        "name": "Chunk-rendezvous + drag-skirt",
+        "kills_at_conservative_bus": [
+          "F1",
+          "F2",
+          "F6",
+          "F8"
+        ],
+        "bus_anchored_kills": [
+          "F1"
+        ],
+        "bus_independent_kills": [
+          "F2",
+          "F6",
+          "F8"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F2', 'F6', 'F8']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "A''",
+        "name": "Outer-ring chunk-rendezvous",
+        "kills_at_conservative_bus": [
+          "F1",
+          "F6"
+        ],
+        "bus_anchored_kills": [
+          "F1"
+        ],
+        "bus_independent_kills": [
+          "F6"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F6']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "H",
+        "name": "Aerocapture-conditional chunk-rendezvous",
+        "kills_at_conservative_bus": [
+          "F2",
+          "F6"
+        ],
+        "bus_anchored_kills": [],
+        "bus_independent_kills": [
+          "F2",
+          "F6"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F2', 'F6']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "B",
+        "name": "Ram-scoop residence-class",
+        "kills_at_conservative_bus": [
+          "F6"
+        ],
+        "bus_anchored_kills": [],
+        "bus_independent_kills": [
+          "F6"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F6']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "B'",
+        "name": "Outer-ring residence-class",
+        "kills_at_conservative_bus": [
+          "F6"
+        ],
+        "bus_anchored_kills": [],
+        "bus_independent_kills": [
+          "F6"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F6']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "P1",
+        "name": "Lunar-orbit catcher",
+        "kills_at_conservative_bus": [
+          "F1",
+          "F2",
+          "F6"
+        ],
+        "bus_anchored_kills": [
+          "F1"
+        ],
+        "bus_independent_kills": [
+          "F2",
+          "F6"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F2', 'F6']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "P3",
+        "name": "Tether-rendezvous",
+        "kills_at_conservative_bus": [
+          "F1",
+          "F2",
+          "F6"
+        ],
+        "bus_anchored_kills": [
+          "F1"
+        ],
+        "bus_independent_kills": [
+          "F2",
+          "F6"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F2', 'F6']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "P4",
+        "name": "Push-the-rock",
+        "kills_at_conservative_bus": [
+          "F1",
+          "F2",
+          "F6"
+        ],
+        "bus_anchored_kills": [
+          "F1"
+        ],
+        "bus_independent_kills": [
+          "F2",
+          "F6"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F2', 'F6']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "S1",
+        "name": "Enceladus plume",
+        "kills_at_conservative_bus": [
+          "F6"
+        ],
+        "bus_anchored_kills": [],
+        "bus_independent_kills": [
+          "F6"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F6']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "S2",
+        "name": "Mimas surface mining",
+        "kills_at_conservative_bus": [
+          "F6"
+        ],
+        "bus_anchored_kills": [],
+        "bus_independent_kills": [
+          "F6"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F6']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "S3",
+        "name": "Iapetus surface mining",
+        "kills_at_conservative_bus": [
+          "F1",
+          "F3",
+          "F6"
+        ],
+        "bus_anchored_kills": [
+          "F1",
+          "F3"
+        ],
+        "bus_independent_kills": [
+          "F6"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F6']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "S4",
+        "name": "Hyperion surface mining",
+        "kills_at_conservative_bus": [
+          "F6"
+        ],
+        "bus_anchored_kills": [],
+        "bus_independent_kills": [
+          "F6"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F6']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "S5",
+        "name": "Tethys surface mining",
+        "kills_at_conservative_bus": [
+          "F6"
+        ],
+        "bus_anchored_kills": [],
+        "bus_independent_kills": [
+          "F6"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F6']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "S6",
+        "name": "Phoebe surface mining",
+        "kills_at_conservative_bus": [
+          "F1",
+          "F3",
+          "F6"
+        ],
+        "bus_anchored_kills": [
+          "F1",
+          "F3"
+        ],
+        "bus_independent_kills": [
+          "F6"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F6']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "S7",
+        "name": "Trojan / Hilda",
+        "kills_at_conservative_bus": [
+          "F1",
+          "F3",
+          "F6"
+        ],
+        "bus_anchored_kills": [
+          "F1",
+          "F3"
+        ],
+        "bus_independent_kills": [
+          "F6"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F6']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "T1",
+        "name": "Slow cruise",
+        "kills_at_conservative_bus": [
+          "F2",
+          "F3"
+        ],
+        "bus_anchored_kills": [
+          "F3"
+        ],
+        "bus_independent_kills": [
+          "F2"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F2']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "T2",
+        "name": "Pre-staging at moon",
+        "kills_at_conservative_bus": [
+          "F2",
+          "F6"
+        ],
+        "bus_anchored_kills": [],
+        "bus_independent_kills": [
+          "F2",
+          "F6"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F2', 'F6']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "F1d",
+        "name": "Return propellant (Arch D)",
+        "kills_at_conservative_bus": [
+          "F5",
+          "F6",
+          "F8"
+        ],
+        "bus_anchored_kills": [],
+        "bus_independent_kills": [
+          "F5",
+          "F6",
+          "F8"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F5', 'F6', 'F8']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "F2d",
+        "name": "Bulk ring material",
+        "kills_at_conservative_bus": [
+          "F6"
+        ],
+        "bus_anchored_kills": [],
+        "bus_independent_kills": [
+          "F6"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F6']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "F3d",
+        "name": "Many small chunks",
+        "kills_at_conservative_bus": [
+          "F1",
+          "F2",
+          "F3",
+          "F6",
+          "F8"
+        ],
+        "bus_anchored_kills": [
+          "F1",
+          "F3"
+        ],
+        "bus_independent_kills": [
+          "F2",
+          "F6",
+          "F8"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F2', 'F6', 'F8']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "F4d",
+        "name": "Deliver to L4/L5/GEO",
+        "kills_at_conservative_bus": [
+          "F1",
+          "F2",
+          "F6",
+          "F8"
+        ],
+        "bus_anchored_kills": [
+          "F1"
+        ],
+        "bus_independent_kills": [
+          "F2",
+          "F6",
+          "F8"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F2', 'F6', 'F8']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "C2c",
+        "name": "Precursor mission",
+        "kills_at_conservative_bus": [
+          "F2"
+        ],
+        "bus_anchored_kills": [],
+        "bus_independent_kills": [
+          "F2"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F2']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "C3c",
+        "name": "Shared launch",
+        "kills_at_conservative_bus": [
+          "F1",
+          "F2",
+          "F6"
+        ],
+        "bus_anchored_kills": [
+          "F1"
+        ],
+        "bus_independent_kills": [
+          "F2",
+          "F6"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F2', 'F6']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "C4c",
+        "name": "Data-resource mode",
+        "kills_at_conservative_bus": [
+          "F2"
+        ],
+        "bus_anchored_kills": [],
+        "bus_independent_kills": [
+          "F2"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F2']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "M2m",
+        "name": "One-way ships",
+        "kills_at_conservative_bus": [
+          "F2"
+        ],
+        "bus_anchored_kills": [],
+        "bus_independent_kills": [
+          "F2"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F2']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "M3m",
+        "name": "Tug-and-go fleet",
+        "kills_at_conservative_bus": [
+          "F6",
+          "F8"
+        ],
+        "bus_anchored_kills": [],
+        "bus_independent_kills": [
+          "F6",
+          "F8"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F6', 'F8']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "L1r",
+        "name": "Drop 14-yr cap",
+        "kills_at_conservative_bus": [
+          "F2",
+          "F6"
+        ],
+        "bus_anchored_kills": [],
+        "bus_independent_kills": [
+          "F2",
+          "F6"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F2', 'F6']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "L2r",
+        "name": "Drop chunk-as-propellant-tank lever",
+        "kills_at_conservative_bus": [
+          "F6"
+        ],
+        "bus_anchored_kills": [],
+        "bus_independent_kills": [
+          "F6"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F6']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "L3r",
+        "name": "Drop 100% Earth-delivery",
+        "kills_at_conservative_bus": [
+          "F2"
+        ],
+        "bus_anchored_kills": [],
+        "bus_independent_kills": [
+          "F2"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F2']; unchanged at heritage bus"
+      },
+      {
+        "candidate": "L4r",
+        "name": "Drop Earth-orbit target",
+        "kills_at_conservative_bus": [
+          "F2",
+          "F6",
+          "F8"
+        ],
+        "bus_anchored_kills": [],
+        "bus_independent_kills": [
+          "F2",
+          "F6",
+          "F8"
+        ],
+        "classification_at_heritage_bus": "STILL_DEAD",
+        "note": "bus-independent kills present: ['F2', 'F6', 'F8']; unchanged at heritage bus"
+      }
+    ],
+    "n_reclassify_under_heritage_bus": 0,
+    "H3_verdict": "FALSIFIED-low"
+  },
+  "sub3_aerocapture_sensitivity": {
+    "H5a_rows": [
+      {
+        "tensile_MPa": 1.0,
+        "margin": 0.7462686567164178,
+        "leg_flips": false
+      },
+      {
+        "tensile_MPa": 1.25,
+        "margin": 0.9328358208955223,
+        "leg_flips": false
+      },
+      {
+        "tensile_MPa": 1.5,
+        "margin": 1.1194029850746268,
+        "leg_flips": true
+      },
+      {
+        "tensile_MPa": 1.75,
+        "margin": 1.3059701492537312,
+        "leg_flips": true
+      },
+      {
+        "tensile_MPa": 2.0,
+        "margin": 1.4925373134328357,
+        "leg_flips": true
+      }
+    ],
+    "H5a_flip_threshold_MPa": 1.5,
+    "H5b_rows_interp1_sublimation": [
+      {
+        "blbf": 0.4,
+        "sublimation_t": 1505.0,
+        "leg_flips": false
+      },
+      {
+        "blbf": 0.5,
+        "sublimation_t": 1254.1666666666667,
+        "leg_flips": false
+      },
+      {
+        "blbf": 0.6,
+        "sublimation_t": 1003.3333333333334,
+        "leg_flips": false
+      },
+      {
+        "blbf": 0.7,
+        "sublimation_t": 752.5000000000001,
+        "leg_flips": false
+      }
+    ],
+    "H5b_rows_interp2_timescale_drag": [
+      {
+        "k": 1.0,
+        "dvpp_mms": 9.9,
+        "passes": 303030.30303030304,
+        "yr": 69.13764613969953,
+        "leg_flips": false
+      },
+      {
+        "k": 1.25,
+        "dvpp_mms": 12.375,
+        "passes": 242424.24242424243,
+        "yr": 55.31011691175962,
+        "leg_flips": false
+      },
+      {
+        "k": 1.5,
+        "dvpp_mms": 14.850000000000001,
+        "passes": 202020.202020202,
+        "yr": 46.091764093133015,
+        "leg_flips": false
+      }
+    ],
+    "H5c_timescale_rows": [
+      {
+        "rho_mult": 1.0,
+        "passes": 303000.0,
+        "yr": 69.13073237508556,
+        "leg_flips": false
+      },
+      {
+        "rho_mult": 2.0,
+        "passes": 151500.0,
+        "yr": 34.56536618754278,
+        "leg_flips": false
+      },
+      {
+        "rho_mult": 3.0,
+        "passes": 101000.0,
+        "yr": 23.043577458361852,
+        "leg_flips": false
+      }
+    ],
+    "H5c_teq_rows": [
+      {
+        "rho_mult": 1.0,
+        "teq_K": 702.0
+      },
+      {
+        "rho_mult": 2.0,
+        "teq_K": 834.8233947319102
+      },
+      {
+        "rho_mult": 3.0,
+        "teq_K": 923.8839570926497
+      }
+    ],
+    "aggregate": {
+      "H5a_structural_leg_flips_at_or_below_MPa": 1.5,
+      "H5b_sublimation_leg_flips": false,
+      "H5c_timescale_leg_flips": false,
+      "n_legs_flipping_single_axis": 1,
+      "architecture_closure_requires_all_three_legs_to_clear": true,
+      "verdict": "H5_agg: phoebe 0/1920 robust at the ARCHITECTURE level under any single-axis relaxation"
+    }
+  },
+  "audit": {
+    "phoebe_stress_recompute_MPa": 1.3417105490599999,
+    "phoebe_stress_published_MPa": 1.34,
+    "phoebe_stress_relative_error": 0.0012765291492535735,
+    "encs_best_cell_recompute": {
+      "m_dry_t": 67.0,
+      "m_0_t": 267.0,
+      "m_water_t": 108.47356667931382,
+      "m_delivered_t": 91.52643332068618,
+      "t_burn_yr": 5.691300527578404,
+      "rt_yr": 12.691300527578404
+    },
+    "encs_published_anchor": {
+      "delivered_t": 91.5,
+      "rt_yr": 12.69
+    },
+    "encs_delivered_relative_error": 0.00028888875066864097,
+    "encs_rt_relative_error": 0.0001024844427426791,
+    "audit_passes": true
+  }
+}

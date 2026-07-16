@@ -1,0 +1,177 @@
+{
+  "target_0p90": {
+    "target": 0.9,
+    "history": [
+      {
+        "n_redundant_subsystems": 0,
+        "redundancy_applied_to": [],
+        "projected_mission_success": 0.562096057415625
+      },
+      {
+        "n_redundant_subsystems": 1,
+        "redundancy_applied_to": [
+          "bag_harvest"
+        ],
+        "projected_mission_success": 0.6464104660279687
+      },
+      {
+        "n_redundant_subsystems": 2,
+        "redundancy_applied_to": [
+          "bag_harvest",
+          "primary_propulsion"
+        ],
+        "projected_mission_success": 0.7110515126307656
+      },
+      {
+        "n_redundant_subsystems": 3,
+        "redundancy_applied_to": [
+          "bag_harvest",
+          "primary_propulsion",
+          "comms"
+        ],
+        "projected_mission_success": 0.760825118514919
+      },
+      {
+        "n_redundant_subsystems": 4,
+        "redundancy_applied_to": [
+          "bag_harvest",
+          "primary_propulsion",
+          "comms",
+          "reactor_power"
+        ],
+        "projected_mission_success": 0.798866374440665
+      },
+      {
+        "n_redundant_subsystems": 5,
+        "redundancy_applied_to": [
+          "bag_harvest",
+          "primary_propulsion",
+          "comms",
+          "reactor_power",
+          "gnc_compute"
+        ],
+        "projected_mission_success": 0.8388096931626982
+      },
+      {
+        "n_redundant_subsystems": 6,
+        "redundancy_applied_to": [
+          "bag_harvest",
+          "primary_propulsion",
+          "comms",
+          "reactor_power",
+          "gnc_compute",
+          "thermal_control"
+        ],
+        "projected_mission_success": 0.8807501778208332
+      },
+      {
+        "n_redundant_subsystems": 7,
+        "redundancy_applied_to": [
+          "bag_harvest",
+          "primary_propulsion",
+          "comms",
+          "reactor_power",
+          "gnc_compute",
+          "thermal_control",
+          "return_handoff"
+        ],
+        "projected_mission_success": 0.9247876867118747
+      }
+    ],
+    "n_redundancies_needed": 7,
+    "final_success": 0.9247876867118747
+  },
+  "target_0p80": {
+    "target": 0.8,
+    "history": [
+      {
+        "n_redundant_subsystems": 0,
+        "redundancy_applied_to": [],
+        "projected_mission_success": 0.562096057415625
+      },
+      {
+        "n_redundant_subsystems": 1,
+        "redundancy_applied_to": [
+          "bag_harvest"
+        ],
+        "projected_mission_success": 0.6464104660279687
+      },
+      {
+        "n_redundant_subsystems": 2,
+        "redundancy_applied_to": [
+          "bag_harvest",
+          "primary_propulsion"
+        ],
+        "projected_mission_success": 0.7110515126307656
+      },
+      {
+        "n_redundant_subsystems": 3,
+        "redundancy_applied_to": [
+          "bag_harvest",
+          "primary_propulsion",
+          "comms"
+        ],
+        "projected_mission_success": 0.760825118514919
+      },
+      {
+        "n_redundant_subsystems": 4,
+        "redundancy_applied_to": [
+          "bag_harvest",
+          "primary_propulsion",
+          "comms",
+          "reactor_power"
+        ],
+        "projected_mission_success": 0.798866374440665
+      },
+      {
+        "n_redundant_subsystems": 5,
+        "redundancy_applied_to": [
+          "bag_harvest",
+          "primary_propulsion",
+          "comms",
+          "reactor_power",
+          "gnc_compute"
+        ],
+        "projected_mission_success": 0.8388096931626982
+      }
+    ],
+    "n_redundancies_needed": 5,
+    "final_success": 0.8388096931626982
+  },
+  "target_0p75": {
+    "target": 0.75,
+    "history": [
+      {
+        "n_redundant_subsystems": 0,
+        "redundancy_applied_to": [],
+        "projected_mission_success": 0.562096057415625
+      },
+      {
+        "n_redundant_subsystems": 1,
+        "redundancy_applied_to": [
+          "bag_harvest"
+        ],
+        "projected_mission_success": 0.6464104660279687
+      },
+      {
+        "n_redundant_subsystems": 2,
+        "redundancy_applied_to": [
+          "bag_harvest",
+          "primary_propulsion"
+        ],
+        "projected_mission_success": 0.7110515126307656
+      },
+      {
+        "n_redundant_subsystems": 3,
+        "redundancy_applied_to": [
+          "bag_harvest",
+          "primary_propulsion",
+          "comms"
+        ],
+        "projected_mission_success": 0.760825118514919
+      }
+    ],
+    "n_redundancies_needed": 3,
+    "final_success": 0.760825118514919
+  }
+}
