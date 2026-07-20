@@ -6,6 +6,8 @@ No hardware exists. No flight is booked. This is a paper study, and the study's 
 
 ![Mission flight plan: ten phases, 13-year round trip, one bought chemical burn; every other maneuver is water-electrothermal or a free lunar gravity assist](plots/01a_flightplan.png)
 
+The full story — architecture, method, the graveyard of killed claims, and the three bets — is written up at [robotrocketscience.com/projects/iceberg](https://www.robotrocketscience.com/projects/iceberg/).
+
 ## The three bets
 
 The full decision record lives in [`water-prop/docs/ARCHITECTURE-DECISION-MATRIX.md`](water-prop/docs/ARCHITECTURE-DECISION-MATRIX.md) and the per-axis files under [`design-axes/`](design-axes/). Reduced to its load-bearing assumptions, closure requires:
