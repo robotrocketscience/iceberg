@@ -1,0 +1,1119 @@
+{
+ "findings": {
+  "H1": {
+   "central": {
+    "p_att": 0.848,
+    "p_eventual": 0.98,
+    "dmg_per_handoff": 0.0175
+   },
+   "low_high_p_att": [
+    0.771,
+    0.922
+   ],
+   "held": true
+  },
+  "H2": {
+   "retention_n4": 0.908,
+   "risk_lpd": 0.402,
+   "held": true
+  },
+  "H3": {
+   "hw_lpd": 0.051,
+   "ops_honest_lpd": 0.453,
+   "held": true
+  },
+  "H4": {
+   "capture_band_bet1": [
+    0.46,
+    0.85
+   ],
+   "min_retention_any_cell": 0.69,
+   "composed_advantage": 2.25,
+   "d_star_pct": 8.1,
+   "knife_edge": "third consecutive honesty pass lands at the 8% utility hurdle",
+   "held": false
+  }
+ },
+ "sweep": [
+  {
+   "band": "low",
+   "f_dmg": 0.05,
+   "tries": 1,
+   "n": 2,
+   "p_att": 0.771,
+   "p_eventual": 0.771,
+   "dmg_per_handoff": 0.0115,
+   "retention": 0.478
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.05,
+   "tries": 1,
+   "n": 3,
+   "p_att": 0.771,
+   "p_eventual": 0.771,
+   "dmg_per_handoff": 0.0115,
+   "retention": 0.369
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.05,
+   "tries": 1,
+   "n": 4,
+   "p_att": 0.771,
+   "p_eventual": 0.771,
+   "dmg_per_handoff": 0.0115,
+   "retention": 0.284
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.05,
+   "tries": 1,
+   "n": 5,
+   "p_att": 0.771,
+   "p_eventual": 0.771,
+   "dmg_per_handoff": 0.0115,
+   "retention": 0.219
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.05,
+   "tries": 2,
+   "n": 2,
+   "p_att": 0.771,
+   "p_eventual": 0.939,
+   "dmg_per_handoff": 0.014,
+   "retention": 0.841
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.05,
+   "tries": 2,
+   "n": 3,
+   "p_att": 0.771,
+   "p_eventual": 0.939,
+   "dmg_per_handoff": 0.014,
+   "retention": 0.789
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.05,
+   "tries": 2,
+   "n": 4,
+   "p_att": 0.771,
+   "p_eventual": 0.939,
+   "dmg_per_handoff": 0.014,
+   "retention": 0.74
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.05,
+   "tries": 2,
+   "n": 5,
+   "p_att": 0.771,
+   "p_eventual": 0.939,
+   "dmg_per_handoff": 0.014,
+   "retention": 0.695
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.05,
+   "tries": 3,
+   "n": 2,
+   "p_att": 0.771,
+   "p_eventual": 0.975,
+   "dmg_per_handoff": 0.0145,
+   "retention": 0.934
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.05,
+   "tries": 3,
+   "n": 3,
+   "p_att": 0.771,
+   "p_eventual": 0.975,
+   "dmg_per_handoff": 0.0145,
+   "retention": 0.91
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.05,
+   "tries": 3,
+   "n": 4,
+   "p_att": 0.771,
+   "p_eventual": 0.975,
+   "dmg_per_handoff": 0.0145,
+   "retention": 0.888
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.05,
+   "tries": 3,
+   "n": 5,
+   "p_att": 0.771,
+   "p_eventual": 0.975,
+   "dmg_per_handoff": 0.0145,
+   "retention": 0.866
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.1,
+   "tries": 1,
+   "n": 2,
+   "p_att": 0.771,
+   "p_eventual": 0.771,
+   "dmg_per_handoff": 0.0229,
+   "retention": 0.478
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.1,
+   "tries": 1,
+   "n": 3,
+   "p_att": 0.771,
+   "p_eventual": 0.771,
+   "dmg_per_handoff": 0.0229,
+   "retention": 0.369
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.1,
+   "tries": 1,
+   "n": 4,
+   "p_att": 0.771,
+   "p_eventual": 0.771,
+   "dmg_per_handoff": 0.0229,
+   "retention": 0.284
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.1,
+   "tries": 1,
+   "n": 5,
+   "p_att": 0.771,
+   "p_eventual": 0.771,
+   "dmg_per_handoff": 0.0229,
+   "retention": 0.219
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.1,
+   "tries": 2,
+   "n": 2,
+   "p_att": 0.771,
+   "p_eventual": 0.93,
+   "dmg_per_handoff": 0.0277,
+   "retention": 0.818
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.1,
+   "tries": 2,
+   "n": 3,
+   "p_att": 0.771,
+   "p_eventual": 0.93,
+   "dmg_per_handoff": 0.0277,
+   "retention": 0.761
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.1,
+   "tries": 2,
+   "n": 4,
+   "p_att": 0.771,
+   "p_eventual": 0.93,
+   "dmg_per_handoff": 0.0277,
+   "retention": 0.707
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.1,
+   "tries": 2,
+   "n": 5,
+   "p_att": 0.771,
+   "p_eventual": 0.93,
+   "dmg_per_handoff": 0.0277,
+   "retention": 0.657
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.1,
+   "tries": 3,
+   "n": 2,
+   "p_att": 0.771,
+   "p_eventual": 0.963,
+   "dmg_per_handoff": 0.0287,
+   "retention": 0.9
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.1,
+   "tries": 3,
+   "n": 3,
+   "p_att": 0.771,
+   "p_eventual": 0.963,
+   "dmg_per_handoff": 0.0287,
+   "retention": 0.866
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.1,
+   "tries": 3,
+   "n": 4,
+   "p_att": 0.771,
+   "p_eventual": 0.963,
+   "dmg_per_handoff": 0.0287,
+   "retention": 0.834
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.1,
+   "tries": 3,
+   "n": 5,
+   "p_att": 0.771,
+   "p_eventual": 0.963,
+   "dmg_per_handoff": 0.0287,
+   "retention": 0.802
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.2,
+   "tries": 1,
+   "n": 2,
+   "p_att": 0.771,
+   "p_eventual": 0.771,
+   "dmg_per_handoff": 0.0459,
+   "retention": 0.478
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.2,
+   "tries": 1,
+   "n": 3,
+   "p_att": 0.771,
+   "p_eventual": 0.771,
+   "dmg_per_handoff": 0.0459,
+   "retention": 0.369
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.2,
+   "tries": 1,
+   "n": 4,
+   "p_att": 0.771,
+   "p_eventual": 0.771,
+   "dmg_per_handoff": 0.0459,
+   "retention": 0.284
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.2,
+   "tries": 1,
+   "n": 5,
+   "p_att": 0.771,
+   "p_eventual": 0.771,
+   "dmg_per_handoff": 0.0459,
+   "retention": 0.219
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.2,
+   "tries": 2,
+   "n": 2,
+   "p_att": 0.771,
+   "p_eventual": 0.912,
+   "dmg_per_handoff": 0.0543,
+   "retention": 0.774
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.2,
+   "tries": 2,
+   "n": 3,
+   "p_att": 0.771,
+   "p_eventual": 0.912,
+   "dmg_per_handoff": 0.0543,
+   "retention": 0.706
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.2,
+   "tries": 2,
+   "n": 4,
+   "p_att": 0.771,
+   "p_eventual": 0.912,
+   "dmg_per_handoff": 0.0543,
+   "retention": 0.644
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.2,
+   "tries": 2,
+   "n": 5,
+   "p_att": 0.771,
+   "p_eventual": 0.912,
+   "dmg_per_handoff": 0.0543,
+   "retention": 0.587
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.2,
+   "tries": 3,
+   "n": 2,
+   "p_att": 0.771,
+   "p_eventual": 0.938,
+   "dmg_per_handoff": 0.0559,
+   "retention": 0.836
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.2,
+   "tries": 3,
+   "n": 3,
+   "p_att": 0.771,
+   "p_eventual": 0.938,
+   "dmg_per_handoff": 0.0559,
+   "retention": 0.784
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.2,
+   "tries": 3,
+   "n": 4,
+   "p_att": 0.771,
+   "p_eventual": 0.938,
+   "dmg_per_handoff": 0.0559,
+   "retention": 0.736
+  },
+  {
+   "band": "low",
+   "f_dmg": 0.2,
+   "tries": 3,
+   "n": 5,
+   "p_att": 0.771,
+   "p_eventual": 0.938,
+   "dmg_per_handoff": 0.0559,
+   "retention": 0.69
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.05,
+   "tries": 1,
+   "n": 2,
+   "p_att": 0.848,
+   "p_eventual": 0.848,
+   "dmg_per_handoff": 0.0076,
+   "retention": 0.631
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.05,
+   "tries": 1,
+   "n": 3,
+   "p_att": 0.848,
+   "p_eventual": 0.848,
+   "dmg_per_handoff": 0.0076,
+   "retention": 0.535
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.05,
+   "tries": 1,
+   "n": 4,
+   "p_att": 0.848,
+   "p_eventual": 0.848,
+   "dmg_per_handoff": 0.0076,
+   "retention": 0.454
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.05,
+   "tries": 1,
+   "n": 5,
+   "p_att": 0.848,
+   "p_eventual": 0.848,
+   "dmg_per_handoff": 0.0076,
+   "retention": 0.385
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.05,
+   "tries": 2,
+   "n": 2,
+   "p_att": 0.848,
+   "p_eventual": 0.971,
+   "dmg_per_handoff": 0.0087,
+   "retention": 0.922
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.05,
+   "tries": 2,
+   "n": 3,
+   "p_att": 0.848,
+   "p_eventual": 0.971,
+   "dmg_per_handoff": 0.0087,
+   "retention": 0.895
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.05,
+   "tries": 2,
+   "n": 4,
+   "p_att": 0.848,
+   "p_eventual": 0.971,
+   "dmg_per_handoff": 0.0087,
+   "retention": 0.869
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.05,
+   "tries": 2,
+   "n": 5,
+   "p_att": 0.848,
+   "p_eventual": 0.971,
+   "dmg_per_handoff": 0.0087,
+   "retention": 0.843
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.05,
+   "tries": 3,
+   "n": 2,
+   "p_att": 0.848,
+   "p_eventual": 0.988,
+   "dmg_per_handoff": 0.0088,
+   "retention": 0.968
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.05,
+   "tries": 3,
+   "n": 3,
+   "p_att": 0.848,
+   "p_eventual": 0.988,
+   "dmg_per_handoff": 0.0088,
+   "retention": 0.957
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.05,
+   "tries": 3,
+   "n": 4,
+   "p_att": 0.848,
+   "p_eventual": 0.988,
+   "dmg_per_handoff": 0.0088,
+   "retention": 0.945
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.05,
+   "tries": 3,
+   "n": 5,
+   "p_att": 0.848,
+   "p_eventual": 0.988,
+   "dmg_per_handoff": 0.0088,
+   "retention": 0.934
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.1,
+   "tries": 1,
+   "n": 2,
+   "p_att": 0.848,
+   "p_eventual": 0.848,
+   "dmg_per_handoff": 0.0152,
+   "retention": 0.631
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.1,
+   "tries": 1,
+   "n": 3,
+   "p_att": 0.848,
+   "p_eventual": 0.848,
+   "dmg_per_handoff": 0.0152,
+   "retention": 0.535
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.1,
+   "tries": 1,
+   "n": 4,
+   "p_att": 0.848,
+   "p_eventual": 0.848,
+   "dmg_per_handoff": 0.0152,
+   "retention": 0.454
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.1,
+   "tries": 1,
+   "n": 5,
+   "p_att": 0.848,
+   "p_eventual": 0.848,
+   "dmg_per_handoff": 0.0152,
+   "retention": 0.385
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.1,
+   "tries": 2,
+   "n": 2,
+   "p_att": 0.848,
+   "p_eventual": 0.964,
+   "dmg_per_handoff": 0.0172,
+   "retention": 0.905
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.1,
+   "tries": 2,
+   "n": 3,
+   "p_att": 0.848,
+   "p_eventual": 0.964,
+   "dmg_per_handoff": 0.0172,
+   "retention": 0.873
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.1,
+   "tries": 2,
+   "n": 4,
+   "p_att": 0.848,
+   "p_eventual": 0.964,
+   "dmg_per_handoff": 0.0172,
+   "retention": 0.841
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.1,
+   "tries": 2,
+   "n": 5,
+   "p_att": 0.848,
+   "p_eventual": 0.964,
+   "dmg_per_handoff": 0.0172,
+   "retention": 0.811
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.1,
+   "tries": 3,
+   "n": 2,
+   "p_att": 0.848,
+   "p_eventual": 0.98,
+   "dmg_per_handoff": 0.0175,
+   "retention": 0.946
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.1,
+   "tries": 3,
+   "n": 3,
+   "p_att": 0.848,
+   "p_eventual": 0.98,
+   "dmg_per_handoff": 0.0175,
+   "retention": 0.927
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.1,
+   "tries": 3,
+   "n": 4,
+   "p_att": 0.848,
+   "p_eventual": 0.98,
+   "dmg_per_handoff": 0.0175,
+   "retention": 0.908
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.1,
+   "tries": 3,
+   "n": 5,
+   "p_att": 0.848,
+   "p_eventual": 0.98,
+   "dmg_per_handoff": 0.0175,
+   "retention": 0.89
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.2,
+   "tries": 1,
+   "n": 2,
+   "p_att": 0.848,
+   "p_eventual": 0.848,
+   "dmg_per_handoff": 0.0303,
+   "retention": 0.631
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.2,
+   "tries": 1,
+   "n": 3,
+   "p_att": 0.848,
+   "p_eventual": 0.848,
+   "dmg_per_handoff": 0.0303,
+   "retention": 0.535
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.2,
+   "tries": 1,
+   "n": 4,
+   "p_att": 0.848,
+   "p_eventual": 0.848,
+   "dmg_per_handoff": 0.0303,
+   "retention": 0.454
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.2,
+   "tries": 1,
+   "n": 5,
+   "p_att": 0.848,
+   "p_eventual": 0.848,
+   "dmg_per_handoff": 0.0303,
+   "retention": 0.385
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.2,
+   "tries": 2,
+   "n": 2,
+   "p_att": 0.848,
+   "p_eventual": 0.951,
+   "dmg_per_handoff": 0.034,
+   "retention": 0.871
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.2,
+   "tries": 2,
+   "n": 3,
+   "p_att": 0.848,
+   "p_eventual": 0.951,
+   "dmg_per_handoff": 0.034,
+   "retention": 0.829
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.2,
+   "tries": 2,
+   "n": 4,
+   "p_att": 0.848,
+   "p_eventual": 0.951,
+   "dmg_per_handoff": 0.034,
+   "retention": 0.789
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.2,
+   "tries": 2,
+   "n": 5,
+   "p_att": 0.848,
+   "p_eventual": 0.951,
+   "dmg_per_handoff": 0.034,
+   "retention": 0.75
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.2,
+   "tries": 3,
+   "n": 2,
+   "p_att": 0.848,
+   "p_eventual": 0.964,
+   "dmg_per_handoff": 0.0344,
+   "retention": 0.902
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.2,
+   "tries": 3,
+   "n": 3,
+   "p_att": 0.848,
+   "p_eventual": 0.964,
+   "dmg_per_handoff": 0.0344,
+   "retention": 0.87
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.2,
+   "tries": 3,
+   "n": 4,
+   "p_att": 0.848,
+   "p_eventual": 0.964,
+   "dmg_per_handoff": 0.0344,
+   "retention": 0.838
+  },
+  {
+   "band": "central",
+   "f_dmg": 0.2,
+   "tries": 3,
+   "n": 5,
+   "p_att": 0.848,
+   "p_eventual": 0.964,
+   "dmg_per_handoff": 0.0344,
+   "retention": 0.808
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.05,
+   "tries": 1,
+   "n": 2,
+   "p_att": 0.922,
+   "p_eventual": 0.922,
+   "dmg_per_handoff": 0.0039,
+   "retention": 0.8
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.05,
+   "tries": 1,
+   "n": 3,
+   "p_att": 0.922,
+   "p_eventual": 0.922,
+   "dmg_per_handoff": 0.0039,
+   "retention": 0.737
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.05,
+   "tries": 1,
+   "n": 4,
+   "p_att": 0.922,
+   "p_eventual": 0.922,
+   "dmg_per_handoff": 0.0039,
+   "retention": 0.68
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.05,
+   "tries": 1,
+   "n": 5,
+   "p_att": 0.922,
+   "p_eventual": 0.922,
+   "dmg_per_handoff": 0.0039,
+   "retention": 0.626
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.05,
+   "tries": 2,
+   "n": 2,
+   "p_att": 0.922,
+   "p_eventual": 0.99,
+   "dmg_per_handoff": 0.0042,
+   "retention": 0.975
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.05,
+   "tries": 2,
+   "n": 3,
+   "p_att": 0.922,
+   "p_eventual": 0.99,
+   "dmg_per_handoff": 0.0042,
+   "retention": 0.965
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.05,
+   "tries": 2,
+   "n": 4,
+   "p_att": 0.922,
+   "p_eventual": 0.99,
+   "dmg_per_handoff": 0.0042,
+   "retention": 0.956
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.05,
+   "tries": 2,
+   "n": 5,
+   "p_att": 0.922,
+   "p_eventual": 0.99,
+   "dmg_per_handoff": 0.0042,
+   "retention": 0.946
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.05,
+   "tries": 3,
+   "n": 2,
+   "p_att": 0.922,
+   "p_eventual": 0.995,
+   "dmg_per_handoff": 0.0042,
+   "retention": 0.988
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.05,
+   "tries": 3,
+   "n": 3,
+   "p_att": 0.922,
+   "p_eventual": 0.995,
+   "dmg_per_handoff": 0.0042,
+   "retention": 0.983
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.05,
+   "tries": 3,
+   "n": 4,
+   "p_att": 0.922,
+   "p_eventual": 0.995,
+   "dmg_per_handoff": 0.0042,
+   "retention": 0.978
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.05,
+   "tries": 3,
+   "n": 5,
+   "p_att": 0.922,
+   "p_eventual": 0.995,
+   "dmg_per_handoff": 0.0042,
+   "retention": 0.974
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.1,
+   "tries": 1,
+   "n": 2,
+   "p_att": 0.922,
+   "p_eventual": 0.922,
+   "dmg_per_handoff": 0.0078,
+   "retention": 0.8
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.1,
+   "tries": 1,
+   "n": 3,
+   "p_att": 0.922,
+   "p_eventual": 0.922,
+   "dmg_per_handoff": 0.0078,
+   "retention": 0.737
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.1,
+   "tries": 1,
+   "n": 4,
+   "p_att": 0.922,
+   "p_eventual": 0.922,
+   "dmg_per_handoff": 0.0078,
+   "retention": 0.68
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.1,
+   "tries": 1,
+   "n": 5,
+   "p_att": 0.922,
+   "p_eventual": 0.922,
+   "dmg_per_handoff": 0.0078,
+   "retention": 0.626
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.1,
+   "tries": 2,
+   "n": 2,
+   "p_att": 0.922,
+   "p_eventual": 0.987,
+   "dmg_per_handoff": 0.0084,
+   "retention": 0.965
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.1,
+   "tries": 2,
+   "n": 3,
+   "p_att": 0.922,
+   "p_eventual": 0.987,
+   "dmg_per_handoff": 0.0084,
+   "retention": 0.952
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.1,
+   "tries": 2,
+   "n": 4,
+   "p_att": 0.922,
+   "p_eventual": 0.987,
+   "dmg_per_handoff": 0.0084,
+   "retention": 0.939
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.1,
+   "tries": 2,
+   "n": 5,
+   "p_att": 0.922,
+   "p_eventual": 0.987,
+   "dmg_per_handoff": 0.0084,
+   "retention": 0.927
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.1,
+   "tries": 3,
+   "n": 2,
+   "p_att": 0.922,
+   "p_eventual": 0.991,
+   "dmg_per_handoff": 0.0084,
+   "retention": 0.976
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.1,
+   "tries": 3,
+   "n": 3,
+   "p_att": 0.922,
+   "p_eventual": 0.991,
+   "dmg_per_handoff": 0.0084,
+   "retention": 0.968
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.1,
+   "tries": 3,
+   "n": 4,
+   "p_att": 0.922,
+   "p_eventual": 0.991,
+   "dmg_per_handoff": 0.0084,
+   "retention": 0.959
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.1,
+   "tries": 3,
+   "n": 5,
+   "p_att": 0.922,
+   "p_eventual": 0.991,
+   "dmg_per_handoff": 0.0084,
+   "retention": 0.951
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.2,
+   "tries": 1,
+   "n": 2,
+   "p_att": 0.922,
+   "p_eventual": 0.922,
+   "dmg_per_handoff": 0.0156,
+   "retention": 0.8
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.2,
+   "tries": 1,
+   "n": 3,
+   "p_att": 0.922,
+   "p_eventual": 0.922,
+   "dmg_per_handoff": 0.0156,
+   "retention": 0.737
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.2,
+   "tries": 1,
+   "n": 4,
+   "p_att": 0.922,
+   "p_eventual": 0.922,
+   "dmg_per_handoff": 0.0156,
+   "retention": 0.68
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.2,
+   "tries": 1,
+   "n": 5,
+   "p_att": 0.922,
+   "p_eventual": 0.922,
+   "dmg_per_handoff": 0.0156,
+   "retention": 0.626
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.2,
+   "tries": 2,
+   "n": 2,
+   "p_att": 0.922,
+   "p_eventual": 0.979,
+   "dmg_per_handoff": 0.0166,
+   "retention": 0.945
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.2,
+   "tries": 2,
+   "n": 3,
+   "p_att": 0.922,
+   "p_eventual": 0.979,
+   "dmg_per_handoff": 0.0166,
+   "retention": 0.926
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.2,
+   "tries": 2,
+   "n": 4,
+   "p_att": 0.922,
+   "p_eventual": 0.979,
+   "dmg_per_handoff": 0.0166,
+   "retention": 0.907
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.2,
+   "tries": 2,
+   "n": 5,
+   "p_att": 0.922,
+   "p_eventual": 0.979,
+   "dmg_per_handoff": 0.0166,
+   "retention": 0.888
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.2,
+   "tries": 3,
+   "n": 2,
+   "p_att": 0.922,
+   "p_eventual": 0.983,
+   "dmg_per_handoff": 0.0167,
+   "retention": 0.954
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.2,
+   "tries": 3,
+   "n": 3,
+   "p_att": 0.922,
+   "p_eventual": 0.983,
+   "dmg_per_handoff": 0.0167,
+   "retention": 0.938
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.2,
+   "tries": 3,
+   "n": 4,
+   "p_att": 0.922,
+   "p_eventual": 0.983,
+   "dmg_per_handoff": 0.0167,
+   "retention": 0.922
+  },
+  {
+   "band": "high",
+   "f_dmg": 0.2,
+   "tries": 3,
+   "n": 5,
+   "p_att": 0.922,
+   "p_eventual": 0.983,
+   "dmg_per_handoff": 0.0167,
+   "retention": 0.907
+  }
+ ]
+}
