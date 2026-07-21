@@ -1,0 +1,27 @@
+{
+ "findings": {
+  "H1": {
+   "d_star": {
+    "paper": 0.1053,
+    "capped": 0.0796,
+    "flown": 0.0588
+   },
+   "held": true
+  },
+  "H2": {
+   "paper_at_8pct": 1.27,
+   "paper_at_10pct": 1.05,
+   "flown_at_8pct": 0.81,
+   "held": true
+  },
+  "H3": {
+   "paper_at_8pct_3decay": 0.94,
+   "held": true
+  },
+  "H4": {
+   "statement": "waiver value is conditional on paper-kappa + utility hurdle + stable price; waiver and specific power are coupled levers",
+   "delay_sensitivity_pct_per_yr": 10.5,
+   "held": true
+  }
+ }
+}
