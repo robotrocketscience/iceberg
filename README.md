@@ -2,7 +2,7 @@
 
 A mission-concept study: harvest multi-tonne water-ice chunks from Saturn's B ring and deliver them to Earth orbit as propellant feedstock. The chunk doubles as the return-leg propellant tank — the tug drinks its own cargo on the way home, feeding a water microwave-electrothermal thruster through a sublimation-capture trawl bag.
 
-No hardware exists. No flight is booked. This is a paper study, and the study's own verdict is that the architecture stands or falls on three engineering bets nobody has yet won. That verdict — and the 167-round analysis campaign that produced it — is what this repository documents.
+No hardware exists. No flight is booked. This is a paper study, and the study's own verdict is that the architecture stands or falls on three engineering bets nobody has yet won. That verdict — and the 169-round analysis campaign that produced it — is what this repository documents.
 
 ![Mission flight plan: ten phases, 13-year round trip, one bought chemical burn; every other maneuver is water-electrothermal or a free lunar gravity assist](plots/01a_flightplan.png)
 
@@ -17,6 +17,10 @@ The full decision record lives in [`water-prop/docs/ARCHITECTURE-DECISION-MATRIX
 3. **A kilowatt-class space fission reactor delivered in the program window.** The United States has flown exactly one fission reactor, in 1965, and every program since — six of them, roughly 1.7 billion dollars — was cancelled before orbit. The campaign treats reactor availability as a gated external dependency, and treats every megawatt-class closure row as upside-only, per a standing project directive.
 
 Each bet maps to a specific demonstrator-mission objective, and each fails in a different way. The campaign's canonical sweep at a 25-tonne commercial delivery floor finds 5,656 feasible paths across 322 unique architectures, with a best single delivery of 39.5 tonnes in an 11.93-year round trip — every one of those paths conditional on the three bets above.
+
+![Close/not-close matrix from the audit sweep: only 5 of 48 cells deliver 25 tonnes, all requiring the capture-efficiency multiplier at 0.75 or better and 800 seconds of specific impulse or better](plots/17_closure_matrix.png)
+
+The two newest rounds ([R_chunk_despin_budget](water-prop/rounds/R_chunk_despin_budget/), [R_com_offset_thrust_alignment](water-prop/rounds/R_com_offset_thrust_alignment/)) priced the spin question: de-spinning a captured chunk costs grams to kilograms of propellant at Cassini-anchored spin rates — but pushing a cargo whose center of mass walks 1.2 to 1.7 metres as it sublimates demands thrust-vector steering authority, or the attitude propellant bill exceeds the entire delivery.
 
 ![Trawl bag in chunk-fed cruise: the sealed bag sublimates ice on the sun side, cryopumps frost on the cold side, and meters vapor to the thruster — the cargo is the propellant tank](plots/08b_trawl_cruise.png)
 
@@ -35,7 +39,7 @@ Each bet maps to a specific demonstrator-mission objective, and each fails in a 
 | [`RISKS.md`](RISKS.md) | Risk register. |
 | [`TRADE-end-of-mission-conops.md`](TRADE-end-of-mission-conops.md) | End-of-mission disposal trade study. |
 | [`design-axes/`](design-axes/) | 22 architecture-decision-record files, one per design axis, with append-only history. |
-| [`water-prop/`](water-prop/) | The analysis campaign: 167 rounds under `rounds/`, each with a pre-registered study document and a runnable `run.py`; reusable physics models under `src/waterprop/`; the Monte Carlo mission-graph framework under `sims/mission_graph/`. |
+| [`water-prop/`](water-prop/) | The analysis campaign: 169 rounds under `rounds/`, each with a pre-registered study document and a runnable `run.py`; reusable physics models under `src/waterprop/`; the Monte Carlo mission-graph framework under `sims/mission_graph/`. |
 | [`plots/`](plots/), `*.py` at root | Concept-of-operations plots and the scripts that generate them. |
 
 ## Reproducing the analysis
