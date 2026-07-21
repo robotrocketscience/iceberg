@@ -1,0 +1,47 @@
+{
+ "findings": {
+  "H1": {
+   "co_orbital_deorbit_km_s": 2.78,
+   "staging_peri_lower_km_s": 0.518,
+   "titan_flyby_capacity_km_s": 1.229,
+   "disposal_free_via_titan": true,
+   "asymmetry": "Titan lowers periapsis (disposal) but cannot raise v_inf (departure, R186)",
+   "held": true
+  },
+  "H2": {
+   "u235_per_unit_kg": 27.7,
+   "operational_burnup_kg": 0.58,
+   "deorbit_propellant": {
+    "paper": {
+     "reactor_t": 16,
+     "prop_t": 6.6,
+     "frac_pct": 43
+    },
+    "flown": {
+     "reactor_t": 65,
+     "prop_t": 27.5,
+     "frac_pct": 43
+    }
+   },
+   "held": true
+  },
+  "H3": {
+   "protected_targets": [
+    "Enceladus (subsurface ocean)",
+    "Titan (organics, subsurface water)"
+   ],
+   "precedent": "Cassini 2017 Saturn plunge, ~1e-6 strike refusal",
+   "monolithic_concern": "cislunar (activated reactor returns)",
+   "held": true
+  },
+  "H4": {
+   "binding_bet": false,
+   "constraints": [
+    "separable + independently disposable reactor",
+    "fleet: reserve one Titan disposal flyby per core",
+    "monolithic: UNPRICED cislunar activated-reactor constraint"
+   ],
+   "held": true
+  }
+ }
+}
