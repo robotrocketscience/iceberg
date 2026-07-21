@@ -1,0 +1,33 @@
+{
+ "H1": {
+  "rates": {
+   "canonical_40t_lit_spiral_800s": 18.9,
+   "canonical_40t_depot_kick_450s": 12.5,
+   "canonical_40t_depot_kick_480s": 11.0,
+   "big_80t_lit_spiral_800s": 7.4,
+   "big_80t_depot_kick_450s": 4.9,
+   "big_80t_depot_kick_480s": 4.3
+  },
+  "held": true
+ },
+ "H2": {
+  "break_even_dv_800s": {
+   "canonical_40t": 2286,
+   "big_80t": 4867
+  },
+  "cheapest_real_outbound": 7300,
+  "held": true
+ },
+ "H3": {
+  "best_net_per_mission_t": -399.4,
+  "drain_per_delivered_t": 4.99,
+  "held": true
+ },
+ "H4": {
+  "salvage_rates": {
+   "canonical_40t": 0.18,
+   "big_80t": 0.15
+  },
+  "held": true
+ }
+}
