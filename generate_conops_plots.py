@@ -1097,7 +1097,7 @@ def plot_timeline():
                 height=0.64, linewidth=1.2, zorder=4)
         if dur > 0.6:
             ax.text(start + dur/2, i, name, ha='center', va='center',
-                    fontsize=19.5, color='white', fontweight='bold')
+                    fontsize=19.5, color='white', fontweight='bold', zorder=6)
         else:
             ax.text(start + dur + 0.22, i, name, ha='left', va='center',
                     fontsize=19.5, color=DASH_FG)
@@ -1110,26 +1110,30 @@ def plot_timeline():
     ax.grid(axis='x', alpha=1.0, zorder=1)
     ax.set_axisbelow(True)
 
-    # Major decision-gate diamonds at the top
+    # Major decision-gate diamonds at the top.
+    # 2026-07 rework after owner flagged collisions: single-line labels,
+    # the two year-6 gates anchored left/right of their diamonds, delivery
+    # star glyph dropped (tofu in this font), explicit headroom in ylim.
     gate_y = -1.0
+    ax.set_ylim(len(phases) - 0.4, -2.9)
     gates = [
-        (0.0,  'LAUNCH',           DASH_BLUE),
-        (6.2,  'GATE: Saturn\ncapture milestone',  DASH_AMBER),
-        (6.75, 'GATE: Grapple\n+ bag deploy',      DASH_AMBER),
-        (13.5, '★ FIRST\nDELIVERY',                DASH_GREEN),
+        (0.0,  'LAUNCH',                      DASH_BLUE,  'center', -1.55),
+        (6.2,  'GATE: Saturn capture ',       DASH_AMBER, 'right',  -1.55),
+        (6.75, ' GATE: grapple + bag deploy', DASH_AMBER, 'left',   -2.25),
+        (13.5, 'FIRST DELIVERY',              DASH_GREEN, 'center', -1.55),
     ]
-    for x, label, color in gates:
+    for x, label, color, ha, ylab in gates:
         ax.plot(x, gate_y, marker='D', markersize=14, color=color,
                 markeredgecolor='white', markeredgewidth=2, zorder=8)
         ax.axvline(x, color=color, lw=1.0, ls=(0, (4, 4)), alpha=0.45, zorder=2)
-        ax.text(x, gate_y - 0.4, label, ha='center', va='bottom',
-                fontsize=18, color=color, fontweight='bold')
+        ax.text(x, ylab, label, ha=ha, va='center',
+                fontsize=14.5, color=color, fontweight='bold')
 
     fig.suptitle('Mission timeline  -  13.5 yr end-to-end, with decision gates',
                  fontsize=18.5, fontweight='bold', x=0.05, ha='left', y=1.0,
                  color=DASH_FG)
     ax.set_title('Diamonds = critical decision gates. Year 6 capture is the single biggest information event in the program.',
-                 fontsize=19.5, color=DASH_MUTED, loc='left', pad=12)
+                 fontsize=13.5, color=DASH_MUTED, loc='left', pad=8)
 
     plt.tight_layout()
     out = os.path.join(OUT_DIR, '07_timeline.png')
