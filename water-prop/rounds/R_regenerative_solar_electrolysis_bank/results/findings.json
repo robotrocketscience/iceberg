@@ -1,0 +1,306 @@
+{
+ "H1": {
+  "worst_p_array_kW": 82.7,
+  "worst_array_plus_elec_t": 0.772,
+  "held": false
+ },
+ "H2a": {
+  "min_self_consumption_ratio": 2.15,
+  "held": true
+ },
+ "H2b": {
+  "max_drain_frac": 0.0,
+  "held": true
+ },
+ "H3": {
+  "ratios_solar_over_regen": {
+   "5kWe_2mo": 6.54,
+   "5kWe_4mo": 3.35,
+   "5kWe_6mo": 2.26,
+   "10kWe_2mo": 6.5,
+   "10kWe_4mo": 3.35,
+   "10kWe_6mo": 2.26,
+   "15kWe_2mo": 6.51,
+   "15kWe_4mo": 3.35,
+   "15kWe_6mo": 2.25
+  },
+  "held": true
+ },
+ "H4": {
+  "cases": {
+   "50kWe_1d": {
+    "bank_t": 0.62,
+    "batt_t": 4.8,
+    "solar_t": 56.88,
+    "adv_batt": 7.7,
+    "adv_solar": 91.3
+   },
+   "50kWe_3d": {
+    "bank_t": 0.87,
+    "batt_t": 14.4,
+    "solar_t": 56.88,
+    "adv_batt": 16.6,
+    "adv_solar": 65.4
+   },
+   "100kWe_1d": {
+    "bank_t": 1.25,
+    "batt_t": 9.6,
+    "solar_t": 113.76,
+    "adv_batt": 7.7,
+    "adv_solar": 91.3
+   },
+   "100kWe_3d": {
+    "bank_t": 1.74,
+    "batt_t": 28.8,
+    "solar_t": 113.76,
+    "adv_batt": 16.6,
+    "adv_solar": 65.4
+   }
+  },
+  "held": true
+ },
+ "H5": {
+  "note": "closure unchanged by citation of round 171 H4 (0 of 1,061 closing paths avoid electric legs)",
+  "held": true
+ },
+ "charge_window": {
+  "t_charge_yr": 0.62,
+  "mean_inv_r2": 0.395
+ },
+ "duties": {
+  "5kWe_2mo": {
+   "e_dis_GJ": 25.9,
+   "reactants_t": 3.54,
+   "p_array_1au_kW": 9.2,
+   "m_array_t": 0.077,
+   "m_total_cold_t": 0.87,
+   "m_solar_direct_t": 5.69,
+   "tiers": {
+    "warm": {
+     "p_zbo_We": 590.6,
+     "zbo_cruise_electric_GJ": 101.12,
+     "bank_chem_GJ": 47.13,
+     "self_consumption_ratio": 2.15,
+     "drain_frac_arraysupplied": 2.5675,
+     "m_cooler_kg": 118.1
+    },
+    "cold": {
+     "p_zbo_We": 47.2,
+     "zbo_cruise_electric_GJ": 8.09,
+     "bank_chem_GJ": 47.13,
+     "self_consumption_ratio": 0.17,
+     "drain_frac_arraysupplied": 0.0,
+     "m_cooler_kg": 29.5
+    }
+   }
+  },
+  "5kWe_4mo": {
+   "e_dis_GJ": 51.8,
+   "reactants_t": 7.09,
+   "p_array_1au_kW": 18.4,
+   "m_array_t": 0.153,
+   "m_total_cold_t": 1.7,
+   "m_solar_direct_t": 5.69,
+   "tiers": {
+    "warm": {
+     "p_zbo_We": 1181.1,
+     "zbo_cruise_electric_GJ": 202.23,
+     "bank_chem_GJ": 94.25,
+     "self_consumption_ratio": 2.15,
+     "drain_frac_arraysupplied": 2.5675,
+     "m_cooler_kg": 236.2
+    },
+    "cold": {
+     "p_zbo_We": 94.5,
+     "zbo_cruise_electric_GJ": 16.18,
+     "bank_chem_GJ": 94.25,
+     "self_consumption_ratio": 0.17,
+     "drain_frac_arraysupplied": 0.0,
+     "m_cooler_kg": 59.1
+    }
+   }
+  },
+  "5kWe_6mo": {
+   "e_dis_GJ": 77.8,
+   "reactants_t": 10.63,
+   "p_array_1au_kW": 27.6,
+   "m_array_t": 0.23,
+   "m_total_cold_t": 2.52,
+   "m_solar_direct_t": 5.69,
+   "tiers": {
+    "warm": {
+     "p_zbo_We": 1771.7,
+     "zbo_cruise_electric_GJ": 303.35,
+     "bank_chem_GJ": 141.38,
+     "self_consumption_ratio": 2.15,
+     "drain_frac_arraysupplied": 2.5675,
+     "m_cooler_kg": 354.3
+    },
+    "cold": {
+     "p_zbo_We": 141.7,
+     "zbo_cruise_electric_GJ": 24.27,
+     "bank_chem_GJ": 141.38,
+     "self_consumption_ratio": 0.17,
+     "drain_frac_arraysupplied": 0.0,
+     "m_cooler_kg": 88.6
+    }
+   }
+  },
+  "10kWe_2mo": {
+   "e_dis_GJ": 51.8,
+   "reactants_t": 7.09,
+   "p_array_1au_kW": 18.4,
+   "m_array_t": 0.153,
+   "m_total_cold_t": 1.75,
+   "m_solar_direct_t": 11.38,
+   "tiers": {
+    "warm": {
+     "p_zbo_We": 1181.1,
+     "zbo_cruise_electric_GJ": 202.23,
+     "bank_chem_GJ": 94.25,
+     "self_consumption_ratio": 2.15,
+     "drain_frac_arraysupplied": 2.5675,
+     "m_cooler_kg": 236.2
+    },
+    "cold": {
+     "p_zbo_We": 94.5,
+     "zbo_cruise_electric_GJ": 16.18,
+     "bank_chem_GJ": 94.25,
+     "self_consumption_ratio": 0.17,
+     "drain_frac_arraysupplied": 0.0,
+     "m_cooler_kg": 59.1
+    }
+   }
+  },
+  "10kWe_4mo": {
+   "e_dis_GJ": 103.7,
+   "reactants_t": 14.17,
+   "p_array_1au_kW": 36.7,
+   "m_array_t": 0.306,
+   "m_total_cold_t": 3.4,
+   "m_solar_direct_t": 11.38,
+   "tiers": {
+    "warm": {
+     "p_zbo_We": 2362.3,
+     "zbo_cruise_electric_GJ": 404.46,
+     "bank_chem_GJ": 188.51,
+     "self_consumption_ratio": 2.15,
+     "drain_frac_arraysupplied": 2.5675,
+     "m_cooler_kg": 472.5
+    },
+    "cold": {
+     "p_zbo_We": 189.0,
+     "zbo_cruise_electric_GJ": 32.36,
+     "bank_chem_GJ": 188.51,
+     "self_consumption_ratio": 0.17,
+     "drain_frac_arraysupplied": 0.0,
+     "m_cooler_kg": 118.1
+    }
+   }
+  },
+  "10kWe_6mo": {
+   "e_dis_GJ": 155.5,
+   "reactants_t": 21.26,
+   "p_array_1au_kW": 55.1,
+   "m_array_t": 0.459,
+   "m_total_cold_t": 5.04,
+   "m_solar_direct_t": 11.38,
+   "tiers": {
+    "warm": {
+     "p_zbo_We": 3543.4,
+     "zbo_cruise_electric_GJ": 606.69,
+     "bank_chem_GJ": 282.76,
+     "self_consumption_ratio": 2.15,
+     "drain_frac_arraysupplied": 2.5675,
+     "m_cooler_kg": 708.7
+    },
+    "cold": {
+     "p_zbo_We": 283.5,
+     "zbo_cruise_electric_GJ": 48.54,
+     "bank_chem_GJ": 282.76,
+     "self_consumption_ratio": 0.17,
+     "drain_frac_arraysupplied": 0.0,
+     "m_cooler_kg": 177.2
+    }
+   }
+  },
+  "15kWe_2mo": {
+   "e_dis_GJ": 77.8,
+   "reactants_t": 10.63,
+   "p_array_1au_kW": 27.6,
+   "m_array_t": 0.23,
+   "m_total_cold_t": 2.62,
+   "m_solar_direct_t": 17.06,
+   "tiers": {
+    "warm": {
+     "p_zbo_We": 1771.7,
+     "zbo_cruise_electric_GJ": 303.35,
+     "bank_chem_GJ": 141.38,
+     "self_consumption_ratio": 2.15,
+     "drain_frac_arraysupplied": 2.5675,
+     "m_cooler_kg": 354.3
+    },
+    "cold": {
+     "p_zbo_We": 141.7,
+     "zbo_cruise_electric_GJ": 24.27,
+     "bank_chem_GJ": 141.38,
+     "self_consumption_ratio": 0.17,
+     "drain_frac_arraysupplied": 0.0,
+     "m_cooler_kg": 88.6
+    }
+   }
+  },
+  "15kWe_4mo": {
+   "e_dis_GJ": 155.5,
+   "reactants_t": 21.26,
+   "p_array_1au_kW": 55.1,
+   "m_array_t": 0.459,
+   "m_total_cold_t": 5.09,
+   "m_solar_direct_t": 17.06,
+   "tiers": {
+    "warm": {
+     "p_zbo_We": 3543.4,
+     "zbo_cruise_electric_GJ": 606.69,
+     "bank_chem_GJ": 282.76,
+     "self_consumption_ratio": 2.15,
+     "drain_frac_arraysupplied": 2.5675,
+     "m_cooler_kg": 708.7
+    },
+    "cold": {
+     "p_zbo_We": 283.5,
+     "zbo_cruise_electric_GJ": 48.54,
+     "bank_chem_GJ": 282.76,
+     "self_consumption_ratio": 0.17,
+     "drain_frac_arraysupplied": 0.0,
+     "m_cooler_kg": 177.2
+    }
+   }
+  },
+  "15kWe_6mo": {
+   "e_dis_GJ": 233.3,
+   "reactants_t": 31.89,
+   "p_array_1au_kW": 82.7,
+   "m_array_t": 0.689,
+   "m_total_cold_t": 7.57,
+   "m_solar_direct_t": 17.06,
+   "tiers": {
+    "warm": {
+     "p_zbo_We": 5315.1,
+     "zbo_cruise_electric_GJ": 910.04,
+     "bank_chem_GJ": 424.15,
+     "self_consumption_ratio": 2.15,
+     "drain_frac_arraysupplied": 2.5675,
+     "m_cooler_kg": 1063.0
+    },
+    "cold": {
+     "p_zbo_We": 425.2,
+     "zbo_cruise_electric_GJ": 72.8,
+     "bank_chem_GJ": 424.15,
+     "self_consumption_ratio": 0.17,
+     "drain_frac_arraysupplied": 0.0,
+     "m_cooler_kg": 265.8
+    }
+   }
+  }
+ }
+}
