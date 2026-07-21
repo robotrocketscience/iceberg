@@ -1,0 +1,28 @@
+{
+ "H1": {
+  "lit_dv_m_s": 1575,
+  "lit_prop_t": 13.3,
+  "held": true
+ },
+ "H2": {
+  "gas_depart_t": 26.4,
+  "charge_GJ": 532,
+  "harvest_GJ": 645,
+  "held": true
+ },
+ "H3": {
+  "closes": true,
+  "best": {
+   "bank_t": 30.0,
+   "array_kW": 150,
+   "r_lit_AU": 4.0,
+   "total_dv": 4423,
+   "penalty_t": 36.8
+  },
+  "held": false
+ },
+ "H4": {
+  "launch_per_delivered_ratio": 1.74,
+  "held": true
+ }
+}
