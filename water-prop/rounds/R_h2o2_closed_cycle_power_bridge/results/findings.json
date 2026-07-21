@@ -1,0 +1,80 @@
+{
+ "H1": {
+  "direct_over_via_electric": {
+   "600": 2.71,
+   "650": 2.94,
+   "700": 3.16,
+   "750": 3.39,
+   "800": 3.62,
+   "850": 3.84,
+   "900": 4.07,
+   "950": 4.29,
+   "1000": 4.52
+  },
+  "worst_ratio": 2.71,
+  "held": false
+ },
+ "H2": {
+  "cases": {
+   "5kWe_2mo": {
+    "reactants_t": 3.54,
+    "net_penalty_t": 1.11
+   },
+   "5kWe_4mo": {
+    "reactants_t": 7.09,
+    "net_penalty_t": 2.18
+   },
+   "5kWe_6mo": {
+    "reactants_t": 10.63,
+    "net_penalty_t": 3.24
+   },
+   "10kWe_2mo": {
+    "reactants_t": 7.09,
+    "net_penalty_t": 2.23
+   },
+   "10kWe_4mo": {
+    "reactants_t": 14.17,
+    "net_penalty_t": 4.35
+   },
+   "10kWe_6mo": {
+    "reactants_t": 21.26,
+    "net_penalty_t": 6.48
+   },
+   "15kWe_2mo": {
+    "reactants_t": 10.63,
+    "net_penalty_t": 3.34
+   },
+   "15kWe_4mo": {
+    "reactants_t": 21.26,
+    "net_penalty_t": 6.53
+   },
+   "15kWe_6mo": {
+    "reactants_t": 31.89,
+    "net_penalty_t": 9.72
+   }
+  },
+  "held": false,
+  "worst_net_t": 9.72,
+  "corner_5kWe_2mo_t": 1.11
+ },
+ "H3": {
+  "cases": {
+   "5kWe_2mo": 8.1,
+   "5kWe_4mo": 8.1,
+   "5kWe_6mo": 8.1,
+   "10kWe_2mo": 8.1,
+   "10kWe_4mo": 8.1,
+   "10kWe_6mo": 8.1,
+   "15kWe_2mo": 8.1,
+   "15kWe_4mo": 8.1,
+   "15kWe_6mo": 8.1
+  },
+  "held": true,
+  "worst_advantage": 8.1
+ },
+ "H4": {
+  "closing_paths_with_reactor": 1061,
+  "closing_paths_without_electric_legs": 0,
+  "held": true
+ }
+}
