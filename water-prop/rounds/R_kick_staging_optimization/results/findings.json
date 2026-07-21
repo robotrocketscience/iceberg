@@ -1,0 +1,43 @@
+{
+ "H1": {
+  "save_2stage": {
+   "0.06": 0.129,
+   "0.08": 0.187,
+   "0.12": 0.335
+  },
+  "save_3rd": {
+   "0.06": 0.029,
+   "0.08": 0.04,
+   "0.12": 0.066
+  },
+  "held": false
+ },
+ "H2": {
+  "opt_1stage": {
+   "n": 1,
+   "eps": 0.08,
+   "dv_kick": 4100,
+   "met_water_t": 46.9,
+   "launch_t": 380.0,
+   "outbound_frac": 0.76,
+   "ratio": 3.8
+  },
+  "held": true
+ },
+ "H3": {
+  "best": {
+   "n": 3,
+   "eps": 0.06,
+   "dv_kick": 4100,
+   "met_water_t": 46.9,
+   "launch_t": 357.0,
+   "outbound_frac": 0.74,
+   "ratio": 3.57
+  },
+  "held": false
+ },
+ "H4": {
+  "best_outbound_frac": 0.74,
+  "held": true
+ }
+}

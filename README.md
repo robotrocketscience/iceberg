@@ -2,7 +2,7 @@
 
 A mission-concept study: harvest multi-tonne water-ice chunks from Saturn's B ring and deliver them to Earth orbit as propellant feedstock. The chunk doubles as the return-leg propellant tank — the tug drinks its own cargo on the way home, feeding a water microwave-electrothermal thruster through a sublimation-capture trawl bag.
 
-No hardware exists. No flight is booked. This is a paper study, and the study's own verdict is that the architecture stands or falls on three engineering bets nobody has yet won. That verdict — and the 175-round analysis campaign that produced it — is what this repository documents.
+No hardware exists. No flight is booked. This is a paper study, and the study's own verdict is that the architecture stands or falls on three engineering bets nobody has yet won. That verdict — and the 176-round analysis campaign that produced it — is what this repository documents.
 
 ![Mission flight plan: ten phases, 13-year round trip, one bought chemical burn; every other maneuver is water-electrothermal or a free lunar gravity assist](plots/01a_flightplan.png)
 
@@ -39,7 +39,7 @@ The three newest rounds ([R_chunk_despin_budget](water-prop/rounds/R_chunk_despi
 | [`RISKS.md`](RISKS.md) | Risk register. |
 | [`TRADE-end-of-mission-conops.md`](TRADE-end-of-mission-conops.md) | End-of-mission disposal trade study. |
 | [`design-axes/`](design-axes/) | 22 architecture-decision-record files, one per design axis, with append-only history. |
-| [`water-prop/`](water-prop/) | The analysis campaign: 175 rounds under `rounds/`, each with a pre-registered study document and a runnable `run.py`; reusable physics models under `src/waterprop/`; the Monte Carlo mission-graph framework under `sims/mission_graph/`. |
+| [`water-prop/`](water-prop/) | The analysis campaign: 176 rounds under `rounds/`, each with a pre-registered study document and a runnable `run.py`; reusable physics models under `src/waterprop/`; the Monte Carlo mission-graph framework under `sims/mission_graph/`. |
 | [`plots/`](plots/), `*.py` at root | Concept-of-operations plots and the scripts that generate them. |
 
 ## Reproducing the analysis
