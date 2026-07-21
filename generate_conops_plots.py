@@ -2261,9 +2261,14 @@ def plot_comparable_landscape():
 # ============================================================================
 def plot_campaign_gantt():
     """Horizontal Gantt of the campaign: demonstrators, gates, Saturn fleet.
-    Vertical milestone lines mark moat-set, first delivery, etc."""
+    Vertical milestone lines mark moat-set, first delivery, etc.
+
+    Layout rules (2026-07 rework after owner flagged text collisions):
+    row labels are y-tick labels (no dead left zone), section headers get
+    their own empty rows, milestone boxes are staggered on two levels, and
+    the legend sits in the empty upper-right region above the gate bars."""
     style_dashboard()
-    fig, ax = plt.subplots(figsize=(13, 7.2))
+    fig, ax = plt.subplots(figsize=(13, 7.4))
 
     PHASE_DEMO    = '#a78bfa'
     PHASE_GROUND  = '#cbd2dc'
@@ -2273,23 +2278,17 @@ def plot_campaign_gantt():
     PHASE_IN      = DASH_TEAL
     PHASE_DELIVER = DASH_GREEN
 
-    # Track entries: (label, start, end, color, alpha)
-    # Demonstrator flights
-    rows = []
+    # Gates section (top-down): (label, start, end, color, alpha)
+    gates = [
+        ('Gate C: bag MTBF + 9 AU power qual\n(ground / vacuum chamber)',
+         1.0, 5.0, PHASE_GROUND, 0.7),
+        ('Gate B: Flight 2 — cislunar pole demo\n($180M, 5 t demo cargo, year 2-3)',
+         0.5, 3.0, PHASE_DEMO, 1.0),
+        ('Gate A: Flight 1 — LEO debris capture\n($80M, no cargo, year 0.5-1.5)',
+         0.0, 1.5, PHASE_DEMO, 1.0),
+    ]
 
-    # Gate C ground qualification (years 1-5)
-    rows.append(('Gate C: bag MTBF + 9 AU power qual\n(ground / vacuum chamber)',
-                 1.0, 5.0, PHASE_GROUND, 0.7, 'gate'))
-
-    # Flight 2 — cislunar pole demo
-    rows.append(('Gate B: Flight 2 — cislunar pole demo\n($180M, 5 t demo cargo, year 2-3)',
-                 0.5, 3.0, PHASE_DEMO, 1.0, 'flight'))
-
-    # Flight 1 — LEO debris demo
-    rows.append(('Gate A: Flight 1 — LEO debris capture\n($80M, no cargo, year 0.5-1.5)',
-                 0.0, 1.5, PHASE_DEMO, 1.0, 'flight'))
-
-    # Saturn ships — each is build then full mission
+    # Saturn ships (top-down): (label, build, launch, capture, depart, deliver)
     saturn_ships = [
         ('Ship 3 — Saturn 1st commercial (50 t)',  3.0, 5.0, 11.0, 11.5, 18.0),
         ('Ship 4 — Saturn (50–100 t)',             4.5, 6.5, 12.5, 13.0, 19.5),
@@ -2297,51 +2296,55 @@ def plot_campaign_gantt():
         ('Ship 6 — Saturn (200 t)',                7.5, 9.5, 15.5, 16.0, 22.5),
     ]
 
-    # Plot demonstrators / ground qual first (3 rows, top to bottom)
-    for i, (label, start, end, color, alpha, kind) in enumerate(rows):
-        y = len(rows) + len(saturn_ships) - i - 1
+    # y layout, bottom-up: ships 0..3, fleet header 4.1, divider 4.65,
+    # gates 5.3/6.3/7.3, gates header 8.05, milestone band 8.85-10.1
+    gate_ys = [7.3, 6.3, 5.3]
+    ship_ys = [3, 2, 1, 0]
+    ytick_pos, ytick_lab = [], []
+
+    for (label, start, end, color, alpha), y in zip(gates, gate_ys):
         ax.barh(y, end - start, left=start, color=color, edgecolor='white',
                 height=0.62, zorder=3, alpha=alpha)
-        ax.text(start - 0.5, y, label, ha='right', va='center',
-                fontsize=18, color=DASH_FG, fontweight='bold' if kind == 'flight' else 'normal')
+        ytick_pos.append(y)
+        ytick_lab.append(label)
 
-    # Plot Saturn ships
-    for i, (label, build, launch, capture, depart, deliver) in enumerate(saturn_ships):
-        y = len(saturn_ships) - i - 1
-        # Build
+    for (label, build, launch, capture, depart, deliver), y in zip(saturn_ships, ship_ys):
         ax.barh(y, launch - build, left=build, color=PHASE_BUILD, edgecolor='white', height=0.62, zorder=3)
-        # Outbound
         ax.barh(y, capture - launch, left=launch, color=PHASE_OUT, edgecolor='white', height=0.62, zorder=3)
-        # Saturn ops
         ax.barh(y, depart - capture, left=capture, color=PHASE_SATURN, edgecolor='white', height=0.62, zorder=4)
-        # Inbound
         ax.barh(y, deliver - depart, left=depart, color=PHASE_IN, edgecolor='white', height=0.62, zorder=3)
-        # Delivery marker
         ax.plot(deliver, y, 'o', markersize=10, color=PHASE_DELIVER,
                 markerfacecolor=PHASE_DELIVER, markeredgecolor='white', markeredgewidth=1.5, zorder=6)
-        ax.text(build - 0.5, y, label, ha='right', va='center', fontsize=18, color=DASH_FG, fontweight='bold')
+        ytick_pos.append(y)
+        ytick_lab.append(label)
 
-    # Section divider
-    divider_y = len(saturn_ships) - 0.5
-    ax.axhline(divider_y, color=DASH_GRID, lw=1.5, alpha=0.6, zorder=2)
-    ax.text(-7, divider_y - 0.4, 'SATURN FLEET', ha='right', va='center',
-            fontsize=19, fontweight='bold', color=DASH_AMBER)
-    ax.text(-7, divider_y + 0.4, 'GATES + DEMOS', ha='right', va='center',
-            fontsize=19, fontweight='bold', color='#7c5fcc')
+    ax.set_yticks(ytick_pos, ytick_lab)
+    ax.tick_params(axis='y', labelsize=14, length=0)
+    for tl in ax.get_yticklabels():
+        tl.set_color(DASH_FG)
 
-    # Critical milestones
+    # Section headers in their own empty rows; divider between sections
+    ax.axhline(4.65, color=DASH_GRID, lw=1.5, alpha=0.8, zorder=2)
+    ax.text(0.2, 8.05, 'GATES + DEMOS', ha='left', va='center',
+            fontsize=15, fontweight='bold', color='#7c5fcc')
+    ax.text(0.2, 4.1, 'SATURN FLEET', ha='left', va='center',
+            fontsize=15, fontweight='bold', color=DASH_AMBER)
+
+    # Critical milestones — single-line labels, staggered on two levels
     milestones = [
-        (5.0, 'Gates A–C close\n(architecture qualified)', '#7c5fcc'),
-        (11.0, 'MOAT SET\n(Ship 3 captures at Saturn)', DASH_AMBER),
-        (18.0, 'First delivery\n(Ship 3, 50 t to LEO)', DASH_GREEN),
+        (5.0, 'Gates A–C close', '#7c5fcc', 8.85),
+        (11.0, 'MOAT SET — Ship 3 captures', DASH_AMBER, 9.75),
+        (18.0, 'First delivery — 50 t to LEO', DASH_GREEN, 8.85),
     ]
-    for x, label, color in milestones:
-        ax.axvline(x, color=color, lw=1.8, ls='--', alpha=0.6, zorder=2)
-        ax.text(x, len(rows) + len(saturn_ships) + 0.3, label,
-                ha='center', va='bottom', fontsize=18.5, fontweight='bold', color=color,
-                bbox=dict(boxstyle='round,pad=0.3', facecolor='white', edgecolor=color, lw=1.2))
+    for x, label, color, ylab in milestones:
+        ax.axvline(x, ymax=(ylab - 0.35 + 0.7) / (10.6 + 0.7), color=color,
+                   lw=1.8, ls='--', alpha=0.6, zorder=2)
+        ax.text(x, ylab, label, ha='center', va='center', fontsize=14,
+                fontweight='bold', color=color,
+                bbox=dict(boxstyle='round,pad=0.35', facecolor='white',
+                          edgecolor=color, lw=1.2))
 
-    # Phase legend
+    # Phase legend in the empty region right of the gate bars
     legend_handles = [
         mpatches.Patch(color=PHASE_DEMO, label='Demonstrator flight'),
         mpatches.Patch(color=PHASE_GROUND, label='Ground qualification'),
@@ -2350,21 +2353,22 @@ def plot_campaign_gantt():
         mpatches.Patch(color=PHASE_IN, label='Inbound cruise (~7 yr)'),
         mpatches.Patch(color=PHASE_DELIVER, label='Delivery to LEO'),
     ]
-    ax.legend(handles=legend_handles, loc='lower right', fontsize=18, frameon=True, framealpha=1.0)
+    ax.legend(handles=legend_handles, loc='upper left', bbox_to_anchor=(0.72, 0.83),
+              fontsize=13, frameon=True, framealpha=1.0)
 
-    ax.set_xlim(-12, 24)
-    ax.set_ylim(-1, len(rows) + len(saturn_ships) + 1.5)
-    ax.set_xlabel('Years from program start', color=DASH_MUTED, fontsize=20)
-    ax.set_yticks([])
+    ax.set_xlim(-0.8, 24)
+    ax.set_ylim(-0.7, 10.6)
+    ax.set_xlabel('Years from program start', color=DASH_MUTED, fontsize=16)
+    ax.set_xticks([0, 5, 10, 15, 20])
     ax.grid(axis='x', alpha=1.0, zorder=0)
     ax.set_axisbelow(True)
     for spine in ['left', 'bottom']:
         ax.spines[spine].set_visible(False)
 
     fig.suptitle('Campaign cadence — gates A–C close by year 5, then production cadence at every synodic window',
-                 fontsize=24, fontweight='bold', x=0.05, ha='left', y=1.0, color=DASH_FG)
+                 fontsize=19, fontweight='bold', x=0.02, ha='left', y=0.99, color=DASH_FG)
 
-    plt.tight_layout()
+    plt.tight_layout(rect=[0, 0, 1, 0.965])
     out = os.path.join(OUT_DIR, '16_campaign_gantt.png')
     plt.savefig(out)
     plt.close()
