@@ -2,7 +2,7 @@
 
 A mission-concept study: harvest multi-tonne water-ice chunks from Saturn's B ring and deliver them to Earth orbit as propellant feedstock. The chunk doubles as the return-leg propellant tank — the tug drinks its own cargo on the way home, feeding a water microwave-electrothermal thruster through a sublimation-capture trawl bag.
 
-No hardware exists. No flight is booked. This is a paper study, and the study's own verdict is that the architecture stands or falls on three engineering bets nobody has yet won. That verdict — and the 169-round analysis campaign that produced it — is what this repository documents.
+No hardware exists. No flight is booked. This is a paper study, and the study's own verdict is that the architecture stands or falls on three engineering bets nobody has yet won. That verdict — and the 170-round analysis campaign that produced it — is what this repository documents.
 
 ![Mission flight plan: ten phases, 13-year round trip, one bought chemical burn; every other maneuver is water-electrothermal or a free lunar gravity assist](plots/01a_flightplan.png)
 
@@ -20,7 +20,7 @@ Each bet maps to a specific demonstrator-mission objective, and each fails in a 
 
 ![Close/not-close matrix from the audit sweep: only 5 of 48 cells deliver 25 tonnes, all requiring the capture-efficiency multiplier at 0.75 or better and 800 seconds of specific impulse or better](plots/17_closure_matrix.png)
 
-The two newest rounds ([R_chunk_despin_budget](water-prop/rounds/R_chunk_despin_budget/), [R_com_offset_thrust_alignment](water-prop/rounds/R_com_offset_thrust_alignment/)) priced the spin question: de-spinning a captured chunk costs grams to kilograms of propellant at Cassini-anchored spin rates — but pushing a cargo whose center of mass walks 1.2 to 1.7 metres as it sublimates demands thrust-vector steering authority, or the attitude propellant bill exceeds the entire delivery.
+The three newest rounds ([R_chunk_despin_budget](water-prop/rounds/R_chunk_despin_budget/), [R_com_offset_thrust_alignment](water-prop/rounds/R_com_offset_thrust_alignment/), [R_harvest_draw_symmetrization](water-prop/rounds/R_harvest_draw_symmetrization/)) priced the spin question: de-spinning a captured chunk costs grams to kilograms at Cassini-anchored spin rates; the real cost is pushing a cargo whose center of mass walks 1.2 to 1.7 metres as it sublimates — mission-killing if fought with reaction control, a 2-percent cosine tax if steered through, and reducible to centimetres with a polar harvest port plus a once-a-day Apollo-style roll. An interactive version of the matrix above is at [robotrocketscience.com/projects/iceberg-matrix](https://www.robotrocketscience.com/projects/iceberg-matrix/).
 
 ![Trawl bag in chunk-fed cruise: the sealed bag sublimates ice on the sun side, cryopumps frost on the cold side, and meters vapor to the thruster — the cargo is the propellant tank](plots/08b_trawl_cruise.png)
 
@@ -39,7 +39,7 @@ The two newest rounds ([R_chunk_despin_budget](water-prop/rounds/R_chunk_despin_
 | [`RISKS.md`](RISKS.md) | Risk register. |
 | [`TRADE-end-of-mission-conops.md`](TRADE-end-of-mission-conops.md) | End-of-mission disposal trade study. |
 | [`design-axes/`](design-axes/) | 22 architecture-decision-record files, one per design axis, with append-only history. |
-| [`water-prop/`](water-prop/) | The analysis campaign: 169 rounds under `rounds/`, each with a pre-registered study document and a runnable `run.py`; reusable physics models under `src/waterprop/`; the Monte Carlo mission-graph framework under `sims/mission_graph/`. |
+| [`water-prop/`](water-prop/) | The analysis campaign: 170 rounds under `rounds/`, each with a pre-registered study document and a runnable `run.py`; reusable physics models under `src/waterprop/`; the Monte Carlo mission-graph framework under `sims/mission_graph/`. |
 | [`plots/`](plots/), `*.py` at root | Concept-of-operations plots and the scripts that generate them. |
 
 ## Reproducing the analysis
