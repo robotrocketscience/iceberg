@@ -1,0 +1,49 @@
+{
+ "findings": {
+  "H1": {
+   "r182_fpy": {
+    "paper": 10.4,
+    "flown": 11.4
+   },
+   "capped_paper": {
+    "n": 4,
+    "t_sortie": 2.08,
+    "fpy": 8.3,
+    "first_lpd": 0.456,
+    "swap_lpd": 0.365,
+    "pooled_lpd": 0.328
+   },
+   "capped_flown": {
+    "n": 2,
+    "t_sortie": 3.8,
+    "fpy": 7.6,
+    "first_lpd": 1.997,
+    "swap_lpd": 1.814,
+    "pooled_lpd": 1.449
+   },
+   "held": true
+  },
+  "H2": {
+   "steady_lpd": 0.365,
+   "reactor_share": 0.6,
+   "fleet_avg_k3": 0.395,
+   "naive_dream_lpd": 0.146,
+   "held": true
+  },
+  "H3": {
+   "pooled_lpd_by_life": {
+    "10.0": 0.328,
+    "15.0": 0.268,
+    "20.0": 0.237,
+    "40.0": 0.192
+   },
+   "dream_requires_fpy": ">=40",
+   "held": true
+  },
+  "H4": {
+   "steady_advantage": 2.79,
+   "d_star_pct": 10.4,
+   "held": true
+  }
+ }
+}
