@@ -1,0 +1,156 @@
+{
+ "findings": {
+  "H1": {
+   "audit_oberth": 7634.0,
+   "min_moonless": 8454.0,
+   "sequences_at_6210": {
+    "single": 8513.3,
+    "oberth_60Mm": 10501.6,
+    "oberth_65Mm": 10236.8,
+    "oberth_70Mm": 9988.1,
+    "oberth_75Mm": 9753.8,
+    "oberth_80Mm": 9532.4,
+    "bielliptic_1xTitan": 8615.8,
+    "bielliptic_2xTitan": 8453.8,
+    "titan_tour": 7004.1
+   },
+   "held": true
+  },
+  "H2": {
+   "titan_assisted": 7004.0,
+   "saving": 0.171,
+   "capture_circ": 6704.0,
+   "round_trip_honest": 13708.0,
+   "inner_moon_kick_m_s": {
+    "Titan": 1542.7,
+    "Rhea": 170.5,
+    "Enceladus": 23.7,
+    "Mimas": 10.1
+   },
+   "held": true
+  },
+  "H3": {
+   "repricing": {
+    "canonical": {
+     "desk_1.5_reference": {
+      "launch_t": 555.0,
+      "ratio": 13.7,
+      "note": "as shipped by R178; departure already paid at 1.5 km/s"
+     },
+     "titan_gas_7.0": {
+      "gas_at_saturn_t": 287.0,
+      "launch_t": 2568.0,
+      "ratio": 63.6
+     },
+     "direct_gas_8.5": {
+      "gas_at_saturn_t": 448.0,
+      "launch_t": 3696.0,
+      "ratio": 91.6
+     },
+     "chunk_fed_9.0": {
+      "prop_t": 129.0,
+      "burn_years_by_kwe": {
+       "2.2": 95.3,
+       "50.0": 4.2,
+       "110.0": 1.9,
+       "175.0": 1.2,
+       "300.0": 0.7
+      }
+     },
+     "chunk_fed_titan": {
+      "prop_t": 87.0,
+      "burn_years_by_kwe": {
+       "2.2": 63.9,
+       "50.0": 2.8,
+       "110.0": 1.3,
+       "175.0": 0.8,
+       "300.0": 0.5
+      }
+     }
+    },
+    "best": {
+     "desk_1.5_reference": {
+      "launch_t": 503.0,
+      "ratio": 5.2,
+      "note": "as shipped by R178; departure already paid at 1.5 km/s"
+     },
+     "titan_gas_7.0": {
+      "gas_at_saturn_t": 464.0,
+      "launch_t": 3755.0,
+      "ratio": 39.2
+     },
+     "direct_gas_8.5": {
+      "gas_at_saturn_t": 724.0,
+      "launch_t": 5578.0,
+      "ratio": 58.2
+     },
+     "chunk_fed_9.0": {
+      "prop_t": 215.0,
+      "burn_years_by_kwe": {
+       "2.2": 158.8,
+       "50.0": 7.0,
+       "110.0": 3.2,
+       "175.0": 2.0,
+       "300.0": 1.2
+      }
+     },
+     "chunk_fed_titan": {
+      "prop_t": 144.0,
+      "burn_years_by_kwe": {
+       "2.2": 106.5,
+       "50.0": 4.7,
+       "110.0": 2.1,
+       "175.0": 1.3,
+       "300.0": 0.8
+      }
+     }
+    }
+   },
+   "verdict": "R173-R178 non-fission round-trip headline falsified at honest anchor",
+   "held": true
+  },
+  "H4": {
+   "p_req_2yr_kwe": {
+    "direct": 175.0,
+    "titan": 117.0
+   },
+   "prop_saving_titan": 0.33,
+   "held": true
+  }
+ },
+ "sequences": {
+  "5400.0": {
+   "single": 8340.8,
+   "oberth_60Mm": 10371.1,
+   "oberth_65Mm": 10101.1,
+   "oberth_70Mm": 9847.4,
+   "oberth_75Mm": 9608.4,
+   "oberth_80Mm": 9382.4,
+   "bielliptic_1xTitan": 8485.3,
+   "bielliptic_2xTitan": 8323.3,
+   "titan_tour": 7004.1
+  },
+  "6210.0": {
+   "single": 8513.3,
+   "oberth_60Mm": 10501.6,
+   "oberth_65Mm": 10236.8,
+   "oberth_70Mm": 9988.1,
+   "oberth_75Mm": 9753.8,
+   "oberth_80Mm": 9532.4,
+   "bielliptic_1xTitan": 8615.8,
+   "bielliptic_2xTitan": 8453.8,
+   "titan_tour": 7004.1
+  },
+  "7000.0": {
+   "single": 8703.5,
+   "oberth_60Mm": 10645.8,
+   "oberth_65Mm": 10386.7,
+   "oberth_70Mm": 10143.5,
+   "oberth_75Mm": 9914.4,
+   "oberth_80Mm": 9698.1,
+   "bielliptic_1xTitan": 8760.1,
+   "bielliptic_2xTitan": 8598.1,
+   "titan_tour": 7004.1
+  }
+ }
+}
