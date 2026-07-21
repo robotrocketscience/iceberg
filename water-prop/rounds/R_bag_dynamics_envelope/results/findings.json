@@ -1,0 +1,57 @@
+{
+ "findings": {
+  "H1": {
+   "contact_kN": {
+    "0.01_1e+03": 0.06,
+    "0.01_1e+04": 0.2,
+    "0.01_1e+05": 0.63,
+    "0.05_1e+03": 0.32,
+    "0.05_1e+04": 1.0,
+    "0.05_1e+05": 3.16,
+    "0.1_1e+03": 0.63,
+    "0.1_1e+04": 2.0,
+    "0.1_1e+05": 6.32
+   },
+   "soft_capture_max_kN": 1.0,
+   "arrest_impulse_kNs": [
+    0.4,
+    2.0,
+    4.0
+   ],
+   "held": true
+  },
+  "H2": {
+   "slosh_f_hz_band": [
+    0.003,
+    0.1
+   ],
+   "acs_band_hz": [
+    0.01,
+    0.1
+   ],
+   "overlap_up_to_ts_s": 98,
+   "held": true
+  },
+  "H3": {
+   "mass_ratios": {
+    "relay_bus": 10.0,
+    "monolithic": 2.0
+   },
+   "torque_Nm": {
+    "10": 1579.1,
+    "100": 15.8,
+    "300": 1.8
+   },
+   "rw_authority_Nm": 5.0,
+   "thruster_authority_Nm": 50.0,
+   "held": true
+  },
+  "H4": {
+   "viable_corner_rw_pct": 7,
+   "viable_corner_thruster_pct": 34,
+   "prescribes": "T_s~100-180s AND zeta>=0.1, unprecedented at 40t",
+   "coupled_stability": "needs Basilisk 6-DOF linearSpringMassDamper",
+   "held": true
+  }
+ }
+}
