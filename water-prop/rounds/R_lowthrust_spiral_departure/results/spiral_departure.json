@@ -1,0 +1,99 @@
+{
+  "anchors": {
+    "v_circ": 18827.798100373057,
+    "v_esc": 26626.52742316997,
+    "vinf": 6210.0,
+    "impulsive_single_burn_dv": 8513.30763104941,
+    "ve_met": 7845.32,
+    "burn_years": 2.0
+  },
+  "HC1": {
+    "impulsive_dv": 8513.30763104941,
+    "r179_hardcoded": 9000.0,
+    "frac_diff": 0.05716842266753564
+  },
+  "HC2": {
+    "analytic_escape_v_circ": 18827.798100373057,
+    "analytic_total_range": [
+      18827.798100373057,
+      25037.798100373057
+    ],
+    "a_mission_m_s2": 0.00026767550590670616,
+    "numerical_spiral_dv_to_vinf": 21928.09308390415,
+    "numerical_by_thrust": {
+      "a_2.68e-04": {
+        "a_thrust": 0.00026767550590670616,
+        "dv_to_parabolic": 17385.195505819058,
+        "revs_para": 1818.8916666730229,
+        "dv_to_vinf": 21928.09308390415,
+        "revs_hyp": 2294.1833333420736,
+        "reached_hyp": true
+      },
+      "a_1.00e-03": {
+        "a_thrust": 0.001,
+        "dv_to_parabolic": 16822.281651143665,
+        "revs_para": 471.1083333329285,
+        "dv_to_vinf": 20771.573605847832,
+        "revs_hyp": 581.7083333334833,
+        "reached_hyp": true
+      },
+      "a_3.00e-03": {
+        "a_thrust": 0.003,
+        "dv_to_parabolic": 16189.061844076325,
+        "revs_para": 151.12499999998502,
+        "dv_to_vinf": 19552.744503486847,
+        "revs_hyp": 182.52499999994598,
+        "reached_hyp": true
+      }
+    },
+    "ratio_to_r179_9km": 2.436454787100461
+  },
+  "HC3": {
+    "reactor_kwe_by_dv": {
+      "impulsive_8.5": 159.0,
+      "r179_9.0": 175.0,
+      "spiral_numerical": 1248.0,
+      "spiral_v_circ": 814.0,
+      "spiral_v_circ_plus_vinf": 1895.0
+    },
+    "floor_at_spiral_numerical": 1248.0,
+    "ratio_to_r179_175": 7.131428571428572
+  },
+  "burn_time_alt": {
+    "spiral_numerical_burn_yr_at_175kwe": 14.3,
+    "v_circ_burn_yr_at_175kwe": 9.3
+  },
+  "HC4": {
+    "isp_sweep": {
+      "isp_800": {
+        "kwe_9km": 175,
+        "kwe_spiral": 1248,
+        "ratio": 7.15
+      },
+      "isp_2000": {
+        "kwe_9km": 296,
+        "kwe_spiral": 1046,
+        "ratio": 3.54
+      },
+      "isp_3000": {
+        "kwe_9km": 409,
+        "kwe_spiral": 1265,
+        "ratio": 3.09
+      }
+    },
+    "min_ratio_over_isp": 3.09
+  },
+  "chemical_kick": {
+    "mass_ratio_isp350": 11.95,
+    "prop_t_for_100t_payload": 1094.5,
+    "note": "high-thrust chemical departure recovers the Oberth 8.5 km/s but adds a stage of this propellant mass"
+  },
+  "verdicts": {
+    "H-C1": true,
+    "H-C2": true,
+    "H-C3": true,
+    "H-C4": true,
+    "held": 4,
+    "of": 4
+  }
+}
