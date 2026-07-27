@@ -1,0 +1,118 @@
+{
+  "anchors": {
+    "D_t": 30.0,
+    "isp_chem": 420.0,
+    "P_kwe": 350.0,
+    "dv_cap_leo": 7.29153149190215,
+    "dv_cap_cislunar": 4.067151126025168
+  },
+  "grid": {
+    "sp_2.4": {
+      "Saturn ring/orbit depot": {
+        "dv_dep": 2.0,
+        "dv_cap": 0.0,
+        "reactor_t": 145.8,
+        "dep_prop_t": 125,
+        "cap_prop_t": 0,
+        "harvest_ratio": 4.2,
+        "delivery_eff_pct": 24.02,
+        "earth_transit": false,
+        "capture_share_of_penalty_pct": 0.0
+      },
+      "heliocentric-at-Saturn": {
+        "dv_dep": 8.5,
+        "dv_cap": 0.0,
+        "reactor_t": 145.8,
+        "dep_prop_t": 2028,
+        "cap_prop_t": 0,
+        "harvest_ratio": 67.6,
+        "delivery_eff_pct": 1.48,
+        "earth_transit": false,
+        "capture_share_of_penalty_pct": 0.0
+      },
+      "Earth cislunar/high-ell": {
+        "dv_dep": 8.5,
+        "dv_cap": 4.067151126025168,
+        "reactor_t": 145.8,
+        "dep_prop_t": 2028,
+        "cap_prop_t": 54,
+        "harvest_ratio": 69.4,
+        "delivery_eff_pct": 1.44,
+        "earth_transit": true,
+        "capture_share_of_penalty_pct": 3.0
+      },
+      "LEO": {
+        "dv_dep": 8.5,
+        "dv_cap": 7.29153149190215,
+        "reactor_t": 145.8,
+        "dep_prop_t": 2028,
+        "cap_prop_t": 156,
+        "harvest_ratio": 72.8,
+        "delivery_eff_pct": 1.37,
+        "earth_transit": true,
+        "capture_share_of_penalty_pct": 7.0
+      }
+    },
+    "sp_40.0": {
+      "Saturn ring/orbit depot": {
+        "dv_dep": 2.0,
+        "dv_cap": 0.0,
+        "reactor_t": 8.8,
+        "dep_prop_t": 36,
+        "cap_prop_t": 0,
+        "harvest_ratio": 1.2,
+        "delivery_eff_pct": 82.36,
+        "earth_transit": false,
+        "capture_share_of_penalty_pct": 0.0
+      },
+      "heliocentric-at-Saturn": {
+        "dv_dep": 8.5,
+        "dv_cap": 0.0,
+        "reactor_t": 8.8,
+        "dep_prop_t": 591,
+        "cap_prop_t": 0,
+        "harvest_ratio": 19.7,
+        "delivery_eff_pct": 5.07,
+        "earth_transit": false,
+        "capture_share_of_penalty_pct": 0.0
+      },
+      "Earth cislunar/high-ell": {
+        "dv_dep": 8.5,
+        "dv_cap": 4.067151126025168,
+        "reactor_t": 8.8,
+        "dep_prop_t": 591,
+        "cap_prop_t": 54,
+        "harvest_ratio": 21.5,
+        "delivery_eff_pct": 4.65,
+        "earth_transit": true,
+        "capture_share_of_penalty_pct": 8.0
+      },
+      "LEO": {
+        "dv_dep": 8.5,
+        "dv_cap": 7.29153149190215,
+        "reactor_t": 8.8,
+        "dep_prop_t": 591,
+        "cap_prop_t": 156,
+        "harvest_ratio": 24.9,
+        "delivery_eff_pct": 4.01,
+        "earth_transit": true,
+        "capture_share_of_penalty_pct": 21.0
+      }
+    }
+  },
+  "decomposition": {
+    "LEO_ratio": 72.8,
+    "cislunar_ratio": 69.4,
+    "LEO_to_cislunar_saving_x": 1.05,
+    "heliocentric_ratio": 67.6,
+    "saturn_depot_ratio": 4.2,
+    "note": "departure leg (8.5 km/s) is paid for all Earth-vicinity delivery; moving LEO->cislunar only removes the capture-leg part"
+  },
+  "verdicts": {
+    "H-I1": true,
+    "H-I2": true,
+    "H-I3": false,
+    "held": 2,
+    "of": 3
+  }
+}

@@ -1,0 +1,28 @@
+# R-delivery-point-harvest-ratio — where is the depot prize? How the Saturn-water harvest ratio varies with delivery point
+
+**Status:** SCOPE pre-registered 2026-07-22, before `run.py`. `scope_bounds.py` computes the delivery-point Δv table and single-leg brackets.
+**Worker:** worktree-115637 session. Project-owner-directed ("continue" the depot pivot). Advances the axis-02 open question (Saturn-system depot) that `R-roundtrip-closure-departure-stage` (`c01a90e`) strengthened.
+**Predecessor:** `R-roundtrip-closure-departure-stage` — chunk-return-to-LEO is intrinsically ~20–73:1 harvest ratio because it pays large Δv at *both* ends of a deep-well round-trip (8.5 km/s Saturn departure + 7.3 km/s Earth capture). The depot pivot avoids the Earth-return Δv. This round asks: *how much* of the penalty is each leg, and where does moving the delivery point actually buy the win?
+
+## The question under test
+
+The depot-pivot framing ("deliver water closer to the source") could mean two very different things: (a) deliver to a **higher Earth orbit** (cislunar/EML instead of LEO — saves only the LEO-circularization part of the Earth-capture leg), or (b) **don't return to Earth's vicinity at all** (Saturn-orbit or heliocentric-at-Saturn depot — saves the entire Earth-capture leg *and*, for a Saturn-orbit depot, the Saturn-departure leg). This round maps the harvest ratio across the delivery-point spectrum to pinpoint where the prize is — and tests whether the Saturn-departure leg (paid for any Earth-vicinity delivery) keeps Earth-return expensive regardless of the Earth-side orbit.
+
+## Boundary
+
+- **IN:** the Round H mass cascade (reactor mass = P/sp; departure/transport propellant via rocket equation; H₂/O₂ Isp 420) applied to a spectrum of delivery points, each with its Δv from the B-ring harvest orbit: (1) **ring/Saturn-orbit depot** (stockpile in situ / small raise, no Earth transit); (2) **heliocentric-at-Saturn depot** (Saturn escape 8.5 km/s, no Earth capture); (3) **Earth cislunar / high-ellipse** (departure 8.5 + minimal Earth capture ~4.1 km/s from v∞=10.3); (4) **LEO** (departure 8.5 + 7.3 km/s). Harvest ratio (water harvested / t delivered) at flown (2.4) and aspirational (40) W/kg; the departure-leg-vs-capture-leg decomposition of the penalty.
+- **OUT:** demand — *who* buys water at each delivery point (Saturn-orbit depot demand, cislunar propellant-depot demand) is a market question, not physics, and is flagged as a separate follow-on; the lunar/Earth-launch cost head-to-head (needs an extraction/cost model, not a Δv cascade — flagged); the outbound leg; harvest throughput; the reactor lifetime/radiator walls (titan-4 owns them).
+
+## Pre-registered hypotheses (numeric, falsifiable, before run.py)
+
+**H-I1 [S] — the harvest ratio drops monotonically and steeply as the delivery point moves toward the source.** At flown 2.4 W/kg: LEO ~73:1 → cislunar ~35–45:1 → heliocentric-at-Saturn ~25–30:1 → Saturn-orbit depot ~1–3:1. **Falsified** if the ordering is non-monotonic or if the Saturn-orbit depot is not < 5:1.
+
+**H-I2 [S] — the non-obvious result: moving the delivery point within Earth's vicinity (LEO → cislunar) only ~halves the ratio, because the Saturn-departure leg (8.5 km/s) is the *other* half of the penalty and is paid for any Earth-vicinity delivery.** Earth-vicinity delivery (even cislunar) stays **> 25:1** at flown specific power; the win to single-digit:1 requires **not returning to Earth's vicinity** (Saturn-orbit / heliocentric depot). **Falsified** if cislunar delivery reaches < 20:1 at flown specific power (Earth-orbit choice alone rescues it) or if heliocentric-at-Saturn is < 10:1.
+
+**H-I3 [S] — the Saturn-orbit depot removes the deep-well penalty entirely (ratio → ~1:1), which is the physics prize of the pivot — but it rests on demand for water *at Saturn*, unmodeled here.** A ring/Saturn-orbit depot harvest ratio is **≤ 3:1** at any specific power (no departure, no Earth capture; reactor mass barely matters). **Falsified** if the Saturn-orbit depot ratio > 5:1.
+
+**Honest expected reading (pre-registered):** H-I1/I2/I3 hold. The depot prize is **real and large but specifically located**: it is *not* "deliver to a higher Earth orbit" (which only halves the penalty — the Saturn departure keeps Earth-vicinity delivery > 25:1), it is "**don't return to Earth's vicinity**" — a Saturn-orbit / in-situ depot collapses the harvest ratio to ~1:1, and a heliocentric-at-Saturn depot to ~25:1 (departure-only). So the pivot's physics case is strongest for a **Saturn-vicinity depot**, weakest for a "closer Earth orbit," and the load-bearing open question becomes **demand at Saturn** (a market question, not physics — the honest next follow-on, a SCOPE for R-saturn-system-water-depot-demand). This sharpens the axis-02 pivot: the physics says the money is in *not coming back*, which only pays off if there is a Saturn-vicinity customer.
+
+## Method
+
+Deterministic. `run.py`: for each delivery point (Δv_dep + Δv_capture from the table) × specific power {2.4, 40} W/kg, run the Round H cascade (reactor mass, departure/transport propellant to accelerate D + dry + reactor + tanks, plus any Earth-capture propellant on the released chunk); report harvest ratio and the departure-leg / capture-leg decomposition. Delivery-point Δv table derived from vis-viva at Earth (v∞=10.3 → barely-captured 4.07 km/s at LEO periapsis; → LEO circular 7.3) and Saturn (ring depot ~2 km/s raise; escape 8.5). **Anchors:** identical to Round H — Isp 420 (H₂/O₂), P 350 kWe, m_dry 15 t + plant 2.7 t, μ_E 398600.44, μ_S 3.793e16, R_ring 1.07e8, v∞_Earth 10.3 km/s.
