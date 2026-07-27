@@ -1,0 +1,148 @@
+{
+  "anchors": {
+    "L_berth_Nms": 5000.0,
+    "L_fullbag_Nms": 10000.0,
+    "T_orbit_s": 35707.88385790555,
+    "T_orbit_h": 9.918856627195987,
+    "dI_boulder_kgm2": 1000000.0,
+    "tau_gg_Nm": 0.04644326770570502
+  },
+  "H1": {
+    "name": "GG usable & clears one berth in days",
+    "predicted": "tau in [0.02,0.08] N.m; clear-time [2.5,10] d; <30 d",
+    "measured": "tau=0.046 N.m; clear-time [2.5,8.3] d",
+    "held": true,
+    "note": "boulder dI makes GG ~10-100x a normal smallsat",
+    "rows": [
+      {
+        "eta_gg": 0.15,
+        "shed_per_orbit_Nms": 248.75862138253956,
+        "orbits": 20.099805876922872,
+        "clear_days": 8.30696219698622
+      },
+      {
+        "eta_gg": 0.3,
+        "shed_per_orbit_Nms": 497.5172427650791,
+        "orbits": 10.049902938461436,
+        "clear_days": 4.15348109849311
+      },
+      {
+        "eta_gg": 0.5,
+        "shed_per_orbit_Nms": 829.1954046084652,
+        "orbits": 6.029941763076861,
+        "clear_days": 2.4920886590958657
+      }
+    ]
+  },
+  "H2": {
+    "name": "buffer mass >> thruster propellant; RW cluster short",
+    "predicted": "buffer [285,600] kg; propellant [3,45] kg; buffer>propellant; RW<injection",
+    "measured": "CMG buffer 286-571 kg; propellant 42 kg; RW cluster 150<5000",
+    "held": true,
+    "note": "GG-desat's cost is dry mass + cadence, not propellant",
+    "cases": {
+      "sim_20t": {
+        "L_Nms": 5000.0,
+        "rw_deficit_x": [
+          33.333333333333336,
+          50.0
+        ],
+        "cmg_buffer_kg": 285.7142857142857,
+        "cmg_buffer_x2_kg": 571.4285714285714,
+        "thruster_kg_coldgas": 41.666666666666664,
+        "thruster_kg_met": 5.0
+      },
+      "full_bag": {
+        "L_Nms": 10000.0,
+        "rw_deficit_x": [
+          66.66666666666667,
+          100.0
+        ],
+        "cmg_buffer_kg": 571.4285714285714,
+        "cmg_buffer_x2_kg": 1142.857142857143,
+        "thruster_kg_coldgas": 83.33333333333333,
+        "thruster_kg_met": 10.0
+      }
+    }
+  },
+  "H3": {
+    "name": "geometry control reaches RW-only corner",
+    "predicted": "corner v_c*r_off in [0.005,0.0075]; reachable at r_off<=2 m, few mm/s",
+    "measured": "corner [0.0050,0.0075]; reachable=True (r_off<=2 m admits v_c 2.5-7.5 mm/s)",
+    "held": true,
+    "note": "sim diagnostic: L=100 held (4.5 deg), L=500 tumbled -> threshold~capacity",
+    "corner_m2s": [
+      0.005,
+      0.0075
+    ],
+    "rows": [
+      {
+        "r_off_m": 1.0,
+        "vc_lo_mms": 5.0,
+        "vc_hi_mms": 7.5,
+        "below_1mm_floor": false
+      },
+      {
+        "r_off_m": 2.0,
+        "vc_lo_mms": 2.5,
+        "vc_hi_mms": 3.75,
+        "below_1mm_floor": false
+      },
+      {
+        "r_off_m": 5.0,
+        "vc_lo_mms": 1.0,
+        "vc_hi_mms": 1.5,
+        "below_1mm_floor": false
+      },
+      {
+        "r_off_m": 10.0,
+        "vc_lo_mms": 0.5,
+        "vc_hi_mms": 0.75,
+        "below_1mm_floor": true
+      }
+    ]
+  },
+  "H4": {
+    "name": "leg C < B < A; real trade (plume-avoidance costs mass+cadence)",
+    "predicted": "propellant<1% wet; GG clear>=1 d (cadence binds); leg C reachable",
+    "measured": "propellant 0.042% wet; GG clear 2.5 d; leg C reachable=True",
+    "held": true,
+    "note": "leg C dominates where capture control reachable; A vs B = plume vs +mass",
+    "legs": {
+      "A_thruster": {
+        "propellant_kg": 41.666666666666664,
+        "plume_at_bag": true,
+        "extra_dry_kg": 0.0,
+        "cadence_floor_days": 0.0,
+        "note": "cheap propellant (despin), plume once per berth"
+      },
+      "B_gg_desat": {
+        "propellant_kg": 0.0,
+        "plume_at_bag": false,
+        "extra_dry_kg": 285.7142857142857,
+        "cadence_floor_days": 2.4920886590958657,
+        "note": "0 propellant/plume; +CMG mass; berth cadence >= clear-time"
+      },
+      "C_geometry": {
+        "propellant_kg": 0.0,
+        "plume_at_bag": false,
+        "extra_dry_kg": 0.0,
+        "cadence_floor_days": 0.0,
+        "note": "0 everything; needs capture v_c*r_off<=0.0075, reachable"
+      }
+    }
+  },
+  "revisit_notes": [
+    "eta_gg (GG secular-desaturation efficiency) is a modeled band [0.15,0.5], NOT derived from a control law; H1 clear-time inherits that uncertainty. The falsify line (30 d) clears even at eta=0.15.",
+    "GG desaturates in-orbit-plane momentum only; the component along the orbit normal still needs a small thruster/RW trim. Leg B is 'mostly plume-free', not strictly zero-fire. Quantifying the residual-axis fraction is a named follow-on.",
+    "Thruster propellant is despin's 125 kg/15000 N.m.s scaled linearly (angular impulse is linear in L at fixed geometry) \u2014 consistent, not a new derivation. Leg A's cost claim rests on despin, not here.",
+    "CMG mass anchored to ISS M2000 (272 kg/4760 N.m.s). Even the lightest flown CMG keeps buffer mass an order above the ~42 kg propellant, so H2's direction is anchor-robust."
+  ],
+  "verdict": {
+    "H1": true,
+    "H2": true,
+    "H3": true,
+    "H4": true,
+    "summary": "GG-desat is real and boulder-strengthened (clears a berth in 2.5-10 d) but NOT free: it costs ~300-600 kg CMG buffer + a days-scale berth-cadence floor, vs ~42 kg water propellant for a thruster dump. Capture-geometry control (leg C) eliminates the dump entirely where v_c*r_off<=0.0075 m^2/s is reachable and is the preferred architecture; leg A (cheap thrusters, manage plume) is the robust fallback; leg B (GG-desat) is reserved for the case where plume at the bag is a hard showstopper."
+  }
+}
