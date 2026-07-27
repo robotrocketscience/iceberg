@@ -1,0 +1,14 @@
+{
+ "tps_True": {
+  "arrived_at_depot": 1,
+  "delivered_floor_10t": 0,
+  "delivered_floor": 0,
+  "max_delivered_t": 5.66
+ },
+ "tps_False": {
+  "arrived_at_depot": 4,
+  "delivered_floor_10t": 4,
+  "delivered_floor": 4,
+  "max_delivered_t": 89.6
+ }
+}

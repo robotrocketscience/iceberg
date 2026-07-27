@@ -1,0 +1,136 @@
+{
+ "armA": {
+  "isp_scan": {
+   "450": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "500": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "550": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "600": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "700": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "900": {
+    "arrived_at_depot": 2,
+    "delivered_floor_10t": 2,
+    "delivered_floor": 2,
+    "max_delivered_t": 89.6
+   }
+  },
+  "relief": {
+   "capture_arch": "harpoon",
+   "plans_aerocapture": false,
+   "reactor_specific_power_w_per_kg": 33.0,
+   "launcher_cap_multiplier": 16.0
+  },
+  "grid": {
+   "power": [
+    200.0
+   ],
+   "chunk": [
+    500000.0,
+    1000000.0
+   ],
+   "thrust": [
+    10.0
+   ]
+  }
+ },
+ "armB": {
+  "isp_scan": {
+   "450": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "500": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "550": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "600": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "700": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "900": {
+    "arrived_at_depot": 2,
+    "delivered_floor_10t": 2,
+    "delivered_floor": 2,
+    "max_delivered_t": 89.6
+   }
+  },
+  "relief": {
+   "capture_arch": "harpoon",
+   "plans_aerocapture": false,
+   "reactor_specific_power_w_per_kg": 33.0,
+   "launcher_cap_multiplier": 16.0
+  },
+  "grid": {
+   "power": [
+    200.0
+   ],
+   "chunk": [
+    500000.0,
+    1000000.0
+   ],
+   "thrust": [
+    10.0
+   ]
+  }
+ },
+ "armB_honest_refine": {
+  "isp_750_800_850_arrived": {
+   "750.0": 2,
+   "800.0": 2,
+   "850.0": 2
+  },
+  "at_900s_detail": {
+   "best_cell": {
+    "power_kwe": 200.0,
+    "chunk_mass_kg": 1000000.0,
+    "electric_thrust_n": 10.0,
+    "used_electrolysis": true
+   },
+   "paths_strict_15yr": 0,
+   "paths_waiver_25yr": 511,
+   "max_delivered_t": 89.6
+  }
+ }
+}

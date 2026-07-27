@@ -1,0 +1,268 @@
+{
+ "armA_record_x1": {
+  "v2_all": {
+   "arrived_at_depot": 0,
+   "delivered_floor_10t": 0,
+   "delivered_floor": 0,
+   "max_delivered_t": 0.0,
+   "best_cell": null,
+   "feasible_electrolysis_paths": 0,
+   "paths_strict_15yr": 0,
+   "paths_waiver_25yr": 0,
+   "taxonomy_top4": {
+    "P0_Earth_to_LEO": 375
+   }
+  },
+  "v2_electrolysis_paths_only": {
+   "arrived_at_depot": 0,
+   "delivered_floor_10t": 0,
+   "delivered_floor": 0,
+   "max_delivered_t": 0.0,
+   "best_cell": null,
+   "feasible_electrolysis_paths": 0,
+   "paths_strict_15yr": 0,
+   "paths_waiver_25yr": 0,
+   "taxonomy_top4": {}
+  },
+  "v1_matched": {
+   "arrived_at_depot": 0,
+   "delivered_floor_10t": 0,
+   "delivered_floor": 0,
+   "max_delivered_t": 0.0,
+   "best_cell": null,
+   "feasible_electrolysis_paths": 0,
+   "paths_strict_15yr": 0,
+   "paths_waiver_25yr": 0,
+   "taxonomy_top4": {
+    "P0_Earth_to_LEO": 375
+   }
+  }
+ },
+ "armA_record_x5": {
+  "v2_all": {
+   "arrived_at_depot": 0,
+   "delivered_floor_10t": 0,
+   "delivered_floor": 0,
+   "max_delivered_t": 0.0,
+   "best_cell": null,
+   "feasible_electrolysis_paths": 0,
+   "paths_strict_15yr": 0,
+   "paths_waiver_25yr": 0,
+   "taxonomy_top4": {
+    "P4_Saturn_departure": 7136,
+    "P2_Saturn_capture": 1080,
+    "P1_LEO_to_Saturn": 404,
+    "P0_Earth_to_LEO": 285
+   }
+  },
+  "v2_electrolysis_paths_only": {
+   "arrived_at_depot": 0,
+   "delivered_floor_10t": 0,
+   "delivered_floor": 0,
+   "max_delivered_t": 0.0,
+   "best_cell": null,
+   "feasible_electrolysis_paths": 0,
+   "paths_strict_15yr": 0,
+   "paths_waiver_25yr": 0,
+   "taxonomy_top4": {
+    "P4_Saturn_departure": 1784
+   }
+  },
+  "v1_matched": {
+   "arrived_at_depot": 0,
+   "delivered_floor_10t": 0,
+   "delivered_floor": 0,
+   "max_delivered_t": 0.0,
+   "best_cell": null,
+   "feasible_electrolysis_paths": 0,
+   "paths_strict_15yr": 0,
+   "paths_waiver_25yr": 0,
+   "taxonomy_top4": {
+    "P4_Saturn_departure": 13104,
+    "P2_Saturn_capture": 2121,
+    "P1_LEO_to_Saturn": 531,
+    "P0b_assembly": 252
+   }
+  }
+ },
+ "armA_record_x8": {
+  "v2_all": {
+   "arrived_at_depot": 0,
+   "delivered_floor_10t": 0,
+   "delivered_floor": 0,
+   "max_delivered_t": 0.0,
+   "best_cell": null,
+   "feasible_electrolysis_paths": 0,
+   "paths_strict_15yr": 0,
+   "paths_waiver_25yr": 0,
+   "taxonomy_top4": {
+    "P4_Saturn_departure": 36880,
+    "P2_Saturn_capture": 4695,
+    "P1_LEO_to_Saturn": 712,
+    "P0b_assembly": 366
+   }
+  },
+  "v2_electrolysis_paths_only": {
+   "arrived_at_depot": 0,
+   "delivered_floor_10t": 0,
+   "delivered_floor": 0,
+   "max_delivered_t": 0.0,
+   "best_cell": null,
+   "feasible_electrolysis_paths": 0,
+   "paths_strict_15yr": 0,
+   "paths_waiver_25yr": 0,
+   "taxonomy_top4": {
+    "P4_Saturn_departure": 9220
+   }
+  },
+  "v1_matched": {
+   "arrived_at_depot": 0,
+   "delivered_floor_10t": 0,
+   "delivered_floor": 0,
+   "max_delivered_t": 0.0,
+   "best_cell": null,
+   "feasible_electrolysis_paths": 0,
+   "paths_strict_15yr": 0,
+   "paths_waiver_25yr": 0,
+   "taxonomy_top4": {
+    "P4_Saturn_departure": 39492,
+    "P2_Saturn_capture": 6264,
+    "P1_LEO_to_Saturn": 753,
+    "P0b_assembly": 414
+   }
+  }
+ },
+ "armB_honest_x1": {
+  "v2_all": {
+   "arrived_at_depot": 0,
+   "delivered_floor_10t": 0,
+   "delivered_floor": 0,
+   "max_delivered_t": 0.0,
+   "best_cell": null,
+   "feasible_electrolysis_paths": 0,
+   "paths_strict_15yr": 0,
+   "paths_waiver_25yr": 0,
+   "taxonomy_top4": {
+    "P0_Earth_to_LEO": 375
+   }
+  },
+  "v2_electrolysis_paths_only": {
+   "arrived_at_depot": 0,
+   "delivered_floor_10t": 0,
+   "delivered_floor": 0,
+   "max_delivered_t": 0.0,
+   "best_cell": null,
+   "feasible_electrolysis_paths": 0,
+   "paths_strict_15yr": 0,
+   "paths_waiver_25yr": 0,
+   "taxonomy_top4": {}
+  },
+  "v1_matched": {
+   "arrived_at_depot": 0,
+   "delivered_floor_10t": 0,
+   "delivered_floor": 0,
+   "max_delivered_t": 0.0,
+   "best_cell": null,
+   "feasible_electrolysis_paths": 0,
+   "paths_strict_15yr": 0,
+   "paths_waiver_25yr": 0,
+   "taxonomy_top4": {
+    "P0_Earth_to_LEO": 375
+   }
+  }
+ },
+ "armB_honest_x5": {
+  "v2_all": {
+   "arrived_at_depot": 0,
+   "delivered_floor_10t": 0,
+   "delivered_floor": 0,
+   "max_delivered_t": 0.0,
+   "best_cell": null,
+   "feasible_electrolysis_paths": 0,
+   "paths_strict_15yr": 0,
+   "paths_waiver_25yr": 0,
+   "taxonomy_top4": {
+    "P4_Saturn_departure": 6624,
+    "P2_Saturn_capture": 1056,
+    "P1_LEO_to_Saturn": 408,
+    "P0_Earth_to_LEO": 285
+   }
+  },
+  "v2_electrolysis_paths_only": {
+   "arrived_at_depot": 0,
+   "delivered_floor_10t": 0,
+   "delivered_floor": 0,
+   "max_delivered_t": 0.0,
+   "best_cell": null,
+   "feasible_electrolysis_paths": 0,
+   "paths_strict_15yr": 0,
+   "paths_waiver_25yr": 0,
+   "taxonomy_top4": {
+    "P4_Saturn_departure": 1656
+   }
+  },
+  "v1_matched": {
+   "arrived_at_depot": 0,
+   "delivered_floor_10t": 0,
+   "delivered_floor": 0,
+   "max_delivered_t": 0.0,
+   "best_cell": null,
+   "feasible_electrolysis_paths": 0,
+   "paths_strict_15yr": 0,
+   "paths_waiver_25yr": 0,
+   "taxonomy_top4": {
+    "P4_Saturn_departure": 11952,
+    "P2_Saturn_capture": 2049,
+    "P1_LEO_to_Saturn": 543,
+    "P0b_assembly": 252
+   }
+  }
+ },
+ "armB_honest_x8": {
+  "v2_all": {
+   "arrived_at_depot": 0,
+   "delivered_floor_10t": 0,
+   "delivered_floor": 0,
+   "max_delivered_t": 0.0,
+   "best_cell": null,
+   "feasible_electrolysis_paths": 0,
+   "paths_strict_15yr": 0,
+   "paths_waiver_25yr": 0,
+   "taxonomy_top4": {
+    "P4_Saturn_departure": 36240,
+    "P2_Saturn_capture": 4665,
+    "P1_LEO_to_Saturn": 717,
+    "P0b_assembly": 366
+   }
+  },
+  "v2_electrolysis_paths_only": {
+   "arrived_at_depot": 0,
+   "delivered_floor_10t": 0,
+   "delivered_floor": 0,
+   "max_delivered_t": 0.0,
+   "best_cell": null,
+   "feasible_electrolysis_paths": 0,
+   "paths_strict_15yr": 0,
+   "paths_waiver_25yr": 0,
+   "taxonomy_top4": {
+    "P4_Saturn_departure": 9060
+   }
+  },
+  "v1_matched": {
+   "arrived_at_depot": 0,
+   "delivered_floor_10t": 0,
+   "delivered_floor": 0,
+   "max_delivered_t": 0.0,
+   "best_cell": null,
+   "feasible_electrolysis_paths": 0,
+   "paths_strict_15yr": 0,
+   "paths_waiver_25yr": 0,
+   "taxonomy_top4": {
+    "P4_Saturn_departure": 38052,
+    "P2_Saturn_capture": 6174,
+    "P1_LEO_to_Saturn": 768,
+    "P0b_assembly": 414
+   }
+  }
+ }
+}
