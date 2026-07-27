@@ -1,0 +1,70 @@
+{
+ "breakeven_usd_per_kg": {
+  "32t_cell|FH_3000|veh_0.5B|corporate_8.7": 669631,
+  "32t_cell|FH_3000|veh_0.5B|sovereign_3.0": 226804,
+  "32t_cell|FH_3000|veh_0.5B|undiscounted_0": 125205,
+  "32t_cell|FH_3000|veh_1.0B|corporate_8.7": 753989,
+  "32t_cell|FH_3000|veh_1.0B|sovereign_3.0": 255376,
+  "32t_cell|FH_3000|veh_1.0B|undiscounted_0": 140978,
+  "32t_cell|SS_early_500|veh_0.5B|corporate_8.7": 300566,
+  "32t_cell|SS_early_500|veh_0.5B|sovereign_3.0": 101802,
+  "32t_cell|SS_early_500|veh_0.5B|undiscounted_0": 56199,
+  "32t_cell|SS_early_500|veh_1.0B|corporate_8.7": 384924,
+  "32t_cell|SS_early_500|veh_1.0B|sovereign_3.0": 130374,
+  "32t_cell|SS_early_500|veh_1.0B|undiscounted_0": 71972,
+  "32t_cell|SS_mature_100|veh_0.5B|corporate_8.7": 241516,
+  "32t_cell|SS_mature_100|veh_0.5B|sovereign_3.0": 81801,
+  "32t_cell|SS_mature_100|veh_0.5B|undiscounted_0": 45158,
+  "32t_cell|SS_mature_100|veh_1.0B|corporate_8.7": 325874,
+  "32t_cell|SS_mature_100|veh_1.0B|sovereign_3.0": 110373,
+  "32t_cell|SS_mature_100|veh_1.0B|undiscounted_0": 60931,
+  "88t_cell|FH_3000|veh_0.5B|corporate_8.7": 232755,
+  "88t_cell|FH_3000|veh_0.5B|sovereign_3.0": 89713,
+  "88t_cell|FH_3000|veh_0.5B|undiscounted_0": 53166,
+  "88t_cell|FH_3000|veh_1.0B|corporate_8.7": 257686,
+  "88t_cell|FH_3000|veh_1.0B|sovereign_3.0": 99322,
+  "88t_cell|FH_3000|veh_1.0B|undiscounted_0": 58861,
+  "88t_cell|SS_early_500|veh_0.5B|corporate_8.7": 90649,
+  "88t_cell|SS_early_500|veh_0.5B|sovereign_3.0": 34940,
+  "88t_cell|SS_early_500|veh_0.5B|undiscounted_0": 20706,
+  "88t_cell|SS_early_500|veh_1.0B|corporate_8.7": 115580,
+  "88t_cell|SS_early_500|veh_1.0B|sovereign_3.0": 44549,
+  "88t_cell|SS_early_500|veh_1.0B|undiscounted_0": 26401,
+  "88t_cell|SS_mature_100|veh_0.5B|corporate_8.7": 67912,
+  "88t_cell|SS_mature_100|veh_0.5B|sovereign_3.0": 26176,
+  "88t_cell|SS_mature_100|veh_0.5B|undiscounted_0": 15513,
+  "88t_cell|SS_mature_100|veh_1.0B|corporate_8.7": 92843,
+  "88t_cell|SS_mature_100|veh_1.0B|sovereign_3.0": 35785,
+  "88t_cell|SS_mature_100|veh_1.0B|undiscounted_0": 21207
+ },
+ "price_comparators": {
+  "era100t_5025": 5025.0,
+  "era1000t_2225": 2225.0,
+  "era10000t_505": 505.0,
+  "captive_10k": 10000.0,
+  "captive_25k": 25000.0
+ },
+ "decayed_prices_at_delivery": {
+  "32t_cell": {
+   "era100t_5025": 266,
+   "era1000t_2225": 118,
+   "era10000t_505": 27,
+   "captive_10k": 529,
+   "captive_25k": 1324
+  },
+  "88t_cell": {
+   "era100t_5025": 372,
+   "era1000t_2225": 165,
+   "era10000t_505": 37,
+   "captive_10k": 740,
+   "captive_25k": 1849
+  }
+ },
+ "summary": {
+  "cheapest_breakeven": {
+   "case": "88t_cell|SS_mature_100|veh_0.5B|undiscounted_0",
+   "usd_per_kg": 15513
+  },
+  "cheapest_vs_top_defensible_band": 3.1
+ }
+}
