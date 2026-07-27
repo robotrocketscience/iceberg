@@ -1,0 +1,99 @@
+{
+  "anchor": {
+    "v_inf_arrival": 10.3,
+    "v_sc_arrival": 10.400186713334355,
+    "v_moon": 1.022,
+    "peri_alt_km": 100.0
+  },
+  "delta_max_crosscheck": {
+    "U_m": 9.378,
+    "this_round_deg": 3.3748520265343736,
+    "closed_form_2arcsin_deg": 3.3748520265343736,
+    "match": true,
+    "note": "identical to trajectory-bot flyby_leverage.delta_max / inclination_flyby form"
+  },
+  "HB1": {
+    "r12_first_flyby_shed": 0.45785557513549335,
+    "r12_first_flyby_brake": 0.45785557513549396,
+    "honest_first_flyby_brake": 0.0503780998043073,
+    "honest_theta_deg": 77.6282586974598,
+    "honest_U_m": 10.230042453213523,
+    "ratio_r12_over_honest": 9.088385169627767
+  },
+  "HB2": {
+    "analytic_max_total_shed": 2.068841350338996,
+    "analytic_vinf_floor": 8.231158649661005,
+    "honest_tour_total_shed": 2.068841350338996,
+    "honest_tour_vinf_final": 8.231158649661005,
+    "honest_tour_n_flybys": 54,
+    "r12_claim_10flyby_shed": 5.83
+  },
+  "HB3": {
+    "honest_flybys_to_within_0p02_of_bound": 51,
+    "honest_flybys_to_shed_2kms": 48,
+    "phasing_yr_for_bound": 4.119096509240246,
+    "r12_flybys_for_2kms": "~4 (R12 sheds 2.50 in 5 flybys per its table)"
+  },
+  "HB4": {
+    "phi_0": {
+      "tour_total_shed": 2.068841350338996,
+      "tour_n_flybys": 54,
+      "single_flyby_brake": 0.0503780998043073
+    },
+    "phi_5": {
+      "tour_total_shed": 2.068841350338996,
+      "tour_n_flybys": 54,
+      "single_flyby_brake": 0.0503780998043073
+    },
+    "phi_10": {
+      "tour_total_shed": 2.068841350338996,
+      "tour_n_flybys": 55,
+      "single_flyby_brake": 0.0503780998043073
+    },
+    "phi_20": {
+      "tour_total_shed": 2.068841350338996,
+      "tour_n_flybys": 57,
+      "single_flyby_brake": 0.0503780998043073
+    },
+    "max_frac_change_vs_phi0": 0.0
+  },
+  "HB6": {
+    "r12_U_m_first": 11.422186713334355,
+    "r12_U_m_last": 3.0977089839064202,
+    "r12_U_m_frac_drop": 0.7287989540312689,
+    "r12_n_flybys_to_vinf_lt_0p5": 14,
+    "r12_total_shed": 10.153064997983844,
+    "note": "U_m should be CONSTANT; R12 lets it fall => inflates late-flyby dv"
+  },
+  "HB5": {
+    "honest_residual_vinf": 8.231158649661005,
+    "honest_phasing_yr": 4.119096509240246,
+    "r12_residual_vinf": 4.47,
+    "r12_phasing_yr": 0.8076659822039699,
+    "n_strict_cells_honest": 0,
+    "n_strict_cells_r12_reproduce": 8,
+    "best_honest_delivery_frac": 0.5103745310734551,
+    "best_honest_round_trip_yr": 17.299096509240247,
+    "example_honest_cell_15kwe10": {
+      "power_kwe": 15.0,
+      "sp": 10.0,
+      "residual_vinf": 8.231158649661005,
+      "delivered_t": 6.97387452090408,
+      "delivery_frac": 0.49813389435029143,
+      "round_trip_yr": 20.121978240073854,
+      "closes_15yr_strict": false,
+      "closes_14yr": false,
+      "feasible": true
+    }
+  },
+  "verdicts": {
+    "H-B1": true,
+    "H-B2": true,
+    "H-B3": true,
+    "H-B4": true,
+    "H-B5": true,
+    "H-B6": true,
+    "held": 6,
+    "of": 6
+  }
+}
