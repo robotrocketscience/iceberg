@@ -1,0 +1,157 @@
+{
+  "anchors": {
+    "v_circ": 18827.798100373057,
+    "v_esc": 26626.52742316997,
+    "vinf": 6210.0,
+    "dv_impulsive_at_ring": 8513.30763104941,
+    "ve_met": 7845.32
+  },
+  "HD1": {
+    "ring_relative_velocity": {
+      "apoapsis_1.00x_rp": {
+        "v_peri_kms": 18.827798100373055,
+        "v_rel_ms": 0.0
+      },
+      "apoapsis_1.10x_rp": {
+        "v_peri_kms": 19.2708657338642,
+        "v_rel_ms": 443.06763349114044
+      },
+      "apoapsis_1.30x_rp": {
+        "v_peri_kms": 20.0180739137961,
+        "v_rel_ms": 1190.2758134230462
+      },
+      "apoapsis_2.00x_rp": {
+        "v_peri_kms": 21.740468602996618,
+        "v_rel_ms": 2912.6705026235613
+      },
+      "apoapsis_5.00x_rp": {
+        "v_peri_kms": 24.306582829500158,
+        "v_rel_ms": 5478.784729127103
+      },
+      "apoapsis_11.42x_rp": {
+        "v_peri_kms": 25.53191263993631,
+        "v_rel_ms": 6704.114539563252
+      }
+    },
+    "v_rel_at_1p3x_rp_ms": 1190.2758134230462,
+    "capture_threshold_ms": "~1 (mm/s-low-m/s, locked finding 1)"
+  },
+  "HD2": {
+    "periapsis_burn_dv_kms": 8.513307631049429,
+    "continuous_spiral_dv_kms": 21.9,
+    "impulsive_dv_kms": 8.513307631049411
+  },
+  "HD3": {
+    "sweep": [
+      {
+        "F_N": 10.0,
+        "peak_kwe": 65,
+        "dv_kms": 7.73,
+        "elapsed_yr": 60.26,
+        "duty": 0.041,
+        "escaped": false
+      },
+      {
+        "F_N": 15.0,
+        "peak_kwe": 98,
+        "dv_kms": 7.77,
+        "elapsed_yr": 62.66,
+        "duty": 0.026,
+        "escaped": false
+      },
+      {
+        "F_N": 20.0,
+        "peak_kwe": 131,
+        "dv_kms": 7.79,
+        "elapsed_yr": 67.29,
+        "duty": 0.018,
+        "escaped": false
+      },
+      {
+        "F_N": 25.0,
+        "peak_kwe": 163,
+        "dv_kms": 7.79,
+        "elapsed_yr": 62.76,
+        "duty": 0.016,
+        "escaped": false
+      },
+      {
+        "F_N": 30.0,
+        "peak_kwe": 196,
+        "dv_kms": 7.8,
+        "elapsed_yr": 75.45,
+        "duty": 0.011,
+        "escaped": false
+      },
+      {
+        "F_N": 40.0,
+        "peak_kwe": 262,
+        "dv_kms": 7.8,
+        "elapsed_yr": 129.45,
+        "duty": 0.005,
+        "escaped": false
+      },
+      {
+        "F_N": 50.0,
+        "peak_kwe": 327,
+        "dv_kms": 8.51,
+        "elapsed_yr": 58.85,
+        "duty": 0.009,
+        "escaped": true
+      },
+      {
+        "F_N": 75.0,
+        "peak_kwe": 490,
+        "dv_kms": 7.81,
+        "elapsed_yr": 63.52,
+        "duty": 0.005,
+        "escaped": false
+      },
+      {
+        "F_N": 100.0,
+        "peak_kwe": 654,
+        "dv_kms": 7.82,
+        "elapsed_yr": 83.34,
+        "duty": 0.003,
+        "escaped": false
+      },
+      {
+        "F_N": 150.0,
+        "peak_kwe": 981,
+        "dv_kms": 7.83,
+        "elapsed_yr": 430.76,
+        "duty": 0.0,
+        "escaped": false
+      },
+      {
+        "F_N": 200.0,
+        "peak_kwe": 1308,
+        "dv_kms": 8.51,
+        "elapsed_yr": 9.85,
+        "duty": 0.014,
+        "escaped": true
+      },
+      {
+        "F_N": 300.0,
+        "peak_kwe": 1961,
+        "dv_kms": 8.51,
+        "elapsed_yr": 3.1,
+        "duty": 0.029,
+        "escaped": true
+      }
+    ],
+    "min_peak_kwe_2yr": null,
+    "min_2yr_duty": null,
+    "min_peak_kwe_5yr": 1961,
+    "r179_impulsive_kwe": 175,
+    "roundC_continuous_kwe": 1248
+  },
+  "verdicts": {
+    "H-D1": true,
+    "H-D2": true,
+    "H-D3": false,
+    "H-D4": true,
+    "held": 3,
+    "of": 4
+  }
+}
