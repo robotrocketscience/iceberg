@@ -1,0 +1,30 @@
+# R-electrolysis-departure-stage — does a reactor-charged H₂/O₂ departure stage relieve the megawatt departure?
+
+**Status:** SCOPE pre-registered 2026-07-22, before `run.py`. `scope_bounds.py` computes the propellant + electrolysis-power comparison.
+**Worker:** worktree-115637 session. Project-owner-directed: pursue the "high-thrust departure stage decoupled from the low-thrust cruise engine" lever that `R-lowthrust-spiral-departure` / `R-eccentric-harvest-departure` surfaced as the honest answer to the megawatt departure.
+**Predecessors:** `R-lowthrust-spiral-departure` (`2690b6b`) + `R-eccentric-harvest-departure` (`c17d088`) — the electric low-thrust departure is robustly ~1248 kWe (megawatt), because a low-thrust engine cannot exploit Oberth. The only sub-megawatt departure is a **high-thrust** burn. This round evaluates the water-compatible high-thrust option: reactor-charged **electrolysis → H₂/O₂ chemical burn**.
+
+## The lever under test
+
+Decouple departure from the cruise engine: the reactor slowly **electrolyzes harvested water into H₂/O₂ over the Saturn dwell** (steady low/moderate power, storing energy chemically), then a **high-thrust H₂/O₂ engine** does the Oberth-efficient **impulsive** 8.5 km/s departure from the circular ring orbit. This trades the reactor's *peak* power (megawatt, for the electric spiral) for *average* power (electrolysis over months) and recovers the Oberth Δv (8.5 vs the electric spiral's 21.9 km/s). The question: how far does it relieve bet #3's departure power, and at what water-propellant / dry-mass / cryo-storage cost?
+
+## Boundary
+
+- **IN:** the three-way departure trade (reactor peak power, harvested-water propellant mass, added dry mass, key risk) for: (1) electric low-thrust spiral (baseline, 1248 kWe / ~1530 t water); (2) reactor-charged H₂/O₂ chemical impulsive departure (electrolysis power over dwell ∈ {1,2,3} yr; H₂/O₂ Isp ∈ {380,420,450} s; electrolysis specific energy ~20 MJ/kg; added mass = electrolysis plant + cryo H₂/O₂ tanks + engine; H₂-boiloff / just-in-time-electrolysis power coupling); the Kilopower-window check (how long a dwell would electrolysis-at-30-kWe need).
+- **OUT:** the inbound cruise leg (its own power); the harvest-rate model (dwell duration is swept, not derived); detailed cryocooler sizing (H₂ boiloff treated as a first-order risk + a just-in-time-electrolysis power spike, not a full thermal model); non-water chemical propellants (defeat the free-water premise — out of scope by design); Earth-departure / outbound leg.
+
+## Pre-registered hypotheses (numeric, falsifiable, before run.py)
+
+**H-F1 [S] — the H₂/O₂ departure uses LESS harvested water than the electric spiral.** Chemical recovers the Oberth Δv (8.5 km/s impulsive) at Isp 380–450 s → 586–879 t water; the electric spiral (21.9 km/s, Isp 800 s) → ~1530 t. The Oberth Δv factor (2.6×) beats the Isp factor (~2×). **Falsified** if chemical propellant ≥ electric propellant at any tested Isp.
+
+**H-F2 [S] — the reactor peak power for the electrolysis route is few-hundred kWe: 2–6× below the electric spiral, but NOT Kilopower class.** Electrolysis energy / dwell over 1–2 yr gives ~250–600 kWe (vs 1248 electric); reaching Kilopower-class (~30 kWe) electrolysis would need a >15-yr dwell (absurd). **Falsified** if the electrolysis reactor power < 100 kWe at a ≤3-yr dwell (would approach flyable) or ≥ 1248 kWe (no relief).
+
+**H-F3 [S] — the stage adds first-order dry mass and a cryo-H₂ storage problem.** The electrolysis plant + cryo H₂/O₂ tanks + chemical engine add ≥ several tonnes; H₂ is 11 % of the H₂/O₂ mass (~65–100 t of the propellant) and must be stored cryogenically over the dwell or electrolyzed just-in-time (which spikes the reactor power back up). **Falsified** if the added dry mass is < 1 t or H₂ storage/power-spike is not first-order.
+
+**H-F4 [W] — a genuine partial win, not a silver bullet: the departure softens from megawatt to few-hundred-kWe, bet #3 not relieved to Kilopower.** No electrolysis-departure configuration gets the reactor below ~100 kWe at a reasonable dwell while also delivering positive payload. **Falsified** if some configuration yields a Kilopower-class (< 40 kWe) reactor departure with positive delivered payload and no cryo-storage showstopper.
+
+**Honest expected reading (pre-registered):** H-F1/F2/F3 hold. The reactor-charged H₂/O₂ departure stage is a **real lever** — it moves departure off the reactor's peak-power budget, roughly halving both the reactor power (1248 → ~300–500 kWe) and the departure water propellant (1530 → ~770 t), and it directly answers the project-owner "think outside the box on power" note. But it does **not** relieve bet #3 to Kilopower class (electrolysis is fundamentally hundreds of kWe over a multi-year dwell — a Kilopower-class electrolysis would take >15 yr), and it introduces a cryogenic H₂ storage/boiloff problem and electrolysis+engine dry mass that eats delivered payload. Net: the honest "outside the box" answer softens the megawatt departure headline to few-hundred-kWe at the cost of a new subsystem and a cryo-storage risk — worth carrying as the leading departure-architecture candidate, quantified not hyped.
+
+## Method
+
+Deterministic. `run.py`: (1) propellant for each architecture via the rocket equation at its Δv/Isp. (2) Electrolysis energy = propellant × specific-energy; reactor peak power = energy / dwell, swept over dwell {1,2,3} yr × Isp {380,420,450}. (3) Kilopower-window: dwell needed for electrolysis at 30 kWe. (4) Added-mass model: electrolysis plant (power-scaled, ~5–10 kg/kW), cryo tanks (H₂ ~12 % of H₂ mass, O₂ ~4 % of O₂ mass), H₂/O₂ engine (~0.3 t), and the delivered-payload hit. (5) Just-in-time electrolysis power spike (electrolyze in a short pre-departure window to avoid H₂ storage) as the cryo-avoidance alternative. **Anchors:** μ_S 3.793e16, R_ring 1.07e8, v∞ 6210, v_circ/v_esc as R179; electric baseline Δv 21.9 km/s / Isp 800 / 1248 kWe (Round C); electrolysis specific energy 20 MJ/kg (≈70 % efficient); H₂ mass fraction 2/18, O₂ 16/18.

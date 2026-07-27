@@ -1,0 +1,111 @@
+{
+  "anchors": {
+    "dv_impulsive_kms": 8.513307631049411,
+    "dv_electric_spiral_kms": 21.9,
+    "v_circ": 18827.798100373057,
+    "v_hyp": 27341.105731422467,
+    "m_f_t": 100.0
+  },
+  "architectures": {
+    "electric_spiral": {
+      "dv_kms": 21.9,
+      "isp": 800,
+      "prop_t": 1530.5021584341691,
+      "reactor_kwe": 1248,
+      "reactor_note": "PEAK, 2-yr continuous departure burn",
+      "delivery_eff": 0.061330798909235214,
+      "added_dry_t": 0.0,
+      "risk": "megawatt reactor; retired-as-fantasy band"
+    },
+    "h2o2_isp380": {
+      "dv_kms": 8.513307631049411,
+      "isp": 380.0,
+      "prop_t": 882.0924034296372,
+      "h2_t": 98.01026704773746,
+      "o2_t": 784.0821363818997,
+      "reactor_kwe_by_dwell": {
+        "dwell_1yr_kwe": 559,
+        "dwell_2yr_kwe": 279,
+        "dwell_3yr_kwe": 186
+      },
+      "reactor_note": "AVERAGE, electrolysis over dwell",
+      "delivery_eff": 0.1018234125941537,
+      "added_dry_t": 47.4,
+      "added_breakdown_t": {
+        "electrolysis_plant": 2.8,
+        "cryo_tanks_jettisonable": 44.1,
+        "engine": 0.5
+      },
+      "risk": "cryo H2 storage (77 t H2 at 20 K over the dwell) is first-order"
+    },
+    "h2o2_isp420": {
+      "dv_kms": 8.513307631049411,
+      "isp": 420.0,
+      "prop_t": 690.0628691333744,
+      "h2_t": 76.67365212593049,
+      "o2_t": 613.3892170074439,
+      "reactor_kwe_by_dwell": {
+        "dwell_1yr_kwe": 437,
+        "dwell_2yr_kwe": 219,
+        "dwell_3yr_kwe": 146
+      },
+      "reactor_note": "AVERAGE, electrolysis over dwell",
+      "delivery_eff": 0.12657220571533848,
+      "added_dry_t": 37.2,
+      "added_breakdown_t": {
+        "electrolysis_plant": 2.2,
+        "cryo_tanks_jettisonable": 34.5,
+        "engine": 0.5
+      },
+      "risk": "cryo H2 storage (77 t H2 at 20 K over the dwell) is first-order"
+    },
+    "h2o2_isp450": {
+      "dv_kms": 8.513307631049411,
+      "isp": 450.0,
+      "prop_t": 588.3630361884273,
+      "h2_t": 65.37367068760302,
+      "o2_t": 522.9893655008242,
+      "reactor_kwe_by_dwell": {
+        "dwell_1yr_kwe": 373,
+        "dwell_2yr_kwe": 186,
+        "dwell_3yr_kwe": 124
+      },
+      "reactor_note": "AVERAGE, electrolysis over dwell",
+      "delivery_eff": 0.14527218160015606,
+      "added_dry_t": 31.8,
+      "added_breakdown_t": {
+        "electrolysis_plant": 1.9,
+        "cryo_tanks_jettisonable": 29.4,
+        "engine": 0.5
+      },
+      "risk": "cryo H2 storage (77 t H2 at 20 K over the dwell) is first-order"
+    },
+    "thermal_steam_isp190": {
+      "dv_kms": 8.513307631049411,
+      "isp": 190,
+      "prop_t": 9545.05488874201,
+      "delivery_eff": 0.010368007352319263,
+      "reactor_note": "thrust from heating stored liquid water \u2014 no cryo",
+      "risk": "Isp too low -> propellant-prohibitive"
+    }
+  },
+  "kilopower_window_yr": 14.57673994789553,
+  "just_in_time_electrolysis_kwe": {
+    "30d": 5325,
+    "90d": 1775,
+    "180d": 887
+  },
+  "delivery_framing": {
+    "electric_departure_leg_eff": 0.061,
+    "h2o2_isp420_departure_leg_eff": 0.127,
+    "note": "Saturn's deep well makes chunk-return departure intrinsically propellant-hungry; H2/O2 roughly doubles the departure-leg mass efficiency vs the electric spiral, but both are single-digit-to-teens %"
+  },
+  "verdicts": {
+    "H-F1": true,
+    "H-F2": true,
+    "H-F3": true,
+    "H-F4": true,
+    "held": 4,
+    "of": 4
+  }
+}
