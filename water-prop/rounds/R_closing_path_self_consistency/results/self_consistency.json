@@ -1,0 +1,196 @@
+{
+  "ledger": {
+    "derived_dry_t": 93.198432885,
+    "rows": [
+      {
+        "node": "P0_Earth_to_LEO.multi_falcon_4_launch",
+        "mass_t": 116.49804110624999,
+        "propellant_t": 23.29960822125,
+        "payload_t": 0.0,
+        "years": 0.4928131416837782,
+        "mass_below_derived_dry": false
+      },
+      {
+        "node": "P0b_assembly.autonomous_assembly",
+        "mass_t": 102.5182761735,
+        "propellant_t": 20.5036552347,
+        "payload_t": 0.0,
+        "years": 0.7392197125256673,
+        "mass_below_derived_dry": false
+      },
+      {
+        "node": "P1_LEO_to_Saturn.falcon_heavy_plus_helios_kick",
+        "mass_t": 9.220037645865528,
+        "propellant_t": 4.9256260203956135,
+        "payload_t": 0.0,
+        "years": 7.239219712525667,
+        "mass_below_derived_dry": true
+      },
+      {
+        "node": "P1b_cruise_ops.mars_jupiter_gravity_assist",
+        "mass_t": 8.683427270531036,
+        "propellant_t": 4.3890156450611215,
+        "payload_t": 0.0,
+        "years": 9.239219712525667,
+        "mass_below_derived_dry": true
+      },
+      {
+        "node": "P2_Saturn_capture.direct_chemical_capture",
+        "mass_t": 5.455937247629783,
+        "propellant_t": 1.1615256221598684,
+        "payload_t": 0.0,
+        "years": 9.239333789641798,
+        "mass_below_derived_dry": true
+      },
+      {
+        "node": "P3_chunk_acquisition.single_pass_trawl",
+        "mass_t": 175.40593724762977,
+        "propellant_t": 1.1115256221598684,
+        "payload_t": 170.0,
+        "years": 9.277663700661646,
+        "mass_below_derived_dry": false
+      },
+      {
+        "node": "P4_Saturn_departure.chunk_fed_spiral_departure",
+        "mass_t": 55.7185952823136,
+        "propellant_t": 1.1115256221598684,
+        "payload_t": 50.31265803468383,
+        "years": 17.27766370066165,
+        "mass_below_derived_dry": true
+      },
+      {
+        "node": "P5_inbound_cruise_ops.inbound_ballistic",
+        "mass_t": 55.7185952823136,
+        "propellant_t": 1.1115256221598684,
+        "payload_t": 50.31265803468383,
+        "years": 17.27766370066165,
+        "mass_below_derived_dry": true
+      },
+      {
+        "node": "P6_Earth_arrival.hybrid_aerocapture_aerobraking",
+        "mass_t": 50.68732947884522,
+        "propellant_t": 1.1115256221598684,
+        "payload_t": 45.28139223121545,
+        "years": 17.315993611681495,
+        "mass_below_derived_dry": true
+      },
+      {
+        "node": "P7_lunar_processing.passthrough_already_at_leo",
+        "mass_t": 50.68732947884522,
+        "propellant_t": 1.1115256221598684,
+        "payload_t": 45.28139223121545,
+        "years": 17.315993611681495,
+        "mass_below_derived_dry": true
+      }
+    ],
+    "violations": [
+      "P1_LEO_to_Saturn",
+      "P1b_cruise_ops",
+      "P2_Saturn_capture",
+      "P4_Saturn_departure",
+      "P5_inbound_cruise_ops",
+      "P6_Earth_arrival",
+      "P7_lunar_processing"
+    ]
+  },
+  "corrected_sweep": {
+    "m=1.0,f=0.15": {
+      "arrived_at_depot": 0,
+      "delivered_floor_10t": 0,
+      "delivered_floor_20t": 0,
+      "delivered_floor": 0,
+      "best_t": 0.0
+    },
+    "m=1.0,f=0.18": {
+      "arrived_at_depot": 0,
+      "delivered_floor_10t": 0,
+      "delivered_floor_20t": 0,
+      "delivered_floor": 0,
+      "best_t": 0.0
+    },
+    "m=1.0,f=0.2": {
+      "arrived_at_depot": 0,
+      "delivered_floor_10t": 0,
+      "delivered_floor_20t": 0,
+      "delivered_floor": 0,
+      "best_t": 0.0
+    },
+    "m=1.0,f=0.22": {
+      "arrived_at_depot": 0,
+      "delivered_floor_10t": 0,
+      "delivered_floor_20t": 0,
+      "delivered_floor": 0,
+      "best_t": 0.0
+    },
+    "m=1.0,f=0.25": {
+      "arrived_at_depot": 0,
+      "delivered_floor_10t": 0,
+      "delivered_floor_20t": 0,
+      "delivered_floor": 0,
+      "best_t": 0.0
+    },
+    "m=1.0,f=0.3": {
+      "arrived_at_depot": 0,
+      "delivered_floor_10t": 0,
+      "delivered_floor_20t": 0,
+      "delivered_floor": 0,
+      "best_t": 0.0
+    },
+    "m=1.0,f=0.8": {
+      "arrived_at_depot": 0,
+      "delivered_floor_10t": 0,
+      "delivered_floor_20t": 0,
+      "delivered_floor": 0,
+      "best_t": 0.0
+    },
+    "m=0.43,f=0.15": {
+      "arrived_at_depot": 0,
+      "delivered_floor_10t": 0,
+      "delivered_floor_20t": 0,
+      "delivered_floor": 0,
+      "best_t": 0.0
+    },
+    "m=0.43,f=0.18": {
+      "arrived_at_depot": 0,
+      "delivered_floor_10t": 0,
+      "delivered_floor_20t": 0,
+      "delivered_floor": 0,
+      "best_t": 0.0
+    },
+    "m=0.43,f=0.2": {
+      "arrived_at_depot": 0,
+      "delivered_floor_10t": 0,
+      "delivered_floor_20t": 0,
+      "delivered_floor": 0,
+      "best_t": 0.0
+    },
+    "m=0.43,f=0.22": {
+      "arrived_at_depot": 0,
+      "delivered_floor_10t": 0,
+      "delivered_floor_20t": 0,
+      "delivered_floor": 0,
+      "best_t": 0.0
+    },
+    "m=0.43,f=0.25": {
+      "arrived_at_depot": 0,
+      "delivered_floor_10t": 0,
+      "delivered_floor_20t": 0,
+      "delivered_floor": 0,
+      "best_t": 0.0
+    },
+    "m=0.43,f=0.3": {
+      "arrived_at_depot": 0,
+      "delivered_floor_10t": 0,
+      "delivered_floor_20t": 0,
+      "delivered_floor": 0,
+      "best_t": 0.0
+    },
+    "m=0.43,f=0.8": {
+      "arrived_at_depot": 0,
+      "delivered_floor_10t": 0,
+      "delivered_floor_20t": 0,
+      "delivered_floor": 0,
+      "best_t": 0.0
+    }
+  }
+}
