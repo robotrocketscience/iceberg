@@ -1,0 +1,92 @@
+{
+  "requirement_kms": 5.44,
+  "moons": {
+    "Tethys": {
+      "a_km": 294619.0,
+      "v_moon": 11.346477226743724,
+      "vinf_bring": 3.063989380776519,
+      "dep_excess": 0.0,
+      "vinf_needed_5p44": 5.596919449071544,
+      "vinf_gap": 2.532930068295025,
+      "flyby_turn_deg": 0.3275349295561187
+    },
+    "Dione": {
+      "a_km": 377396.0,
+      "v_moon": 10.025193756318165,
+      "vinf_bring": 3.361740008914386,
+      "dep_excess": 0.0,
+      "vinf_needed_5p44": 5.160411918248835,
+      "vinf_gap": 1.7986719093344492,
+      "flyby_turn_deg": 0.47281645046817905
+    },
+    "Rhea": {
+      "a_km": 527108.0,
+      "v_moon": 8.482846679219707,
+      "vinf_bring": 3.5548899242561065,
+      "dep_excess": 0.9948502240859232,
+      "vinf_needed_5p44": 4.689509813310307,
+      "vinf_gap": 1.1346198890542007,
+      "flyby_turn_deg": 0.7859895537985876
+    },
+    "Titan": {
+      "a_km": 1221870.0,
+      "v_moon": 5.571587051409716,
+      "vinf_bring": 3.335727297869912,
+      "dep_excess": 4.1539239730657,
+      "vinf_needed_5p44": 4.0033157962892,
+      "vinf_gap": 0.6675884984192875,
+      "flyby_turn_deg": 21.223332182863533
+    },
+    "Iapetus": {
+      "a_km": 3560820.0,
+      "v_moon": 3.263746439608604,
+      "vinf_bring": 2.4753960427558823,
+      "dep_excess": 3.410817319758582,
+      "vinf_needed_5p44": 3.8705146744883345,
+      "vinf_gap": 1.3951186317324522,
+      "flyby_turn_deg": 1.284662078194802
+    }
+  },
+  "H1": {
+    "name": "vinf_T from B-ring ~3.3, not 4.0",
+    "predicted": "vinf_T in [3.0,3.6] km/s (reproduces R186)",
+    "measured": "3.34 km/s",
+    "held": true,
+    "note": "Tisserand-conserved by Titan flybys -> this is the ceiling"
+  },
+  "H2": {
+    "name": "best single-moon excess Titan ~4.1 < 5.44",
+    "predicted": "best in [3.8,4.5] km/s < 5.44",
+    "measured": "Titan 4.15 km/s",
+    "held": true,
+    "note": "Titan is the sweet spot (moon speed vs well depth)"
+  },
+  "H3": {
+    "name": "no moon reaches 5.44; all underprovided",
+    "predicted": "max over moons < 5.0 km/s AND every gap > 0",
+    "measured": "max 4.15 km/s; all_short=True",
+    "held": true,
+    "note": "inner moons deeper (worse), Iapetus far/slow (worse)"
+  },
+  "H4": {
+    "name": "vinf_T gap unbridgeable w/o propulsion; R186 confirmed",
+    "predicted": "best excess < 5.44 AND inner-moon turn < 2 deg",
+    "measured": "best 4.15 < 5.44; inner turns 0.79 deg max; Titan gap +0.67",
+    "held": true,
+    "note": "manufacturing the 0.67 km/s vinf_T gap = supplying the departure energy yourself (R186's conclusion)"
+  },
+  "revisit_notes": [
+    "Analytic Tisserand/delta-max Saturn-frame model, not a time-dependent beam search. The single-moon caps are geometry (not phasing) dependent, so a phased tour cannot exceed them; the delta-max handoff bound shows the inner moons cannot pump vinf_T. A full Saturn-frame beam search (re-hosting trajectory-bot's heliocentric tour code) would only add tour DEPTH, not raise the per-moon escape cap -- it cannot beat Titan's 4.15 km/s.",
+    "Direction compounds the magnitude shortfall (not separately graded): the Titan-pumped Saturn-centric vinf points in a flyby-geometry-constrained direction that must then ADD to Saturn's heliocentric velocity in the RETROGRADE (sunward-dropping) sense for an Earth-return transfer. Even the 4.15 km/s magnitude would pay a cosine penalty to point correctly -- so 4.15 is an optimistic upper bound on the usable departure contribution.",
+    "vinf_T is Tisserand-conserved by TITAN flybys (the pump moon), so the arrival value 3.34 is a hard ceiling for Titan-only tours. Non-Titan pumping needs the inner moons, which turn <1 deg/flyby -- the round's decisive point.",
+    "B-ring taken at r=107,000 km (campaign R_RING). A lower harvest orbit (deeper) would give slightly higher vinf_T at Titan but also a deeper well to climb; the Titan cap is insensitive to it at the ~0.1 km/s level."
+  ],
+  "verdict": {
+    "H1": true,
+    "H2": true,
+    "H3": true,
+    "H4": true,
+    "crack_closed": true,
+    "summary": "The crack the ephemeris round opened is CLOSED and R186's Titan-lever revocation is CONFIRMED -- now with a derived Saturn-frame reason, not an asserted bound. The spacecraft harvests at the B-ring, and the minimal transfer to Titan fixes its Titan-relative excess at vinf_T = 3.34 km/s (reproducing R186's ~3.3 from first principles). Titan flybys conserve vinf_T, so a Titan-only tour caps the Saturn-centric departure excess at 4.15 km/s -- Titan is the sweet spot (inner moons are deeper and give less: Rhea 0.99, Tethys/Dione ~0; Iapetus far/slow at 3.41). Every moon needs more vinf than the B-ring provides (Titan closest, short by 0.67 km/s). The only way to pump vinf_T is a non-Titan handoff, but the inner moons turn the spacecraft <1 deg/flyby (mu 41-154 vs Titan's 8978) -- far too weak. So reaching the vinf_T=4.01 threshold requires propulsion, which is just supplying the departure energy the tour was meant to save. The 155-175 kWe reactor floor and bet #3 stand; the Titan 117 kWe branch stays dead. (Direction adds a further cosine penalty, so 4.15 is itself optimistic.)"
+  }
+}
