@@ -1,0 +1,139 @@
+{
+  "anchors": {
+    "rho_grain": 3000.0,
+    "L_transport": 1.0,
+    "mdot_kg_s": 0.0005,
+    "q_powerlaw": 3.5,
+    "r_min_nm": 5.0,
+    "silicate_frac": 0.003,
+    "m_prop_t": 690.0,
+    "grid_silicate_budget_kg": 16.67
+  },
+  "vapor": {
+    "200": {
+      "P_sat": 0.1658,
+      "rho_g": 0.0,
+      "J": 0.0002,
+      "d_max": 5.986500124956416e-10,
+      "A_ice": 2.297,
+      "d_max_nm": 0.599
+    },
+    "220": {
+      "P_sat": 2.6927,
+      "rho_g": 0.0,
+      "J": 0.0034,
+      "d_max": 8.840200780817721e-09,
+      "A_ice": 0.1483,
+      "d_max_nm": 8.84
+    },
+    "250": {
+      "P_sat": 76.3836,
+      "rho_g": 0.0007,
+      "J": 0.0897,
+      "d_max": 2.206800038674064e-07,
+      "A_ice": 0.0056,
+      "d_max_nm": 220.68
+    },
+    "273": {
+      "P_sat": 603.3784,
+      "rho_g": 0.0048,
+      "J": 0.6782,
+      "d_max": 1.596357246818937e-06,
+      "A_ice": 0.0007,
+      "d_max_nm": 1596.357
+    }
+  },
+  "f_pass_gas": {
+    "200": {
+      "rmax_1um": 0.0,
+      "rmax_100um": 0.0
+    },
+    "220": {
+      "rmax_1um": 0.0,
+      "rmax_100um": 0.0
+    },
+    "250": {
+      "rmax_1um": 0.28135906815186246,
+      "rmax_100um": 0.026332597346299377
+    },
+    "273": {
+      "rmax_1um": 0.8852977569565184,
+      "rmax_100um": 0.0828556531646435
+    }
+  },
+  "f_pass_electrostatic": {
+    "low_1e-3": {
+      "optimistic": 1e-05,
+      "pessimistic": 0.0001
+    },
+    "hsu_0.1": {
+      "optimistic": 0.001,
+      "pessimistic": 0.010000000000000002
+    },
+    "hsu_0.3": {
+      "optimistic": 0.003,
+      "pessimistic": 0.03
+    }
+  },
+  "corners": {
+    "cold200_smallnano_opt": {
+      "f_pass": 1e-05,
+      "grid_consumed": 0.001242,
+      "life_limited": false
+    },
+    "warm273_powerlaw_1um": {
+      "f_pass": 0.8852977569565184,
+      "grid_consumed": 109.95398141399957,
+      "life_limited": true
+    },
+    "cold200_hsu_pessim": {
+      "f_pass": 0.03,
+      "grid_consumed": 3.7259999999999995,
+      "life_limited": true
+    },
+    "warm273_hsu_pessim": {
+      "f_pass": 0.8852977569565184,
+      "grid_consumed": 109.95398141399957,
+      "life_limited": true
+    },
+    "r11_assumed_central": {
+      "f_pass": 0.0001,
+      "grid_consumed": 0.01242,
+      "life_limited": false
+    }
+  },
+  "verdicts": {
+    "H-K1": {
+      "held": true,
+      "d_max_nm": {
+        "200": 0.599,
+        "220": 8.84,
+        "250": 220.68,
+        "273": 1596.357
+      }
+    },
+    "H-K2": {
+      "held": true,
+      "A_ice_200K_m2": 2.297
+    },
+    "H-K3": {
+      "held": true,
+      "gas_cold_max": 0.0,
+      "gas_warm_rmax1um": 0.8852977569565184,
+      "gas_warm_rmax100um": 0.0828556531646435,
+      "spans_assumed_1e-4": true,
+      "not_robust_either_way": true
+    },
+    "H-K4": {
+      "held": true,
+      "es_hsu_pessim": 0.03
+    },
+    "H-K5": {
+      "held": true,
+      "grid_consumed_warm_hsu": 109.95,
+      "grid_consumed_cold_small": 0.0012
+    },
+    "held_count": 5,
+    "of": 5
+  }
+}
