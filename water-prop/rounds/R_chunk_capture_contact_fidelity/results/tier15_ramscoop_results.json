@@ -1,0 +1,114 @@
+{
+  "round": "R_chunk_capture_contact_fidelity (Tier-1.5 re-scoped execution)",
+  "seed": 20260724,
+  "n": 50000,
+  "run_a_shared_prior": {
+    "tag": "run A \u2014 shared-prior band (Tier-1 comparability)",
+    "p_water": 1.0,
+    "p_coherent": 1.0,
+    "bootstrap_ci": [
+      1.0,
+      1.0
+    ],
+    "mode_shares": {
+      "captured_coherent": 1.0,
+      "aperture_miss": 0.0,
+      "oversize_jam": 0.0,
+      "bounce_out": 0.0,
+      "containment_tear": 0.0,
+      "captured_rubble": 0.0
+    }
+  },
+  "run_b_residual_live": {
+    "tag": "run B \u2014 GNC-residual live (operating envelope)",
+    "p_water": 1.0,
+    "p_coherent": 1.0,
+    "bootstrap_ci": [
+      1.0,
+      1.0
+    ],
+    "mode_shares": {
+      "captured_coherent": 1.0,
+      "aperture_miss": 0.0,
+      "oversize_jam": 0.0,
+      "bounce_out": 0.0,
+      "containment_tear": 0.0,
+      "captured_rubble": 0.0
+    }
+  },
+  "cliff_profile": [
+    {
+      "v_op_ms": 0.003,
+      "p_water": 1.0,
+      "p_coherent": 1.0,
+      "share_bounce_out": 0.0,
+      "share_tear": 0.0
+    },
+    {
+      "v_op_ms": 0.01,
+      "p_water": 1.0,
+      "p_coherent": 1.0,
+      "share_bounce_out": 0.0,
+      "share_tear": 0.0
+    },
+    {
+      "v_op_ms": 0.03,
+      "p_water": 1.0,
+      "p_coherent": 1.0,
+      "share_bounce_out": 0.0,
+      "share_tear": 0.0
+    },
+    {
+      "v_op_ms": 0.1,
+      "p_water": 1.0,
+      "p_coherent": 1.0,
+      "share_bounce_out": 0.0,
+      "share_tear": 0.0
+    },
+    {
+      "v_op_ms": 0.3,
+      "p_water": 1.0,
+      "p_coherent": 1.0,
+      "share_bounce_out": 0.0,
+      "share_tear": 0.0
+    },
+    {
+      "v_op_ms": 1.0,
+      "p_water": 1.0,
+      "p_coherent": 1.0,
+      "share_bounce_out": 0.0,
+      "share_tear": 0.0
+    },
+    {
+      "v_op_ms": 3.0,
+      "p_water": 0.57305,
+      "p_coherent": 0.4193,
+      "share_bounce_out": 0.0948,
+      "share_tear": 0.33215
+    }
+  ],
+  "total_order_sensitivity_at_cliff_3ms": {
+    "chunk_mass_t": 0.1529616649497815,
+    "spin_rate_rpm": 0.0,
+    "approach_vel_cms": 0.0,
+    "sensor_noise_m": 0.0,
+    "surface_friction": 0.0,
+    "chunk_density_kg_m3": 0.006228080820430843,
+    "aspect_ratio": 0.003238602026624038,
+    "restitution_e": 0.18385294581911849,
+    "ceiling_coeff_ms": 0.8617172623148114,
+    "drawstring_speed_ms": 0.18036522055967721,
+    "gnc_residual_ms": 0.0,
+    "ice_tensile_kpa": 0.0
+  },
+  "hk4_collapse_1cms_to_1ms": 0.0,
+  "harpoon_cross_check_p": 0.54912,
+  "tier1_ramscoop_ref": 0.405,
+  "eta_dv": {
+    "harpoon": 0.2085,
+    "ramscoop": 0.0392,
+    "source": "rhea-3 coupled model, 200 t anchor"
+  },
+  "hk2_delivered_lead_x": 2.9207020408163267,
+  "hk5_halfwidth_n1200": 0.0
+}
