@@ -1,0 +1,64 @@
+{
+  "H1_xc": {
+    "cell_alpha_closed": -112.7,
+    "cell_alpha_full_engine": -112.7,
+    "chunk200_zero": 0.0,
+    "monotonic_curve": {
+      "25": -112.7,
+      "50": -95.5,
+      "100": -62.2,
+      "150": -30.4,
+      "200": 0.0
+    },
+    "het_reference": -112.7
+  },
+  "H2_decay": {
+    "chunk25_delta_vs_rate_P0_3.5": {
+      "static": -157.8,
+      "cons": -39.8,
+      "central": -23.1,
+      "median": -11.0,
+      "bull": -1.1
+    },
+    "all_negative": true,
+    "central_penalty_band": [
+      -26.4,
+      -19.8
+    ],
+    "static_penalty_band": [
+      -180.3,
+      -135.2
+    ],
+    "narrowing_pct": [
+      89,
+      80
+    ],
+    "flip_rate_pct_per_yr": 76
+  },
+  "H3_time": {
+    "combined_eff_rate_pct": 15.8,
+    "full_m1_revenue_pv_M": 28.5,
+    "gain_per_year_per_mission_M": 4.9,
+    "fleet_compression_1yr_M": -206.0,
+    "compression_capex_delta_M": -269.1,
+    "compression_revenue_delta_M": 63.1,
+    "chunk25_shrink_loss_M": 23.1,
+    "fleet_compression_beats_shrink": false,
+    "reading": "per-mission revenue-timing gain is real ($4.9M, in band) and confirms chunk-shrink is dominated -- BUT naive whole-fleet compression is NET-NEGATIVE: it un-discounts committed capex faster than it rescues already-decayed revenue. The lever is DEFERRING unneeded capex (Regime R, H4), not compressing the committed fleet."
+  },
+  "H4_regimeR": {
+    "advantage_static_het_P0_2.5_M": 2733,
+    "het_reference_M": 2733,
+    "advantage_static_P0_3.5_M": 1450,
+    "advantage_central_decay_P0_3.5_M": 5626,
+    "stays_positive": true,
+    "below_static": false,
+    "direction_finding": "FALSIFIED-in-direction: pre-registered to SHRINK under decay; instead GROWS (decay destroys Regime-D's late deliveries whose capex was already committed, so stage-gating the fleet is MORE valuable under decay)."
+  },
+  "grades": {
+    "H1": "HELD",
+    "H2": "HELD",
+    "H3": "FALSIFIED",
+    "H4": "FALSIFIED"
+  }
+}
