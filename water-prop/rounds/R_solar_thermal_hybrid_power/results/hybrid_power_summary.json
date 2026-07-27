@@ -1,0 +1,155 @@
+{
+  "round": "R-solar-thermal-hybrid-power",
+  "author": "hyperion (re-spawn 2)",
+  "date": "2026-05-26",
+  "isp_s": 2000.0,
+  "inbound_dv_km_s": 27.56,
+  "reactor_kwe": 10.0,
+  "solar_leo_kwe": 20.0,
+  "H1_solar_share_by_bin": {
+    "Saturn_9.5AU": {
+      "dist_au": 9.5,
+      "solar_kwe": 0.22,
+      "solar_share_of_hybrid_power": 0.022
+    },
+    "Jupiter_5.2AU": {
+      "dist_au": 5.2,
+      "solar_kwe": 0.74,
+      "solar_share_of_hybrid_power": 0.069
+    },
+    "belt_2.7AU": {
+      "dist_au": 2.7,
+      "solar_kwe": 2.74,
+      "solar_share_of_hybrid_power": 0.215
+    },
+    "Mars_1.5AU": {
+      "dist_au": 1.5,
+      "solar_kwe": 8.89,
+      "solar_share_of_hybrid_power": 0.471
+    },
+    "Earth_1.0AU": {
+      "dist_au": 1.0,
+      "solar_kwe": 20.0,
+      "solar_share_of_hybrid_power": 0.667
+    }
+  },
+  "H2_burn_time_reduction": {
+    "nominal": {
+      "reactor_only_burn_yr": 112.496,
+      "hybrid_burn_yr": 100.544,
+      "burn_time_reduction_pct": 10.6,
+      "reactor_only_reactor_hours": 986136.0,
+      "hybrid_reactor_hours": 881372.0,
+      "per_bin_hybrid": {
+        "Earth_1.0AU": {
+          "dv_km_s": 2.56,
+          "dist_au": 1.0,
+          "solar_kwe": 20.0,
+          "power_kwe": 30.0,
+          "propellant_t": 8.4,
+          "burn_time_yr": 1.7,
+          "prop_fraction": 0.046
+        },
+        "Mars_1.5AU": {
+          "dv_km_s": 3.0,
+          "dist_au": 1.5,
+          "solar_kwe": 8.89,
+          "power_kwe": 18.89,
+          "propellant_t": 11.3,
+          "burn_time_yr": 3.646,
+          "prop_fraction": 0.061
+        },
+        "belt_2.7AU": {
+          "dv_km_s": 4.0,
+          "dist_au": 2.7,
+          "solar_kwe": 2.74,
+          "power_kwe": 12.74,
+          "propellant_t": 18.0,
+          "burn_time_yr": 8.62,
+          "prop_fraction": 0.098
+        },
+        "Jupiter_5.2AU": {
+          "dv_km_s": 6.0,
+          "dist_au": 5.2,
+          "solar_kwe": 0.74,
+          "power_kwe": 10.74,
+          "propellant_t": 35.0,
+          "burn_time_yr": 19.84,
+          "prop_fraction": 0.19
+        },
+        "Saturn_9.5AU": {
+          "dv_km_s": 12.0,
+          "dist_au": 9.5,
+          "solar_kwe": 0.22,
+          "power_kwe": 10.22,
+          "propellant_t": 111.9,
+          "burn_time_yr": 66.739,
+          "prop_fraction": 0.606
+        }
+      }
+    },
+    "generous_to_hybrid": {
+      "reactor_only_burn_yr": 112.496,
+      "hybrid_burn_yr": 86.994,
+      "burn_time_reduction_pct": 22.7,
+      "reactor_only_reactor_hours": 986136.0,
+      "hybrid_reactor_hours": 762594.0,
+      "per_bin_hybrid": {
+        "Earth_1.0AU": {
+          "dv_km_s": 7.0,
+          "dist_au": 1.0,
+          "solar_kwe": 20.0,
+          "power_kwe": 30.0,
+          "propellant_t": 25.7,
+          "burn_time_yr": 5.228,
+          "prop_fraction": 0.139
+        },
+        "Mars_1.5AU": {
+          "dv_km_s": 6.0,
+          "dist_au": 1.5,
+          "solar_kwe": 8.89,
+          "power_kwe": 18.89,
+          "propellant_t": 30.7,
+          "burn_time_yr": 9.9,
+          "prop_fraction": 0.166
+        },
+        "belt_2.7AU": {
+          "dv_km_s": 4.56,
+          "dist_au": 2.7,
+          "solar_kwe": 2.74,
+          "power_kwe": 12.74,
+          "propellant_t": 30.5,
+          "burn_time_yr": 14.574,
+          "prop_fraction": 0.165
+        },
+        "Jupiter_5.2AU": {
+          "dv_km_s": 4.0,
+          "dist_au": 5.2,
+          "solar_kwe": 0.74,
+          "power_kwe": 10.74,
+          "propellant_t": 33.2,
+          "burn_time_yr": 18.858,
+          "prop_fraction": 0.18
+        },
+        "Saturn_9.5AU": {
+          "dv_km_s": 6.0,
+          "dist_au": 9.5,
+          "solar_kwe": 0.22,
+          "power_kwe": 10.22,
+          "propellant_t": 64.5,
+          "burn_time_yr": 38.434,
+          "prop_fraction": 0.349
+        }
+      }
+    }
+  },
+  "verdict": {
+    "H1_solar_negligible_beyond_2AU": false,
+    "H2_reduction_nominal_pct": 10.6,
+    "H2_reduction_generous_pct": 22.7,
+    "H3_moves_closed_loop_closure": false,
+    "H3_reason": "Saturn closed-loop is 0/150 on the mass-floor + reactor-lifetime axes (titan-6). Hybrid power shortens inbound BURN TIME only (propellant is fixed by Tsiolkovsky, independent of power); it does not reduce vehicle dry mass and so cannot relieve the mass-floor kill. The burn-time / reactor-hours benefit is bounded and helps round-trip + lifetime margin, not the binding mass constraint.",
+    "H5_invasive_refactor_justified_for_closure": false,
+    "H5_recommendation": "A local power(r) function in the inbound burn-time accounting captures the dial-up effect for round-trip/reactor-hours fidelity and conops. The full VehicleState two-field split + per-executor recompute + new sweep axes is NOT justified by the closure verdict under the closed-loop framework."
+  }
+}
