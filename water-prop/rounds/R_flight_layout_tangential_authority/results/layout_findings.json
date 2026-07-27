@@ -1,0 +1,95 @@
+{
+  "anchors": {
+    "F_N": 5.0,
+    "bus_half_dims_m": [
+      1.5,
+      1.5,
+      2.0
+    ],
+    "z_bag_m": 8.0,
+    "L_berth": 5000.0,
+    "tau_threshold": 2.5
+  },
+  "HA1": {
+    "three_axis_couples": {
+      "x": {
+        "torque": 20.0,
+        "net_force_N": 0.0,
+        "combo": [
+          "Ty-T",
+          "Ty+B"
+        ]
+      },
+      "y": {
+        "torque": 20.0,
+        "net_force_N": 0.0,
+        "combo": [
+          "Tx+T",
+          "Tx-B"
+        ]
+      },
+      "z": {
+        "torque": 30.0,
+        "net_force_N": 0.0,
+        "combo": [
+          "Ty+T",
+          "Ty-T",
+          "Tx+T",
+          "Tx-T"
+        ]
+      }
+    },
+    "all_three": true
+  },
+  "HA2": {
+    "inplane_authority": {
+      "+x": 20.0,
+      "-x": 20.0,
+      "+y": 20.0,
+      "-y": 20.0,
+      "all_four_feasible": true,
+      "min_inplane_couple_torque": 20.0
+    },
+    "both_axes_plume_safe": true
+  },
+  "HA3": {
+    "min_inplane_couple_torque_Nm": 20.0,
+    "dump_time_s": 250.0,
+    "propellant_kg": 41.666666666666664
+  },
+  "HA4": {
+    "distributed_12": {
+      "survives": false,
+      "first_break": {
+        "failed": "Ty+T",
+        "lost": [
+          "-x"
+        ]
+      }
+    },
+    "redundant_16tangential": {
+      "survives": true,
+      "first_break": null
+    }
+  },
+  "HA5": {
+    "inplane_authority": {
+      "+x": null,
+      "-x": null,
+      "+y": null,
+      "-y": null,
+      "all_four_feasible": false,
+      "min_inplane_couple_torque": 0.0
+    },
+    "any_inplane_plume_safe": false
+  },
+  "verdicts": {
+    "H-A1": true,
+    "H-A2": true,
+    "H-A3": true,
+    "H-A4": false,
+    "H-A5": true,
+    "held": 4,
+    "of": 5
+  }
+}
