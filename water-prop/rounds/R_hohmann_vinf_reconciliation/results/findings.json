@@ -1,0 +1,46 @@
+{
+  "H1": {
+    "vinf_by_a_saturn_km_s": {
+      "9.537": 5.443,
+      "9.5388": 5.443,
+      "9.582": 5.439
+    },
+    "min_energy_vinf_km_s": 5.44,
+    "campaign_value_km_s": 6.21,
+    "gap_pct": 12.4
+  },
+  "H2": {
+    "perihelion_for_6.21_AU": 0.646,
+    "tangent_hohmann_perihelion_AU": 1.0,
+    "reading": "6.21 is a faster transfer (perihelion inside Venus orbit ~0.65 AU), conservative by 14%, not the minimum-energy Hohmann."
+  },
+  "H3": {
+    "v_circ_ring_km_s": 18.83,
+    "v_esc_ring_km_s": 26.63,
+    "dv_at_6.21_km_s": 8.513,
+    "dv_at_5.44_km_s": 8.349,
+    "dv_change_km_s": 0.164,
+    "dv_change_pct": 1.9,
+    "d_dv_d_vinf": 0.23,
+    "reproduces_R179_8.51": true
+  },
+  "H4": {
+    "reactor_kwe_at_6.21": 159,
+    "reactor_kwe_at_5.44": 154,
+    "reactor_change_kwe": 5,
+    "R179_headline_9.0_spiral_kwe": 175,
+    "existing_band_kwe": [
+      155,
+      175
+    ],
+    "titan_cap_km_s": 3.2,
+    "titan_cap_below_min_vinf": true,
+    "revocation_holds": true
+  },
+  "grades": {
+    "H1": "HELD",
+    "H2": "HELD",
+    "H3": "HELD",
+    "H4": "HELD"
+  }
+}
