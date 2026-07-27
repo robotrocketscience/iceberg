@@ -1,0 +1,292 @@
+{
+  "round": "R-vehicle-mass-fidelity-refinement",
+  "author": "hyperion (re-spawn 2)",
+  "date": "2026-05-26",
+  "H1_H5_propellant_fraction_sensitivity": [
+    {
+      "propellant_fraction": 0.7,
+      "arrived_at_depot": 0,
+      "delivered_floor_10t": 0,
+      "delivered_floor_20t": 0,
+      "delivered_floor": 0,
+      "n_cells": 150
+    },
+    {
+      "propellant_fraction": 0.8,
+      "arrived_at_depot": 0,
+      "delivered_floor_10t": 0,
+      "delivered_floor_20t": 0,
+      "delivered_floor": 0,
+      "n_cells": 150
+    },
+    {
+      "propellant_fraction": 0.85,
+      "arrived_at_depot": 0,
+      "delivered_floor_10t": 0,
+      "delivered_floor_20t": 0,
+      "delivered_floor": 0,
+      "n_cells": 150
+    },
+    {
+      "propellant_fraction": 0.9,
+      "arrived_at_depot": 0,
+      "delivered_floor_10t": 0,
+      "delivered_floor_20t": 0,
+      "delivered_floor": 0,
+      "n_cells": 150
+    },
+    {
+      "propellant_fraction": 0.95,
+      "arrived_at_depot": 0,
+      "delivered_floor_10t": 0,
+      "delivered_floor_20t": 0,
+      "delivered_floor": 0,
+      "n_cells": 150
+    },
+    {
+      "propellant_fraction": 0.98,
+      "arrived_at_depot": 0,
+      "delivered_floor_10t": 0,
+      "delivered_floor_20t": 0,
+      "delivered_floor": 0,
+      "n_cells": 150
+    }
+  ],
+  "binding_failure_diagnostic_at_0.80": {
+    "propellant_fraction": 0.8,
+    "feasible_paths": 0,
+    "reasons": {
+      "launch_cap: Falcon Heavy expended cap 63800 kg": 150,
+      "launch_cap: Starship cap 100000 kg": 150,
+      "launch_cap: 2-Falcon-Heavy raw deliverable 100000 kg": 150,
+      "launch_cap: 4-Falcon-Heavy raw deliverable 200000 kg": 130,
+      "other: pending-assembly flag is set; cannot passthrough \u2014 must use ": 90,
+      "other: depot-relay assembly requires params['existing_leo_depot']=T": 90,
+      "launch_cap: 6-Falcon-Heavy raw deliverable 300000 kg": 80,
+      "other: chunk-fed water-MET needs power >= 30.0 kWe, have 20.0": 72,
+      "other: electric leg needs power >= 30.0 kWe, have 20.0": 72,
+      "other: electric thruster needs at least 20.0 kWe, have 1.0 kWe": 25
+    }
+  },
+  "derived_mass_table_power_x_chunk": [
+    {
+      "power_kwe": 1.0,
+      "chunk_t": 10.0,
+      "dry_t": 27.678740158730243,
+      "wet_t": 138.39370079365122,
+      "converged": true
+    },
+    {
+      "power_kwe": 1.0,
+      "chunk_t": 25.0,
+      "dry_t": 33.125067571466246,
+      "wet_t": 165.62533785733126,
+      "converged": true
+    },
+    {
+      "power_kwe": 1.0,
+      "chunk_t": 50.0,
+      "dry_t": 42.206999691776,
+      "wet_t": 211.03499845888007,
+      "converged": true
+    },
+    {
+      "power_kwe": 1.0,
+      "chunk_t": 100.0,
+      "dry_t": 60.350435979775995,
+      "wet_t": 301.75217989888006,
+      "converged": true
+    },
+    {
+      "power_kwe": 1.0,
+      "chunk_t": 200.0,
+      "dry_t": 96.66555405338623,
+      "wet_t": 483.3277702669313,
+      "converged": true
+    },
+    {
+      "power_kwe": 10.0,
+      "chunk_t": 10.0,
+      "dry_t": 35.161520430141444,
+      "wet_t": 175.80760215070725,
+      "converged": true
+    },
+    {
+      "power_kwe": 10.0,
+      "chunk_t": 25.0,
+      "dry_t": 40.61353267865599,
+      "wet_t": 203.06766339328004,
+      "converged": true
+    },
+    {
+      "power_kwe": 10.0,
+      "chunk_t": 50.0,
+      "dry_t": 49.68935456000001,
+      "wet_t": 248.44677280000013,
+      "converged": true
+    },
+    {
+      "power_kwe": 10.0,
+      "chunk_t": 100.0,
+      "dry_t": 67.828687110656,
+      "wet_t": 339.14343555328,
+      "converged": true
+    },
+    {
+      "power_kwe": 10.0,
+      "chunk_t": 200.0,
+      "dry_t": 104.14833432479746,
+      "wet_t": 520.7416716239874,
+      "converged": true
+    },
+    {
+      "power_kwe": 11.0,
+      "chunk_t": 10.0,
+      "dry_t": 36.001418584576,
+      "wet_t": 180.00709292288005,
+      "converged": true
+    },
+    {
+      "power_kwe": 11.0,
+      "chunk_t": 25.0,
+      "dry_t": 41.444449470976004,
+      "wet_t": 207.22224735488007,
+      "converged": true
+    },
+    {
+      "power_kwe": 11.0,
+      "chunk_t": 50.0,
+      "dry_t": 50.50943776000001,
+      "wet_t": 252.5471888000001,
+      "converged": true
+    },
+    {
+      "power_kwe": 11.0,
+      "chunk_t": 100.0,
+      "dry_t": 68.659603902976,
+      "wet_t": 343.2980195148801,
+      "converged": true
+    },
+    {
+      "power_kwe": 11.0,
+      "chunk_t": 200.0,
+      "dry_t": 104.97975435495425,
+      "wet_t": 524.8987717747714,
+      "converged": true
+    },
+    {
+      "power_kwe": 20.0,
+      "chunk_t": 10.0,
+      "dry_t": 43.479669715456005,
+      "wet_t": 217.39834857728007,
+      "converged": true
+    },
+    {
+      "power_kwe": 20.0,
+      "chunk_t": 25.0,
+      "dry_t": 48.93674656000001,
+      "wet_t": 244.6837328000001,
+      "converged": true
+    },
+    {
+      "power_kwe": 20.0,
+      "chunk_t": 50.0,
+      "dry_t": 57.99441874585601,
+      "wet_t": 289.9720937292801,
+      "converged": true
+    },
+    {
+      "power_kwe": 20.0,
+      "chunk_t": 100.0,
+      "dry_t": 76.137855033856,
+      "wet_t": 380.68927516928005,
+      "converged": true
+    },
+    {
+      "power_kwe": 20.0,
+      "chunk_t": 200.0,
+      "dry_t": 112.46253462636545,
+      "wet_t": 562.3126731318274,
+      "converged": true
+    },
+    {
+      "power_kwe": 30.0,
+      "chunk_t": 10.0,
+      "dry_t": 51.7843234944,
+      "wet_t": 258.92161747200004,
+      "converged": true
+    },
+    {
+      "power_kwe": 30.0,
+      "chunk_t": 25.0,
+      "dry_t": 57.23186852505601,
+      "wet_t": 286.1593426252801,
+      "converged": true
+    },
+    {
+      "power_kwe": 30.0,
+      "chunk_t": 50.0,
+      "dry_t": 66.303586669056,
+      "wet_t": 331.51793334528014,
+      "converged": true
+    },
+    {
+      "power_kwe": 30.0,
+      "chunk_t": 100.0,
+      "dry_t": 84.46788550969345,
+      "wet_t": 422.3394275484673,
+      "converged": true
+    },
+    {
+      "power_kwe": 30.0,
+      "chunk_t": 200.0,
+      "dry_t": 120.77673492793345,
+      "wet_t": 603.8836746396673,
+      "converged": true
+    },
+    {
+      "power_kwe": 55.0,
+      "chunk_t": 10.0,
+      "dry_t": 72.561757446656,
+      "wet_t": 362.8087872332801,
+      "converged": true
+    },
+    {
+      "power_kwe": 55.0,
+      "chunk_t": 25.0,
+      "dry_t": 78.00478833305601,
+      "wet_t": 390.0239416652801,
+      "converged": true
+    },
+    {
+      "power_kwe": 55.0,
+      "chunk_t": 50.0,
+      "dry_t": 87.09896155449346,
+      "wet_t": 435.4948077724673,
+      "converged": true
+    },
+    {
+      "power_kwe": 55.0,
+      "chunk_t": 100.0,
+      "dry_t": 105.25338626361346,
+      "wet_t": 526.2669313180673,
+      "converged": true
+    },
+    {
+      "power_kwe": 55.0,
+      "chunk_t": 200.0,
+      "dry_t": 141.56223568185345,
+      "wet_t": 707.8111784092674,
+      "converged": true
+    }
+  ],
+  "cells_wet_over_6x_falcon_heavy_300t": 16,
+  "verdict": {
+    "H1_closure_moves_with_propellant_fraction": false,
+    "H1_falsified": true,
+    "binding_failure": "launch phase: self-consistent wet vehicle exceeds all launch options (max 6x Falcon Heavy 300 t / Starship 100 t)",
+    "H5_no_refinement_exceeds_5pct_closure": true,
+    "H5_held": true,
+    "reason": "Closure is 0/150 across propellant fraction 0.70-0.98 and every floor. The collapse is launch-mass-bound (heavy self-consistent vehicle cannot be launched), not propellant-quantity-bound. Per-phase Tsiolkovsky derivation changes propellant bookkeeping, not the powerplant+chunk-scaled dry mass that drives wet mass over launch capacity. titan-6's refactor verdict is robust."
+  }
+}
