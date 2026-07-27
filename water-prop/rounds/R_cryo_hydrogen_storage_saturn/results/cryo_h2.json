@@ -1,0 +1,138 @@
+{
+  "tank": {
+    "m_h2_t": 77.0,
+    "volume_m3": 1087.5706214689267,
+    "radius_m": 6.379543739481951,
+    "diam_m": 12.759087478963902,
+    "area_m2": 511.43341869644837
+  },
+  "HG1": {
+    "grid": {
+      "Th50_e5e-04": {
+        "W": 0.088,
+        "boiloff_2yr_pct": 0.016
+      },
+      "Th50_e1e-03": {
+        "W": 0.177,
+        "boiloff_2yr_pct": 0.032
+      },
+      "Th50_e2e-03": {
+        "W": 0.353,
+        "boiloff_2yr_pct": 0.065
+      },
+      "Th90_e5e-04": {
+        "W": 0.949,
+        "boiloff_2yr_pct": 0.174
+      },
+      "Th90_e1e-03": {
+        "W": 1.898,
+        "boiloff_2yr_pct": 0.349
+      },
+      "Th90_e2e-03": {
+        "W": 3.796,
+        "boiloff_2yr_pct": 0.698
+      },
+      "Th150_e5e-04": {
+        "W": 7.338,
+        "boiloff_2yr_pct": 1.349
+      },
+      "Th150_e1e-03": {
+        "W": 14.676,
+        "boiloff_2yr_pct": 2.697
+      },
+      "Th150_e2e-03": {
+        "W": 29.351,
+        "boiloff_2yr_pct": 5.395
+      }
+    },
+    "nominal_90K_e1e-3_boiloff_2yr_pct": 0.349,
+    "near_earth_250K_boiloff_2yr_pct": 20.8,
+    "saturn_advantage_factor": 60
+  },
+  "HG2": {
+    "total_conversion_energy_J": 40579000000.0,
+    "uncatalyzed_self_heat_kW_1yr": 1.29,
+    "uncatalyzed_boiloff_frac_full_conversion_pct": 118.0,
+    "catalyzed_at_liquefaction_pct": 0.0,
+    "note": "power is only ~1.3 kW (worker pre-reg said >100 kW = WRONG) but full conversion boils off 118% of the inventory -> catalysis MANDATORY (conclusion holds via boiloff fraction, not power)"
+  },
+  "HG3": {
+    "grid": {
+      "unshielded": {
+        "VF_eff": 0.1,
+        "W": 696248.579,
+        "boiloff_1yr_pct": 63984.64
+      },
+      "point-away": {
+        "VF_eff": 0.01,
+        "W": 69624.858,
+        "boiloff_1yr_pct": 6398.46
+      },
+      "1-layer shadow": {
+        "VF_eff": 0.001,
+        "W": 6962.486,
+        "boiloff_1yr_pct": 639.85
+      },
+      "JWST-class shield": {
+        "VF_eff": 1e-05,
+        "W": 69.625,
+        "boiloff_1yr_pct": 6.4
+      },
+      "extreme shield": {
+        "VF_eff": 1e-06,
+        "W": 6.962,
+        "boiloff_1yr_pct": 0.64
+      }
+    },
+    "VF_eff_required_for_10W": 1.4362686406696512e-06,
+    "geometry": {
+      "boom_20m": {
+        "geom_VF": 0.008768,
+        "A_rad_m2": 44,
+        "W_no_shield": 61047.9,
+        "shield_atten_for_10W": 0.0001638
+      },
+      "boom_50m": {
+        "geom_VF": 0.001403,
+        "A_rad_m2": 44,
+        "W_no_shield": 9767.7,
+        "shield_atten_for_10W": 0.0010238
+      },
+      "boom_100m": {
+        "geom_VF": 0.000351,
+        "A_rad_m2": 44,
+        "W_no_shield": 2441.9,
+        "shield_atten_for_10W": 0.0040951
+      }
+    },
+    "finding": "reactor is the DOMINANT source; a 1-layer shadow shield (VF_eff 1e-3) leaves ~7 kW. Benign (<10 W) needs VF_eff ~1.4e-6 = JWST-class multilayer shadow shield, OR co-locate the tank in the reactor's existing radiation shadow shield (the vehicle already carries one for electronics/payload)."
+  },
+  "HG4": {
+    "scenarios": {
+      "1-layer shadow VF1e-3": {
+        "total_W": 6969.38,
+        "boiloff_2yr_pct": 1280.96,
+        "cryocooler_kW": 121.96
+      },
+      "JWST-class VF1e-5": {
+        "total_W": 76.52,
+        "boiloff_2yr_pct": 14.06,
+        "cryocooler_kW": 1.34
+      },
+      "extreme VF1e-6": {
+        "total_W": 13.86,
+        "boiloff_2yr_pct": 2.55,
+        "cryocooler_kW": 0.24
+      }
+    }
+  },
+  "verdicts": {
+    "H-G1_HELD": true,
+    "H-G2_power_clause_HELD": false,
+    "H-G2_conclusion_HELD": true,
+    "H-G3_asregistered_HELD": false,
+    "H-G4_asregistered_HELD": false,
+    "H-G4_recovers_with_JWST_shield": false,
+    "net": "storage tractable ONLY with a JWST-class reactor-tank thermal shadow shield (or co-location in the reactor's existing radiation shadow); the reactor, not the cold Saturn environment, is the dominant heat source. Round F survives with a SHARPENED requirement. Worker pre-reg H-G2(power)/H-G3/H-G4 falsified."
+  }
+}
