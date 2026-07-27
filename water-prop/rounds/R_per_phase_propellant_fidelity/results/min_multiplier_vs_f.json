@@ -1,0 +1,167 @@
+{
+ "corridor_150kwe_500t": {
+  "scan": {
+   "0.3": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.35": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.4": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.45": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.5": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.55": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.6": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.65": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.7": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.75": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.8": {
+    "min_multiplier": 8.75,
+    "delivered_t": 32.6
+   },
+   "0.85": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   }
+  },
+  "f_optimal": 0.8,
+  "min_mult_at_opt": 8.75,
+  "min_mult_at_f080": 8.75,
+  "delivered_at_opt_t": 32.6
+ },
+ "corridor_200kwe_1000t": {
+  "scan": {
+   "0.3": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.35": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.4": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.45": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.5": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.55": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.6": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.65": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.7": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.75": {
+    "min_multiplier": 11.41,
+    "delivered_t": 37.3
+   },
+   "0.8": {
+    "min_multiplier": 15.29,
+    "delivered_t": 89.2
+   },
+   "0.85": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   }
+  },
+  "f_optimal": 0.75,
+  "min_mult_at_opt": 11.41,
+  "min_mult_at_f080": 15.29,
+  "delivered_at_opt_t": 37.3
+ },
+ "electric_200kwe_500t_10tfloor": {
+  "scan": {
+   "0.3": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.35": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.4": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.45": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.5": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.55": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.6": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.65": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.7": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.75": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.8": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   },
+   "0.85": {
+    "min_multiplier": null,
+    "delivered_t": 0.0
+   }
+  },
+  "f_optimal": null
+ }
+}
