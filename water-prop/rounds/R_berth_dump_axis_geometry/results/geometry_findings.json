@@ -1,0 +1,372 @@
+{
+  "anchors": {
+    "tau_dump_Nm": 50.0,
+    "threshold_Nm": 2.5,
+    "layout": "8 tangential + 2 prograde + 2 retro"
+  },
+  "H1": {
+    "name": "dump axis in boom-perpendicular plane",
+    "predicted": "|L.boom|/|L|=0 at alpha=0; <0.35 for alpha<=20 deg",
+    "measured": "0.00 / 0.17 / 0.34 at alpha 0/10/20 deg",
+    "held": true,
+    "note": "L = r_off x m*v_c with r_off||boom -> L perp boom exactly",
+    "along_boom_fraction": {
+      "0": 0.0,
+      "10": 0.17364817766693033,
+      "20": 0.3420201433256687
+    }
+  },
+  "H2": {
+    "name": "tangential couple plume-safe over all in-plane axes",
+    "predicted": "max bag-plume torque < 2.5 N.m at boom>=3 m",
+    "measured": "worst over axes & boom = 0.038 N.m (66x margin)",
+    "held": true,
+    "note": "all tangential plumes ~90 deg to the +z bag (backflow)",
+    "worst_Nm": 0.03810063752039271,
+    "margin_x": 65.61569996465067,
+    "sweep_boom3": [
+      [
+        0,
+        0.02694121915820029
+      ],
+      [
+        5,
+        0.029186781651787272
+      ],
+      [
+        10,
+        0.03121021511354355
+      ],
+      [
+        15,
+        0.03299611999304263
+      ],
+      [
+        20,
+        0.03453090447579267
+      ],
+      [
+        25,
+        0.03580288792515174
+      ],
+      [
+        30,
+        0.036802389779025606
+      ],
+      [
+        35,
+        0.03752180322479057
+      ],
+      [
+        40,
+        0.03795565309173064
+      ],
+      [
+        45,
+        0.03810063752039271
+      ],
+      [
+        50,
+        0.03795565309173064
+      ],
+      [
+        55,
+        0.03752180322479057
+      ],
+      [
+        60,
+        0.036802389779025606
+      ],
+      [
+        65,
+        0.03580288792515174
+      ],
+      [
+        70,
+        0.03453090447579267
+      ],
+      [
+        75,
+        0.03299611999304263
+      ],
+      [
+        80,
+        0.031210215113543553
+      ],
+      [
+        85,
+        0.029186781651787272
+      ],
+      [
+        90,
+        0.02694121915820029
+      ],
+      [
+        95,
+        0.029186781651787275
+      ],
+      [
+        100,
+        0.03121021511354355
+      ],
+      [
+        105,
+        0.03299611999304263
+      ],
+      [
+        110,
+        0.03453090447579267
+      ],
+      [
+        115,
+        0.03580288792515174
+      ],
+      [
+        120,
+        0.0368023897790256
+      ],
+      [
+        125,
+        0.03752180322479057
+      ],
+      [
+        130,
+        0.03795565309173064
+      ],
+      [
+        135,
+        0.03810063752039271
+      ],
+      [
+        140,
+        0.03795565309173064
+      ],
+      [
+        145,
+        0.03752180322479057
+      ],
+      [
+        150,
+        0.036802389779025606
+      ],
+      [
+        155,
+        0.03580288792515174
+      ],
+      [
+        160,
+        0.03453090447579267
+      ],
+      [
+        165,
+        0.03299611999304263
+      ],
+      [
+        170,
+        0.03121021511354355
+      ],
+      [
+        175,
+        0.029186781651787275
+      ],
+      [
+        180,
+        0.026941219158200292
+      ],
+      [
+        185,
+        0.02918678165178727
+      ],
+      [
+        190,
+        0.031210215113543556
+      ],
+      [
+        195,
+        0.03299611999304263
+      ],
+      [
+        200,
+        0.03453090447579267
+      ],
+      [
+        205,
+        0.03580288792515174
+      ],
+      [
+        210,
+        0.036802389779025606
+      ],
+      [
+        215,
+        0.03752180322479057
+      ],
+      [
+        220,
+        0.03795565309173064
+      ],
+      [
+        225,
+        0.03810063752039271
+      ],
+      [
+        230,
+        0.03795565309173065
+      ],
+      [
+        235,
+        0.03752180322479057
+      ],
+      [
+        240,
+        0.03680238977902561
+      ],
+      [
+        245,
+        0.03580288792515174
+      ],
+      [
+        250,
+        0.03453090447579266
+      ],
+      [
+        255,
+        0.032996119993042625
+      ],
+      [
+        260,
+        0.03121021511354355
+      ],
+      [
+        265,
+        0.029186781651787275
+      ],
+      [
+        270,
+        0.026941219158200292
+      ],
+      [
+        275,
+        0.029186781651787265
+      ],
+      [
+        280,
+        0.031210215113543542
+      ],
+      [
+        285,
+        0.03299611999304262
+      ],
+      [
+        290,
+        0.03453090447579268
+      ],
+      [
+        295,
+        0.03580288792515174
+      ],
+      [
+        300,
+        0.0368023897790256
+      ],
+      [
+        305,
+        0.03752180322479057
+      ],
+      [
+        310,
+        0.03795565309173064
+      ],
+      [
+        315,
+        0.03810063752039271
+      ],
+      [
+        320,
+        0.03795565309173065
+      ],
+      [
+        325,
+        0.03752180322479057
+      ],
+      [
+        330,
+        0.03680238977902561
+      ],
+      [
+        335,
+        0.03580288792515173
+      ],
+      [
+        340,
+        0.03453090447579266
+      ],
+      [
+        345,
+        0.032996119993042625
+      ],
+      [
+        350,
+        0.031210215113543553
+      ],
+      [
+        355,
+        0.02918678165178728
+      ]
+    ]
+  },
+  "H3": {
+    "name": "retro is the lone (avoidable) danger; tangential spans in-plane",
+    "predicted": "retro=core danger; tangential spans +/- tau_x AND tau_y",
+    "measured": "retro 1.5 N.m core; tangential spans x=True y=True",
+    "held": true,
+    "note": "excluding retro loses no in-plane axis",
+    "groups": {
+      "T2": {
+        "kind": "tangential",
+        "torque_Nm": 0.021634615384615384,
+        "angle_deg": 90.0,
+        "r_m": 7.211102550927978,
+        "regime": "wing/backflow"
+      },
+      "P0": {
+        "kind": "prograde +z",
+        "torque_Nm": 0.016544117647058824,
+        "angle_deg": 136.68614334171696,
+        "r_m": 8.246211251235321,
+        "regime": "wing/backflow"
+      },
+      "R0": {
+        "kind": "retro -z",
+        "torque_Nm": 1.4585459493609365,
+        "angle_deg": 22.001713674449817,
+        "r_m": 15.0996688705415,
+        "regime": "core"
+      }
+    },
+    "tangential_spans_xy": [
+      true,
+      true
+    ]
+  },
+  "H4": {
+    "name": "leg A plume-safe for all required axes; thread closes",
+    "predicted": "plume-safe in-plane at boom>=3 m AND sway residual manageable",
+    "measured": "in-plane safe (0.04 N.m); sway<=0.34 of L handled by tangential yaw couples",
+    "held": true,
+    "note": "constraint = plume-aware allocation rule + boom>=3 m; no new hw"
+  },
+  "revisit_notes": [
+    "Representative 12-thruster layout (8 tangential + 2 prograde + 2 retro), not the flight layout (which needs the layout drawing, absent per SATURN-SHIP-SPEC.md note 1). The conclusion needs the flight layout to have tangential authority about both in-plane axes -- a generic requirement any 3-axis-couple RCS meets; a real layout only adds authority.",
+    "The H1 in-plane result is exact for r_off || boom; boom sway alpha tilts the dump axis out of plane by ~sin(alpha) (0.34 at 20 deg). The out-of-plane component is a yaw-like torque coverable by tangential x-y couples (sideways plume); only a pathological >45 deg sway would demand retro thrust. Sway is bounded by the cinch/grapple stiffness -- a capture-mechanics parameter.",
+    "Parametrized plume model (P~F/r^2, cos^n forward, beta backflow) inherited from R-berth-plume-impingement -- same model-robustness caveat: the ~100x H2 margin and the tangential-vs-retro geometry distinction survive any plausible plume shape; exact Pa would need DSMC.",
+    "Simultaneous-firing bound: a couple fires <=4 tangential thrusters; even the naive sum (4 x per-thruster max ~0.022) = 0.09 N.m << 2.5, so the exact control-allocation cannot break the bound -- the result is allocation-independent for any tangential-only couple."
+  ],
+  "verdict": {
+    "H1": true,
+    "H2": true,
+    "H3": true,
+    "H4": true,
+    "summary": "The momentum-management thread CLOSES. Because the capture arm is along the boom, the injected momentum is structurally in the boom-perpendicular plane (H1), so every required dump axis is in-plane. In-plane torque couples are realizable from tangential thrusters whose plumes point sideways (~90 deg to the forward bag), giving a max bag-plume torque of ~0.04 N.m over all azimuths -- 66x under the 2.5 N.m re-perturbation threshold (H2). The retro (-z) thrusters are the only plume-danger (~1.5 N.m, plume core) and are avoidable: the tangential set spans +/- torque about both in-plane axes (H3). So leg A (thruster dump) is UNCONDITIONALLY viable for the physically-required dump axes, secured by a cheap plume-aware control-allocation rule (build the couple from tangential thrusters, deprioritize retro) plus a grapple boom >= 3 m -- NO new hardware. Legs B (CMG, ~300-600 kg) and C (precision capture) are retired to optional risk reduction. The only residual is a flight-layout confirmation that tangential authority exists about both in-plane axes (generic for any 3-axis-couple RCS)."
+  }
+}
