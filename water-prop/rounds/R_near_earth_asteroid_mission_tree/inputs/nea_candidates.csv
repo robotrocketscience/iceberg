@@ -1,0 +1,7 @@
+designation,name,rendezvous_dv_km_s,est_diameter_m,spectral_class,est_water_fraction_pct,notes_source
+2008 EV5,2008 EV5,6.29,400,C (carbonaceous),3.0,"Keck KISS 2012 canonical low-dv target; C-type primitive; NHATS-accessible. dv per KISS / NHATS."
+2009 BD,2009 BD,4.9,4,unknown (small),1.5,"Very small (~4 m); extremely low rendezvous dv; candidate for whole-body capture not boulder-pluck. NHATS list."
+2010 GA6,2010 GA6,6.6,22,unknown,1.5,"~22 m; NHATS-accessible mid-range dv. Spectral class not well constrained."
+2000 SG344,2000 SG344,5.0,37,unknown,1.5,"Low dv; possible spent-rocket-body ambiguity historically; small natural body candidate. NHATS."
+101955 Bennu,Bennu,~7.0,490,B (carbonaceous),~3.0,"OSIRIS-REx returned 121.6 g (2023); hydrated phyllosilicates confirmed; rendezvous dv near 7 km/s upper edge of band. Sample-anchored water fraction."
+162173 Ryugu,Ryugu,~6.5,900,Cb (carbonaceous),0.4,"Hayabusa2 returned 5.4 g (2020); measured bulk water fraction low (~0.4%); larger body, dv near band edge. Sample-anchored low water-fraction case."
