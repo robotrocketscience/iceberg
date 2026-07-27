@@ -1,0 +1,260 @@
+{
+  "anchors": {
+    "dv_dep_chem": 8500.0,
+    "dv_dep_elec": 21900.0,
+    "dv_earth_cap": 7300.0,
+    "isp_chem": 420.0,
+    "isp_elec": 800.0,
+    "P_chem_kwe": 350.0,
+    "P_elec_kwe": 1248.0
+  },
+  "grid": [
+    {
+      "chem": true,
+      "D_t": 20.0,
+      "sp": 2.4,
+      "reactor_t": 145.8,
+      "dep_prop_t": 1923,
+      "cap_prop_t": 105,
+      "harvest_t": 2028,
+      "harvest_ratio": 101.4,
+      "delivery_eff_pct": 0.99,
+      "closes_positive": true
+    },
+    {
+      "chem": false,
+      "D_t": 20.0,
+      "sp": 2.4,
+      "reactor_t": 520.0,
+      "dep_prop_t": 15705,
+      "cap_prop_t": 105,
+      "harvest_t": 15810,
+      "harvest_ratio": 790.5,
+      "delivery_eff_pct": 0.13,
+      "closes_positive": true
+    },
+    {
+      "chem": true,
+      "D_t": 20.0,
+      "sp": 10.0,
+      "reactor_t": 35.0,
+      "dep_prop_t": 762,
+      "cap_prop_t": 105,
+      "harvest_t": 867,
+      "harvest_ratio": 43.3,
+      "delivery_eff_pct": 2.31,
+      "closes_positive": true
+    },
+    {
+      "chem": false,
+      "D_t": 20.0,
+      "sp": 10.0,
+      "reactor_t": 124.8,
+      "dep_prop_t": 4522,
+      "cap_prop_t": 105,
+      "harvest_t": 4627,
+      "harvest_ratio": 231.4,
+      "delivery_eff_pct": 0.43,
+      "closes_positive": true
+    },
+    {
+      "chem": true,
+      "D_t": 20.0,
+      "sp": 40.0,
+      "reactor_t": 8.8,
+      "dep_prop_t": 487,
+      "cap_prop_t": 105,
+      "harvest_t": 592,
+      "harvest_ratio": 29.6,
+      "delivery_eff_pct": 3.38,
+      "closes_positive": true
+    },
+    {
+      "chem": false,
+      "D_t": 20.0,
+      "sp": 40.0,
+      "reactor_t": 31.2,
+      "dep_prop_t": 1873,
+      "cap_prop_t": 105,
+      "harvest_t": 1978,
+      "harvest_ratio": 98.9,
+      "delivery_eff_pct": 1.01,
+      "closes_positive": true
+    },
+    {
+      "chem": true,
+      "D_t": 30.0,
+      "sp": 2.4,
+      "reactor_t": 145.8,
+      "dep_prop_t": 2028,
+      "cap_prop_t": 156,
+      "harvest_t": 2184,
+      "harvest_ratio": 72.8,
+      "delivery_eff_pct": 1.37,
+      "closes_positive": true
+    },
+    {
+      "chem": false,
+      "D_t": 30.0,
+      "sp": 2.4,
+      "reactor_t": 520.0,
+      "dep_prop_t": 15988,
+      "cap_prop_t": 156,
+      "harvest_t": 16145,
+      "harvest_ratio": 538.2,
+      "delivery_eff_pct": 0.19,
+      "closes_positive": true
+    },
+    {
+      "chem": true,
+      "D_t": 30.0,
+      "sp": 10.0,
+      "reactor_t": 35.0,
+      "dep_prop_t": 866,
+      "cap_prop_t": 156,
+      "harvest_t": 1023,
+      "harvest_ratio": 34.1,
+      "delivery_eff_pct": 2.93,
+      "closes_positive": true
+    },
+    {
+      "chem": false,
+      "D_t": 30.0,
+      "sp": 10.0,
+      "reactor_t": 124.8,
+      "dep_prop_t": 4805,
+      "cap_prop_t": 156,
+      "harvest_t": 4961,
+      "harvest_ratio": 165.4,
+      "delivery_eff_pct": 0.6,
+      "closes_positive": true
+    },
+    {
+      "chem": true,
+      "D_t": 30.0,
+      "sp": 40.0,
+      "reactor_t": 8.8,
+      "dep_prop_t": 591,
+      "cap_prop_t": 156,
+      "harvest_t": 748,
+      "harvest_ratio": 24.9,
+      "delivery_eff_pct": 4.01,
+      "closes_positive": true
+    },
+    {
+      "chem": false,
+      "D_t": 30.0,
+      "sp": 40.0,
+      "reactor_t": 31.2,
+      "dep_prop_t": 2156,
+      "cap_prop_t": 156,
+      "harvest_t": 2313,
+      "harvest_ratio": 77.1,
+      "delivery_eff_pct": 1.3,
+      "closes_positive": true
+    },
+    {
+      "chem": true,
+      "D_t": 50.0,
+      "sp": 2.4,
+      "reactor_t": 145.8,
+      "dep_prop_t": 2237,
+      "cap_prop_t": 259,
+      "harvest_t": 2496,
+      "harvest_ratio": 49.9,
+      "delivery_eff_pct": 2.0,
+      "closes_positive": true
+    },
+    {
+      "chem": false,
+      "D_t": 50.0,
+      "sp": 2.4,
+      "reactor_t": 520.0,
+      "dep_prop_t": 16554,
+      "cap_prop_t": 259,
+      "harvest_t": 16813,
+      "harvest_ratio": 336.3,
+      "delivery_eff_pct": 0.3,
+      "closes_positive": true
+    },
+    {
+      "chem": true,
+      "D_t": 50.0,
+      "sp": 10.0,
+      "reactor_t": 35.0,
+      "dep_prop_t": 1076,
+      "cap_prop_t": 259,
+      "harvest_t": 1335,
+      "harvest_ratio": 26.7,
+      "delivery_eff_pct": 3.75,
+      "closes_positive": true
+    },
+    {
+      "chem": false,
+      "D_t": 50.0,
+      "sp": 10.0,
+      "reactor_t": 124.8,
+      "dep_prop_t": 5371,
+      "cap_prop_t": 259,
+      "harvest_t": 5630,
+      "harvest_ratio": 112.6,
+      "delivery_eff_pct": 0.89,
+      "closes_positive": true
+    },
+    {
+      "chem": true,
+      "D_t": 50.0,
+      "sp": 40.0,
+      "reactor_t": 8.8,
+      "dep_prop_t": 801,
+      "cap_prop_t": 259,
+      "harvest_t": 1060,
+      "harvest_ratio": 21.2,
+      "delivery_eff_pct": 4.72,
+      "closes_positive": true
+    },
+    {
+      "chem": false,
+      "D_t": 50.0,
+      "sp": 40.0,
+      "reactor_t": 31.2,
+      "dep_prop_t": 2722,
+      "cap_prop_t": 259,
+      "harvest_t": 2981,
+      "harvest_ratio": 59.6,
+      "delivery_eff_pct": 1.68,
+      "closes_positive": true
+    }
+  ],
+  "HH1": {
+    "h2o2_ratio_2.4": 72.8,
+    "electric_ratio_2.4": 538.2,
+    "improvement_x": 7.4
+  },
+  "HH2": {
+    "reactor_h2o2_2.4_t": 145.8,
+    "reactor_electric_2.4_t": 520.0,
+    "delivered_chunk_t": 30
+  },
+  "HH3": {
+    "h2o2_2.4_ratio": 72.8,
+    "h2o2_2.4_delivery_pct": 1.37,
+    "electric_2.4_ratio": 538.2,
+    "h2o2_40_ratio": 24.9,
+    "h2o2_40_delivery_pct": 4.01
+  },
+  "HH4": {
+    "h2o2_viable_lt10to1_at_2.4": false,
+    "h2o2_viable_lt10to1_at_40": false,
+    "min_h2o2_ratio_over_grid": 21.2,
+    "note": "intrinsic round-trip cost: \u0394v at BOTH ends of a deep-well round-trip"
+  },
+  "verdicts": {
+    "H-H1": false,
+    "H-H2": true,
+    "H-H3": true,
+    "H-H4": true,
+    "held": 3,
+    "of": 4
+  }
+}
