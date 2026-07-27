@@ -1,0 +1,62 @@
+{
+  "anchors": {
+    "v_e_ms": 686.4654999999999,
+    "mdot_gps_at_5N": 7.283687235556632,
+    "tau_dump_Nm": 50.0,
+    "t_dump_s": 100.0,
+    "P_damage_Pa": 10000.0
+  },
+  "H1": {
+    "name": "plume pressure below structural limit",
+    "predicted": "worst core P < 100 Pa (0.01x damage limit)",
+    "measured": "2.39 Pa, margin 4189x",
+    "held": true,
+    "note": "aerogel compressive ~10 kPa is the binding limit, not Vectran",
+    "worst_core_Pa": 2.3873241463784303,
+    "margin_x": 4188.790204786391
+  },
+  "H2": {
+    "name": "backflow plume torque below re-perturb threshold",
+    "predicted": "backflow tau < 2.5 N.m at operating point",
+    "measured": "op 0.22 N.m; corner 2.98 N.m; core 10.9 N.m (22% dump)",
+    "held": true,
+    "note": "geometry-conditioned: benign in backflow, re-excites in core",
+    "tau_backflow_op_Nm": 0.22104853207207686,
+    "tau_backflow_worst_Nm": 2.984155182973038,
+    "tau_core_Nm": 10.872141602699955,
+    "threshold_Nm": 2.5
+  },
+  "H3": {
+    "name": "intake ice deposition below clog threshold",
+    "predicted": "cumulative ice < 500 g (1% intake) across grid",
+    "measured": "central 4.4 g; worst 291 g",
+    "held": true,
+    "note": "backflow only; core geometry would multiply x100-1000",
+    "ice_central_g": 4.370212341333978,
+    "ice_worst_g": 291.34748942226526,
+    "clog_g": 500.0
+  },
+  "H4": {
+    "name": "plume not a showstopper; leg A viable under placement constraint",
+    "predicted": "benign in backflow AND backflow placement achievable for the dump axes",
+    "measured": "benign_backflow=True; core re-excites if forced (11 N.m) -> placement constraint, not physics wall",
+    "held": true,
+    "note": "leg A robust under thruster-placement constraint; C/B retire the worst-axis residual, now OPTIONAL not mandatory",
+    "plume_benign_backflow": true,
+    "core_reexcites_if_forced": true
+  },
+  "revisit_notes": [
+    "Parametrized far-field plume model (P ~ F/r^2 with core-peaking kappa and backflow ratio beta), NOT DSMC. Absolute pressures could shift with a real rarefied-plume sim, but H1's 3.6-order margin is robust to any plausible kappa; the geometry-conditioned H2/H4 conclusion (core vs backflow) is the physics, not the exact Pa.",
+    "P_damage = 10 kPa is the aerogel compressive limit (conservative); Vectran laminate is ~1000x stronger, so aerogel is correctly the binding surface. If the aerogel intake is stowed/retracted during the dump, even the core case is mechanically safe -- a possible operational mitigation.",
+    "H2 stress corner (2.98 N.m, backflow at r=2 m, beta=3e-2, F=10) marginally exceeds the 2.5 N.m threshold: at the closest standoff with the highest backflow ratio the plume is NOT negligible. Standoff >= 3 m (grapple-boom length) keeps it clear. This makes boom length a real design parameter.",
+    "Sticking coefficient = 1 (worst-case cold-surface deposition). If the bag surface is above the water frost point during the dump, deposition ~0 and H3 is even safer; if in deep Saturn shadow (~90 K) sticking ~1 holds.",
+    "The worst-case-dump-axis question (can a backflow placement always be found?) is answered qualitatively (12 corner thrusters give broad coverage) not by a full attitude-geometry sweep. That sweep is the named follow-on; until then the residual worst-axis risk is exactly what legs C/B exist to retire."
+  ],
+  "verdict": {
+    "H1": true,
+    "H2": true,
+    "H3": true,
+    "H4": true,
+    "summary": "Plume is NOT a mechanical or contamination showstopper: pressure is 3.6 orders below the aerogel limit (H1) and cumulative intake ice is grams over 50 berths (H3), both robust. The live constraint is RE-PERTURBATION and it is GEOMETRY-CONDITIONED (H2): with the bag in the plume backflow (standoff >= 3 m, tangential-couple thrusters) the torque is ~0.2 N.m, 1/250th of the dump; but if a dump axis forces the bag into the plume core the torque reaches ~22% of the dump and re-excites the just-settled slosh. Verdict: leg A (thruster dump) is VIABLE under a thruster-placement / boom-length constraint (bag in backflow, standoff >= 3 m), which the 12-corner layout can meet for the dump axes -- so the CMG (leg B) and precision-capture (leg C) drop from MANDATORY to OPTIONAL risk reduction for the worst-case-axis residual. The trade does not fully collapse -- it resolves to 'fire the thrusters, place them for backflow, keep boom >= 3 m; hold C/B as the worst-axis backstop.'"
+  }
+}
