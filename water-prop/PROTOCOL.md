@@ -86,6 +86,16 @@ CONVENTIONS imagines `harness.py` shared across rounds plus per-round `run_R<N>.
 
 CONVENTIONS §4 asks for an aggregate prediction (what the campaign as a whole concludes). For us, the aggregate prediction is *what propulsion architecture the campaign recommends for ICEBERG's inbound leg*, with quantitative confidence. Pre-registered in `HYPOTHESES.md` before R0 runs.
 
+## Deviation 8: Trajectory-anchor fidelity tier (adopted in practice 2026-07-22; RATIFIED by project owner 2026-07-26, latest+29b)
+
+Established by `R-ephemeris-departure-anchor` / `R-saturn-frame-titan-tour` (2026-07-22) after Methodology lesson 20 flagged "vis-viva-default anchoring when no primary-text source." Any round that anchors a **trajectory / orbital-mechanics quantity** (a departure v∞, a transfer Δv, a flyby turn angle, a capture geometry) must state which **fidelity tier** the anchor sits on, and prefer the highest available:
+
+- **T0 — hand vis-viva / closed-form.** A hand-derived circular-coplanar or two-body value (e.g., the 5.44 km/s min-energy Hohmann). Acceptable for scoping and for prediction bands, but carries the lesson-20 caveat and must be labeled as such. A T0 anchor may **not** be the sole basis of a load-bearing verdict once a T1/T2 check is feasible.
+- **T1 — vendored solver, cross-validated before use.** A numerical solver (Lambert, patched-conic flyby, low-thrust spiral integrator) vendored from a trusted toolkit (`~/projects/trajectory-bot`) and **cross-validated against a textbook case in the same run before its result is trusted** (e.g., the Lambert solver checked to 5×10⁻⁵ km/s against Curtis Ex 5.2; a δ_max checked against the closed form; a spiral integrator checked to converge to the analytic v_circ). The cross-validation is a gate, not decoration — record it in the round's result JSON.
+- **T2 — real ephemeris.** JPL Horizons state vectors (via trajectory-bot's `ephemeris.py` / `horizons_backend.py`) feeding the T1 solver over a real launch-window grid (e.g., the 134,396-cell Saturn→Earth porkchop). This is the tier that *discharges* the lesson-20 caveat for an anchor.
+
+Discipline: when a T0 anchor is load-bearing for a verdict, graduate it to T1 or T2 before the verdict is treated as durable. When a T1/T2 result and a T0 hand value disagree, the higher tier wins and the disagreement is documented (as with the 5.26 km/s ephemeris minimum bracketing the 5.44 hand value). The vendored solvers and the Horizons pipeline live in `~/projects/trajectory-bot` (see the 2026-07-22 cross-application survey); re-host them into a Saturn frame rather than reinventing local primitives (the local `lunar_flyby.py` reinvented a flyby *without* the v∞-conservation invariant and was falsified by `R-lunar-ga-arrival-fidelity` for exactly that reason).
+
 ---
 
 ## What stays unchanged
@@ -576,3 +586,35 @@ The lesson: in any campaign-style sweep over architecture-defining choices, the 
 This is the structural-sweep-design companion to lesson 20's anchor-discipline stack: lesson 20 catches anchor correction errors (correcting non-load-bearing anchors, back-solving outputs instead of re-deriving inputs); this lesson catches sweep-design errors that hide internal consistency failures.
 
 **Action item carried by R-vehicle-mass-closure-refactor SCOPE** (titan-6 currently executing; STUDY.md pre-registered with H1-H5).
+
+### Methodology lesson 22 — a sequential-operation model must carry the operation's conserved invariant (worktree-115637, 2026-07-22; RATIFIED by project owner 2026-07-26, latest+29b)
+
+From `R-lunar-ga-arrival-fidelity` (`7bcc2e7`). R12's `lunar_flyby.single_flyby_braking` modeled an N-flyby lunar-gravity-assist tour by re-initializing each flyby from the *current scalar state* (the reduced Earth-frame v∞), recomputing the Moon-relative speed `U_m = v_sc(v∞) + v_M` from it every flyby. But a patched-conic flyby is elastic in the Moon frame: it **rotates** the v∞-vector and **conserves its magnitude** U_m (the "v∞-globe" / Tisserand invariant). Recomputing U_m from the post-flyby reduced state let U_m decay 73 % across the tour (11.42 → 3.10 km/s), which inflated late-flyby braking without bound and produced a claimed 5.83 km/s shed where the conserved-invariant ceiling is 2.07 km/s — a 2.8× overstatement that fed a matrix closure cell.
+
+The lesson: when modeling a repeated physical operation, **identify the conserved quantity of the single operation and carry it across the sequence as state; do not recompute the operation's leverage from the post-operation reduced scalar.** The error survived three rounds (R9, R9b, R12) because no reader cross-checked the invariant call-to-call and the helper had no assertion that U_m is conserved. Practical guard: a sequential-physics helper should assert its conserved invariant across iterations (companion to lesson 6, shared-physics input conventions need assertions), or import a primitive from a toolkit whose organizing principle *is* the invariant (trajectory-bot's flyby primitives are built on the v∞-globe; the local reinvention was not).
+
+### Methodology lesson 23 — a Δv anchor is only valid paired with a thrust regime; the label and the number must agree (worktree-115637, 2026-07-22; RATIFIED by project owner 2026-07-26, latest+29b)
+
+From `R-lowthrust-spiral-departure` (`2690b6b`). R179's departure reactor floor carried a "9.0 km/s **spiral**" Δv whose *value* (≈ the impulsive single-burn `hyp_v(ring,v∞) − v_circ` = 8.5 km/s) is an **impulsive-Oberth** number, while its *label* ("spiral") and the powerplant it fed (continuous-thrust electric) are **low-thrust**. An impulsive burn deep in a gravity well exploits the Oberth effect; a low-thrust engine cannot, and must spiral out at Δv ≈ v_circ (18.8 km/s escape term; 21.9 km/s to the hyperbolic v∞ by direct integration) — 2.44× the booked value, which through the rocket equation multiplied the reactor floor 7×.
+
+The lesson: **a Δv is not a property of two endpoints alone — it depends on the thrust regime that connects them.** When a round anchors a Δv, state the thrust regime (impulsive / finite-burn / continuous-low-thrust) and confirm it matches the propulsion system the same round charges for. An impulsive Δv fed through a low-thrust powerplant (or vice-versa) is a category error that the rocket equation then amplifies exponentially. This is the thrust-regime companion to lesson 20 (re-derive from inputs, don't back-solve outputs) and to axis 04's inbound impulsive-vs-continuous correction; the same error recurred on the departure leg because the correction had only been applied inbound.
+
+> **Number 24 unclaimed** — no round has registered a lesson-24 candidate; the
+> number is skipped so lesson 25 keeps the identifier its source round cited.
+
+### Methodology lesson 25 — any round producing a NEW closure surface must ship a single-path mass-ledger walk (rhea-5 R-closing-path-self-consistency, 2026-06-12; RATIFIED by project owner 2026-07-26, latest+29b)
+
+From `R_closing_path_self_consistency/FINDINGS.md`: the fidelity round's apparent
+f ≈ 0.2 closure revival printed `best=45.3 t delivered` from cells whose wet
+vehicles could not plausibly carry their own kick stage — a 9.2 t ghost vehicle
+was flying a closing path against 93.2 t of derived dry hardware, and the
+closing-path option list was read as a finding rather than audited as a ledger.
+The bug's fingerprint was visible one round earlier and was missed.
+
+The lesson: **whenever a round produces a closure surface that did not exist
+before (a new closing cell, a revived corridor, a threshold crossing), the round
+must ship a single-path mass-ledger walk of at least one closing path as a
+standard artifact** — launch wet mass through every burn and jettison to
+delivered payload, each line checkable by hand — before the surface is cited.
+Hand-checks bound results; ledger instrumentation replaces neither. Companion to
+lesson 21 (dry mass is derived, not swept) and the wet-vs-dry audit chain.

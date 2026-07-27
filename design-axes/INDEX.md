@@ -1,6 +1,6 @@
 ---
 type: design-axes-index
-last_revised: 2026-05-22
+last_revised: 2026-07-21 (latest+25)
 ---
 
 # ICEBERG Design Axes — index

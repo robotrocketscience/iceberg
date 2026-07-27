@@ -2,7 +2,7 @@
 axis: "Architecture source comparator"
 status: open
 confidence: medium
-last_revised: 2026-05-21
+last_revised: 2026-07-24
 related:
   - "[[surviving-cell]]"
   - "[[capture-architecture]]"
@@ -24,6 +24,7 @@ Pending dedicated round (`R_near_earth_asteroid_mission_tree` SCOPE'd as `SATURN
 - saturn-worker assumption-audit wonder + reason passes — `030cb5e`
 - phoebe R-mission-architecture-pivot-survey — `bb570d7`
 - punch-list items M-2 + D-4 + S-2 — `SATURN-PUNCH-LIST-20260521.md`
+- hyperion R-near-earth-asteroid-mission-tree (merge `ed6f5f2`, integrated latest+28) — second mission tree lands; NEA is the flyable-power successor, sub-commercial
 
 ## HISTORY
 
@@ -40,3 +41,7 @@ Saturn-worker punch-list section 5 asked for a dedicated matrix HISTORY entry ci
 - **`1488270c10c5bc38`** (Saturn-worker, 2026-05-21) — near-Earth-asteroid round-trip ~6.7 km/s with aerocapture; chunk-tow delivery ratio claim (originally 75 percent; first-principles Tsiolkovsky at stated Isp 800 s + Δv 6.7 km/s gives 42.5 percent — the 75 percent number requires either lower Δv via more aggressive aerocapture or higher Isp than the water-MET literature supports). Anchors the near-Earth-asteroid side of the source-concentration comparator AND flags the delivery-ratio question that R-near-earth-asteroid-mission-tree (SCOPE'd 2026-05-22 latest+16) resolves. Source: water-prop/rounds/R_assumption_audit_2026_05_21/ wonder pass.
 
 Saturn-worker source commit `030cb5e` ("consolidate audit findings") carries the wonder + reason passes' working notes. The other seven locked beliefs from the assumption audit (`31a13abb`, `650938e3`, `c9562697`, `5535179f`, `776575c0`, `edcfe909`, `0418e2c9`, `0d5c882c`) are cited in the matrix's latest+15 HISTORY entry; they touch axes 02, 04, 05, 06, 07, 09, 17, 20 rather than axis 21.
+
+### 2026-07-24 latest+28 — hyperion R-near-earth-asteroid-mission-tree (merge `ed6f5f2`) — the second mission tree lands; NEA closes on power and fails on yield
+
+Executing phoebe-2's dispatched assignment, reframed for the closed-loop framework: the near-Earth-asteroid water tree closes its mass loop 75/75 with a solar powerplant (vs Saturn 0/150) but delivers 8-11 t at Keck anchors — below the 25 t floor, sub-commercial. H1-H6 held. Saturn-vs-NEA is a dual failure-mode comparator (Saturn fails on power/mass, NEA on per-mission yield), not a Pareto winner; NEA is the flyable-power successor mission. Companion R-k2-bus-architecture-study: the K2 productized bus is the buyable inner-system solar-electric chassis for that successor, dead at Saturn; no vehicle-bus design axis warranted. This discharges the axis's open round (SCOPE'd latest+16). Closed-loop solar mass-demand module + tests landed in `mission_graph`.

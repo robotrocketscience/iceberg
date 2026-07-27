@@ -1,6 +1,6 @@
 # PROPOSED-PITCH-DIFF — R-pitch-arithmetic-audit
 
-**NOT APPLIED.** This is a proposed diff for the FAIL claims only. Orchestrator applies after the project owner ratifies the per-claim verdicts in `claims_inventory.csv` / `RESULTS.md`. Survive/footnote claims are not diffed here.
+**APPLIED AND RATIFIED.** D-1..D-5 and the `[^contthrust]` footnote were applied to `ICEBERG-pitch.md` at latest+20 (`b8e7e9b`); the project owner ratified the application 2026-07-26 (latest+29b ratification pass, decision 8, option "Apply + latest+29 addendum") — the addendum landed as the pitch's status banner the same day. This file is retained as the audit trail of the proposed edits. (Original header: "NOT APPLIED... orchestrator applies after the project owner ratifies.")
 
 Convention: `CURRENT` = verbatim on-disk text; `PROPOSED` = recommended replacement; `WHY` = one-line rationale + claim ID.
 

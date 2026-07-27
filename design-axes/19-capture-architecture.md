@@ -2,7 +2,7 @@
 axis: "Capture architecture (chunk vs ram-scoop)"
 status: falsified
 confidence: high
-last_revised: 2026-05-26
+last_revised: 2026-07-24
 related:
   - "[[02-surviving-cell]]"
   - "[[11-earth-arrival-mode]]"
@@ -39,6 +39,9 @@ Two architectural-recovery candidates remaining within chunk-rendezvous: (a) R-d
 - phoebe R-bring-rendezvous-survivability + relaxed + bag-aperture-joint — `abdcd35` / `45869d4` / `8a31ba9` (engineered survivability closed-negative)
 - hyperion R-A14-engineering-decomposition — `fd6fab0` (velocity-conditional set; demonstrator-conditional 0.69 above 0.45 closure threshold)
 - hyperion R-demonstrator-mission-concept — `61afe0c` (Earth-orbit catch-and-contain proxy first; Saturn small-chunk capture during demonstrator; cinch-fatigue un-retirable cruise residual)
+- worktree-115637 R-chunk-capture-closing-velocity-window — `a79dcd4` (containment is a GNC/mechanism wall, not structural; feasible closing-velocity window exists 40×–15000×; despin optional except large fast-rotators)
+- rhea-5 R-chunk-capture-tier15-reduced-order (merge `d379198`, integrated latest+28) — harpoon 0.549 prior-mean; verdict reduces to a porous-ice penetration bench test; contact-fidelity round still un-run
+- R-chunk-capture-contact-fidelity Tier-1.5 execution (`5dd6974`, latest+28) — ram-scoop containment physics lossless below ~1 m/s; harpoon delivered-mass lead 2.92x even at perfect ram-scoop capture
 
 ## HISTORY
 
@@ -61,6 +64,10 @@ Axis status: closed at chunk-rendezvous. Ram-scoop reframe retired as a program 
 ---
 
 <!-- Append-only HISTORY entries go below this line. Each entry: ### YYYY-MM-DD — round-name or commit-hash — one-line summary -->
+
+### 2026-07-22 — worktree-115637 R-chunk-capture-closing-velocity-window (`a79dcd4`, 4/5 HELD) — bet-#1 containment is a GNC wall, not a structural one
+
+First-principles closing-velocity **window-existence** test for multi-tonne chunk capture, converting R-A14's "is the operating point mm/s or low-m/s?" judgment (containment ∝ v²) into a derived physics bracket. Derives the campaign's first closing-velocity **FLOOR** from ring dynamics — spin surface velocity ω·r dominant (you contact a tumbling surface), plus Hill shear (3/2)Ω·2r and dispersion — at **mm/s-class** (1.7–5.4 mm/s at Cassini median spin 0.01 rpm; 4.4–24 mm/s at the p95 tail 0.05 rpm), and a mass-scaled containment **CEILING** from bag-fabric strain-energy + peak-decel membrane-tear at **10–25 m/s**, scaling exactly m^(−1/6) (1t/200t ratio 2.42 = 200^(1/6)). **A feasible window exists at every chunk mass with 40×–15,000× margin (H-J3 load-bearing HELD)**: the structural/energy wall sits 2–4 orders of magnitude above the achievable operating point. Therefore R-A14's velocity-conditional containment collapse (0.78 mm/s → 0.55 low-m/s) is an **operational/GNC-reliability** effect (bounce-out, mis-alignment, cinch behaviour), **not a materials/energy wall** — which *strengthens* the R-A14 demonstrator framing (the Earth-orbit catch-and-contain proxy retires exactly the GNC question, with no structural wall lurking behind it). Weak-ice fragmentation binds at a mass-independent 1.73 m/s (1 kPa tensile) below the bag-tear ceiling but yields *contained rubble* (water still captured; coherent-chunk-vs-rubble is the distinction, not capture success). Unifies + rigorizes R_HE_graze_feasibility (derives + mass-scales its hand-set E_bag; the two rounds bracket the regime: window closed for hypervelocity graze 6.56 km/s ≫ 64 m/s, wide-open for residence-class mm/s ≪ 10–25 m/s) and R_bring_fine_structure_rendezvous (which free-swept v_rel with no floor). **H-J5 falsified in one identifiable corner:** a fast-rotator (0.28 rpm CIRS bound) 200 t chunk under the most pessimistic containment (contact-patch + lightweight fabric) narrows to 7.4× (< 10×) — so despin is not a structural prerequisite *except* for the fast-rotator tail of the largest chunks (the "recently-disturbed fast rotator" tail the tier_0_5 prior flagged as plausible-but-disfavored). Sixth session absolute-threshold miss with the directional prediction holding (despin-optional true by 40–550× at median/p95; the ≥10× bar missed only in the triple-pessimistic corner) — reinforces the lesson-18 regime-conditional pre-registration discipline. **Status unchanged (falsified/high):** chunk-rendezvous remains falsified at the B-ring-impact / aerocapture level (phoebe rounds); this round bounds the bet-#1 *capture-mechanics* sub-question for the demonstrator narrative, removing the catch-energy concern (survives by 2–4 orders) and narrowing the residual to autonomy + 13-yr cinch life.
 
 ### 2026-05-15 latest+7 — titan-2 R-conops-chunk-vs-ram-scoop (`07b73ec`) — ram-scoop also fails on propulsion physics
 
@@ -125,3 +132,11 @@ Audit note from rhea: titan-2's 17 percent harpoon figure does not reproduce at 
 **Cross-project memo** filed 2026-05-26: H7 falsification is scale-conditional (200-tonne-chunk uncooperative-tumbling regime). The everting-sleeve at sub-tonne cooperative-client scale was never tested by ICEBERG; the falsification applies only at chunk scale.
 
 Axis status held at falsified/high. The Tier-1 result is a sharpening of the latest+18 framing, not a reversal.
+
+### 2026-07-24 latest+28 — rhea-5 R-chunk-capture-tier15-reduced-order (merge `d379198`) — mechanics-derived harpoon capture 0.549; the commercial-class capture verdict reduces to a bench test
+
+Tier-1.5 reduced-order mechanics model: harpoon capture prior-mean 0.549 [0.545, 0.553] vs the Tier-1 closed-form 0.365. Modal failure is shallow penetration (72 %), not tear-out; spin matters via tether wrap-race timing, not energy; "gentle capture" inverts (shoot hard, reel fast, approach slow -> 0.961 at the design point). Implied capture-efficiency multiplier 0.646 (prior) to 1.067 (design point). The load-bearing unknown collapses to one measurable: porous-ice penetration data (named pre-Gate-B bench test). CAVEAT: the round's closure-coupling numbers are VOID per R-closing-path-self-consistency (same branch, same day); the capture-physics findings stand. R-chunk-capture-contact-fidelity (hyperion-3's dispatched MuJoCo/Drake round, gating this axis's state-of-record) was NEVER RUN; rhea-5 recommends re-scoping it to ram-scoop containment + harpoon cross-check. Axis status held at falsified/high.
+
+### 2026-07-24 latest+28 — R-chunk-capture-contact-fidelity Tier-1.5 re-scoped execution (`5dd6974`) — the ram-scoop falsification is now capture-probability-proof
+
+The never-run hyperion-3 assignment executed at the mechanics-derived tier per rhea-5/rhea-3 recommendations (deviations pre-registered; MuJoCo Tier 2/3 remains open, demonstrator-track priority). Ram-scoop containment chain (aperture entry, oversize jam, bounce-out race, Round-J-anchored tear ceiling, fragmentation): P(water captured) = 1.000 on the shared Tier-1 priors — the closed-form 0.405 was hand-set reliability, not physics; do not quote it further. The containment cliff onsets at 1-3 m/s (0.573 at 3 m/s: tear 0.332 + bounce-out 0.095), 2-3 orders above the mm/s floor — so R-A14's low-m/s containment degradation is attributed entirely to mechanism reliability, sharpening Round J by another decade of velocity margin. Load-bearing: harpoon's delivered-mass lead is 2.92x even crediting ram-scoop with p = 1.0 (eta_dv 20.85 % vs 3.92 %, rhea-3 anchor) — no capture-probability improvement can rescue ram-scoop. Axis status held at falsified/high. Bench residuals unchanged: porous-ice penetration (harpoon) + cinch-mechanism reliability (ram-scoop).

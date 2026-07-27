@@ -2,7 +2,7 @@
 axis: "Chunk-mass cap (L1-007)"
 status: open
 confidence: high
-last_revised: 2026-05-22
+last_revised: 2026-07-26 (latest+29)
 related:
   - "[[program-class]]"
   - "[[saturn-side-capture-mode]]"
@@ -39,6 +39,8 @@ L1-007 should be re-derived around the 40-80 tonne closure band, not the 200-ton
 - Saturn worker R_assumption_audit_2026_05_21 + canonical mission_graph sweep `20260521T193329Z`
 - titan-4 R-framework-matrix-parity — `0eb11a7` (framework full-round-trip collapses both titan-3 40-80-t band and mission_graph 200-t cell; titan-3 cells revealed as inbound-only; 75-percent M-3 anchor retired)
 
+- 2026-07-26 latest+29: inversion adds a LOWER bound — minimum viable chunk ~10 t (Arm A) / ~100 t (Arm B); honest 30-t floor needs 300–500 t; electrolysis corridor needs 500–1,000 t harvested (multi-chunk).
+
 ## HISTORY
 
 ### 2026-05-21 — Saturn worker canonical mission_graph sweep at L0-04 = 25 t — 200-tonne chunk REINSTATED as closure-target
@@ -74,3 +76,5 @@ Under the project-owner 2026-05-19 directive retiring 500 kilowatt-electric and 
 The 200-tonne commercial-chunk anchor that propagated through matrix, pitch deck, REQUIREMENTS, and rhea financial rounds is now overscale at flyable power. L1-007 should be re-derived around the 40-80 tonne closure band. Open follow-on: refresh rhea hurdle crossovers (sovereign-bond at 209 t / regulated-utility 461 t / corporate-growth 691 t) under the new chunk scale — at 50-60 tonne strict band, none of those hurdles cross.
 
 Status held at open / high. Resolution depends on project-owner reading of decision points #14 (reactor power class for closure cell) and #15 (L0-04 strict).
+
+### 2026-07-26 — R-closure-boundary-inversion + R-saturn-water-v2-electrolysis-departure (worktree-172651, latest+29) — the axis gains a lower bound: chunk-fed departure starves below ~10 t (Arm A) / ~100 t (Arm B) because vehicle dry mass dominates the Tsiolkovsky ratio — the 0.5–5 t Saturn-return demonstrator is structurally void. Honest-arm 30-t closure needs a 300–500 t chunk (inside the 482-t B-ring cap by 0–38 percent); the electrolysis-NTP corridor needs 500–1,000 t total harvest, i.e. MULTI-CHUNK harvesting (R-multi-chunk-per-mission, queued since ~2026-05-15, is now load-bearing, not optional).
