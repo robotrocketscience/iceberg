@@ -1,0 +1,188 @@
+{
+  "anchors": {
+    "rho_ice": 500.0,
+    "omega_bring": 0.00015866629563584815,
+    "spin_rpm": {
+      "p50": 0.01,
+      "p95": 0.05,
+      "fast": 0.28
+    },
+    "v_disp_mms": 1.0,
+    "v_gnc_mms": 1.0,
+    "fabric_U_J_per_kg": {
+      "zylon": 65909,
+      "kevlar": 30000,
+      "lightweight": 15000
+    },
+    "k_bag": 2.0,
+    "ice_tensile_pa": {
+      "weak_1kPa": 1000.0,
+      "mid_10kPa": 10000.0,
+      "strong_100kPa": 100000.0
+    }
+  },
+  "grid": {
+    "1t": {
+      "radius_m": 0.782,
+      "floor_mms": {
+        "p50": 1.676,
+        "p95": 4.346,
+        "fast": 22.964,
+        "p50_despun": 1.462,
+        "p95_upper_shear": 5.295
+      },
+      "floor_terms_mms": {
+        "v_spin_p50": 0.818,
+        "v_spin_p95": 4.092,
+        "v_shear_hill": 0.372,
+        "v_shear_upper": 3.048,
+        "v_disp": 1.0,
+        "v_gnc": 1.0
+      },
+      "ceiling_ms": {
+        "strong_zylon_wholebag": 24.64,
+        "kevlar_wholebag": 16.62,
+        "pessim_patch_light": 2.399,
+        "energy_strong": 24.64,
+        "force_strong": 93.13
+      },
+      "window_ratio": {
+        "strong_over_floor_p50": 14704.0,
+        "pessim_over_floor_p50": 1432.0,
+        "pessim_over_floor_p95": 552.0,
+        "pessim_over_floor_fast": 104.0
+      }
+    },
+    "10t": {
+      "radius_m": 1.684,
+      "floor_mms": {
+        "p50": 2.398,
+        "p95": 8.965,
+        "fast": 49.401,
+        "p50_despun": 1.626,
+        "p95_upper_shear": 11.084
+      },
+      "floor_terms_mms": {
+        "v_spin_p50": 1.763,
+        "v_spin_p95": 8.817,
+        "v_shear_hill": 0.802,
+        "v_shear_upper": 6.567,
+        "v_disp": 1.0,
+        "v_gnc": 1.0
+      },
+      "ceiling_ms": {
+        "strong_zylon_wholebag": 16.79,
+        "kevlar_wholebag": 11.33,
+        "pessim_patch_light": 1.635,
+        "energy_strong": 16.79,
+        "force_strong": 63.45
+      },
+      "window_ratio": {
+        "strong_over_floor_p50": 7000.0,
+        "pessim_over_floor_p50": 682.0,
+        "pessim_over_floor_p95": 182.0,
+        "pessim_over_floor_fast": 33.0
+      }
+    },
+    "50t": {
+      "radius_m": 2.879,
+      "floor_mms": {
+        "p50": 3.601,
+        "p95": 15.205,
+        "fast": 84.452,
+        "p50_despun": 1.969,
+        "p95_upper_shear": 18.852
+      },
+      "floor_terms_mms": {
+        "v_spin_p50": 3.015,
+        "v_spin_p95": 15.077,
+        "v_shear_hill": 1.371,
+        "v_shear_upper": 11.23,
+        "v_disp": 1.0,
+        "v_gnc": 1.0
+      },
+      "ceiling_ms": {
+        "strong_zylon_wholebag": 12.84,
+        "kevlar_wholebag": 8.66,
+        "pessim_patch_light": 1.25,
+        "energy_strong": 12.84,
+        "force_strong": 48.52
+      },
+      "window_ratio": {
+        "strong_over_floor_p50": 3565.0,
+        "pessim_over_floor_p50": 347.0,
+        "pessim_over_floor_p95": 82.0,
+        "pessim_over_floor_fast": 15.0
+      }
+    },
+    "200t": {
+      "radius_m": 4.571,
+      "floor_mms": {
+        "p50": 5.445,
+        "p95": 24.073,
+        "fast": 134.047,
+        "p50_despun": 2.595,
+        "p95_upper_shear": 29.875
+      },
+      "floor_terms_mms": {
+        "v_spin_p50": 4.787,
+        "v_spin_p95": 23.933,
+        "v_shear_hill": 2.176,
+        "v_shear_upper": 17.826,
+        "v_disp": 1.0,
+        "v_gnc": 1.0
+      },
+      "ceiling_ms": {
+        "strong_zylon_wholebag": 10.19,
+        "kevlar_wholebag": 6.87,
+        "pessim_patch_light": 0.992,
+        "energy_strong": 10.19,
+        "force_strong": 38.51
+      },
+      "window_ratio": {
+        "strong_over_floor_p50": 1871.0,
+        "pessim_over_floor_p50": 182.0,
+        "pessim_over_floor_p95": 41.0,
+        "pessim_over_floor_fast": 7.0
+      }
+    }
+  },
+  "fragmentation_ms": {
+    "weak_1kPa": 1.73,
+    "mid_10kPa": 5.48,
+    "strong_100kPa": 17.32
+  },
+  "verdicts": {
+    "H-J1": {
+      "held": true,
+      "p50_le30": true,
+      "p95_le150": true,
+      "spin_dominates": true
+    },
+    "H-J2": {
+      "held": true,
+      "strong_5_30": true,
+      "pessim_ge_1p5": false,
+      "scale_1t_over_200t": 2.42,
+      "expected_m_pow_1_6": 2.42
+    },
+    "H-J3": {
+      "held": true,
+      "ge100_at_p50": true,
+      "ge10_at_p95_pessim": true
+    },
+    "H-J4": {
+      "held": true,
+      "frag_weak_1kPa_ms": 1.73,
+      "binds_below_bagtear": true,
+      "above_p50_floor": true
+    },
+    "H-J5": {
+      "held": false,
+      "p95_ge10x": true,
+      "fast_ge10x": false
+    },
+    "held_count": 4,
+    "of": 5
+  }
+}
