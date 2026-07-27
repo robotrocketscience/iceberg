@@ -1,0 +1,362 @@
+{
+ "armA_record": {
+  "isp_scan[record_powerext]": {
+   "800": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "1000": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "1200": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "1500": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "2000": {
+    "arrived_at_depot": 1,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.54
+   },
+   "2500": {
+    "arrived_at_depot": 1,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 4.0
+   },
+   "3000": {
+    "arrived_at_depot": 1,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 6.43
+   },
+   "4000": {
+    "arrived_at_depot": 1,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.64
+   },
+   "5000": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "7000": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "10000": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   }
+  },
+  "isp_scan[S3_x5_33wkg]": {
+   "800": {
+    "arrived_at_depot": 2,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 6.98
+   },
+   "1000": {
+    "arrived_at_depot": 14,
+    "delivered_floor_10t": 2,
+    "delivered_floor": 0,
+    "max_delivered_t": 17.6
+   },
+   "1200": {
+    "arrived_at_depot": 24,
+    "delivered_floor_10t": 13,
+    "delivered_floor": 0,
+    "max_delivered_t": 25.63
+   },
+   "1500": {
+    "arrived_at_depot": 44,
+    "delivered_floor_10t": 22,
+    "delivered_floor": 7,
+    "max_delivered_t": 38.06
+   },
+   "2000": {
+    "arrived_at_depot": 44,
+    "delivered_floor_10t": 28,
+    "delivered_floor": 7,
+    "max_delivered_t": 60.57
+   },
+   "2500": {
+    "arrived_at_depot": 51,
+    "delivered_floor_10t": 32,
+    "delivered_floor": 11,
+    "max_delivered_t": 50.94
+   },
+   "3000": {
+    "arrived_at_depot": 45,
+    "delivered_floor_10t": 25,
+    "delivered_floor": 11,
+    "max_delivered_t": 49.14
+   },
+   "4000": {
+    "arrived_at_depot": 50,
+    "delivered_floor_10t": 29,
+    "delivered_floor": 10,
+    "max_delivered_t": 55.47
+   },
+   "5000": {
+    "arrived_at_depot": 41,
+    "delivered_floor_10t": 19,
+    "delivered_floor": 6,
+    "max_delivered_t": 49.19
+   },
+   "7000": {
+    "arrived_at_depot": 32,
+    "delivered_floor_10t": 17,
+    "delivered_floor": 7,
+    "max_delivered_t": 32.81
+   },
+   "10000": {
+    "arrived_at_depot": 23,
+    "delivered_floor_10t": 11,
+    "delivered_floor": 1,
+    "max_delivered_t": 33.76
+   }
+  }
+ },
+ "armB_honest": {
+  "isp_scan[record_powerext]": {
+   "800": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "1000": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "1200": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "1500": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "2000": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "2500": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "3000": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "4000": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "5000": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "7000": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "10000": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   }
+  },
+  "isp_scan[S3_x5_33wkg]": {
+   "800": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "1000": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "1200": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "1500": {
+    "arrived_at_depot": 1,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 1.13
+   },
+   "2000": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "2500": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   },
+   "3000": {
+    "arrived_at_depot": 6,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 2.47
+   },
+   "4000": {
+    "arrived_at_depot": 1,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 2.2
+   },
+   "5000": {
+    "arrived_at_depot": 6,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 4.85
+   },
+   "7000": {
+    "arrived_at_depot": 1,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 2.35
+   },
+   "10000": {
+    "arrived_at_depot": 0,
+    "delivered_floor_10t": 0,
+    "delivered_floor": 0,
+    "max_delivered_t": 0.0
+   }
+  }
+ },
+ "armB_frontier": {
+  "isp2000_x5_40wkg": {
+   "arrived_at_depot": 1,
+   "delivered_floor_10t": 0,
+   "delivered_floor": 0,
+   "max_delivered_t": 1.88,
+   "taxonomy_top3": {
+    "P4_Saturn_departure": 253590,
+    "P2_Saturn_capture": 35896,
+    "P1_LEO_to_Saturn": 2689
+   },
+   "paths_strict_15yr": 28,
+   "paths_waiver_25yr": 8
+  },
+  "isp3000_x5_40wkg": {
+   "arrived_at_depot": 6,
+   "delivered_floor_10t": 0,
+   "delivered_floor": 0,
+   "max_delivered_t": 2.82,
+   "taxonomy_top3": {
+    "P4_Saturn_departure": 253534,
+    "P2_Saturn_capture": 35896,
+    "P1_LEO_to_Saturn": 2689
+   },
+   "paths_strict_15yr": 72,
+   "paths_waiver_25yr": 200
+  },
+  "isp3000_x8_60wkg": {
+   "arrived_at_depot": 6,
+   "delivered_floor_10t": 0,
+   "delivered_floor": 0,
+   "max_delivered_t": 3.79,
+   "taxonomy_top3": {
+    "P4_Saturn_departure": 320385,
+    "P2_Saturn_capture": 42449,
+    "P1_LEO_to_Saturn": 2940
+   },
+   "paths_strict_15yr": 92,
+   "paths_waiver_25yr": 520
+  },
+  "isp3000_x8_60wkg_f0.4": {
+   "arrived_at_depot": 5,
+   "delivered_floor_10t": 2,
+   "delivered_floor": 0,
+   "max_delivered_t": 12.82,
+   "taxonomy_top3": {
+    "P1_LEO_to_Saturn": 4759,
+    "P2_Saturn_capture": 3153,
+    "P4_Saturn_departure": 2627
+   },
+   "paths_strict_15yr": 55,
+   "paths_waiver_25yr": 5
+  },
+  "isp5000_x8_100wkg": {
+   "arrived_at_depot": 7,
+   "delivered_floor_10t": 0,
+   "delivered_floor": 0,
+   "max_delivered_t": 9.95,
+   "taxonomy_top3": {
+    "P4_Saturn_departure": 320553,
+    "P2_Saturn_capture": 42473,
+    "P1_LEO_to_Saturn": 2937
+   },
+   "paths_strict_15yr": 260,
+   "paths_waiver_25yr": 850
+  },
+  "isp3000_x5_40wkg_500kwe": {
+   "arrived_at_depot": 6,
+   "delivered_floor_10t": 0,
+   "delivered_floor": 0,
+   "max_delivered_t": 2.82,
+   "taxonomy_top3": {
+    "P4_Saturn_departure": 66310,
+    "P2_Saturn_capture": 10457,
+    "P1_LEO_to_Saturn": 1033
+   },
+   "paths_strict_15yr": 72,
+   "paths_waiver_25yr": 200
+  }
+ },
+ "armA_S5_strict_vs_waiver": {
+  "paths_strict_15yr": 3546,
+  "paths_waiver_25yr": 24556
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "bigchunk_300_500t_f0.4": {
+  "arrived_at_depot": 2,
+  "delivered_floor_10t": 2,
+  "delivered_floor": 2,
+  "max_delivered_t": 56.0,
+  "taxonomy_top3": {
+   "P1_LEO_to_Saturn": 725,
+   "P2_Saturn_capture": 327,
+   "P0b_assembly": 300
+  },
+  "params": {
+   "visviva_capture": true,
+   "chunk_fed_dv_km_s": 18.0,
+   "reactor_lifetime_years": 10.0,
+   "water_met_isp_s": 3000.0,
+   "launcher_cap_multiplier": 8.0,
+   "reactor_specific_power_w_per_kg": 60.0,
+   "propellant_fraction": 0.4
+  }
+ },
+ "bigchunk_300_500t_f0.8": {
+  "arrived_at_depot": 0,
+  "delivered_floor_10t": 0,
+  "delivered_floor": 0,
+  "max_delivered_t": 0.0,
+  "taxonomy_top3": {
+   "P4_Saturn_departure": 5760,
+   "P2_Saturn_capture": 1095,
+   "P1_LEO_to_Saturn": 305
+  },
+  "params": {
+   "visviva_capture": true,
+   "chunk_fed_dv_km_s": 18.0,
+   "reactor_lifetime_years": 10.0,
+   "water_met_isp_s": 3000.0,
+   "launcher_cap_multiplier": 8.0,
+   "reactor_specific_power_w_per_kg": 60.0,
+   "propellant_fraction": 0.8
+  }
+ }
+}

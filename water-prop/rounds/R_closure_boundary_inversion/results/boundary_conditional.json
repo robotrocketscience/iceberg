@@ -1,0 +1,166 @@
+{
+ "armA_record": {
+  "min_water_met_isp_s[arrived_at_depot]": 800.0,
+  "min_water_met_isp_s[delivered_floor_10t]": null,
+  "min_water_met_isp_s[delivered_floor]": null,
+  "min_launcher_multiplier[arrived_at_depot]@isp2000": 1.0,
+  "min_launcher_multiplier[delivered_floor_10t]@isp2000": 1.0,
+  "min_launcher_multiplier[delivered_floor]@isp2000": 1.2,
+  "min_specific_power_w_per_kg[arrived_at_depot]@isp2000_x5": 2.4,
+  "min_specific_power_w_per_kg[delivered_floor_10t]@isp2000_x5": 2.4,
+  "min_specific_power_w_per_kg[delivered_floor]@isp2000_x5": 2.8,
+  "min_power_class_kwe@isp900": 30.0,
+  "min_power_class_kwe@isp2000": 30.0,
+  "min_power_class_kwe@isp3000": 30.0,
+  "S5_closing_cells": [
+   {
+    "power_kwe": 100.0,
+    "chunk_t": 200.0,
+    "thrust_n": 1.0,
+    "delivered_t": 60.57,
+    "years": 16.0,
+    "round_trip": "close_waiver",
+    "power_thrust_consistent": true,
+    "options": null
+   },
+   {
+    "power_kwe": 100.0,
+    "chunk_t": 200.0,
+    "thrust_n": 1.0,
+    "delivered_t": 60.57,
+    "years": 16.0,
+    "round_trip": "close_waiver",
+    "power_thrust_consistent": true,
+    "options": null
+   },
+   {
+    "power_kwe": 100.0,
+    "chunk_t": 200.0,
+    "thrust_n": 1.0,
+    "delivered_t": 60.57,
+    "years": 16.3,
+    "round_trip": "close_waiver",
+    "power_thrust_consistent": true,
+    "options": null
+   },
+   {
+    "power_kwe": 100.0,
+    "chunk_t": 200.0,
+    "thrust_n": 1.0,
+    "delivered_t": 60.57,
+    "years": 16.3,
+    "round_trip": "close_waiver",
+    "power_thrust_consistent": true,
+    "options": null
+   },
+   {
+    "power_kwe": 100.0,
+    "chunk_t": 200.0,
+    "thrust_n": 2.5,
+    "delivered_t": 60.57,
+    "years": 16.0,
+    "round_trip": "close_waiver",
+    "power_thrust_consistent": true,
+    "options": null
+   },
+   {
+    "power_kwe": 100.0,
+    "chunk_t": 200.0,
+    "thrust_n": 2.5,
+    "delivered_t": 60.57,
+    "years": 16.0,
+    "round_trip": "close_waiver",
+    "power_thrust_consistent": true,
+    "options": null
+   },
+   {
+    "power_kwe": 100.0,
+    "chunk_t": 200.0,
+    "thrust_n": 2.5,
+    "delivered_t": 60.57,
+    "years": 16.3,
+    "round_trip": "close_waiver",
+    "power_thrust_consistent": true,
+    "options": null
+   },
+   {
+    "power_kwe": 100.0,
+    "chunk_t": 200.0,
+    "thrust_n": 2.5,
+    "delivered_t": 60.57,
+    "years": 16.3,
+    "round_trip": "close_waiver",
+    "power_thrust_consistent": true,
+    "options": null
+   },
+   {
+    "power_kwe": 100.0,
+    "chunk_t": 200.0,
+    "thrust_n": 5.0,
+    "delivered_t": 60.57,
+    "years": 16.0,
+    "round_trip": "close_waiver",
+    "power_thrust_consistent": true,
+    "options": null
+   },
+   {
+    "power_kwe": 100.0,
+    "chunk_t": 200.0,
+    "thrust_n": 5.0,
+    "delivered_t": 60.57,
+    "years": 16.0,
+    "round_trip": "close_waiver",
+    "power_thrust_consistent": true,
+    "options": null
+   },
+   {
+    "power_kwe": 100.0,
+    "chunk_t": 200.0,
+    "thrust_n": 5.0,
+    "delivered_t": 60.57,
+    "years": 16.3,
+    "round_trip": "close_waiver",
+    "power_thrust_consistent": true,
+    "options": null
+   },
+   {
+    "power_kwe": 100.0,
+    "chunk_t": 200.0,
+    "thrust_n": 5.0,
+    "delivered_t": 60.57,
+    "years": 16.3,
+    "round_trip": "close_waiver",
+    "power_thrust_consistent": true,
+    "options": null
+   }
+  ],
+  "demonstrator_taxonomy": {
+   "P4_Saturn_departure": 672,
+   "P1_LEO_to_Saturn": 392,
+   "P0_Earth_to_LEO": 220,
+   "P0b_assembly": 160,
+   "P2_Saturn_capture": 56,
+   "P1b_cruise_ops": 24
+  }
+ },
+ "armB_honest": {
+  "min_water_met_isp_s[arrived_at_depot]": null,
+  "min_water_met_isp_s[delivered_floor_10t]": null,
+  "min_water_met_isp_s[delivered_floor]": null,
+  "min_launcher_multiplier[arrived_at_depot]@isp2000": null,
+  "min_launcher_multiplier[delivered_floor_10t]@isp2000": null,
+  "min_launcher_multiplier[delivered_floor]@isp2000": null,
+  "min_specific_power_w_per_kg[arrived_at_depot]@isp2000_x5": 39.7,
+  "min_specific_power_w_per_kg[delivered_floor_10t]@isp2000_x5": 42.0,
+  "min_specific_power_w_per_kg[delivered_floor]@isp2000_x5": null,
+  "min_power_class_kwe@isp900": null,
+  "min_power_class_kwe@isp2000": null,
+  "min_power_class_kwe@isp3000": 150.0,
+  "S5_closing_cells": [],
+  "demonstrator_taxonomy": {
+   "P1_LEO_to_Saturn": 400,
+   "P0_Earth_to_LEO": 220,
+   "P0b_assembly": 160
+  }
+ }
+}
