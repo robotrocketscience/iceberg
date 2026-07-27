@@ -1,0 +1,20 @@
+{
+ "isp3000_x8_60wkg_f0.4": {
+  "arrived_at_depot": 3,
+  "delivered_floor_10t": 0,
+  "delivered_floor": 0,
+  "max_delivered_t": 3.95
+ },
+ "bigchunk_isp3000_x8_60wkg_f0.4": {
+  "arrived_at_depot": 1,
+  "delivered_floor_10t": 1,
+  "delivered_floor": 0,
+  "max_delivered_t": 28.33
+ },
+ "isp5000_x8_100wkg": {
+  "arrived_at_depot": 7,
+  "delivered_floor_10t": 0,
+  "delivered_floor": 0,
+  "max_delivered_t": 9.95
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "model": "planar two-body Saturn, tangential constant-a, RK4, dt = period/200 capped 2000 s",
+ "r0_km": 100000.0,
+ "v_circ_km_s": 19.48,
+ "v_inf_target_km_s": 5.44,
+ "impulsive_oberth_km_s": 8.6,
+ "edelbaum_escape_term_km_s": 19.48,
+ "dv_vs_accel": {
+  "1e-05": {
+   "dv_km_s": 24.18,
+   "dv_escape_km_s": 18.84,
+   "thrust_years": 76.61,
+   "revolutions": 15093.6
+  },
+  "3e-05": {
+   "dv_km_s": 23.28,
+   "dv_escape_km_s": 18.64,
+   "thrust_years": 24.59,
+   "revolutions": 5031.1
+  },
+  "1e-04": {
+   "dv_km_s": 22.55,
+   "dv_escape_km_s": 18.35,
+   "thrust_years": 7.14,
+   "revolutions": 1509.5
+  },
+  "1e-03": {
+   "dv_km_s": 20.69,
+   "dv_escape_km_s": 17.47,
+   "thrust_years": 0.66,
+   "revolutions": 151.2
+  },
+  "1e-02": {
+   "dv_km_s": 18.04,
+   "dv_escape_km_s": 15.92,
+   "thrust_years": 0.06,
+   "revolutions": 15.3
+  },
+  "1e-01": {
+   "dv_km_s": 14.31,
+   "dv_escape_km_s": 13.11,
+   "thrust_years": 0.0,
+   "revolutions": 1.7
+  }
+ },
+ "campaign_electric_accel_band_m_s2": [
+  1.3e-05,
+  0.0001
+ ]
+}
