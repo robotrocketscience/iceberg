@@ -1,0 +1,523 @@
+{
+  "round": "R_l0_relaxation_envelope",
+  "study": "STUDY.md pre-registration; corrected kick physics (post d379198)",
+  "grid": {
+    "power_kwe": [
+      1.0,
+      10.0,
+      11.0,
+      20.0,
+      30.0,
+      55.0
+    ],
+    "chunk_t": [
+      10.0,
+      25.0,
+      50.0,
+      100.0,
+      200.0
+    ],
+    "thrust_n": [
+      1.0,
+      2.5,
+      5.0,
+      10.0,
+      25.0
+    ]
+  },
+  "non_nuclear_kwe": [
+    1.0,
+    10.0,
+    11.0
+  ],
+  "baseline": {
+    "tag": "baseline f=0.80",
+    "n_paths": 1744,
+    "n_feasible_leaves": 0,
+    "n_arrivals": 0,
+    "best_payload_t": 0.0,
+    "sweep1_floor_sensitivity": [
+      {
+        "floor_t": 0.5,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "floor_t": 1.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "floor_t": 2.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "floor_t": 5.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "floor_t": 10.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "floor_t": 15.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "floor_t": 20.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "floor_t": 25.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      }
+    ],
+    "sweep2_ceiling_sensitivity": [
+      {
+        "ceiling_yr": 15.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "ceiling_yr": 18.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "ceiling_yr": 20.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "ceiling_yr": 22.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "ceiling_yr": 25.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "ceiling_yr": 28.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "ceiling_yr": 30.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "ceiling_yr": 35.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      }
+    ],
+    "sweep3_combined": {
+      "close": 0,
+      "of": 150,
+      "by_power": {
+        "1.0": {
+          "close": 0,
+          "of": 25
+        },
+        "10.0": {
+          "close": 0,
+          "of": 25
+        },
+        "11.0": {
+          "close": 0,
+          "of": 25
+        },
+        "20.0": {
+          "close": 0,
+          "of": 25
+        },
+        "30.0": {
+          "close": 0,
+          "of": 25
+        },
+        "55.0": {
+          "close": 0,
+          "of": 25
+        }
+      }
+    },
+    "failure_taxonomy_top25": [
+      {
+        "phase": "P0_Earth_to_LEO",
+        "reason": "payload # kg exceeds #-Falcon-Heavy raw deliverable # kg",
+        "count": 360
+      },
+      {
+        "phase": "P1_LEO_to_Saturn",
+        "reason": "kick stack # kg (vehicle # + kick dry # + kick propellant #) exceeds most-permissive launch manifest # kg",
+        "count": 180
+      },
+      {
+        "phase": "P0_Earth_to_LEO",
+        "reason": "payload # kg exceeds Falcon Heavy expended cap # kg",
+        "count": 150
+      },
+      {
+        "phase": "P0_Earth_to_LEO",
+        "reason": "payload # kg exceeds Starship cap # kg",
+        "count": 150
+      },
+      {
+        "phase": "P4_Saturn_departure",
+        "reason": "not enough chemical propellant for TEI: need # kg, have #",
+        "count": 136
+      },
+      {
+        "phase": "P0b_assembly",
+        "reason": "pending-assembly flag is set; cannot passthrough \u2014 must use autonomous or depot-relay assembly",
+        "count": 90
+      },
+      {
+        "phase": "P1_LEO_to_Saturn",
+        "reason": "not enough chemical propellant: need # kg, have #",
+        "count": 90
+      },
+      {
+        "phase": "P1_LEO_to_Saturn",
+        "reason": "not enough chemical propellant for reduced TSI: need # kg, have #",
+        "count": 90
+      },
+      {
+        "phase": "P0b_assembly",
+        "reason": "depot-relay assembly requires params['existing_leo_depot']=True (an existing depot to host the campaign)",
+        "count": 90
+      },
+      {
+        "phase": "P4_Saturn_departure",
+        "reason": "chunk-fed water-MET needs power >= # kWe, have #",
+        "count": 72
+      },
+      {
+        "phase": "P4_Saturn_departure",
+        "reason": "electric leg needs power >= # kWe, have #",
+        "count": 72
+      },
+      {
+        "phase": "P1_LEO_to_Saturn",
+        "reason": "electric thruster needs at least # kWe, have # kWe",
+        "count": 65
+      },
+      {
+        "phase": "P4_Saturn_departure",
+        "reason": "not enough chunk water for chunk-fed departure: need # kg, have # in payload",
+        "count": 64
+      },
+      {
+        "phase": "P4_Saturn_departure",
+        "reason": "not enough chunk water for electric leg: need # kg, have #",
+        "count": 57
+      },
+      {
+        "phase": "P1_LEO_to_Saturn",
+        "reason": "low-thrust burn time # yr exceeds # percent of # yr coast window at thrust # N",
+        "count": 20
+      },
+      {
+        "phase": "P2_Saturn_capture",
+        "reason": "Titan gravity-assist capture needs arrival v_inf >= # km/s for useful flyby geometry, got #",
+        "count": 10
+      },
+      {
+        "phase": "P2_Saturn_capture",
+        "reason": "Rhea gravity-assist capture needs arrival v_inf >= # km/s, got #",
+        "count": 10
+      },
+      {
+        "phase": "P2_Saturn_capture",
+        "reason": "Cassini-class multi-moon tour needs arrival v_inf >= # km/s, got #",
+        "count": 10
+      },
+      {
+        "phase": "P4_Saturn_departure",
+        "reason": "not enough chemical propellant for kick: need # kg, have #",
+        "count": 7
+      },
+      {
+        "phase": "P2_Saturn_capture",
+        "reason": "low-thrust capture needs power >= # kWe, have #",
+        "count": 6
+      },
+      {
+        "phase": "P1b_cruise_ops",
+        "reason": "Jupiter gravity assist needs ballistic-class arrival v_inf >= # km/s, got #",
+        "count": 5
+      },
+      {
+        "phase": "P1b_cruise_ops",
+        "reason": "Mars+Jupiter gravity assist needs ballistic-class arrival v_inf >= # km/s, got #",
+        "count": 5
+      },
+      {
+        "phase": "P1b_cruise_ops",
+        "reason": "Venus-Earth gravity assist needs ballistic-class arrival v_inf >= # km/s, got #",
+        "count": 5
+      }
+    ]
+  },
+  "guard_rail_f020": {
+    "tag": "guard-rail f=0.20",
+    "n_paths": 4440,
+    "n_feasible_leaves": 0,
+    "n_arrivals": 0,
+    "best_payload_t": 0.0,
+    "sweep1_floor_sensitivity": [
+      {
+        "floor_t": 0.5,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "floor_t": 1.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "floor_t": 2.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "floor_t": 5.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "floor_t": 10.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "floor_t": 15.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "floor_t": 20.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "floor_t": 25.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      }
+    ],
+    "sweep2_ceiling_sensitivity": [
+      {
+        "ceiling_yr": 15.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "ceiling_yr": 18.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "ceiling_yr": 20.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "ceiling_yr": 22.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "ceiling_yr": 25.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "ceiling_yr": 28.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "ceiling_yr": 30.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      },
+      {
+        "ceiling_yr": 35.0,
+        "close_all": 0,
+        "of_all": 150,
+        "close_nonnuclear": 0,
+        "of_nonnuclear": 75
+      }
+    ],
+    "sweep3_combined": {
+      "close": 0,
+      "of": 150,
+      "by_power": {
+        "1.0": {
+          "close": 0,
+          "of": 25
+        },
+        "10.0": {
+          "close": 0,
+          "of": 25
+        },
+        "11.0": {
+          "close": 0,
+          "of": 25
+        },
+        "20.0": {
+          "close": 0,
+          "of": 25
+        },
+        "30.0": {
+          "close": 0,
+          "of": 25
+        },
+        "55.0": {
+          "close": 0,
+          "of": 25
+        }
+      }
+    },
+    "failure_taxonomy_top25": [
+      {
+        "phase": "P1_LEO_to_Saturn",
+        "reason": "not enough vehicle chemical propellant for residual # km/s after kick: need # kg, have #",
+        "count": 1160
+      },
+      {
+        "phase": "P1_LEO_to_Saturn",
+        "reason": "not enough chemical propellant: need # kg, have #",
+        "count": 615
+      },
+      {
+        "phase": "P1_LEO_to_Saturn",
+        "reason": "not enough chemical propellant for reduced TSI: need # kg, have #",
+        "count": 615
+      },
+      {
+        "phase": "P0b_assembly",
+        "reason": "pending-assembly flag is set; cannot passthrough \u2014 must use autonomous or depot-relay assembly",
+        "count": 420
+      },
+      {
+        "phase": "P0b_assembly",
+        "reason": "depot-relay assembly requires params['existing_leo_depot']=True (an existing depot to host the campaign)",
+        "count": 420
+      },
+      {
+        "phase": "P1_LEO_to_Saturn",
+        "reason": "electric thruster needs at least # kWe, have # kWe",
+        "count": 330
+      },
+      {
+        "phase": "P1_LEO_to_Saturn",
+        "reason": "not enough electric propellant: need # kg, have #",
+        "count": 285
+      },
+      {
+        "phase": "P0b_assembly",
+        "reason": "autonomous assembly requires a multi_launch_pending_assembly_N flag from a multi-launch Phase #",
+        "count": 195
+      },
+      {
+        "phase": "P0b_assembly",
+        "reason": "depot-relay assembly requires a multi_launch_pending_assembly_N flag from a multi-launch Phase #",
+        "count": 195
+      },
+      {
+        "phase": "P0_Earth_to_LEO",
+        "reason": "payload # kg exceeds Falcon Heavy expended cap # kg",
+        "count": 75
+      },
+      {
+        "phase": "P1_LEO_to_Saturn",
+        "reason": "kick stack # kg (vehicle # + kick dry # + kick propellant #) exceeds most-permissive launch manifest # kg",
+        "count": 70
+      },
+      {
+        "phase": "P0_Earth_to_LEO",
+        "reason": "payload # kg exceeds Starship cap # kg",
+        "count": 30
+      },
+      {
+        "phase": "P0_Earth_to_LEO",
+        "reason": "payload # kg exceeds #-Falcon-Heavy raw deliverable # kg",
+        "count": 30
+      }
+    ]
+  }
+}

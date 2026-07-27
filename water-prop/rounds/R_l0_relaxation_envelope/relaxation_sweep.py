@@ -62,7 +62,7 @@ def cell_floor_close(cell, predicate_name: str) -> tuple[bool, float]:
             continue
         if r.closure_verdicts.get(predicate_name) in ("close", "close_strict", "close_waiver"):
             closes = True
-            rt = r.final_state.time_elapsed_s / (365.25 * 86400.0)
+            rt = r.leaf_state.time_elapsed_s / (365.25 * 86400.0)
             if rt < best_rt:
                 best_rt = rt
     return (closes, best_rt)
