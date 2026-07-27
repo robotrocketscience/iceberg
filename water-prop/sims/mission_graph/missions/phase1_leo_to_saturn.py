@@ -185,8 +185,9 @@ def low_thrust_precondition(state: VehicleState, params) -> tuple[bool, str]:
     ok, why = mass_floor_ok(state, params)  # constraints 2+3: powerplant fits in dry mass
     if not ok:
         return (False, why)
-    if state.power_available_kwe < LOW_THRUST_MIN_POWER_KWE:
-        return (False, f"electric thruster needs at least {LOW_THRUST_MIN_POWER_KWE} kWe, have {state.power_available_kwe} kWe")
+    min_power = params.get("low_thrust_min_power_kwe", LOW_THRUST_MIN_POWER_KWE)
+    if state.power_available_kwe < min_power:
+        return (False, f"electric thruster needs at least {min_power} kWe, have {state.power_available_kwe} kWe")
     # Solar-thermal power class is not viable for outbound low-thrust spiral:
     # the spiral crosses out to Saturn, where solar flux drops to ~1 percent
     # of Earth's value. A solar array sized to deliver power at Saturn would
@@ -281,28 +282,50 @@ HELIOS_KICK_DRY_MASS_KG = 5_000.0
 HELIOS_KICK_ISP_S = 330.0
 
 
-# Corrected kick-stage model (fixes a bug in the prior code):
+# Corrected kick-stage model, SECOND correction (rhea-5
+# R-closing-path-self-consistency, 2026-06-12):
 #
-#   Old behavior: treated the kick stage as "free delta-velocity with a
-#   dry-mass overhead." The kick's own propellant cost was never
-#   modeled; the vehicle's main chemical tank covered the residual
-#   trans-Saturn-injection burn after a phantom kick delta-velocity.
-#   Effect: kick options looked ~15-20 percent rosier than reality.
+#   First correction (titan era) fixed the "free delta-velocity" bug but
+#   carried v0 OPEN-LOOP manifest semantics: it treated
+#   `state.mass_kg - propellant - payload` as an unallocated "dry envelope"
+#   the kick wet mass could occupy, and the executor SUBTRACTED kick wet
+#   mass from `state.mass_kg`. Under the closed-loop v1 framework
+#   (vehicle dry mass DERIVED from subsystem demands), that envelope IS the
+#   vehicle's allocated hardware — the old model let paths burn the
+#   vehicle's own reactor/radiators/capture-bag as kick propellant, leaving
+#   a ~9 t ghost vehicle at the fidelity-round closing cell (vs 93 t
+#   derived dry). This manufactured the f~0.2 closure revival; see
+#   rounds/R_closing_path_self_consistency/FINDINGS.md.
 #
-#   New behavior:
-#     1. The kick stage's wet mass (kick_dry + kick_propellant) is part
-#        of the launch manifest state.mass_kg at low-Earth orbit.
-#     2. The kick burns its own propellant at its own specific impulse
-#        to deliver kick_dv against the full launch-manifest mass.
-#     3. After the kick burn, the kick dry mass is jettisoned.
-#     4. The vehicle's main chemical engines then burn the residual
-#        (TSI_DV_HOHMANN - kick_dv) using the vehicle's own propellant
-#        tank at the vehicle's chemical specific impulse.
-#
-#   Precondition checks that (kick_dry + kick_propellant) fits within
-#   the launch manifest's non-vehicle-propellant, non-payload envelope:
-#   the kick wet mass has to come out of dry-structure budget on the
-#   launch manifest.
+#   Current behavior (self-consistent stack):
+#     1. The kick stage rides the launch manifest ALONGSIDE the vehicle;
+#        it is not carved out of the vehicle's mass. Kick propellant
+#        solves the implicit stack equation — the kick pushes the vehicle
+#        AND its own wet mass:
+#          kick_prop = (vehicle_wet + kick_dry + kick_prop) * f_burn,
+#          f_burn = 1 - exp(-dv / (g0 * isp))
+#     2. Precondition gates the TOTAL stack (vehicle wet + kick wet)
+#        against the most permissive launch manifest
+#        (MAX_KICK_MANIFEST_KG = six-Falcon-Heavy raw, 300 t).
+#        APPROXIMATION: the walker state does not carry which Phase-0
+#        manifest the path actually used, so this gate is permissive —
+#        a path that fails here fails on every real manifest a fortiori;
+#        a path that passes here may still overstate small manifests.
+#        Exact per-manifest gating needs a state field (titan follow-on).
+#     3. The kick burn + jettison leave the VEHICLE state unchanged in
+#        mass; the vehicle then burns the residual
+#        (TSI_DV_HOHMANN - kick_dv) from its own tank.
+MAX_KICK_MANIFEST_KG = 300_000.0
+
+
+def _kick_stack_propellant_kg(vehicle_wet_kg: float, kick_dv_km_s: float,
+                              kick_dry_mass_kg: float, kick_isp_s: float) -> float:
+    """Kick propellant for a kick that pushes the vehicle plus itself."""
+    import math
+    f_burn = 1.0 - math.exp(-kick_dv_km_s * 1000.0 / (9.81 * kick_isp_s))
+    return (vehicle_wet_kg + kick_dry_mass_kg) * f_burn / (1.0 - f_burn)
+
+
 def _kick_stage_precondition(kick_dv_km_s, kick_dry_mass_kg, kick_isp_s):
     def pre(state: VehicleState, params) -> tuple[bool, str]:
         if state.location != "LEO":
@@ -310,31 +333,24 @@ def _kick_stage_precondition(kick_dv_km_s, kick_dry_mass_kg, kick_isp_s):
         if state.epoch_jd is None or not in_earth_saturn_launch_window(state.epoch_jd):
             return (False, f"epoch_jd {state.epoch_jd} outside Earth-Saturn launch window")
 
-        # Kick burns its own propellant at its own specific impulse against
-        # the full launch-manifest mass. Compute kick propellant from
-        # rocket equation.
-        _, kick_propellant = rocket_equation_burn(state.mass_kg, kick_dv_km_s, kick_isp_s)
-        kick_wet_mass = kick_dry_mass_kg + kick_propellant
-
-        # Kick wet mass must fit in the launch manifest's
-        # non-vehicle-propellant, non-payload envelope.
-        dry_envelope = state.mass_kg - state.propellant_kg - state.payload_kg
-        if dry_envelope < kick_wet_mass:
+        kick_propellant = _kick_stack_propellant_kg(
+            state.mass_kg, kick_dv_km_s, kick_dry_mass_kg, kick_isp_s)
+        stack_kg = state.mass_kg + kick_dry_mass_kg + kick_propellant
+        manifest_cap_kg = MAX_KICK_MANIFEST_KG * params.get("launcher_cap_multiplier", 1.0)
+        if stack_kg > manifest_cap_kg:
             return (
                 False,
-                f"kick wet mass {kick_wet_mass:.0f} kg "
-                f"(dry {kick_dry_mass_kg:.0f} + propellant {kick_propellant:.0f}) "
-                f"exceeds dry envelope {dry_envelope:.0f} kg of launch manifest "
-                f"(mass {state.mass_kg:.0f} - vehicle propellant {state.propellant_kg:.0f} - payload {state.payload_kg:.0f})"
+                f"kick stack {stack_kg:.0f} kg (vehicle {state.mass_kg:.0f} + kick dry "
+                f"{kick_dry_mass_kg:.0f} + kick propellant {kick_propellant:.0f}) exceeds "
+                f"most-permissive launch manifest {manifest_cap_kg:.0f} kg"
             )
 
         # Vehicle's residual trans-Saturn-injection burn at its own
         # chemical specific impulse must fit in vehicle's main propellant
         # tank.
-        residual_dv = max(0.0, TSI_DV_HOHMANN_KM_S - kick_dv_km_s)
+        residual_dv = max(0.0, params.get("tsi_hohmann_dv_km_s", TSI_DV_HOHMANN_KM_S) - kick_dv_km_s)
         chem_isp = params["chemical_isp_s"]
-        post_kick_mass = state.mass_kg - kick_propellant - kick_dry_mass_kg
-        _, vehicle_propellant_required = rocket_equation_burn(post_kick_mass, residual_dv, chem_isp)
+        _, vehicle_propellant_required = rocket_equation_burn(state.mass_kg, residual_dv, chem_isp)
         if state.propellant_kg < vehicle_propellant_required:
             return (
                 False,
@@ -349,18 +365,13 @@ def _kick_stage_precondition(kick_dv_km_s, kick_dry_mass_kg, kick_isp_s):
 
 def _kick_stage_executor(kick_dv_km_s, kick_dry_mass_kg, kick_isp_s):
     def exe(state: VehicleState, params) -> VehicleState:
-        # 1. Kick burns its own propellant at its own specific impulse.
-        _, kick_propellant = rocket_equation_burn(state.mass_kg, kick_dv_km_s, kick_isp_s)
-        # 2. Mass after kick burn (kick propellant expelled).
-        mass_after_kick_burn = state.mass_kg - kick_propellant
-        # 3. Jettison kick dry mass.
-        mass_after_kick_jettison = mass_after_kick_burn - kick_dry_mass_kg
-        # 4. Vehicle's residual chemical burn at its own specific impulse,
-        #    drawing from vehicle's main propellant tank.
-        residual_dv = max(0.0, TSI_DV_HOHMANN_KM_S - kick_dv_km_s)
+        # Kick expels its own propellant and is jettisoned; the vehicle's
+        # mass is untouched by the kick itself. Vehicle then burns the
+        # residual from its own tank.
+        residual_dv = max(0.0, params.get("tsi_hohmann_dv_km_s", TSI_DV_HOHMANN_KM_S) - kick_dv_km_s)
         chem_isp = params["chemical_isp_s"]
         mass_after_residual, vehicle_propellant_burned = rocket_equation_burn(
-            mass_after_kick_jettison, residual_dv, chem_isp
+            state.mass_kg, residual_dv, chem_isp
         )
         return replace(
             state,

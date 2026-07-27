@@ -63,7 +63,8 @@ def chemical_tei_pre(state: VehicleState, params) -> tuple[bool, str]:
     if state.location != "saturn_orbit":
         return (False, f"trans-Earth injection needs to start in saturn_orbit, got {state.location}")
     isp = params["chemical_isp_s"]
-    _, required = rocket_eq(state.mass_kg, CHEMICAL_TEI_DV_KM_S, isp)
+    tei_dv = params.get("chemical_tei_dv_km_s", CHEMICAL_TEI_DV_KM_S)
+    _, required = rocket_eq(state.mass_kg, tei_dv, isp)
     if state.propellant_kg < required:
         return (False, f"not enough chemical propellant for TEI: need {required:.0f} kg, have {state.propellant_kg:.0f}")
     return (True, "feasible")
@@ -71,7 +72,7 @@ def chemical_tei_pre(state: VehicleState, params) -> tuple[bool, str]:
 
 def chemical_tei_exec(state: VehicleState, params) -> VehicleState:
     isp = params["chemical_isp_s"]
-    mass_after, burned = rocket_eq(state.mass_kg, CHEMICAL_TEI_DV_KM_S, isp)
+    mass_after, burned = rocket_eq(state.mass_kg, params.get("chemical_tei_dv_km_s", CHEMICAL_TEI_DV_KM_S), isp)
     return replace(
         state,
         mass_kg=mass_after,
@@ -106,14 +107,15 @@ CHUNK_FED_MIN_POWER_KWE = 30.0
 def chunk_fed_pre(state: VehicleState, params) -> tuple[bool, str]:
     if state.location != "saturn_orbit":
         return (False, f"chunk-fed departure needs to start in saturn_orbit, got {state.location}")
-    if state.power_available_kwe < CHUNK_FED_MIN_POWER_KWE:
-        return (False, f"chunk-fed water-MET needs power >= {CHUNK_FED_MIN_POWER_KWE} kWe, have {state.power_available_kwe}")
+    min_power = params.get("chunk_fed_min_power_kwe", CHUNK_FED_MIN_POWER_KWE)
+    if state.power_available_kwe < min_power:
+        return (False, f"chunk-fed water-MET needs power >= {min_power} kWe, have {state.power_available_kwe}")
     # Solar-thermal power class not viable at Saturn (~1 percent Earth flux).
     power_source = params.get("power_source", "fission")
     if power_source == "solar_thermal":
         return (False, f"solar-thermal power source not viable for chunk-fed spiral departure at Saturn (solar flux is ~1 percent of Earth's)")
     isp = params["water_met_isp_s"]
-    _, required = rocket_eq(state.mass_kg, CHUNK_FED_DV_KM_S, isp)
+    _, required = rocket_eq(state.mass_kg, params.get("chunk_fed_dv_km_s", CHUNK_FED_DV_KM_S), isp)
     if state.payload_kg < required:
         return (False, f"not enough chunk water for chunk-fed departure: need {required:.0f} kg, have {state.payload_kg:.0f} in payload")
     # Burn-time constraint: chunk-fed continuous-thrust burn must fit inside
@@ -136,7 +138,7 @@ def chunk_fed_pre(state: VehicleState, params) -> tuple[bool, str]:
 
 def chunk_fed_exec(state: VehicleState, params) -> VehicleState:
     isp = params["water_met_isp_s"]
-    mass_after, burned = rocket_eq(state.mass_kg, CHUNK_FED_DV_KM_S, isp)
+    mass_after, burned = rocket_eq(state.mass_kg, params.get("chunk_fed_dv_km_s", CHUNK_FED_DV_KM_S), isp)
     bh = electric_burn_hours(burned, isp, state.power_available_kwe)
     return replace(
         state,
@@ -156,7 +158,11 @@ chunk_fed_spiral_departure = Option(
     precondition=chunk_fed_pre,
     executor=chunk_fed_exec,
     params_required=("water_met_isp_s",),
-    notes="Chunk is double duty: payload + propellant. Burns through payload. Needs >= 30 kWe.",
+    notes=("Chunk is double duty: payload + propellant. Burns through payload. Needs >= 30 kWe. "
+           "LESSON-23 FLAG (R-departure-anchor-resolution, latest+29c): the 9.0 km/s default is an "
+           "impulsive-regime value; the integrated electric-spiral cost from B-ring residence is "
+           "22.5-24.2 km/s at campaign accelerations. Override via params[chunk_fed_dv_km_s]=22.5 "
+           "for honest-arm work; default retained for baseline immutability."),
 )
 
 
@@ -173,8 +179,9 @@ KICK_THEN_CHUNK_ARRIVAL_VINF_KM_S = 3.0
 def kick_then_chunk_pre(state: VehicleState, params) -> tuple[bool, str]:
     if state.location != "saturn_orbit":
         return (False, f"hybrid departure needs to start in saturn_orbit, got {state.location}")
-    if state.power_available_kwe < CHUNK_FED_MIN_POWER_KWE:
-        return (False, f"electric leg needs power >= {CHUNK_FED_MIN_POWER_KWE} kWe, have {state.power_available_kwe}")
+    min_power = params.get("chunk_fed_min_power_kwe", CHUNK_FED_MIN_POWER_KWE)
+    if state.power_available_kwe < min_power:
+        return (False, f"electric leg needs power >= {min_power} kWe, have {state.power_available_kwe}")
     chem_isp = params["chemical_isp_s"]
     elec_isp = params["water_met_isp_s"]
     mass_after_chem, chem_burned = rocket_eq(state.mass_kg, KICK_THEN_CHUNK_CHEMICAL_DV_KM_S, chem_isp)

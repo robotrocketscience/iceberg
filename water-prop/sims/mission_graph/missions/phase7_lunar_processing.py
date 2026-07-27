@@ -83,7 +83,9 @@ def lunar_transfer_pre(state: VehicleState, params) -> tuple[bool, str]:
 
 
 def lunar_transfer_exec(state: VehicleState, params) -> VehicleState:
-    isp = WATER_MET_LUNAR_TRANSFER_ISP_S
+    # Propagation-leak fix (R-closure-boundary-inversion): honor the swept
+    # water-MET Isp; default preserves the record 800 s anchor.
+    isp = params.get("water_met_isp_s", WATER_MET_LUNAR_TRANSFER_ISP_S)
     mass_ratio = math.exp(LUNAR_TO_LEO_DV_KM_S / (isp * G0_KM_PER_S2))
     water_arriving_at_leo = state.payload_kg / mass_ratio
     extra_time = LUNAR_TO_LEO_TRANSFER_MONTHS / 12.0 * SECONDS_PER_YEAR

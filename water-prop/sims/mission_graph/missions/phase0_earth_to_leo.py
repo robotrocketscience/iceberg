@@ -31,11 +31,20 @@ from ..framework import Option, Phase, VehicleState
 FALCON_HEAVY_EXPENDED_CAP_KG = 63_800.0
 
 
+def launcher_cap_multiplier(params) -> float:
+    """Sensitivity hook (R-closure-boundary-inversion): scales every encoded
+    launch-capacity cap together. Default 1.0 reproduces the record baseline
+    byte-identically. Values > 1 model heavier launchers / on-orbit refilling
+    (e.g. multiplier 5 reads as a refilled-Starship-class 500 t effective lift)."""
+    return float(params.get("launcher_cap_multiplier", 1.0))
+
+
 def falcon_heavy_pre(state: VehicleState, params) -> tuple[bool, str]:
     if state.location != "pre_launch":
         return (False, f"launch needs to start at pre_launch, got {state.location}")
-    if state.mass_kg > FALCON_HEAVY_EXPENDED_CAP_KG:
-        return (False, f"payload {state.mass_kg:.0f} kg exceeds Falcon Heavy expended cap {FALCON_HEAVY_EXPENDED_CAP_KG:.0f} kg")
+    cap = FALCON_HEAVY_EXPENDED_CAP_KG * launcher_cap_multiplier(params)
+    if state.mass_kg > cap:
+        return (False, f"payload {state.mass_kg:.0f} kg exceeds Falcon Heavy expended cap {cap:.0f} kg")
     return (True, "feasible")
 
 
@@ -64,8 +73,9 @@ STARSHIP_CAP_KG = 100_000.0
 def starship_pre(state: VehicleState, params) -> tuple[bool, str]:
     if state.location != "pre_launch":
         return (False, f"launch needs to start at pre_launch, got {state.location}")
-    if state.mass_kg > STARSHIP_CAP_KG:
-        return (False, f"payload {state.mass_kg:.0f} kg exceeds Starship cap {STARSHIP_CAP_KG:.0f} kg")
+    cap = STARSHIP_CAP_KG * launcher_cap_multiplier(params)
+    if state.mass_kg > cap:
+        return (False, f"payload {state.mass_kg:.0f} kg exceeds Starship cap {cap:.0f} kg")
     return (True, "feasible")
 
 
@@ -108,7 +118,7 @@ def _multi_falcon_pre(n_launches, per_launch_cap_kg):
     def pre(state: VehicleState, params) -> tuple[bool, str]:
         if state.location != "pre_launch":
             return (False, f"launch needs to start at pre_launch, got {state.location}")
-        deliverable = n_launches * per_launch_cap_kg
+        deliverable = n_launches * per_launch_cap_kg * launcher_cap_multiplier(params)
         if state.mass_kg > deliverable:
             return (False, f"payload {state.mass_kg:.0f} kg exceeds {n_launches}-Falcon-Heavy raw deliverable {deliverable:.0f} kg")
         return (True, "feasible")

@@ -158,7 +158,9 @@ def test_good_launch_epoch_passes_all_windows():
     multi-moon gravity-assist capture options were added to Phase 2.
     Then rose to 768 when Venus-Earth gravity assist was added to
     Phase 1b. Then rose to 798 when Earth-GA slowdown + lunar-orbit
-    capture + Phase 7 sub-mission landed."""
+    capture + Phase 7 sub-mission landed. Then rose to 2066 when the
+    kick-stage manifest semantics were corrected a second time (rhea-5
+    R-closing-path-self-consistency, 2026-06-12)."""
     results = walk(saturn_water_v0, _ground_state(), _base_params(0.0))
     feasible = [r for r in results if r.is_feasible]
-    assert len(feasible) == 798
+    assert len(feasible) == 2066

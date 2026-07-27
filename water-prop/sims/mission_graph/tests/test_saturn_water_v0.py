@@ -51,9 +51,14 @@ def test_walk_enumerates_3652_paths():
     Then rose to 2623 when Venus-Earth gravity assist was added to
     Phase 1b. Then rose to 4005 when Earth-GA-slowdown + chemical-
     lunar-orbit-capture (Phase 6) + Phase 7 lunar processing sub-mission
-    were added."""
+    were added. Then rose to 9669 when the kick-stage manifest semantics
+    were corrected a second time (rhea-5 R-closing-path-self-consistency,
+    2026-06-12): the kick now rides the manifest alongside the vehicle, so
+    LIGHT open-loop vehicles legitimately gain kick access (more feasible
+    Phase-1 branches), while heavy vehicles are pruned by the 300 t stack
+    gate."""
     results = walk(saturn_water_v0, _ground_state(), _params())
-    assert len(results) == 4005
+    assert len(results) == 9669
 
 
 def test_falcon_heavy_blocked_at_phase0_with_heavy_payload():
@@ -73,10 +78,13 @@ def test_many_paths_reach_depot():
     multi-moon gravity-assist capture options were added to Phase 2.
     Then rose to 768 when Venus-Earth gravity assist was added to
     Phase 1b. Then rose to 798 when Earth-GA slowdown + lunar-orbit
-    capture + Phase 7 sub-mission landed."""
+    capture + Phase 7 sub-mission landed. Then rose to 2066 when the
+    kick-stage manifest semantics were corrected a second time (rhea-5
+    R-closing-path-self-consistency, 2026-06-12; light open-loop vehicles
+    legitimately gain kick access)."""
     results = walk(saturn_water_v0, _ground_state(), _params())
     feasible = [r for r in results if r.is_feasible]
-    assert len(feasible) == 798
+    assert len(feasible) == 2066
     for r in feasible:
         assert r.leaf_state.location == "LEO_depot"
 

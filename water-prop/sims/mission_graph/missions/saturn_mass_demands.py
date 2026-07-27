@@ -49,6 +49,8 @@ KEY_TPS = "aerocapture_tps"
 KEY_STRUCTURE = "primary_structure"
 KEY_COMMS = "comms_guidance_computer"
 KEY_TANKAGE = "tankage"
+KEY_ISRU_PLANT = "electrolysis_isru_plant"
+KEY_CRYO_TANKAGE = "electrolysis_cryo_tankage"
 
 
 @dataclass(frozen=True)
@@ -77,6 +79,14 @@ class MassContext:
     entry_v_km_s: float = 11.0                     # Earth-arrival worst case for TPS sizing
 
     comms_floor_kg: float = 2000.0
+
+    # saturn_water_v2 electrolysis departure stage (R-saturn-water-v2-
+    # electrolysis-departure). Defaults keep v1 byte-identical.
+    electrolysis_stage: bool = False
+    electrolysis_plant_kg_per_kwe: float = 20.0    # PEM stack + liquefier, first-pass
+    electrolysis_cryo_tank_fraction: float = 0.06  # composite H2+O2 cryo tankage
+    electrolysis_tei_dv_km_s: float = 8.51         # Oberth periapsis anchor
+    electrolysis_isp_s: float = 450.0              # LH2/LOX vacuum class
 
 
 # -------------------------------------------------------------------- #
@@ -164,12 +174,25 @@ def make_saturn_demand_fn(ctx: MassContext) -> DemandFn:
         KEY_STRUCTURE: structure_demand_kg(ctx),
         KEY_COMMS: comms_demand_kg(ctx),
     }
+    if ctx.electrolysis_stage:
+        # ISRU plant (electrolyzer + liquefier) scales with electrical power.
+        fixed[KEY_ISRU_PLANT] = ctx.electrolysis_plant_kg_per_kwe * ctx.power_available_kwe
 
     def demand_fn(dry_mass_kg: float) -> Dict[str, float]:
         # propellant = f/(1-f) * dry at launch (payload = 0)
         propellant = (f / (1.0 - f)) * dry_mass_kg
         out = dict(fixed)
         out[KEY_TANKAGE] = tankage_demand_kg(propellant)
+        if ctx.electrolysis_stage:
+            # Cryo tankage sized to the P4 propellant estimate: an impulsive
+            # burn of the departure stack (trial dry + chunk) at the stage
+            # delta-v and Isp. Dry-dependent, so it joins the fixed point.
+            import math
+            f_burn = 1.0 - math.exp(
+                -ctx.electrolysis_tei_dv_km_s * 1000.0
+                / (9.81 * ctx.electrolysis_isp_s))
+            p4_propellant = f_burn * (dry_mass_kg + ctx.chunk_mass_kg)
+            out[KEY_CRYO_TANKAGE] = ctx.electrolysis_cryo_tank_fraction * p4_propellant
         return out
 
     return demand_fn

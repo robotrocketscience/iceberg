@@ -79,53 +79,20 @@ def test_low_thrust_blocked_at_5N_thrust_per_burn_time_constraint():
     assert "burn time" in low_thrust[0].infeasible_reason
 
 
-def test_star_kick_stage_feasible_with_correct_launch_manifest_split():
-    """Star kick stage burns its OWN propellant at 286 s specific impulse,
-    sized into the launch manifest. To be feasible the launch manifest must
-    have a dry envelope (mass - vehicle propellant - payload) large enough
-    to fit kick_dry (2.1 t) + computed kick propellant (~55 t for a 90 t
-    stack pushing 2.5 km/s). Vehicle propellant must then cover the 4.8 km/s
-    residual at 340 s on the post-kick mass.
+def test_kick_stage_feasible_when_stack_fits_and_tank_covers_residual():
+    """Self-consistent kick semantics (second correction, rhea-5
+    R-closing-path-self-consistency 2026-06-12): the kick rides the manifest
+    ALONGSIDE the vehicle and pushes itself plus the vehicle; the vehicle's
+    own mass is untouched by the kick burn.
 
-    At 90 t manifest with 30 t vehicle propellant, dry envelope = 60 t.
-    Kick propellant ~ 53.1 t -> kick wet ~ 55.2 t (fits). Post-kick mass
-    ~34.8 t. Residual 4.8 km/s at 340 s needs ~26.5 t propellant, available
-    in the 30 t vehicle tank. Leaf vehicle mass ~8.3 t.
+    40 t wet vehicle / 26 t propellant + Helios: stack = 40 + 5 + ~110 t kick
+    propellant ~ 155 t <= 300 t manifest gate; residual 3.3 km/s at 340 s
+    needs ~25.1 t <= 26 t tank. Feasible; leaf mass is set by the residual
+    burn ONLY (~14.9 t) — kick wet mass is never subtracted from the vehicle.
     """
     params = {"chemical_isp_s": 340.0, "electric_isp_s": 3000.0, "electric_thrust_n": 5.0}
-    # 90 t manifest, 30 t vehicle propellant, 60 t dry envelope -> Star fits.
-    state_with_kick = VehicleState(
-        mass_kg=90_000.0, propellant_kg=30_000.0, payload_kg=0.0,
-        location="LEO", v_inf_km_s=0.0, time_elapsed_s=0.0,
-        epoch_jd=0.0, power_available_kwe=30.0,
-    )
-    results = walk(
-        Mission(
-            mission_id="m", objective="x",
-            phase_sequence=(phase1,), closure_predicates=(),
-        ),
-        state_with_kick, params,
-    )
-    star = [r for r in results if "falcon_heavy_plus_star_kick" in r.path_label]
-    assert star[0].is_feasible, f"expected feasible, got {star[0].infeasible_reason}"
-    assert star[0].leaf_state.location == "saturn_approach"
-    # Vehicle propellant decremented by residual burn only (~26.5 t of 30 t).
-    assert star[0].leaf_state.propellant_kg < state_with_kick.propellant_kg
-    # Leaf vehicle mass roughly 8-9 t (post-kick mass minus residual burn).
-    assert 6_000 < star[0].leaf_state.mass_kg < 12_000
-
-
-def test_kick_stage_infeasible_when_dry_envelope_too_small():
-    """Star kick wet (~55 t for 90 t stack) cannot fit in a 10 t dry envelope.
-    Verify the precondition rejects with a 'kick wet exceeds dry envelope'
-    reason. This is the bug-fix counterexample: under the OLD model, this
-    config would have been feasible (kick was treated as free delta-v).
-    """
-    params = {"chemical_isp_s": 340.0, "electric_isp_s": 3000.0, "electric_thrust_n": 5.0}
-    # 90 t manifest with 80 t vehicle propellant -> dry envelope only 10 t.
-    # Star kick wet ~55 t. Precondition must reject.
     state = VehicleState(
-        mass_kg=90_000.0, propellant_kg=80_000.0, payload_kg=0.0,
+        mass_kg=40_000.0, propellant_kg=26_000.0, payload_kg=0.0,
         location="LEO", v_inf_km_s=0.0, time_elapsed_s=0.0,
         epoch_jd=0.0, power_available_kwe=30.0,
     )
@@ -136,25 +103,50 @@ def test_kick_stage_infeasible_when_dry_envelope_too_small():
         ),
         state, params,
     )
-    star = next(r for r in results if "falcon_heavy_plus_star_kick" in r.path_label)
-    assert not star.is_feasible
-    assert "exceeds dry envelope" in star.infeasible_reason
+    helios = next(r for r in results if "falcon_heavy_plus_helios_kick" in r.path_label)
+    assert helios.is_feasible, f"expected feasible, got {helios.infeasible_reason}"
+    assert helios.leaf_state.location == "saturn_approach"
+    # Vehicle propellant decremented by the residual burn only (~25.1 t of 26 t).
+    assert helios.leaf_state.propellant_kg < state.propellant_kg
+    # Leaf mass = wet minus residual burn (~14.9 t).
+    assert 13_000 < helios.leaf_state.mass_kg < 16_000
 
 
-def test_helios_needs_larger_dry_envelope_than_star():
-    """Helios kick at 4 km/s and 330 s specific impulse needs more kick
-    propellant than Star (despite higher specific impulse, the larger
-    delta-v dominates). The kick wet mass is larger, so Helios needs a
-    larger dry envelope to be feasible at any given launch manifest.
-
-    At 90 t manifest with 30 t vehicle propellant (60 t dry envelope):
-      Star kick wet ~ 55 t (fits)
-      Helios kick wet ~ 69 t (does NOT fit)
-    Verify Star is feasible and Helios is rejected with kick-wet-exceeds.
+def test_kick_stage_infeasible_when_stack_exceeds_manifest():
+    """A 200 t vehicle needs ~500 t of Helios kick propellant; the ~705 t
+    stack exceeds even the most permissive 300 t manifest. This is the
+    fidelity-round closing-cell counterexample: under the OLD
+    (dry-envelope-carving) model this family was feasible because the kick
+    was carved out of the vehicle's own derived hardware mass.
     """
     params = {"chemical_isp_s": 340.0, "electric_isp_s": 3000.0, "electric_thrust_n": 5.0}
     state = VehicleState(
-        mass_kg=90_000.0, propellant_kg=30_000.0, payload_kg=0.0,
+        mass_kg=200_000.0, propellant_kg=40_000.0, payload_kg=0.0,
+        location="LEO", v_inf_km_s=0.0, time_elapsed_s=0.0,
+        epoch_jd=0.0, power_available_kwe=30.0,
+    )
+    results = walk(
+        Mission(
+            mission_id="m", objective="x",
+            phase_sequence=(phase1,), closure_predicates=(),
+        ),
+        state, params,
+    )
+    for kick in ("falcon_heavy_plus_star_kick", "falcon_heavy_plus_helios_kick"):
+        r = next(x for x in results if kick in x.path_label)
+        assert not r.is_feasible
+        assert "exceeds most-permissive launch manifest" in r.infeasible_reason
+
+
+def test_bigger_kick_trades_stack_mass_for_vehicle_propellant():
+    """Helios (4 km/s) leaves a smaller residual than Star (2.5 km/s), so a
+    propellant-tight vehicle can be Helios-feasible while Star-infeasible —
+    even though the Helios stack is heavier. 40 t wet / 26 t propellant:
+    Star residual 4.8 km/s needs ~30.5 t (> 26 t tank, rejected); Helios
+    residual 3.3 km/s needs ~25.1 t (fits)."""
+    params = {"chemical_isp_s": 340.0, "electric_isp_s": 3000.0, "electric_thrust_n": 5.0}
+    state = VehicleState(
+        mass_kg=40_000.0, propellant_kg=26_000.0, payload_kg=0.0,
         location="LEO", v_inf_km_s=0.0, time_elapsed_s=0.0,
         epoch_jd=0.0, power_available_kwe=30.0,
     )
@@ -167,9 +159,9 @@ def test_helios_needs_larger_dry_envelope_than_star():
     )
     star = next(r for r in results if "falcon_heavy_plus_star_kick" in r.path_label)
     helios = next(r for r in results if "falcon_heavy_plus_helios_kick" in r.path_label)
-    assert star.is_feasible
-    assert not helios.is_feasible
-    assert "exceeds dry envelope" in helios.infeasible_reason
+    assert helios.is_feasible
+    assert not star.is_feasible
+    assert "not enough vehicle chemical propellant" in star.infeasible_reason
 
 
 def test_kick_stage_rejects_non_LEO_start():

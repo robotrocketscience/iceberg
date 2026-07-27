@@ -219,8 +219,9 @@ def lt_capture_pre(state: VehicleState, params) -> tuple[bool, str]:
         return (False, f"Earth arrival needs to start at earth_approach, got {state.location}")
     if state.v_inf_km_s > LT_CAPTURE_MAX_VINF_KM_S:
         return (False, f"low-thrust spiral capture needs v_inf <= {LT_CAPTURE_MAX_VINF_KM_S} km/s, got {state.v_inf_km_s:.2f}")
-    if state.power_available_kwe < LT_CAPTURE_MIN_POWER_KWE:
-        return (False, f"low-thrust capture needs power >= {LT_CAPTURE_MIN_POWER_KWE} kWe, have {state.power_available_kwe}")
+    min_power = params.get("lt_capture_min_power_kwe", LT_CAPTURE_MIN_POWER_KWE)
+    if state.power_available_kwe < min_power:
+        return (False, f"low-thrust capture needs power >= {min_power} kWe, have {state.power_available_kwe}")
     isp = params["water_met_isp_s"]
     _, required = rocket_eq(state.mass_kg, LT_CAPTURE_DV_KM_S, isp)
     if state.payload_kg < required:
