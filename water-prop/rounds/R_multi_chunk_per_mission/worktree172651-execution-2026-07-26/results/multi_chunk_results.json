@@ -1,0 +1,71 @@
+{
+ "H-M1_rendezvous": {
+  "da_10km": {
+   "dv_m_s": 1.95,
+   "t_phase_worst_days": 1244.7
+  },
+  "da_100km": {
+   "dv_m_s": 19.48,
+   "t_phase_worst_days": 124.5
+  },
+  "da_1000km": {
+   "dv_m_s": 194.76,
+   "t_phase_worst_days": 12.4
+  }
+ },
+ "H-M2_reliability": {
+  "p0.961_N1": 0.961,
+  "p0.961_N2": 0.924,
+  "p0.961_N3": 0.888,
+  "p0.961_N5": 0.82,
+  "p0.549_N1": 0.549,
+  "p0.549_N2": 0.301,
+  "p0.549_N3": 0.165,
+  "p0.549_N5": 0.05
+ },
+ "H-M3_containment_ceiling_gain": {
+  "N2": 1.122,
+  "N3": 1.201,
+  "N5": 1.308
+ },
+ "H-M4_despin": {
+  "slow_0.05rpm_400t_impulse_Ns": 3854.0,
+  "fast_0.28rpm_400t_impulse_Ns": 21581.0,
+  "note": "impulse at 340 s Isp => propellant kg = impulse/(Isp*g0)",
+  "slow_prop_kg_at_340s": 1.2,
+  "fast_prop_kg_at_340s": 6.5
+ },
+ "H-M5_corridor_with_overheads": {
+  "500t_150kwe": {
+   "n_chunks": 2,
+   "no_overhead": {
+    "delivered_t": 32.2,
+    "round_trip_yr_incl_ops": 20.8,
+    "within_25yr_waiver": true
+   },
+   "with_overhead": {
+    "delivered_t": 31.7,
+    "round_trip_yr_incl_ops": 21.1,
+    "within_25yr_waiver": true
+   }
+  },
+  "1000t_200kwe": {
+   "n_chunks": 3,
+   "no_overhead": {
+    "delivered_t": 88.8,
+    "round_trip_yr_incl_ops": 18.2,
+    "within_25yr_waiver": true
+   },
+   "with_overhead": {
+    "delivered_t": 87.8,
+    "round_trip_yr_incl_ops": 18.7,
+    "within_25yr_waiver": true
+   }
+  },
+  "2000t_500kwe": {
+   "n_chunks": 5,
+   "no_overhead": null,
+   "with_overhead": null
+  }
+ }
+}

@@ -1,0 +1,15 @@
+Multi-chunk overhead-charged corridor cell (N=3, bus+1.05t): 200 kWe / 1,000 t aggregate / x16
+path: P0_Earth_to_LEO.multi_falcon_2_launch.f77d50 -> P0b_assembly.autonomous_assembly.f77d50 -> P1_LEO_to_Saturn.falcon_heavy_plus_helios_kick.f77d50 -> P1b_cruise_ops.ballistic_coast.f77d50 -> P2_Saturn_capture.fg_gap_periapsis_capture.f77d50 -> P3_chunk_acquisition.single_pass_trawl.f77d50 -> P4_Saturn_departure.electrolysis_kick_departure.f77d50 -> P5_inbound_cruise_ops.inbound_jupiter_gravity_assist.f77d50 -> P6_Earth_arrival.lunar_gravity_assist_capture.f77d50 -> P7_lunar_processing.passthrough_already_at_leo.f77d50
+  phase.option                                              mass_t   prop_t payload_t    yrs
+  LAUNCH (derived wet)                                      1507.0   1205.6       0.0   0.00
+  P0_Earth_to_LEO.multi_falcon_2_launch                     1507.0   1205.6       0.0   0.16
+  P0b_assembly.autonomous_assembly                          1326.2   1061.0       0.0   0.41
+  P1_LEO_to_Saturn.falcon_heavy_plus_helios_kick             493.1    227.8       0.0   6.91
+  P1b_cruise_ops.ballistic_coast                             493.1    227.8       0.0   6.91
+  P2_Saturn_capture.fg_gap_periapsis_capture                 382.2    116.9       0.0   7.41
+  P3_chunk_acquisition.single_pass_trawl                    1232.1    116.9     850.0   7.45
+  P4_Saturn_departure.electrolysis_kick_departure            469.9    116.9      87.8  16.86
+  P5_inbound_cruise_ops.inbound_jupiter_gravity_assist       449.3     96.2      87.8  17.86
+  P6_Earth_arrival.lunar_gravity_assist_capture              356.9      3.8      87.8  18.24
+  P7_lunar_processing.passthrough_already_at_leo             356.9      3.8      87.8  18.24
+DELIVERED: 87.84 t; walker round trip 18.2 yr + 0.5 yr multi-chunk ops = 18.7 yr
