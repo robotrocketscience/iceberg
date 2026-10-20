@@ -1,73 +1,69 @@
 # Project ICEBERG
 
-Project ICEBERG is a mission-concept study of harvesting multi-tonne water-ice chunks from Saturn's B ring and delivering them to Earth orbit as propellant feedstock. The chunk is also the return-leg propellant tank: the tug consumes its own cargo on the way home, feeding a water microwave-electrothermal thruster through a sublimation-capture trawl bag.
+Project ICEBERG is a paper study of harvesting multi-tonne water-ice chunks from Saturn's B ring for propellant in Earth orbit. The study has no hardware and no booked flight. The harvested chunk is also the return-leg propellant tank: the tug feeds its own cargo to a water microwave-electrothermal thruster through a sublimation-capture trawl bag.
 
-The physics of a commercial Saturn water round trip does not close on any technology in flight today. The one corridor that closes it on paper takes three unproven technology bets at once, and the financial model, built after fourteen months as an open dependency, comes back negative everywhere on that corridor. This is a paper study with no hardware and no booked flight, run as a 215-round adversarial analysis campaign. This repository documents the verdict and the campaign that produced it.
+A 215-round adversarial analysis campaign found that no commercial round trip closes on technology in flight today. The only corridor that closes on paper needs ring-chunk capture, continuous propulsion on ring-sourced water, and a flight fission reactor at once. Each is an unproven technology. The financial model, left as an open dependency for fourteen months, is negative everywhere on that corridor ([full write-up](https://www.robotrocketscience.com/projects/iceberg/)).
 
-![Mission flight plan: ten phases, one bought chemical burn; every other maneuver is water-electrothermal or a free lunar gravity assist](plots/01a_flightplan.png)
-
-The architecture, the method, the graveyard of killed claims, and the hardening of the verdict are written up at [robotrocketscience.com/projects/iceberg](https://www.robotrocketscience.com/projects/iceberg/).
+![Flight plan: ten phases, one bought chemical burn; every other maneuver is water-electrothermal or a free lunar gravity assist](plots/01a_flightplan.png)
 
 ## Campaign verdict (2026-07)
 
-The early campaign swept architectures with the vehicle's dry mass as a free parameter and found thousands of conditionally-closing paths. The current mission-graph code closes the loop: vehicle mass is derived from what the vehicle carries, a conserved mass ledger is walked through every burn and jettison, and the power available in each phase must match the powerplant on board. Under that bookkeeping, the record-technology sweep enumerates 1,744 end-to-end mission paths and **zero of them complete the round trip**. The result holds for every flyable power class, at any delivery floor from 0.5 to 25 tonnes and any mission ceiling out to 35 years. Relaxing the ground rules does not help ([R_l0_relaxation_envelope](water-prop/rounds/R_l0_relaxation_envelope/)). No single performance parameter fixes it at any value, whether specific impulse, reactor power, dry-mass fraction, launcher capacity, or capture scale ([R_closure_boundary_inversion](water-prop/rounds/R_closure_boundary_inversion/)). Closure requires at least three levers moving at once.
+None of the 1,744 record-technology paths completes the round trip at any flyable power class, with delivery floors of 0.5-25 tonnes and mission ceilings up to 35 years. The closed-loop code derives vehicle mass from its contents and conserves mass through every burn and jettison. Each phase's power must match the onboard powerplant. Early rounds left dry mass free and found thousands of conditionally closing paths. Relaxed ground rules do not help ([R_l0_relaxation_envelope](water-prop/rounds/R_l0_relaxation_envelope/)). No single parameter closes it at any value, whether specific impulse, reactor power, dry-mass fraction, launcher capacity, or capture scale ([R_closure_boundary_inversion](water-prop/rounds/R_closure_boundary_inversion/)). Closure requires changing at least three parameters at once.
 
-Two corridors looked like they might close. The electric-return family died under direct integration. It had been priced at a 9.0 km/s Saturn departure, but a low-thrust spiral cannot buy the Oberth discount an impulsive burn gets, and the honest cost at flyable electric thrust is 22.5–24.2 km/s ([R_departure_anchor_resolution](water-prop/rounds/R_departure_anchor_resolution/)).
+Electric-return paths fail under direct integration. They assumed a 9.0 km/s Saturn departure, but a low-thrust spiral gets no Oberth discount and costs 22.5-24.2 km/s at flyable electric thrust ([R_departure_anchor_resolution](water-prop/rounds/R_departure_anchor_resolution/)).
 
-![Delta-v to leave Saturn versus thrust acceleration: the spiral cost falls from 24 km/s at low thrust toward the 8.6 km/s impulsive value only near 1 m/s2, far beyond flyable electric thrust](plots/18_departure_anchor.png)
+![Saturn departure delta-v versus thrust acceleration: spiral cost falls from 24 km/s and nears the 8.6 km/s impulsive value only at about 1 m/s2, which no flyable electric thruster reaches](plots/18_departure_anchor.png)
 
-The surviving corridor electrolyzes part of the harvested water into hydrogen and oxygen and burns it through a nuclear-thermal-class engine at 750–900 seconds of specific impulse ([R_saturn_water_v2_electrolysis_departure](water-prop/rounds/R_saturn_water_v2_electrolysis_departure/)). It needs:
+The surviving corridor electrolyzes some harvested water into hydrogen and oxygen for a nuclear-thermal-class engine at 750-900 s specific impulse ([R_saturn_water_v2_electrolysis_departure](water-prop/rounds/R_saturn_water_v2_electrolysis_departure/)). It needs:
 
-- 500–1,000 tonnes of harvested ice per mission, which is two to three chunk captures ([R_multi_chunk_per_mission](water-prop/rounds/R_multi_chunk_per_mission/))
-- a 150–200 kilowatt-electric reactor
-- roughly 875–1,140 tonnes of launch mass in low Earth orbit ([R_per_phase_propellant_fidelity](water-prop/rounds/R_per_phase_propellant_fidelity/))
+- 500-1,000 tonnes of ice per mission from two or three chunk captures ([R_multi_chunk_per_mission](water-prop/rounds/R_multi_chunk_per_mission/))
+- a 150-200 kilowatt-electric reactor
+- about 875-1,140 tonnes of launch mass in low Earth orbit ([R_per_phase_propellant_fidelity](water-prop/rounds/R_per_phase_propellant_fidelity/))
 - a 25-year mission waiver
 
-It delivers 32 to 88 tonnes of water. The corridor is an existence proof of what closure would take and is not a design: every element of it is at low technology readiness. Once the plan has more than one chunk, per-capture reliability of 95 percent or better becomes the binding requirement.
+Delivery is 32 to 88 tonnes of water. The corridor shows what closure would take and is not a design; every element is at low technology readiness.
 
-![The surviving corridor: two cells, 31.7 tonnes delivered for 875 tonnes of lift and 87.8 tonnes for 1,141 tonnes of lift; the electric family closes nowhere and the 209-tonne sovereign delivery class is unreachable](plots/19_corridor_map.png)
+![Corridor map: 31.7 t delivered for 875 t of lift and 87.8 t for 1,141 t; no electric case closes and the 209-tonne sovereign class is unreachable](plots/19_corridor_map.png)
 
-![Joint capture success probability versus chunks per mission: at 96.1 percent per capture the three-chunk mission holds 0.89; at the un-optimized 54.9 percent prior it collapses to 0.30 by two chunks](plots/21_capture_reliability.png)
+![Joint capture success by chunks per mission: 0.89 for three at 96.1 percent per capture, 0.30 for two at the un-optimized 54.9 percent prior](plots/21_capture_reliability.png)
 
-The financial model settles the question the engineering left open ([R_corridor_financial_model](water-prop/rounds/R_corridor_financial_model/)). At the cheapest conceivable inputs (mature Starship launch at $100 per kilogram, a $0.5 billion marginal vehicle, an undiscounted dollar), the corridor's breakeven is $15,513 per delivered kilogram, 3.1 times the top defensible bulk price band. At a sovereign 3 percent discount rate it is $26,176. Delivered-water prices track falling launch costs down at roughly 13 percent per year. By the 19-to-21-year delivery date, every price band has decayed one to two orders of magnitude below breakeven, in a market whose anchored demand is 40–60 tonnes per year.
+The financial model ([R_corridor_financial_model](water-prop/rounds/R_corridor_financial_model/)) puts breakeven at $15,513 per delivered kilogram at the cheapest conceivable inputs ($100-per-kilogram mature Starship launch, $0.5 billion marginal vehicle, no discounting). That is 3.1 times the top defensible bulk price band. A 3 percent sovereign discount rate raises it to $26,176. Anchored demand is 40-60 tonnes per year. Prices fall about 13 percent a year with launch costs. By delivery in year 19 to 21, every price band is one to two orders of magnitude below breakeven.
 
-![Breakeven price versus decaying market price bands over the mission timeline: every band crosses far below the 15,513 dollar breakeven line years before the delivery window](plots/20_breakeven_race.png)
+![Breakeven versus decaying price bands: every band falls far below $15,513 years before delivery](plots/20_breakeven_race.png)
 
-These lines of work survive the negative verdict:
+Work still worth doing:
 
-- The demonstrator-track bench program: porous-ice penetration, capture-cinch mechanism reliability, and a new item, measuring the number density of hundred-tonne-class chunks in the ring, which no instrument has done.
-- Sovereign or science-program framings that are valued on non-commercial grounds.
-- A near-Earth-asteroid successor study that closes its mass loop on solar power where Saturn cannot ([R_near_earth_asteroid_mission_tree](water-prop/rounds/R_near_earth_asteroid_mission_tree/)).
+- demonstrator-track bench tests of porous-ice penetration and capture-cinch reliability, and a measurement of hundred-tonne-class chunk number density in the ring, which no instrument has made
+- sovereign or science cases valued on non-commercial grounds
+- a near-Earth-asteroid successor study, which closes its mass loop on solar power where Saturn cannot ([R_near_earth_asteroid_mission_tree](water-prop/rounds/R_near_earth_asteroid_mission_tree/))
 
 ## Engineering bets
 
-The mid-campaign verdict reduced closure to three engineering bets. All of them still stand, and the surviving corridor stacks them:
+The mid-campaign verdict reduced closure to these bets. None has been retired since.
 
-1. Active chunk capture at scale. Nobody has actively captured a multi-tonne ring particle, and the multi-chunk corridor requires it two or three times per mission at 95 percent-plus reliability each.
-2. Continuous water-fed propulsion on ring-sourced water. Lab thrusters reach the 700–900-second band in pulses on clean water. The corridor moves the burden to an electrolysis plant and nuclear-thermal burn, which trades one unflown propulsion mode for another.
-3. A flight fission reactor on program schedule. The United States has flown one, in 1965, and cancelled six programs since. The corridor needs 150–200 kilowatts electric.
-
-The financial rounds added what is effectively a fourth, economic bet and settled it in the negative: the market the mission would sell into decays faster than the mission can fly.
+- Active capture of multi-tonne ring chunks at scale. No one has done it, and the corridor needs two or three captures per mission. With more than one chunk, per-capture reliability of 95 percent or better is the binding requirement.
+- Continuous propulsion on ring-sourced water. Lab thrusters reach 700-900 s in pulses on clean water. The corridor trades this for another unflown propulsion mode: an electrolysis plant and nuclear-thermal burn.
+- A flight fission reactor on program schedule. The United States flew one in 1965 and has cancelled six programs since.
 
 ## Repository contents
 
 | Path | Contents |
 |---|---|
-| [`ICEBERG-conops.md`](ICEBERG-conops.md) | Working concept of operations. Full math, costed mission breakdown, trawl-bag engineering treatment, economics, risk. |
-| [`ICEBERG-pitch.md`](ICEBERG-pitch.md) | Executive-summary discussion draft, kept with its audit scars and current-status addendum. |
-| [`ICEBERG-demand.md`](ICEBERG-demand.md) | Bottoms-up demand build per buyer, alternative-cost stacks, willingness-to-pay curves, lunar-resource crossover model. |
-| [`ICEBERG-bag-engineering.md`](ICEBERG-bag-engineering.md) | Trawl-bag companion: particle cull sizing, permeability aging, stationkeeping delta-v during fill. |
-| [`saturn-water-isru-sketch.md`](saturn-water-isru-sketch.md) | The original back-of-envelope sketch the architecture evolved from. |
+| [`ICEBERG-conops.md`](ICEBERG-conops.md) | Working concept of operations: math, costed mission breakdown, trawl-bag engineering, economics, risk. |
+| [`ICEBERG-pitch.md`](ICEBERG-pitch.md) | Executive-summary draft with audit history and current-status addendum. |
+| [`ICEBERG-demand.md`](ICEBERG-demand.md) | Per-buyer demand, alternative-cost stacks, willingness-to-pay curves, lunar-resource crossover model. |
+| [`ICEBERG-bag-engineering.md`](ICEBERG-bag-engineering.md) | Particle cull sizing, permeability aging, stationkeeping delta-v during fill. |
+| [`saturn-water-isru-sketch.md`](saturn-water-isru-sketch.md) | Original back-of-envelope sketch. |
 | [`REQUIREMENTS.md`](REQUIREMENTS.md) / [`REQUIREMENTS-L1.md`](REQUIREMENTS-L1.md) | Level-0 and Level-1 requirements with a variance log. |
 | [`RISKS.md`](RISKS.md) | Risk register. |
 | [`TRADE-end-of-mission-conops.md`](TRADE-end-of-mission-conops.md) | End-of-mission disposal trade study. |
-| [`design-axes/`](design-axes/) | 22 architecture-decision-record files, one per design axis, with append-only history. |
-| [`water-prop/`](water-prop/) | The analysis campaign: 215 rounds under `rounds/`, each with a pre-registered study document and a runnable `run.py`; reusable physics models under `src/waterprop/`; the closed-loop mission-graph code under `sims/mission_graph/` (179 tests). |
-| [`plots/`](plots/), `*.py` at root | Concept-of-operations plots and the scripts that generate them. The corridor-era figures regenerate from [`water-prop/scripts/plot_corridor_figures.py`](water-prop/scripts/plot_corridor_figures.py). |
+| [`design-axes/`](design-axes/) | 22 architecture-decision records, one per design axis, append-only. |
+| [`water-prop/`](water-prop/) | 215 analysis rounds under `rounds/`, each with a pre-registered study and a runnable `run.py`; physics models in `src/waterprop/`; closed-loop mission-graph code in `sims/mission_graph/` (179 tests). |
+| [`plots/`](plots/), `*.py` at root | Plots and their scripts. Corridor-era figures regenerate from [`water-prop/scripts/plot_corridor_figures.py`](water-prop/scripts/plot_corridor_figures.py). |
 
 ## Reproduce the analysis
 
-The campaign code is Python, managed with [uv](https://docs.astral.sh/uv/).
+The campaign code is Python managed with [uv](https://docs.astral.sh/uv/).
 
 ```bash
 cd water-prop
@@ -77,20 +73,16 @@ PYTHONPATH=src:sims uv run pytest sims/mission_graph/tests/   # closed-loop fram
 uv run python rounds/R_closure_boundary_inversion/boundary_sweep.py   # or any other round
 ```
 
-The root-level scripts (`saturn_isru_boe.py`, `saturn_rendezvous_sim.py`, `generate_conops_plots.py`) need numpy, scipy, and matplotlib, and regenerate the plots in `plots/`.
-
-A few rounds' large sweep outputs (multi-megabyte JSON) are excluded from the repository. Each regenerates from its round's `run.py`.
+The root-level scripts (`saturn_isru_boe.py`, `saturn_rendezvous_sim.py`, `generate_conops_plots.py`) regenerate `plots/` and need numpy, scipy, and matplotlib. A few rounds' multi-megabyte JSON sweep outputs are excluded; each regenerates from its round's `run.py`.
 
 ## Method
 
-The campaign runs on a pre-registered protocol ([`water-prop/PROTOCOL.md`](water-prop/PROTOCOL.md)). Each round states its hypotheses and falsification criteria in a SCOPE or STUDY document before the run, results land unedited, and retractions are recorded instead of erased.
+Each round pre-registers hypotheses and falsification criteria ([`water-prop/PROTOCOL.md`](water-prop/PROTOCOL.md)); results stay unedited and retractions are recorded. [R_per_phase_propellant_fidelity](water-prop/rounds/R_per_phase_propellant_fidelity/) retracts a headline claim by the orchestrating agent, and [R_closing_path_self_consistency](water-prop/rounds/R_closing_path_self_consistency/) reverses a closure result caused by a simulation bug. A new closure claim needs a hand-checkable mass ledger before citation.
 
-The final stretch turns the protocol on the campaign itself. One round uses data to retract one of the orchestrating agent's own headline claims ([R_per_phase_propellant_fidelity](water-prop/rounds/R_per_phase_propellant_fidelity/)). Another traces a closure revival to a simulation bug and reverses it ([R_closing_path_self_consistency](water-prop/rounds/R_closing_path_self_consistency/)). A standing rule requires any newly claimed closure surface to ship a hand-checkable mass-ledger walk before it may be cited.
-
-AI research agents (Claude) carried out the work in parallel orchestrated sessions. Human direction set the questions, locked ground-truth findings, and killed assumptions that failed audit. Round documents attribute work to session codenames (titan, rhea, phoebe, and other Saturn moons).
+AI research agents (Claude) did the work in parallel orchestrated sessions. Human direction set the questions, locked ground-truth findings, and dropped assumptions that failed audit. Round documents name sessions by Saturn-moon codenames (titan, rhea, phoebe, and others).
 
 ## Excluded material
 
-Some round documents cite internal working files: a session log, a planning registry, a business-planning thread (`startup/`), and orchestration protocols. Those files stay in the private working repository, which remains active. The citations are left intact instead of rewritten so the paper trail stays honest. This repository is a curated snapshot with fresh history.
+Some round documents cite files in the active private repository: a session log, a planning registry, a business-planning thread (`startup/`) and orchestration protocols. Citations stay unedited to keep the paper trail honest. This repository is a curated snapshot with fresh history.
 
 MIT licensed.
